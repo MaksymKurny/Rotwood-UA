@@ -6,13 +6,13 @@ msgstr ""
 "X-Crowdin-Project: rotwood-ua\n"
 "X-Crowdin-Project-ID: 677142\n"
 "X-Crowdin-Language: uk\n"
-"X-Crowdin-File: strings.pot\n"
-"X-Crowdin-File-ID: 14\n"
+"X-Crowdin-File: /main/strings.pot\n"
+"X-Crowdin-File-ID: 22\n"
 "Project-Id-Version: rotwood-ua\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-07-25 08:53\n"
+"PO-Revision-Date: 2024-07-25 09:43\n"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -2633,14 +2633,20 @@ msgid "agent:\n"
 " <z 0.8>Quee?</z>\n"
 " !angry\n"
 " <z 0.8><#RED>Quaw, Queep Queep</> quaw!</z>"
-msgstr ""
+msgstr "agent:\n"
+" !dubious\n"
+" <z 0.8>кві?</z>\n"
+" !angry\n"
+" <z 0.8><#RED>Кву, квіп квіп</> кву!</z>"
 
 #: Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.ANSWER_END
 msgctxt "Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.ANSWER_END"
 msgid "agent:\n"
 " !gruffnod\n"
 " <z 0.8>Quawk kwee quaw.</z>"
-msgstr ""
+msgstr "agent:\n"
+" !gruffnod\n"
+" <z 0.8>Квук кві кву.</z>"
 
 #: Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.ANSWER_END_ALT
 msgctxt "Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.ANSWER_END_ALT"
@@ -2649,7 +2655,11 @@ msgid "agent:\n"
 " <z 0.8>Squet?</z>\n"
 " !laugh\n"
 " <z 0.8>Caa-caa-caa-caa!</z>"
-msgstr ""
+msgstr "agent:\n"
+" !dubious\n"
+" <z 0.8>Скет?</z>\n"
+" !laugh\n"
+" <z 0.8>Каа-каа-каа-каа!</z>"
 
 #: Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.END_GENERIC
 msgctxt "Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.END_GENERIC"
@@ -2692,7 +2702,11 @@ msgid "agent:\n"
 " <z 0.8>Queep quaw.</z>\n"
 " !eyeroll\n"
 " <z 0.8>Quaw, <#RED>Quaw Kwee Kwee</> queep.</z>"
-msgstr ""
+msgstr "agent:\n"
+"!gruffnod\n"
+"<z 0.8>Квіп ква.</z>\n"
+"!eyeroll\n"
+" <z 0.8>Кву, <#RED>Кву Кві Кві</> квіп.</z>"
 
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.ANSWER_2B
 msgctxt "Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.ANSWER_2B"
@@ -2710,7 +2724,11 @@ msgid "agent:\n"
 " <z 0.8>Quee?</z>\n"
 " !angry\n"
 " <z 0.8><#RED>Quaw, Queep Queep</> quaw!</z>"
-msgstr ""
+msgstr "agent:\n"
+" !dubious\n"
+" <z 0.8>кві?</z>\n"
+" !angry\n"
+" <z 0.8><#RED>Кву, квіп квіп</> кву!</z>"
 
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.ANSWER_END
 msgctxt "Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.ANSWER_END"
@@ -2751,7 +2769,7 @@ msgstr ""
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_2C
 msgctxt "Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_2C"
 msgid "What's Market Challenge 2?"
-msgstr ""
+msgstr "Що таке ринкове випробування 2?"
 
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_END
 msgctxt "Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_END"
@@ -2928,7 +2946,9 @@ msgctxt "Convo.dgn_encounter_rots_market.HUB0.convo.giver.STATE_0.OPT_END_RESPON
 msgid "agent:\n"
 " !wink\n"
 " Enjoy, culver."
-msgstr ""
+msgstr "agent:\n"
+" !wink\n"
+" Насолоджуйтесь, голубчику."
 
 #: Convo.dgn_encounter_rots_market.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_encounter_rots_market.HUB0.convo.giver.STATE_0.QUESTION_1"
@@ -9128,7 +9148,7 @@ msgstr ""
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1"
 msgid "Yeah! They were worried about you."
-msgstr ""
+msgstr "Так! Він хвилювався за вас."
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2A
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2A"
@@ -9138,12 +9158,12 @@ msgstr "Ого! Справді?"
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2B
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2B"
 msgid "That sounds questionably survivable."
-msgstr ""
+msgstr "Звучить сумнівно, з точки зору виживання."
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_3
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_3"
 msgid "<z 0.89>Oookay. Well, good to have our {name.job_armorsmith} back!</z>"
-msgstr ""
+msgstr "<z 0.89>Оооо. Добре, що наш {name.job_armorsmith} повернувся!</z>"
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK"
@@ -9157,7 +9177,16 @@ msgid "agent:\n"
 " !neutral\n"
 " !dubious\n"
 " How's <#BLUE>{name.npc_scout}</>? Are they okay??"
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !greet\n"
+" О мій Боже, Мисливцю, ви вижили!\n"
+" гравець:\n"
+" <i>(Це {name.job_armorsmith} <#RED>{name.npc_armorsmith}</>!)</i>\n"
+" agent:\n"
+" !neutral\n"
+" !dubious\n"
+" Як там <#BLUE>{name.npc_scout}</>? Він в порядку??"
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK2
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK2"
@@ -9167,7 +9196,12 @@ msgid "agent:\n"
 " Aw, they're so sweet-- but a lil aerial freefall's nothing to a big tough {name.job_armorsmith}!\n"
 " !point\n"
 " I arm-wrestled a <#RED>{name.zucco}</> once, you know."
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !gesture\n"
+" О, вони такі милі — але маленьке повітряне падіння нічого для великого сильного {name.job_armorsmith}а!\n"
+" !point\n"
+" Я колись змагався в армреслінгу з <#RED>{name.zucco}</>."
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK3
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK3"
@@ -9178,7 +9212,13 @@ msgid "agent:\n"
 " !happy\n"
 " !shrug\n"
 " Anyway, it was a great story!"
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !think\n"
+" Або, можливо, я прочитала це в щоденнику, який знайшла\n"
+" !happy\n"
+" !shrug\n"
+" У будь-якому разі, це була чудова історія!"
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4"
@@ -9189,7 +9229,13 @@ msgid "agent:\n"
 " !clap\n"
 " Can't wait to get back and start upgrading your armour!\n"
 " [title:CLEAR]"
-msgstr ""
+msgstr "agent:\n"
+" [title:SPEAKER]\n"
+" [sound:Event.joinedTheParty] 0.5\n"
+" !happy\n"
+" !clap\n"
+" Не можу дочекатися, щоб повернутися та почати вдосконалювати свою броню!\n"
+" [title:CLEAR]"
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4_CLIENT
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4_CLIENT"
@@ -9304,32 +9350,32 @@ msgstr ""
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1A
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1A"
 msgid "<z 0.9>I'm with the {name_multiple.foxtails}. I'm so glad you're okay!</>"
-msgstr ""
+msgstr "<z 0.9>Я з {2:{name_multiple.foxtails}}. Я дуже радий, що з тобою все гаразд!</>"
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1B
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1B"
 msgid "<i>You</i> can call me \"Your Saviour\"."
-msgstr ""
+msgstr "<i>Ти</i> можеш називати мене \"Мій спаситель\"."
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2A
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2A"
 msgid "I knew you'd remember me!"
-msgstr ""
+msgstr "Я знав, що ти пам'ятаєш мене!"
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2B
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2B"
 msgid "Uh no, you must be thinking of {name.npc_scout}."
-msgstr ""
+msgstr "О ні, ти, мабуть, маєш на увазі {3:{name.npc_scout}}."
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2C
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2C"
 msgid "Close enough."
-msgstr ""
+msgstr "Досить близько."
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_3
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_3"
 msgid "Yeah, well-- {name.npc_scout}'s waiting to pull you up."
-msgstr ""
+msgstr "Так, добре... {name.npc_scout} чекає, щоб підхопити тебе."
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK"
@@ -9342,7 +9388,15 @@ msgid "agent:\n"
 " agent:\n"
 " !dubious\n"
 " ...Who are ye?"
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" ...\n"
+" player:\n"
+" <i>(Гей, це <#BLUE>{name.npc_blacksmith}</>, {name.job_blacksmith}! )</i>\n"
+" agent:\n"
+" !dubious\n"
+" ...Хто ви?"
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK2
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK2"
@@ -9353,14 +9407,22 @@ msgid "agent:\n"
 " !neutral\n"
 " !point\n"
 " Ye were the one that kept screamin' as our ship went down."
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !think\n"
+" Ах. Тепер я вас пам'ятаю.\n"
+" !neutral\n"
+" !point\n"
+" Ви були тим, хто кричав, коли падав наш корабель."
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK3
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK3"
 msgid "agent:\n"
 " !point\n"
 " Wailin' like a wee bairn, ye were."
-msgstr ""
+msgstr "agent:\n"
+" !point\n"
+" Ви кричали як маленьке дитя."
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4"
@@ -9371,7 +9433,13 @@ msgid "agent:\n"
 " !gruffnod\n"
 " Hrm. Aye. I'll be seein' ye at camp then.\n"
 " [title:CLEAR]"
-msgstr ""
+msgstr "agent:\n"
+" [title:SPEAKER]\n"
+" [sound:Event.joinedTheParty] 0.5\n"
+" !neutral\n"
+" !gruffnod\n"
+" Хм. Так. Тоді до зустрічі у таборі.\n"
+" [title:CLEAR]"
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4_CLIENT
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4_CLIENT"
@@ -14354,12 +14422,12 @@ msgstr ""
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.CRITICAL_HITS_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.CRITICAL_HITS_BTN"
 msgid "Critical Hits"
-msgstr ""
+msgstr "Критичні удари"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.CRITICAL_HITS_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.CRITICAL_HITS_BTN_ALT"
 msgid "Critical Hits, again?"
-msgstr ""
+msgstr "Критичні удари, знову?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.FOCUS_HITS
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.FOCUS_HITS"
@@ -14379,7 +14447,7 @@ msgstr ""
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.FOCUS_HITS_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.FOCUS_HITS_BTN"
 msgid "{name_multiple.concept_focus_hit}"
-msgstr ""
+msgstr "{name_multiple.concept_focus_hit}"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.FOCUS_HITS_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.FOCUS_HITS_BTN_ALT"
@@ -14458,12 +14526,12 @@ msgstr ""
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.DODGE_CANCEL_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.DODGE_CANCEL_BTN"
 msgid "Dodge Cancels"
-msgstr ""
+msgstr "Скасування ухилення"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.DODGE_CANCEL_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.DODGE_CANCEL_BTN_ALT"
 msgid "Dodge Cancels, again?"
-msgstr ""
+msgstr "Скасування ухилення, знову?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.PERFECT_DODGE
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.PERFECT_DODGE"
@@ -14483,17 +14551,17 @@ msgstr ""
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.PERFECT_DODGE_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.PERFECT_DODGE_BTN"
 msgid "Perfect {name_multiple.concept_dodge}"
-msgstr ""
+msgstr "Ідеальні {name_multiple.concept_dodge}"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.PERFECT_DODGE_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.PERFECT_DODGE_BTN_ALT"
 msgid "Perfect {name_multiple.concept_dodge}, again?"
-msgstr ""
+msgstr "Ідеальні {name_multiple.concept_dodge}, знову?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE_BTN"
 msgid "Defense"
-msgstr ""
+msgstr "Захист"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE_BTN_ALT"
@@ -14537,12 +14605,12 @@ msgstr ""
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.POTIONS_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.POTIONS_BTN"
 msgid "Potions"
-msgstr ""
+msgstr "Зілля"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.POTIONS_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.POTIONS_BTN_ALT"
 msgid "Potions, again?"
-msgstr ""
+msgstr "Зілля, знову?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.WEIGHT_SYSTEM
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.WEIGHT_SYSTEM"
@@ -14564,22 +14632,22 @@ msgstr ""
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.WEIGHT_SYSTEM_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.WEIGHT_SYSTEM_BTN"
 msgid "Equipment Weight"
-msgstr ""
+msgstr "Вага Спорядження"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.WEIGHT_SYSTEM_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.WEIGHT_SYSTEM_BTN_ALT"
 msgid "Equipment Weight, again?"
-msgstr ""
+msgstr "Вага Спорядження, знову?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT_BTN"
 msgid "Equipment"
-msgstr ""
+msgstr "Обладнання"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT_BTN_ALT"
 msgid "Equipment <#RED><z 0.7>(Review)</z></>"
-msgstr ""
+msgstr "Обладнання <#RED><z 0.7>(Відгук)</z></>"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.FRENZIED_HUNTS
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.FRENZIED_HUNTS"
@@ -30040,7 +30108,7 @@ msgstr "Конжур|Конжура"
 #: STRINGS.NAMES_PLURALITY.konjur_heart
 msgctxt "STRINGS.NAMES_PLURALITY.konjur_heart"
 msgid "Heartstone|Heartstones"
-msgstr ""
+msgstr "Кам'яне сердце|Кам'яних сердець"
 
 #: STRINGS.NAMES_PLURALITY.konjur_soul_greater
 msgctxt "STRINGS.NAMES_PLURALITY.konjur_soul_greater"
