@@ -7643,8 +7643,8 @@ msgctxt "Quest.twn_ingot_armorsmith.QUIP.chitchat:[holding_any_ingot,in_quest_tw
 msgid "agent:\n !neutral\n !shocked\n <z 3.0><i>HUNTER!</i></z>\n !point\n What is <i>THAT</i>?"
 msgstr ""
 
-#: Quest.twn_mannequin_unlock_ea_temp_armorsmith.QUIP.chitchat:[done_any_frenzy,in_quest_twn_mannequin_unlock_ea_temp_armorsmith,in_town,qc_dgn_firstmeeting_armorsmith,role_armorsmith].1
-msgctxt "Quest.twn_mannequin_unlock_ea_temp_armorsmith.QUIP.chitchat:[done_any_frenzy,in_quest_twn_mannequin_unlock_ea_temp_armorsmith,in_town,qc_dgn_firstmeeting_armorsmith,role_armorsmith].1"
+#: Quest.twn_mannequin_unlock_ea_temp_armorsmith.QUIP.chitchat:[done_any_frenzy,in_quest_twn_mannequin_unlock_ea_temp_armorsmith,in_town,role_armorsmith].1
+msgctxt "Quest.twn_mannequin_unlock_ea_temp_armorsmith.QUIP.chitchat:[done_any_frenzy,in_quest_twn_mannequin_unlock_ea_temp_armorsmith,in_town,role_armorsmith].1"
 msgid "agent:\n !happy\n !greet\n Oo! Oo oo oo, Hunter, over here!\n !gesture\n Okay so like, I'm just gonna give this to you because we're in <#RED>Early Access</>... Someday you'll have to work to unlock it instead.\n !bliss\n Buuuut, <#BLUE>{name.npc_scout}</> and I put together something super duper cool for you!"
 msgstr ""
 
