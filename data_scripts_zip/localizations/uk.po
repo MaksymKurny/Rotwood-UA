@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-07-24 16:11\n"
+"PO-Revision-Date: 2024-07-25 08:53\n"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -28,7 +28,18 @@ msgid "agent:\n"
 " !agree\n"
 " How interesting!\n"
 " !neutral"
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" Хм?\n"
+" !shocked\n"
+" О! Так, чудово!\n"
+" !happy\n"
+" !nervous\n"
+" Ц-це серце дало вам додаткову <#RED>швидкість ухилення</>, так?\n"
+" !agree\n"
+" Як цікаво!\n"
+" !neutral"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_2
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_2"
@@ -612,17 +623,10 @@ msgid "agent:\n"
 " !gesture\n"
 " Haha, thanks Hunter.\n"
 " !point\n"
-" So, it looks like <#RED>{name.sedament}'s</> <#KONJUR>{name.i_konjur_heart}</> gave you [effect]!\n"
+" So, it looks like <#RED>{name.sedament}'s</> <#KONJUR>{name.i_konjur_heart}</> gave you the ability to reroll <#RED>{name.concept_relic}</> drops!\n"
 " !agree\n"
 " That's great. It should help as we go back and tackle more <#RED>Frenzy Levels</>."
-msgstr "agent:\n"
-" !happy\n"
-" !gesture\n"
-" Ха-ха, дякую, мисливець.\n"
-" !point\n"
-" Отже, виглядає, що <#KONJUR>{name.i_konjur_heart}</> <#RED>{2:{name.sedament}}</> дало тобі [effect]!\n"
-" !agree\n"
-" Це чудово. Це має допомогти, коли ми повернемося до нових <#RED>рівнів божевілля</>."
+msgstr ""
 
 #: Convo.after_insert_heart_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_1B
 msgctxt "Convo.after_insert_heart_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_1B"
@@ -1523,7 +1527,12 @@ msgid "agent:\n"
 " <#RED>{name.npc_grandpa} {name.flitt_lastname}</>?\n"
 " !gesture\n"
 " He's the father of all <#KONJUR>{name.konjur}</> technology."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" <#RED>{name.npc_grandpa} {name.flitt_lastname}</>?\n"
+" !gesture\n"
+" Він батько всіх технологій з <#KONJUR>{2:{name.konjur}}</>."
 
 #: Convo.dgn_3_who_is_mulligan_powerupgrade.HUB0.convo.giver.STATE_0.ANSWER_2
 msgctxt "Convo.dgn_3_who_is_mulligan_powerupgrade.HUB0.convo.giver.STATE_0.ANSWER_2"
@@ -1536,12 +1545,20 @@ msgid "agent:\n"
 " We worked closely before the eruption, you know. Brilliant guy.\n"
 " !notebook\n"
 " I can't chat all day though. Do you need an <#RED>Upgrade</> before I get back to it?"
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+"!agree\n"
+"Звісно. Моє поле вивчення існує завдяки йому.\n"
+"!happy\n"
+"!gesture\n"
+"Ми працювали разом до виверження, знаєш. Блискучий хлопець.\n"
+"!notebook\n"
+"Я не можу базікати весь день. Вам потрібно <#RED>покращення</> перед тим, як я повернуся до роботи?"
 
 #: Convo.dgn_3_who_is_mulligan_powerupgrade.HUB0.convo.giver.STATE_0.BYE
 msgctxt "Convo.dgn_3_who_is_mulligan_powerupgrade.HUB0.convo.giver.STATE_0.BYE"
 msgid "Nah, I'm good. Thanks though."
-msgstr ""
+msgstr "Ні, я в порядку. Все одно дякую."
 
 #: Convo.dgn_3_who_is_mulligan_powerupgrade.HUB0.convo.giver.STATE_0.BYE_RESPONSE
 msgctxt "Convo.dgn_3_who_is_mulligan_powerupgrade.HUB0.convo.giver.STATE_0.BYE_RESPONSE"
@@ -1549,17 +1566,20 @@ msgid "agent:\n"
 " !neutral\n"
 " !notebook\n"
 " Alright, see ya Hunter."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !notebook\n"
+" Гаразд, до зустрічі, Мисливцю."
 
 #: Convo.dgn_3_who_is_mulligan_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_3_who_is_mulligan_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_1"
 msgid "You mentioned someone named {name.flitt_lastname} once. Who is that?"
-msgstr ""
+msgstr "Ти одного разу згадав когось на прізвище {name.flitt_lastname}. Хто це?"
 
 #: Convo.dgn_3_who_is_mulligan_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_2
 msgctxt "Convo.dgn_3_who_is_mulligan_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_2"
 msgid "You seem to think highly of him."
-msgstr ""
+msgstr "Здається, ти високо про нього думаєш."
 
 #: Convo.dgn_4_research_focus_powerupgrade.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.dgn_4_research_focus_powerupgrade.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -2526,7 +2546,9 @@ msgctxt "Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.ANSWER_2A"
 msgid "agent:\n"
 " !clap\n"
 " <z 0.8>Quaw, quaw quaw!</z>"
-msgstr ""
+msgstr "agent:\n"
+" !clap\n"
+" <z 0.8>Кву, кву кву!</z>"
 
 #: Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.ANSWER_2B
 msgctxt "Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.ANSWER_2B"
@@ -2558,7 +2580,7 @@ msgstr ""
 #: Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.END_GENERIC
 msgctxt "Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.END_GENERIC"
 msgid "Sorry, gotta run. See you at the Market?"
-msgstr ""
+msgstr "Вибач маю бігти. До зустрічі на ринку?"
 
 #: Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.QUESTION_1"
@@ -2600,7 +2622,9 @@ msgctxt "Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.ANSWER_2A"
 msgid "agent:\n"
 " !bliss\n"
 " <z 0.8>Kwee queep quaw.</z>"
-msgstr ""
+msgstr "agent:\n"
+" !bliss\n"
+" <z 0.8>Кві квіп кву.</z>"
 
 #: Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.ANSWER_2B
 msgctxt "Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.ANSWER_2B"
@@ -2630,7 +2654,7 @@ msgstr ""
 #: Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.END_GENERIC
 msgctxt "Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.END_GENERIC"
 msgid "Sorry, gotta run. See you at the Market?"
-msgstr ""
+msgstr "Вибач маю бігти. До зустрічі на ринку?"
 
 #: Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_1"
@@ -2693,7 +2717,9 @@ msgctxt "Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.ANSWER_END"
 msgid "agent:\n"
 " !think\n"
 " <z 0.8>Queep queep.</z>"
-msgstr ""
+msgstr "agent:\n"
+"!think\n"
+"<z 0.8>Квіп квіп.</z>"
 
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.ANSWER_END_ALT
 msgctxt "Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.ANSWER_END_ALT"
@@ -2707,7 +2733,7 @@ msgstr ""
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.END_GENERIC
 msgctxt "Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.END_GENERIC"
 msgid "Sorry, gotta run. See you at the Market?"
-msgstr ""
+msgstr "Вибач маю бігти. До зустрічі на ринку?"
 
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_1"
@@ -4108,7 +4134,7 @@ msgid "agent:\n"
 " Oh, and you can also hit multiple <#RED>Targets</> at once with your <#RED>Rolling Drill</>!"
 msgstr "agent:\n"
 " !agree\n"
-" Спробуйте вдарити <#RED>ворогів</> кінчиком <#RED>{name.weapon_polearm}а</>, якщо ви хочете виконати <#BLUE>{name.concept_focus_hit}</>.\n"
+" Спробуйте вдарити <#RED>ворогів</> кінчиком <#RED>{3:{name.weapon_polearm}}</>, якщо ви хочете виконати <#BLUE>{name.concept_focus_hit}</>.\n"
 " !dubious\n"
 " Вдарити по ним, коли вони надто близько, просто не вийде.\n"
 " !point\n"
@@ -6503,7 +6529,10 @@ msgid "agent:\n"
 " !neutral\n"
 " !agree\n"
 " Right. Let's go."
-msgstr ""
+msgstr "агент:\n"
+" !neutral\n"
+" !agree\n"
+" Правильно. Ходімо."
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_3A
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_3A"
@@ -7831,7 +7860,7 @@ msgstr ""
 #: Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.HUB_OPT
 msgctxt "Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.HUB_OPT"
 msgid "Teach me somethin', {name.npc_dojo_master}."
-msgstr ""
+msgstr "Навчи мене чогось, {name.npc_dojo_master}."
 
 #: Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.REPEAT_LESSON_FIRST_LINE
 msgctxt "Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.REPEAT_LESSON_FIRST_LINE"
@@ -8203,7 +8232,7 @@ msgstr ""
 #: Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.TUTORIALS.GENERAL_BTN_ALT
 msgctxt "Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.TUTORIALS.GENERAL_BTN_ALT"
 msgid "General Stuff <#RED><z 0.7>(Review)</z></>"
-msgstr ""
+msgstr "Загальні речі <#RED><z 0.7>(Відгук)</z></>"
 
 #: Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.TUTORIALS.REWARD_TIER_FOUR.TALK
 msgctxt "Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.TUTORIALS.REWARD_TIER_FOUR.TALK"
@@ -13281,7 +13310,9 @@ msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_
 msgid "!neutral\n"
 " !dubious\n"
 " Need something else?"
-msgstr ""
+msgstr "!neutral\n"
+" !dubious\n"
+" Потрібно щось ще?"
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_konjurist,upgradable_powers].2
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_konjurist,upgradable_powers].2"
@@ -13507,7 +13538,10 @@ msgid "!happy\n"
 " !bliss\n"
 " <z 0.8>Queeeeeeee.</>\n"
 " <z 0.8>Chorp!</>"
-msgstr ""
+msgstr "!happy\n"
+" !bliss\n"
+" <z 0.8>Квіііііііііііііііі.</>\n"
+" <z 0.8>Чорп!</>"
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_market_magpie].2
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_market_magpie].2"
@@ -13767,7 +13801,9 @@ msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_
 msgid "!neutral\n"
 " !angry\n"
 " At least wear a hairnet!"
-msgstr ""
+msgstr "!neutral\n"
+" !angry\n"
+" Носіть хоча б сіточку для волосся!"
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_travelling_salesman,steal_five_finger_brew].14
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_travelling_salesman,steal_five_finger_brew].14"
@@ -13783,7 +13819,9 @@ msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_
 msgid "!neutral\n"
 " !dubious\n"
 " Must've been the wind."
-msgstr ""
+msgstr "!neutral\n"
+" !dubious\n"
+" Мабуть, це був вітер."
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_travelling_salesman,steal_five_finger_brew].16
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_travelling_salesman,steal_five_finger_brew].16"
@@ -14059,7 +14097,9 @@ msgctxt "Quest.twn_fallback_chat.QUIP.nothingtosay:[in_quest_twn_fallback_chat,r
 msgid "!happy\n"
 " !dubious\n"
 " What're you looking at?"
-msgstr ""
+msgstr "!happy\n"
+" !dubious\n"
+" На що ви дивитесь?"
 
 #: Quest.twn_fallback_chat.QUIP.nothingtosay:[in_quest_twn_fallback_chat,role_market_merchant].3
 msgctxt "Quest.twn_fallback_chat.QUIP.nothingtosay:[in_quest_twn_fallback_chat,role_market_merchant].3"
@@ -14103,14 +14143,18 @@ msgctxt "Quest.twn_fallback_chat.QUIP.nothingtosay:[in_quest_twn_fallback_chat,r
 msgid "!happy\n"
 " !greet\n"
 " Hey, Hunter. Talk later?"
-msgstr ""
+msgstr "!happy\n"
+" !greet\n"
+" Гей, Мисливцю. Поговоримо пізніше?"
 
 #: Quest.twn_fallback_chat.QUIP.nothingtosay:[in_quest_twn_fallback_chat,role_travelling_salesman].1
 msgctxt "Quest.twn_fallback_chat.QUIP.nothingtosay:[in_quest_twn_fallback_chat,role_travelling_salesman].1"
 msgid "!happy\n"
 " !laugh\n"
 " If ma could sssee me now."
-msgstr ""
+msgstr "!happy\n"
+" !laugh\n"
+"Якби мама могла мене зараз побачити."
 
 #: Quest.twn_fallback_chat.QUIP.nothingtosay:[in_quest_twn_fallback_chat,role_travelling_salesman].2
 msgctxt "Quest.twn_fallback_chat.QUIP.nothingtosay:[in_quest_twn_fallback_chat,role_travelling_salesman].2"
@@ -14242,7 +14286,7 @@ msgstr ""
 #: Quest.twn_repeatable_tutorials_dojo.HUB_OPT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.HUB_OPT"
 msgid "Teach me somethin', {name.npc_dojo_master}."
-msgstr ""
+msgstr "Навчи мене чогось, {name.npc_dojo_master}."
 
 #: Quest.twn_repeatable_tutorials_dojo.REPEAT_LESSON_FIRST_LINE
 msgctxt "Quest.twn_repeatable_tutorials_dojo.REPEAT_LESSON_FIRST_LINE"
@@ -14340,7 +14384,7 @@ msgstr ""
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.FOCUS_HITS_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.FOCUS_HITS_BTN_ALT"
 msgid "{name_multiple.concept_focus_hit}, again?"
-msgstr ""
+msgstr "{name_multiple.concept_focus_hit}, знову?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.HIT_STREAKS
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.HIT_STREAKS"
@@ -14454,7 +14498,7 @@ msgstr ""
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE_BTN_ALT"
 msgid "Defense <#RED><z 0.7>(Review)</z></>"
-msgstr ""
+msgstr "Захист <#RED><z 0.7>(Відгук)</z></>"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.LUCK_STAT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.LUCK_STAT"
@@ -14614,7 +14658,7 @@ msgstr ""
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL_BTN_ALT"
 msgid "General Stuff <#RED><z 0.7>(Review)</z></>"
-msgstr ""
+msgstr "Загальні речі <#RED><z 0.7>(Відгук)</z></>"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.REWARD_TIER_FOUR.TALK
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.REWARD_TIER_FOUR.TALK"
@@ -17692,7 +17736,7 @@ msgstr "Шматок, який можна носити з гордістю."
 #: STRINGS.ITEMS.BODY.megatreemon.name
 msgctxt "STRINGS.ITEMS.BODY.megatreemon.name"
 msgid "{name.megatreemon}'s Sylvan Weave"
-msgstr "Сильванське плетіння з {name.megatreemon}"
+msgstr "Сильванське плетіння з {2:{name.megatreemon}}"
 
 #: STRINGS.ITEMS.BODY.meowl.desc
 msgctxt "STRINGS.ITEMS.BODY.meowl.desc"
@@ -17783,7 +17827,7 @@ msgstr "Виглядає, наче намальовано. Бо так і є."
 #: STRINGS.ITEMS.BODY.swarmy.name
 msgctxt "STRINGS.ITEMS.BODY.swarmy.name"
 msgid "{name.swarmy} Top Glaze"
-msgstr "Верхня глазур {name.swarmy}"
+msgstr "Верхня глазур {2:{name.swarmy}}"
 
 #: STRINGS.ITEMS.BODY.thatcher.desc
 msgctxt "STRINGS.ITEMS.BODY.thatcher.desc"
@@ -19266,7 +19310,7 @@ msgstr "Не наступайте на них."
 #: STRINGS.ITEMS.HEAD.swarmy.name
 msgctxt "STRINGS.ITEMS.HEAD.swarmy.name"
 msgid "{name.swarmy} Laurels"
-msgstr "Лаври з {name.swarmy}"
+msgstr "Лаври з {2:{name.swarmy}}"
 
 #: STRINGS.ITEMS.HEAD.thatcher.desc
 msgctxt "STRINGS.ITEMS.HEAD.thatcher.desc"
@@ -20761,7 +20805,7 @@ msgstr "Доля чистого {name.swarmy}.\n\n"
 #: STRINGS.ITEMS.MATERIALS.swarmy_slime.name
 msgctxt "STRINGS.ITEMS.MATERIALS.swarmy_slime.name"
 msgid "{name.swarmy} Slime"
-msgstr "Слиз {name.swarmy}а"
+msgstr "Слиз {2:{name.swarmy}}"
 
 #: STRINGS.ITEMS.MATERIALS.thatcher_antennae.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.thatcher_antennae.desc"
@@ -21721,7 +21765,7 @@ msgstr "Легкий фокусний пірсинг"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_pierce_focus.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_pierce_focus.desc"
 msgid "<#BLUE>Focus</> shots pierce through <#RED>Enemies</>. Only the first shot is a <#BLUE>Focus Attack</>."
-msgstr "#BLUE>Фокусні постріли</> пронизують <#RED>ворогів</>. Лише перший постріл є <#BLUE>фокусною атакою</>."
+msgstr "<#BLUE>Фокусні постріли</> пронизують <#RED>ворогів</>. Лише перший постріл є <#BLUE>фокусною атакою</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_pierce_focus.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_pierce_focus.name"
@@ -22300,7 +22344,7 @@ msgstr "<#RED>Відбивається</> до свого власника. На
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_rebounds_to_owner.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_rebounds_to_owner.name"
 msgid "Returning {name.weapon_shotput}"
-msgstr "Повернення {name.weapon_shotput}а"
+msgstr "Повернення {3:{name.weapon_shotput}}"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_rebounds_to_owner.variables.focus_damage_mult
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_rebounds_to_owner.variables.focus_damage_mult"
@@ -24299,7 +24343,7 @@ msgstr "Нестабільна рівновага"
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.hammer_thump.desc"
 msgid "Pound the head of your <#RED>{name.weapon_hammer}</> into the ground, causing <#RED>Knockback</> to any nearby <#RED>Enemies</>.\n\n"
 "Hold <#RED>Skill</> to charge."
-msgstr "Вдарте <#RED>молотом</> по землі, спричиняючи <#RED>Відкидання</> для будь-яких ворогів поблизу.\n\n"
+msgstr "Вдарте <#RED>{4:{name.weapon_hammer}}</> по землі, спричиняючи <#RED>Відкидання</> для будь-яких ворогів поблизу.\n\n"
 "Утримуйте <#RED>{2:{name.concept_skill}}</>, щоб зарядити."
 
 #: STRINGS.ITEMS.POWERS.SKILL.hammer_thump.name
@@ -24403,7 +24447,7 @@ msgstr "Парування"
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.polearm_extend.desc"
 msgid "Extend the length of your <#RED>{name.weapon_polearm}</> to attack very far away.\n\n"
 "Hold <#RED>Skill</> to charge."
-msgstr "Збільште довжину свого <#RED>{name.weapon_polearm}у</>, щоб атакувати дуже далеко.\n\n"
+msgstr "Збільште довжину свого <#RED>{2:{name.weapon_polearm}}</>, щоб атакувати дуже далеко.\n\n"
 "Щоб зарядити, утримуйте <#RED>навичку</>."
 
 #: STRINGS.ITEMS.POWERS.SKILL.polearm_extend.name
@@ -25976,12 +26020,12 @@ msgstr "Хутряні легінси з {2:{name.stunk}}"
 #: STRINGS.ITEMS.WAIST.swarmy.desc
 msgctxt "STRINGS.ITEMS.WAIST.swarmy.desc"
 msgid "Complete with {name.swarmy} hand clasp."
-msgstr "У комплекті з ручною застібкою {name.swarmy}."
+msgstr "У комплекті з ручною застібкою з {2:{name.swarmy}}."
 
 #: STRINGS.ITEMS.WAIST.swarmy.name
 msgctxt "STRINGS.ITEMS.WAIST.swarmy.name"
 msgid "{name.swarmy} Slimekilt"
-msgstr "Слизький кілт з {name.swarmy}"
+msgstr "Слизький кілт з {2:{name.swarmy}}"
 
 #: STRINGS.ITEMS.WAIST.thatcher.desc
 msgctxt "STRINGS.ITEMS.WAIST.thatcher.desc"
@@ -26744,7 +26788,7 @@ msgstr "Вбийте <#RED>ворога</>, поки він перебуває �
 #: STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_counterattack.name
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_counterattack.name"
 msgid "{name.weapon_hammer} Counterattacks"
-msgstr "Контратаки {name.weapon_hammer}ом"
+msgstr "Контратаки {4:{name.weapon_hammer}}"
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_fading_light.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_fading_light.desc"
@@ -26759,17 +26803,17 @@ msgstr "Згасаючі удари"
 #: STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_focus_hits.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_focus_hits.desc"
 msgid "Kill <#RED>Enemies</> using any <#BLUE>{name.weapon_hammer} {name.concept_focus_hit}</>."
-msgstr "Вбийте <#RED>ворога</> використовуючи <#BLUE>{name.concept_focus_hit} {name.weapon_hammer}ом</>."
+msgstr "Вбийте <#RED>ворога</> використовуючи <#BLUE>{name.concept_focus_hit} {4:{name.weapon_hammer}}</>."
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_focus_hits.name
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_focus_hits.name"
 msgid "{name.weapon_hammer} {name_multiple.concept_focus_hit}"
-msgstr "{name_multiple.concept_focus_hit} {name.weapon_hammer}ом"
+msgstr "{name_multiple.concept_focus_hit} {4:{name.weapon_hammer}}"
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_focus_hits_destructibles.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_focus_hits_destructibles.desc"
 msgid "Hit an <#RED>Environmental Object</> and an <#RED>Enemy</> at the same time to perform a <#BLUE>Multi-Target {name.weapon_hammer} {name.concept_focus_hit}</>."
-msgstr "Вдарте одночасно по <#RED>об'єкту середовища</> та <#RED>ворогу</>, щоб виконати <#BLUE>багатоцільовий {name.concept_focus_hit} {name.weapon_hammer}ом</>."
+msgstr "Вдарте одночасно по <#RED>об'єкту середовища</> та <#RED>ворогу</>, щоб виконати <#BLUE>багатоцільовий {name.concept_focus_hit} {4:{name.weapon_hammer}}</>."
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_focus_hits_destructibles.name
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_focus_hits_destructibles.name"
@@ -26780,7 +26824,7 @@ msgstr "Імпровізовані фокусні удари"
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_focus_multiple_targets.desc"
 msgid "Deal extra <#RED>Damage</> by hitting <#RED>2+ Targets</> at once, performing a <#BLUE>Multi-Target {name.weapon_hammer} {name.concept_focus_hit}</>.\n"
 "*May be completed in <#BLUE>Town</>"
-msgstr "Завдайте додаткової <#RED>шкоди</>, вразивши одночасно <#RED>2+ цілі</>, виконавши <#BLUE>багатоцільовий {name.concept_focus_hit} {name.weapon_hammer}ом</>.\n"
+msgstr "Завдайте додаткової <#RED>шкоди</>, вразивши одночасно <#RED>2+ цілі</>, виконавши <#BLUE>багатоцільовий {name.concept_focus_hit} {4:{name.weapon_hammer}}</>.\n"
 "*Можна завершити в <#BLUE>місті</>"
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_focus_multiple_targets.name
@@ -26816,7 +26860,7 @@ msgstr "Отримайте <#RED>{hitstreak}+ {2:{name.concept_hitstreak}}</> п
 #: STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_hitstreak_advanced.name
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_hitstreak_advanced.name"
 msgid "{name.weapon_hammer} {name_multiple.concept_hitstreak} II"
-msgstr "{name_multiple.concept_hitstreak} {name.weapon_hammer}ом ІІ"
+msgstr "{name_multiple.concept_hitstreak} {4:{name.weapon_hammer}} ІІ"
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_hitstreak_basic.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_hitstreak_basic.desc"
@@ -26826,7 +26870,7 @@ msgstr "Отримайте <#RED>{hitstreak}+ {2:{name.concept_hitstreak}}</> п
 #: STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_hitstreak_basic.name
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_hitstreak_basic.name"
 msgid "{name.weapon_hammer} {name_multiple.concept_hitstreak}"
-msgstr "{name_multiple.concept_hitstreak} {name.weapon_hammer}ом"
+msgstr "{name_multiple.concept_hitstreak} {4:{name.weapon_hammer}}"
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_hitstreak_dodge_L.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_hitstreak_dodge_L.desc"
@@ -26928,12 +26972,12 @@ msgstr "Точні {name_multiple.concept_focus_hit}"
 #: STRINGS.ITEMS.WEAPON_MASTERY.POLEARM.polearm_focus_kills.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.POLEARM.polearm_focus_kills.desc"
 msgid "Kill <#RED>Enemies</> using any <#BLUE>{name.weapon_polearm} {name.concept_focus_hit}</>."
-msgstr "Убийте <#RED>ворога</> використовуючи <#BLUE>{name.concept_focus_hit} {name.weapon_polearm}а</>."
+msgstr "Убийте <#RED>ворога</> використовуючи <#BLUE>{name.concept_focus_hit} {3:{name.weapon_polearm}}</>."
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.POLEARM.polearm_focus_kills.name
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.POLEARM.polearm_focus_kills.name"
 msgid "{name.weapon_polearm} {name_multiple.concept_focus_hit}"
-msgstr "{name_multiple.concept_focus_hit} {name.weapon_polearm}ом"
+msgstr "{name_multiple.concept_focus_hit} {4:{name.weapon_polearm}}"
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.POLEARM.polearm_heavy_attack.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.POLEARM.polearm_heavy_attack.desc"
@@ -26963,7 +27007,7 @@ msgstr "Отримайте <#RED>{hitstreak}+ {2:{name.concept_hitstreak}}</> п
 #: STRINGS.ITEMS.WEAPON_MASTERY.POLEARM.polearm_hitstreak_basic.name
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.POLEARM.polearm_hitstreak_basic.name"
 msgid "{name.weapon_polearm} {name_multiple.concept_hitstreak}"
-msgstr "{name_multiple.concept_hitstreak} {name.weapon_polearm}ом"
+msgstr "{name_multiple.concept_hitstreak} {4:{name.weapon_polearm}}"
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.POLEARM.polearm_hitstreak_expert.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.POLEARM.polearm_hitstreak_expert.desc"
@@ -26973,7 +27017,7 @@ msgstr "Отримайте <#RED>{hitstreak}+ {2:{name.concept_hitstreak}}</> п
 #: STRINGS.ITEMS.WEAPON_MASTERY.POLEARM.polearm_hitstreak_expert.name
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.POLEARM.polearm_hitstreak_expert.name"
 msgid "{name.weapon_polearm} {name_multiple.concept_hitstreak} II"
-msgstr "{name_multiple.concept_hitstreak} {name.weapon_polearm}ом ІІ"
+msgstr "{name_multiple.concept_hitstreak} {4:{name.weapon_polearm}} ІІ"
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.POLEARM.polearm_multithrust.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.POLEARM.polearm_multithrust.desc"
@@ -27010,22 +27054,22 @@ msgstr "Перехресні перевірки"
 #: STRINGS.ITEMS.WEAPON_MASTERY.POLEARM.polearm_single_hit.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.POLEARM.polearm_single_hit.desc"
 msgid "Kill an <#RED>Enemy</> with a single <#RED>{name.weapon_polearm} Attack</>."
-msgstr "Убийте <#RED>ворога</> однією <#RED>атакою {name.weapon_polearm}а</>."
+msgstr "Убийте <#RED>ворога</> однією <#RED>атакою {3:{name.weapon_polearm}}</>."
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.POLEARM.polearm_single_hit.name
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.POLEARM.polearm_single_hit.name"
 msgid "{name.weapon_polearm} One-Shots"
-msgstr "Один удар {name.weapon_polearm}ом"
+msgstr "Один удар {4:{name.weapon_polearm}}"
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_focus_kills.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_focus_kills.desc"
 msgid "Kill <#RED>Enemies</> using any <#BLUE>{name.weapon_shotput} {name.concept_focus_hit}</>."
-msgstr "Убийте <#RED>ворога</> використовуючи <#BLUE>{name.concept_focus_hit} {name.weapon_shotput}а</>."
+msgstr "Убийте <#RED>ворога</> використовуючи <#BLUE>{name.concept_focus_hit} {3:{name.weapon_shotput}}</>."
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_focus_kills.name
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_focus_kills.name"
 msgid "{name.weapon_shotput} {name_multiple.concept_focus_hit}"
-msgstr "{name_multiple.concept_focus_hit} {name.weapon_shotput}ом"
+msgstr "{name_multiple.concept_focus_hit} {4:{name.weapon_shotput}}"
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_focus_rebound.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_focus_rebound.desc"
@@ -27069,7 +27113,7 @@ msgstr "Отримайте <#RED>{hitstreak}+ {2:{name.concept_hitstreak}}</> п
 #: STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_hitstreak_basic.name
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_hitstreak_basic.name"
 msgid "{name.weapon_shotput} {name_multiple.concept_hitstreak}"
-msgstr "{name_multiple.concept_hitstreak} {name.weapon_shotput}ом"
+msgstr "{name_multiple.concept_hitstreak} {4:{name.weapon_shotput}}"
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_hitstreak_master.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_hitstreak_master.desc"
@@ -27079,17 +27123,17 @@ msgstr "Отримайте <#RED>{hitstreak}+ {2:{name.concept_hitstreak}}</> п
 #: STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_hitstreak_master.name
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_hitstreak_master.name"
 msgid "{name.weapon_shotput} {name_multiple.concept_hitstreak} II"
-msgstr "{name_multiple.concept_hitstreak} {name.weapon_shotput}ом ІІ"
+msgstr "{name_multiple.concept_hitstreak} {4:{name.weapon_shotput}} ІІ"
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_hitstreak_melee.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_hitstreak_melee.desc"
 msgid "Get a <#RED>{hitstreak}+ {name.concept_hitstreak}</> during combat that includes at least <#RED>{melee} Melee Hits</> and <#RED>{striker} {name.weapon_shotput} Hits</>."
-msgstr "Отримайте <#RED>{hitstreak}+ {2:{name.concept_hitstreak}}</> під час бою, використавши щонайменше <#RED>{melee} ударів ближнього бою</> та <#RED>{striker} ударів {name.weapon_shotput}ом</>."
+msgstr "Отримайте <#RED>{hitstreak}+ {2:{name.concept_hitstreak}}</> під час бою, використавши щонайменше <#RED>{melee} ударів ближнього бою</> та <#RED>{striker} ударів {4:{name.weapon_shotput}}</>."
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_hitstreak_melee.name
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_hitstreak_melee.name"
 msgid "Balanced {name.weapon_shotput} {name_multiple.concept_hitstreak}"
-msgstr "Збалансовані {name_multiple.concept_hitstreak} {name.weapon_shotput}ом"
+msgstr "Збалансовані {name_multiple.concept_hitstreak} {4:{name.weapon_shotput}}"
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_hitstreak_recall.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_hitstreak_recall.desc"
@@ -27124,12 +27168,12 @@ msgstr "Втручання аудиторії"
 #: STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_recall.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_recall.desc"
 msgid "Kill an <#RED>Enemy</> with a <#RED>{name.weapon_shotput}</> that you <#RED>Recalled</> (<p bind='Controls.Digital.SKILL' color=0> or <p bind='Controls.Digital.ATTACK_HEAVY' color=0>)."
-msgstr "Убийте <#RED>ворога</> за допомогою <#RED>{name.weapon_shotput}а</>, який ви <#RED>покликали</> (<p bind='Controls.Digital.SKILL' color=0> або <p bind='Controls.Digital.ATTACK_HEAVY' color=0>)."
+msgstr "Убийте <#RED>ворога</> за допомогою <#RED>{3:{name.weapon_shotput}}</>, який ви <#RED>покликали</> (<p bind='Controls.Digital.SKILL' color=0> або <p bind='Controls.Digital.ATTACK_HEAVY' color=0>)."
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_recall.name
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_recall.name"
 msgid "{name.weapon_shotput} Recalls"
-msgstr "Виклики {name.weapon_shotput}а"
+msgstr "Виклики {3:{name.weapon_shotput}}"
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_spiked_kick_knockdown.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_spiked_kick_knockdown.desc"
@@ -27219,7 +27263,7 @@ msgstr "Будівлі"
 #: STRINGS.ITEM_CATEGORIES.CANNON
 msgctxt "STRINGS.ITEM_CATEGORIES.CANNON"
 msgid "{name.weapon_cannon}"
-msgstr "{name.weapon_cannon}"
+msgstr "{4:{name.weapon_cannon}}"
 
 #: STRINGS.ITEM_CATEGORIES.CHALLENGE_MASTERY
 msgctxt "STRINGS.ITEM_CATEGORIES.CHALLENGE_MASTERY"
@@ -27289,7 +27333,7 @@ msgstr "Гроак"
 #: STRINGS.ITEM_CATEGORIES.HAMMER
 msgctxt "STRINGS.ITEM_CATEGORIES.HAMMER"
 msgid "{name.weapon_hammer}"
-msgstr "{name.weapon_hammer}"
+msgstr "{4:{name.weapon_hammer}}"
 
 #: STRINGS.ITEM_CATEGORIES.HEAD
 msgctxt "STRINGS.ITEM_CATEGORIES.HEAD"
@@ -27354,7 +27398,7 @@ msgstr "Стара магія"
 #: STRINGS.ITEM_CATEGORIES.POLEARM
 msgctxt "STRINGS.ITEM_CATEGORIES.POLEARM"
 msgid "{name.weapon_polearm}"
-msgstr "{name.weapon_polearm}"
+msgstr "{4:{name.weapon_polearm}}"
 
 #: STRINGS.ITEM_CATEGORIES.POTIONS
 msgctxt "STRINGS.ITEM_CATEGORIES.POTIONS"
@@ -27384,7 +27428,7 @@ msgstr "Підтримка"
 #: STRINGS.ITEM_CATEGORIES.SHOTPUT
 msgctxt "STRINGS.ITEM_CATEGORIES.SHOTPUT"
 msgid "{name.weapon_shotput}"
-msgstr "{name.weapon_shotput}"
+msgstr "{4:{name.weapon_shotput}}"
 
 #: STRINGS.ITEM_CATEGORIES.SHOULDERS
 msgctxt "STRINGS.ITEM_CATEGORIES.SHOULDERS"
@@ -28821,7 +28865,7 @@ msgstr "Болото"
 #: STRINGS.NAMES.swarmy
 msgctxt "STRINGS.NAMES.swarmy"
 msgid "Gloop"
-msgstr "Слизун"
+msgstr "Слизун|Слизуна"
 
 #: STRINGS.NAMES.swarmy_elite
 msgctxt "STRINGS.NAMES.swarmy_elite"
@@ -28906,27 +28950,27 @@ msgstr "Гармата|Гармату|Гармати|Гарматою"
 #: STRINGS.NAMES.weapon_crystal
 msgctxt "STRINGS.NAMES.weapon_crystal"
 msgid "Proto-Weapon"
-msgstr "Протозброя"
+msgstr "Протозброя|Протозброю|Протозброї|Протозброєю"
 
 #: STRINGS.NAMES.weapon_greatsword
 msgctxt "STRINGS.NAMES.weapon_greatsword"
 msgid "Cleaver"
-msgstr "Тесак"
+msgstr "Тесак|Тесаку|Тесака|Тесаком"
 
 #: STRINGS.NAMES.weapon_hammer
 msgctxt "STRINGS.NAMES.weapon_hammer"
 msgid "Hammer"
-msgstr "Молот"
+msgstr "Молот|Молоту|Молота|Молотом"
 
 #: STRINGS.NAMES.weapon_polearm
 msgctxt "STRINGS.NAMES.weapon_polearm"
 msgid "Spear"
-msgstr "Спис"
+msgstr "Спис|Спису|Списа|Списом"
 
 #: STRINGS.NAMES.weapon_shotput
 msgctxt "STRINGS.NAMES.weapon_shotput"
 msgid "Striker"
-msgstr "Страйкер"
+msgstr "Страйкер|Страйкеру|Страйкера|Страйкером"
 
 #: STRINGS.NAMES.windmon
 msgctxt "STRINGS.NAMES.windmon"
@@ -34125,7 +34169,7 @@ msgstr "<p bind='Controls.Digital.ACTION' color=0> Отримати набір �
 #: STRINGS.UI.META_PROGRESS.WEAPON_RACK
 msgctxt "STRINGS.UI.META_PROGRESS.WEAPON_RACK"
 msgid "<p bind='Controls.Digital.ACTION' color=0> {weapon} Rack"
-msgstr "<p bind='Controls.Digital.ACTION' color=0> Стійка на якій {weapon}"
+msgstr "<p bind='Controls.Digital.ACTION' color=0> Стійка з {weapon}"
 
 #: STRINGS.UI.MISC.DONE
 msgctxt "STRINGS.UI.MISC.DONE"
@@ -36906,7 +36950,7 @@ msgstr "РІВЕНЬ ЕФЕКТУ: %d"
 #: STRINGS.UI.WEAPONSELECTIONSCREEN.TITLE
 msgctxt "STRINGS.UI.WEAPONSELECTIONSCREEN.TITLE"
 msgid "%s Rack"
-msgstr "Стійка %s"
+msgstr "Стійка з %s"
 
 #: STRINGS.UI.WEAPONSELECTIONSCREEN.UPGRADE_BUTTON
 msgctxt "STRINGS.UI.WEAPONSELECTIONSCREEN.UPGRADE_BUTTON"
@@ -36989,7 +37033,7 @@ msgid "<#BLUE>{name.concept_focus_hit}:</BLUE>\n"
 "• Hit an enemy with the tip of your <#RED>{name.weapon_polearm}</>\n"
 "• Hit multiple enemies with the <#RED>Spinning Drill</>"
 msgstr "<#BLUE>{name.concept_focus_hit}:</BLUE>\n"
-"• Вдарте ворога кінчиком свого <#RED>{name.weapon_polearm}а</>\n"
+"• Вдарте ворога кінчиком свого <#RED>{3:{name.weapon_polearm}}</>\n"
 "• Вдарте кількох ворогів <#RED>Закрученим свердлом</>"
 
 #: STRINGS.WEAPONS.FOCUS_HIT.SHOTPUT
@@ -37116,7 +37160,7 @@ msgstr "<p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> Легка а�
 "<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT> Ухилитись\n"
 "<p bind='Controls.Digital.SKILL' color=LIGHT_TEXT> Навичка\n\n"
 "<#BLUE>Фокусний удар:</BLUE>\n"
-"• Вдарте ворога кінчиком свого {name.weapon_polearm}а\n"
+"• Вдарте ворога кінчиком свого {3:{name.weapon_polearm}}\n"
 "• Вдарте кількох ворогів <#RED>Закрученим свердлом</RED> (<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT>  <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4>  <p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT>)\n"
 
 #: STRINGS.WEAPON_TIPS.TIP.SHOTPUT
