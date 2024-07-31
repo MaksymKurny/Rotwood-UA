@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-07-29 19:49\n"
+"PO-Revision-Date: 2024-07-31 17:30\n"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -626,7 +626,14 @@ msgid "agent:\n"
 " So, it looks like <#RED>{name.sedament}'s</> <#KONJUR>{name.i_konjur_heart}</> gave you the ability to reroll <#RED>{name.concept_relic}</> drops!\n"
 " !agree\n"
 " That's great. It should help as we go back and tackle more <#RED>Frenzy Levels</>."
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !gesture\n"
+" Ха-ха, дякую, Мисливцю.\n"
+" !point\n"
+" Отже, виглядає, що <#KONJUR>{name.i_konjur_heart}</> <#RED>{2:{name.sedament}}</> дало вам можливість переобирати випавшу <#RED>{2:{name.concept_relic}}</>!\n"
+" !agree\n"
+" Це чудово. Це має допомогти, коли ми повернемося до нових <#RED>рівнів божевілля</>."
 
 #: Convo.after_insert_heart_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_1B
 msgctxt "Convo.after_insert_heart_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_1B"
@@ -1485,7 +1492,14 @@ msgid "agent:\n"
 " Though every respectable {name.job_konjurist} worked for <#RED>{name.npc_grandpa} {name.flitt_lastname}</>.\n"
 " !shrug\n"
 " Maybe that's why you're confused."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" Га? Ні. Ми просто вчені, які вивчають <#KONJUR>{name.konjur}</>.\n"
+" !think\n"
+" Хоча кожен поважний {name.job_konjurist} працював на <#RED>{name.npc_grandpa}а {name.flitt_lastname}а</>.\n"
+" !shrug\n"
+" Можливо, тому ви й заплуталися."
 
 #: Convo.dgn_2_what_are_teffrites_powerupgrade.HUB0.convo.giver.STATE_0.ANSWER_2
 msgctxt "Convo.dgn_2_what_are_teffrites_powerupgrade.HUB0.convo.giver.STATE_0.ANSWER_2"
@@ -1497,7 +1511,14 @@ msgid "agent:\n"
 " Kind of makes me wonder what I do this all for.\n"
 " !gesture\n"
 " Anyway, unless you need an <#RED>Upgrade</>, one of my experiments should catalyze soon and I'd like to watch the reaction."
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!dejected\n"
+"Гадаю, кілька років достатньо, щоб усі забули генія свого покоління.\n"
+"!notebook\n"
+"Це змушує мене замислитися, навіщо я все це роблю.\n"
+"!gesture\n"
+"У будь-якому разі, якщо тобі не потрібне <#RED>покращення</>, один з моїх експериментів має скоро завершитися, і я б хотів подивитись на реакцію."
 
 #: Convo.dgn_2_what_are_teffrites_powerupgrade.HUB0.convo.giver.STATE_0.BYE
 msgctxt "Convo.dgn_2_what_are_teffrites_powerupgrade.HUB0.convo.giver.STATE_0.BYE"
@@ -1507,7 +1528,7 @@ msgstr "Звичайно. Побачимося, {name.npc_konjurist}."
 #: Convo.dgn_2_what_are_teffrites_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_2_what_are_teffrites_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_1"
 msgid "I was wondering... are \"{name_multiple.job_konjurist}\" like, an organization or something?"
-msgstr ""
+msgstr "Я хотів запитати... \"{name_multiple.job_konjurist}\" це, типу, організація чи щось таке?"
 
 #: Convo.dgn_2_what_are_teffrites_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_2A
 msgctxt "Convo.dgn_2_what_are_teffrites_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_2A"
@@ -1517,7 +1538,7 @@ msgstr "Звучить знайомо."
 #: Convo.dgn_2_what_are_teffrites_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_2B
 msgctxt "Convo.dgn_2_what_are_teffrites_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_2B"
 msgid "Should I know who that is?"
-msgstr ""
+msgstr "Чи повинен я знати, хто це?"
 
 #: Convo.dgn_3_who_is_mulligan_powerupgrade.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.dgn_3_who_is_mulligan_powerupgrade.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -1618,7 +1639,7 @@ msgstr "Побачимося, {name.npc_konjurist}."
 #: Convo.dgn_4_research_focus_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_4_research_focus_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_1"
 msgid "What are you studying out here, anyway?"
-msgstr ""
+msgstr "Що ти взагалі тут вивчаєш?"
 
 #: Convo.dgn_4_research_focus_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_2
 msgctxt "Convo.dgn_4_research_focus_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_2"
