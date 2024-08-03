@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-08-01 17:55\n"
+"PO-Revision-Date: 2024-08-03 08:48\n"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -2686,7 +2686,11 @@ msgid "agent:\n"
 " <z 0.8>Chwee quaw?</z>\n"
 " !eyeroll\n"
 " <z 0.8>Quaw <#RED>Kwee Kwee Chwee</> queep.</z>"
-msgstr ""
+msgstr "agent:\n"
+" !shrug\n"
+"<z 0.8>Чвіі кву?</z>\n"
+"!eyeroll\n"
+" <z 0.8>Кву, <#RED>Кві Кві Кві</> квіп.</z>"
 
 #: Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.ANSWER_2A
 msgctxt "Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.ANSWER_2A"
@@ -2748,23 +2752,25 @@ msgstr "Радий тебе бачити, {name.shop_magpie}.\n"
 msgctxt "Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A"
 msgid "<#RED>{condition_1}</> before the first Market?\n"
 "Hard, but fair."
-msgstr ""
+msgstr "<#RED>{condition_1}</> до першого ринку?\n"
+"Важко, але справедливо."
 
 #: Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B
 msgctxt "Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B"
 msgid "What'll the second Market Challenge be?"
-msgstr ""
+msgstr "Яким буде друге ринкове випробування?"
 
 #: Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END
 msgctxt "Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END"
 msgid "Welp. Let's see if I'm up to your challenge then, eh?"
-msgstr ""
+msgstr "Ну що ж. Подивимось, чи під силу мені твоє випробування, ех?"
 
 #: Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END_ALT
 msgctxt "Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END_ALT"
 msgid "Y'know, I would <i>also</i> like to <#RED>{condition_2}</> if I'm honest.\n"
 "See ya there!"
-msgstr ""
+msgstr "Знаєш, я б <i>також</i> хотів <#RED>{condition_2}</>, якщо чесно.\n"
+"Побачимось там!"
 
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.ANSWER_1"
