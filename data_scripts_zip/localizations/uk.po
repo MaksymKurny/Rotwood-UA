@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-08-08 16:49\n"
+"PO-Revision-Date: 2024-08-09 16:58\n"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -2940,12 +2940,17 @@ msgid "agent:\n"
 " I doth use them to fuel mine forge and maketh more pieces.\n"
 " !closedeyes\n"
 " My craft is my life, you see."
-msgstr ""
+msgstr "agent:\n"
+"!happy\n"
+"!gesture\n"
+"Я використовую їх для розпалювання моєї кузні та створення нових частин.\n"
+"!closedeyes\n"
+"Моє ремесло — моє життя, як бачите."
 
 #: Convo.dgn_corestones_market.HUB0.convo.giver.STATE_0.OPT_END
 msgctxt "Convo.dgn_corestones_market.HUB0.convo.giver.STATE_0.OPT_END"
 msgid "Err, okay. Back to browsing."
-msgstr ""
+msgstr "Емм, добре. Повернемося до пошуку."
 
 #: Convo.dgn_corestones_market.HUB0.convo.giver.STATE_0.OPT_END_RESPONSE
 msgctxt "Convo.dgn_corestones_market.HUB0.convo.giver.STATE_0.OPT_END_RESPONSE"
@@ -2959,7 +2964,7 @@ msgstr "agent:\n"
 #: Convo.dgn_corestones_market.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_corestones_market.HUB0.convo.giver.STATE_0.QUESTION_1"
 msgid "What do you do with all those {name_multiple.konjur_soul_lesser} I give you anyway?"
-msgstr ""
+msgstr "Що ти робиш з усіма цими {3:{name_multiple.konjur_soul_lesser}}, що я тобі даю?"
 
 #: Convo.dgn_culver_nickname_market.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.dgn_culver_nickname_market.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -2992,14 +2997,21 @@ msgid "agent:\n"
 " Yes!\n"
 " !eyeroll\n"
 " Oh, cometh on. Don't pretend you don't like it."
-msgstr ""
+msgstr "agent:\n"
+"!happy\n"
+"!point\n"
+"Так!\n"
+"!eyeroll\n"
+"Ой, ну ж бо. Не прикидайтесь, що вам це не подобається."
 
 #: Convo.dgn_culver_nickname_market.HUB0.convo.giver.STATE_0.ANSWER_2B
 msgctxt "Convo.dgn_culver_nickname_market.HUB0.convo.giver.STATE_0.ANSWER_2B"
 msgid "agent:\n"
 " !closedeyes\n"
 " Bless your heart."
-msgstr ""
+msgstr "agent:\n"
+"!closedeyes\n"
+"Благословляю ваше серце."
 
 #: Convo.dgn_culver_nickname_market.HUB0.convo.giver.STATE_0.ANSWER_2C
 msgctxt "Convo.dgn_culver_nickname_market.HUB0.convo.giver.STATE_0.ANSWER_2C"
@@ -3007,12 +3019,15 @@ msgid "agent:\n"
 " !happy\n"
 " !wink\n"
 " Fare thee well, little culver!"
-msgstr ""
+msgstr "agent:\n"
+"!happy\n"
+"!wink\n"
+"Прощавай, маленький голубе!"
 
 #: Convo.dgn_culver_nickname_market.HUB0.convo.giver.STATE_0.OPT_END
 msgctxt "Convo.dgn_culver_nickname_market.HUB0.convo.giver.STATE_0.OPT_END"
 msgid "Okay. Back to browsing."
-msgstr ""
+msgstr "Добре. Повернемося до пошуку."
 
 #: Convo.dgn_culver_nickname_market.HUB0.convo.giver.STATE_0.OPT_END_RESPONSE
 msgctxt "Convo.dgn_culver_nickname_market.HUB0.convo.giver.STATE_0.OPT_END_RESPONSE"
@@ -3031,17 +3046,17 @@ msgstr "Чому ти називаєш мене \"голубчиком\"?"
 #: Convo.dgn_culver_nickname_market.HUB0.convo.giver.STATE_0.QUESTION_2A
 msgctxt "Convo.dgn_culver_nickname_market.HUB0.convo.giver.STATE_0.QUESTION_2A"
 msgid "Oh! You've been patronizing me."
-msgstr ""
+msgstr "О! Ти мене підколюєш."
 
 #: Convo.dgn_culver_nickname_market.HUB0.convo.giver.STATE_0.QUESTION_2B
 msgctxt "Convo.dgn_culver_nickname_market.HUB0.convo.giver.STATE_0.QUESTION_2B"
 msgid "...I take down {name_multiple.rot_boss}, you know."
-msgstr ""
+msgstr "..Я ж переможу {2:{name_multiple.rot_boss}}, ти це знаєш."
 
 #: Convo.dgn_culver_nickname_market.HUB0.convo.giver.STATE_0.QUESTION_2C
 msgctxt "Convo.dgn_culver_nickname_market.HUB0.convo.giver.STATE_0.QUESTION_2C"
 msgid "I'm leaving now."
-msgstr ""
+msgstr "Я вже йду."
 
 #: Convo.dgn_do_you_live_here_potion.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.dgn_do_you_live_here_potion.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -3100,7 +3115,7 @@ msgstr "agent:\n"
 #: Convo.dgn_encounter_rots_market.HUB0.convo.giver.STATE_0.OPT_END
 msgctxt "Convo.dgn_encounter_rots_market.HUB0.convo.giver.STATE_0.OPT_END"
 msgid "Okay. Back to browsing."
-msgstr ""
+msgstr "Добре. Повернемося до пошуку."
 
 #: Convo.dgn_encounter_rots_market.HUB0.convo.giver.STATE_0.OPT_END_RESPONSE
 msgctxt "Convo.dgn_encounter_rots_market.HUB0.convo.giver.STATE_0.OPT_END_RESPONSE"
@@ -3810,7 +3825,10 @@ msgid "agent:\n"
 " !neutral\n"
 " !gesture\n"
 " To prevent <#KONJUR>{name.konjur}</> inhalation."
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!gesture\n"
+"Щоб <#KONJUR>{name.konjur}</> не вдихався."
 
 #: Convo.dgn_mask_powerupgrade.HUB0.convo.giver.STATE_0.ANSWER_2
 msgctxt "Convo.dgn_mask_powerupgrade.HUB0.convo.giver.STATE_0.ANSWER_2"
@@ -3819,17 +3837,21 @@ msgid "agent:\n"
 " Haha. <i>Oh</i> yeah.\n"
 " !dubious\n"
 " Anyway, want anything <#RED>Upgraded</>?"
-msgstr ""
+msgstr "agent:\n"
+"!notebook\n"
+"Ха-ха. <i>О</i> так.\n"
+"!dubious\n"
+"До речі, хочете щось <#RED>покращити</>?"
 
 #: Convo.dgn_mask_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_mask_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_1"
 msgid "Why do you wear that mask, {name.npc_konjurist}?"
-msgstr ""
+msgstr "Чому ти носиш цю маску, {name.npc_konjurist}?"
 
 #: Convo.dgn_mask_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_2
 msgctxt "Convo.dgn_mask_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_2"
 msgid "Err, I consume {name.konjur} regularly. Should I be worried?"
-msgstr ""
+msgstr "Емм, я регулярно споживаю {name.konjur}. Мені слід турбуватися?"
 
 #: Convo.dgn_mystery.ATTRACT0.chat_only.giver.STATE_0.OPT_NEXT_TIME
 msgctxt "Convo.dgn_mystery.ATTRACT0.chat_only.giver.STATE_0.OPT_NEXT_TIME"
@@ -4625,7 +4647,10 @@ msgid "agent:\n"
 " !happy\n"
 " !greet\n"
 " 'Ta!"
-msgstr ""
+msgstr "agent:\n"
+"!happy\n"
+"!greet\n"
+"Дякую!"
 
 #: Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.ANSWER_2A
 msgctxt "Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.ANSWER_2A"
@@ -4641,7 +4666,18 @@ msgid "agent:\n"
 " Good luck on your search my friend!\n"
 " !greet\n"
 " 'Ta!"
-msgstr ""
+msgstr "agent:\n"
+"!happy\n"
+"!clap\n"
+"Дякую!\n"
+"!neutral\n"
+"!think\n"
+"Ну, боюся, я нічого не бачив і не чув.\n"
+"!happy\n"
+"!gesture\n"
+"Удачі вам у пошуках, друже!\n"
+"!greet\n"
+"Дякую!"
 
 #: Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.ANSWER_2B
 msgctxt "Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.ANSWER_2B"
@@ -4651,37 +4687,42 @@ msgid "agent:\n"
 " That's your choice, no harm no foul!\n"
 " !point\n"
 " Good luck on your sssearch, kid!"
-msgstr ""
+msgstr "agent:\n"
+"!happy\n"
+"!shrug\n"
+"Це ваш вибір, без шкоди для здоров'я!\n"
+"!point\n"
+"Удачі у пошуках, малий!"
 
 #: Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.QUESTION_1A_ARMOURSMITH
 msgctxt "Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.QUESTION_1A_ARMOURSMITH"
 msgid "Actually, have you seen our {name.job_armorsmith}? She's lost somewhere in these woods!"
-msgstr ""
+msgstr "До речі, ти бачили нашого {3:{name.job_armorsmith}}? Вона загубилася десь у цих лісах!"
 
 #: Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.QUESTION_1A_BLACKSMITH
 msgctxt "Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.QUESTION_1A_BLACKSMITH"
 msgid "Actually, have you seen our {name.job_blacksmith}? He's lost somewhere in these woods!"
-msgstr ""
+msgstr "До речі, ти бачили нашого {2:{name.job_blacksmith}}? Він загубився десь у цих лісах!"
 
 #: Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.QUESTION_1A_TWOFRIENDS
 msgctxt "Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.QUESTION_1A_TWOFRIENDS"
 msgid "Hey-- Have you seen our {name.job_blacksmith} and {name.job_armorsmith}? They're lost in these woods!"
-msgstr ""
+msgstr "Гей... Ти бачив нашого {3:{name.job_blacksmith}} і {2:{name.job_armorsmith}}? Вони загубилися в цих лісах!"
 
 #: Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.QUESTION_1B
 msgctxt "Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.QUESTION_1B"
 msgid "Hm. Well, see you around, {name.npc_doc_firstname}."
-msgstr ""
+msgstr "Хм. Що ж, побачимося, {name.npc_doc_firstname}."
 
 #: Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.QUESTION_2A
 msgctxt "Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.QUESTION_2A"
 msgid "<#RED>[<p img='images/ui_ftf_icons/konjur.tex'> 2 {name.konjur}]</> Uh, okay... Here you go."
-msgstr ""
+msgstr "<#RED>[<p img='images/ui_ftf_icons/konjur.tex'> 2 {2:{name.konjur}}]</> Ух, добре... тримай."
 
 #: Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.QUESTION_2B
 msgctxt "Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.QUESTION_2B"
 msgid "Sigh. Nevermind."
-msgstr ""
+msgstr "Зітхнути. Нічого страшного."
 
 #: Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.TALK2_CAN_BUY
 msgctxt "Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.TALK2_CAN_BUY"
@@ -4689,7 +4730,10 @@ msgid "agent:\n"
 " !happy\n"
 " !dubious\n"
 " [recipe:admission_recipe] Only a handful of <#KONJUR>{name.i_konjur}</> a pop!"
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !dubious\n"
+" [recipe:admission_recipe] Лише жменька <#KONJUR>{2:{name.i_konjur}}</> за раз!"
 
 #: Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.TALK2_NO_RESOURCES
 msgctxt "Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.TALK2_NO_RESOURCES"
@@ -4697,7 +4741,10 @@ msgid "agent:\n"
 " !neutral\n"
 " !dubious\n"
 " But you don't have enough <#KONJUR>{name.i_konjur}</>."
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!dubious\n"
+"Але у вас недостатньо <#KONJUR>{2:{name.i_konjur}}</>."
 
 #: Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.TALK2_NO_SPACE
 msgctxt "Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.TALK2_NO_SPACE"
@@ -4707,7 +4754,12 @@ msgid "agent:\n"
 " But your flask's still full. I'm afraid this is a bring-your-own container sort of operation.\n"
 " !agree\n"
 " I care deeply about the environment, you know."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" Але ваша фляга ще повна. Боюся, що це операція типу \"принеси свій контейнер\".\n"
+" !agree\n"
+" Знаєте, я дуже дбаю про навколишнє середовище."
 
 #: Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.TALK3
 msgctxt "Convo.dgn_seen_missing_friends_potion.HUB0.convo.giver.STATE_0.TALK3"
@@ -4718,7 +4770,13 @@ msgid "agent:\n"
 " !happy\n"
 " !agree\n"
 " [recipe:hoggins_tip_recipe] For a sssmall fee, I'd be happy to tell you everything I know."
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!shocked\n"
+"Боже мій! Який жах! Справді жахливо!\n"
+"!happy\n"
+"!agree\n"
+" [recipe:hoggins_tip_recipe] За невелику плату я буду радий розповісти вам все, що знаю."
 
 #: Convo.dgn_shop_powerupgrade.HUB0.shop.giver.STATE_0.OPT_UPGRADE
 msgctxt "Convo.dgn_shop_powerupgrade.HUB0.shop.giver.STATE_0.OPT_UPGRADE"
@@ -4728,7 +4786,7 @@ msgstr "<#RED>[Покращити {2:{name.concept_relic}}]</> Мені треб
 #: Convo.dgn_shop_powerupgrade.HUB0.shop.giver.STATE_0.TT_NO_POWERS
 msgctxt "Convo.dgn_shop_powerupgrade.HUB0.shop.giver.STATE_0.TT_NO_POWERS"
 msgid "You have no Powers"
-msgstr ""
+msgstr "У вас немає сил"
 
 #: Convo.dgn_succeed_first_time_magpie.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.dgn_succeed_first_time_magpie.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -4869,7 +4927,7 @@ msgstr "agent:\n"
 #: Convo.dgn_understand_nimble_market.HUB0.convo.giver.STATE_0.QUESTION_1A
 msgctxt "Convo.dgn_understand_nimble_market.HUB0.convo.giver.STATE_0.QUESTION_1A"
 msgid "What, like it's hard?"
-msgstr ""
+msgstr "Що, це важко?"
 
 #: Convo.dgn_understand_nimble_market.HUB0.convo.giver.STATE_0.QUESTION_1B
 msgctxt "Convo.dgn_understand_nimble_market.HUB0.convo.giver.STATE_0.QUESTION_1B"
@@ -4879,12 +4937,12 @@ msgstr "Я маю на увазі, я розумію суть того, що в�
 #: Convo.dgn_understand_nimble_market.HUB0.convo.giver.STATE_0.QUESTION_1C
 msgctxt "Convo.dgn_understand_nimble_market.HUB0.convo.giver.STATE_0.QUESTION_1C"
 msgid "Haha, I hadn't noticed. Yeah, I guess I can."
-msgstr ""
+msgstr "Ха-ха, я й не помічав. Так, мабуть, я можу."
 
 #: Convo.dgn_understand_nimble_market.HUB0.convo.giver.STATE_0.QUESTION_END
 msgctxt "Convo.dgn_understand_nimble_market.HUB0.convo.giver.STATE_0.QUESTION_END"
 msgid "O-oh, okay. Nice chatting, {name.npc_market_merchant}!"
-msgstr ""
+msgstr "О-о, добре. Приємно було поспілкуватися, {name.npc_market_merchant}!"
 
 #: Convo.dgn_whats_nimble_market.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.dgn_whats_nimble_market.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -4920,7 +4978,10 @@ msgid "agent:\n"
 " !happy\n"
 " !laugh\n"
 " Bwe-heu-heu, yeah, I cut that tale of whole cloth."
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !laugh\n"
+" Бве-хеу-хеу, я придумав цю історію на ходу."
 
 #: Convo.dgn_whats_nimble_market.HUB0.convo.giver.STATE_0.ANSWER_3
 msgctxt "Convo.dgn_whats_nimble_market.HUB0.convo.giver.STATE_0.ANSWER_3"
@@ -5445,7 +5506,10 @@ msgid "agent:\n"
 " !happy\n"
 " !gesture\n"
 " Anyway, welcome to <#BLUE>{name.sedament_tundra}</>!"
-msgstr ""
+msgstr "agent:\n"
+"!happy\n"
+"!gesture\n"
+"Однак, ласкаво просимо до <#BLUE>{2:{name.sedament_tundra}}</>!"
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_2A
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_2A"
@@ -5458,7 +5522,15 @@ msgid "agent:\n"
 " If the Foxtails' expedition is successful, maybe we'll be able to reopen it one day when we rebuild.\n"
 " !nervous\n"
 " But, uh. I'm getting ahead of myself."
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!gesture\n"
+"Це стара гранітна шахта. Вона постачала весь камінь, з якого були збудовані наші міста.\n"
+"!happy\n"
+"!point\n"
+"Якщо експедиція Лисячих хвостів буде успішною, можливо, ми зможемо знову відкрити її одного дня, коли будемо відбудовуватися.\n"
+"!nervous\n"
+"Але, е-е. Я забігаю наперед."
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_2A_ALT
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_2A_ALT"
@@ -5471,7 +5543,15 @@ msgid "agent:\n"
 " If the Foxtails' expedition is successful, maybe we'll be able to reopen it one day.\n"
 " !nervous\n"
 " But, uh. I'm getting ahead of myself."
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!gesture\n"
+"Це стара гранітна шахта. Вона постачала весь камінь, з якого були збудовані наші міста.\n"
+"!happy\n"
+"!point\n"
+"Якщо експедиція Лисячих хвостів буде успішною, можливо, ми зможемо знову відкрити її одного дня.\n"
+"!nervous\n"
+"Але, е-е. Я забігаю наперед."
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_2B
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_2B"
@@ -5481,7 +5561,12 @@ msgid "agent:\n"
 " Yeah. And this <#BLUE>Cold</> isn't just uncomfortable, it's also hazardous.\n"
 " !point\n"
 " Spend too long in it and you'll <#RED>Freeze</> solid, leaving you totally defenseless and unable to move!"
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!agree\n"
+"Так. І цей <#BLUE>холод</> не просто незручний, він також небезпечний.\n"
+"!point\n"
+"Якщо пробути в ньому занадто довго, ви <#RED>замерзнете</>, залишаючи себе беззахисним і неспроможним рухатися!"
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_2C
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_2C"
@@ -5491,7 +5576,12 @@ msgid "agent:\n"
 " Um... you're not gonna believe me...\n"
 " !shrug\n"
 " The <#RED>{name.rot_boss}</> is a bunch of rocks."
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!dubious\n"
+"Ем... Ви мені не повірите...\n"
+"!shrug\n"
+"Але <#RED>{name.rot_boss}</> — це купа каміння."
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_3A
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_3A"
@@ -5503,7 +5593,14 @@ msgid "agent:\n"
 " Standing by one will warm you up, though... even the braziers can get <#RED>Frozen</> over sometimes.\n"
 " !shrug\n"
 " If that happens, give them a few good whacks. That'll get them burning again."
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!gesture\n"
+"По всьому <#BLUE>кар’єру</> розкидані жаровні, які на щастя, ще палають.\n"
+"!point\n"
+"Стоячи поруч, ви зігрієтесь, але... навіть жаровні інколи можуть <#RED>замерзнути</>.\n"
+"!shrug\n"
+"Якщо це трапиться, дайте їм кілька добрих ударів. Це знову запалить їх."
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_3B
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_3B"
@@ -5511,7 +5608,10 @@ msgid "agent:\n"
 " !neutral\n"
 " !point\n"
 " Wiggle."
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!point\n"
+"Ворушіться."
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_4A
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_4A"
@@ -5519,7 +5619,10 @@ msgid "agent:\n"
 " !happy\n"
 " !shrug\n"
 " Wiggle. Press a bunch of buttons until you break free."
-msgstr ""
+msgstr "agent:\n"
+"!happy\n"
+"!shrug\n"
+"Ворушіться. Натискайте купу кнопок, поки не звільнитеся."
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_5A
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_5A"
@@ -5529,7 +5632,12 @@ msgid "agent:\n"
 " I did too. But then again, I'm no <#BLUE>{name.job_konjurist}</>, so who knows?\n"
 " !point\n"
 " We'll have to get up there and investigate."
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!shrug\n"
+"Я теж так думав. Але знову ж таки, я не <#BLUE>{name.job_konjurist}</>, тому хто знає?\n"
+"!point\n"
+"Нам доведеться піднятися туди й розібратися."
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_5B
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_5B"
@@ -5540,7 +5648,13 @@ msgid "agent:\n"
 " !neutral\n"
 " !point\n"
 " But I know I've seen that pile of rubble get up and shamble around."
-msgstr ""
+msgstr "agent:\n"
+"!happy\n"
+"!gesture\n"
+"Думаю, нам просто доведеться дістатися туди, щоб ви побачили самі.\n"
+"!neutral\n"
+"!point\n"
+"Але я знаю, що бачив, як ця купа уламків встає і рухається."
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_EARLY_END
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_EARLY_END"
@@ -5550,7 +5664,12 @@ msgid "agent:\n"
 " Oh yeah, combat cardio will definitely warm you up.\n"
 " !greet\n"
 " See ya in there!"
-msgstr ""
+msgstr "agent:\n"
+"!happy\n"
+"!agree\n"
+"О, так, бойове кардіо вас точно зігріє.\n"
+"!greet\n"
+"Побачимося там!"
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_END
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.ANSWER_END"
@@ -5561,72 +5680,78 @@ msgid "agent:\n"
 " !happy\n"
 " !greet\n"
 " See ya in there!"
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!dejected\n"
+"О, дякую небесам, я можу повернутися на тепле сидіння {2:{name.damselfly}}.\n"
+"!happy\n"
+"!greet\n"
+"Побачимося там!"
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_1"
 msgid "It's cool, I'm good."
-msgstr ""
+msgstr "Нічого, я в порядку."
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_2A
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_2A"
 msgid "What is this place, exactly?"
-msgstr ""
+msgstr "Що це за місце, власне?"
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_2A_ALT
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_2A_ALT"
 msgid "So, what is this place exactly?"
-msgstr ""
+msgstr "Тож, що це взагалі за місце?"
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_2B
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_2B"
 msgid "Yeesh! I'm freezing my butt off!"
-msgstr ""
+msgstr "Тааакс! Я замерзаю!"
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_2C
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_2C"
 msgid "Can you tell me about the {name.rot_boss} here?"
-msgstr ""
+msgstr "Можеш розповісти мені який тут {name.rot_boss}?"
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_2C_ALT
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_2C_ALT"
 msgid "On that note, what's the {name.rot_boss} here?"
-msgstr ""
+msgstr "З цього приводу, що тут за {name.rot_boss}?"
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_3A
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_3A"
 msgid "How can I avoid Freezing?"
-msgstr ""
+msgstr "Як уникнути замерзання?"
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_3B
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_3B"
 msgid "Um. What should I do if I get Frozen?"
-msgstr ""
+msgstr "Ем. Що робити, якщо я замерзну?"
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_4A
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_4A"
 msgid "Wiggle?"
-msgstr ""
+msgstr "Ворушиться?"
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_5A
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_5A"
 msgid "I thought {name.konjur} only affected living things?"
-msgstr ""
+msgstr "Я думав, {name.konjur} впливає лише на живі істоти."
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_5B
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_5B"
 msgid "You're right, I don't believe you."
-msgstr ""
+msgstr "Ти правий, я не вірю тобі."
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_EARLY_END
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_EARLY_END"
 msgid "Sorry, it's cold. I'm gonna get moving."
-msgstr ""
+msgstr "Вибач, тут холодно. Я піду."
 
 #: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_END
 msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.QUESTION_END"
 msgid "Okay, I've heard enough. Let's go!"
-msgstr ""
+msgstr "Гаразд, досить. Ходімо!"
 
 #: Convo.first_dgn_visit_scout_thchr.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.first_dgn_visit_scout_thchr.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -6744,7 +6869,10 @@ msgid "agent:\n"
 " !neutral\n"
 " !agree\n"
 " Oh, <#BLUE>{name.npc_armorsmith}</> and <#BLUE>{name.npc_blacksmith}</>?"
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!agree\n"
+"Ох, <#BLUE>{name.npc_armorsmith}</> і <#BLUE>{name.npc_blacksmith}</>?"
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_1B
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_1B"
@@ -6752,7 +6880,10 @@ msgid "agent:\n"
 " !happy\n"
 " !clap\n"
 " The {name.damselfly} awaits!"
-msgstr ""
+msgstr "agent:\n"
+"!happy\n"
+"!clap\n"
+"{name.damselfly} чекає на вас!"
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_2A
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_2A"
@@ -6766,7 +6897,16 @@ msgid "agent:\n"
 " !disagree\n"
 " She tends to stand out wherever she goes.\n"
 " !neutral"
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!think\n"
+"Ну, у неї великий рожевий пучок волосся і вона носить із собою інструмент для роботи зі шкірою.\n"
+"!shrug\n"
+"Досить ексцентрична. Ви точно її не пропустите.\n"
+"!happy\n"
+"!disagree\n"
+"Вона завжди виділяється, куди б не пішла.\n"
+"!neutral"
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_2B
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_2B"
@@ -6778,7 +6918,14 @@ msgid "agent:\n"
 " Make sure you keep your eyes peeled for him.\n"
 " !gesture\n"
 " I'm not sure he'd even call out to you if he spotted you in the field! Haha."
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!shrug\n"
+"Він небагатослівний і не той, хто здіймає галас.\n"
+"!point\n"
+"Обов'язково тримайте очі відкритими, шукаючи його.\n"
+"!gesture\n"
+"Не впевнений, що він навіть покличе вас, якщо помітить у полі! Ха-ха."
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_2C
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_2C"
@@ -6835,12 +6982,15 @@ msgid "agent:\n"
 " !neutral\n"
 " !dubious\n"
 " ..."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" ..."
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_1A
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_1A"
 msgid "Could you tell me a bit about the missing folks first?"
-msgstr ""
+msgstr "Можеш розказати трохи про тих зник?"
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_1B
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_1B"
