@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-08-09 16:58\n"
+"PO-Revision-Date: 2024-08-10 17:01\n"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -6939,7 +6939,16 @@ msgid "agent:\n"
 " And trust me. You'll want the upgrades.\n"
 " !dubious\n"
 " But... I hope you don't just want to rescue them because of what they can do for you."
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!gesture\n"
+"Як я вже казав, я найняв їх як {3:{name.job_armorsmith}} і {2:{name.job_blacksmith}}, відповідно.\n"
+"!point\n"
+"Вам знадобляться вони обидва, якщо ви хочете вдосконалити все ваше спорядження.\n"
+"!gesture\n"
+"І повірте мені. Вам знадобляться ці покращення.\n"
+"!dubious\n"
+"Але... Сподіваюся, ви хочете врятувати їх не лише через те, що вони можуть для вас зробити."
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_2D
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_2D"
@@ -6947,7 +6956,10 @@ msgid "agent:\n"
 " !happy\n"
 " !agree\n"
 " Great! I'll watch your back!"
-msgstr ""
+msgstr "agent:\n"
+"!happy\n"
+"!agree\n"
+"Чудово! Я прикрию вас!"
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_2D_ALT
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_2D_ALT"
@@ -6966,7 +6978,10 @@ msgid "agent:\n"
 " !happy\n"
 " !agree\n"
 " Yeah, understandable. Hopefully I didn't offend."
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!agree\n"
+"Так. Вирушаймо."
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_3B
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_3B"
@@ -6974,7 +6989,10 @@ msgid "agent:\n"
 " !happy\n"
 " !shrug\n"
 " Fair enough. Your life's on the line, after all."
-msgstr ""
+msgstr "agent:\n"
+"!happy\n"
+"!agree\n"
+"Так, розумію. Сподіваюся, я вас не образив."
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_3C
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_3C"
@@ -6995,67 +7013,67 @@ msgstr "Можеш розказати трохи про тих зник?"
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_1B
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_1B"
 msgid "I sure am!"
-msgstr ""
+msgstr "Звісно!"
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_2A
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_2A"
 msgid "Yeah, tell me about {name.npc_armorsmith}."
-msgstr ""
+msgstr "Так, розкажи про {2:{name.npc_armorsmith}}."
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_2A_ALT
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_2A_ALT"
 msgid "And {name.npc_armorsmith}?"
-msgstr ""
+msgstr "І про {2:{name.npc_armorsmith}}?"
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_2A_ALT2
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_2A_ALT2"
 msgid "Tell me about {name.npc_armorsmith}."
-msgstr ""
+msgstr "Розкажи про {2:{name.npc_armorsmith}}."
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_2B
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_2B"
 msgid "What's {name.npc_blacksmith} like?"
-msgstr ""
+msgstr "Що скажеш про {2:{name.npc_blacksmith}}?"
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_2B_ALT
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_2B_ALT"
 msgid "And {name.npc_blacksmith}?"
-msgstr ""
+msgstr "І про {2:{name.npc_blacksmith}}?"
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_2C
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_2C"
 msgid "Why do we need them?"
-msgstr ""
+msgstr "Чому вони нам потрібні?"
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_2C_ALT
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_2C_ALT"
 msgid "So, why do we need them?"
-msgstr ""
+msgstr "То чому вони нам потрібні?"
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_2D
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_2D"
 msgid "Nevermind, let's get back out there!"
-msgstr ""
+msgstr "Забудь, нумо повернімось туди!"
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_2D_ALT
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_2D_ALT"
 msgid "Okay. I'm ready to get back out there."
-msgstr ""
+msgstr "Добре. Я готовий повернутися туди."
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_3A
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_3A"
 msgid "Sorry, I didn't mean it like that. I was just curious."
-msgstr ""
+msgstr "Вибач, я не це мав на увазі. Мені просто цікаво."
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_3B
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_3B"
 msgid "It's more like an added bonus."
-msgstr ""
+msgstr "Це більше як приємний бонус."
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_3C
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_3C"
 msgid "Nooo... Of cooourse not... Ha-ha..."
-msgstr ""
+msgstr "Нііі... Звісно ж нііі... Ха-ха..."
 
 #: Convo.twn_cannon_explainer.HUB0.convo.giver.STATE_0.ADDEND
 msgctxt "Convo.twn_cannon_explainer.HUB0.convo.giver.STATE_0.ADDEND"
