@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-08-10 17:01\n"
+"PO-Revision-Date: 2024-08-17 07:16\n"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -6231,21 +6231,27 @@ msgctxt "Convo.pop_quiz_dodge.HUB0.convo.giver.STATE_0.ANSWER_3A"
 msgid "agent:\n"
 " !agree\n"
 " Remember, it's easy to regret a swing, but you'll never regret a <#RED>{name.concept_dodge}</>."
-msgstr ""
+msgstr "agent:\n"
+"!agree\n"
+"Пам'ятайте, легко шкодувати про удар, але ви ніколи не пошкодуєте про <#RED>{name.concept_dodge}</>."
 
 #: Convo.pop_quiz_dodge.HUB0.convo.giver.STATE_0.ANSWER_3B
 msgctxt "Convo.pop_quiz_dodge.HUB0.convo.giver.STATE_0.ANSWER_3B"
 msgid "agent:\n"
 " !agree\n"
 " It's easy to regret a swing, but you'll never regret a <#RED>{name.concept_dodge}</>."
-msgstr ""
+msgstr "agent:\n"
+"!agree\n"
+"Легко шкодувати про удар, але ви ніколи не пошкодуєте про <#RED>{name.concept_dodge}</>."
 
 #: Convo.pop_quiz_dodge.HUB0.convo.giver.STATE_0.ANSWER_3C
 msgctxt "Convo.pop_quiz_dodge.HUB0.convo.giver.STATE_0.ANSWER_3C"
 msgid "agent:\n"
 " !agree\n"
 " The more familiar you can get with their patterns, the easier you'll stay alive."
-msgstr ""
+msgstr "agent:\n"
+"!agree\n"
+"Чим краще ви розумієте їхні рухи, тим легше вам буде залишатися живим."
 
 #: Convo.pop_quiz_dodge.HUB0.convo.giver.STATE_0.ANSWER_3D
 msgctxt "Convo.pop_quiz_dodge.HUB0.convo.giver.STATE_0.ANSWER_3D"
@@ -6255,7 +6261,12 @@ msgid "agent:\n"
 " Are you a teacher, Hunter? 'Cause you sure are testing me.\n"
 " !dubious\n"
 " Y'know, I <i>was</i> gonna give you a <#KONJUR>Treat</>, but now I'm not sure if you deserve it."
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!angry\n"
+"Ви вчитель, Мисливцю? Бо ви точно випробовуєте моє терпіння.\n"
+"!dubious\n"
+"Знаєте, я <i>мав</i> намір дати вам <#KONJUR>смаколик</>, але тепер я не впевнений, що ви на нього заслуговуєте."
 
 #: Convo.pop_quiz_dodge.HUB0.convo.giver.STATE_0.ANSWER_4A
 msgctxt "Convo.pop_quiz_dodge.HUB0.convo.giver.STATE_0.ANSWER_4A"
@@ -6265,7 +6276,12 @@ msgid "agent:\n"
 " Sigh. Just take it.\n"
 " !gesture\n"
 " But try not to get clobbered out there, okay? Class dismissed."
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!dejected\n"
+"Охх. Просто візьміть це.\n"
+"!gesture\n"
+"Але постарайтеся не потрапити під удар, гаразд? Заняття закінчено."
 
 #: Convo.pop_quiz_dodge.HUB0.convo.giver.STATE_0.ANSWER_4B
 msgctxt "Convo.pop_quiz_dodge.HUB0.convo.giver.STATE_0.ANSWER_4B"
@@ -8428,7 +8444,7 @@ msgstr "agent:\n"
 #: Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.END_BTN_MAINMENU
 msgctxt "Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.END_BTN_MAINMENU"
 msgid "Just kidding! I hate learning. <i><#RED><z 0.7>(Class dismissed)</></i></z>"
-msgstr "Жартую! Я ненавиджу вчитися. <i><#RED><z 0.7>(Звільнити клас)</></i></z>"
+msgstr "Жартую! Я ненавиджу вчитися. <i><#RED><z 0.7>(Закінчити заняття)</></i></z>"
 
 #: Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.END_BTN_MAINMENU_RESPONSE
 msgctxt "Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.END_BTN_MAINMENU_RESPONSE"
@@ -8444,7 +8460,7 @@ msgstr "agent:\n"
 #: Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.END_BTN_SUBMENU
 msgctxt "Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.END_BTN_SUBMENU"
 msgid "'Kay, that's enough learning. <i><#RED><z 0.7>(Class dismissed)</></i></z>"
-msgstr "Добре, досить вчитися. <i><#RED><z 0.7>(Звільнити клас)</></i></z>"
+msgstr "Добре, досить вчитися. <i><#RED><z 0.7>(Закінчити заняття)</></i></z>"
 
 #: Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.END_BTN_SUBMENU_RESPONSE
 msgctxt "Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.END_BTN_SUBMENU_RESPONSE"
@@ -15886,7 +15902,7 @@ msgstr "agent:\n"
 #: Quest.twn_repeatable_tutorials_dojo.END_BTN_MAINMENU
 msgctxt "Quest.twn_repeatable_tutorials_dojo.END_BTN_MAINMENU"
 msgid "Just kidding! I hate learning. <i><#RED><z 0.7>(Class dismissed)</></i></z>"
-msgstr "Жартую! Я ненавиджу вчитися. <i><#RED><z 0.7>(Звільнити клас)</></i></z>"
+msgstr "Жартую! Я ненавиджу вчитися. <i><#RED><z 0.7>(Закінчити заняття)</></i></z>"
 
 #: Quest.twn_repeatable_tutorials_dojo.END_BTN_MAINMENU_RESPONSE
 msgctxt "Quest.twn_repeatable_tutorials_dojo.END_BTN_MAINMENU_RESPONSE"
@@ -15902,7 +15918,7 @@ msgstr "agent:\n"
 #: Quest.twn_repeatable_tutorials_dojo.END_BTN_SUBMENU
 msgctxt "Quest.twn_repeatable_tutorials_dojo.END_BTN_SUBMENU"
 msgid "'Kay, that's enough learning. <i><#RED><z 0.7>(Class dismissed)</></i></z>"
-msgstr "Добре, досить вчитися. <i><#RED><z 0.7>(Звільнити клас)</></i></z>"
+msgstr "Добре, досить вчитися. <i><#RED><z 0.7>(Закінчити заняття)</></i></z>"
 
 #: Quest.twn_repeatable_tutorials_dojo.END_BTN_SUBMENU_RESPONSE
 msgctxt "Quest.twn_repeatable_tutorials_dojo.END_BTN_SUBMENU_RESPONSE"
