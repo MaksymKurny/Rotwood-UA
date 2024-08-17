@@ -3,62 +3,55 @@ require "util.kstring"
 local select = _G.select
 local assert = _G.assert
 local next = _G.next
+local TheGameContent = _G.TheGameContent
 local STRINGS = _G.STRINGS
 local lume = require "util.lume"
-local macros = require "questral.util.locmacros"
 local strict = require "util.strict"
 local kassert = require "util.kassert"
-local iterator = require "util.iterator"
+local Text = require "widgets.text"
 local LANGUAGE = require "languages.langs"
-local Localization = require "questral.localization"
-local OptionsScreen = require "screens.optionsscreen"
-local contentloader = require "content.contentloader"
-local LOC = require "languages.loc"
-
 local loc = require "questral.util.loc"
+local contentloader = require "content.contentloader"
 
 LANGUAGE.UKRAINIAN = "uk"
-STRINGS.PRETRANSLATED.LANGUAGES[LANGUAGE.UKRAINIAN] = "Українська (Ukrainian)"
-STRINGS.PRETRANSLATED.LANGUAGES_TITLE[LANGUAGE.UKRAINIAN] = "Варіант перекладу"
-STRINGS.PRETRANSLATED.LANGUAGES_BODY[LANGUAGE.UKRAINIAN] = "В якості мови інтерфейсу вибрана українська. Вам потрібен переклад на вашу мову?"
-STRINGS.PRETRANSLATED.LANGUAGES_YES[LANGUAGE.UKRAINIAN] = "Так"
-STRINGS.PRETRANSLATED.LANGUAGES_NO[LANGUAGE.UKRAINIAN] = "Ні"
 
---require("fonts")
---table.insert(_G.FONTS, { filename = "fonts/fallback_full_packed_sdf_uk.zip", alias = "fallback_font"})
---assets = {
---	Asset("FONT", "fonts/fallback_full_packed_sdf_uk.zip")
+--_G.assets = {
+--	Asset("FONT", MODROOT.."fonts/fallback_full_packed_sdf_uk.zip")
 --}
+--
+----_G.UnloadFonts()
+--table.insert(_G.FONTS, { filename = MODROOT.."fonts/fallback_full_packed_sdf_uk.zip", alias = "blockhead"})
+----_G.TheSim:LoadFont(
+----			MODROOT.."fonts/fallback_full_packed_sdf_uk.zip"
+----		)
+--_G.LoadFonts()
 
-LocUpdate = require "loc_update"
-LocUpdate.PATH = MODROOT.."localizations/"
-LocUpdate:CheckUpdate()
+if GetModConfigData("auto_update") then
+	LocUpdate = require "loc_update"
+	LocUpdate.PATH = MODROOT.."localizations/"
+	LocUpdate:CheckUpdate()
+end
 
-Localization:init({
-	id = "uk",
-	incomplete = true,
-	name = "Ukrainian",
-	fonts =
-	{
-		title = { font = "fonts/fallback_full_packed_sdf.zip", sdfthreshold = 0.36, sdfboldthreshold = 0.30 },
-		body = { font = "fonts/fallback_full_packed_sdf.zip", sdfthreshold = 0.4, sdfboldthreshold = 0.33 },
-		button = { font = "fonts/fallback_full_packed_sdf.zip", sdfthreshold = 0.4, sdfboldthreshold = 0.33 },
-		tooltip = { font = "fonts/fallback_full_packed_sdf.zip", sdfthreshold = 0.4, sdfboldthreshold = 0.33 },
-		speech = { font = "fonts/fallback_full_packed_sdf.zip", sdfthreshold = 0.4, sdfboldthreshold = 0.33 },
-	},
-	
-	can_display_italic = true,
-	can_display_bold = false,
-
-	po_filenames = {
-		"localizations/uk.po",
-	},
-
-	default_languages =
-	{
-		"uk",
-	},
-})
+AddClassPostConstruct("screens/mainscreen", function(self, profile, skip_start)
+	local ver_f = _G.io.open(MODROOT.."localizations/version.txt", "r")
+	if ver_f then
+		local bottom_pad = 60
+		local year, month, day = ver_f:read("*all"):match("(%d+)%-(%d+)%-(%d+)")
+		local rev = string.format("ПЕРЕКЛАД ВІД: %02d.%02d", day, month)
+		ver_f:close()
+		
+		self.translatename = self:AddChild(Text(_G.FONTFACE.DEFAULT, 42))
+			:SetGlyphColor(_G.UICOLORS.WHITE)
+			:SetHAlign(_G.ANCHOR_RIGHT)
+			:SetText(rev)
+			:LayoutBounds("right", "top", self)
+			:Offset(-bottom_pad, -bottom_pad)
+			
+		self.updatename
+			:LayoutBounds("right", "top", self)
+			:Offset(-bottom_pad, -bottom_pad * 1.7)
+	end
+end)
 
 local function ReplaceNameInString(str, fns, clear_names)
 	if str:find("{", nil, true) and clear_names == false then -- TODO(PERF): Does skipping gsub for plain strings help load perf?
@@ -155,4 +148,12 @@ function contentloader.PostLoadStrings(...)
 	loc.ReplaceNames(STRINGS.NAMES, {}, {}, {}, true)
 end
 
-LOC.SwapLanguage("uk")
+TheGameContent:GetContentDB():LoadScript("scripts/localizations/ukrainian.lua")
+TheGameContent:SetLanguage()
+TheGameContent:LoadLanguageDisplayElements()
+
+STRINGS.PRETRANSLATED.LANGUAGES[LANGUAGE.UKRAINIAN] = "Українська (Ukrainian)"
+STRINGS.PRETRANSLATED.LANGUAGES_TITLE[LANGUAGE.UKRAINIAN] = "Варіант перекладу"
+STRINGS.PRETRANSLATED.LANGUAGES_BODY[LANGUAGE.UKRAINIAN] = "В якості мови інтерфейсу вибрана українська. Вам потрібен переклад на вашу мову?"
+STRINGS.PRETRANSLATED.LANGUAGES_YES[LANGUAGE.UKRAINIAN] = "Так"
+STRINGS.PRETRANSLATED.LANGUAGES_NO[LANGUAGE.UKRAINIAN] = "Ні"
