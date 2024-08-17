@@ -6,13 +6,13 @@ msgstr ""
 "X-Crowdin-Project: rotwood-ua\n"
 "X-Crowdin-Project-ID: 677142\n"
 "X-Crowdin-Language: uk\n"
-"X-Crowdin-File: strings.pot\n"
-"X-Crowdin-File-ID: 14\n"
+"X-Crowdin-File: /main/strings.pot\n"
+"X-Crowdin-File-ID: 22\n"
 "Project-Id-Version: rotwood-ua\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-08-17 17:34\n"
+"PO-Revision-Date: 2024-08-17 18:14\n"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -16146,8 +16146,8 @@ msgstr "agent:\n"
 " !point\n"
 " Що <i>ЦЕ</i>?"
 
-#: Quest.twn_mannequin_unlock_ea_temp_armorsmith.QUIP.chitchat:[done_any_frenzy,in_quest_twn_mannequin_unlock_ea_temp_armorsmith,in_town,qc_dgn_firstmeeting_armorsmith,role_armorsmith].1
-msgctxt "Quest.twn_mannequin_unlock_ea_temp_armorsmith.QUIP.chitchat:[done_any_frenzy,in_quest_twn_mannequin_unlock_ea_temp_armorsmith,in_town,qc_dgn_firstmeeting_armorsmith,role_armorsmith].1"
+#: Quest.twn_mannequin_unlock_ea_temp_armorsmith.QUIP.chitchat:[done_any_frenzy,in_quest_twn_mannequin_unlock_ea_temp_armorsmith,in_town,role_armorsmith].1
+msgctxt "Quest.twn_mannequin_unlock_ea_temp_armorsmith.QUIP.chitchat:[done_any_frenzy,in_quest_twn_mannequin_unlock_ea_temp_armorsmith,in_town,role_armorsmith].1"
 msgid "agent:\n"
 " !happy\n"
 " !greet\n"
@@ -16156,14 +16156,7 @@ msgid "agent:\n"
 " Okay so like, I'm just gonna give this to you because we're in <#RED>Early Access</>... Someday you'll have to work to unlock it instead.\n"
 " !bliss\n"
 " Buuuut, <#BLUE>{name.npc_scout}</> and I put together something super duper cool for you!"
-msgstr "agent:\n"
-" !happy\n"
-" !greet\n"
-" Ей! Ей-ей-ей, Мисливцю, сюди!\n"
-" !bliss\n"
-" Гаразд, я просто дам вам це, тому що ми в <#RED>ранньому доступі</>... Колись вам доведеться попрацювати, щоб розблокувати його.\n"
-" !bliss\n"
-" Алееее, <#BLUE>{name.npc_scout}</> і я зібрали для вас щось дуже круте!"
+msgstr ""
 
 #: Quest.twn_mastery_explainer.QUIP.chitchat:[chitchat,in_quest_twn_mastery_explainer,role_hunter]NOT[pf_unlocked_masteries].1
 msgctxt "Quest.twn_mastery_explainer.QUIP.chitchat:[chitchat,in_quest_twn_mastery_explainer,role_hunter]NOT[pf_unlocked_masteries].1"
@@ -30552,12 +30545,12 @@ msgstr "Кума"
 #: STRINGS.NAMES.npc_armorsmith
 msgctxt "STRINGS.NAMES.npc_armorsmith"
 msgid "Berna"
-msgstr "Берна|Берну|Берні|Берни|Берною"
+msgstr "Берна|Берну|Берні"
 
 #: STRINGS.NAMES.npc_armoursmith
 msgctxt "STRINGS.NAMES.npc_armoursmith"
 msgid "Berna"
-msgstr "Берна|Берну|Берні|Берни|Берною"
+msgstr "Берна|Берну"
 
 #: STRINGS.NAMES.npc_blacksmith
 msgctxt "STRINGS.NAMES.npc_blacksmith"
