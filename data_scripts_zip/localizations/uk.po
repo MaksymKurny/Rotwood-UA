@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-08-17 22:19\n"
+"PO-Revision-Date: 2024-08-17 22:20\n"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -2203,7 +2203,7 @@ msgstr "<i>(змішати перемішати)</i> Готово!"
 #: Convo.dgn_bv_bandiswamp_potion.HUB0.convo.giver.STATE_0.TT_ALREADY_REFILLED
 msgctxt "Convo.dgn_bv_bandiswamp_potion.HUB0.convo.giver.STATE_0.TT_ALREADY_REFILLED"
 msgid "Already refilled"
-msgstr "Вже наповнена"
+msgstr "Вже придбано"
 
 #: Convo.dgn_bv_bandiswamp_potion.HUB0.convo.giver.STATE_0.TT_CANT_AFFORD
 msgctxt "Convo.dgn_bv_bandiswamp_potion.HUB0.convo.giver.STATE_0.TT_CANT_AFFORD"
@@ -3115,14 +3115,16 @@ msgstr "agent:\n"
 #: Convo.dgn_encounter_rots_market.HUB0.convo.giver.STATE_0.OPT_END
 msgctxt "Convo.dgn_encounter_rots_market.HUB0.convo.giver.STATE_0.OPT_END"
 msgid "Okay. Back to browsing."
-msgstr ""
+msgstr "Добре. Повернемося до пошуку."
 
 #: Convo.dgn_encounter_rots_market.HUB0.convo.giver.STATE_0.OPT_END_RESPONSE
 msgctxt "Convo.dgn_encounter_rots_market.HUB0.convo.giver.STATE_0.OPT_END_RESPONSE"
 msgid "agent:\n"
 " !wink\n"
 " Enjoy, culver."
-msgstr ""
+msgstr "agent:\n"
+" !wink\n"
+" Насолоджуйтесь, голубе."
 
 #: Convo.dgn_encounter_rots_market.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_encounter_rots_market.HUB0.convo.giver.STATE_0.QUESTION_1"
@@ -8860,7 +8862,7 @@ msgstr "Вага спорядження, знову?"
 #: Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.TUTORIALS.EQUIPMENT_BTN
 msgctxt "Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.TUTORIALS.EQUIPMENT_BTN"
 msgid "Equipment"
-msgstr "Спорядження"
+msgstr "Обладнання"
 
 #: Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.TUTORIALS.EQUIPMENT_BTN_ALT
 msgctxt "Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.TUTORIALS.EQUIPMENT_BTN_ALT"
@@ -9961,7 +9963,7 @@ msgstr ""
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1"
 msgid "Yeah! They were worried about you."
-msgstr ""
+msgstr "Так! Він хвилювався за вас."
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2A
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2A"
@@ -9971,12 +9973,12 @@ msgstr "Ого! Справді?"
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2B
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2B"
 msgid "That sounds questionably survivable."
-msgstr ""
+msgstr "Звучить сумнівно, з точки зору виживання."
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_3
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_3"
 msgid "<z 0.89>Oookay. Well, good to have our {name.job_armorsmith} back!</z>"
-msgstr ""
+msgstr "<z 0.89>Оооо. Добре, що наш {name.job_armorsmith} повернувся!</z>"
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK"
@@ -9990,7 +9992,16 @@ msgid "agent:\n"
 " !neutral\n"
 " !dubious\n"
 " How's <#BLUE>{name.npc_scout}</>? Are they okay??"
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !greet\n"
+" О мій Боже, Мисливцю, ви вижили!\n"
+" гравець:\n"
+" <i>(Це {name.job_armorsmith} <#RED>{name.npc_armorsmith}</>!)</i>\n"
+" agent:\n"
+" !neutral\n"
+" !dubious\n"
+" Як там <#BLUE>{name.npc_scout}</>? Він в порядку??"
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK2
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK2"
@@ -10000,7 +10011,12 @@ msgid "agent:\n"
 " Aw, they're so sweet-- but a lil aerial freefall's nothing to a big tough {name.job_armorsmith}!\n"
 " !point\n"
 " I arm-wrestled a <#RED>{name.zucco}</> once, you know."
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !gesture\n"
+" О, вони такі милі — але маленьке повітряне падіння нічого для великого сильного {name.job_armorsmith}а!\n"
+" !point\n"
+" Я колись змагався в армреслінгу з <#RED>{name.zucco}</>."
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK3
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK3"
@@ -10011,7 +10027,13 @@ msgid "agent:\n"
 " !happy\n"
 " !shrug\n"
 " Anyway, it was a great story!"
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !think\n"
+" Або, можливо, я прочитала це в щоденнику, який знайшла\n"
+" !happy\n"
+" !shrug\n"
+" У будь-якому разі, це була чудова історія!"
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4"
@@ -10022,7 +10044,13 @@ msgid "agent:\n"
 " !clap\n"
 " Can't wait to get back and start upgrading your armour!\n"
 " [title:CLEAR]"
-msgstr ""
+msgstr "agent:\n"
+" [title:SPEAKER]\n"
+" [sound:Event.joinedTheParty] 0.5\n"
+" !happy\n"
+" !clap\n"
+" Не можу дочекатися, щоб повернутися та почати вдосконалювати свою броню!\n"
+" [title:CLEAR]"
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4_CLIENT
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4_CLIENT"
@@ -10137,32 +10165,32 @@ msgstr ""
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1A
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1A"
 msgid "<z 0.9>I'm with the {name_multiple.foxtails}. I'm so glad you're okay!</>"
-msgstr ""
+msgstr "<z 0.9>Я з {2:{name_multiple.foxtails}}. Я дуже радий, що з тобою все гаразд!</>"
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1B
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1B"
 msgid "<i>You</i> can call me \"Your Saviour\"."
-msgstr ""
+msgstr "<i>Ти</i> можеш називати мене \"Мій спаситель\"."
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2A
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2A"
 msgid "I knew you'd remember me!"
-msgstr ""
+msgstr "Я знав, що ти пам'ятаєш мене!"
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2B
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2B"
 msgid "Uh no, you must be thinking of {name.npc_scout}."
-msgstr ""
+msgstr "О ні, ти, мабуть, маєш на увазі {3:{name.npc_scout}}."
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2C
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2C"
 msgid "Close enough."
-msgstr ""
+msgstr "Досить близько."
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_3
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_3"
 msgid "Yeah, well-- {name.npc_scout}'s waiting to pull you up."
-msgstr ""
+msgstr "Так, добре... {name.npc_scout} чекає, щоб підхопити тебе."
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK"
@@ -10175,7 +10203,15 @@ msgid "agent:\n"
 " agent:\n"
 " !dubious\n"
 " ...Who are ye?"
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" ...\n"
+" player:\n"
+" <i>(Гей, це <#BLUE>{name.npc_blacksmith}</>, {name.job_blacksmith}! )</i>\n"
+" agent:\n"
+" !dubious\n"
+" ...Хто ви?"
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK2
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK2"
@@ -10186,14 +10222,22 @@ msgid "agent:\n"
 " !neutral\n"
 " !point\n"
 " Ye were the one that kept screamin' as our ship went down."
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !think\n"
+" Ах. Тепер я вас пам'ятаю.\n"
+" !neutral\n"
+" !point\n"
+" Ви були тим, хто кричав, коли падав наш корабель."
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK3
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK3"
 msgid "agent:\n"
 " !point\n"
 " Wailin' like a wee bairn, ye were."
-msgstr ""
+msgstr "agent:\n"
+" !point\n"
+" Ви кричали як маленьке дитя."
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4"
@@ -10204,7 +10248,13 @@ msgid "agent:\n"
 " !gruffnod\n"
 " Hrm. Aye. I'll be seein' ye at camp then.\n"
 " [title:CLEAR]"
-msgstr ""
+msgstr "agent:\n"
+" [title:SPEAKER]\n"
+" [sound:Event.joinedTheParty] 0.5\n"
+" !neutral\n"
+" !gruffnod\n"
+" Хм. Так. Тоді до зустрічі у таборі.\n"
+" [title:CLEAR]"
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4_CLIENT
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4_CLIENT"
@@ -10212,10 +10262,7 @@ msgid "agent:\n"
 " !neutral\n"
 " !gruffnod\n"
 " Hrm. Aye. I'll be seein' ye at camp then."
-msgstr "agent:\n"
-" !neutral\n"
-" !gruffnod\n"
-" Хм. Так. Тоді до зустрічі у таборі."
+msgstr ""
 
 #: Localization.en.NAME
 msgctxt "Localization.en.NAME"
@@ -16370,14 +16417,16 @@ msgstr ""
 #: Quest.twn_repeatable_tutorials_dojo.BACK_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.BACK_BTN"
 msgid "Hm, <i>actually--</> <i><#RED><z 0.7>(Back to lesson menu)</></i></z>"
-msgstr ""
+msgstr "Хм, <i>насправді...</> <i><#RED><z 0.7>(Назад до списку уроків)</></i></z>"
 
 #: Quest.twn_repeatable_tutorials_dojo.BACK_BTN_RESPONSE
 msgctxt "Quest.twn_repeatable_tutorials_dojo.BACK_BTN_RESPONSE"
 msgid "agent:\n"
 " !gruffnod\n"
 " Sure thing."
-msgstr ""
+msgstr "agent:\n"
+" !gruffnod\n"
+" Певна річ."
 
 #: Quest.twn_repeatable_tutorials_dojo.END_BTN_MAINMENU
 msgctxt "Quest.twn_repeatable_tutorials_dojo.END_BTN_MAINMENU"
@@ -16390,7 +16439,10 @@ msgid "agent:\n"
 " !neutral\n"
 " !shrug\n"
 " Remember, no knowledge is wasted."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !shrug\n"
+" Пам'ятайте, жодні знання не пропадають даремно."
 
 #: Quest.twn_repeatable_tutorials_dojo.END_BTN_SUBMENU
 msgctxt "Quest.twn_repeatable_tutorials_dojo.END_BTN_SUBMENU"
@@ -16403,7 +16455,10 @@ msgid "agent:\n"
 " !neutral\n"
 " !greet\n"
 " 'Course. {name.dojo_cough} I'll be here."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !greet\n"
+" Звичайно. {name.dojo_cough} Я буду тут."
 
 #: Quest.twn_repeatable_tutorials_dojo.HUB_OPT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.HUB_OPT"
@@ -16416,35 +16471,46 @@ msgid "agent:\n"
 " !neutral\n"
 " !angry\n"
 " LISTEN UP now! {name.dojo_cough}"
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !angry\n"
+" СЛУХАЙТЕ уважно! {name.dojo_cough}"
 
 #: Quest.twn_repeatable_tutorials_dojo.TALK_SELECT_CATEGORY
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TALK_SELECT_CATEGORY"
 msgid "agent:\n"
 " !gesture\n"
 " What sort of lesson you lookin' for?"
-msgstr ""
+msgstr "agent:\n"
+" !gesture\n"
+" Який урок ви шукаєте?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TALK_SELECT_COMBAT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TALK_SELECT_COMBAT"
 msgid "agent:\n"
 " !dubious\n"
 " In a fightin' mood, huh?"
-msgstr ""
+msgstr "agent:\n"
+" !dubious\n"
+" У бойовому настрої, га?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TALK_SELECT_DEFENSE
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TALK_SELECT_DEFENSE"
 msgid "agent:\n"
 " !gruffnod\n"
 " Defense. {name.dojo_cough} 'Course."
-msgstr ""
+msgstr "agent:\n"
+" !gruffnod\n"
+" Захист. {name.dojo_cough} Звичайно."
 
 #: Quest.twn_repeatable_tutorials_dojo.TALK_SELECT_EQUIPMENT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TALK_SELECT_EQUIPMENT"
 msgid "agent:\n"
 " !gruffnod\n"
 " 'Course. The gear makes the Hunter, after all."
-msgstr ""
+msgstr "agent:\n"
+" !gruffnod\n"
+" Звісно. Зрештою, спорядження робить мисливця мисливцем."
 
 #: Quest.twn_repeatable_tutorials_dojo.TALK_SELECT_GENERAL
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TALK_SELECT_GENERAL"
@@ -16452,14 +16518,19 @@ msgid "agent:\n"
 " !happy\n"
 " !dubious\n"
 " Sure. Pick yer lesson."
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !dubious\n"
+" Звичайно. Вибирайте свій урок."
 
 #: Quest.twn_repeatable_tutorials_dojo.TALK_SELECT_WEAPONS
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TALK_SELECT_WEAPONS"
 msgid "agent:\n"
 " !agree\n"
 " {name.dojo_cough} Which weapon you wanna hear about?"
-msgstr ""
+msgstr "agent:\n"
+" !agree\n"
+" {name.dojo_cough} Про яку зброю ви хочете почути?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.CRITICAL_HITS
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.CRITICAL_HITS"
@@ -16471,17 +16542,24 @@ msgid "agent:\n"
 " The likelihood of gettin' them is based on your <#RED>Crit Chance</>, which is affected by your Hunter <#RED>{name_multiple.concept_relic}</> and gear.\n"
 " !gruffnod\n"
 " Keep in mind, a <#RED>Critical Hit</> is different from a <#BLUE>{name.concept_focus_hit}</>. Landin' <#BLUE>{name_multiple.concept_focus_hit}</> is under your direct control."
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!point\n"
+"<#RED>Критичні удари</> завдають подвійну <#RED>шкоду</> і відображаються <#ATK_CRIT>рожевим</>. Вони трапляються випадковим чином, коли ви завдаєте <#RED>удар</>.\n"
+"!gesture\n"
+"Ймовірність їх отримання залежить від вашого <#RED>шансу критичного удару</>, який впливає на ваші <#RED>{name_multiple.concept_relic}</> та обладнання.\n"
+"!gruffnod\n"
+"Пам'ятайте, що <#RED>критичний удар</> відрізняється від <#BLUE>{2:{name.concept_focus_hit}}</>. Завдання <#BLUE>{2:{name_multiple.concept_focus_hit}}</> під вашим прямим контролем."
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.CRITICAL_HITS_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.CRITICAL_HITS_BTN"
 msgid "Critical Hits"
-msgstr ""
+msgstr "Критичні удари"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.CRITICAL_HITS_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.CRITICAL_HITS_BTN_ALT"
 msgid "Critical Hits, again?"
-msgstr ""
+msgstr "Критичні удари, знову?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.FOCUS_HITS
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.FOCUS_HITS"
@@ -16496,12 +16574,22 @@ msgid "agent:\n"
 " !happy\n"
 " !gruffnod\n"
 " You'll know you've performed one correctly if your <#RED>Damage</> numbers turn <#BLUE>Blue</>."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !gesture\n"
+" Це <i>важливо</i>... кожен <#RED>тип зброї</> має свої умови для надзвичайно ефективних <#RED>атак</>, які називаються <#BLUE>{name_multiple.concept_focus_hit}</>.\n"
+" !dubious\n"
+" Важко уявити, наскільки сильно зросте ваша <#RED>шкода</>, якщо ви зможете навчитись робити їх постійно.\n"
+" !point\n"
+" Тож перевірте умови <#RED>вашої зброї</> для <#BLUE>{2:{name.concept_focus_hit}}</> на <#RED>стійці для зброї</>.\n"
+" !happy\n"
+" !gruffnod\n"
+" Ви дізнаєтеся, що виконали все правильно, якщо число вашої <#RED>шкоди</> стане <#BLUE>синіми</>."
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.FOCUS_HITS_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.FOCUS_HITS_BTN"
 msgid "{name_multiple.concept_focus_hit}"
-msgstr ""
+msgstr "{name_multiple.concept_focus_hit}"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.FOCUS_HITS_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.FOCUS_HITS_BTN_ALT"
@@ -16519,27 +16607,35 @@ msgid "agent:\n"
 " !happy\n"
 " !gruffnod\n"
 " If y'find it hard to build or maintain <#RED>Hit Streak</>, you can give yourself a leg up by learning to <#RED>Dodge Cancel</>."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !point\n"
+" Якщо вам вдасться виконати декілька <#RED>ударів</> підряд, не отримуючи <#RED>шкоди</> або не витрачаючи занадто багато часу між ударами, ви зможете створити те, що називається <#RED>серією влучань</>.\n"
+" !think\n"
+" Деякі <#RED>{name_multiple.concept_relic}</> взаємодіють з <#RED>серією влучань</>, тому варто навчитися накопичувати удари, якщо ви хочете їх використовувати.\n"
+" !happy\n"
+" !gruffnod\n"
+" IЯкщо вам важко накопичити або підтримувати <#RED>серію влучань</>, ви можете отримати перевагу, навчившись <#RED>скасуванню ухилення</>."
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.HIT_STREAKS_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.HIT_STREAKS_BTN"
 msgid "Hit Streaks"
-msgstr ""
+msgstr "Серії влучань"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.HIT_STREAKS_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.HIT_STREAKS_BTN_ALT"
 msgid "Hit Streaks, again?"
-msgstr ""
+msgstr "Серії влучань, знову?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT_BTN"
 msgid "Offense"
-msgstr ""
+msgstr "Атака"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT_BTN_ALT"
 msgid "Offense <#RED><z 0.7>(Review)</z></>"
-msgstr ""
+msgstr "Атака <#RED><z 0.7>(Відгук)</z></>"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.DODGE
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.DODGE"
@@ -16551,17 +16647,24 @@ msgid "agent:\n"
 " To survive, you'll have to learn to prioritize <#RED>Dodging</> incoming <#RED>Attacks</> over trying to do <#RED>Damage</> yourself.\n"
 " !gesture\n"
 " After <#RED>Dodging</> an <#RED>Enemy's Attack</>, they'll usually be wide open for you to safely swing."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !point\n"
+" <#RED>Ухиляння</> (<p bind='Controls.Digital.DODGE' color=BTNICON_DARK>) — це один з найважливіших і основних інструментів у вашому арсеналі, Мисливцю.\n"
+" !gruffnod\n"
+" Щоб вижити, вам потрібно навчитися першочергово <#RED>ухилятись</> від <#RED>атак</> замість спроби завдати <#RED>шкоди</> самостійно.\n"
+" !gesture\n"
+" Після <#RED>ухиляння</> від <#RED>атаки ворога</>, зазвичай він буде вразливий для того, щоб ви безпечно завдали удару."
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.DODGE_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.DODGE_BTN"
 msgid "Dodging Basics"
-msgstr ""
+msgstr "Основи ухилення"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.DODGE_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.DODGE_BTN_ALT"
 msgid "Dodge Basics, again?"
-msgstr ""
+msgstr "Основи ухилення, знову?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.DODGE_CANCEL
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.DODGE_CANCEL"
@@ -16575,17 +16678,26 @@ msgid "agent:\n"
 " !neutral\n"
 " !gruffnod\n"
 " <#RED>Attacks</> all got different cancel windows though, so you'll have to practice to get a feel for <#RED>{name.concept_dodge} Cancelling</> your favourite moves."
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!point\n"
+"Кожен <#RED>удар</>, який ви можете виконати, має проміжок часу, коли <#RED>ухилення</> скасовує його анімацію, але не <#RED>шкоду</>.\n"
+"!happy\n"
+"!gesture\n"
+"Хоча ці анімації справді красиві, раннє скасування дозволяє вам знову <#RED>ударити</> швидше, що полегшує створення <#RED>комбінацій</>.\n"
+"!neutral\n"
+"!gruffnod\n"
+"Однак <#RED>удари</> мають різні проміжки скасування, тому вам потрібно практикуватися, щоб відчути, як виконати <#RED>скасувати {2:{name.concept_dodge}} </> ваших улюблених рухів."
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.DODGE_CANCEL_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.DODGE_CANCEL_BTN"
 msgid "Dodge Cancels"
-msgstr ""
+msgstr "Скасування ухилення"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.DODGE_CANCEL_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.DODGE_CANCEL_BTN_ALT"
 msgid "Dodge Cancels, again?"
-msgstr ""
+msgstr "Скасування ухилення, знову?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.PERFECT_DODGE
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.PERFECT_DODGE"
@@ -16600,22 +16712,32 @@ msgid "agent:\n"
 " !happy\n"
 " !shrug\n"
 " Heck, some <#RED>{name_multiple.concept_relic}</> are even triggered when you <#RED>Perfect {name.concept_dodge}</>!"
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !gesture\n"
+" Підчас <#RED>{name.concept_dodge}</>, є маленький момент, коли ви невразливі до <i>всієї</i> <#RED>{2:{name.concept_damage}}</>.\n"
+" !point\n"
+" Якщо ви зможете точно визначити момент, коли <#RED>{name.concept_attack}</> влучить у вас, і ви зможете <#RED>ухилитися</>, ви виконаєте <#RED>ідеальне {2:{name.concept_dodge}}</>.\n"
+" !gruffnod\n"
+" Ви дізнаєтеся, що зробили це правильно, якщо залишите за собою хмару пилу.\n"
+" !happy\n"
+" !shrug\n"
+" Хоча, деякі <#RED>{name_multiple.concept_relic}</> навіть активуються, коли ви <#RED>ідеально {3:{name.concept_dodge}}</>!"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.PERFECT_DODGE_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.PERFECT_DODGE_BTN"
 msgid "Perfect {name_multiple.concept_dodge}"
-msgstr ""
+msgstr "Ідеальні {name_multiple.concept_dodge}"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.PERFECT_DODGE_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE.PERFECT_DODGE_BTN_ALT"
 msgid "Perfect {name_multiple.concept_dodge}, again?"
-msgstr ""
+msgstr "Ідеальні {name_multiple.concept_dodge}, знову?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE_BTN"
 msgid "Defense"
-msgstr ""
+msgstr "Захист"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.DEFENSE_BTN_ALT"
@@ -16632,24 +16754,17 @@ msgid "agent:\n"
 " It can boost yer chances of getting rarer <#RED>{name_multiple.concept_relic}</>, getting extra loot from <#RED>{name_multiple.rot}</>, double <#RED>Healing</>, or even <#RED>Reviving</> when you should get knocked out.\n"
 " !think\n"
 " Might even have other effects I don't know 'bout. {name.dojo_cough}"
-msgstr "agent:\n"
-"!happy\n"
-"!gesture\n"
-"Ага, <#RED>удача</> — це незвичайна характеристика. Вона впливає на все потроху.\n"
-"!point\n"
-"Вона може підвищити шанс отримати рідкісні <#RED>{name_multiple.concept_relic}</>, додаткову здобич з <#RED>{2:{name_multiple.rot}}</>, подвоєне <#RED>зцілення</> або навіть <#RED>оживлення</>, коли ви повинні бути в нокауті.\n"
-"!think\n"
-"Можливо, вона має й інші ефекти, про які я не знаю. {name.dojo_cough}"
+msgstr ""
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.LUCK_STAT_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.LUCK_STAT_BTN"
 msgid "The Luck Stat"
-msgstr ""
+msgstr "Статистика удачі"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.LUCK_STAT_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.LUCK_STAT_BTN_ALT"
 msgid "The Luck Stat, again?"
-msgstr ""
+msgstr "Статистика удачі, знову?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.POTIONS
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.POTIONS"
@@ -16661,17 +16776,24 @@ msgid "agent:\n"
 " <#BLUE>{name.npc_scout}</> will make sure you always got <#RED>1 Potion</> with you when you start a Hunt, but use it sparingly.\n"
 " !dubious\n"
 " It's better to master <#RED>Dodging</> than it is to count on refills. {name.dojo_cough}"
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!point\n"
+"Ви можете випити <#RED>зілля</> натиснув <p bind='Controls.Digital.USE_POTION' color=BTNICON_DARK>, щоб відновити значну частину вашого <#RED>здоров'я</>.\n"
+"!agree\n"
+"<#BLUE>{name.npc_scout}</> подбає, щоб у вас завжди було <#RED>1 зілля</> на початку полювання, але використовуйте його економно.\n"
+"!dubious\n"
+"Краще опанувати <#RED>ухилення</>, ніж покладатися на попвнення. {name.dojo_cough}"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.POTIONS_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.POTIONS_BTN"
 msgid "Potions"
-msgstr ""
+msgstr "Зілля"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.POTIONS_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.POTIONS_BTN_ALT"
 msgid "Potions, again?"
-msgstr ""
+msgstr "Зілля, знову?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.WEIGHT_SYSTEM
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.WEIGHT_SYSTEM"
@@ -16688,27 +16810,39 @@ msgid "agent:\n"
 " !happy\n"
 " !gruffnod\n"
 " None of the <#RED>Weight Classes</> are better or worse than the others-- it's up to you to find which style suits you best."
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!think\n"
+"Кожен предмет спорядження, який ви одягаєте, має значення <#RED>ваги</>, яке разом створює вашу <#RED>вагову категорію</>.\n"
+"!point\n"
+"Якщо ваше спорядження дає вам <#RED>клас {name.light_weight}</>, ви будете отримувати більше <#RED>ушкоджень</>, вас буде легше <#RED>відкинути</>, і ваше <#RED>ухилення</> буде швидшим з коротким періодом невразливості.\n"
+"!gesture\n"
+"Якщо ваше спорядження дає вам <#RED>клас {name.heavy_weight}</>, ви будете отримувати менше <#RED>ушкоджень</>, вас буде важче <#RED>відкинути</>, і ваше <#RED>ухилення</> буде повільнішим з довшим періодом невразливості.\n"
+"!shrug\n"
+"<#RED>клас {name.medium_weight}</> надасть вам збалансовану суміш обох.\n"
+"!happy\n"
+"!gruffnod\n"
+"Жодна з <#RED>вагових категорій</> не є кращою чи гіршою за інші — вам слід знайти, який стиль підходить вам найкраще."
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.WEIGHT_SYSTEM_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.WEIGHT_SYSTEM_BTN"
 msgid "Equipment Weight"
-msgstr ""
+msgstr "Вага спорядження"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.WEIGHT_SYSTEM_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT.WEIGHT_SYSTEM_BTN_ALT"
 msgid "Equipment Weight, again?"
-msgstr ""
+msgstr "Вага спорядження, знову?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT_BTN"
 msgid "Equipment"
-msgstr ""
+msgstr "Обладнання"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.EQUIPMENT_BTN_ALT"
 msgid "Equipment <#RED><z 0.7>(Review)</z></>"
-msgstr ""
+msgstr "Спорядження <#RED><z 0.7>(Відгук)</z></>"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.FRENZIED_HUNTS
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.FRENZIED_HUNTS"
@@ -16721,25 +16855,17 @@ msgid "agent:\n"
 " !happy\n"
 " !gruffnod\n"
 " If you're worried, don't be. <#RED>Frenzy Levels</> might be challenging, but you'll never be given access to one that's beyond your ability."
-msgstr "agent:\n"
-"!neutral\n"
-"!point\n"
-"<#RED>Божевільні</> полювання складніші за звичайні, але їх необхідно пройти для прогресу — це єдиний спосіб отримати ці дорогоцінні <#KONJUR>{name_multiple.i_konjur_heart}</>.\n"
-"!dubious\n"
-"Але будьте уважними. <#RED>Оживлення</> союзників безплатне на звичайних полюваннях, але на <#RED>рівні божевілля 1</> і вище, вам доведеться втратити трохи <#RED>здоров'я</>, щоб підняти друга.\n"
-"!happy\n"
-"!gruffnod\n"
-"Якщо ви хвилюєтесь, не варто. <#RED>рівні божевілля </> можуть бути складними, але вам ніколи не дозволять брати участь у тому, що перевищує ваші можливості."
+msgstr ""
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.FRENZIED_HUNTS_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.FRENZIED_HUNTS_BTN"
 msgid "Frenzied Hunts"
-msgstr ""
+msgstr "Божевільне полювання"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.FRENZIED_HUNTS_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.FRENZIED_HUNTS_BTN_ALT"
 msgid "Frenzied Hunts, again?"
-msgstr ""
+msgstr "Божевільне полювання, знову?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.POWER_DROPS
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.POWER_DROPS"
@@ -16753,17 +16879,26 @@ msgid "agent:\n"
 " !neutral\n"
 " !point\n"
 " Your <#RED>{name_multiple.concept_relic}</> always wear off by the time you get home, so there's no downside to experimenting."
-msgstr ""
+msgstr "agent:\n"
+"!neutral\n"
+"!point\n"
+"Ви можете використовувати <#KONJUR>кристали сили</>, які знайдете під час полювання, щоб отримати могутні здібності, підвищуючи свою силу та виживаність у полі.\n"
+"!happy\n"
+"!gesture\n"
+"Існують різні <#RED>{name_multiple.concept_relic}</>, і багато з них добре поєднуються, стаючи ще потужнішими. Будьте творчими та пробуйте різні комбінації.\n"
+"!neutral\n"
+"!point\n"
+"Ваші <#RED>{name_multiple.concept_relic}</> завжди зникають, коли ви повертаєтеся додому, тому не бійтеся експереметувати."
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.POWER_DROPS_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.POWER_DROPS_BTN"
 msgid "{name.concept_relic} Crystals"
-msgstr ""
+msgstr "Кристали {3:{name.concept_relic}}"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.POWER_DROPS_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.POWER_DROPS_BTN_ALT"
 msgid "{name.concept_relic} Crystals, again?"
-msgstr "Кристали сили, знову?"
+msgstr "Кристали {3:{name.concept_relic}}, знову?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.REVIVE_MECHANICS
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.REVIVE_MECHANICS"
@@ -16775,29 +16910,22 @@ msgid "agent:\n"
 " You're vulnerable while you're reviving, and your friend will only come back with <#RED>33% Health</>... so watch yer backs.\n"
 " !gruffnod\n"
 " If you're hunting on <#RED>Frenzy Level 1</> or higher, you'll also lose some <#RED>Health</> as it transfers to your revived friend."
-msgstr "agent:\n"
-"!neutral\n"
-"!point\n"
-"Якщо одного з ваших Мисливців виб'ють під час полювання, ви можете повернути його на ноги, підійшовши до нього й утримуючи <p bind='Controls.Digital.ACTION' color=BTNICON_DARK>.\n"
-"!disagree\n"
-"Ви вразливі під час оживлення, і ваш друг повернеться лише з <#RED>33% здоров'я</>... тож будьте обережні.\n"
-"!gruffnod\n"
-"Якщо ви полюєте на <#RED>рівні божевілля 1</> або вище, ви також втратите трохи <#RED>здоров'я</>, яке передасться вашому відродженому другу."
+msgstr ""
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.REVIVE_MECHANICS_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.REVIVE_MECHANICS_BTN"
 msgid "Reviving Friends"
-msgstr ""
+msgstr "Оживлення друзів"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.REVIVE_MECHANICS_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.REVIVE_MECHANICS_BTN_ALT"
 msgid "Revives, again?"
-msgstr ""
+msgstr "Оживлення, знову?"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL_BTN"
 msgid "General Stuff"
-msgstr ""
+msgstr "Загальні речі"
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL_BTN_ALT"
@@ -16818,18 +16946,7 @@ msgid "!happy\n"
 " Not often!\n"
 " !dejected\n"
 " <i><z 0.7>(Despite attempts to conceal it, <#BLUE>{name.npc_dojo_master}</> is feeling very emotional over your \"graduation\".)</z></i>"
-msgstr "!happy\n"
-"!dubious\n"
-"...\n"
-"!shocked\n"
-"Мисливцю.\n"
-"!gesture\n"
-"Ви завершили усі мої уроки. Ви знаєте, як часто мисливець завершує всі мої уроки?\n"
-"!neutral\n"
-"!point\n"
-"Не часто!\n"
-"!dejected\n"
-"<i><z 0.7>(Попри спроби приховати це, <#BLUE>{name.npc_dojo_master}</> дуже емоційний через ваш \"випуск\".)</z></i>"
+msgstr ""
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.REWARD_TIER_ONE.TALK
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.REWARD_TIER_ONE.TALK"
@@ -16841,14 +16958,7 @@ msgid "!neutral\n"
 " Y'know, it's nice to see a Hunter take an interest in their education.\n"
 " !gesture\n"
 " Here, have a little treat for completing your first lesson. On me, ghe-he-he."
-msgstr "!neutral\n"
-"!dubious\n"
-"...\n"
-"!happy\n"
-"!thinking\n"
-"Знаєте, приємно бачити, що Мисливець зацікавлений у своїй освіті.\n"
-"!gesture\n"
-"Ось, тримайте невеликий бонус за завершення першого уроку. Від мене, гхе-хе-хе."
+msgstr ""
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.REWARD_TIER_THREE.TALK
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.REWARD_TIER_THREE.TALK"
@@ -16859,13 +16969,7 @@ msgid "!happy\n"
 " 'Ey, kid. {name.dojo_cough} Take this.\n"
 " !shrug\n"
 " Consider it a gold star for yer studies."
-msgstr "!happy\n"
-"!dubious\n"
-"...\n"
-"!gesture\n"
-"Ей, малий. {name.dojo_cough} Візьміть це.\n"
-"!shrug\n"
-"Вважайте це золотою зіркою за ваше навчання."
+msgstr ""
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.REWARD_TIER_TWO.TALK
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.REWARD_TIER_TWO.TALK"
@@ -16878,7 +16982,15 @@ msgid "!neutral\n"
 " !neutral\n"
 " !agree\n"
 " And yes, I keep a mental ranking of all my students."
-msgstr ""
+msgstr "!neutral\n"
+" !dubious\n"
+" ...\n"
+" !happy\n"
+" !thinking\n"
+" Це вже три уроки які ви пройшли, так? Ви швидко зростаєте в моєму рейтингу, малий.\n"
+" !neutral\n"
+" !agree\n"
+" І так, я веду ментальний рейтинг усіх своїх учнів."
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.WEAPONS.CANNON_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.WEAPONS.CANNON_BTN"
@@ -21190,7 +21302,7 @@ msgstr "Збільшує <#RED>{name.concept_damage} зброї</>."
 #: STRINGS.ITEMS.GEMS.damage_mod.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_mod.stat_name"
 msgid "Bonus <#RED>{name.concept_damage}</>"
-msgstr "Бонусна <#RED>{3:{name.concept_damage}}</>"
+msgstr "Додаткова <#RED>{3:{name.concept_damage}}</>"
 
 #: STRINGS.ITEMS.GEMS.luck.desc
 msgctxt "STRINGS.ITEMS.GEMS.luck.desc"
@@ -22678,7 +22790,7 @@ msgstr "У дерев просто немає причин мати великі
 #: STRINGS.ITEMS.MATERIALS.megatreemon_hand.name
 msgctxt "STRINGS.ITEMS.MATERIALS.megatreemon_hand.name"
 msgid "{name.megatreemon} Claw"
-msgstr "{name.megatreemon} кіготь"
+msgstr "Кігті {2:{name.megatreemon}}"
 
 #: STRINGS.ITEMS.MATERIALS.mossquito_cap.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.mossquito_cap.desc"
@@ -24980,7 +25092,7 @@ msgstr "Срібна підкладка"
 #: STRINGS.ITEMS.POWERS.HEART.heart_bandicoot.desc
 msgctxt "STRINGS.ITEMS.POWERS.HEART.heart_bandicoot.desc"
 msgid "Your <#RED>{name.concept_dodge}</> is faster."
-msgstr "Ваше <#RED>{name.concept_dodge}</> відбувається швидше."
+msgstr "Ваше <#RED>{name.concept_dodge}</> стає швидше."
 
 #: STRINGS.ITEMS.POWERS.HEART.heart_bandicoot.name
 msgctxt "STRINGS.ITEMS.POWERS.HEART.heart_bandicoot.name"
@@ -29591,7 +29703,7 @@ msgstr "Насіння"
 #: STRINGS.ITEM_CATEGORIES.SHIELD
 msgctxt "STRINGS.ITEM_CATEGORIES.SHIELD"
 msgid "Sustain"
-msgstr "Підтримка"
+msgstr "Підтримати"
 
 #: STRINGS.ITEM_CATEGORIES.SHOTPUT
 msgctxt "STRINGS.ITEM_CATEGORIES.SHOTPUT"
@@ -30228,12 +30340,12 @@ msgstr "Критичний"
 #: STRINGS.NAMES.concept_damage
 msgctxt "STRINGS.NAMES.concept_damage"
 msgid "Damage"
-msgstr "Шкоду|Шкоди|Шкода|Пошкодження"
+msgstr "Шкода"
 
 #: STRINGS.NAMES.concept_dodge
 msgctxt "STRINGS.NAMES.concept_dodge"
 msgid "Dodge"
-msgstr "Ухиляння|ухилення|ухиляєтесь"
+msgstr "Ухилятися"
 
 #: STRINGS.NAMES.concept_focus_hit
 msgctxt "STRINGS.NAMES.concept_focus_hit"
@@ -30243,7 +30355,7 @@ msgstr "Фокусний удар|Фокусного удару"
 #: STRINGS.NAMES.concept_hitstreak
 msgctxt "STRINGS.NAMES.concept_hitstreak"
 msgid "Hit Streak"
-msgstr "Серія влучань|Серію влучань"
+msgstr "Серія влучань"
 
 #: STRINGS.NAMES.concept_i_reroll
 msgctxt "STRINGS.NAMES.concept_i_reroll"
@@ -30428,7 +30540,7 @@ msgstr "Великий Гурдо"
 #: STRINGS.NAMES.groak
 msgctxt "STRINGS.NAMES.groak"
 msgid "Groak"
-msgstr "Гроак|Гроака"
+msgstr "Гроак"
 
 #: STRINGS.NAMES.groak_elite
 msgctxt "STRINGS.NAMES.groak_elite"
@@ -30443,7 +30555,7 @@ msgstr "Великий Гроак"
 #: STRINGS.NAMES.heavy_weight
 msgctxt "STRINGS.NAMES.heavy_weight"
 msgid "Power"
-msgstr "Силач"
+msgstr "Сила|Силу|Сили"
 
 #: STRINGS.NAMES.hunter
 msgctxt "STRINGS.NAMES.hunter"
@@ -30483,7 +30595,7 @@ msgstr "броняр|броняру|броняра|бронярем"
 #: STRINGS.NAMES.job_armoursmith
 msgctxt "STRINGS.NAMES.job_armoursmith"
 msgid "Armourer"
-msgstr "Броняр"
+msgstr "броняр|броняру|броняра|бронярем"
 
 #: STRINGS.NAMES.job_blacksmith
 msgctxt "STRINGS.NAMES.job_blacksmith"
@@ -30498,7 +30610,7 @@ msgstr "Кухар|кухаря"
 #: STRINGS.NAMES.job_dojo
 msgctxt "STRINGS.NAMES.job_dojo"
 msgid "Battlemaster"
-msgstr "Майстер битв|майстром битв"
+msgstr "Військовий майстер"
 
 #: STRINGS.NAMES.job_konjurist
 msgctxt "STRINGS.NAMES.job_konjurist"
@@ -31103,7 +31215,7 @@ msgstr "Великий Ротвудський ліс|Великого Ротву
 #: STRINGS.NAMES.tundra
 msgctxt "STRINGS.NAMES.tundra"
 msgid "Tundra"
-msgstr "Тундра|Тундри"
+msgstr "Тундра"
 
 #: STRINGS.NAMES.upgrade_ingot
 msgctxt "STRINGS.NAMES.upgrade_ingot"
@@ -31473,7 +31585,7 @@ msgstr "<p img='images/ui_ftf_icons/konjur_heart.tex' rpad=1>Кам'яні се�
 #: STRINGS.NAMES_PLURAL.i_konjur_heart
 msgctxt "STRINGS.NAMES_PLURAL.i_konjur_heart"
 msgid "<p img='images/ui_ftf_icons/konjur_heart.tex' rpad=1>Heartstones"
-msgstr "<p img='images/ui_ftf_icons/konjur_heart.tex' rpad=1>Кам'яні серця|<p img='images/ui_ftf_icons/konjur_heart.tex' rpad=1>Кам'яних сердець"
+msgstr "<p img='images/ui_ftf_icons/konjur_heart.tex' rpad=1>Кам'яні серця"
 
 #: STRINGS.NAMES_PLURAL.i_konjur_soul_lesser
 msgctxt "STRINGS.NAMES_PLURAL.i_konjur_soul_lesser"
@@ -31493,7 +31605,7 @@ msgstr "Бронярі"
 #: STRINGS.NAMES_PLURAL.job_armoursmith
 msgctxt "STRINGS.NAMES_PLURAL.job_armoursmith"
 msgid "Armourers"
-msgstr "Зброярі"
+msgstr "Бронярі"
 
 #: STRINGS.NAMES_PLURAL.job_blacksmith
 msgctxt "STRINGS.NAMES_PLURAL.job_blacksmith"
@@ -31528,7 +31640,7 @@ msgstr "Розвідники"
 #: STRINGS.NAMES_PLURAL.konjur
 msgctxt "STRINGS.NAMES_PLURAL.konjur"
 msgid "Teffra"
-msgstr "Конжур"
+msgstr "Конжур|Конжуру|Конжуром"
 
 #: STRINGS.NAMES_PLURAL.konjur_heart
 msgctxt "STRINGS.NAMES_PLURAL.konjur_heart"
@@ -32208,7 +32320,7 @@ msgstr "Конжур|Конжура"
 #: STRINGS.NAMES_PLURALITY.konjur_heart
 msgctxt "STRINGS.NAMES_PLURALITY.konjur_heart"
 msgid "Heartstone|Heartstones"
-msgstr ""
+msgstr "Кам'яне сердце|Кам'яних сердець"
 
 #: STRINGS.NAMES_PLURALITY.konjur_soul_greater
 msgctxt "STRINGS.NAMES_PLURALITY.konjur_soul_greater"
@@ -33138,17 +33250,17 @@ msgstr "Усі"
 #: STRINGS.POWERS.POWER_CATEGORY.DAMAGE
 msgctxt "STRINGS.POWERS.POWER_CATEGORY.DAMAGE"
 msgid "Electric"
-msgstr "Електрики"
+msgstr "Електрика"
 
 #: STRINGS.POWERS.POWER_CATEGORY.SUPPORT
 msgctxt "STRINGS.POWERS.POWER_CATEGORY.SUPPORT"
 msgid "Summon"
-msgstr "Викликання"
+msgstr "Викликати"
 
 #: STRINGS.POWERS.POWER_CATEGORY.SUSTAIN
 msgctxt "STRINGS.POWERS.POWER_CATEGORY.SUSTAIN"
 msgid "Shield"
-msgstr "Щита"
+msgstr "Щит"
 
 #: STRINGS.POWERS.POWER_RARITY.COMMON
 msgctxt "STRINGS.POWERS.POWER_RARITY.COMMON"
@@ -33674,7 +33786,7 @@ msgstr "Створити"
 #: STRINGS.UI.BUTTONS.EQUIP
 msgctxt "STRINGS.UI.BUTTONS.EQUIP"
 msgid "Equip"
-msgstr "Озброїти"
+msgstr "Спорядити"
 
 #: STRINGS.UI.BUTTONS.FORGE
 msgctxt "STRINGS.UI.BUTTONS.FORGE"
@@ -34023,7 +34135,7 @@ msgstr "ЗАВДАВ НАЙБІЛЬШЕ ШКОДИ"
 #: STRINGS.UI.DUNGEONSUMMARYSCREEN.DAMAGED_BY_EMPTY
 msgctxt "STRINGS.UI.DUNGEONSUMMARYSCREEN.DAMAGED_BY_EMPTY"
 msgid "MOST DAMAGE DEALT BY"
-msgstr "НАЙБІЛЬШЕ ШКОДИ ОТРИМАНО ВІД"
+msgstr "ЗАВДАВ НАЙБІЛЬШЕ ШКОДИ"
 
 #: STRINGS.UI.DUNGEONSUMMARYSCREEN.DAMAGED_BY_NONE
 msgctxt "STRINGS.UI.DUNGEONSUMMARYSCREEN.DAMAGED_BY_NONE"
@@ -34589,7 +34701,7 @@ msgstr "Цю броню можна покращити максимум %s раз
 #: STRINGS.UI.FORGEARMORSCREEN.MENU_TITLE
 msgctxt "STRINGS.UI.FORGEARMORSCREEN.MENU_TITLE"
 msgid "Forge Armour"
-msgstr "Кувати броню"
+msgstr "Кувати обладунки"
 
 #: STRINGS.UI.FORGEARMORSCREEN.STATS_BODY_TITLE
 msgctxt "STRINGS.UI.FORGEARMORSCREEN.STATS_BODY_TITLE"
@@ -34686,7 +34798,7 @@ msgstr "<#LIGHT_TEXT>Натисніть <p bind='Controls.Digital.ATTACK_HEAVY' 
 #: STRINGS.UI.GEMSCREEN.MAX_LEVEL_GEM
 msgctxt "STRINGS.UI.GEMSCREEN.MAX_LEVEL_GEM"
 msgid "MAX LEVEL"
-msgstr "МАКСИМАЛЬНИЙ РІВЕНЬ"
+msgstr "МАКС РІВЕНЬ"
 
 #: STRINGS.UI.GEMSCREEN.SLOTS_EMPTY
 msgctxt "STRINGS.UI.GEMSCREEN.SLOTS_EMPTY"
@@ -34845,7 +34957,7 @@ msgstr "Прокрутити вниз"
 #: STRINGS.UI.HELP.NEXT
 msgctxt "STRINGS.UI.HELP.NEXT"
 msgid "Next"
-msgstr "Наступний"
+msgstr "Далі"
 
 #: STRINGS.UI.HELP.NEXTPAGE
 msgctxt "STRINGS.UI.HELP.NEXTPAGE"
@@ -36239,7 +36351,7 @@ msgstr "Виконуй майстерності, щоб заробити наг�
 #: STRINGS.UI.MASTERYSCREEN.GENERAL
 msgctxt "STRINGS.UI.MASTERYSCREEN.GENERAL"
 msgid "General"
-msgstr "Загальні"
+msgstr "Загальний"
 
 #: STRINGS.UI.MASTERYSCREEN.LOCKED
 msgctxt "STRINGS.UI.MASTERYSCREEN.LOCKED"
@@ -36259,7 +36371,7 @@ msgstr "Ця вкладка має нову майстерність!"
 #: STRINGS.UI.MASTERYSCREEN.OTHER
 msgctxt "STRINGS.UI.MASTERYSCREEN.OTHER"
 msgid "Boss Rots"
-msgstr "Гниль Боси"
+msgstr "Гниль Боси|Гниль Босів"
 
 #: STRINGS.UI.MASTERYSCREEN.POPUP.MASTERY_ACTIVATED
 msgctxt "STRINGS.UI.MASTERYSCREEN.POPUP.MASTERY_ACTIVATED"
@@ -36587,7 +36699,7 @@ msgstr "Неможливо приєднатися до лобі з іншою в
 #: STRINGS.UI.NETWORKDISCONNECT.CONFIRM_OK
 msgctxt "STRINGS.UI.NETWORKDISCONNECT.CONFIRM_OK"
 msgid "OK"
-msgstr "Добре"
+msgstr "ОК"
 
 #: STRINGS.UI.NETWORKDISCONNECT.CONFIRM_RESET
 msgctxt "STRINGS.UI.NETWORKDISCONNECT.CONFIRM_RESET"
@@ -36923,7 +37035,7 @@ msgstr "Налаштування елементів керування"
 #: STRINGS.UI.OPTIONSSCREEN.NAVBAR_AUDIO
 msgctxt "STRINGS.UI.OPTIONSSCREEN.NAVBAR_AUDIO"
 msgid "Audio"
-msgstr "Аудіо"
+msgstr "Звук"
 
 #: STRINGS.UI.OPTIONSSCREEN.NAVBAR_CONTROLS
 msgctxt "STRINGS.UI.OPTIONSSCREEN.NAVBAR_CONTROLS"
@@ -37128,7 +37240,7 @@ msgstr "Панель здоров'я боса покаже лише візуал
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_SHOW_BOSS_HEALTH_PERCENT.OFF.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_SHOW_BOSS_HEALTH_PERCENT.OFF.NAME"
 msgid "OFF"
-msgstr "ВИМК"
+msgstr "ВИМКНЕНО"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_SHOW_BOSS_HEALTH_PERCENT.ON.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_SHOW_BOSS_HEALTH_PERCENT.ON.DESC"
@@ -37138,7 +37250,7 @@ msgstr "Панелі здоров'я босів покажуть відсото�
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_SHOW_BOSS_HEALTH_PERCENT.ON.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_SHOW_BOSS_HEALTH_PERCENT.ON.NAME"
 msgid "ON"
-msgstr "УВІМК"
+msgstr "УВІМКНЕНО"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_VIBRATION.OFF.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_VIBRATION.OFF.DESC"
@@ -37243,7 +37355,7 @@ msgstr "УВІМКНЕНО"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.DATACOLLECTION.TITLE
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.DATACOLLECTION.TITLE"
 msgid "Data Collection"
-msgstr "Ігрові дані"
+msgstr "Збір даних"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.LANGUAGE_DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.LANGUAGE_DESC"
@@ -37367,7 +37479,7 @@ msgstr "Гра покаже всю інформацію на екрані."
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.STREAMER_MODE.OFF.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.STREAMER_MODE.OFF.NAME"
 msgid "OFF"
-msgstr "ВИМК"
+msgstr "ВИМКНЕНО"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.STREAMER_MODE.ON.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.STREAMER_MODE.ON.DESC"
@@ -37377,7 +37489,7 @@ msgstr "Гра приховає конфіденційну інформацію,
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.STREAMER_MODE.ON.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.STREAMER_MODE.ON.NAME"
 msgid "ON"
-msgstr "УВІМК"
+msgstr "УВІМКНЕНО"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.STREAMER_MODE.TITLE
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.STREAMER_MODE.TITLE"
@@ -37880,7 +37992,7 @@ msgstr "Не хвилюйтеся. Ми чекатимемо вас тут."
 #: STRINGS.UI.PAUSEMENU.SAVEANDQUITNO
 msgctxt "STRINGS.UI.PAUSEMENU.SAVEANDQUITNO"
 msgid "Never mind..."
-msgstr "Забудь..."
+msgstr "Не зважай..."
 
 #: STRINGS.UI.PAUSEMENU.SAVEANDQUITTITLE
 msgctxt "STRINGS.UI.PAUSEMENU.SAVEANDQUITTITLE"
@@ -38189,7 +38301,7 @@ msgstr "Натиснуто клавішу {device_icon}"
 #: STRINGS.UI.PRICEWIDGET.NOT_ENOUGH
 msgctxt "STRINGS.UI.PRICEWIDGET.NOT_ENOUGH"
 msgid "Insufficient <#KONJUR>{name.i_konjur}</>"
-msgstr "Недостатньо <#KONJUR>{2:{name.i_konjur}}"
+msgstr "Недостатньо <#KONJUR>{2:{name.i_konjur}}</>"
 
 #: STRINGS.UI.RECIPESCREEN.ITEM_COUNT
 msgctxt "STRINGS.UI.RECIPESCREEN.ITEM_COUNT"
@@ -38226,7 +38338,7 @@ msgstr "Створити предмет!"
 #: STRINGS.UI.RESEARCHSCREEN.BTN_EQUIP
 msgctxt "STRINGS.UI.RESEARCHSCREEN.BTN_EQUIP"
 msgid "Equip"
-msgstr "Одягнути"
+msgstr "Спорядити"
 
 #: STRINGS.UI.RESEARCHSCREEN.BTN_UNLOCK
 msgctxt "STRINGS.UI.RESEARCHSCREEN.BTN_UNLOCK"
@@ -38395,7 +38507,7 @@ msgstr "Киньте виклик!\n"
 #: STRINGS.UI.ROOM_PREVIEW.FABLED1
 msgctxt "STRINGS.UI.ROOM_PREVIEW.FABLED1"
 msgid "Get a special power!"
-msgstr "Отримайте особливу силу!"
+msgstr "Отримати особливу силу!"
 
 #: STRINGS.UI.ROOM_PREVIEW.FABLED2
 msgctxt "STRINGS.UI.ROOM_PREVIEW.FABLED2"
@@ -38439,7 +38551,7 @@ msgstr "Попереду небезпека"
 #: STRINGS.UI.ROOM_PREVIEW.PLAIN1
 msgctxt "STRINGS.UI.ROOM_PREVIEW.PLAIN1"
 msgid "Get a new power!"
-msgstr "Отримайте нову силу!"
+msgstr "Отримати нову силу!"
 
 #: STRINGS.UI.ROOM_PREVIEW.PLAIN2
 msgctxt "STRINGS.UI.ROOM_PREVIEW.PLAIN2"
@@ -38505,7 +38617,7 @@ msgstr "Налаштувати персонажа"
 #: STRINGS.UI.SCREENOPENER_PROP.default
 msgctxt "STRINGS.UI.SCREENOPENER_PROP.default"
 msgid "Interact"
-msgstr "Взаємодіяти"
+msgstr "Взаємодія"
 
 #: STRINGS.UI.SCREENOPENER_PROP.emote_booth
 msgctxt "STRINGS.UI.SCREENOPENER_PROP.emote_booth"
@@ -38659,7 +38771,7 @@ msgstr "Запускає <#RED>ланцюгову реакцію</>, коли у
 #: STRINGS.UI.TOOLTIPS.CHARGE.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.CHARGE.NAME"
 msgid "Charge"
-msgstr "Зарядити"
+msgstr "Заряди"
 
 #: STRINGS.UI.TOOLTIPS.CRITICAL_HIT.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.CRITICAL_HIT.DESC"
@@ -39149,7 +39261,7 @@ msgstr "<#RED>{name.light_weight} клас</> дозволяє виконува�
 #: STRINGS.UI.WEIGHT_CHANGED_SCREEN.OK
 msgctxt "STRINGS.UI.WEIGHT_CHANGED_SCREEN.OK"
 msgid "OK"
-msgstr "ДОБРЕ"
+msgstr "ОК"
 
 #: STRINGS.UI.WEIGHT_CHANGED_SCREEN.SUB_TITLE_FMT
 msgctxt "STRINGS.UI.WEIGHT_CHANGED_SCREEN.SUB_TITLE_FMT"
