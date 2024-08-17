@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-08-17 17:13\n"
+"PO-Revision-Date: 2024-08-17 17:16\n"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -16365,7 +16365,7 @@ msgstr "agent:\n"
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.FOCUS_HITS_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.FOCUS_HITS_BTN"
 msgid "{name_multiple.concept_focus_hit}"
-msgstr "{name_multiple.concept_focus_hit}"
+msgstr ""
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.FOCUS_HITS_BTN_ALT
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.COMBAT.FOCUS_HITS_BTN_ALT"
