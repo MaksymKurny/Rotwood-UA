@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-08-18 15:16\n"
+"PO-Revision-Date: 2024-08-18 18:40\n"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -31890,7 +31890,7 @@ msgstr "<p img='images/ui_ftf_icons/lesser_soul.tex' rpad=1>Кам'яні ядр
 #: STRINGS.NAMES_PLURAL.job_apothecary
 msgctxt "STRINGS.NAMES_PLURAL.job_apothecary"
 msgid "Apothecaries"
-msgstr "Аптекари"
+msgstr "Аптекарі"
 
 #: STRINGS.NAMES_PLURAL.job_armorsmith
 msgctxt "STRINGS.NAMES_PLURAL.job_armorsmith"
@@ -31955,7 +31955,7 @@ msgstr "Кам'яні ядра"
 #: STRINGS.NAMES_PLURAL.lunchbox
 msgctxt "STRINGS.NAMES_PLURAL.lunchbox"
 msgid "Lunch Boxes"
-msgstr "Ланчбокси"
+msgstr "Ланч-бокси"
 
 #: STRINGS.NAMES_PLURAL.magmadillo
 msgctxt "STRINGS.NAMES_PLURAL.magmadillo"
@@ -32015,7 +32015,7 @@ msgstr "Наповнені великі Клубкові молі"
 #: STRINGS.NAMES_PLURAL.owlitzer
 msgctxt "STRINGS.NAMES_PLURAL.owlitzer"
 msgid "Owlitzers"
-msgstr "Соволаки"
+msgstr "Совулаки"
 
 #: STRINGS.NAMES_PLURAL.potion
 msgctxt "STRINGS.NAMES_PLURAL.potion"
@@ -34450,12 +34450,12 @@ msgstr "Нікого!"
 #: STRINGS.UI.DUNGEONSUMMARYSCREEN.DAMAGE_DONE
 msgctxt "STRINGS.UI.DUNGEONSUMMARYSCREEN.DAMAGE_DONE"
 msgid "DAMAGE DONE"
-msgstr "НАНЕСЕНО ШКОДИ"
+msgstr "ЗАВДАНО ШКОДИ"
 
 #: STRINGS.UI.DUNGEONSUMMARYSCREEN.DAMAGE_TAKEN
 msgctxt "STRINGS.UI.DUNGEONSUMMARYSCREEN.DAMAGE_TAKEN"
 msgid "DAMAGE TAKEN"
-msgstr "ОТРИМАННО ПОШКОДЖЕНЬ"
+msgstr "ОТРИМАНО ПОШКОДЖЕНЬ"
 
 #: STRINGS.UI.DUNGEONSUMMARYSCREEN.DEATHS
 msgctxt "STRINGS.UI.DUNGEONSUMMARYSCREEN.DEATHS"
@@ -34597,7 +34597,7 @@ msgstr "Зменшує кількість <#RED>{2:{name.concept_damage}}</>, я
 #: STRINGS.UI.EQUIPMENT_STATS.ARMOUR.name
 msgctxt "STRINGS.UI.EQUIPMENT_STATS.ARMOUR.name"
 msgid "DMG REDUCTION"
-msgstr "ЗМЕНШЕННЯ УРОНУ"
+msgstr "ЗМЕНШЕННЯ ШКОДИ"
 
 #: STRINGS.UI.EQUIPMENT_STATS.CRIT.desc
 msgctxt "STRINGS.UI.EQUIPMENT_STATS.CRIT.desc"
@@ -34854,7 +34854,7 @@ msgstr "Розкажіть нам про те, що ви бачили."
 #: STRINGS.UI.FEEDBACK_SCREEN.CATEGORY_PROMPT.WORDS
 msgctxt "STRINGS.UI.FEEDBACK_SCREEN.CATEGORY_PROMPT.WORDS"
 msgid "Loved some dialogue? Found a typo? Confused?"
-msgstr "Сподобалися діалоги? Знайшли помарку? Збентежені?"
+msgstr "Сподобалися діалоги? Знайшли помилку? Збентежені?"
 
 #: STRINGS.UI.FEEDBACK_SCREEN.MESSAGE_LABEL
 msgctxt "STRINGS.UI.FEEDBACK_SCREEN.MESSAGE_LABEL"
@@ -34869,7 +34869,7 @@ msgstr "Коротко опишіть свою проблему в полі Пі
 #: STRINGS.UI.FEEDBACK_SCREEN.SEND_LOG
 msgctxt "STRINGS.UI.FEEDBACK_SCREEN.SEND_LOG"
 msgid "Send Log"
-msgstr "Надіслати лог файл"
+msgstr "Надіслати журнал"
 
 #: STRINGS.UI.FEEDBACK_SCREEN.SEND_PERFORMANCE_REPORT
 msgctxt "STRINGS.UI.FEEDBACK_SCREEN.SEND_PERFORMANCE_REPORT"
@@ -34991,7 +34991,7 @@ msgstr "Ці обладунки можна виготовити з максим�
 #: STRINGS.UI.FORGEARMORSCREEN.MAX_UPGRADES_HELPTEXT
 msgctxt "STRINGS.UI.FORGEARMORSCREEN.MAX_UPGRADES_HELPTEXT"
 msgid "This armour can be upgraded a maximum of %s time(s)."
-msgstr "Цю броню можна покращити максимум %s раз(ів)."
+msgstr "Ці обладунки можна покращити максимум %s раз(ів)."
 
 #: STRINGS.UI.FORGEARMORSCREEN.MENU_TITLE
 msgctxt "STRINGS.UI.FORGEARMORSCREEN.MENU_TITLE"
@@ -35021,7 +35021,7 @@ msgstr "%d/%d"
 #: STRINGS.UI.FORGEARMORSCREEN.STATS_HEAD_TITLE
 msgctxt "STRINGS.UI.FORGEARMORSCREEN.STATS_HEAD_TITLE"
 msgid "Hat upgrades"
-msgstr "Покращенно шоломів"
+msgstr "Покращено шоломів"
 
 #: STRINGS.UI.FORGEARMORSCREEN.STATS_HEAD_VALUE
 msgctxt "STRINGS.UI.FORGEARMORSCREEN.STATS_HEAD_VALUE"
@@ -35292,7 +35292,7 @@ msgstr "Повернути зміни"
 #: STRINGS.UI.HELP.SAVEPRESET
 msgctxt "STRINGS.UI.HELP.SAVEPRESET"
 msgid "Save Preset"
-msgstr "Зберегти пресет"
+msgstr "Зберегти шаблон"
 
 #: STRINGS.UI.HELP.SCROLL
 msgctxt "STRINGS.UI.HELP.SCROLL"
@@ -35382,7 +35382,7 @@ msgstr "Натисніть <p bind='Controls.Digital.TOGGLE_SAY' color=0>, що�
 #: STRINGS.UI.HUD.HITCOUNTER.DAMAGE_SUM
 msgctxt "STRINGS.UI.HUD.HITCOUNTER.DAMAGE_SUM"
 msgid "DMG"
-msgstr "УРОН"
+msgstr "ШКД"
 
 #: STRINGS.UI.HUD.HITCOUNTER.HIT_STREAK
 msgctxt "STRINGS.UI.HUD.HITCOUNTER.HIT_STREAK"
@@ -35609,7 +35609,7 @@ msgstr "Не вибрано жодного елемента"
 #: STRINGS.UI.INVENTORYSCREEN.PRESETS
 msgctxt "STRINGS.UI.INVENTORYSCREEN.PRESETS"
 msgid "Presets"
-msgstr "Пресети"
+msgstr "Шаблони"
 
 #: STRINGS.UI.INVENTORYSCREEN.REROLLS
 msgctxt "STRINGS.UI.INVENTORYSCREEN.REROLLS"
@@ -36290,7 +36290,7 @@ msgstr "Чорний список"
 #: STRINGS.UI.MANAGEMP.KICK
 msgctxt "STRINGS.UI.MANAGEMP.KICK"
 msgid "Kick"
-msgstr "Забанить"
+msgstr "Вигнати"
 
 #: STRINGS.UI.MANAGEMP.PLAYERS_IN_GAME
 msgctxt "STRINGS.UI.MANAGEMP.PLAYERS_IN_GAME"
@@ -36630,7 +36630,7 @@ msgstr "У цій вкладці є майстерність, яку ви мож
 #: STRINGS.UI.MASTERYSCREEN.CHALLENGE
 msgctxt "STRINGS.UI.MASTERYSCREEN.CHALLENGE"
 msgid "Challenges"
-msgstr "Вибробування"
+msgstr "Випробування"
 
 #: STRINGS.UI.MASTERYSCREEN.CLAIM
 msgctxt "STRINGS.UI.MASTERYSCREEN.CLAIM"
@@ -36898,7 +36898,7 @@ msgstr "Немає підключення до сервера."
 #: STRINGS.UI.NETWORKDISCONNECT.BODY.NotOnline
 msgctxt "STRINGS.UI.NETWORKDISCONNECT.BODY.NotOnline"
 msgid "User is not online."
-msgstr "Користувач оффлайн."
+msgstr "Користувач офлайн."
 
 #: STRINGS.UI.NETWORKDISCONNECT.BODY.OK
 msgctxt "STRINGS.UI.NETWORKDISCONNECT.BODY.OK"
@@ -37013,7 +37013,7 @@ msgstr "Продовжити"
 #: STRINGS.UI.NETWORKINVITEDISABLED.TITLE
 msgctxt "STRINGS.UI.NETWORKINVITEDISABLED.TITLE"
 msgid "Cannot Join Online Game"
-msgstr "Неможливо приєднатися до онлайн-ігри"
+msgstr "Неможливо приєднатися до онлайн гри"
 
 #: STRINGS.UI.NOTIFICATION.CONNECTING
 msgctxt "STRINGS.UI.NOTIFICATION.CONNECTING"
@@ -37048,7 +37048,7 @@ msgstr "Підключення"
 #: STRINGS.UI.ONLINESCREEN.CONNECT_FAILED
 msgctxt "STRINGS.UI.ONLINESCREEN.CONNECT_FAILED"
 msgid "Failed to connect to game."
-msgstr "Не вдалося підключитися до гри."
+msgstr "Не вдалося приєднатися до гри."
 
 #: STRINGS.UI.ONLINESCREEN.END_GAME
 msgctxt "STRINGS.UI.ONLINESCREEN.END_GAME"
@@ -37088,7 +37088,7 @@ msgstr "Створити гру"
 #: STRINGS.UI.ONLINESCREEN.JOINCODE_JOIN
 msgctxt "STRINGS.UI.ONLINESCREEN.JOINCODE_JOIN"
 msgid "Connect to Game"
-msgstr "Підключитися до гри"
+msgstr "Приєднатися до гри"
 
 #: STRINGS.UI.ONLINESCREEN.JOINCODE_LABEL
 msgctxt "STRINGS.UI.ONLINESCREEN.JOINCODE_LABEL"
@@ -37170,7 +37170,7 @@ msgstr "Зберегти та перезапустити?"
 #: STRINGS.UI.OPTIONSSCREEN.CONFIRM_NO
 msgctxt "STRINGS.UI.OPTIONSSCREEN.CONFIRM_NO"
 msgid "Discard"
-msgstr "Відмінити"
+msgstr "Скасувати"
 
 #: STRINGS.UI.OPTIONSSCREEN.CONFIRM_OK
 msgctxt "STRINGS.UI.OPTIONSSCREEN.CONFIRM_OK"
@@ -38301,7 +38301,7 @@ msgstr "Я сказав вийти!"
 #: STRINGS.UI.PAUSEMENU.SAVEQUIT_BUTTON
 msgctxt "STRINGS.UI.PAUSEMENU.SAVEQUIT_BUTTON"
 msgid "<p img='images/ui_ftf_dialog/convo_close.tex' color=0> Save and quit"
-msgstr "<p img='images/ui_ftf_dialog/convo_close.tex' color=0> Зберегти і вийти"
+msgstr "<p img='images/ui_ftf_dialog/convo_close.tex' color=0> Зберегти й вийти"
 
 #: STRINGS.UI.PAUSEMENU.SERVER_ADMIN
 msgctxt "STRINGS.UI.PAUSEMENU.SERVER_ADMIN"
@@ -38449,7 +38449,7 @@ msgstr "<p img='images/ui_ftf_online/ic_remove_player.tex' color=0 scale=2.5>\n\
 #: STRINGS.UI.PLAYERSSCREEN.SHARECODE_LABEL
 msgctxt "STRINGS.UI.PLAYERSSCREEN.SHARECODE_LABEL"
 msgid "<p img='images/ui_ftf_icons/sharecode.tex' color=0 scale=1.2>  Send this ShareCode to invite other players."
-msgstr "<p img='images/ui_ftf_icons/sharecode.tex' color=0 scale=1.2>  Відправте цей ШводКод, щоб запросити інших гравців."
+msgstr "<p img='images/ui_ftf_icons/sharecode.tex' color=0 scale=1.2>  Відправте цей ШвидКод, щоб запросити інших гравців."
 
 #: STRINGS.UI.PLAYERSSCREEN.TAB_BANNED
 msgctxt "STRINGS.UI.PLAYERSSCREEN.TAB_BANNED"
@@ -38503,17 +38503,17 @@ msgstr "Недостатньо <#KONJUR>{2:{name.i_konjur}}</>"
 #: STRINGS.UI.POWERSELECTIONSCREEN.POWER_PROMPT_FABLED_RELIC
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.POWER_PROMPT_FABLED_RELIC"
 msgid "<p bind='Controls.Digital.ACTION' color=0>  Select {category} {name.concept_relic}"
-msgstr "<p bind='Controls.Digital.ACTION' color=0>  Вибрать {2:{name.concept_relic}}: {category}"
+msgstr "<p bind='Controls.Digital.ACTION' color=0>  Вибрати {2:{name.concept_relic}}: {category}"
 
 #: STRINGS.UI.POWERSELECTIONSCREEN.POWER_PROMPT_RELIC
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.POWER_PROMPT_RELIC"
 msgid "<p bind='Controls.Digital.ACTION' color=0>  Select {name.concept_relic}"
-msgstr "<p bind='Controls.Digital.ACTION' color=0>  Вибрать {2:{name.concept_relic}}"
+msgstr "<p bind='Controls.Digital.ACTION' color=0>  Вибрати {2:{name.concept_relic}}"
 
 #: STRINGS.UI.POWERSELECTIONSCREEN.POWER_PROMPT_SKILL
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.POWER_PROMPT_SKILL"
 msgid "<p bind='Controls.Digital.ACTION' color=0>  Select {name.concept_skill}"
-msgstr "<p bind='Controls.Digital.ACTION' color=0>  Вибрать {2:{name.concept_skill}}"
+msgstr "<p bind='Controls.Digital.ACTION' color=0>  Вибрати {2:{name.concept_skill}}"
 
 #: STRINGS.UI.POWERSELECTIONSCREEN.POWER_PROMPT_SOUL
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.POWER_PROMPT_SOUL"
@@ -38585,7 +38585,7 @@ msgctxt "STRINGS.UI.PRESSED_START_IN_SINGLE_PLAYER.SUBTITLE"
 msgid "Want to add a new player on that device,\n"
 "or switch to it yourself?"
 msgstr "Бажаєте додати нового гравця на цьому пристрої,\n"
-"або переключитися на нього самостійно?"
+"або перемикнутися на нього самостійно?"
 
 #: STRINGS.UI.PRESSED_START_IN_SINGLE_PLAYER.TITLE
 msgctxt "STRINGS.UI.PRESSED_START_IN_SINGLE_PLAYER.TITLE"
@@ -38697,7 +38697,7 @@ msgstr "Спочатку виберіть {2:{name.concept_relic}}"
 #: STRINGS.UI.ROOMBONUSSCREEN.CONTINUE_BUTTON_SKILL
 msgctxt "STRINGS.UI.ROOMBONUSSCREEN.CONTINUE_BUTTON_SKILL"
 msgid "Pick {name.concept_skill}"
-msgstr "Вибрать {2:{name.concept_skill}}"
+msgstr "Вибрати {2:{name.concept_skill}}"
 
 #: STRINGS.UI.ROOMBONUSSCREEN.CONTINUE_BUTTON_SKILL_TT
 msgctxt "STRINGS.UI.ROOMBONUSSCREEN.CONTINUE_BUTTON_SKILL_TT"
@@ -38926,7 +38926,7 @@ msgstr "Змінити самоцвіти"
 #: STRINGS.UI.SCREENOPENER_PROP.inventory_chest
 msgctxt "STRINGS.UI.SCREENOPENER_PROP.inventory_chest"
 msgid "Open Chest"
-msgstr "Відкрити сундук"
+msgstr "Відкрити скриню"
 
 #: STRINGS.UI.SHOP_ITEM.POTION.ALREADY_OWNED
 msgctxt "STRINGS.UI.SHOP_ITEM.POTION.ALREADY_OWNED"
@@ -39623,7 +39623,7 @@ msgstr "<#BLUE>{name.concept_focus_hit}:</BLUE>\n"
 msgctxt "STRINGS.WEAPONS.HOW_TO_PLAY.CANNON"
 msgid "A long-range weapon that can deal <#RED>{name.concept_damage}</> at a distance, but is vulnerable when the clip is empty.\n"
 "Use the shotgun blast to <#RED>{name.concept_dodge}</>!"
-msgstr "Дальнобійна зброя, яка може нанести <#RED>{name.concept_damage}</> на відстані, але є вразливою, коли обойма порожня.\n"
+msgstr "Далекобійна зброя, яка може нанести <#RED>{name.concept_damage}</> на відстані, але є вразливою, коли обойма порожня.\n"
 "Використовуйте постріл дробовика, щоб виконати <#RED>{name.concept_dodge}</>!"
 
 #: STRINGS.WEAPONS.HOW_TO_PLAY.HAMMER
@@ -39698,7 +39698,7 @@ msgstr "<p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> Постріл
 "<p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> Постріл дробовика (Безпечне <#RED>ухиляння</>)\n"
 "<p bind='Controls.Digital.SKILL' color=LIGHT_TEXT> Навичка (<#RED>Відновлення</> при попаданні)\n"
 "<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT> <p bind='Controls.Digital.DODGE' color=LIGHT_TEXT> <#RED>Перезарядка</> (правильний таймінг)\n\n"
-"<#BLUE>фокусний урон:</BLUE>\n"
+"<#BLUE>Фокусний удар:</BLUE>\n"
 "• Останні три снаряди вашої обойми\n"
 
 #: STRINGS.WEAPON_TIPS.TIP.HAMMER
@@ -39718,7 +39718,7 @@ msgstr "<p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> Легка а�
 "<#BLUE>Фокусний удар:</BLUE>\n"
 "• Вдарите кількох ворогів одним ударом\n"
 "• Повністю зарядіть завершальну комбінацію <#RED>важкої атаки</RED>\n"
-"• Повністю зарядіть <#RED>Удар клюшкою</RED> (<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT>  <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> утримуйте <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> у зворотному напрямку)\n"
+"• Повністю зарядіть <#RED>Удар ключкою</RED> (<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT>  <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> утримуйте <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> у зворотному напрямку)\n"
 
 #: STRINGS.WEAPON_TIPS.TIP.POLEARM
 msgctxt "STRINGS.WEAPON_TIPS.TIP.POLEARM"
