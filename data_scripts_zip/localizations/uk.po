@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-08-18 13:47\n"
+"PO-Revision-Date: 2024-08-18 15:16\n"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -8989,7 +8989,7 @@ msgstr "agent:\n"
 "Але будьте уважними. <#RED>Оживлення</> союзників безплатне на звичайних полюваннях, але на <#RED>рівні божевілля 1</> і вище, вам доведеться втратити трохи <#RED>здоров'я</>, щоб підняти друга.\n"
 "!happy\n"
 "!gruffnod\n"
-"Якщо ви хвилюєтесь, не варто. <#RED>рівні божевілля </> можуть бути складними, але вам ніколи не дозволять брати участь у тому, що перевищує ваші можливості."
+"Якщо ви хвилюєтесь, не варто. <#RED>Рівні божевілля</> можуть бути складними, але вам ніколи не дозволять брати участь у тому, що перевищує ваші можливості."
 
 #: Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.TUTORIALS.GENERAL.FRENZIED_HUNTS_BTN
 msgctxt "Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.TUTORIALS.GENERAL.FRENZIED_HUNTS_BTN"
@@ -17119,7 +17119,7 @@ msgstr "agent:\n"
 "Але будьте уважними. <#RED>Оживлення</> союзників безплатне на звичайних полюваннях, але на <#RED>рівні божевілля 1</> і вище, вам доведеться втратити трохи <#RED>здоров'я</>, щоб підняти друга.\n"
 "!happy\n"
 "!gruffnod\n"
-"Якщо ви хвилюєтесь, не варто. <#RED>рівні божевілля </> можуть бути складними, але вам ніколи не дозволять брати участь у тому, що перевищує ваші можливості."
+"Якщо ви хвилюєтесь, не варто. <#RED>Рівні божевілля</> можуть бути складними, але вам ніколи не дозволять брати участь у тому, що перевищує ваші можливості."
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.FRENZIED_HUNTS_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.FRENZIED_HUNTS_BTN"
