@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-08-18 13:43\n"
+"PO-Revision-Date: 2024-08-18 13:47\n"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -39110,7 +39110,7 @@ msgstr "Скасування ухилення"
 #: STRINGS.UI.TOOLTIPS.FOCUS_HIT.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.FOCUS_HIT.DESC"
 msgid "Bonus <#RED>{name.concept_damage}</> from using the <#RED>Weapon</> efficiently. <#BLUE>Focus Hit {name.concept_damage}</> appears <#BLUE>Blue</>."
-msgstr "Додаткова <#RED>{name.concept_damage}</> за вірне використання <#RED>зброї</>. <#BLUE>{3:{name.concept_damage}} фокусних ударів</> має <#BLUE>синім</> колір."
+msgstr "Бонусна <#RED>{3:{name.concept_damage}}</> за вірне використання <#RED>зброї</>. <#BLUE>{3:{name.concept_damage}} фокусних ударів</> має <#BLUE>синім</> колір."
 
 #: STRINGS.UI.TOOLTIPS.FOCUS_HIT.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.FOCUS_HIT.NAME"
