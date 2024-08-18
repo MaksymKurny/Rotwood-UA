@@ -58,15 +58,15 @@ local function ReplaceNameInString(str, fns, clear_names)
 		-- Prefabs names are limited to lowercase letters, numbers, and
 		-- underscore.
 		
-		str = str:gsub('([?:#.*%%]){name.([_a-z0-9]-)}', fns.singular)
+		str = str:gsub('([?:#*%%]){name.([_a-z0-9]-)}', fns.singular)
 		str = str:gsub('{name.([_a-z0-9]-)}', fns.singular)
-		str = str:gsub('([?:#.*%%]){name_multiple.([_a-z0-9]-)}', fns.plural)
+		str = str:gsub('([?:#*%%]){name_multiple.([_a-z0-9]-)}', fns.plural)
 		str = str:gsub('{name_multiple.([_a-z0-9]-)}', fns.plural)
 		str = str:gsub('{name_plurality.([_a-z0-9]-)}', fns.plurality)
 
-		str = str:gsub('{([?:#.*%%])NAME.([_a-z0-9]-)}', fns.upper_singular)
+		str = str:gsub('{([?:#*%%])NAME.([_a-z0-9]-)}', fns.upper_singular)
 		str = str:gsub('{NAME.([_a-z0-9]-)}', fns.upper_singular)
-		str = str:gsub('{([?:#.*%%])NAME_MULTIPLE.([_a-z0-9]-)}', fns.upper_plural)
+		str = str:gsub('{([?:#*%%])NAME_MULTIPLE.([_a-z0-9]-)}', fns.upper_plural)
 		str = str:gsub('{NAME_MULTIPLE.([_a-z0-9]-)}', fns.upper_plural)
 		str = str:gsub('{NAME_PLURALITY.([_a-z0-9]-)}', fns.upper_plurality)
 	elseif clear_names == true then
