@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-08-18 18:40\n"
+"PO-Revision-Date: 2024-08-19 19:07\n"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -39429,7 +39429,7 @@ msgstr "Очікування інших гравців..."
 #: STRINGS.UI.WARE_PURCHASE_POPUP.CANCEL_OPTION
 msgctxt "STRINGS.UI.WARE_PURCHASE_POPUP.CANCEL_OPTION"
 msgid "Nevermind!"
-msgstr "Неважливо!"
+msgstr "Я передумав!"
 
 #: STRINGS.UI.WARE_PURCHASE_POPUP.DECISION_TEXT
 msgctxt "STRINGS.UI.WARE_PURCHASE_POPUP.DECISION_TEXT"
@@ -39449,7 +39449,7 @@ msgstr "Купити предмет!"
 #: STRINGS.UI.WARE_PURCHASE_POPUP.EQUIP_OPTION
 msgctxt "STRINGS.UI.WARE_PURCHASE_POPUP.EQUIP_OPTION"
 msgid "Equip It"
-msgstr "Одягнути"
+msgstr "Спорядити"
 
 #: STRINGS.UI.WARE_PURCHASE_POPUP.PURCHASE_OPTION
 msgctxt "STRINGS.UI.WARE_PURCHASE_POPUP.PURCHASE_OPTION"
@@ -39479,7 +39479,7 @@ msgstr "Відправити"
 #: STRINGS.UI.WARE_PURCHASE_POPUP.TEXT
 msgctxt "STRINGS.UI.WARE_PURCHASE_POPUP.TEXT"
 msgid "Would you like to wear this now, or ship it home?"
-msgstr "Ви б хотіли обладнати предмет зараз?"
+msgstr "Ви б хотіли спорядити його зараз чи відправити додому?"
 
 #: STRINGS.UI.WARE_PURCHASE_POPUP.WEIGHT_CHANGED_TO.HEAVY
 msgctxt "STRINGS.UI.WARE_PURCHASE_POPUP.WEIGHT_CHANGED_TO.HEAVY"
