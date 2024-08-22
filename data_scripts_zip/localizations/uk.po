@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-08-19 19:07\n"
+"PO-Revision-Date: 2024-08-22 21:10\n"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -21754,7 +21754,7 @@ msgstr "Бій - це елегантний танець."
 #: STRINGS.ITEMS.HEAD.floracrane.name
 msgctxt "STRINGS.ITEMS.HEAD.floracrane.name"
 msgid "{name.floracrane} Garland"
-msgstr "Гірлянда {2:{name.floracrane}}"
+msgstr "Гірлянда з {2:{name.floracrane}}"
 
 #: STRINGS.ITEMS.HEAD.gnarlic.desc
 msgctxt "STRINGS.ITEMS.HEAD.gnarlic.desc"
@@ -24500,7 +24500,7 @@ msgstr "equipment_gnarlic_body"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_gnarlic_head.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_gnarlic_head.desc"
 msgid "Your run becomes an <#RED>{name.concept_attack}</> that deals <#RED>{name.concept_damage}</> based on how fast you are moving."
-msgstr "Ваш біг стає <#RED>{2:{name.concept_attack}}</>, яка завдає <#RED>{name.concept_damage}</> залежно від того, наскільки швидко ви рухаєтеся."
+msgstr "Ваш біг стає <#RED>{3:{name.concept_attack}}</>, яка завдає <#RED>{name.concept_damage}</> залежно від того, наскільки швидко ви рухаєтеся."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_gnarlic_head.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_gnarlic_head.name"
@@ -24941,7 +24941,7 @@ msgstr "equipment_shotput_spiked_rebound"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_body.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_body.desc"
 msgid "Deal <#RED>Weapon Damage</> in an area when landing on the ground."
-msgstr "Завдайте <#RED>шкоду зброї</> в області під час приземлення."
+msgstr "Приземлившись завдайте <#RED>шкоду від зброї</> в області навколо себе."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_body.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_body.name"
@@ -30625,7 +30625,7 @@ msgstr "Союзник"
 #: STRINGS.NAMES.concept_attack
 msgctxt "STRINGS.NAMES.concept_attack"
 msgid "Attack"
-msgstr "Атака|атаки"
+msgstr "Атака|атаки|атакою"
 
 #: STRINGS.NAMES.concept_critical
 msgctxt "STRINGS.NAMES.concept_critical"
