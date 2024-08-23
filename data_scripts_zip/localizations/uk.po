@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-08-23 19:27\n"
+"PO-Revision-Date: 2024-08-23 19:56\n"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -8260,7 +8260,7 @@ msgstr "agent:\n"
 #: Convo.twn_mastery_explainer.HUB0.convo.giver.STATE_0.OPT_1
 msgctxt "Convo.twn_mastery_explainer.HUB0.convo.giver.STATE_0.OPT_1"
 msgid "Oh hey. {name.npc_dojo_master}, right?"
-msgstr "Ох, привіт. {Name.npc_dojo_master}, так?"
+msgstr "Ох, привіт. {Name.npc_dojo_master}, вірно?"
 
 #: Convo.twn_mastery_explainer.HUB0.convo.giver.STATE_0.OPT_3C
 msgctxt "Convo.twn_mastery_explainer.HUB0.convo.giver.STATE_0.OPT_3C"
@@ -8270,7 +8270,7 @@ msgstr "Подивімось на ці майстерності!"
 #: Convo.twn_mastery_explainer.HUB0.convo.giver.STATE_0.QUESTION_2A
 msgctxt "Convo.twn_mastery_explainer.HUB0.convo.giver.STATE_0.QUESTION_2A"
 msgid "Woah, hold up. Are you feeling okay?"
-msgstr "Вау, стривай. Ти добре себе почуваєш?"
+msgstr "Воу, стривай. Ти добре себе почуваєш?"
 
 #: Convo.twn_mastery_explainer.HUB0.convo.giver.STATE_0.QUESTION_2A_ALT
 msgctxt "Convo.twn_mastery_explainer.HUB0.convo.giver.STATE_0.QUESTION_2A_ALT"
@@ -28398,7 +28398,7 @@ msgstr "Завжди будьте готові кинутися в бій."
 #: STRINGS.ITEMS.WAIST.battoad.name
 msgctxt "STRINGS.ITEMS.WAIST.battoad.name"
 msgid "{name.battoad} Legs"
-msgstr "Ноги {2:{Name.battoad}}"
+msgstr "Штани з {2:{Name.battoad}}"
 
 #: STRINGS.ITEMS.WAIST.blarmadillo.desc
 msgctxt "STRINGS.ITEMS.WAIST.blarmadillo.desc"
@@ -28439,7 +28439,7 @@ msgstr "Не виходьте на полювання без друга, яки�
 #: STRINGS.ITEMS.WAIST.cabbageroll.name
 msgctxt "STRINGS.ITEMS.WAIST.cabbageroll.name"
 msgid "{name.cabbageroll} Sash"
-msgstr "{Name.cabbageroll} Саш"
+msgstr "Саш з {2:{Name.cabbageroll}}"
 
 #: STRINGS.ITEMS.WAIST.crystroll.desc
 msgctxt "STRINGS.ITEMS.WAIST.crystroll.desc"
@@ -28479,7 +28479,7 @@ msgstr "Ці шорти дійсно припадуть вам до душі."
 #: STRINGS.ITEMS.WAIST.gnarlic.name
 msgctxt "STRINGS.ITEMS.WAIST.gnarlic.name"
 msgid "{name.gnarlic} Bulb Shorts"
-msgstr "Шорти з {2:{Name.gnarlic}}"
+msgstr "Шаровари з {2:{Name.gnarlic}}"
 
 #: STRINGS.ITEMS.WAIST.gourdo.desc
 msgctxt "STRINGS.ITEMS.WAIST.gourdo.desc"
@@ -29838,7 +29838,7 @@ msgstr "Будівлі"
 #: STRINGS.ITEM_CATEGORIES.CANNON
 msgctxt "STRINGS.ITEM_CATEGORIES.CANNON"
 msgid "{name.weapon_cannon}"
-msgstr "{4:{name.weapon_cannon}}"
+msgstr "{4:{Name.weapon_cannon}}"
 
 #: STRINGS.ITEM_CATEGORIES.CHALLENGE_MASTERY
 msgctxt "STRINGS.ITEM_CATEGORIES.CHALLENGE_MASTERY"
@@ -29853,7 +29853,7 @@ msgstr "Брудні шахраї"
 #: STRINGS.ITEM_CATEGORIES.CLEAVER
 msgctxt "STRINGS.ITEM_CATEGORIES.CLEAVER"
 msgid "{name.weapon_greatsword}"
-msgstr "{Name.weapon_greatsword}"
+msgstr "{4:{Name.weapon_greatsword}}"
 
 #: STRINGS.ITEM_CATEGORIES.CURRENCY_MATERIALS
 msgctxt "STRINGS.ITEM_CATEGORIES.CURRENCY_MATERIALS"
@@ -29908,7 +29908,7 @@ msgstr "Гроак"
 #: STRINGS.ITEM_CATEGORIES.HAMMER
 msgctxt "STRINGS.ITEM_CATEGORIES.HAMMER"
 msgid "{name.weapon_hammer}"
-msgstr "{4:{name.weapon_hammer}}"
+msgstr "{4:{Name.weapon_hammer}}"
 
 #: STRINGS.ITEM_CATEGORIES.HEAD
 msgctxt "STRINGS.ITEM_CATEGORIES.HEAD"
@@ -29928,7 +29928,7 @@ msgstr "Ключові елементи"
 #: STRINGS.ITEM_CATEGORIES.KONJUR_CONVERSION
 msgctxt "STRINGS.ITEM_CATEGORIES.KONJUR_CONVERSION"
 msgid "{name.konjur} Conversion"
-msgstr "Перетворення {name.konjur}у"
+msgstr "Перетворення {2:{name.konjur}}"
 
 #: STRINGS.ITEM_CATEGORIES.LEGS
 msgctxt "STRINGS.ITEM_CATEGORIES.LEGS"
@@ -29973,7 +29973,7 @@ msgstr "Стара магія"
 #: STRINGS.ITEM_CATEGORIES.POLEARM
 msgctxt "STRINGS.ITEM_CATEGORIES.POLEARM"
 msgid "{name.weapon_polearm}"
-msgstr "{4:{name.weapon_polearm}}"
+msgstr "{4:{Name.weapon_polearm}}"
 
 #: STRINGS.ITEM_CATEGORIES.POTIONS
 msgctxt "STRINGS.ITEM_CATEGORIES.POTIONS"
@@ -30003,7 +30003,7 @@ msgstr "Підтримати"
 #: STRINGS.ITEM_CATEGORIES.SHOTPUT
 msgctxt "STRINGS.ITEM_CATEGORIES.SHOTPUT"
 msgid "{name.weapon_shotput}"
-msgstr "{4:{name.weapon_shotput}}"
+msgstr "{4:{Name.weapon_shotput}}"
 
 #: STRINGS.ITEM_CATEGORIES.SHOULDERS
 msgctxt "STRINGS.ITEM_CATEGORIES.SHOULDERS"
@@ -34036,7 +34036,7 @@ msgstr "Врятуйте <#BLUE> {2:{name.job_armorsmith}} {2:{Name.npc_armorsmi
 #: STRINGS.UI.ARMORYSCREEN.NO_EQUIPMENT
 msgctxt "STRINGS.UI.ARMORYSCREEN.NO_EQUIPMENT"
 msgid "No equipment"
-msgstr "Без обладнання"
+msgstr "Немає спорядження"
 
 #: STRINGS.UI.ARMORYSCREEN.TITLE
 msgctxt "STRINGS.UI.ARMORYSCREEN.TITLE"
