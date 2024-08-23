@@ -58,11 +58,17 @@ local function ReplaceNameInString(str, fns, clear_names)
 		-- Prefabs names are limited to lowercase letters, numbers, and
 		-- underscore.
 		
-		str = str:gsub('([?:#*%%]){name.([_a-z0-9]-)}', fns.singular)
-		str = str:gsub('{name.([_a-z0-9]-)}', fns.singular)
-		str = str:gsub('([?:#*%%]){name_multiple.([_a-z0-9]-)}', fns.plural)
-		str = str:gsub('{name_multiple.([_a-z0-9]-)}', fns.plural)
-		str = str:gsub('{name_plurality.([_a-z0-9]-)}', fns.plurality)
+		str = str:gsub('([?:#*%%]){name.([_a-z0-9]-)}', fns.lower_singular)
+		str = str:gsub('{name.([_a-z0-9]-)}', fns.lower_singular)
+		str = str:gsub('([?:#*%%]){name_multiple.([_a-z0-9]-)}', fns.lower_plural)
+		str = str:gsub('{name_multiple.([_a-z0-9]-)}', fns.lower_plural)
+		str = str:gsub('{name_plurality.([_a-z0-9]-)}', fns.lower_plurality)
+		
+		str = str:gsub('([?:#*%%]){Name.([_a-z0-9]-)}', fns.singular)
+		str = str:gsub('{Name.([_a-z0-9]-)}', fns.singular)
+		str = str:gsub('([?:#*%%]){Name_multiple.([_a-z0-9]-)}', fns.plural)
+		str = str:gsub('{Name_multiple.([_a-z0-9]-)}', fns.plural)
+		str = str:gsub('{Name_plurality.([_a-z0-9]-)}', fns.plurality)
 
 		str = str:gsub('{([?:#*%%])NAME.([_a-z0-9]-)}', fns.upper_singular)
 		str = str:gsub('{NAME.([_a-z0-9]-)}', fns.upper_singular)
@@ -143,6 +149,14 @@ function loc.ReplaceNames(string_table, name_table_singular, name_table_plural, 
 		return name_table_plurality[key] or key
 	end
 
+    for _,k in ipairs(lume.keys(fns)) do
+        fns["lower_".. k] = function(operand, _key)
+            local name = fns[k](operand, _key)
+            -- TODO: no longer safe to lower because transforms translated strings.
+            return name:lower()
+        end
+    end
+	
     for _,k in ipairs(lume.keys(fns)) do
         fns["upper_".. k] = function(key)
             local name = fns[k](key)
