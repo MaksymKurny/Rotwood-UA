@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-08-23 19:56\n"
+"PO-Revision-Date: 2024-08-24 20:22\n"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -35883,7 +35883,7 @@ msgstr "Об'єднайтеся з друзями поруч і онлайн т�
 msgctxt "STRINGS.UI.MAINSCREEN.BTN_MULTI_PLAYER_TEXT_OFFLINE"
 msgid "Team up with local and online friends and face the Rotwood together.\n"
 "<#D6FEFF><p img='images/icons_ftf/ic_offline.tex' color=0 scale=1.3> No online connection available</>"
-msgstr "Об'єднайтеся з локальними друзями та друзями в Інтернеті і разом досліджуйте Ротвуд.\n"
+msgstr "Об'єднайтеся з друзями поруч і онлайн та разом досліджуйте Ротвуд.\n"
 "<#D6FEFF><p img='images/icons_ftf/ic_offline.tex' color=0 scale=1.3> Інтернет-з'єднання недоступне</>"
 
 #: STRINGS.UI.MAINSCREEN.BTN_MULTI_PLAYER_TITLE
@@ -35894,7 +35894,7 @@ msgstr "Онлайн гра"
 #: STRINGS.UI.MAINSCREEN.BTN_SINGLE_PLAYER_TEXT
 msgctxt "STRINGS.UI.MAINSCREEN.BTN_SINGLE_PLAYER_TEXT"
 msgid "Set out on your own and explore the Rotwood at your own pace."
-msgstr "Вирушайте самостійно та досліджуйте Ротвуд у своєму власному темпі."
+msgstr "Вирушайте самостійно та досліджуйте Ротвуд у власному темпі."
 
 #: STRINGS.UI.MAINSCREEN.BTN_SINGLE_PLAYER_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.BTN_SINGLE_PLAYER_TITLE"
