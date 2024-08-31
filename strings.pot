@@ -1190,17 +1190,17 @@ msgstr ""
 
 #: Convo.dgn_challenge_bandi_magpie.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_challenge_bandi_magpie.HUB0.convo.giver.STATE_0.QUESTION_1"
-msgid "Hmm, lemme guess. You have a Market Challenge for me."
+msgid "Hmm, lemme guess. You have a new challenge for me."
 msgstr ""
 
 #: Convo.dgn_challenge_bandi_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A
 msgctxt "Convo.dgn_challenge_bandi_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A"
-msgid "<#RED>{condition_1}</> before the first Market, eh?\nHow do you come up with this stuff?"
+msgid "<#RED>{condition_1}</> before I get to your Market, eh?\nHow do you come up with this stuff?"
 msgstr ""
 
 #: Convo.dgn_challenge_bandi_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B
 msgctxt "Convo.dgn_challenge_bandi_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B"
-msgid "Aaaand Market Challenge 2?"
+msgid "Aaaand I'm assuming there's a second challenge?"
 msgstr ""
 
 #: Convo.dgn_challenge_bandi_magpie.HUB0.convo.giver.STATE_0.QUESTION_END
@@ -1210,26 +1210,26 @@ msgstr ""
 
 #: Convo.dgn_challenge_bandi_magpie.HUB0.convo.giver.STATE_0.QUESTION_END_ALT
 msgctxt "Convo.dgn_challenge_bandi_magpie.HUB0.convo.giver.STATE_0.QUESTION_END_ALT"
-msgid "<#RED>{condition_2}</> before the second Market?\nI mean, yeah, ideally!"
+msgid "<#RED>{condition_2}</> before I reach the end?\nI mean, yeah, ideally!"
 msgstr ""
 
 #: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_1"
-msgid "agent:\n !neutral\n !dubious\n <z 0.8>Quaw quaw <#RED>Queep Quee</>. Quee quee quaw.</z>"
-msgstr ""
-
-#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_2A
-msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_2A"
 msgid "agent:\n !happy\n !bliss\n <z 0.8>Coooooo.</z>\n !gesture\n <z 0.8>Quaw quaw!</z>"
 msgstr ""
 
-#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_2B
-msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_2B"
-msgid "agent:\n !neutral\n !angry\n <z 0.8>Quaw quaw!</z>\n !think\n <z 0.8><#RED>Quee Quaw</> kwee kwee.</>"
+#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_2
+msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_2"
+msgid "agent:\n !neutral\n !dubious\n <z 0.8>Quaw quaw <#RED>Queep Quee</>. Quee quee quaw.</z>"
 msgstr ""
 
 #: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_3
 msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_3"
+msgid "agent:\n !neutral\n !think\n <z 0.8>Quaw quaw!</z>\n !gesture\n <z 0.8><#RED>Quee Quaw</> kwee kwee.</>"
+msgstr ""
+
+#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_4
+msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_4"
 msgid "agent:\n !happy\n !dubious\n <z 0.8>Quee!</z>"
 msgstr ""
 
@@ -1245,7 +1245,12 @@ msgstr ""
 
 #: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_END2
 msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_END2"
-msgid "agent:\n !neutral\n !point\n <z 0.8>Quyou?</z>\n !scared\n <z 0.8>Squet.</z>\n !happy\n !laugh\n <z 0.8><i>Caa-caa-caa-caa!</i></z>"
+msgid "agent:\n !neutral\n !point\n <z 0.8>Quyou?</z>\n !clap\n <z 0.8>Quee-quee!</z>\n !happy\n !laugh\n <z 0.8><i>Caa-caa-caa-caa!</i></z>"
+msgstr ""
+
+#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_END3
+msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_END3"
+msgid "agent:\n !neutral\n !greet\n <z 0.8>Chwee!</>"
 msgstr ""
 
 #: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.END_GENERIC
@@ -1255,22 +1260,22 @@ msgstr ""
 
 #: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_1"
-msgid "Sorry... what?\nI don't know what \"Market Challenges\" are, let alone why you have two for me."
+msgid "Sorry... what? Really?\nYou want to share some of your treasure with me?"
 msgstr ""
 
-#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A
-msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A"
-msgid "Wait, for real? You'll give me your magpie treasure if I <#RED>{condition_1}</> on my way to your Market?"
-msgstr ""
-
-#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B
-msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B"
-msgid "Okay, but that's just one challenge. What's the second?"
+#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2
+msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2"
+msgid "...Right. I should've know there'd be more to it. Okay, tell me what I need to do."
 msgstr ""
 
 #: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_3
 msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_3"
-msgid "<#RED>{condition_2}</> from here, all the way to the second Market.\nI see... Difficult, but intriguing!"
+msgid "<#RED>{condition_1}</> until I get to your Market? That doesn't seem too hard!"
+msgstr ""
+
+#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_4
+msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_4"
+msgid "You've got another treasure for me if I <#RED>{condition_2}</> from here, all the way to the end?\nOkay, that seems... a little harder."
 msgstr ""
 
 #: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END1
@@ -1280,7 +1285,12 @@ msgstr ""
 
 #: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END2
 msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END2"
-msgid "You're nuts, {name.shop_magpie}! That's impossible!"
+msgid "Wait a second, why exactly do you want me to do all this?"
+msgstr ""
+
+#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END3
+msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END3"
+msgid "...You could use some entertainment. Gee, thanks."
 msgstr ""
 
 #: Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.ANSWER_1
@@ -1315,17 +1325,17 @@ msgstr ""
 
 #: Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.QUESTION_1"
-msgid "Another Market Challenge, huh?"
+msgid "You've got another challenge for me, huh?"
 msgstr ""
 
 #: Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A
 msgctxt "Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A"
-msgid "I need to <#RED>{condition_1}</> before I make it to the first Market?"
+msgid "I need to <#RED>{condition_1}</> before I reach your Market?"
 msgstr ""
 
 #: Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B
 msgctxt "Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B"
-msgid "What should I do before reaching the second Market?"
+msgid "What should I do before reaching the end?"
 msgstr ""
 
 #: Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.QUESTION_END
@@ -1375,12 +1385,12 @@ msgstr ""
 
 #: Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A
 msgctxt "Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A"
-msgid "<#RED>{condition_1}</> before the first Market?\nHard, but fair."
+msgid "<#RED>{condition_1}</> before I reach your Market?\nHard, but fair."
 msgstr ""
 
 #: Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B
 msgctxt "Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B"
-msgid "What'll the second Market Challenge be?"
+msgid "What'll the second challenge be?"
 msgstr ""
 
 #: Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END
@@ -1390,7 +1400,7 @@ msgstr ""
 
 #: Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END_ALT
 msgctxt "Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END_ALT"
-msgid "Y'know, I would <i>also</i> like to <#RED>{condition_2}</> if I'm honest.\nSee ya there!"
+msgid "Y'know, I would <i>also</i> like to <#RED>{condition_2}</> all the way through to the end.\nSee ya there!"
 msgstr ""
 
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.ANSWER_1
@@ -1425,17 +1435,17 @@ msgstr ""
 
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_1"
-msgid "Heyy, {name.shop_magpie}!\nLet's hear Market Challenge 1!"
+msgid "Heyy, {name.shop_magpie}!\nLet's hear the next challenge!"
 msgstr ""
 
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B
 msgctxt "Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B"
-msgid "<#RED>{condition_1}</> before reaching the first Market?\nHah! Unlike those shells, I don't crack under pressure."
+msgid "<#RED>{condition_1}</> before I get to your Market?\nHah! Unlike those shells, I don't crack under pressure."
 msgstr ""
 
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_2C
 msgctxt "Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_2C"
-msgid "What's Market Challenge 2?"
+msgid "I'm guessing you've got a second challenge up your feathery sleeve for me?"
 msgstr ""
 
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_END
@@ -1445,7 +1455,7 @@ msgstr ""
 
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_END_ALT
 msgctxt "Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_END_ALT"
-msgid "<#RED>{condition_2}</> before the second Market?\nWhat, are you going easy on me, {name.shop_magpie}?"
+msgid "<#RED>{condition_2}</> before reaching the end?\nWhat, are you going easy on me, {name.shop_magpie}?"
 msgstr ""
 
 #: Convo.dgn_corestones_market.HUB0.convo.giver.STATE_0.ANSWER_1
@@ -1605,7 +1615,7 @@ msgstr ""
 
 #: Convo.dgn_failed_generic_magpie.HUB0.convo.giver.STATE_0.QUESTION_END
 msgctxt "Convo.dgn_failed_generic_magpie.HUB0.convo.giver.STATE_0.QUESTION_END"
-msgid "I'll beat that Challenge next time!"
+msgid "I'll beat your challenge next time!"
 msgstr ""
 
 #: Convo.dgn_first_frenzy_hunt.HUB0.convo.giver.STATE_0.ANSWER_1A
@@ -2470,7 +2480,7 @@ msgstr ""
 
 #: Convo.dgn_succeed_first_time_magpie.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_succeed_first_time_magpie.HUB0.convo.giver.STATE_0.QUESTION_1"
-msgid "Haha, surprise! I did it. So, what do I get?"
+msgid "Aw c'mon, you don't need to act THAT surprised I beat the challenge! So, what do I get?"
 msgstr ""
 
 #: Convo.dgn_succeed_first_time_magpie.HUB0.convo.giver.STATE_0.QUESTION_2
@@ -2495,7 +2505,7 @@ msgstr ""
 
 #: Convo.dgn_succeed_generic_magpie.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_succeed_generic_magpie.HUB0.convo.giver.STATE_0.QUESTION_1"
-msgid "That's one more Market Challenge down!"
+msgid "I beat another one of your challenges, {name.shop_magpie}!"
 msgstr ""
 
 #: Convo.dgn_succeed_generic_magpie.HUB0.convo.giver.STATE_0.QUESTION_END
@@ -4200,12 +4210,12 @@ msgstr ""
 
 #: Convo.twn_polearm_explainer.HUB0.convo.giver.STATE_0.ANSWER_2A
 msgctxt "Convo.twn_polearm_explainer.HUB0.convo.giver.STATE_0.ANSWER_2A"
-msgid "agent:\n !neutral\n !gruffnod\n Well, yer <#RED>Light Attack</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) is a simple forward jab. Reliable.\n !gesture\n Yer <#RED>Heavy Attack</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) launches you forward with a jumping thrust.\n !shrug\n And heck, since you're takin' the time to learn, I'll give you a <#RED>Combo</> that's not in the tooltip.\n !happy\n !point\n Three <#RED>Light Attacks</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) followed by one <#RED>Heavy Attack</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>). Have fun."
+msgid "agent:\n !neutral\n !gruffnod\n Well, yer <#RED>Light Attack</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) is a simple forward jab. Reliable.\n !gesture\n Yer <#RED>Heavy Attack</> (<p bind='Controls.Digital.ATTACK_HEAVY' color=BTNICON_DARK>) launches you forward with a jumping thrust.\n !shrug\n And heck, since you're takin' the time to learn, I'll give you a <#RED>Combo</> that's not in the tooltip.\n !happy\n !point\n Three <#RED>Light Attacks</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) followed by one <#RED>Heavy Attack</> (<p bind='Controls.Digital.ATTACK_HEAVY' color=BTNICON_DARK>). Have fun."
 msgstr ""
 
 #: Convo.twn_polearm_explainer.HUB0.convo.giver.STATE_0.ANSWER_2A_ALT
 msgctxt "Convo.twn_polearm_explainer.HUB0.convo.giver.STATE_0.ANSWER_2A_ALT"
-msgid "agent:\n !neutral\n !dejected\n Yer <#RED>Light Attack</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) is a forward jab.\n !shrug\n Yer <#RED>Heavy Attack</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) launches you forward with a jumping thrust."
+msgid "agent:\n !neutral\n !dejected\n Yer <#RED>Light Attack</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) is a forward jab.\n !shrug\n Yer <#RED>Heavy Attack</> (<p bind='Controls.Digital.ATTACK_HEAVY' color=BTNICON_DARK>) launches you forward with a jumping thrust."
 msgstr ""
 
 #: Convo.twn_polearm_explainer.HUB0.convo.giver.STATE_0.ANSWER_2B
@@ -5340,7 +5350,7 @@ msgstr ""
 
 #: Quest.dgn_challenge_mt_magpie.QUIP.chitchat:[any_frenzy,chitchat,in_quest_dgn_challenge_mt_magpie,location_treemon_forest,role_market_magpie]NOT[room_type_market].1
 msgctxt "Quest.dgn_challenge_mt_magpie.QUIP.chitchat:[any_frenzy,chitchat,in_quest_dgn_challenge_mt_magpie,location_treemon_forest,role_market_magpie]NOT[room_type_market].1"
-msgid "agent:\n !happy\n !clap\n <z 0.8>Quooooo-EEE!</z>\n !neutral\n !angry\n <z 0.8>Quee quee quaw queep.</z>"
+msgid "agent:\n !happy\n !clap\n <z 0.8>Quooooo-EEE!</z>\n !neutral\n !happy\n <z 0.8>Quee quee quaw queep.</z>"
 msgstr ""
 
 #: Quest.dgn_challenge_owl_magpie.QUIP.chitchat:[any_frenzy,chitchat,in_quest_dgn_challenge_owl_magpie,location_owlitzer_forest,role_market_magpie]NOT[room_type_market].1
@@ -6903,11 +6913,6 @@ msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,locat
 msgid "!happy\n !point\n <#BLUE>{name.npc_armorsmith}'s</> been teaching me all about skincare lately.\n !think\n I wonder if the goop here would make a good mask."
 msgstr ""
 
-#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,location_bandi_swamp,role_scout,wf_town_has_armorsmith]NOT[in_town].2
-msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,location_bandi_swamp,role_scout,wf_town_has_armorsmith]NOT[in_town].2"
-msgid "!neutral\n !nervous\n Ah geez, I hope I don't get any <#RED>Poison</> on my watch.\n !dejected\n Why didn't I leave it at home?"
-msgstr ""
-
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,location_bandi_swamp,role_scout]NOT[in_town].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,location_bandi_swamp,role_scout]NOT[in_town].1"
 msgid "!neutral\n !nervous\n Oooh. I stepped in something goopy.\n !dubious\n Gross."
@@ -7016,6 +7021,11 @@ msgstr ""
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,location_thatcher_swamp,role_scout]NOT[in_town].3
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,location_thatcher_swamp,role_scout]NOT[in_town].3"
 msgid "!happy\n !point\n Oh hey, remember not to stand in the <#RED>Poison</>.\n !shrug\n You'd be surprised how many Hunters forget."
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,location_thatcher_swamp,role_scout]NOT[in_town].4
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,location_thatcher_swamp,role_scout]NOT[in_town].4"
+msgid "!neutral\n !nervous\n Ah geez, I hope I don't get any <#RED>Poison</> on my watch.\n !dejected\n Why didn't I leave it at home?"
 msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,location_treemon_forest,role_scout]NOT[in_town].1
@@ -9248,6 +9258,26 @@ msgctxt "STRINGS.CONTROL_BINDINGS.LIGHT_ATTACK"
 msgid "Light Attack"
 msgstr ""
 
+#: STRINGS.CONTROL_BINDINGS.MOVE_DOWN
+msgctxt "STRINGS.CONTROL_BINDINGS.MOVE_DOWN"
+msgid "Move Down"
+msgstr ""
+
+#: STRINGS.CONTROL_BINDINGS.MOVE_LEFT
+msgctxt "STRINGS.CONTROL_BINDINGS.MOVE_LEFT"
+msgid "Move Left"
+msgstr ""
+
+#: STRINGS.CONTROL_BINDINGS.MOVE_RIGHT
+msgctxt "STRINGS.CONTROL_BINDINGS.MOVE_RIGHT"
+msgid "Move Right"
+msgstr ""
+
+#: STRINGS.CONTROL_BINDINGS.MOVE_UP
+msgctxt "STRINGS.CONTROL_BINDINGS.MOVE_UP"
+msgid "Move Up"
+msgstr ""
+
 #: STRINGS.CONTROL_BINDINGS.OPEN_CRAFTING
 msgctxt "STRINGS.CONTROL_BINDINGS.OPEN_CRAFTING"
 msgid "Crafting"
@@ -11245,7 +11275,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_sedament.desc
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_sedament.desc"
-msgid "Kill <#RED>{name.sedament}</> in the <#BLUE>{name.sedament_tundra}</>, <#RED>alone</> while wearing no <#RED>Armour</>."
+msgid "Kill <#RED>{name.sedament}</> in the <#BLUE>{name.sedament_tundra}</> on <#RED>{name.ascension} Level 3</>, <#RED>alone</> while wearing no <#RED>Armour</>."
 msgstr ""
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_sedament.name
@@ -12700,7 +12730,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.bandi_swamp_market_1.desc
 msgctxt "STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.bandi_swamp_market_1.desc"
-msgid "Kill 5 giant Enemies"
+msgid "Land the final blow on 5 giant Enemies"
 msgstr ""
 
 #: STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.bandi_swamp_market_1.name
@@ -12760,7 +12790,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.thatcher_swamp_market_1.desc
 msgctxt "STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.thatcher_swamp_market_1.desc"
-msgid "Destroy 5 {name.woworm} Shells"
+msgid "Land the final blow on 5 {name.woworm} Shells"
 msgstr ""
 
 #: STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.thatcher_swamp_market_1.name
@@ -14650,7 +14680,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_crystroll_body.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_crystroll_body.desc"
-msgid "Deal <#RED>Weapon Damage</> in front of you when leaving the ground."
+msgid "Deal <#RED>{name.concept_weapon_damage}</> in front of you when leaving the ground."
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_crystroll_body.name
@@ -15195,7 +15225,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_explode_on_land.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_explode_on_land.desc"
-msgid "<#RED>Explodes</> on landing, dealing a percentage of your <#RED>Weapon Damage</>."
+msgid "<#RED>Explodes</> on landing, dealing a percentage of your <#RED>{name.concept_weapon_damage}</>."
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_explode_on_land.name
@@ -15205,7 +15235,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_explode_on_land.variables.percent_of_weapondamage
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_explode_on_land.variables.percent_of_weapondamage"
-msgid "Percentage of Weapon Damage"
+msgid "Percentage of {name.concept_weapon_damage}"
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_rebounds_to_owner.desc
@@ -15235,7 +15265,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_body.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_body.desc"
-msgid "Deal <#RED>Weapon Damage</> in an area when landing on the ground."
+msgid "Deal <#RED>{name.concept_weapon_damage}</> in an area when landing on the ground."
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_body.name
@@ -15765,12 +15795,22 @@ msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.attack_dice.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.attack_dice.desc"
-msgid "When you deal <#RED>{name.concept_damage}</>, do an extra <#RED>{min}-{max} {name.concept_damage}</>, <#RED>{count}</> times."
+msgid "When you deal <#RED>{name.concept_damage}</>, do {rarity_text} <#RED>{min}-{max} {name.concept_damage}</>."
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.attack_dice.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.attack_dice.name"
 msgid "Attack Dice"
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.PLAYER.attack_dice.rarity_text_EPIC
+msgctxt "STRINGS.ITEMS.POWERS.PLAYER.attack_dice.rarity_text_EPIC"
+msgid "an <#RED>extra Hit</> that deals"
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.PLAYER.attack_dice.rarity_text_LEGENDARY
+msgctxt "STRINGS.ITEMS.POWERS.PLAYER.attack_dice.rarity_text_LEGENDARY"
+msgid "<#RED>2 extra Hits</> that each deal"
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.bad_luck_protection.desc
@@ -16070,7 +16110,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.down_to_business.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.down_to_business.desc"
-msgid "When you enter a new clearing, gain <#RED>+{speed}% {name.concept_runspeed}</> for <#RED>{time}</> seconds."
+msgid "When you enter a new clearing, gain <#RED>+{speed}% {name.concept_runspeed}</> for <#RED>{time}</> seconds.\n\nOn <#RED>Kill</>, add {bonus} seconds."
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.down_to_business.name
@@ -16100,7 +16140,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.extended_range.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.extended_range.desc"
-msgid "Every <#RED>{swings} Attacks</>, shoot {rarity_text} half your Weapon's <#RED>{name.concept_damage}</>."
+msgid "Every <#RED>{swings} Attacks</>, shoot {rarity_text} half your <#RED>{name.concept_weapon_damage}</>."
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.extended_range.name
@@ -16125,7 +16165,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.extroverted.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.extroverted.desc"
-msgid "When you enter a new clearing, gain <#RED>+{damage}% {name.concept_damage}</> for <#RED>{time}</> seconds."
+msgid "When you enter a new clearing, gain <#RED>+{damage}% {name.concept_damage}</> for <#RED>{time}</> seconds.\n\nOn <#RED>Kill</>, add {bonus} seconds."
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.extroverted.name
@@ -16215,7 +16255,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.grand_entrance.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.grand_entrance.desc"
-msgid "Your first <#RED>Heavy Attack</> per clearing deals <#RED>{damage} {name.concept_damage}</> to all <#RED>Enemies</>."
+msgid "Your first <#RED>Heavy Attack</> per clearing deals <#RED>{damage_mult}x your {name.concept_weapon_damage}</> to all <#RED>Enemies</>."
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.grand_entrance.name
@@ -16225,7 +16265,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.headhunter_explosion.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.headhunter_explosion.desc"
-msgid "When you <#RED>Kill</> <#RED>{target} Enemies</> without taking any <#RED>Damage</>, deal <#RED>{damage} {name.concept_damage}</> to all <#RED>Enemies</>."
+msgid "When you <#RED>Kill</> <#RED>{target} Enemies</> without taking any <#RED>Damage</>, deal <#RED>{damage_mult}x your {name.concept_weapon_damage}</> to all <#RED>Enemies</>."
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.headhunter_explosion.name
@@ -16535,7 +16575,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.ping.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.ping.desc"
-msgid "When you <#RED>Light Attack</>, your next <#RED>Attack</> deals double <#RED>{name.concept_damage}</> if it's a <#RED>Heavy Attack</>."
+msgid "Your <#RED>Heavy Attack</> deals double <#RED>{name.concept_damage}</> if your previous attack was a <#RED>Light Attack</>."
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.ping.name
@@ -16545,7 +16585,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.pong.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.pong.desc"
-msgid "When you <#RED>Heavy Attack</>, your next <#RED>Attack</> deals double <#RED>{name.concept_damage}</> if it's a <#RED>Light Attack</>."
+msgid "Your <#RED>Light Attack</> deals double <#RED>{name.concept_damage}</> if your previous attack was a <#RED>Heavy Attack</>."
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.pong.name
@@ -16610,7 +16650,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.retribution.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.retribution.desc"
-msgid "When you take <#RED>{name.concept_damage}</>, your next <#RED>Attack</> deals <#RED>+{percent}% {name.concept_damage}</>."
+msgid "When you take <#RED>{name.concept_damage}</>, the next time you deal <#RED>{name.concept_damage}</> deals <#RED>{percent}% more {name.concept_damage}</>."
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.retribution.name
@@ -16640,7 +16680,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.revive_explosion.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.revive_explosion.desc"
-msgid "When you <#RED>{name.concept_revive}</> an <#RED>{name.concept_ally}</> during combat, deal <#RED>{damage} {name.concept_damage}</> to all <#RED>Enemies</>."
+msgid "When you <#RED>{name.concept_revive}</> an <#RED>{name.concept_ally}</> during combat, deal <#RED>{damage_mult}x your {name.concept_weapon_damage}</> to all <#RED>Enemies</>."
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.revive_explosion.name
@@ -16760,7 +16800,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.sting_like_a_bee.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.sting_like_a_bee.desc"
-msgid "When you <#RED>Perfect Dodge</>, the next time you deal <#RED>{name.concept_damage}</> is guaranteed to <#RED>Critical Hit</>."
+msgid "When you <#RED>Perfect Dodge</>, gain <#RED>100% Critical Chance for {seconds} seconds</>."
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.sting_like_a_bee.name
@@ -16795,7 +16835,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.sword_beam.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.sword_beam.desc"
-msgid "While you are at more than half <#RED>Health</>, your <#RED>Light Attack</> shoots <#RED>{rarity_text}</>."
+msgid "While you are at <#RED>more than half Health</>, your <#RED>Light Attack</> shoots <#RED>{rarity_text}</>."
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.sword_beam.name
@@ -16845,7 +16885,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.vampirism_after_damaged.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.vampirism_after_damaged.desc"
-msgid "After taking <#RED>Damage</>, <#RED>Heal {heal}%</> of the next <#RED>{name.concept_damage}</> you deal."
+msgid "After taking <#RED>Damage</>, <#RED>Heal</> for <#RED>{heal}%</> of the damage done by your next <#RED>{name.concept_attack}</>.\n\nCannot heal more than the amount of damage taken."
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.vampirism_after_damaged.name
@@ -20783,6 +20823,11 @@ msgctxt "STRINGS.NAMES.concept_skill"
 msgid "Skill"
 msgstr ""
 
+#: STRINGS.NAMES.concept_weapon_damage
+msgctxt "STRINGS.NAMES.concept_weapon_damage"
+msgid "Weapon Damage"
+msgstr ""
+
 #: STRINGS.NAMES.cosmetic
 msgctxt "STRINGS.NAMES.cosmetic"
 msgid "Cosmetic"
@@ -20805,7 +20850,7 @@ msgstr ""
 
 #: STRINGS.NAMES.current_beta
 msgctxt "STRINGS.NAMES.current_beta"
-msgid "Bonechill Beta"
+msgid "Quality of Life Beta"
 msgstr ""
 
 #: STRINGS.NAMES.damselfly
@@ -20973,11 +21018,6 @@ msgctxt "STRINGS.NAMES.job_armorsmith"
 msgid "Armourer"
 msgstr ""
 
-#: STRINGS.NAMES.job_armoursmith
-msgctxt "STRINGS.NAMES.job_armoursmith"
-msgid "Armourer"
-msgstr ""
-
 #: STRINGS.NAMES.job_blacksmith
 msgctxt "STRINGS.NAMES.job_blacksmith"
 msgid "Blacksmith"
@@ -21110,11 +21150,6 @@ msgstr ""
 
 #: STRINGS.NAMES.npc_armorsmith
 msgctxt "STRINGS.NAMES.npc_armorsmith"
-msgid "Berna"
-msgstr ""
-
-#: STRINGS.NAMES.npc_armoursmith
-msgctxt "STRINGS.NAMES.npc_armoursmith"
 msgid "Berna"
 msgstr ""
 
@@ -21853,6 +21888,11 @@ msgctxt "STRINGS.NAMES_PLURAL.concept_skill"
 msgid "Skills"
 msgstr ""
 
+#: STRINGS.NAMES_PLURAL.concept_weapon_damage
+msgctxt "STRINGS.NAMES_PLURAL.concept_weapon_damage"
+msgid "Weapon Damages"
+msgstr ""
+
 #: STRINGS.NAMES_PLURAL.cosmetic
 msgctxt "STRINGS.NAMES_PLURAL.cosmetic"
 msgid "Cosmetics"
@@ -21980,11 +22020,6 @@ msgstr ""
 
 #: STRINGS.NAMES_PLURAL.job_armorsmith
 msgctxt "STRINGS.NAMES_PLURAL.job_armorsmith"
-msgid "Armourers"
-msgstr ""
-
-#: STRINGS.NAMES_PLURAL.job_armoursmith
-msgctxt "STRINGS.NAMES_PLURAL.job_armoursmith"
 msgid "Armourers"
 msgstr ""
 
@@ -22528,6 +22563,11 @@ msgctxt "STRINGS.NAMES_PLURALITY.concept_skill"
 msgid "Skill|Skills"
 msgstr ""
 
+#: STRINGS.NAMES_PLURALITY.concept_weapon_damage
+msgctxt "STRINGS.NAMES_PLURALITY.concept_weapon_damage"
+msgid "Weapon Damage|Weapon Damages"
+msgstr ""
+
 #: STRINGS.NAMES_PLURALITY.cosmetic
 msgctxt "STRINGS.NAMES_PLURALITY.cosmetic"
 msgid "Cosmetic|Cosmetics"
@@ -22655,11 +22695,6 @@ msgstr ""
 
 #: STRINGS.NAMES_PLURALITY.job_armorsmith
 msgctxt "STRINGS.NAMES_PLURALITY.job_armorsmith"
-msgid "Armourer|Armourers"
-msgstr ""
-
-#: STRINGS.NAMES_PLURALITY.job_armoursmith
-msgctxt "STRINGS.NAMES_PLURALITY.job_armoursmith"
 msgid "Armourer|Armourers"
 msgstr ""
 
@@ -24898,6 +24933,11 @@ msgctxt "STRINGS.UI.FEEDBACK_SCREEN.CATEGORY_PROMPT.WORDS"
 msgid "Loved some dialogue? Found a typo? Confused?"
 msgstr ""
 
+#: STRINGS.UI.FEEDBACK_SCREEN.CAVEAT_HACKMOD
+msgctxt "STRINGS.UI.FEEDBACK_SCREEN.CAVEAT_HACKMOD"
+msgid "You have unsupported modifications to game data that may introduce issues."
+msgstr ""
+
 #: STRINGS.UI.FEEDBACK_SCREEN.MESSAGE_LABEL
 msgctxt "STRINGS.UI.FEEDBACK_SCREEN.MESSAGE_LABEL"
 msgid "DETAILS"
@@ -25891,6 +25931,26 @@ msgstr ""
 #: STRINGS.UI.MAINSCREEN.DISCORD_CTA.TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.DISCORD_CTA.TITLE"
 msgid "Discord"
+msgstr ""
+
+#: STRINGS.UI.MAINSCREEN.ERROR_MISSING_FILE.BODY
+msgctxt "STRINGS.UI.MAINSCREEN.ERROR_MISSING_FILE.BODY"
+msgid "Verify Integrity to recover necessary files:\n\n{file_list}"
+msgstr ""
+
+#: STRINGS.UI.MAINSCREEN.ERROR_MISSING_FILE.DESC
+msgctxt "STRINGS.UI.MAINSCREEN.ERROR_MISSING_FILE.DESC"
+msgid "Detected Missing Files"
+msgstr ""
+
+#: STRINGS.UI.MAINSCREEN.ERROR_MISSING_FILE.INSTRUCTIONS
+msgctxt "STRINGS.UI.MAINSCREEN.ERROR_MISSING_FILE.INSTRUCTIONS"
+msgid "<p img='images/ui_ftf_dialog/quirk_vip.tex' color=0> Instructions"
+msgstr ""
+
+#: STRINGS.UI.MAINSCREEN.ERROR_MISSING_FILE.TITLE
+msgctxt "STRINGS.UI.MAINSCREEN.ERROR_MISSING_FILE.TITLE"
+msgid "Fatal Error"
 msgstr ""
 
 #: STRINGS.UI.MAINSCREEN.GETHELP
@@ -28813,6 +28873,26 @@ msgctxt "STRINGS.UI.SCREENOPENER_PROP.inventory_chest"
 msgid "Open Chest"
 msgstr ""
 
+#: STRINGS.UI.SCRIPTERROR.HACKMOD.DESC
+msgctxt "STRINGS.UI.SCRIPTERROR.HACKMOD.DESC"
+msgid "You have unsupported modifications to installed game data. Please remove the mods and try again."
+msgstr ""
+
+#: STRINGS.UI.SCRIPTERROR.HACKMOD.REMOVE_MODS
+msgctxt "STRINGS.UI.SCRIPTERROR.HACKMOD.REMOVE_MODS"
+msgid "<p img='images/ui_ftf_dialog/quirk_vip.tex' color=0> How to Remove Mods"
+msgstr ""
+
+#: STRINGS.UI.SCRIPTERROR.HACKMOD.TITLE
+msgctxt "STRINGS.UI.SCRIPTERROR.HACKMOD.TITLE"
+msgid "Modified Game Error"
+msgstr ""
+
+#: STRINGS.UI.SCRIPTERROR.TROUBLESHOOTING
+msgctxt "STRINGS.UI.SCRIPTERROR.TROUBLESHOOTING"
+msgid "<p img='images/ui_ftf_dialog/quirk_vip.tex' color=0> Troubleshooting"
+msgstr ""
+
 #: STRINGS.UI.SHOP_ITEM.POTION.ALREADY_OWNED
 msgctxt "STRINGS.UI.SHOP_ITEM.POTION.ALREADY_OWNED"
 msgid "Potion Full"
@@ -29126,6 +29206,16 @@ msgstr ""
 #: STRINGS.UI.TOOLTIPS.SKILL.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.SKILL.NAME"
 msgid "{name.concept_skill}"
+msgstr ""
+
+#: STRINGS.UI.TOOLTIPS.WEAPON_DAMAGE.DESC
+msgctxt "STRINGS.UI.TOOLTIPS.WEAPON_DAMAGE.DESC"
+msgid "The average amount of <#RED>Damage</> your <#RED>Attacks</> deal. It varies, but roughly equals a <#RED>Light Attack</>."
+msgstr ""
+
+#: STRINGS.UI.TOOLTIPS.WEAPON_DAMAGE.NAME
+msgctxt "STRINGS.UI.TOOLTIPS.WEAPON_DAMAGE.NAME"
+msgid "Weapon Damage"
 msgstr ""
 
 #: STRINGS.UI.TOUCH
