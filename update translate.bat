@@ -1,6 +1,6 @@
 @echo off
 
-set "fileUrl=https://raw.githubusercontent.com/MaksymKurny/Rotwood-UA/main/data_scripts_zip/localizations/uk.po"
+set "fileUrl=https://raw.githubusercontent.com/MaksymKurny/Rotwood-UA/main_beta/data_scripts_zip/localizations/uk.po"
 set "fileName=uk.po"
 set "localizationsFolder=localizations"
 
