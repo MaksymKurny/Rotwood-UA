@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-08-23 19:56\n"
+"PO-Revision-Date: 2024-09-15 09:23\n"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -39,7 +39,7 @@ msgstr "agent:\n"
 " Ц-це серце дало вам додаткову <#RED>швидкість ухилення</>, так?\n"
 " !agree\n"
 " Як цікаво!\n"
-" !neutral"
+" !neutralnh"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_2
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_2"
@@ -2024,7 +2024,7 @@ msgid "agent:\n"
 msgstr "agent:\n"
 "!neutral\n"
 "!angry\n"
-"Знаєш, що кажуть, мій дорогий <#BLUE>{player.species}</>... місце, місце, місце!!\n"
+"Знаєте, що кажуть, мій дорогий <#BLUE>{player.species}</>... місце, місце, місце!!\n"
 "!happy\n"
 "!dubious\n"
 "Але не зважайте на це... здається, ваше взуття розв’язане!"
@@ -2490,20 +2490,20 @@ msgstr "Вибач маю бігти. До зустрічі на ринку?"
 
 #: Convo.dgn_challenge_bandi_magpie.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_challenge_bandi_magpie.HUB0.convo.giver.STATE_0.QUESTION_1"
-msgid "Hmm, lemme guess. You have a Market Challenge for me."
-msgstr "Хмм, дай вгадаю. Ти маєш для мене ринкове випробування."
+msgid "Hmm, lemme guess. You have a new challenge for me."
+msgstr "Хмм, дай вгадаю. Ти маєш для мене нове випробування."
 
 #: Convo.dgn_challenge_bandi_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A
 msgctxt "Convo.dgn_challenge_bandi_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A"
-msgid "<#RED>{condition_1}</> before the first Market, eh?\n"
+msgid "<#RED>{condition_1}</> before I get to your Market, eh?\n"
 "How do you come up with this stuff?"
-msgstr "<#RED>{condition_1}</> до першого ринку, еге ж?\n"
+msgstr "<#RED>{condition_1}</> до того, як я потраплю на ваш ринок, га?\n"
 "Як ти це придумала?"
 
 #: Convo.dgn_challenge_bandi_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B
 msgctxt "Convo.dgn_challenge_bandi_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B"
-msgid "Aaaand Market Challenge 2?"
-msgstr "Іііііі ринкове випробування 2?"
+msgid "Aaaand I'm assuming there's a second challenge?"
+msgstr "Ііііі я припускаю, що є друге випробування?"
 
 #: Convo.dgn_challenge_bandi_magpie.HUB0.convo.giver.STATE_0.QUESTION_END
 msgctxt "Convo.dgn_challenge_bandi_magpie.HUB0.convo.giver.STATE_0.QUESTION_END"
@@ -2512,24 +2512,13 @@ msgstr "Добре... я спробую зробити все можливе."
 
 #: Convo.dgn_challenge_bandi_magpie.HUB0.convo.giver.STATE_0.QUESTION_END_ALT
 msgctxt "Convo.dgn_challenge_bandi_magpie.HUB0.convo.giver.STATE_0.QUESTION_END_ALT"
-msgid "<#RED>{condition_2}</> before the second Market?\n"
+msgid "<#RED>{condition_2}</> before I reach the end?\n"
 "I mean, yeah, ideally!"
-msgstr "<#RED>{condition_2}</> до другого ринку?\n"
+msgstr "<#RED>{condition_2}</> перш ніж я дійду до кінця?\n"
 "Ну, так, ідеально!"
 
 #: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_1"
-msgid "agent:\n"
-" !neutral\n"
-" !dubious\n"
-" <z 0.8>Quaw quaw <#RED>Queep Quee</>. Quee quee quaw.</z>"
-msgstr "agent:\n"
-" !neutral\n"
-" !dubious\n"
-" <z 0.8>Кву кву <#RED>Квіп Кві</>. Кві кві кву.</z>"
-
-#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_2A
-msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_2A"
 msgid "agent:\n"
 " !happy\n"
 " !bliss\n"
@@ -2543,23 +2532,34 @@ msgstr "agent:\n"
 " !gesture\n"
 " <z 0.8>Кву кву!</z>"
 
-#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_2B
-msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_2B"
+#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_2
+msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_2"
 msgid "agent:\n"
 " !neutral\n"
-" !angry\n"
-" <z 0.8>Quaw quaw!</z>\n"
-" !think\n"
-" <z 0.8><#RED>Quee Quaw</> kwee kwee.</>"
+" !dubious\n"
+" <z 0.8>Quaw quaw <#RED>Queep Quee</>. Quee quee quaw.</z>"
 msgstr "agent:\n"
 " !neutral\n"
-" !angry\n"
-" <z 0.8>Кву кву!</z>\n"
-" !think\n"
-" <z 0.8><#RED>Кві кву</> кві кві.</>"
+" !dubious\n"
+" <z 0.8>Кву кву <#RED>Квіп Кві</>. Кві кві кву.</z>"
 
 #: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_3
 msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_3"
+msgid "agent:\n"
+" !neutral\n"
+" !think\n"
+" <z 0.8>Quaw quaw!</z>\n"
+" !gesture\n"
+" <z 0.8><#RED>Quee Quaw</> kwee kwee.</>"
+msgstr "agent:\n"
+" !neutral\n"
+" !think\n"
+" <z 0.8>Кву кву!</z>\n"
+" !gesture\n"
+" <z 0.8><#RED>Кві кву</> кві кві.</>"
+
+#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_4
+msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_4"
 msgid "agent:\n"
 " !happy\n"
 " !dubious\n"
@@ -2601,8 +2601,8 @@ msgid "agent:\n"
 " !neutral\n"
 " !point\n"
 " <z 0.8>Quyou?</z>\n"
-" !scared\n"
-" <z 0.8>Squet.</z>\n"
+" !clap\n"
+" <z 0.8>Quee-quee!</z>\n"
 " !happy\n"
 " !laugh\n"
 " <z 0.8><i>Caa-caa-caa-caa!</i></z>"
@@ -2610,11 +2610,22 @@ msgstr "agent:\n"
 " !neutral\n"
 " !point\n"
 "<z 0.8>Кую?</z>\n"
-"!scared\n"
-"<z 0.8>Скет.</z>\n"
+"!clap\n"
+"<z 0.8>Кві-кві!</z>\n"
 " !happy\n"
 " !laugh\n"
 "<z 0.8><i>Каа-каа-каа-каа!</i></z>"
+
+#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_END3
+msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.ANSWER_END3"
+msgid "agent:\n"
+" !neutral\n"
+" !greet\n"
+" <z 0.8>Chwee!</>"
+msgstr "agent:\n"
+" !neutral\n"
+" !greet\n"
+" <z 0.8>Чві!</>"
 
 #: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.END_GENERIC
 msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.END_GENERIC"
@@ -2623,27 +2634,28 @@ msgstr "Вибач маю бігти. До зустрічі на ринку?"
 
 #: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_1"
-msgid "Sorry... what?\n"
-"I don't know what \"Market Challenges\" are, let alone why you have two for me."
-msgstr "Вибач... що?\n"
-"Я не знаю, що таке \"ринкові випробування\", тим більше чому у мене їх два."
+msgid "Sorry... what? Really?\n"
+"You want to share some of your treasure with me?"
+msgstr "Вибач... що? Справді?\n"
+"Не хочеш поділитися зі мною своїм скарбом?"
 
-#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A
-msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A"
-msgid "Wait, for real? You'll give me your magpie treasure if I <#RED>{condition_1}</> on my way to your Market?"
-msgstr "Почекай, справді? Ти віддаси мені свій скарб сороки, якщо я <#RED>{condition_1}</> по дорозі на ваш ринок?"
-
-#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B
-msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B"
-msgid "Okay, but that's just one challenge. What's the second?"
-msgstr "Гаразд, але це лише одне випробування. Яке друге?"
+#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2
+msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2"
+msgid "...Right. I should've know there'd be more to it. Okay, tell me what I need to do."
+msgstr "...Так. Я повинен був здогадатися, що це ще не все. Гаразд, скажи, що мені робити."
 
 #: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_3
 msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_3"
-msgid "<#RED>{condition_2}</> from here, all the way to the second Market.\n"
-"I see... Difficult, but intriguing!"
-msgstr "<#RED>{condition_2}</> звідси й аж до другого ринку.\n"
-"Розумію... Важко, але цікаво!"
+msgid "<#RED>{condition_1}</> until I get to your Market? That doesn't seem too hard!"
+msgstr "<#RED>{condition_1}</> доки я не прийду на ваш ринок?\n"
+"Здається, це не так вже й складно!"
+
+#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_4
+msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_4"
+msgid "You've got another treasure for me if I <#RED>{condition_2}</> from here, all the way to the end?\n"
+"Okay, that seems... a little harder."
+msgstr "У тебе є ще один скарб для мене, якщо я <#RED>{condition_2}</> звідси й до самого кінця?\n"
+"Гаразд, це здається... трохи складніше."
 
 #: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END1
 msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END1"
@@ -2654,8 +2666,13 @@ msgstr "Чорт. Знаєш що? Я приймаю виклик!\n"
 
 #: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END2
 msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END2"
-msgid "You're nuts, {name.shop_magpie}! That's impossible!"
-msgstr "Ти збожеволіла, {Name.shop_magpie}! Це неможливо!"
+msgid "Wait a second, why exactly do you want me to do all this?"
+msgstr "Секундочку, чому ти хочеш, щоб саме я все це зробив?"
+
+#: Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END3
+msgctxt "Convo.dgn_challenge_mt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END3"
+msgid "...You could use some entertainment. Gee, thanks."
+msgstr "...тобі б не завадило розважитися. Ого, дякую."
 
 #: Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -2721,18 +2738,18 @@ msgstr "Вибач маю бігти. До зустрічі на ринку?"
 
 #: Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.QUESTION_1"
-msgid "Another Market Challenge, huh?"
-msgstr "Ще одне ринкове випробування, га?"
+msgid "You've got another challenge for me, huh?"
+msgstr "У тебе є ще одне випробування для мене, так?"
 
 #: Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A
 msgctxt "Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A"
-msgid "I need to <#RED>{condition_1}</> before I make it to the first Market?"
-msgstr "Мені потрібно виконати <#RED>{condition_1}</> до того, як я потраплю на перший ринок?"
+msgid "I need to <#RED>{condition_1}</> before I reach your Market?"
+msgstr "Мені потрібно виконати <#RED>{condition_1}</> до того, як я дійду до вашого ринку?"
 
 #: Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B
 msgctxt "Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B"
-msgid "What should I do before reaching the second Market?"
-msgstr "Що мені робити, перш ніж дістатися до другого ринку?"
+msgid "What should I do before reaching the end?"
+msgstr "Що потрібно зробити перед тим, як дійти до кінця?"
 
 #: Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.QUESTION_END
 msgctxt "Convo.dgn_challenge_owl_magpie.HUB0.convo.giver.STATE_0.QUESTION_END"
@@ -2817,15 +2834,15 @@ msgstr "Радий тебе бачити, {Name.shop_magpie}.\n"
 
 #: Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A
 msgctxt "Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A"
-msgid "<#RED>{condition_1}</> before the first Market?\n"
+msgid "<#RED>{condition_1}</> before I reach your Market?\n"
 "Hard, but fair."
-msgstr "<#RED>{condition_1}</> до першого ринку?\n"
+msgstr "<#RED>{condition_1}</> до того, як я дійду до вашого ринку?\n"
 "Важко, але справедливо."
 
 #: Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B
 msgctxt "Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B"
-msgid "What'll the second Market Challenge be?"
-msgstr "Яким буде друге ринкове випробування?"
+msgid "What'll the second challenge be?"
+msgstr "Яким буде друге випробування?"
 
 #: Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END
 msgctxt "Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END"
@@ -2834,9 +2851,9 @@ msgstr "Ну що ж. Подивимось, чи під силу мені тво
 
 #: Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END_ALT
 msgctxt "Convo.dgn_challenge_sdmnt_magpie.HUB0.convo.giver.STATE_0.QUESTION_END_ALT"
-msgid "Y'know, I would <i>also</i> like to <#RED>{condition_2}</> if I'm honest.\n"
+msgid "Y'know, I would <i>also</i> like to <#RED>{condition_2}</> all the way through to the end.\n"
 "See ya there!"
-msgstr "Знаєш, я б <i>також</i> хотів <#RED>{condition_2}</>, якщо чесно.\n"
+msgstr "Знаєш, я б <i>також</i> хотів <#RED>{condition_2}</>, до самого кінця.\n"
 "Побачимось там!"
 
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.ANSWER_1
@@ -2904,21 +2921,21 @@ msgstr "Вибач маю бігти. До зустрічі на ринку?"
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_1"
 msgid "Heyy, {name.shop_magpie}!\n"
-"Let's hear Market Challenge 1!"
-msgstr "Агов, {Name.shop_magpie}!\n"
-"Давай сюди своє ринкове випробування!"
+"Let's hear the next challenge!"
+msgstr "Агов, {name.shop_magpie}!\n"
+"Давай сюди наступне випробування!"
 
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B
 msgctxt "Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B"
-msgid "<#RED>{condition_1}</> before reaching the first Market?\n"
+msgid "<#RED>{condition_1}</> before I get to your Market?\n"
 "Hah! Unlike those shells, I don't crack under pressure."
-msgstr "<#RED>{condition_1}</> до досягнення першого ринку?\n"
+msgstr "<#RED>{condition_1}</> до того, як я потраплю на ваш ринок?\n"
 "Ха! На відміну від тих панцирів, я не тріскаюся під тиском."
 
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_2C
 msgctxt "Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_2C"
-msgid "What's Market Challenge 2?"
-msgstr "Що таке ринкове випробування 2?"
+msgid "I'm guessing you've got a second challenge up your feathery sleeve for me?"
+msgstr "Гадаю, ти приготувала для мене друге випробування у своєму пернатому рукаві?"
 
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_END
 msgctxt "Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_END"
@@ -2927,9 +2944,9 @@ msgstr "Добре... я спробую зробити все можливе."
 
 #: Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_END_ALT
 msgctxt "Convo.dgn_challenge_thtchr_magpie.HUB0.convo.giver.STATE_0.QUESTION_END_ALT"
-msgid "<#RED>{condition_2}</> before the second Market?\n"
+msgid "<#RED>{condition_2}</> before reaching the end?\n"
 "What, are you going easy on me, {name.shop_magpie}?"
-msgstr "<#RED>{condition_2}</> до другого ринку?\n"
+msgstr "<#RED>{condition_2}</> перш ніж дійти до кінця?\n"
 "Що, ти зменшуєш рівень складності для мене, {Name.shop_magpie}?"
 
 #: Convo.dgn_corestones_market.HUB0.convo.giver.STATE_0.ANSWER_1
@@ -3185,9 +3202,9 @@ msgstr "agent:\n"
 "!eyeroll\n"
 "...Це <i>просто</>.\n"
 "!point\n"
-"Просто вибери <#RED>Доставити</> при покупці предмета.\n"
+"Просто виберіть <#RED>Доставити</> при покупці предмета.\n"
 "!dubious\n"
-"<#BLUE>{Name.shop_magpie}</> подбає про те, щоб він чекав на <#RED>стійці для броні</> після вашого повернення додому."
+"<#BLUE>{name.shop_magpie}</> подбає про те, щоб він чекав на <#RED>стійці для броні</> після вашого повернення додому."
 
 #: Convo.dgn_explain_shipping2_market.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_explain_shipping2_market.HUB0.convo.giver.STATE_0.QUESTION_1"
@@ -3227,8 +3244,8 @@ msgstr "Добре, добре, я зрозумів, я не впорався.\n
 
 #: Convo.dgn_failed_generic_magpie.HUB0.convo.giver.STATE_0.QUESTION_END
 msgctxt "Convo.dgn_failed_generic_magpie.HUB0.convo.giver.STATE_0.QUESTION_END"
-msgid "I'll beat that Challenge next time!"
-msgstr "Наступного разу я виконаю це випробування!"
+msgid "I'll beat your challenge next time!"
+msgstr "Наступного разу я виконаю твоє випробування!"
 
 #: Convo.dgn_first_frenzy_hunt.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.dgn_first_frenzy_hunt.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -4851,8 +4868,8 @@ msgstr "agent:\n"
 
 #: Convo.dgn_succeed_first_time_magpie.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_succeed_first_time_magpie.HUB0.convo.giver.STATE_0.QUESTION_1"
-msgid "Haha, surprise! I did it. So, what do I get?"
-msgstr "Ха-ха, сюрприз! Я зробив це. Отже, що я отримаю?"
+msgid "Aw c'mon, you don't need to act THAT surprised I beat the challenge! So, what do I get?"
+msgstr "Облиш, не треба так дивуватися, що я пройшов випробування! І що я отримаю?"
 
 #: Convo.dgn_succeed_first_time_magpie.HUB0.convo.giver.STATE_0.QUESTION_2
 msgctxt "Convo.dgn_succeed_first_time_magpie.HUB0.convo.giver.STATE_0.QUESTION_2"
@@ -4896,8 +4913,8 @@ msgstr "agent:\n"
 
 #: Convo.dgn_succeed_generic_magpie.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.dgn_succeed_generic_magpie.HUB0.convo.giver.STATE_0.QUESTION_1"
-msgid "That's one more Market Challenge down!"
-msgstr "Ще одне ринкове випробування пройдено!"
+msgid "I beat another one of your challenges, {name.shop_magpie}!"
+msgstr "Я пройшов ще одне твоє випробування, {name.shop_magpie}!"
 
 #: Convo.dgn_succeed_generic_magpie.HUB0.convo.giver.STATE_0.QUESTION_END
 msgctxt "Convo.dgn_succeed_generic_magpie.HUB0.convo.giver.STATE_0.QUESTION_END"
@@ -5117,7 +5134,7 @@ msgstr "agent:\n"
 " !agree\n"
 " Невдача є неминучою частиною процесу.\n"
 " !gesture\n"
-" Ми протистоїмо досить серйозним силам і вчимося по ходу.\n"
+" Ми протистоїмо досить серйозним силам і вчимося на ходу.\n"
 " !happy\n"
 " !point\n"
 " Якби це було легко, хтось би це вже зробив, розумієш?"
@@ -8362,23 +8379,23 @@ msgid "agent:\n"
 " !gruffnod\n"
 " Well, yer <#RED>Light Attack</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) is a simple forward jab. Reliable.\n"
 " !gesture\n"
-" Yer <#RED>Heavy Attack</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) launches you forward with a jumping thrust.\n"
+" Yer <#RED>Heavy Attack</> (<p bind='Controls.Digital.ATTACK_HEAVY' color=BTNICON_DARK>) launches you forward with a jumping thrust.\n"
 " !shrug\n"
 " And heck, since you're takin' the time to learn, I'll give you a <#RED>Combo</> that's not in the tooltip.\n"
 " !happy\n"
 " !point\n"
-" Three <#RED>Light Attacks</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) followed by one <#RED>Heavy Attack</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>). Have fun."
+" Three <#RED>Light Attacks</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) followed by one <#RED>Heavy Attack</> (<p bind='Controls.Digital.ATTACK_HEAVY' color=BTNICON_DARK>). Have fun."
 msgstr "agent:\n"
 "!neutral\n"
 "!gruffnod\n"
 "Отже, ваш <#RED>легкий удар</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) — це простий прямий удар. Надійно.\n"
 "!gesture\n"
-"Ваш <#RED>важкий удар</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) штовхає вас вперед зі стрибком.\n"
+"Ваш <#RED>важкий удар</> (<p bind='Controls.Digital.ATTACK_HEAVY' color=BTNICON_DARK>) штовхає вас вперед зі стрибком.\n"
 "!shrug\n"
 "І, якщо ви витрачаєте час на навчання, я розкажу вам про <#RED>комбо</>, якого немає в підказках.\n"
 "!happy\n"
 "!point\n"
-"Три <#RED>легкі удари</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) і один <#RED>важкий удар</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>). Успіхів."
+"Три <#RED>легкі удари</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) і один <#RED>важкий удар</> (<p bind='Controls.Digital.ATTACK_HEAVY' color=BTNICON_DARK>). Успіхів."
 
 #: Convo.twn_polearm_explainer.HUB0.convo.giver.STATE_0.ANSWER_2A_ALT
 msgctxt "Convo.twn_polearm_explainer.HUB0.convo.giver.STATE_0.ANSWER_2A_ALT"
@@ -8387,13 +8404,13 @@ msgid "agent:\n"
 " !dejected\n"
 " Yer <#RED>Light Attack</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) is a forward jab.\n"
 " !shrug\n"
-" Yer <#RED>Heavy Attack</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) launches you forward with a jumping thrust."
+" Yer <#RED>Heavy Attack</> (<p bind='Controls.Digital.ATTACK_HEAVY' color=BTNICON_DARK>) launches you forward with a jumping thrust."
 msgstr "agent:\n"
 "!neutral\n"
 "!dejected\n"
-"Ваш <#RED>легкий удар</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) — це простий прямий удар. Надійно.\n"
+"Ваш <#RED>легкий удар</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) — це простий прямий удар.\n"
 "!gesture\n"
-"Ваш <#RED>важкий удар</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) штовхає вас вперед зі стрибком."
+"Ваш <#RED>важкий удар</> (<p bind='Controls.Digital.ATTACK_HEAVY' color=BTNICON_DARK>) штовхає вас вперед зі стрибком."
 
 #: Convo.twn_polearm_explainer.HUB0.convo.giver.STATE_0.ANSWER_2B
 msgctxt "Convo.twn_polearm_explainer.HUB0.convo.giver.STATE_0.ANSWER_2B"
@@ -10825,14 +10842,14 @@ msgid "agent:\n"
 " !clap\n"
 " <z 0.8>Quooooo-EEE!</z>\n"
 " !neutral\n"
-" !angry\n"
+" !happy\n"
 " <z 0.8>Quee quee quaw queep.</z>"
 msgstr "agent:\n"
 " !happy\n"
 " !clap\n"
 " <z 0.8>Куоооo-ІІІ!</z>\n"
 " !neutral\n"
-" !think\n"
+" !happy\n"
 " <z 0.8>Кві кві кву квіп.</z>"
 
 #: Quest.dgn_challenge_owl_magpie.QUIP.chitchat:[any_frenzy,chitchat,in_quest_dgn_challenge_owl_magpie,location_owlitzer_forest,role_market_magpie]NOT[room_type_market].1
@@ -14905,19 +14922,6 @@ msgstr "!happy\n"
 " !think\n"
 " Цікаво, чи підійде ця мазь як маска."
 
-#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,location_bandi_swamp,role_scout,wf_town_has_armorsmith]NOT[in_town].2
-msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,location_bandi_swamp,role_scout,wf_town_has_armorsmith]NOT[in_town].2"
-msgid "!neutral\n"
-" !nervous\n"
-" Ah geez, I hope I don't get any <#RED>Poison</> on my watch.\n"
-" !dejected\n"
-" Why didn't I leave it at home?"
-msgstr "!neutral\n"
-" !nervous\n"
-" О боже, я сподіваюся, що <#RED>отрута</> не потрапить на мій годинник.\n"
-" !dejected\n"
-" Чому я не залишив його вдома?"
-
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,location_bandi_swamp,role_scout]NOT[in_town].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,location_bandi_swamp,role_scout]NOT[in_town].1"
 msgid "!neutral\n"
@@ -15215,6 +15219,19 @@ msgstr "!happy\n"
 " Ой, пам'ятайте, що не варто стояти в <#RED>отруті</>.\n"
 " !shrug\n"
 " Ви будете здивовані, скільки мисливців забувають."
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,location_thatcher_swamp,role_scout]NOT[in_town].4
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,location_thatcher_swamp,role_scout]NOT[in_town].4"
+msgid "!neutral\n"
+" !nervous\n"
+" Ah geez, I hope I don't get any <#RED>Poison</> on my watch.\n"
+" !dejected\n"
+" Why didn't I leave it at home?"
+msgstr "!neutral\n"
+" !nervous\n"
+" О боже, я сподіваюся, що <#RED>отрута</> не потрапить на мій годинник.\n"
+" !dejected\n"
+" Чому я не залишив його вдома?"
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,location_treemon_forest,role_scout]NOT[in_town].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,location_treemon_forest,role_scout]NOT[in_town].1"
@@ -18644,6 +18661,26 @@ msgctxt "STRINGS.CONTROL_BINDINGS.LIGHT_ATTACK"
 msgid "Light Attack"
 msgstr "Легка атака"
 
+#: STRINGS.CONTROL_BINDINGS.MOVE_DOWN
+msgctxt "STRINGS.CONTROL_BINDINGS.MOVE_DOWN"
+msgid "Move Down"
+msgstr "Рухатись вниз"
+
+#: STRINGS.CONTROL_BINDINGS.MOVE_LEFT
+msgctxt "STRINGS.CONTROL_BINDINGS.MOVE_LEFT"
+msgid "Move Left"
+msgstr "Рухатись вліво"
+
+#: STRINGS.CONTROL_BINDINGS.MOVE_RIGHT
+msgctxt "STRINGS.CONTROL_BINDINGS.MOVE_RIGHT"
+msgid "Move Right"
+msgstr "Рухатись вправо"
+
+#: STRINGS.CONTROL_BINDINGS.MOVE_UP
+msgctxt "STRINGS.CONTROL_BINDINGS.MOVE_UP"
+msgid "Move Up"
+msgstr "Рухатись вгору"
+
 #: STRINGS.CONTROL_BINDINGS.OPEN_CRAFTING
 msgctxt "STRINGS.CONTROL_BINDINGS.OPEN_CRAFTING"
 msgid "Crafting"
@@ -20647,8 +20684,8 @@ msgstr "Перемога на самоті [{Name.owlitzer} <p img='images/map_f
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_sedament.desc
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_sedament.desc"
-msgid "Kill <#RED>{name.sedament}</> in the <#BLUE>{name.sedament_tundra}</>, <#RED>alone</> while wearing no <#RED>Armour</>."
-msgstr "Убийте <#RED>{2:{Name.sedament}}</> в глибині <#BLUE>{2:{Name.sedament_tundra}}</>, <#RED>на самоті</> без <#RED>обладунків</>."
+msgid "Kill <#RED>{name.sedament}</> in the <#BLUE>{name.sedament_tundra}</> on <#RED>{name.ascension} Level 3</>, <#RED>alone</> while wearing no <#RED>Armour</>."
+msgstr "Убийте <#RED>{2:{Name.sedament}}</> в глибині <#BLUE>{2:{Name.sedament_tundra}}</> на <#RED>3 рівні {name.ascension}</>, <#RED>на самоті</> без <#RED>обладунків</>."
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_sedament.name
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_sedament.name"
@@ -22189,8 +22226,8 @@ msgstr "Перетворення {name.konjur}у"
 
 #: STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.bandi_swamp_market_1.desc
 msgctxt "STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.bandi_swamp_market_1.desc"
-msgid "Kill 5 giant Enemies"
-msgstr "Убийте 5 гігантських ворогів"
+msgid "Land the final blow on 5 giant Enemies"
+msgstr "Завдай фінального удару двом велетенським ворогам"
 
 #: STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.bandi_swamp_market_1.name
 msgctxt "STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.bandi_swamp_market_1.name"
@@ -22249,8 +22286,8 @@ msgstr "{Name.sedament_tundra}: Антифриз"
 
 #: STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.thatcher_swamp_market_1.desc
 msgctxt "STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.thatcher_swamp_market_1.desc"
-msgid "Destroy 5 {name.woworm} Shells"
-msgstr "Розбийте 5 панцерів {2:{Name.woworm}}"
+msgid "Land the final blow on 5 {name.woworm} Shells"
+msgstr "Завдай фінального удару 5 мушлям {2:{Name.woworm}}"
 
 #: STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.thatcher_swamp_market_1.name
 msgctxt "STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.thatcher_swamp_market_1.name"
@@ -24349,8 +24386,8 @@ msgstr "Пронизливі фокусні постріли"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_crystroll_body.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_crystroll_body.desc"
-msgid "Deal <#RED>Weapon Damage</> in front of you when leaving the ground."
-msgstr "Завдайте <#RED>шкоду зброї</> перед собою, відштовхуючись від землі."
+msgid "Deal <#RED>{name.concept_weapon_damage}</> in front of you when leaving the ground."
+msgstr "Завдайте <#RED>{name.concept_weapon_damage}</> перед собою, відштовхуючись від землі."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_crystroll_body.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_crystroll_body.name"
@@ -24898,8 +24935,8 @@ msgstr "Зменшена звичайна шкода"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_explode_on_land.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_explode_on_land.desc"
-msgid "<#RED>Explodes</> on landing, dealing a percentage of your <#RED>Weapon Damage</>."
-msgstr "<#RED>Вибухає</> після приземлення, завдаючи відсоток від вашої <#RED>шкоди зброї</>."
+msgid "<#RED>Explodes</> on landing, dealing a percentage of your <#RED>{name.concept_weapon_damage}</>."
+msgstr "<#RED>Вибухає</> після приземлення, завдаючи відсоток від вашої <#RED>{name.concept_weapon_damage}</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_explode_on_land.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_explode_on_land.name"
@@ -24908,8 +24945,8 @@ msgstr "Вибуховий {name.weapon_shotput}"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_explode_on_land.variables.percent_of_weapondamage
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_explode_on_land.variables.percent_of_weapondamage"
-msgid "Percentage of Weapon Damage"
-msgstr "Відсоток від шкоди зброї"
+msgid "Percentage of {name.concept_weapon_damage}"
+msgstr "Відсоток від {2:{name.concept_weapon_damage}}"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_rebounds_to_owner.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_rebounds_to_owner.desc"
@@ -24940,8 +24977,8 @@ msgstr "equipment_shotput_spiked_rebound"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_body.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_body.desc"
-msgid "Deal <#RED>Weapon Damage</> in an area when landing on the ground."
-msgstr "Приземлившись завдайте <#RED>шкоду від зброї</> в області навколо себе."
+msgid "Deal <#RED>{name.concept_weapon_damage}</> in an area when landing on the ground."
+msgstr "Приземлившись завдайте <#RED>{name.concept_weapon_damage}</> в області навколо себе."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_body.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_body.name"
@@ -25471,13 +25508,23 @@ msgstr "Ліл' Шамер"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.attack_dice.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.attack_dice.desc"
-msgid "When you deal <#RED>{name.concept_damage}</>, do an extra <#RED>{min}-{max} {name.concept_damage}</>, <#RED>{count}</> times."
-msgstr "Коли ви завдаєте <#RED>{name.concept_damage}</>, завдайте додатково <#RED>{min}-{max} {2:{name.concept_damage}}</>, стільки разів: <#RED>{count}</>."
+msgid "When you deal <#RED>{name.concept_damage}</>, do {rarity_text} <#RED>{min}-{max} {name.concept_damage}</>."
+msgstr "Коли ви завдаєте <#RED>{name.concept_damage}</>, виконайте {rarity_text} <#RED>{min}-{max} {2:{name.concept_damage}}</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.attack_dice.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.attack_dice.name"
 msgid "Attack Dice"
 msgstr "Кості атаки"
+
+#: STRINGS.ITEMS.POWERS.PLAYER.attack_dice.rarity_text_EPIC
+msgctxt "STRINGS.ITEMS.POWERS.PLAYER.attack_dice.rarity_text_EPIC"
+msgid "an <#RED>extra Hit</> that deals"
+msgstr "<#RED>додатковий удар</>, який завдасть"
+
+#: STRINGS.ITEMS.POWERS.PLAYER.attack_dice.rarity_text_LEGENDARY
+msgctxt "STRINGS.ITEMS.POWERS.PLAYER.attack_dice.rarity_text_LEGENDARY"
+msgid "<#RED>2 extra Hits</> that each deal"
+msgstr "<#RED>2 додаткових удари</>, які завдадуть"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.bad_luck_protection.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.bad_luck_protection.desc"
@@ -25786,8 +25833,10 @@ msgstr "Сила переконання"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.down_to_business.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.down_to_business.desc"
-msgid "When you enter a new clearing, gain <#RED>+{speed}% {name.concept_runspeed}</> for <#RED>{time}</> seconds."
-msgstr "Коли ви заходите на нову галявину, ви отримаєте <#RED>+{speed}% {2:{name.concept_runspeed}}</> на <#RED>{time}</> секунд."
+msgid "When you enter a new clearing, gain <#RED>+{speed}% {name.concept_runspeed}</> for <#RED>{time}</> seconds.\n\n"
+"On <#RED>Kill</>, add {bonus} seconds."
+msgstr "Коли ви заходите на нову галявину, ви отримаєте <#RED>+{speed}% {2:{name.concept_runspeed}}</> на <#RED>{time}</> секунд.\n\n"
+"<#RED>Вбивство</> додає {bonus} секунд."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.down_to_business.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.down_to_business.name"
@@ -25816,8 +25865,8 @@ msgstr "Легке відлуння"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.extended_range.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.extended_range.desc"
-msgid "Every <#RED>{swings} Attacks</>, shoot {rarity_text} half your Weapon's <#RED>{name.concept_damage}</>."
-msgstr "Кожні <#RED>{swings} атаки</>, стріляйте {rarity_text} подвійну <#RED>{name.concept_damage}</> вашої зброї."
+msgid "Every <#RED>{swings} Attacks</>, shoot {rarity_text} half your <#RED>{name.concept_weapon_damage}</>."
+msgstr "Кожні <#RED>{swings} атаки</>, стріляйте {rarity_text} подвійну <#RED>{name.concept_weapon_damage}</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.extended_range.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.extended_range.name"
@@ -25841,8 +25890,10 @@ msgstr "<#RED>3 снарядами</>, кожен з яких завдає"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.extroverted.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.extroverted.desc"
-msgid "When you enter a new clearing, gain <#RED>+{damage}% {name.concept_damage}</> for <#RED>{time}</> seconds."
-msgstr "Коли ви заходите на нову галявину, ви отримаєте <#RED>+{damage}% {2:{name.concept_damage}}</> на <#RED>{time}</> секунд."
+msgid "When you enter a new clearing, gain <#RED>+{damage}% {name.concept_damage}</> for <#RED>{time}</> seconds.\n\n"
+"On <#RED>Kill</>, add {bonus} seconds."
+msgstr "Коли ви заходите на нову галявину, ви отримаєте <#RED>+{damage}% {2:{name.concept_damage}}</> на <#RED>{time}</> секунд.\n\n"
+"<#RED>Вбивство</> додає {bonus} секунд."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.extroverted.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.extroverted.name"
@@ -25941,8 +25992,8 @@ msgstr "Тіло зі світла"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.grand_entrance.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.grand_entrance.desc"
-msgid "Your first <#RED>Heavy Attack</> per clearing deals <#RED>{damage} {name.concept_damage}</> to all <#RED>Enemies</>."
-msgstr "Ваша перша <#RED>важка атака</> на галявині завдає <#RED>{damage} {2:{name.concept_damage}}</> всім <#RED>ворогам</>."
+msgid "Your first <#RED>Heavy Attack</> per clearing deals <#RED>{damage_mult}x your {name.concept_weapon_damage}</> to all <#RED>Enemies</>."
+msgstr "Ваша перша <#RED>важка атака</> на галявині завдає <#RED>{damage_mult}х {2:{name.concept_weapon_damage}}</> всім <#RED>ворогам</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.grand_entrance.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.grand_entrance.name"
@@ -25951,8 +26002,8 @@ msgstr "Велика палиця"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.headhunter_explosion.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.headhunter_explosion.desc"
-msgid "When you <#RED>Kill</> <#RED>{target} Enemies</> without taking any <#RED>Damage</>, deal <#RED>{damage} {name.concept_damage}</> to all <#RED>Enemies</>."
-msgstr "Коли ви <#RED>вбиваєте</> <#RED>{target} ворогів</> не отримуючи <#RED>пошкоджень</>, завдайте <#RED>{damage} {2:{name.concept_damage}}</> усім <#RED>ворогам</>."
+msgid "When you <#RED>Kill</> <#RED>{target} Enemies</> without taking any <#RED>Damage</>, deal <#RED>{damage_mult}x your {name.concept_weapon_damage}</> to all <#RED>Enemies</>."
+msgstr "Коли ви <#RED>вбиваєте</> <#RED>{target} ворогів</> не отримуючи <#RED>пошкоджень</>, завдайте <#RED>{damage_mult}х {2:{name.concept_weapon_damage}}</> усім <#RED>ворогам</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.headhunter_explosion.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.headhunter_explosion.name"
@@ -25992,7 +26043,7 @@ msgstr "Підвищення моралі"
 #: STRINGS.ITEMS.POWERS.PLAYER.heal_on_focus_kill.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.heal_on_focus_kill.desc"
 msgid "When you use a <#BLUE>{name.concept_focus_hit}</> to <#RED>Kill</> an <#RED>Enemy</> or break something in the environment, <#RED>Heal</> for <#RED>{heal} Health</>."
-msgstr "Коли ви використовуєте <#BLUE>{name.concept_focus_hit}</>, щоб <#RED>вбити</> <#RED>ворога</> або зламати щось у оточенні, ви <#RED>зцілюєтесь</> на <#RED>{heal} здоров'я</>."
+msgstr "Коли ваш <#BLUE>{name.concept_focus_hit}</> <#RED>вбиває</> <#RED>ворога</> або ламає щось в оточенні, ви <#RED>зцілюєтесь</> на <#RED>{heal} здоров'я</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.heal_on_focus_kill.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.heal_on_focus_kill.name"
@@ -26263,8 +26314,8 @@ msgstr "Вибір з сміття"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.ping.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.ping.desc"
-msgid "When you <#RED>Light Attack</>, your next <#RED>Attack</> deals double <#RED>{name.concept_damage}</> if it's a <#RED>Heavy Attack</>."
-msgstr "Коли ви робите <#RED>легку атаку</>, ваша наступна <#RED>атака</> завдає подвійної <#RED>{2:{name.concept_damage}}</>, якщо це <#RED>важка атака</>."
+msgid "Your <#RED>Heavy Attack</> deals double <#RED>{name.concept_damage}</> if your previous attack was a <#RED>Light Attack</>."
+msgstr "Ваша <#RED>важка атака</> завдає подвійної <#RED>{2:{name.concept_damage}}</>, якщо минулою була <#RED>легка атака</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.ping.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.ping.name"
@@ -26273,8 +26324,8 @@ msgstr "Пінг!"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.pong.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.pong.desc"
-msgid "When you <#RED>Heavy Attack</>, your next <#RED>Attack</> deals double <#RED>{name.concept_damage}</> if it's a <#RED>Light Attack</>."
-msgstr "Коли ви робите <#RED>важку атаку</>, ваша наступна <#RED>атака</> завдає подвійної <#RED>{2:{name.concept_damage}}</>, якщо це <#RED>легка атака</>."
+msgid "Your <#RED>Light Attack</> deals double <#RED>{name.concept_damage}</> if your previous attack was a <#RED>Heavy Attack</>."
+msgstr "Ваша <#RED>легка атака</> завдає подвійної <#RED>{2:{name.concept_damage}}</>, якщо минулою була <#RED>важка атака</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.pong.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.pong.name"
@@ -26338,8 +26389,8 @@ msgstr "Я гума, ти клей"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.retribution.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.retribution.desc"
-msgid "When you take <#RED>{name.concept_damage}</>, your next <#RED>Attack</> deals <#RED>+{percent}% {name.concept_damage}</>."
-msgstr "Коли ви отримуєте <#RED>{name.concept_damage}</>, ваша наступна <#RED>атака</> завдає <#RED>+{percent}% {2:{name.concept_damage}}</>."
+msgid "When you take <#RED>{name.concept_damage}</>, the next time you deal <#RED>{name.concept_damage}</> deals <#RED>{percent}% more {name.concept_damage}</>."
+msgstr "Коли ви отримуєте <#RED>{name.concept_damage}</>, наступного разу, коли ви завдаєте <#RED>{name.concept_damage}</>, нанесіть на <#RED>{percent}% більше {2:{name.concept_damage}}</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.retribution.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.retribution.name"
@@ -26368,8 +26419,8 @@ msgstr "Король-Ліч"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.revive_explosion.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.revive_explosion.desc"
-msgid "When you <#RED>{name.concept_revive}</> an <#RED>{name.concept_ally}</> during combat, deal <#RED>{damage} {name.concept_damage}</> to all <#RED>Enemies</>."
-msgstr "Коли ви <#RED>{2:{name.concept_revive}}</> <#RED>{name.concept_ally}а</> під час бою, завдайте <#RED>{damage} {2:{name.concept_damage}}</> всім <#RED>ворогам</>."
+msgid "When you <#RED>{name.concept_revive}</> an <#RED>{name.concept_ally}</> during combat, deal <#RED>{damage_mult}x your {name.concept_weapon_damage}</> to all <#RED>Enemies</>."
+msgstr "Коли ви <#RED>{2:{name.concept_revive}}</> <#RED>{2:{name.concept_ally}}</> під час бою, завдайте <#RED>{damage_mult}х {2:{name.concept_weapon_damage}}</> всім <#RED>ворогам</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.revive_explosion.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.revive_explosion.name"
@@ -26490,8 +26541,8 @@ msgstr "Невблаганний"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.sting_like_a_bee.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.sting_like_a_bee.desc"
-msgid "When you <#RED>Perfect Dodge</>, the next time you deal <#RED>{name.concept_damage}</> is guaranteed to <#RED>Critical Hit</>."
-msgstr "Коли ви <#RED>ідеально ухиляєтеся</>, ваша наступна <#RED>атака</>, гарантовано отримаєте <#RED>критичний удар</>."
+msgid "When you <#RED>Perfect Dodge</>, gain <#RED>100% Critical Chance for {seconds} seconds</>."
+msgstr "Коли ви <#RED>ідеально ухиляєтеся</>, отримуєте <#RED>100% шанс критичного удару на {seconds} секунд</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.sting_like_a_bee.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.sting_like_a_bee.name"
@@ -26525,8 +26576,8 @@ msgstr "<#RED>{Name.powerdesc_triple}</> поточній <#RED>серії уд�
 
 #: STRINGS.ITEMS.POWERS.PLAYER.sword_beam.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.sword_beam.desc"
-msgid "While you are at more than half <#RED>Health</>, your <#RED>Light Attack</> shoots <#RED>{rarity_text}</>."
-msgstr "Поки ви маєте більш ніж половину <#RED>здоров'я</>, ваша <#RED>легка атака</> стріляє <#RED>{rarity_text}</>."
+msgid "While you are at <#RED>more than half Health</>, your <#RED>Light Attack</> shoots <#RED>{rarity_text}</>."
+msgstr "Поки ви маєте <#RED>більш ніж половину здоров'я</>, ваша <#RED>легка атака</> стріляє <#RED>{rarity_text}</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.sword_beam.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.sword_beam.name"
@@ -26575,8 +26626,10 @@ msgstr "Сильний старт"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.vampirism_after_damaged.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.vampirism_after_damaged.desc"
-msgid "After taking <#RED>Damage</>, <#RED>Heal {heal}%</> of the next <#RED>{name.concept_damage}</> you deal."
-msgstr "Після отримання <#RED>пошкодження</>, <#RED>відновлюєте {heal}%</> від наступної завданої вами <#RED>{2:{name.concept_damage}}</>."
+msgid "After taking <#RED>Damage</>, <#RED>Heal</> for <#RED>{heal}%</> of the damage done by your next <#RED>{name.concept_attack}</>.\n\n"
+"Cannot heal more than the amount of damage taken."
+msgstr "Після отримання <#RED>шкоди</> ви <#RED>лікуєтесь</> на <#RED>{heal}%</> від завданої шкоди наступною <#RED>{3:{name.concept_attack}}</>.\n\n"
+"Неможливо вилікувати більше, ніж було отримано шкоди."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.vampirism_after_damaged.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.vampirism_after_damaged.name"
@@ -30620,7 +30673,7 @@ msgstr "Зіткнення"
 #: STRINGS.NAMES.concept_ally
 msgctxt "STRINGS.NAMES.concept_ally"
 msgid "Ally"
-msgstr "Союзник"
+msgstr "Союзник|Союзника|Союзником"
 
 #: STRINGS.NAMES.concept_attack
 msgctxt "STRINGS.NAMES.concept_attack"
@@ -30697,6 +30750,11 @@ msgctxt "STRINGS.NAMES.concept_skill"
 msgid "Skill"
 msgstr "Навичка|Навичку"
 
+#: STRINGS.NAMES.concept_weapon_damage
+msgctxt "STRINGS.NAMES.concept_weapon_damage"
+msgid "Weapon Damage"
+msgstr "Шкода зброєю|Шкоди зброєю"
+
 #: STRINGS.NAMES.cosmetic
 msgctxt "STRINGS.NAMES.cosmetic"
 msgid "Cosmetic"
@@ -30719,8 +30777,8 @@ msgstr "Великий Колоссапфір"
 
 #: STRINGS.NAMES.current_beta
 msgctxt "STRINGS.NAMES.current_beta"
-msgid "Bonechill Beta"
-msgstr "Бета Льодокосту|бети Льодокосту"
+msgid "Quality of Life Beta"
+msgstr "Бета якість життя|бети якості життя"
 
 #: STRINGS.NAMES.damselfly
 msgctxt "STRINGS.NAMES.damselfly"
@@ -30887,11 +30945,6 @@ msgctxt "STRINGS.NAMES.job_armorsmith"
 msgid "Armourer"
 msgstr "броняр|броняру|броняра|бронярем"
 
-#: STRINGS.NAMES.job_armoursmith
-msgctxt "STRINGS.NAMES.job_armoursmith"
-msgid "Armourer"
-msgstr "Броняр"
-
 #: STRINGS.NAMES.job_blacksmith
 msgctxt "STRINGS.NAMES.job_blacksmith"
 msgid "Blacksmith"
@@ -30905,7 +30958,7 @@ msgstr "Кухар|кухаря"
 #: STRINGS.NAMES.job_dojo
 msgctxt "STRINGS.NAMES.job_dojo"
 msgid "Battlemaster"
-msgstr "Майстер битв|майстром битв"
+msgstr "Майстер битв|майстром битв|майстрами битв"
 
 #: STRINGS.NAMES.job_konjurist
 msgctxt "STRINGS.NAMES.job_konjurist"
@@ -31024,11 +31077,6 @@ msgstr "Кума"
 
 #: STRINGS.NAMES.npc_armorsmith
 msgctxt "STRINGS.NAMES.npc_armorsmith"
-msgid "Berna"
-msgstr "Берна|Берну|Берні|Берни|Берною"
-
-#: STRINGS.NAMES.npc_armoursmith
-msgctxt "STRINGS.NAMES.npc_armoursmith"
 msgid "Berna"
 msgstr "Берна|Берну|Берні|Берни|Берною"
 
@@ -31575,7 +31623,7 @@ msgstr "Яммо"
 #: STRINGS.NAMES.yammo_elite
 msgctxt "STRINGS.NAMES.yammo_elite"
 msgid "Imbued Yammo"
-msgstr "Наповнений Яммо"
+msgstr "Наповнений Яммо|Наповненого Яммо"
 
 #: STRINGS.NAMES.yammo_miniboss
 msgctxt "STRINGS.NAMES.yammo_miniboss"
@@ -31767,6 +31815,11 @@ msgctxt "STRINGS.NAMES_PLURAL.concept_skill"
 msgid "Skills"
 msgstr "Навички"
 
+#: STRINGS.NAMES_PLURAL.concept_weapon_damage
+msgctxt "STRINGS.NAMES_PLURAL.concept_weapon_damage"
+msgid "Weapon Damages"
+msgstr "Шкода зброєю"
+
 #: STRINGS.NAMES_PLURAL.cosmetic
 msgctxt "STRINGS.NAMES_PLURAL.cosmetic"
 msgid "Cosmetics"
@@ -31896,11 +31949,6 @@ msgstr "Аптекарі"
 msgctxt "STRINGS.NAMES_PLURAL.job_armorsmith"
 msgid "Armourers"
 msgstr "Бронярі"
-
-#: STRINGS.NAMES_PLURAL.job_armoursmith
-msgctxt "STRINGS.NAMES_PLURAL.job_armoursmith"
-msgid "Armourers"
-msgstr "Зброярі"
 
 #: STRINGS.NAMES_PLURAL.job_blacksmith
 msgctxt "STRINGS.NAMES_PLURAL.job_blacksmith"
@@ -32325,7 +32373,7 @@ msgstr ""
 #: STRINGS.NAMES_PLURALITY.boss_heart
 msgctxt "STRINGS.NAMES_PLURALITY.boss_heart"
 msgid "Heartstone|Heartstones"
-msgstr "Кам'яне сердце|Кам'яних сердець"
+msgstr "Кам'яне серце|Кам'яних сердець"
 
 #: STRINGS.NAMES_PLURALITY.bulbug
 msgctxt "STRINGS.NAMES_PLURALITY.bulbug"
@@ -32441,6 +32489,11 @@ msgstr "Сегмент щита|Сегменти щита"
 msgctxt "STRINGS.NAMES_PLURALITY.concept_skill"
 msgid "Skill|Skills"
 msgstr "Навичка|Навички"
+
+#: STRINGS.NAMES_PLURALITY.concept_weapon_damage
+msgctxt "STRINGS.NAMES_PLURALITY.concept_weapon_damage"
+msgid "Weapon Damage|Weapon Damages"
+msgstr ""
 
 #: STRINGS.NAMES_PLURALITY.cosmetic
 msgctxt "STRINGS.NAMES_PLURALITY.cosmetic"
@@ -32569,11 +32622,6 @@ msgstr ""
 
 #: STRINGS.NAMES_PLURALITY.job_armorsmith
 msgctxt "STRINGS.NAMES_PLURALITY.job_armorsmith"
-msgid "Armourer|Armourers"
-msgstr ""
-
-#: STRINGS.NAMES_PLURALITY.job_armoursmith
-msgctxt "STRINGS.NAMES_PLURALITY.job_armoursmith"
 msgid "Armourer|Armourers"
 msgstr ""
 
@@ -34856,6 +34904,11 @@ msgctxt "STRINGS.UI.FEEDBACK_SCREEN.CATEGORY_PROMPT.WORDS"
 msgid "Loved some dialogue? Found a typo? Confused?"
 msgstr "Сподобалися діалоги? Знайшли помилку? Збентежені?"
 
+#: STRINGS.UI.FEEDBACK_SCREEN.CAVEAT_HACKMOD
+msgctxt "STRINGS.UI.FEEDBACK_SCREEN.CAVEAT_HACKMOD"
+msgid "You have unsupported modifications to game data that may introduce issues."
+msgstr "Ви внесли непідтримувані зміни до даних гри, які можуть спричинити проблеми."
+
 #: STRINGS.UI.FEEDBACK_SCREEN.MESSAGE_LABEL
 msgctxt "STRINGS.UI.FEEDBACK_SCREEN.MESSAGE_LABEL"
 msgid "DETAILS"
@@ -35883,7 +35936,7 @@ msgstr "Об'єднайтеся з друзями поруч і онлайн т�
 msgctxt "STRINGS.UI.MAINSCREEN.BTN_MULTI_PLAYER_TEXT_OFFLINE"
 msgid "Team up with local and online friends and face the Rotwood together.\n"
 "<#D6FEFF><p img='images/icons_ftf/ic_offline.tex' color=0 scale=1.3> No online connection available</>"
-msgstr "Об'єднайтеся з локальними друзями та друзями в Інтернеті і разом досліджуйте Ротвуд.\n"
+msgstr "Об'єднайтеся з друзями поруч і онлайн та разом досліджуйте Ротвуд.\n"
 "<#D6FEFF><p img='images/icons_ftf/ic_offline.tex' color=0 scale=1.3> Інтернет-з'єднання недоступне</>"
 
 #: STRINGS.UI.MAINSCREEN.BTN_MULTI_PLAYER_TITLE
@@ -35894,7 +35947,7 @@ msgstr "Онлайн гра"
 #: STRINGS.UI.MAINSCREEN.BTN_SINGLE_PLAYER_TEXT
 msgctxt "STRINGS.UI.MAINSCREEN.BTN_SINGLE_PLAYER_TEXT"
 msgid "Set out on your own and explore the Rotwood at your own pace."
-msgstr "Вирушайте самостійно та досліджуйте Ротвуд у своєму власному темпі."
+msgstr "Вирушайте самостійно та досліджуйте Ротвуд у власному темпі."
 
 #: STRINGS.UI.MAINSCREEN.BTN_SINGLE_PLAYER_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.BTN_SINGLE_PLAYER_TITLE"
@@ -35910,6 +35963,28 @@ msgstr "<#1C214E>Шукаєте людей для гри?</>"
 msgctxt "STRINGS.UI.MAINSCREEN.DISCORD_CTA.TITLE"
 msgid "Discord"
 msgstr "Discord"
+
+#: STRINGS.UI.MAINSCREEN.ERROR_MISSING_FILE.BODY
+msgctxt "STRINGS.UI.MAINSCREEN.ERROR_MISSING_FILE.BODY"
+msgid "Verify Integrity to recover necessary files:\n\n"
+"{file_list}"
+msgstr "Перевірте цілісність, щоб відновити необхідні файли:\n\n"
+"{file_list}"
+
+#: STRINGS.UI.MAINSCREEN.ERROR_MISSING_FILE.DESC
+msgctxt "STRINGS.UI.MAINSCREEN.ERROR_MISSING_FILE.DESC"
+msgid "Detected Missing Files"
+msgstr "Виявлені відсутні файли"
+
+#: STRINGS.UI.MAINSCREEN.ERROR_MISSING_FILE.INSTRUCTIONS
+msgctxt "STRINGS.UI.MAINSCREEN.ERROR_MISSING_FILE.INSTRUCTIONS"
+msgid "<p img='images/ui_ftf_dialog/quirk_vip.tex' color=0> Instructions"
+msgstr "<p img='images/ui_ftf_dialog/quirk_vip.tex' color=0> Інструкції"
+
+#: STRINGS.UI.MAINSCREEN.ERROR_MISSING_FILE.TITLE
+msgctxt "STRINGS.UI.MAINSCREEN.ERROR_MISSING_FILE.TITLE"
+msgid "Fatal Error"
+msgstr "Фатальна помилка"
 
 #: STRINGS.UI.MAINSCREEN.GETHELP
 msgctxt "STRINGS.UI.MAINSCREEN.GETHELP"
@@ -38928,6 +39003,26 @@ msgctxt "STRINGS.UI.SCREENOPENER_PROP.inventory_chest"
 msgid "Open Chest"
 msgstr "Відкрити скриню"
 
+#: STRINGS.UI.SCRIPTERROR.HACKMOD.DESC
+msgctxt "STRINGS.UI.SCRIPTERROR.HACKMOD.DESC"
+msgid "You have unsupported modifications to installed game data. Please remove the mods and try again."
+msgstr "У вас є непідтримувані модифікації даних гри. Видаліть модифікації та спробуйте ще раз."
+
+#: STRINGS.UI.SCRIPTERROR.HACKMOD.REMOVE_MODS
+msgctxt "STRINGS.UI.SCRIPTERROR.HACKMOD.REMOVE_MODS"
+msgid "<p img='images/ui_ftf_dialog/quirk_vip.tex' color=0> How to Remove Mods"
+msgstr "<p img='images/ui_ftf_dialog/quirk_vip.tex' color=0> Як видалити моди"
+
+#: STRINGS.UI.SCRIPTERROR.HACKMOD.TITLE
+msgctxt "STRINGS.UI.SCRIPTERROR.HACKMOD.TITLE"
+msgid "Modified Game Error"
+msgstr "Помилка модифікованої гри"
+
+#: STRINGS.UI.SCRIPTERROR.TROUBLESHOOTING
+msgctxt "STRINGS.UI.SCRIPTERROR.TROUBLESHOOTING"
+msgid "<p img='images/ui_ftf_dialog/quirk_vip.tex' color=0> Troubleshooting"
+msgstr "<p img='images/ui_ftf_dialog/quirk_vip.tex' color=0> Усунення несправностей"
+
 #: STRINGS.UI.SHOP_ITEM.POTION.ALREADY_OWNED
 msgctxt "STRINGS.UI.SHOP_ITEM.POTION.ALREADY_OWNED"
 msgid "Potion Full"
@@ -39249,6 +39344,16 @@ msgstr "<p bind='Controls.Digital.SKILL' color=BTNICON_DARK> <#RED>{name.concep
 msgctxt "STRINGS.UI.TOOLTIPS.SKILL.NAME"
 msgid "{name.concept_skill}"
 msgstr "{Name.concept_skill}"
+
+#: STRINGS.UI.TOOLTIPS.WEAPON_DAMAGE.DESC
+msgctxt "STRINGS.UI.TOOLTIPS.WEAPON_DAMAGE.DESC"
+msgid "The average amount of <#RED>Damage</> your <#RED>Attacks</> deal. It varies, but roughly equals a <#RED>Light Attack</>."
+msgstr "Середня кількість <#RED>шкоди</>, яку завдають ваші <#RED>атаки</>. Вона може варіюватися, але приблизно дорівнює <#RED>легкій атаці</>."
+
+#: STRINGS.UI.TOOLTIPS.WEAPON_DAMAGE.NAME
+msgctxt "STRINGS.UI.TOOLTIPS.WEAPON_DAMAGE.NAME"
+msgid "Weapon Damage"
+msgstr "Шкода зброєю"
 
 #: STRINGS.UI.TOUCH
 msgctxt "STRINGS.UI.TOUCH"
