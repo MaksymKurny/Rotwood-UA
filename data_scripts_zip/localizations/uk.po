@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-10-22 18:37\n"
+"PO-Revision-Date: 2024-10-22 20:20\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -32113,7 +32113,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.bow_basic.name
 msgctxt "STRINGS.ITEMS.WEAPON.bow_basic.name"
 msgid "Rickety Bow"
-msgstr ""
+msgstr "Старий лук"
 
 #: STRINGS.ITEMS.WEAPON.bow_corestone.desc
 msgctxt "STRINGS.ITEMS.WEAPON.bow_corestone.desc"
@@ -32124,7 +32124,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.bow_corestone.name
 msgctxt "STRINGS.ITEMS.WEAPON.bow_corestone.name"
 msgid "{name.weapon_crystal_prefix}{name.weapon_bow}"
-msgstr ""
+msgstr "{Name.weapon_crystal_prefix}{name.weapon_bow}"
 
 #: STRINGS.ITEMS.WEAPON.bow_corestone_broken.desc
 msgctxt "STRINGS.ITEMS.WEAPON.bow_corestone_broken.desc"
@@ -32135,7 +32135,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.bow_corestone_broken.name
 msgctxt "STRINGS.ITEMS.WEAPON.bow_corestone_broken.name"
 msgid "{name.weapon_crystal_broken_prefix} {name.weapon_crystal_prefix}{name.weapon_bow}"
-msgstr ""
+msgstr "{Name.weapon_crystal_broken_prefix} {name.weapon_crystal_prefix}{name.weapon_bow}"
 
 #: STRINGS.ITEMS.WEAPON.bow_corestone_charged.desc
 msgctxt "STRINGS.ITEMS.WEAPON.bow_corestone_charged.desc"
@@ -32146,7 +32146,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.bow_corestone_charged.name
 msgctxt "STRINGS.ITEMS.WEAPON.bow_corestone_charged.name"
 msgid "{name.weapon_crystal_charged_prefix} {name.weapon_crystal_prefix}{name.weapon_bow}"
-msgstr ""
+msgstr "{Name.weapon_crystal_charged_prefix} {name.weapon_crystal_prefix}{name.weapon_bow}"
 
 #: STRINGS.ITEMS.WEAPON.bow_crystroll.desc
 msgctxt "STRINGS.ITEMS.WEAPON.bow_crystroll.desc"
@@ -32320,7 +32320,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.cannon_corestone.name
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_corestone.name"
 msgid "{name.weapon_crystal_prefix}{name.weapon_cannon}"
-msgstr ""
+msgstr "{Name.weapon_crystal_prefix}{name.weapon_cannon}"
 
 #: STRINGS.ITEMS.WEAPON.cannon_corestone_broken.desc
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_corestone_broken.desc"
@@ -32331,7 +32331,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.cannon_corestone_broken.name
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_corestone_broken.name"
 msgid "{name.weapon_crystal_broken_prefix} {name.weapon_crystal_prefix}{name.weapon_cannon}"
-msgstr ""
+msgstr "{2:{Name.weapon_crystal_broken_prefix}} {name.weapon_crystal_prefix}{name.weapon_cannon}"
 
 #: STRINGS.ITEMS.WEAPON.cannon_corestone_charged.desc
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_corestone_charged.desc"
@@ -32342,7 +32342,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.cannon_corestone_charged.name
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_corestone_charged.name"
 msgid "{name.weapon_crystal_charged_prefix} {name.weapon_crystal_prefix}{name.weapon_cannon}"
-msgstr ""
+msgstr "{2:{Name.weapon_crystal_charged_prefix}} {name.weapon_crystal_prefix}{name.weapon_cannon}"
 
 #: STRINGS.ITEMS.WEAPON.cannon_crystroll.desc
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_crystroll.desc"
@@ -32508,7 +32508,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.hammer_corestone.name
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_corestone.name"
 msgid "{name.weapon_crystal_prefix}{name.weapon_hammer}"
-msgstr ""
+msgstr "{Name.weapon_crystal_prefix}{name.weapon_hammer}"
 
 #: STRINGS.ITEMS.WEAPON.hammer_corestone_broken.desc
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_corestone_broken.desc"
@@ -32519,7 +32519,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.hammer_corestone_broken.name
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_corestone_broken.name"
 msgid "{name.weapon_crystal_broken_prefix} {name.weapon_crystal_prefix}{name.weapon_hammer}"
-msgstr ""
+msgstr "{Name.weapon_crystal_broken_prefix} {name.weapon_crystal_prefix}{name.weapon_hammer}"
 
 #: STRINGS.ITEMS.WEAPON.hammer_corestone_charged.desc
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_corestone_charged.desc"
@@ -32530,7 +32530,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.hammer_corestone_charged.name
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_corestone_charged.name"
 msgid "{name.weapon_crystal_charged_prefix} {name.weapon_crystal_prefix}{name.weapon_hammer}"
-msgstr ""
+msgstr "{Name.weapon_crystal_charged_prefix} {name.weapon_crystal_prefix}{name.weapon_hammer}"
 
 #: STRINGS.ITEMS.WEAPON.hammer_crystroll.desc
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_crystroll.desc"
@@ -32716,7 +32716,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.polearm_corestone.name
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_corestone.name"
 msgid "{name.weapon_crystal_prefix}{name.weapon_polearm}"
-msgstr ""
+msgstr "{Name.weapon_crystal_prefix}{name.weapon_polearm}"
 
 #: STRINGS.ITEMS.WEAPON.polearm_corestone_broken.desc
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_corestone_broken.desc"
@@ -32727,7 +32727,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.polearm_corestone_broken.name
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_corestone_broken.name"
 msgid "{name.weapon_crystal_broken_prefix} {name.weapon_crystal_prefix}{name.weapon_polearm}"
-msgstr ""
+msgstr "{Name.weapon_crystal_broken_prefix} {name.weapon_crystal_prefix}{name.weapon_polearm}"
 
 #: STRINGS.ITEMS.WEAPON.polearm_corestone_charged.desc
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_corestone_charged.desc"
@@ -32738,7 +32738,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.polearm_corestone_charged.name
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_corestone_charged.name"
 msgid "{name.weapon_crystal_charged_prefix} {name.weapon_crystal_prefix}{name.weapon_polearm}"
-msgstr ""
+msgstr "{Name.weapon_crystal_charged_prefix} {name.weapon_crystal_prefix}{name.weapon_polearm}"
 
 #: STRINGS.ITEMS.WEAPON.polearm_crystroll.desc
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_crystroll.desc"
@@ -32894,7 +32894,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.shotput_corestone.name
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_corestone.name"
 msgid "{name.weapon_crystal_prefix}{name.weapon_shotput}"
-msgstr ""
+msgstr "{Name.weapon_crystal_prefix}{name.weapon_shotput}"
 
 #: STRINGS.ITEMS.WEAPON.shotput_corestone_broken.desc
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_corestone_broken.desc"
@@ -32905,7 +32905,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.shotput_corestone_broken.name
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_corestone_broken.name"
 msgid "{name.weapon_crystal_broken_prefix} {name.weapon_crystal_prefix}{name.weapon_shotput}"
-msgstr ""
+msgstr "{Name.weapon_crystal_broken_prefix} {name.weapon_crystal_prefix}{name.weapon_shotput}"
 
 #: STRINGS.ITEMS.WEAPON.shotput_corestone_charged.desc
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_corestone_charged.desc"
@@ -32916,7 +32916,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.shotput_corestone_charged.name
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_corestone_charged.name"
 msgid "{name.weapon_crystal_charged_prefix} {name.weapon_crystal_prefix}{name.weapon_shotput}"
-msgstr ""
+msgstr "{Name.weapon_crystal_charged_prefix} {name.weapon_crystal_prefix}{name.weapon_shotput}"
 
 #: STRINGS.ITEMS.WEAPON.shotput_crystroll.desc
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_crystroll.desc"
@@ -33775,7 +33775,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON_UNLOCKS.bow.name
 msgctxt "STRINGS.ITEMS.WEAPON_UNLOCKS.bow.name"
 msgid "{name.weapon_bow} Unlock"
-msgstr ""
+msgstr "{name.weapon_bow} розблокований"
 
 #: STRINGS.ITEMS.WEAPON_UNLOCKS.cannon.desc
 msgctxt "STRINGS.ITEMS.WEAPON_UNLOCKS.cannon.desc"
@@ -34401,7 +34401,7 @@ msgstr "Тіло"
 #: STRINGS.ITEM_CATEGORIES.BOW
 msgctxt "STRINGS.ITEM_CATEGORIES.BOW"
 msgid "{name.weapon_bow}"
-msgstr ""
+msgstr "{4:{name.weapon_bow}}"
 
 #: STRINGS.ITEM_CATEGORIES.BUFFING_ITEMS
 msgctxt "STRINGS.ITEM_CATEGORIES.BUFFING_ITEMS"
@@ -36233,7 +36233,7 @@ msgstr ""
 #: STRINGS.NAMES.weapon_bow
 msgctxt "STRINGS.NAMES.weapon_bow"
 msgid "Bow"
-msgstr ""
+msgstr "Лук|Лука|Луку|Луком"
 
 #: STRINGS.NAMES.weapon_cannon
 msgctxt "STRINGS.NAMES.weapon_cannon"
@@ -36248,17 +36248,17 @@ msgstr "Протозброя|Протозброю|Протозброї|Прот�
 #: STRINGS.NAMES.weapon_crystal_broken_prefix
 msgctxt "STRINGS.NAMES.weapon_crystal_broken_prefix"
 msgid "Broken"
-msgstr ""
+msgstr "Зламаний|Зламана"
 
 #: STRINGS.NAMES.weapon_crystal_charged_prefix
 msgctxt "STRINGS.NAMES.weapon_crystal_charged_prefix"
 msgid "Charged"
-msgstr ""
+msgstr "Заряджений|Заряджена"
 
 #: STRINGS.NAMES.weapon_crystal_prefix
 msgctxt "STRINGS.NAMES.weapon_crystal_prefix"
 msgid "Proto-"
-msgstr ""
+msgstr "Прото-"
 
 #: STRINGS.NAMES.weapon_greatsword
 msgctxt "STRINGS.NAMES.weapon_greatsword"
@@ -38134,7 +38134,7 @@ msgstr ""
 #: STRINGS.PLAYER_EMOTES.EMOTE_BOW_POSE.name
 msgctxt "STRINGS.PLAYER_EMOTES.EMOTE_BOW_POSE.name"
 msgid "Flourish ({name.weapon_bow})"
-msgstr ""
+msgstr "Тріумф ({name.weapon_bow})"
 
 #: STRINGS.PLAYER_EMOTES.EMOTE_CANNON_TWIRL.desc
 msgctxt "STRINGS.PLAYER_EMOTES.EMOTE_CANNON_TWIRL.desc"
@@ -39279,7 +39279,7 @@ msgstr "Загальний"
 #: STRINGS.UI.DECORSCREEN.CRAFT_BTN
 msgctxt "STRINGS.UI.DECORSCREEN.CRAFT_BTN"
 msgid "Craft item"
-msgstr ""
+msgstr "Створити предмет"
 
 #: STRINGS.UI.DECORSCREEN.DECOR_SIZE
 msgctxt "STRINGS.UI.DECORSCREEN.DECOR_SIZE"
@@ -39313,17 +39313,17 @@ msgstr ""
 #: STRINGS.UI.DECORSCREEN.INFO_POPUP_TITLE
 msgctxt "STRINGS.UI.DECORSCREEN.INFO_POPUP_TITLE"
 msgid "Ingredient info"
-msgstr ""
+msgstr "Інформація про інгредієнт"
 
 #: STRINGS.UI.DECORSCREEN.LIST_HOTKEYS
 msgctxt "STRINGS.UI.DECORSCREEN.LIST_HOTKEYS"
 msgid "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Craft item    <p bind='Controls.Digital.PLACE_ITEM' color=0 scale=1> Place item"
-msgstr ""
+msgstr "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Створити предмет    <p bind='Controls.Digital.PLACE_ITEM' color=0 scale=1> Розмістити предмет"
 
 #: STRINGS.UI.DECORSCREEN.LIST_HOTKEYS_GAMEPAD
 msgctxt "STRINGS.UI.DECORSCREEN.LIST_HOTKEYS_GAMEPAD"
 msgid "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Craft item    <p bind='Controls.Digital.PLACE_ITEM' color=0 scale=1> Place item    <p bind='Controls.Digital.A' color=0 scale=1> Info"
-msgstr ""
+msgstr "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Створити предмет    <p bind='Controls.Digital.PLACE_ITEM' color=0 scale=1> Розмістити предмет    <p bind='Controls.Digital.A' color=0 scale=1> Інформація"
 
 #: STRINGS.UI.DECORSCREEN.LOCKED_TT
 msgctxt "STRINGS.UI.DECORSCREEN.LOCKED_TT"
@@ -39343,7 +39343,7 @@ msgstr "Підняти декор"
 #: STRINGS.UI.DECORSCREEN.PLACE_BTN
 msgctxt "STRINGS.UI.DECORSCREEN.PLACE_BTN"
 msgid "Place item"
-msgstr ""
+msgstr "Розмістити предмет"
 
 #: STRINGS.UI.DECORSCREEN.TITLE
 msgctxt "STRINGS.UI.DECORSCREEN.TITLE"
@@ -39434,17 +39434,17 @@ msgstr "Божевілля {level}"
 #: STRINGS.UI.DUNGEONSELECTIONSCREEN.SUPER_FRENZY_WIDGET.CORESTONE_REWARD
 msgctxt "STRINGS.UI.DUNGEONSELECTIONSCREEN.SUPER_FRENZY_WIDGET.CORESTONE_REWARD"
 msgid "{name_multiple.konjur_soul_lesser}"
-msgstr ""
+msgstr "{name_multiple.konjur_soul_lesser}"
 
 #: STRINGS.UI.DUNGEONSELECTIONSCREEN.SUPER_FRENZY_WIDGET.HEARTSTONE_REWARD
 msgctxt "STRINGS.UI.DUNGEONSELECTIONSCREEN.SUPER_FRENZY_WIDGET.HEARTSTONE_REWARD"
 msgid "{name.elite_prefix} {name.konjur_heart}"
-msgstr ""
+msgstr "{Name.konjur_heart} {2:{name.elite_prefix}}"
 
 #: STRINGS.UI.DUNGEONSELECTIONSCREEN.SUPER_FRENZY_WIDGET.SUPER_FRENZY_LEVEL_TITLE
 msgctxt "STRINGS.UI.DUNGEONSELECTIONSCREEN.SUPER_FRENZY_WIDGET.SUPER_FRENZY_LEVEL_TITLE"
 msgid "{weapon_type} {name.ascension_plus}"
-msgstr ""
+msgstr "{weapon_type} {name.ascension_plus}"
 
 #: STRINGS.UI.DUNGEONSUMMARYSCREEN.DAMAGED_BY
 msgctxt "STRINGS.UI.DUNGEONSUMMARYSCREEN.DAMAGED_BY"
@@ -39581,7 +39581,7 @@ msgstr "Так"
 #: STRINGS.UI.EMOTESCREEN.BTN_UNEQUIP
 msgctxt "STRINGS.UI.EMOTESCREEN.BTN_UNEQUIP"
 msgid "Un-equip <p bind='Controls.Digital.Y' color=0>"
-msgstr ""
+msgstr "Зняти <p bind='Controls.Digital.Y' color=0>"
 
 #: STRINGS.UI.EMOTESCREEN.DESC
 msgctxt "STRINGS.UI.EMOTESCREEN.DESC"
@@ -39601,22 +39601,22 @@ msgstr ""
 #: STRINGS.UI.EMOTESCREEN.TAB_EMOTES
 msgctxt "STRINGS.UI.EMOTESCREEN.TAB_EMOTES"
 msgid "EMOTES"
-msgstr ""
+msgstr "ЕМОЦІЇ"
 
 #: STRINGS.UI.EMOTESCREEN.TAB_SPECIES
 msgctxt "STRINGS.UI.EMOTESCREEN.TAB_SPECIES"
 msgid "SPECIES"
-msgstr ""
+msgstr "ВИД"
 
 #: STRINGS.UI.EMOTESCREEN.TAB_WEAPONS
 msgctxt "STRINGS.UI.EMOTESCREEN.TAB_WEAPONS"
 msgid "WEAPONS"
-msgstr ""
+msgstr "ЗБРОЯ"
 
 #: STRINGS.UI.EMOTESCREEN.TITLE
 msgctxt "STRINGS.UI.EMOTESCREEN.TITLE"
 msgid "EMOTES"
-msgstr ""
+msgstr "ЕМОЦІЇ"
 
 #: STRINGS.UI.EMOTESCREEN.WEAPONS_INFO
 msgctxt "STRINGS.UI.EMOTESCREEN.WEAPONS_INFO"
@@ -40593,7 +40593,7 @@ msgstr ""
 #: STRINGS.UI.IDENTIFYGEMSCREEN.GEM_COUNT
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.GEM_COUNT"
 msgid "x%d"
-msgstr ""
+msgstr "x%d"
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.IDENFIFY_BTN
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.IDENFIFY_BTN"
@@ -40628,12 +40628,12 @@ msgstr ""
 #: STRINGS.UI.INVENTORYCHESTSCREEN.LOCATION_LABEL
 msgctxt "STRINGS.UI.INVENTORYCHESTSCREEN.LOCATION_LABEL"
 msgid "Location"
-msgstr ""
+msgstr "Локація"
 
 #: STRINGS.UI.INVENTORYCHESTSCREEN.TITLE
 msgctxt "STRINGS.UI.INVENTORYCHESTSCREEN.TITLE"
 msgid "LOOT"
-msgstr ""
+msgstr "ЗДОБИЧ"
 
 #: STRINGS.UI.INVENTORYSCREEN.BUTTON_LABEL
 msgctxt "STRINGS.UI.INVENTORYSCREEN.BUTTON_LABEL"
@@ -40960,7 +40960,7 @@ msgstr "Клавіатура"
 #: STRINGS.UI.KEYITEMGIVER.default
 msgctxt "STRINGS.UI.KEYITEMGIVER.default"
 msgid "Interact"
-msgstr ""
+msgstr "Взаємодія"
 
 #: STRINGS.UI.KEYITEMGIVER.keyitem_gemtools
 msgctxt "STRINGS.UI.KEYITEMGIVER.keyitem_gemtools"
@@ -42461,7 +42461,7 @@ msgstr ""
 #: STRINGS.UI.OPTIONSSCREEN.KEYBINDING_TEXT_KEY
 msgctxt "STRINGS.UI.OPTIONSSCREEN.KEYBINDING_TEXT_KEY"
 msgid "CURRENT KEY: %s"
-msgstr ""
+msgstr "ПОТОЧНИЙ КЛЮЧ: %s"
 
 #: STRINGS.UI.OPTIONSSCREEN.KEYBINDING_TEXT_UNBOUND
 msgctxt "STRINGS.UI.OPTIONSSCREEN.KEYBINDING_TEXT_UNBOUND"
@@ -43745,37 +43745,37 @@ msgstr "Можна покращити."
 #: STRINGS.UI.POWERSELECTIONSCREEN.ACTION_BUTTON.Remove
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.ACTION_BUTTON.Remove"
 msgid "Remove"
-msgstr ""
+msgstr "Видалити"
 
 #: STRINGS.UI.POWERSELECTIONSCREEN.ACTION_BUTTON.Select
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.ACTION_BUTTON.Select"
 msgid "Select"
-msgstr ""
+msgstr "Вибрати"
 
 #: STRINGS.UI.POWERSELECTIONSCREEN.ACTION_BUTTON.Sell
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.ACTION_BUTTON.Sell"
 msgid "Sell"
-msgstr ""
+msgstr "Продати"
 
 #: STRINGS.UI.POWERSELECTIONSCREEN.ACTION_BUTTON.Upgrade
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.ACTION_BUTTON.Upgrade"
 msgid "<p bind='Controls.Digital.A' color=0> Upgrade"
-msgstr ""
+msgstr "<p bind='Controls.Digital.A' color=0> Покращити"
 
 #: STRINGS.UI.POWERSELECTIONSCREEN.ACTION_BUTTON_FREE.Remove
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.ACTION_BUTTON_FREE.Remove"
 msgid "Free remove!"
-msgstr ""
+msgstr "Видалити безплатно!"
 
 #: STRINGS.UI.POWERSELECTIONSCREEN.ACTION_BUTTON_FREE.Select
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.ACTION_BUTTON_FREE.Select"
 msgid "Select"
-msgstr ""
+msgstr "Вибрати"
 
 #: STRINGS.UI.POWERSELECTIONSCREEN.ACTION_BUTTON_FREE.Sell
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.ACTION_BUTTON_FREE.Sell"
 msgid "Sell"
-msgstr ""
+msgstr "Продати"
 
 #: STRINGS.UI.POWERSELECTIONSCREEN.ACTION_BUTTON_FREE.Upgrade
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.ACTION_BUTTON_FREE.Upgrade"
@@ -43825,7 +43825,7 @@ msgstr ""
 #: STRINGS.UI.POWERSELECTIONSCREEN.FREE_UPGRADES_VALUE
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.FREE_UPGRADES_VALUE"
 msgid "%d <p img='images/icons_ftf/ic_power_upgrades.tex' scale=1.1 color=0>"
-msgstr ""
+msgstr "%d <p img='images/icons_ftf/ic_power_upgrades.tex' scale=1.1 color=0>"
 
 #: STRINGS.UI.POWERSELECTIONSCREEN.LIST_EMPTY
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.LIST_EMPTY"
@@ -43915,7 +43915,7 @@ msgstr "<p img='images/ui_ftf_dialog/convo_upgrade_power.tex' scale=1.2 color=0>
 #: STRINGS.UI.POWERSELECTIONSCREEN.UPGRADE_BUTTON_PRICE
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.UPGRADE_BUTTON_PRICE"
 msgid "<p img='images/ui_ftf/konjur.tex'>%d"
-msgstr ""
+msgstr "<p img='images/ui_ftf/konjur.tex'>%d"
 
 #: STRINGS.UI.PRESSED_START_IN_SINGLE_PLAYER.BTN_ADD_PLAYER
 msgctxt "STRINGS.UI.PRESSED_START_IN_SINGLE_PLAYER.BTN_ADD_PLAYER"
@@ -44492,7 +44492,7 @@ msgstr "Бонусна <#RED>{3:{name.concept_damage}}</> за вірне вик
 #: STRINGS.UI.TOOLTIPS.FOCUS_HIT.DESC_CONTEXTUAL
 msgctxt "STRINGS.UI.TOOLTIPS.FOCUS_HIT.DESC_CONTEXTUAL"
 msgid "{focus_hit_tip}"
-msgstr ""
+msgstr "{focus_hit_tip}"
 
 #: STRINGS.UI.TOOLTIPS.FOCUS_HIT.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.FOCUS_HIT.NAME"
@@ -44983,7 +44983,7 @@ msgstr ""
 #: STRINGS.UI.WEAPONSELECTIONSCREEN.UPGRADE_BUTTON
 msgctxt "STRINGS.UI.WEAPONSELECTIONSCREEN.UPGRADE_BUTTON"
 msgid "Upgrade"
-msgstr ""
+msgstr "Покращити"
 
 #: STRINGS.UI.WEIGHT_CHANGED_SCREEN.HEAVY.BRIEF
 msgctxt "STRINGS.UI.WEIGHT_CHANGED_SCREEN.HEAVY.BRIEF"
@@ -45144,7 +45144,7 @@ msgstr "Зброя середньої дальності, яка поєднує 
 #: STRINGS.WEAPONS.UNLOCK.BOW
 msgctxt "STRINGS.WEAPONS.UNLOCK.BOW"
 msgid "You unlocked the {name.weapon_bow}!"
-msgstr ""
+msgstr "Ви розблокували: {name.weapon_bow}!"
 
 #: STRINGS.WEAPONS.UNLOCK.CANNON
 msgctxt "STRINGS.WEAPONS.UNLOCK.CANNON"
