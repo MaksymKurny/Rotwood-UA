@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-10-23 18:34\n"
+"PO-Revision-Date: 2024-10-23 19:47\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -18391,7 +18391,7 @@ msgstr ""
 #: STRINGS.ASCENSIONS.SUPER_MODIFIERS.ELITE_BOSS
 msgctxt "STRINGS.ASCENSIONS.SUPER_MODIFIERS.ELITE_BOSS"
 msgid "Elite {name.rot_boss}"
-msgstr ""
+msgstr "Елітний {name.rot_boss}"
 
 #: STRINGS.ASCENSIONS.SUPER_MODIFIERS.HIGHER_COSTS
 msgctxt "STRINGS.ASCENSIONS.SUPER_MODIFIERS.HIGHER_COSTS"
@@ -19460,7 +19460,7 @@ msgstr "x%d"
 #: STRINGS.CRAFT_WIDGET.NEW_CRAFT_DESC
 msgctxt "STRINGS.CRAFT_WIDGET.NEW_CRAFT_DESC"
 msgid "You have never made this before"
-msgstr "Ви ніколи раніше цього не робили"
+msgstr "Ви ніколи раніше це не будували"
 
 #: STRINGS.CRAFT_WIDGET.NEW_CRAFT_TITLE
 msgctxt "STRINGS.CRAFT_WIDGET.NEW_CRAFT_TITLE"
@@ -25492,7 +25492,7 @@ msgid "Heavily condensed, solid <#KONJUR>{name.i_konjur}</>.\n\n"
 "Found in: <#RED>{name.rot_miniboss} Rooms</>"
 msgstr "Сильно конденсований, твердий <#KONJUR>{name.i_konjur}</>.\n\n"
 "Залишив після себе особливо страшний <#RED>{name.rot}</>.\n\n"
-"Знайдений на: <#RED>Галявині з {name.rot_miniboss}ом</>"
+"Знайдений на: <#RED>галявині з {name.rot_miniboss}ом</>"
 
 #: STRINGS.ITEMS.MATERIALS.konjur_soul_greater.name
 msgctxt "STRINGS.ITEMS.MATERIALS.konjur_soul_greater.name"
@@ -25509,7 +25509,7 @@ msgctxt "STRINGS.ITEMS.MATERIALS.konjur_soul_lesser.desc"
 msgid "A hunk of pure, solidified <#KONJUR>{name.i_konjur}</>.\n\n"
 "Found in: <#RED>Special Rooms</>"
 msgstr "Шматок чистого затверділого <#KONJUR>{2:{name.i_konjur}}</>.\n\n"
-"Знайдений на: <#RED>Особливій галявині</>"
+"Знайдений на: <#RED>особливій галявині</>"
 
 #: STRINGS.ITEMS.MATERIALS.konjur_soul_lesser.name
 msgctxt "STRINGS.ITEMS.MATERIALS.konjur_soul_lesser.name"
@@ -30495,7 +30495,7 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.WEIGHT.weight_heavy.name
 msgctxt "STRINGS.ITEMS.POWERS.WEIGHT.weight_heavy.name"
 msgid "{name.heavy_weight} Class"
-msgstr ""
+msgstr "Клас {name.heavy_weight}"
 
 #: STRINGS.ITEMS.POWERS.WEIGHT.weight_light.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEIGHT.weight_light.desc"
@@ -30506,7 +30506,7 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.WEIGHT.weight_light.name
 msgctxt "STRINGS.ITEMS.POWERS.WEIGHT.weight_light.name"
 msgid "{name.light_weight} Class"
-msgstr ""
+msgstr "Клас {name.light_weight}"
 
 #: STRINGS.ITEMS.POWERS.WEIGHT.weight_normal.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEIGHT.weight_normal.desc"
@@ -30517,7 +30517,7 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.WEIGHT.weight_normal.name
 msgctxt "STRINGS.ITEMS.POWERS.WEIGHT.weight_normal.name"
 msgid "{name.medium_weight} Class"
-msgstr ""
+msgstr "Клас {name.medium_weight}"
 
 #: STRINGS.ITEMS.RARITY.COMMON
 msgctxt "STRINGS.ITEMS.RARITY.COMMON"
@@ -32319,7 +32319,7 @@ msgstr "Ходи м'яко і тримай пушку."
 #: STRINGS.ITEMS.WEAPON.cannon_megatreemon.name
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_megatreemon.name"
 msgid "Mother's Fury"
-msgstr ""
+msgstr "Мамина лють"
 
 #: STRINGS.ITEMS.WEAPON.cannon_owlitzer.desc
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_owlitzer.desc"
@@ -32330,7 +32330,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.cannon_owlitzer.name
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_owlitzer.name"
 msgid "Nocturne's Wrath"
-msgstr ""
+msgstr "Ноктюрний гнів"
 
 #: STRINGS.ITEMS.WEAPON.cannon_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_owlitzer_forest.desc"
@@ -32351,7 +32351,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.cannon_thatcher.name
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_thatcher.name"
 msgid "[TEMP] {name.thatcher} {name.weapon_cannon}"
-msgstr ""
+msgstr "[TEMP] {name.thatcher} {name.weapon_cannon}"
 
 #: STRINGS.ITEMS.WEAPON.cannon_thatcher_swamp.desc
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_thatcher_swamp.desc"
@@ -34485,7 +34485,7 @@ msgstr "Підтримати"
 #: STRINGS.ITEM_CATEGORIES.SHOTPUT
 msgctxt "STRINGS.ITEM_CATEGORIES.SHOTPUT"
 msgid "{name.weapon_shotput}"
-msgstr "{4:{Name.weapon_shotput}}"
+msgstr "{4:{name.weapon_shotput}}"
 
 #: STRINGS.ITEM_CATEGORIES.SHOULDERS
 msgctxt "STRINGS.ITEM_CATEGORIES.SHOULDERS"
@@ -35297,7 +35297,7 @@ msgstr ""
 #: STRINGS.NAMES.elite_prefix
 msgctxt "STRINGS.NAMES.elite_prefix"
 msgid "Imbued"
-msgstr "наповнені"
+msgstr "Наповнені|Наповнене|Наповнений"
 
 #: STRINGS.NAMES.embison
 msgctxt "STRINGS.NAMES.embison"
@@ -35487,7 +35487,7 @@ msgstr "Конжур|Конжуру|Конжуром"
 #: STRINGS.NAMES.konjur_heart
 msgctxt "STRINGS.NAMES.konjur_heart"
 msgid "Heartstone"
-msgstr "Кам'яне серце"
+msgstr "Кам'яне серце|Кам'яного серця"
 
 #: STRINGS.NAMES.konjur_soul_greater
 msgctxt "STRINGS.NAMES.konjur_soul_greater"
@@ -38850,22 +38850,22 @@ msgstr "Натисніть <p bind='Controls.Digital.EQUIP' color=0> для за
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_ARMOR
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_ARMOR"
 msgid "Imbue a <#RED>{name.weapon_crystal_prefix}{armor_piece}</> with the {name.konjur_heart} of an <#RED>{name.elite_prefix} {boss}</> to have <#BLUE>{name.npc_armorsmith}</> craft this for you."
-msgstr ""
+msgstr "Наповніть <#RED>{name.weapon_crystal_prefix}{armor_piece}</> силою {name.konjur_heart} <#RED>{name.elite_prefix} {boss}</> для виготовлення цієї речі у <#BLUE>{4:{name.npc_armorsmith}}</>."
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_WEAPON
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_WEAPON"
 msgid "Imbue a <#RED>{name.weapon_crystal_prefix}{weapon_type}</> with the {name.konjur_heart} of an <#RED>{name.elite_prefix} {boss}</> to have <#BLUE>{name.npc_blacksmith}</> craft this for you."
-msgstr ""
+msgstr "Наповніть <#RED>{name.weapon_crystal_prefix}{weapon_type}</> силою {name.konjur_heart} <#RED>{name.elite_prefix} {boss}</> для виготовлення цієї речі у <#BLUE>{2:{name.npc_blacksmith}}</>."
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_ARMOR
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_ARMOR"
 msgid "Maybe <#BLUE>{name.npc_armorsmith}</> knows something?"
-msgstr ""
+msgstr "Можливо, <#BLUE>{name.npc_armorsmith}</> щось знає?"
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_WEAPON
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_WEAPON"
 msgid "Maybe <#BLUE>{name.npc_blacksmith}</> knows something?"
-msgstr ""
+msgstr "Можливо, <#BLUE>{name.npc_blacksmith}</> щось знає?"
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_DESC
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_DESC"
@@ -39183,31 +39183,35 @@ msgstr "Загальний"
 #: STRINGS.UI.DECORSCREEN.CRAFT_BTN
 msgctxt "STRINGS.UI.DECORSCREEN.CRAFT_BTN"
 msgid "Craft item"
-msgstr "Створити предмет"
+msgstr "Створити"
 
 #: STRINGS.UI.DECORSCREEN.DECOR_SIZE
 msgctxt "STRINGS.UI.DECORSCREEN.DECOR_SIZE"
 msgid "<p img='images/icons_ftf/decor_size.tex' color=0 scale=1.8>\n\n"
 "SIZE\n"
 "<#LIGHT_TEXT_DARK>%sx%s</>"
-msgstr ""
+msgstr "<p img='images/icons_ftf/decor_size.tex' color=0 scale=1.8>\n\n"
+"РОЗМІР\n"
+"<#LIGHT_TEXT_DARK>%sx%s</>"
 
 #: STRINGS.UI.DECORSCREEN.DECOR_STORED
 msgctxt "STRINGS.UI.DECORSCREEN.DECOR_STORED"
 msgid "<p img='images/icons_ftf/decor_stored.tex' color=0 scale=1.8>\n\n"
 "STORED\n"
 "<#LIGHT_TEXT_DARK>%s</>"
-msgstr ""
+msgstr "<p img='images/icons_ftf/decor_stored.tex' color=0 scale=1.8>\n\n"
+"НАЯВНО\n"
+"<#LIGHT_TEXT_DARK>%s</>"
 
 #: STRINGS.UI.DECORSCREEN.DESC
 msgctxt "STRINGS.UI.DECORSCREEN.DESC"
 msgid "Build decorations for your town, and earn corestones!"
-msgstr ""
+msgstr "Будуйте прикраси для свого містечка та заробляйте кам'яні ядра!"
 
 #: STRINGS.UI.DECORSCREEN.EMPTY_LIST
 msgctxt "STRINGS.UI.DECORSCREEN.EMPTY_LIST"
 msgid "You don't have any items of this type."
-msgstr ""
+msgstr "У вас немає предметів цього типу."
 
 #: STRINGS.UI.DECORSCREEN.INFO_BTN
 msgctxt "STRINGS.UI.DECORSCREEN.INFO_BTN"
@@ -39247,7 +39251,7 @@ msgstr "Підняти декор"
 #: STRINGS.UI.DECORSCREEN.PLACE_BTN
 msgctxt "STRINGS.UI.DECORSCREEN.PLACE_BTN"
 msgid "Place item"
-msgstr "Розмістити предмет"
+msgstr "Розмістити"
 
 #: STRINGS.UI.DECORSCREEN.TITLE
 msgctxt "STRINGS.UI.DECORSCREEN.TITLE"
@@ -39343,7 +39347,7 @@ msgstr "{name_multiple.konjur_soul_lesser}"
 #: STRINGS.UI.DUNGEONSELECTIONSCREEN.SUPER_FRENZY_WIDGET.HEARTSTONE_REWARD
 msgctxt "STRINGS.UI.DUNGEONSELECTIONSCREEN.SUPER_FRENZY_WIDGET.HEARTSTONE_REWARD"
 msgid "{name.elite_prefix} {name.konjur_heart}"
-msgstr "{Name.konjur_heart} {2:{name.elite_prefix}}"
+msgstr "{2:{Name.elite_prefix}} {name.konjur_heart}"
 
 #: STRINGS.UI.DUNGEONSELECTIONSCREEN.SUPER_FRENZY_WIDGET.SUPER_FRENZY_LEVEL_TITLE
 msgctxt "STRINGS.UI.DUNGEONSELECTIONSCREEN.SUPER_FRENZY_WIDGET.SUPER_FRENZY_LEVEL_TITLE"
@@ -40024,7 +40028,7 @@ msgstr "У цей слот можна вмістити будь-який {name.g
 #: STRINGS.UI.GEMSCREEN.EMPTY_GEMS_LIST
 msgctxt "STRINGS.UI.GEMSCREEN.EMPTY_GEMS_LIST"
 msgid "You don't have any gems in your inventory."
-msgstr ""
+msgstr "У вас немає самоцвітів в інвентарі."
 
 #: STRINGS.UI.GEMSCREEN.EMPTY_MOD_SLOT
 msgctxt "STRINGS.UI.GEMSCREEN.EMPTY_MOD_SLOT"
@@ -40512,7 +40516,7 @@ msgstr ""
 #: STRINGS.UI.IDENTIFYGEMSCREEN.NO_GEM
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.NO_GEM"
 msgid "You don't have unidentified gems."
-msgstr ""
+msgstr "У вас немає невідомих самоцвітів."
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.TITLE
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.TITLE"
@@ -40522,12 +40526,12 @@ msgstr ""
 #: STRINGS.UI.INVENTORYCHESTSCREEN.AMOUNT
 msgctxt "STRINGS.UI.INVENTORYCHESTSCREEN.AMOUNT"
 msgid "<p img='images/icons_ftf/inventory_equipment.tex' color=0 scale=1> Stored: %d"
-msgstr ""
+msgstr "<p img='images/icons_ftf/inventory_equipment.tex' color=0 scale=1> Наявно: %d"
 
 #: STRINGS.UI.INVENTORYCHESTSCREEN.DESC
 msgctxt "STRINGS.UI.INVENTORYCHESTSCREEN.DESC"
 msgid "All the stuff you pick up on your adventures!"
-msgstr ""
+msgstr "Усе, що ви підбираєте під час своїх пригод!"
 
 #: STRINGS.UI.INVENTORYCHESTSCREEN.LOCATION_LABEL
 msgctxt "STRINGS.UI.INVENTORYCHESTSCREEN.LOCATION_LABEL"
@@ -41423,12 +41427,12 @@ msgstr "<p img='images/icons_ftf/stat_weapon.tex' color=0 scale=1>%d"
 #: STRINGS.UI.MAPSCREEN.AVERAGE_PLAYER_LEVEL_LABEL
 msgctxt "STRINGS.UI.MAPSCREEN.AVERAGE_PLAYER_LEVEL_LABEL"
 msgid "Party Gear Level"
-msgstr ""
+msgstr "Рівень екіпіровки команди"
 
 #: STRINGS.UI.MAPSCREEN.AVERAGE_PLAYER_LEVEL_LABEL_TT
 msgctxt "STRINGS.UI.MAPSCREEN.AVERAGE_PLAYER_LEVEL_LABEL_TT"
 msgid "The average level of all of your party's Gear Level."
-msgstr ""
+msgstr "Середній рівень всієї екіпіровки вашої команди."
 
 #: STRINGS.UI.MAPSCREEN.CHANGE_WEAPON
 msgctxt "STRINGS.UI.MAPSCREEN.CHANGE_WEAPON"
@@ -45026,13 +45030,15 @@ msgstr ""
 msgctxt "STRINGS.WEAPONS.HOW_TO_PLAY.BOW"
 msgid "A long-range weapon that rewards positioning and timing.\n\n"
 "All <#BLUE>Focus Hits</> pierce through enemies, but piercing <#RED>Light Attacks</> do less damage per pierce."
-msgstr ""
+msgstr "Далекобійна зброя, що винагороджує позиціювання та таймінг.\n\n"
+"Усі <#BLUE>фокусні удари</> пронизують ворогів, але пронизуючі <#RED>легкі удари</> завдають менше шкоди за кожне проникнення."
 
 #: STRINGS.WEAPONS.HOW_TO_PLAY.CANNON
 msgctxt "STRINGS.WEAPONS.HOW_TO_PLAY.CANNON"
 msgid "A mid-to-long-range weapon that can deal <#RED>{name.concept_damage}</> at a distance, but is vulnerable when the clip is empty.\n"
 "Its <#RED>Heavy Attack</> is a <#RED>{name.concept_dodge}</>!"
-msgstr ""
+msgstr "Зброя середньої та дальньої дальності, яка може нанести <#RED>{name.concept_damage}</> на відстані, але є вразливою, коли обойма порожня.\n"
+"Натисніть <#RED>важку атаку</>, щоб виконати <#RED>{name.concept_dodge}</>!"
 
 #: STRINGS.WEAPONS.HOW_TO_PLAY.HAMMER
 msgctxt "STRINGS.WEAPONS.HOW_TO_PLAY.HAMMER"
