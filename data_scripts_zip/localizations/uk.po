@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-10-23 19:47\n"
+"PO-Revision-Date: 2024-10-24 18:17\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -24467,7 +24467,7 @@ msgstr "Перетворення {name.konjur}у"
 #: STRINGS.ITEMS.LOCKED_ITEM_NAME
 msgctxt "STRINGS.ITEMS.LOCKED_ITEM_NAME"
 msgid "???"
-msgstr ""
+msgstr "???"
 
 #: STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.bandi_swamp_market_1.desc
 msgctxt "STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.bandi_swamp_market_1.desc"
@@ -25006,12 +25006,12 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.gem_unidentified.name
 msgctxt "STRINGS.ITEMS.MATERIALS.gem_unidentified.name"
 msgid "Unidentified Gem"
-msgstr ""
+msgstr "Невідомий самоцвіт"
 
 #: STRINGS.ITEMS.MATERIALS.gem_unidentified.name_multiple_fmt
 msgctxt "STRINGS.ITEMS.MATERIALS.gem_unidentified.name_multiple_fmt"
 msgid "Unidentified Gem ({count})"
-msgstr ""
+msgstr "Невідомий самоцвіт ({count})"
 
 #: STRINGS.ITEMS.MATERIALS.glitz.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.glitz.desc"
@@ -25117,7 +25117,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.imbued_eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.MATERIALS.imbued_eggzy_tundra.name"
 msgid "{name.eggzy_tundra} Egg"
-msgstr ""
+msgstr "Яйце {2:{name.eggzy_tundra}}"
 
 #: STRINGS.ITEMS.MATERIALS.imbued_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.imbued_owlitzer_forest.desc"
@@ -25188,12 +25188,12 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.ingot_eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.MATERIALS.ingot_eggzy_tundra.name"
 msgid "Frozen Fortifying Ingot"
-msgstr ""
+msgstr "Крижаний зміцнювальний злиток"
 
 #: STRINGS.ITEMS.MATERIALS.ingot_eggzy_tundra.name_multiple_fmt
 msgctxt "STRINGS.ITEMS.MATERIALS.ingot_eggzy_tundra.name_multiple_fmt"
 msgid "Frozen Fortifying Ingot ({count})"
-msgstr ""
+msgstr "Крижаний зміцнювальний злиток ({count})"
 
 #: STRINGS.ITEMS.MATERIALS.ingot_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.ingot_owlitzer_forest.desc"
@@ -26090,7 +26090,7 @@ msgstr "Перемогти {2:{Name.bandicoot}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_1.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_1.desc"
 msgid "Kill <#RED>{name.bandicoot}</> in <#BLUE> <p img='images/map_ftf/frenzy_level_1.tex' color=0> {name.bandi_swamp}</>."
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.bandicoot}}</> вглибині <#BLUE><p img='images/map_ftf/frenzy_level_1.tex' color=0> {2:{Name.bandi_swamp}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_1.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_1.name"
@@ -26100,7 +26100,7 @@ msgstr "Перемогти {2:{Name.bandicoot}} <p img='images/map_ftf/frenzy_le
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_2.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_2.desc"
 msgid "Kill <#RED>{name.bandicoot}</> in <#BLUE> <p img='images/map_ftf/frenzy_level_2.tex' color=0> {name.bandi_swamp}</>."
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.bandicoot}}</> вглибині <#BLUE><p img='images/map_ftf/frenzy_level_2.tex' color=0> {2:{Name.bandi_swamp}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_2.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_2.name"
@@ -26110,7 +26110,7 @@ msgstr "Перемогти {2:{Name.bandicoot}} <p img='images/map_ftf/frenzy_le
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_3.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_3.desc"
 msgid "Kill <#RED>{name.bandicoot}</> in <#BLUE> <p img='images/map_ftf/frenzy_level_3.tex' color=0> {name.bandi_swamp}</>."
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.bandicoot}}</> вглибині <#BLUE><p img='images/map_ftf/frenzy_level_3.tex' color=0> {2:{Name.bandi_swamp}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_3.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_3.name"
@@ -26120,47 +26120,47 @@ msgstr "Перемогти {2:{Name.bandicoot}} <p img='images/map_ftf/frenzy_le
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill.desc"
 msgid "Kill <#RED>{name.eggzy}</> in <#BLUE>{name.eggzy_tundra}</>."
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.eggzy}}</> вглибині <#BLUE>{2:{Name.eggzy_tundra}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill.name"
 msgid "Defeat {name.eggzy}"
-msgstr ""
+msgstr "Перемогти {2:{Name.eggzy}}"
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_1.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_1.desc"
 msgid "Kill <#RED>{name.eggzy}</> in <#BLUE> <p img='images/map_ftf/frenzy_level_1.tex' color=0> {name.eggzy_tundra}</>"
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.eggzy}}</> вглибині <#BLUE> <p img='images/map_ftf/frenzy_level_1.tex' color=0> {2:{Name.eggzy_tundra}}</>"
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_1.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_1.name"
 msgid "Defeat {name.eggzy} <p img='images/map_ftf/frenzy_level_1.tex' color=0>"
-msgstr ""
+msgstr "Перемогти {2:{Name.eggzy}} <p img='images/map_ftf/frenzy_level_1.tex' color=0>"
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_2.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_2.desc"
 msgid "Kill <#RED>{name.eggzy}</> in <#BLUE> <p img='images/map_ftf/frenzy_level_2.tex' color=0> {name.eggzy_tundra}</>."
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.eggzy}}</> вглибині <#BLUE> <p img='images/map_ftf/frenzy_level_2.tex' color=0> {2:{Name.eggzy_tundra}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_2.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_2.name"
 msgid "Defeat {name.eggzy} <p img='images/map_ftf/frenzy_level_2.tex' color=0>"
-msgstr ""
+msgstr "Перемогти {2:{Name.eggzy}} <p img='images/map_ftf/frenzy_level_2.tex' color=0>"
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_3.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_3.desc"
 msgid "Kill <#RED>{name.eggzy}</> in <#BLUE> <p img='images/map_ftf/frenzy_level_3.tex' color=0> {name.eggzy_tundra}</>."
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.eggzy}}</> вглибині <#BLUE> <p img='images/map_ftf/frenzy_level_3.tex' color=0> {2:{Name.eggzy_tundra}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_3.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_3.name"
 msgid "Defeat {name.eggzy} <p img='images/map_ftf/frenzy_level_3.tex' color=0>"
-msgstr ""
+msgstr "Перемогти {2:{Name.eggzy}} <p img='images/map_ftf/frenzy_level_3.tex' color=0>"
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill.desc"
 msgid "Kill <#RED>{name.megatreemon}</> in <#BLUE>{name.treemon_forest}</>."
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.megatreemon}}</> вглибині <#BLUE>{2:{Name.treemon_forest}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill.name"
@@ -26170,7 +26170,7 @@ msgstr "Перемогти {Name.megatreemon}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_1.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_1.desc"
 msgid "Kill <#RED>{name.megatreemon}</> in <#BLUE><p img='images/map_ftf/frenzy_level_1.tex' color=0> {name.treemon_forest}</>."
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.megatreemon}}</> вглибині <#BLUE> <p img='images/map_ftf/frenzy_level_1.tex' color=0> {2:{Name.treemon_forest}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_1.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_1.name"
@@ -26180,7 +26180,7 @@ msgstr "Перемогти {Name.megatreemon} <p img='images/map_ftf/frenzy_leve
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_2.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_2.desc"
 msgid "Kill <#RED>{name.megatreemon}</> in <#BLUE><p img='images/map_ftf/frenzy_level_2.tex' color=0> {name.treemon_forest}</>."
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.megatreemon}}</> вглибині <#BLUE> <p img='images/map_ftf/frenzy_level_2.tex' color=0> {2:{Name.treemon_forest}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_2.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_2.name"
@@ -26190,7 +26190,7 @@ msgstr "Перемогти {Name.megatreemon} <p img='images/map_ftf/frenzy_leve
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_3.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_3.desc"
 msgid "Kill <#RED>{name.megatreemon}</> in <#BLUE><p img='images/map_ftf/frenzy_level_3.tex' color=0> {name.treemon_forest}</>."
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.megatreemon}}</> вглибині <#BLUE> <p img='images/map_ftf/frenzy_level_3.tex' color=0> {2:{Name.treemon_forest}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_3.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_3.name"
@@ -26210,7 +26210,7 @@ msgstr "Перемогти {2:{Name.owlitzer}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_1.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_1.desc"
 msgid "Kill <#RED>{name.owlitzer}</> in <#BLUE><p img='images/map_ftf/frenzy_level_1.tex' color=0> {name.owlitzer_forest}</>."
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.owlitzer}}</> вглибині <#BLUE> <p img='images/map_ftf/frenzy_level_1.tex' color=0> {2:{Name.owlitzer_forest}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_1.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_1.name"
@@ -26220,7 +26220,7 @@ msgstr "Перемогти {2:{Name.owlitzer}} <p img='images/map_ftf/frenzy_lev
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_2.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_2.desc"
 msgid "Kill <#RED>{name.owlitzer}</> in <#BLUE> <p img='images/map_ftf/frenzy_level_2.tex' color=0> {name.owlitzer_forest}</>."
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.owlitzer}}</> вглибині <#BLUE> <p img='images/map_ftf/frenzy_level_2.tex' color=0> {2:{Name.owlitzer_forest}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_2.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_2.name"
@@ -26230,7 +26230,7 @@ msgstr "Перемогти {2:{Name.owlitzer}} <p img='images/map_ftf/frenzy_lev
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_3.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_3.desc"
 msgid "Kill <#RED>{name.owlitzer}</> in <#BLUE> <p img='images/map_ftf/frenzy_level_3.tex' color=0> {name.owlitzer_forest}</>."
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.owlitzer}}</> вглибині <#BLUE> <p img='images/map_ftf/frenzy_level_3.tex' color=0> {2:{Name.owlitzer_forest}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_3.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_3.name"
@@ -26250,7 +26250,7 @@ msgstr "Перемогти {2:{Name.sedament}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_1.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_1.desc"
 msgid "Kill <#RED>{name.sedament}</> in <#BLUE> <p img='images/map_ftf/frenzy_level_1.tex' color=0> {name.sedament_tundra}</>."
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.sedament}}</> вглибині <#BLUE> <p img='images/map_ftf/frenzy_level_1.tex' color=0> {2:{Name.sedament_tundra}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_1.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_1.name"
@@ -26260,7 +26260,7 @@ msgstr "Перемогти {2:{Name.sedament}} <p img='images/map_ftf/frenzy_lev
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_2.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_2.desc"
 msgid "Kill <#RED>{name.sedament}</> in <#BLUE> <p img='images/map_ftf/frenzy_level_2.tex' color=0> {name.sedament_tundra}</>."
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.sedament}}</> вглибині <#BLUE> <p img='images/map_ftf/frenzy_level_2.tex' color=0> {2:{Name.sedament_tundra}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_2.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_2.name"
@@ -26270,7 +26270,7 @@ msgstr "Перемогти {2:{Name.sedament}} <p img='images/map_ftf/frenzy_lev
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_3.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_3.desc"
 msgid "Kill <#RED>{name.sedament}</> in <#BLUE> <p img='images/map_ftf/frenzy_level_3.tex' color=0> {name.sedament_tundra}</>."
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.sedament}}</> вглибині <#BLUE> <p img='images/map_ftf/frenzy_level_3.tex' color=0> {2:{Name.sedament_tundra}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_3.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_3.name"
@@ -26290,7 +26290,7 @@ msgstr "Перемогти {2:{Name.thatcher}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_1.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_1.desc"
 msgid "Kill <#RED>{name.thatcher}</> in <#BLUE> <p img='images/map_ftf/frenzy_level_1.tex' color=0> {name.thatcher_swamp}</>."
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.thatcher}}</> вглибині <#BLUE> <p img='images/map_ftf/frenzy_level_1.tex' color=0> {2:{Name.thatcher_swamp}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_1.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_1.name"
@@ -26300,7 +26300,7 @@ msgstr "Перемогти {2:{Name.thatcher}} <p img='images/map_ftf/frenzy_lev
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_2.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_2.desc"
 msgid "Kill <#RED>{name.thatcher}</> in <#BLUE> <p img='images/map_ftf/frenzy_level_2.tex' color=0> {name.thatcher_swamp}</>."
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.thatcher}}</> вглибині <#BLUE> <p img='images/map_ftf/frenzy_level_2.tex' color=0> {2:{Name.thatcher_swamp}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_2.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_2.name"
@@ -26310,7 +26310,7 @@ msgstr "Перемогти {2:{Name.thatcher}} <p img='images/map_ftf/frenzy_lev
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_3.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_3.desc"
 msgid "Kill <#RED>{name.thatcher}</> in <#BLUE> <p img='images/map_ftf/frenzy_level_3.tex' color=0> {name.thatcher_swamp}</>."
-msgstr ""
+msgstr "Вбийте <#RED>{2:{Name.thatcher}}</> вглибині <#BLUE> <p img='images/map_ftf/frenzy_level_3.tex' color=0> {2:{Name.thatcher_swamp}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_3.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_3.name"
@@ -32268,7 +32268,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.cannon_eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_eggzy_tundra.name"
 msgid "Shellshot Blunderbuss"
-msgstr ""
+msgstr "Яйцестріл"
 
 #: STRINGS.ITEMS.WEAPON.cannon_embison.desc
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_embison.desc"
@@ -32279,7 +32279,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.cannon_embison.name
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_embison.name"
 msgid "The Finisher"
-msgstr ""
+msgstr "Добивач"
 
 #: STRINGS.ITEMS.WEAPON.cannon_floracrane.desc
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_floracrane.desc"
@@ -32456,7 +32456,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.hammer_embison.name
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_embison.name"
 msgid "Haymaker"
-msgstr ""
+msgstr "Нокаутер"
 
 #: STRINGS.ITEMS.WEAPON.hammer_floracrane.desc
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_floracrane.desc"
@@ -32496,7 +32496,7 @@ msgstr "Вбиває з одним відкритим оком."
 #: STRINGS.ITEMS.WEAPON.hammer_megatreemon.name
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_megatreemon.name"
 msgid "Rotten Judgement"
-msgstr ""
+msgstr "Гнилий вирок"
 
 #: STRINGS.ITEMS.WEAPON.hammer_owlitzer.desc
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_owlitzer.desc"
@@ -32507,7 +32507,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.hammer_owlitzer.name
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_owlitzer.name"
 msgid "Nightfall Gavel"
-msgstr ""
+msgstr "Молот нічної завіси"
 
 #: STRINGS.ITEMS.WEAPON.hammer_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_owlitzer_forest.desc"
@@ -32549,7 +32549,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.hammer_thatcher.name
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_thatcher.name"
 msgid "[TEMP] {name.thatcher} {name.weapon_hammer}"
-msgstr ""
+msgstr "[TEMP] {name.thatcher} {name.weapon_hammer}"
 
 #: STRINGS.ITEMS.WEAPON.hammer_thatcher_swamp.desc
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_thatcher_swamp.desc"
@@ -32664,7 +32664,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.polearm_embison.name
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_embison.name"
 msgid "Goring Spike"
-msgstr ""
+msgstr "Кровоточивий шип"
 
 #: STRINGS.ITEMS.WEAPON.polearm_floracrane.desc
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_floracrane.desc"
@@ -32704,7 +32704,7 @@ msgstr "Він бачить вас, коли ви спливаєте кров'ю
 #: STRINGS.ITEMS.WEAPON.polearm_megatreemon.name
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_megatreemon.name"
 msgid "Corruption's Touch"
-msgstr ""
+msgstr "Заразний дотик"
 
 #: STRINGS.ITEMS.WEAPON.polearm_owlitzer.desc
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_owlitzer.desc"
@@ -32715,7 +32715,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.polearm_owlitzer.name
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_owlitzer.name"
 msgid "Light Slayer"
-msgstr ""
+msgstr "Вбивця світла"
 
 #: STRINGS.ITEMS.WEAPON.polearm_sedament_tundra.desc
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_sedament_tundra.desc"
@@ -32737,7 +32737,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.polearm_thatcher.name
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_thatcher.name"
 msgid "[TEMP] {name.thatcher} {name.weapon_polearm}"
-msgstr ""
+msgstr "[TEMP] {name.thatcher} {name.weapon_polearm}"
 
 #: STRINGS.ITEMS.WEAPON.polearm_treemon_forest.desc
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_treemon_forest.desc"
@@ -32842,7 +32842,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.shotput_eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_eggzy_tundra.name"
 msgid "Spiker Ball"
-msgstr ""
+msgstr "Шипаста куля"
 
 #: STRINGS.ITEMS.WEAPON.shotput_embison.desc
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_embison.desc"
@@ -32853,7 +32853,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.shotput_embison.name
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_embison.name"
 msgid "Skullcrusher"
-msgstr ""
+msgstr "Череполом"
 
 #: STRINGS.ITEMS.WEAPON.shotput_floracrane.desc
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_floracrane.desc"
@@ -32893,7 +32893,7 @@ msgstr "Ах, цей старий каштан."
 #: STRINGS.ITEMS.WEAPON.shotput_megatreemon.name
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_megatreemon.name"
 msgid "Rootbound Knot"
-msgstr ""
+msgstr "Кореневий вузол"
 
 #: STRINGS.ITEMS.WEAPON.shotput_owlitzer.desc
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_owlitzer.desc"
@@ -32904,7 +32904,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.shotput_owlitzer.name
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_owlitzer.name"
 msgid "Talon's Strike"
-msgstr ""
+msgstr "Кігтевий удар"
 
 #: STRINGS.ITEMS.WEAPON.shotput_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_owlitzer_forest.desc"
@@ -32936,7 +32936,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.shotput_thatcher.name
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_thatcher.name"
 msgid "[TEMP] {name.thatcher} {name.weapon_shotput}"
-msgstr ""
+msgstr "[TEMP] {name.thatcher} {name.weapon_shotput}"
 
 #: STRINGS.ITEMS.WEAPON.shotput_treemon_forest.desc
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_treemon_forest.desc"
@@ -32986,7 +32986,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON_MASTERY.BOW.bow_bullseye.name
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.BOW.bow_bullseye.name"
 msgid "Bullseye!"
-msgstr ""
+msgstr "В яблучко!"
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.BOW.bow_focus_heavy.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.BOW.bow_focus_heavy.desc"
@@ -33007,7 +33007,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON_MASTERY.BOW.bow_focus_kills.name
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.BOW.bow_focus_kills.name"
 msgid "{name.weapon_bow} Focus Kills"
-msgstr ""
+msgstr "Фокусовані вбивства {4:{name.weapon_bow}}"
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.BOW.bow_focus_light.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.BOW.bow_focus_light.desc"
@@ -33311,7 +33311,8 @@ msgstr "Імпровізовані фокусні удари"
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_focus_multiple_targets.desc"
 msgid "Deal extra <#RED>Damage</> by hitting <#RED>2+ Targets</> at once, performing a <#BLUE>{name.weapon_hammer} {name.concept_focus_hit}</>.\n"
 "*May be completed in <#BLUE>Town</>"
-msgstr ""
+msgstr "Завдайте додаткової <#RED>шкоди</>, вразивши одночасно <#RED>2+ цілі</>, виконавши <#BLUE>{name.concept_focus_hit} {4:{name.weapon_hammer}}</>.\n"
+"*Можна завершити в <#BLUE>місті</>"
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_focus_multiple_targets.name
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_focus_multiple_targets.name"
@@ -34265,7 +34266,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEATHER_REWARDS.GEM_UNIDENTIFIED.name
 msgctxt "STRINGS.ITEMS.WEATHER_REWARDS.GEM_UNIDENTIFIED.name"
 msgid "Unidentified {name.gem}"
-msgstr ""
+msgstr "Невідомий {name.gem}"
 
 #: STRINGS.ITEMS.WEATHER_REWARDS.INGOT.name
 msgctxt "STRINGS.ITEMS.WEATHER_REWARDS.INGOT.name"
@@ -35032,7 +35033,7 @@ msgstr "Дивнолис|Дивнолиса"
 #: STRINGS.NAMES.bandicoot_elite
 msgctxt "STRINGS.NAMES.bandicoot_elite"
 msgid "Imbued Enigmox"
-msgstr ""
+msgstr "Наповнений Дивнолис"
 
 #: STRINGS.NAMES.basic
 msgctxt "STRINGS.NAMES.basic"
@@ -35282,12 +35283,12 @@ msgstr ""
 #: STRINGS.NAMES.eggzy
 msgctxt "STRINGS.NAMES.eggzy"
 msgid "Shell Drake"
-msgstr ""
+msgstr "Яйце-Дреко|Яйце-Дрека|Яйце-Дреку"
 
 #: STRINGS.NAMES.eggzy_elite
 msgctxt "STRINGS.NAMES.eggzy_elite"
 msgid "Imbued Shell Drake"
-msgstr ""
+msgstr "Наповнений Яйце-Дреко"
 
 #: STRINGS.NAMES.eggzy_tundra
 msgctxt "STRINGS.NAMES.eggzy_tundra"
@@ -35532,7 +35533,7 @@ msgstr "Материнське дерево|Материнського дере�
 #: STRINGS.NAMES.megatreemon_elite
 msgctxt "STRINGS.NAMES.megatreemon_elite"
 msgid "Imbued Mother Treek"
-msgstr ""
+msgstr "Наповнене Материнське дерево"
 
 #: STRINGS.NAMES.meowl
 msgctxt "STRINGS.NAMES.meowl"
@@ -35667,7 +35668,7 @@ msgstr "Совулака|Совулаку|Совулаки"
 #: STRINGS.NAMES.owlitzer_elite
 msgctxt "STRINGS.NAMES.owlitzer_elite"
 msgid "Imbued Owlitzer"
-msgstr ""
+msgstr "Наповнена Совулака"
 
 #: STRINGS.NAMES.owlitzer_forest
 msgctxt "STRINGS.NAMES.owlitzer_forest"
@@ -35872,7 +35873,7 @@ msgstr "Голем|Голема|Големом|Голему"
 #: STRINGS.NAMES.sedament_elite
 msgctxt "STRINGS.NAMES.sedament_elite"
 msgid "Imbued Rook"
-msgstr ""
+msgstr "Наповнений Голем"
 
 #: STRINGS.NAMES.sedament_tundra
 msgctxt "STRINGS.NAMES.sedament_tundra"
@@ -36047,7 +36048,7 @@ msgstr "Ройовик|Ройовика"
 #: STRINGS.NAMES.thatcher_elite
 msgctxt "STRINGS.NAMES.thatcher_elite"
 msgid "Imbued Swarm"
-msgstr ""
+msgstr "Наповнений Ройовик"
 
 #: STRINGS.NAMES.thatcher_swamp
 msgctxt "STRINGS.NAMES.thatcher_swamp"
@@ -36447,7 +36448,7 @@ msgstr ""
 #: STRINGS.NAMES_PLURAL.eggzy
 msgctxt "STRINGS.NAMES_PLURAL.eggzy"
 msgid "Shell Drakes"
-msgstr ""
+msgstr "Яйце-Дреки"
 
 #: STRINGS.NAMES_PLURAL.embison
 msgctxt "STRINGS.NAMES_PLURAL.embison"
@@ -36762,7 +36763,7 @@ msgstr ""
 #: STRINGS.NAMES_PLURAL.snowball_elite
 msgctxt "STRINGS.NAMES_PLURAL.snowball_elite"
 msgid "Imbued Snoballs"
-msgstr ""
+msgstr "Наповнені Сніжки"
 
 #: STRINGS.NAMES_PLURAL.snowfly
 msgctxt "STRINGS.NAMES_PLURAL.snowfly"
@@ -37602,12 +37603,12 @@ msgstr ""
 #: STRINGS.NAMES_PLURALITY.tutorial_attack_heavy
 msgctxt "STRINGS.NAMES_PLURALITY.tutorial_attack_heavy"
 msgid "<#RED>Heavy Attack</> (<p bind='Controls.Digital.ATTACK_HEAVY' color=0>)|<#RED>Heavy Attacks</> (<p bind='Controls.Digital.ATTACK_HEAVY' color=BTNICON_DARK>)"
-msgstr ""
+msgstr "<#RED>Важка атака</> (<p bind='Controls.Digital.ATTACK_HEAVY' color=0>)|<#RED>Важкі атаки</> (<p bind='Controls.Digital.ATTACK_HEAVY' color=BTNICON_DARK>)"
 
 #: STRINGS.NAMES_PLURALITY.tutorial_attack_light
 msgctxt "STRINGS.NAMES_PLURALITY.tutorial_attack_light"
 msgid "<#RED>Light Attack</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=0>)|<#RED>Light Attacks</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>)"
-msgstr ""
+msgstr "<#RED>Легка атака</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=0>)|<#RED>Легкі атаки</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>)"
 
 #: STRINGS.NAMES_PLURALITY.upgrade_ingot
 msgctxt "STRINGS.NAMES_PLURALITY.upgrade_ingot"
@@ -39226,12 +39227,12 @@ msgstr "Інформація про інгредієнт"
 #: STRINGS.UI.DECORSCREEN.LIST_HOTKEYS
 msgctxt "STRINGS.UI.DECORSCREEN.LIST_HOTKEYS"
 msgid "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Craft item    <p bind='Controls.Digital.PLACE_ITEM' color=0 scale=1> Place item"
-msgstr "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Створити предмет    <p bind='Controls.Digital.PLACE_ITEM' color=0 scale=1> Розмістити предмет"
+msgstr "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Створити    <p bind='Controls.Digital.PLACE_ITEM' color=0 scale=1> Розмістити"
 
 #: STRINGS.UI.DECORSCREEN.LIST_HOTKEYS_GAMEPAD
 msgctxt "STRINGS.UI.DECORSCREEN.LIST_HOTKEYS_GAMEPAD"
 msgid "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Craft item    <p bind='Controls.Digital.PLACE_ITEM' color=0 scale=1> Place item    <p bind='Controls.Digital.A' color=0 scale=1> Info"
-msgstr "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Створити предмет    <p bind='Controls.Digital.PLACE_ITEM' color=0 scale=1> Розмістити предмет    <p bind='Controls.Digital.A' color=0 scale=1> Інформація"
+msgstr "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Створити    <p bind='Controls.Digital.PLACE_ITEM' color=0 scale=1> Розмістити    <p bind='Controls.Digital.A' color=0 scale=1> Інформація"
 
 #: STRINGS.UI.DECORSCREEN.LOCKED_TT
 msgctxt "STRINGS.UI.DECORSCREEN.LOCKED_TT"
@@ -39494,17 +39495,17 @@ msgstr "Зняти <p bind='Controls.Digital.Y' color=0>"
 #: STRINGS.UI.EMOTESCREEN.DESC
 msgctxt "STRINGS.UI.EMOTESCREEN.DESC"
 msgid "Pick the emotes for your emote ring!"
-msgstr ""
+msgstr "Виберіть емоції для свого колеса емоцій!"
 
 #: STRINGS.UI.EMOTESCREEN.LOCKED_TT
 msgctxt "STRINGS.UI.EMOTESCREEN.LOCKED_TT"
 msgid "Locked"
-msgstr ""
+msgstr "Закрито"
 
 #: STRINGS.UI.EMOTESCREEN.SPECIES_INFO
 msgctxt "STRINGS.UI.EMOTESCREEN.SPECIES_INFO"
 msgid "<p img='images/ui_ftf/ic_warning.tex' color=0 scale=1.1> You can only perform species emotes that match your species."
-msgstr ""
+msgstr "<p img='images/ui_ftf/ic_warning.tex' color=0 scale=1.1> Ви можете використати емоції лише тих видів, які відповідають вашому виду."
 
 #: STRINGS.UI.EMOTESCREEN.TAB_EMOTES
 msgctxt "STRINGS.UI.EMOTESCREEN.TAB_EMOTES"
@@ -40013,7 +40014,7 @@ msgstr "Зробити: %s"
 #: STRINGS.UI.GEMSCREEN.DESC
 msgctxt "STRINGS.UI.GEMSCREEN.DESC"
 msgid "Apply gems to your items for various desirable effects."
-msgstr ""
+msgstr "Вставляйте самоцвіти у ваші предмети для отримання різних бажаних ефектів."
 
 #: STRINGS.UI.GEMSCREEN.DESC_EMPTY
 msgctxt "STRINGS.UI.GEMSCREEN.DESC_EMPTY"
@@ -40045,12 +40046,12 @@ msgstr ""
 #: STRINGS.UI.GEMSCREEN.EMPTY_SLOTS_LIST
 msgctxt "STRINGS.UI.GEMSCREEN.EMPTY_SLOTS_LIST"
 msgid "This item doesn't have any gem slots yet."
-msgstr ""
+msgstr "Цей предмет ще не має слотів для самоцвітів."
 
 #: STRINGS.UI.GEMSCREEN.EQUIP_BTN
 msgctxt "STRINGS.UI.GEMSCREEN.EQUIP_BTN"
 msgid "Set gem"
-msgstr ""
+msgstr "Вставити самоцвіт"
 
 #: STRINGS.UI.GEMSCREEN.GEMS_EMPTY
 msgctxt "STRINGS.UI.GEMSCREEN.GEMS_EMPTY"
@@ -40065,13 +40066,13 @@ msgstr "КОЛЕКЦІЯ САМОЦВІТІВ"
 #: STRINGS.UI.GEMSCREEN.GEM_EQUIPPED_OTHER_ITEM
 msgctxt "STRINGS.UI.GEMSCREEN.GEM_EQUIPPED_OTHER_ITEM"
 msgid "<p img='images/ui_ftf/ic_warning.tex' color=0 scale=0.9> This gem is already set on your <#RED>%s</>."
-msgstr ""
+msgstr "<p img='images/ui_ftf/ic_warning.tex' color=0 scale=0.9> Цей самоцвіт вже встановлений в: <#RED>%s</>."
 
 #: STRINGS.UI.GEMSCREEN.GEM_EQUIPPED_THIS_ITEM
 msgctxt "STRINGS.UI.GEMSCREEN.GEM_EQUIPPED_THIS_ITEM"
 msgid "<p img='images/ui_ftf/ic_warning.tex' color=0 scale=0.9> This gem is already set\n"
 "on this weapon."
-msgstr ""
+msgstr "<p img='images/ui_ftf/ic_warning.tex' color=0 scale=0.9> Цей самоцвіт вже встановлений в вашу зброю."
 
 #: STRINGS.UI.GEMSCREEN.GEM_EQUIPPED_TT
 msgctxt "STRINGS.UI.GEMSCREEN.GEM_EQUIPPED_TT"
@@ -40081,7 +40082,7 @@ msgstr "{Name.gem} встановлено в <#RED>%s</>."
 #: STRINGS.UI.GEMSCREEN.GEM_LEVEL
 msgctxt "STRINGS.UI.GEMSCREEN.GEM_LEVEL"
 msgid "Lvl %s"
-msgstr ""
+msgstr "Рів. %s"
 
 #: STRINGS.UI.GEMSCREEN.INFO_LABEL
 msgctxt "STRINGS.UI.GEMSCREEN.INFO_LABEL"
@@ -40098,7 +40099,7 @@ msgstr ""
 #: STRINGS.UI.GEMSCREEN.LIST_HOTKEYS_GAMEPAD
 msgctxt "STRINGS.UI.GEMSCREEN.LIST_HOTKEYS_GAMEPAD"
 msgid "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Craft item    <p bind='Controls.Digital.PLACE_ITEM' color=0 scale=1> Place item    <p bind='Controls.Digital.A' color=0 scale=1> Info"
-msgstr ""
+msgstr "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Створити    <p bind='Controls.Digital.PLACE_ITEM' color=0 scale=1> Розмістити    <p bind='Controls.Digital.A' color=0 scale=1> Інформація"
 
 #: STRINGS.UI.GEMSCREEN.MAX_LEVEL_GEM
 msgctxt "STRINGS.UI.GEMSCREEN.MAX_LEVEL_GEM"
@@ -40123,7 +40124,7 @@ msgstr "Ця зброя не має слотів для {2:{name.gem}}."
 #: STRINGS.UI.GEMSCREEN.TITLE
 msgctxt "STRINGS.UI.GEMSCREEN.TITLE"
 msgid "GEMS"
-msgstr ""
+msgstr "САМОЦВІТИ"
 
 #: STRINGS.UI.GEMSCREEN.TITLE_EMPTY
 msgctxt "STRINGS.UI.GEMSCREEN.TITLE_EMPTY"
@@ -40138,7 +40139,7 @@ msgstr "Порожній слот для {2:{name.gem}}"
 #: STRINGS.UI.GEMSCREEN.UNEQUIP_BTN
 msgctxt "STRINGS.UI.GEMSCREEN.UNEQUIP_BTN"
 msgid "Unset"
-msgstr ""
+msgstr "Зняти"
 
 #: STRINGS.UI.GEMSCREEN.UNEQUIP_BTN_COST
 msgctxt "STRINGS.UI.GEMSCREEN.UNEQUIP_BTN_COST"
@@ -40496,7 +40497,7 @@ msgstr "Прямувати додому!"
 #: STRINGS.UI.IDENTIFYGEMSCREEN.DESC
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.DESC"
 msgid "Let {name.npc_blacksmith} identify gems you've found."
-msgstr ""
+msgstr "Нехай {name.npc_blacksmith} розпізнає знайдені вами самоцвіти."
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.GEM_COUNT
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.GEM_COUNT"
@@ -40506,12 +40507,12 @@ msgstr "x%d"
 #: STRINGS.UI.IDENTIFYGEMSCREEN.IDENFIFY_BTN
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.IDENFIFY_BTN"
 msgid "Identify gem"
-msgstr ""
+msgstr "Розпізнати cамоцвіт"
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.NEXT_BTN
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.NEXT_BTN"
 msgid "Next gem"
-msgstr ""
+msgstr "Наступний самоцвіт"
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.NO_GEM
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.NO_GEM"
@@ -40521,7 +40522,7 @@ msgstr "У вас немає невідомих самоцвітів."
 #: STRINGS.UI.IDENTIFYGEMSCREEN.TITLE
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.TITLE"
 msgid "IDENTIFY GEMS"
-msgstr ""
+msgstr "РОЗПІЗНАТИ CАМОЦВІТ"
 
 #: STRINGS.UI.INVENTORYCHESTSCREEN.AMOUNT
 msgctxt "STRINGS.UI.INVENTORYCHESTSCREEN.AMOUNT"
@@ -45091,7 +45092,10 @@ msgid "<p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> Light Attack (h
 "<p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> Heavy Attack (hold to Charge)\n"
 "<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT> Dodge\n"
 "<p bind='Controls.Digital.SKILL' color=LIGHT_TEXT> Skill"
-msgstr ""
+msgstr "<p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> Легка атака (утримуйте, щоб зарядити)\n"
+"<p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> Важка атака (утримуйте, щоб зарядити)\n"
+"<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT> Ухилитись\n"
+"<p bind='Controls.Digital.SKILL' color=LIGHT_TEXT> Навичка"
 
 #: STRINGS.WEAPON_TIPS.CONTROLS.CANNON
 msgctxt "STRINGS.WEAPON_TIPS.CONTROLS.CANNON"
@@ -45099,7 +45103,10 @@ msgid "<p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> Shoot\n"
 "<p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> Shotgun Blast (Invincible <#RED>Dodge</>)\n"
 "<p bind='Controls.Digital.SKILL' color=LIGHT_TEXT> Skill (<#RED>Reload</> on hit)\n"
 "<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT> <p bind='Controls.Digital.DODGE' color=LIGHT_TEXT> <#RED>Reload</> (with timing)"
-msgstr ""
+msgstr "<p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> Постріл\n"
+"<p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> Постріл дробовика (безпечне <#RED>ухиляння</>)\n"
+"<p bind='Controls.Digital.SKILL' color=LIGHT_TEXT> Навичка (<#RED>перезарядка</> при попаданні)\n"
+"<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT> <p bind='Controls.Digital.DODGE' color=LIGHT_TEXT> <#RED>Перезарядка</> (правильний таймінг)"
 
 #: STRINGS.WEAPON_TIPS.CONTROLS.HAMMER
 msgctxt "STRINGS.WEAPON_TIPS.CONTROLS.HAMMER"
@@ -45107,7 +45114,10 @@ msgid "<p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> Light Attack\n"
 "<p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> Heavy Attack\n"
 "<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT> Dodge\n"
 "<p bind='Controls.Digital.SKILL' color=LIGHT_TEXT> Skill"
-msgstr ""
+msgstr "<p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> Легка атака\n"
+"<p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> Важка атака\n"
+"<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT> Ухилитись\n"
+"<p bind='Controls.Digital.SKILL' color=LIGHT_TEXT> Навичка"
 
 #: STRINGS.WEAPON_TIPS.CONTROLS.POLEARM
 msgctxt "STRINGS.WEAPON_TIPS.CONTROLS.POLEARM"
@@ -45115,7 +45125,10 @@ msgid "<p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> Light Attack\n"
 "<p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> Heavy Attack\n"
 "<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT> Dodge\n"
 "<p bind='Controls.Digital.SKILL' color=LIGHT_TEXT> Skill"
-msgstr ""
+msgstr "<p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> Легка атака\n"
+"<p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> Важка атака\n"
+"<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT> Ухилитись\n"
+"<p bind='Controls.Digital.SKILL' color=LIGHT_TEXT> Навичка"
 
 #: STRINGS.WEAPON_TIPS.CONTROLS.SHOTPUT
 msgctxt "STRINGS.WEAPON_TIPS.CONTROLS.SHOTPUT"
@@ -45123,20 +45136,26 @@ msgid "<p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> Punch\n"
 "<p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> Throw\n"
 "<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT> Dodge\n"
 "<p bind='Controls.Digital.SKILL' color=LIGHT_TEXT> Skill"
-msgstr ""
+msgstr "<p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> Удар\n"
+"<p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> Кинути\n"
+"<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT> Ухилитись\n"
+"<p bind='Controls.Digital.SKILL' color=LIGHT_TEXT> Навичка"
 
 #: STRINGS.WEAPON_TIPS.FOCUS_HIT.BOW
 msgctxt "STRINGS.WEAPON_TIPS.FOCUS_HIT.BOW"
 msgid "All <#BLUE>Focus Hits</> pierce through enemies, but piercing <#RED>Light Attacks</> do less damage per pierce.\n\n"
 "<#BLUE>Focus Hit:</BLUE>\n"
 "• Release your arrow just as your bowstring is fully extended"
-msgstr ""
+msgstr "Усі <#BLUE>фокусні удари</> пронизують ворогів, але проникаючі <#RED>легкі удари</> завдають менше шкоди за кожне проникнення.\n\n"
+"<#BLUE>Фокусний удар:</BLUE>\n"
+"• Випустіть свою стрілу в той момент, коли тетива вашого лука повністю натягнута"
 
 #: STRINGS.WEAPON_TIPS.FOCUS_HIT.CANNON
 msgctxt "STRINGS.WEAPON_TIPS.FOCUS_HIT.CANNON"
 msgid "<#BLUE>Focus Hit:</BLUE>\n"
 "• Last three shots of your clip"
-msgstr ""
+msgstr "<#BLUE>Фокусний удар:</BLUE>\n"
+"• Останні три постріли вашої обойми"
 
 #: STRINGS.WEAPON_TIPS.FOCUS_HIT.HAMMER
 msgctxt "STRINGS.WEAPON_TIPS.FOCUS_HIT.HAMMER"
@@ -45144,26 +45163,33 @@ msgid "<#BLUE>Focus Hit:</BLUE>\n"
 "• Hit multiple enemies with one swing\n"
 "• Fully charge a <#RED>Heavy Attack</RED> combo ender\n"
 "• Fully charge a <#RED>Golf Swing</RED> (<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT>  <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4>  Back + <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT>)"
-msgstr ""
+msgstr "<#BLUE>Фокусний удар:</BLUE>\n"
+"• Вдарите кількох ворогів одним ударом\n"
+"• Повністю зарядіть завершальну комбінацію <#RED>важкої атаки</RED>\n"
+"• Повністю зарядіть <#RED>Удар ключкою</RED>(<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT>  <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4>  Назад + <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT>)"
 
 #: STRINGS.WEAPON_TIPS.FOCUS_HIT.POLEARM
 msgctxt "STRINGS.WEAPON_TIPS.FOCUS_HIT.POLEARM"
 msgid "<#BLUE>Focus Hit:</BLUE>\n"
 "• Hit an enemy with the tip of your {name.weapon_polearm}\n"
 "• Hit multiple enemies with the <#RED>Spinning Drill</RED> (<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT>  <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4>  <p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT>)"
-msgstr ""
+msgstr "<#BLUE>Фокусний удар:</BLUE>\n"
+"• Вдарте ворога кінчиком свого {3:{name.weapon_polearm}}\n"
+"• Вдарте кількох ворогів <#RED>Закрученим свердлом</RED> (<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT>  <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4>  <p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT>)"
 
 #: STRINGS.WEAPON_TIPS.FOCUS_HIT.SHOTPUT
 msgctxt "STRINGS.WEAPON_TIPS.FOCUS_HIT.SHOTPUT"
 msgid "<#BLUE>Focus Hit:</BLUE>\n"
 "• Hit an airborne <#RED>{name.weapon_shotput}</>\n"
 "• Throw a <#RED>{name.weapon_shotput}</> immediately after catching it"
-msgstr ""
+msgstr "<#BLUE>Фокусний удар:</BLUE>\n"
+"• Вдарить <#RED>{name.weapon_shotput}</> в повітрі\n"
+"• Кинуть <#RED>{name.weapon_shotput}</> одразу після того, як його спіймали"
 
 #: STRINGS.WEAPON_TIPS.HINT.BOW
 msgctxt "STRINGS.WEAPON_TIPS.HINT.BOW"
 msgid "Discover more combos by combining <p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT>, <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> and <p bind='Controls.Digital.DODGE' color=LIGHT_TEXT>"
-msgstr ""
+msgstr "Відкривайте більше комбінацій, поєднуючи <p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT>, <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> та <p bind='Controls.Digital.DODGE' color=LIGHT_TEXT>"
 
 #: STRINGS.WEAPON_TIPS.HINT.CANNON
 msgctxt "STRINGS.WEAPON_TIPS.HINT.CANNON"
