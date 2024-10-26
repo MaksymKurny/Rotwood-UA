@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-10-24 18:17\n"
+"PO-Revision-Date: 2024-10-26 11:09\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -20429,7 +20429,7 @@ msgstr "Дослідження: {Name.bandi_swamp}"
 #: STRINGS.ITEMS.BIOME_EXPLORATION.eggzy_tundra.desc
 msgctxt "STRINGS.ITEMS.BIOME_EXPLORATION.eggzy_tundra.desc"
 msgid "Advance through expeditions to <#RED>{name.eggzy_tundra}</>"
-msgstr ""
+msgstr "Просувайтеся вперед роблячи експедиції в <#RED>{Name.eggzy_tundra}</>"
 
 #: STRINGS.ITEMS.BIOME_EXPLORATION.eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.BIOME_EXPLORATION.eggzy_tundra.name"
@@ -20484,7 +20484,7 @@ msgstr "[none]"
 #: STRINGS.ITEMS.BODY.antleer.name
 msgctxt "STRINGS.ITEMS.BODY.antleer.name"
 msgid "{name.antleer} Hide"
-msgstr ""
+msgstr "{name.antleer} шкіра"
 
 #: STRINGS.ITEMS.BODY.bandicoot.desc
 msgctxt "STRINGS.ITEMS.BODY.bandicoot.desc"
@@ -22008,12 +22008,12 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_bonus_beets.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_beets.name"
 msgid "{name.beets} Damage {name.gem}"
-msgstr ""
+msgstr "{Name.gem} шкоди {3:{name.beets}}"
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_beets.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_beets.slotted_desc"
 msgid "Increases <#RED>{name.concept_damage}</> done to <#RED>{name_multiple.beets}</>."
-msgstr ""
+msgstr "Збільшує <#RED>{name.concept_damage}</>, яку отримають <#RED>{Name_multiple.beets}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_beets.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_beets.stat_name"
@@ -35053,7 +35053,7 @@ msgstr "Наповнений Кажаб"
 #: STRINGS.NAMES.beets
 msgctxt "STRINGS.NAMES.beets"
 msgid "Beets"
-msgstr "Буряк|Буряка"
+msgstr "Буряк|Буряка|Бурякам"
 
 #: STRINGS.NAMES.beets_elite
 msgctxt "STRINGS.NAMES.beets_elite"
