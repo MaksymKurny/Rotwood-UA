@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-10-26 11:09\n"
+"PO-Revision-Date: 2024-10-26 15:30\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -9843,7 +9843,7 @@ msgstr ""
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_1
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_1"
 msgid "Yeah! They were worried about you."
-msgstr "Так! Він хвилювався за вас."
+msgstr "Так! Він хвилювався за тебе."
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_2A
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_2A"
@@ -9853,12 +9853,12 @@ msgstr "Ого! Справді?"
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_2B
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_2B"
 msgid "That's... a little hard to believe."
-msgstr ""
+msgstr "В це... трохи важко повірити."
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_3
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_3"
 msgid "Right... well, it's good to have our {name.job_armorsmith} back!"
-msgstr ""
+msgstr "Так... Добре, що наш {name.job_armorsmith} повернувся!"
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK"
@@ -9874,7 +9874,18 @@ msgid "agent:\n"
 " Takes more than a lil aerial free fall into a {name.rot}-infested forest to get rid of me!\n"
 " !dubious\n"
 " Speaking of-- how's <#BLUE>{name.npc_scout}</>? Are they okay??"
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !greet\n"
+" Ааааа! Мисливцю, ви вижили!\n"
+"player:\n"
+" <#BLUE>{Name.npc_armorsmith}</>! З тобою все гаразд!\n"
+"agent:\n"
+" !neutral\n"
+" !laugh\n"
+" Потрібно щось серйозніше, ніж невелике падіння з висоти в ліс, повний {3:{name.rot}}, щоб мене позбутися!\n"
+" !dubious\n"
+" До речі— як там <#BLUE>{Name.npc_scout}</>? З ними все добре??"
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK2
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK2"
@@ -9884,7 +9895,12 @@ msgid "agent:\n"
 " Aw, they're so sweet-- but they didn't have to worry.\n"
 " !point\n"
 " I arm-wrestled a <#RED>{name.zucco}</> once, you know."
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !gesture\n"
+" О, він такий милий, але ж йому не варто було хвилюватися.\n"
+" !point\n"
+" Я колись змагалась в армреслінгу з <#RED>{Name.zucco}</>."
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK3
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK3"
@@ -9895,7 +9911,13 @@ msgid "agent:\n"
 " !happy\n"
 " !shrug\n"
 " Anyway, it was a great story!"
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !think\n"
+" Угу... або, можливо, я прочитала це в щоденнику, який знайшла.\n"
+" !happy\n"
+" !shrug\n"
+" У будь-якому разі, це була чудова історія!"
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK4
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK4"
@@ -9908,7 +9930,15 @@ msgid "agent:\n"
 " !dubious\n"
 " I mean, no offense, but <i>woof</>...\n"
 " [title:CLEAR]"
-msgstr ""
+msgstr "agent:\n"
+" [title:SPEAKER]\n"
+" [sound:Event.joinedTheParty] 0.5\n"
+" !happy\n"
+" !clap\n"
+" Не можу дочекатися повернення, щоб попрацювати над вашими обладунками!\n"
+" !dubious\n"
+" Без образ, але <i>ох</>...\n"
+" [title:CLEAR]"
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK4_CLIENT
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK4_CLIENT"
@@ -9918,7 +9948,12 @@ msgid "agent:\n"
 " Can't wait to get back and work on that armour of yours!\n"
 " !dubious\n"
 " I mean, no offense, but <i>woof</>..."
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !clap\n"
+" Не можу дочекатися повернення, щоб попрацювати над вашими обладунками!\n"
+" !dubious\n"
+" Без образ, але <i>ох</>..."
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1"
@@ -10003,12 +10038,12 @@ msgstr ""
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_1A
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_1A"
 msgid "Uh. I'm with the {name_multiple.foxtails}. We... flew here together?"
-msgstr ""
+msgstr "Я з {3:{Name_multiple.foxtails}}. Ми... прилетіли сюди разом?"
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_1B
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_1B"
 msgid "You can call me \"Your Saviour\"."
-msgstr ""
+msgstr "Ти можеш називати мене \"Мій спаситель\"."
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_2A
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_2A"
@@ -10018,12 +10053,12 @@ msgstr "Я знав, що ти пам'ятаєш мене!"
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_2B
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_2B"
 msgid "Definitely not. You must be thinking of {name.npc_scout}."
-msgstr ""
+msgstr "Однозначно ні. Ти, мабуть, маєш на увазі {3:{Name.npc_scout}}."
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_3
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_3"
 msgid "Err, <i>anyway--</> {name.npc_scout}'s waiting to take you back to camp."
-msgstr ""
+msgstr "Е-е-е, <i>в будь-якому разі...</> {Name.npc_scout} чекає, щоб повернути тебе до табору."
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK"
@@ -10036,7 +10071,15 @@ msgid "agent:\n"
 " agent:\n"
 " !dubious\n"
 " ...Who are ye?"
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" ...\n"
+"player:\n"
+" <#BLUE>{Name.npc_blacksmith}! Ми скрізь тебе шукали !\n"
+"agent:\n"
+" !dubious\n"
+" ...Хто ви?"
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK2
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK2"
@@ -10073,7 +10116,13 @@ msgid "agent:\n"
 " !gruffnod\n"
 " Hrm. Best be off, then.\n"
 " [title:CLEAR]"
-msgstr ""
+msgstr "agent:\n"
+" [title:SPEAKER]\n"
+" [sound:Event.joinedTheParty] 0.5\n"
+" !neutral\n"
+" !gruffnod\n"
+" Гм. Краще тоді рушати далі.\n"
+" [title:CLEAR]"
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK4_CLIENT
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK4_CLIENT"
@@ -10081,7 +10130,10 @@ msgid "agent:\n"
 " !neutral\n"
 " !gruffnod\n"
 " Hrm. Best be off, then."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !gruffnod\n"
+" Гм. Краще тоді рушати далі."
 
 #: Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1A
 msgctxt "Convo.wrld_intro_meeting_blacksmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1A"
@@ -10866,7 +10918,7 @@ msgstr "agent:\n"
 #: Quest.dgn_shop_potion.OPT_CONFIRM
 msgctxt "Quest.dgn_shop_potion.OPT_CONFIRM"
 msgid "<#RED>[<p img='images/ui_ftf_icons/konjur.tex'> {konjur_cost} {name.konjur}]</> Take my {name.konjur}! <i><#RED><z 0.7>(Refill Potion)</></i></z>"
-msgstr ""
+msgstr "<#RED>[<p img='images/ui_ftf_icons/konjur.tex'> {konjur_cost} {2:{name.konjur}}]</> Візьміть мій {name.konjur}! <i><#RED><z 0.7>(Поновити зілля)</ ></i></z>"
 
 #: Quest.dgn_shop_potion.TALK_DONE_GAME
 msgctxt "Quest.dgn_shop_potion.TALK_DONE_GAME"
@@ -20991,12 +21043,12 @@ msgstr "Переможи її на самоті [{Name.bandicoot} <p img='images
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_eggzy.desc
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_eggzy.desc"
 msgid "Kill <#RED>{name.eggzy}</> in the <#BLUE>{name.eggzy_tundra}</> on <#RED>{name.ascension} Level 3</>, <#RED>alone</> while wearing no <#RED>Armour</>."
-msgstr ""
+msgstr "Убийте <#RED>{2:{name.eggzy}}</> в глибині <#BLUE>{2:{Name.eggzy_tundra}}</> на <#RED>3 рівні {name.ascension}</>, <#RED>на самоті</> без <#RED>обладунків</>."
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_eggzy.name
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_eggzy.name"
 msgid "Solo Her [{name.eggzy} <p img='images/map_ftf/frenzy_level_3.tex' color=0>]"
-msgstr ""
+msgstr "Перемога на самоті [{name.eggzy} <p img='images/map_ftf/frenzy_level_3.tex' color=0>]"
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_megatreemon.desc
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_megatreemon.desc"
@@ -21924,7 +21976,7 @@ msgstr "Вставте в <#RED>зброю</> викрориставши <#RED>{
 #: STRINGS.ITEMS.GEMS.crit_chance.desc
 msgctxt "STRINGS.ITEMS.GEMS.crit_chance.desc"
 msgid "You can sense this {name.gem} judging you."
-msgstr ""
+msgstr "Ви відчуваєте, як цей {name.gem} вас осуджує."
 
 #: STRINGS.ITEMS.GEMS.crit_chance.name
 msgctxt "STRINGS.ITEMS.GEMS.crit_chance.name"
@@ -22050,7 +22102,7 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_bonus_bulbug.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_bulbug.name"
 msgid "{name.bulbug} Damage {name.gem}"
-msgstr ""
+msgstr "{Name.gem} шкоди {3:{name.bulbug}}"
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_bulbug.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_bulbug.slotted_desc"
@@ -34271,7 +34323,7 @@ msgstr "Невідомий {name.gem}"
 #: STRINGS.ITEMS.WEATHER_REWARDS.INGOT.name
 msgctxt "STRINGS.ITEMS.WEATHER_REWARDS.INGOT.name"
 msgid "{name.upgrade_ingot}"
-msgstr ""
+msgstr "{name.upgrade_ingot}"
 
 #: STRINGS.ITEMS.WEATHER_REWARDS.LOOT.name
 msgctxt "STRINGS.ITEMS.WEATHER_REWARDS.LOOT.name"
@@ -34306,7 +34358,7 @@ msgstr "Тіло"
 #: STRINGS.ITEM_CATEGORIES.BOW
 msgctxt "STRINGS.ITEM_CATEGORIES.BOW"
 msgid "{name.weapon_bow}"
-msgstr "{4:{name.weapon_bow}}"
+msgstr "{Name.weapon_bow}"
 
 #: STRINGS.ITEM_CATEGORIES.BUFFING_ITEMS
 msgctxt "STRINGS.ITEM_CATEGORIES.BUFFING_ITEMS"
@@ -34321,7 +34373,7 @@ msgstr "Будівлі"
 #: STRINGS.ITEM_CATEGORIES.CANNON
 msgctxt "STRINGS.ITEM_CATEGORIES.CANNON"
 msgid "{name.weapon_cannon}"
-msgstr "{4:{name.weapon_cannon}}"
+msgstr "{Name.weapon_cannon}"
 
 #: STRINGS.ITEM_CATEGORIES.CHALLENGE_MASTERY
 msgctxt "STRINGS.ITEM_CATEGORIES.CHALLENGE_MASTERY"
@@ -34336,7 +34388,7 @@ msgstr "Брудні шахраї"
 #: STRINGS.ITEM_CATEGORIES.CLEAVER
 msgctxt "STRINGS.ITEM_CATEGORIES.CLEAVER"
 msgid "{name.weapon_greatsword}"
-msgstr "{4:{name.weapon_greatsword}}"
+msgstr "{Name.weapon_greatsword}"
 
 #: STRINGS.ITEM_CATEGORIES.CURRENCY_MATERIALS
 msgctxt "STRINGS.ITEM_CATEGORIES.CURRENCY_MATERIALS"
@@ -34391,7 +34443,7 @@ msgstr "Гроак"
 #: STRINGS.ITEM_CATEGORIES.HAMMER
 msgctxt "STRINGS.ITEM_CATEGORIES.HAMMER"
 msgid "{name.weapon_hammer}"
-msgstr "{4:{name.weapon_hammer}}"
+msgstr "{Name.weapon_hammer}"
 
 #: STRINGS.ITEM_CATEGORIES.HEAD
 msgctxt "STRINGS.ITEM_CATEGORIES.HEAD"
@@ -34456,7 +34508,7 @@ msgstr "Стара магія"
 #: STRINGS.ITEM_CATEGORIES.POLEARM
 msgctxt "STRINGS.ITEM_CATEGORIES.POLEARM"
 msgid "{name.weapon_polearm}"
-msgstr "{4:{name.weapon_polearm}}"
+msgstr "{Name.weapon_polearm}"
 
 #: STRINGS.ITEM_CATEGORIES.POTIONS
 msgctxt "STRINGS.ITEM_CATEGORIES.POTIONS"
@@ -34486,7 +34538,7 @@ msgstr "Підтримати"
 #: STRINGS.ITEM_CATEGORIES.SHOTPUT
 msgctxt "STRINGS.ITEM_CATEGORIES.SHOTPUT"
 msgid "{name.weapon_shotput}"
-msgstr "{4:{name.weapon_shotput}}"
+msgstr "{Name.weapon_shotput}"
 
 #: STRINGS.ITEM_CATEGORIES.SHOULDERS
 msgctxt "STRINGS.ITEM_CATEGORIES.SHOULDERS"
@@ -35088,7 +35140,7 @@ msgstr "Табір"
 #: STRINGS.NAMES.bulbug
 msgctxt "STRINGS.NAMES.bulbug"
 msgid "Bulbug"
-msgstr "Лампомаха|Лампомахи"
+msgstr "Лампомаха|Лампомахи|Лампомахам"
 
 #: STRINGS.NAMES.bulbug_elite
 msgctxt "STRINGS.NAMES.bulbug_elite"
@@ -41852,7 +41904,7 @@ msgstr "<p bind='Controls.Digital.ACTION' color=0> Отримати набір �
 #: STRINGS.UI.META_PROGRESS.WEAPON_RACK
 msgctxt "STRINGS.UI.META_PROGRESS.WEAPON_RACK"
 msgid "<p bind='Controls.Digital.ACTION' color=0> {weapon} Rack"
-msgstr "<p bind='Controls.Digital.ACTION' color=0> Стійка з {weapon}"
+msgstr "<p bind='Controls.Digital.ACTION' color=0> Стійка: {weapon}"
 
 #: STRINGS.UI.MISC.DONE
 msgctxt "STRINGS.UI.MISC.DONE"
@@ -43726,12 +43778,12 @@ msgstr ""
 #: STRINGS.UI.POWERSELECTIONSCREEN.DESC_POWER.Upgrade
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.DESC_POWER.Upgrade"
 msgid "Your chance to upgrade a power."
-msgstr ""
+msgstr "Ваш шанс покращити силу."
 
 #: STRINGS.UI.POWERSELECTIONSCREEN.FREE_UPGRADES_LABEL
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.FREE_UPGRADES_LABEL"
 msgid "Free upgrades remaining"
-msgstr ""
+msgstr "Залишилося безплатних покращень"
 
 #: STRINGS.UI.POWERSELECTIONSCREEN.FREE_UPGRADES_VALUE
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.FREE_UPGRADES_VALUE"
@@ -43786,7 +43838,7 @@ msgstr "Видалити цю <#RED>{2:{name.concept_relic}}</>?"
 #: STRINGS.UI.POWERSELECTIONSCREEN.SHOP_UPGRADES_LABEL
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.SHOP_UPGRADES_LABEL"
 msgid "Upgrades remaining"
-msgstr ""
+msgstr "Залишилося покращень"
 
 #: STRINGS.UI.POWERSELECTIONSCREEN.TITLE_POWER.Remove
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.TITLE_POWER.Remove"
@@ -43806,12 +43858,12 @@ msgstr ""
 #: STRINGS.UI.POWERSELECTIONSCREEN.TITLE_POWER.Upgrade
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.TITLE_POWER.Upgrade"
 msgid "Upgrade a {name.concept_relic}"
-msgstr ""
+msgstr "Покращення {3:{name.concept_relic}}"
 
 #: STRINGS.UI.POWERSELECTIONSCREEN.TITLE_UPGRADEABLE_POWERS
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.TITLE_UPGRADEABLE_POWERS"
 msgid "Upgradeable Powers"
-msgstr ""
+msgstr "Сили для покращення"
 
 #: STRINGS.UI.POWERSELECTIONSCREEN.TITLE_YOUR_POWERS
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.TITLE_YOUR_POWERS"
@@ -44860,12 +44912,12 @@ msgstr "РІВЕНЬ АТАКИ: %d"
 #: STRINGS.UI.WEAPONSELECTIONSCREEN.DESC
 msgctxt "STRINGS.UI.WEAPONSELECTIONSCREEN.DESC"
 msgid "Upgrade and equip your weapons."
-msgstr ""
+msgstr "Покращуйте та споряджайте зброю."
 
 #: STRINGS.UI.WEAPONSELECTIONSCREEN.LEVEL_INFO_MAX
 msgctxt "STRINGS.UI.WEAPONSELECTIONSCREEN.LEVEL_INFO_MAX"
 msgid "<p img='images/ui_ftf/ButtonUpgraded.tex'> Item at Max Level"
-msgstr "<p img='images/ui_ftf/ButtonUpgraded.tex'> Предмет на макс. рівня"
+msgstr "<p img='images/ui_ftf/ButtonUpgraded.tex'> Предмет максимального рівня"
 
 #: STRINGS.UI.WEAPONSELECTIONSCREEN.NO_BLACKSMITH_HAS_LOCATION_TT
 msgctxt "STRINGS.UI.WEAPONSELECTIONSCREEN.NO_BLACKSMITH_HAS_LOCATION_TT"
@@ -44885,7 +44937,7 @@ msgstr "РІВЕНЬ ЕФЕКТУ: %d"
 #: STRINGS.UI.WEAPONSELECTIONSCREEN.TITLE
 msgctxt "STRINGS.UI.WEAPONSELECTIONSCREEN.TITLE"
 msgid "%s Rack"
-msgstr "Стійка з %s"
+msgstr "Стійка: %s"
 
 #: STRINGS.UI.WEAPONSELECTIONSCREEN.UPGRADE_BLACKSMITH_TT
 msgctxt "STRINGS.UI.WEAPONSELECTIONSCREEN.UPGRADE_BLACKSMITH_TT"
