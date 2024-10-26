@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-10-26 19:45\n"
+"PO-Revision-Date: 2024-10-26 20:24\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -7490,7 +7490,18 @@ msgid "agent:\n"
 " I guess {name.npc_lunn} and I could always give it a few upgrades...\n"
 " !gesture\n"
 " Working with it should help us figure out the technique."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !dejected\n"
+" Це... <i>так</>, насправді.\n"
+" !think\n"
+" Схоже, він пробує щось нове.\n"
+" !shrug\n"
+" Навіть я мушу визнати, що це непогано. Досить добре, навіть.\n"
+" !wavelunn\n"
+" Гадаю, {Name.npc_lunn} і я завжди можемо додати кілька поліпшень...\n"
+" !gesture\n"
+" Працюючи з цим, ми повинні зрозуміти техніку."
 
 #: Convo.twn_fortify_armorsmith_2_intro.HUB0.convo.giver.STATE_0.ANSWER_2
 msgctxt "Convo.twn_fortify_armorsmith_2_intro.HUB0.convo.giver.STATE_0.ANSWER_2"
@@ -7499,29 +7510,35 @@ msgid "agent:\n"
 " Great! You know the drill.\n"
 " !point\n"
 " Make sure you've got the materials, then head over to my trusty <#RED>Armoury Dummy</> when you're ready for me to start working on it."
-msgstr ""
+msgstr "agent:\n"
+" !bliss\n"
+" Чудово! Ви знаєте, що робити.\n"
+" !point\n"
+" Переконайтеся, що в вас є матеріали, а потім підходьте до мого надійного <#RED>манекена для обладунків</>, коли будете готові, щоб я почала працювати над ними."
 
 #: Convo.twn_fortify_armorsmith_2_intro.HUB0.convo.giver.STATE_0.ANSWER_3
 msgctxt "Convo.twn_fortify_armorsmith_2_intro.HUB0.convo.giver.STATE_0.ANSWER_3"
 msgid "agent:\n"
 " !wavelunn\n"
 " See you soon!"
-msgstr ""
+msgstr "agent:\n"
+" !wavelunn\n"
+" Побачимося незабаром!"
 
 #: Convo.twn_fortify_armorsmith_2_intro.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.twn_fortify_armorsmith_2_intro.HUB0.convo.giver.STATE_0.QUESTION_1"
 msgid "Yeah! Does it make me look more powerful?"
-msgstr ""
+msgstr "Так! Вона виглядає так, ніби я став могутнішим?"
 
 #: Convo.twn_fortify_armorsmith_2_intro.HUB0.convo.giver.STATE_0.QUESTION_2
 msgctxt "Convo.twn_fortify_armorsmith_2_intro.HUB0.convo.giver.STATE_0.QUESTION_2"
 msgid "By all means!"
-msgstr ""
+msgstr "Неодмінно!"
 
 #: Convo.twn_fortify_armorsmith_2_intro.HUB0.convo.giver.STATE_0.QUESTION_3
 msgctxt "Convo.twn_fortify_armorsmith_2_intro.HUB0.convo.giver.STATE_0.QUESTION_3"
 msgid "You've got it!"
-msgstr ""
+msgstr "У тебе вийде!"
 
 #: Convo.twn_fortify_blacksmith_1_intro.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.twn_fortify_blacksmith_1_intro.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -8979,7 +8996,7 @@ msgstr ""
 #: Convo.twn_shop_armorsmith.HUB0.fortify.giver.STATE_0.OPT_FORTIFY
 msgctxt "Convo.twn_shop_armorsmith.HUB0.fortify.giver.STATE_0.OPT_FORTIFY"
 msgid "Armour Research"
-msgstr ""
+msgstr "Дослідження обладунків"
 
 #: Convo.twn_shop_armorsmith.HUB0.fortify.giver.STATE_0.TALK_DONE_FORTIFY
 msgctxt "Convo.twn_shop_armorsmith.HUB0.fortify.giver.STATE_0.TALK_DONE_FORTIFY"
@@ -9112,7 +9129,7 @@ msgstr ""
 #: Convo.twn_shop_blacksmith.HUB1.fortify.giver.STATE_0.OPT_FORTIFY
 msgctxt "Convo.twn_shop_blacksmith.HUB1.fortify.giver.STATE_0.OPT_FORTIFY"
 msgid "Weapon Research"
-msgstr ""
+msgstr "Дослідження зброї"
 
 #: Convo.twn_shop_blacksmith.HUB1.fortify.giver.STATE_0.TALK_DONE_FORTIFY
 msgctxt "Convo.twn_shop_blacksmith.HUB1.fortify.giver.STATE_0.TALK_DONE_FORTIFY"
@@ -16705,7 +16722,11 @@ msgid "agent:\n"
 " Hunter!\n"
 " !dubious\n"
 " Got some new armour from <i>him</> again, huh?"
-msgstr ""
+msgstr "agent:\n"
+" !wavelunn\n"
+" Мисливцю!\n"
+" !dubious\n"
+" Знову отримали нову броню від <i>нього</>?"
 
 #: Quest.twn_fortify_armorsmith_2_ready.QUIP.chitchat:[fortify_armour_2_ready,in_quest_twn_fortify_armorsmith_2_ready,in_town,qc_twn_fortify_armorsmith_2_intro,role_armorsmith].1
 msgctxt "Quest.twn_fortify_armorsmith_2_ready.QUIP.chitchat:[fortify_armour_2_ready,in_quest_twn_fortify_armorsmith_2_ready,in_town,qc_twn_fortify_armorsmith_2_intro,role_armorsmith].1"
@@ -21088,12 +21109,12 @@ msgstr "Переможи її на самоті [{Name.bandicoot} <p img='images
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_eggzy.desc
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_eggzy.desc"
 msgid "Kill <#RED>{name.eggzy}</> in the <#BLUE>{name.eggzy_tundra}</> on <#RED>{name.ascension} Level 3</>, <#RED>alone</> while wearing no <#RED>Armour</>."
-msgstr "Убийте <#RED>{2:{name.eggzy}}</> в глибині <#BLUE>{2:{Name.eggzy_tundra}}</> на <#RED>3 рівні {name.ascension}</>, <#RED>на самоті</> без <#RED>обладунків</>."
+msgstr "Убийте <#RED>{2:{Name.eggzy}}</> в глибині <#BLUE>{2:{Name.eggzy_tundra}}</> на <#RED>3 рівні {name.ascension}</>, <#RED>на самоті</> без <#RED>обладунків</>."
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_eggzy.name
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_eggzy.name"
 msgid "Solo Her [{name.eggzy} <p img='images/map_ftf/frenzy_level_3.tex' color=0>]"
-msgstr "Перемога на самоті [{name.eggzy} <p img='images/map_ftf/frenzy_level_3.tex' color=0>]"
+msgstr "Перемога на самоті [{Name.eggzy} <p img='images/map_ftf/frenzy_level_3.tex' color=0>]"
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_megatreemon.desc
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_megatreemon.desc"
@@ -21293,7 +21314,7 @@ msgstr "[TODO] eggzy"
 #: STRINGS.ITEMS.DECOR.eggzy_lrg_plushies.name
 msgctxt "STRINGS.ITEMS.DECOR.eggzy_lrg_plushies.name"
 msgid "{name.eggzy} Plushie"
-msgstr "Плюшевий {name.eggzy}"
+msgstr "Плюшевий {Name.eggzy}"
 
 #: STRINGS.ITEMS.DECOR.embison_mid_plushies.desc
 msgctxt "STRINGS.ITEMS.DECOR.embison_mid_plushies.desc"
@@ -24594,7 +24615,7 @@ msgstr "Вбити 10 ворогів прямим попаданням льод�
 #: STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.eggzy_tundra_market_1.name
 msgctxt "STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.eggzy_tundra_market_1.name"
 msgid "{name.eggzy_tundra}: Icemaster"
-msgstr "{name.eggzy_tundra}: Майстер льоду"
+msgstr "{Name.eggzy_tundra}: Майстер льоду"
 
 #: STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.eggzy_tundra_market_2.desc
 msgctxt "STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.eggzy_tundra_market_2.desc"
@@ -24604,7 +24625,7 @@ msgstr "Уникати отримання шкоди від льодяного �
 #: STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.eggzy_tundra_market_2.name
 msgctxt "STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.eggzy_tundra_market_2.name"
 msgid "{name.eggzy_tundra}: Slick"
-msgstr "{name.eggzy_tundra}: Гладкий"
+msgstr "{Name.eggzy_tundra}: Гладкий"
 
 #: STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.owlitzer_forest_market_1.desc
 msgctxt "STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.owlitzer_forest_market_1.desc"
@@ -25214,7 +25235,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.imbued_eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.MATERIALS.imbued_eggzy_tundra.name"
 msgid "{name.eggzy_tundra} Egg"
-msgstr "Яйце з {2:{name.eggzy_tundra}}"
+msgstr "Яйце з {2:{Name.eggzy_tundra}}"
 
 #: STRINGS.ITEMS.MATERIALS.imbued_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.imbued_owlitzer_forest.desc"
@@ -25721,7 +25742,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.normal_eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_eggzy_tundra.name"
 msgid "{name.eggzy_tundra} Chip"
-msgstr "Шматок з {2:{name.eggzy_tundra}}"
+msgstr "Шматок з {2:{Name.eggzy_tundra}}"
 
 #: STRINGS.ITEMS.MATERIALS.normal_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_owlitzer_forest.desc"
@@ -34704,7 +34725,7 @@ msgstr "{Name.brundle}"
 #: STRINGS.LOCATIONS.eggzy_tundra.name
 msgctxt "STRINGS.LOCATIONS.eggzy_tundra.name"
 msgid "{name.eggzy_tundra}"
-msgstr "{name.eggzy_tundra}"
+msgstr "{Name.eggzy_tundra}"
 
 #: STRINGS.LOCATIONS.eggzy_tundra.name_upper
 msgctxt "STRINGS.LOCATIONS.eggzy_tundra.name_upper"
@@ -35546,12 +35567,12 @@ msgstr "Аптекар"
 #: STRINGS.NAMES.job_armorsmith
 msgctxt "STRINGS.NAMES.job_armorsmith"
 msgid "Armourer"
-msgstr "броняр|броняру|броняра|бронярем"
+msgstr "Броняр|Броняру|Броняра|Бронярем"
 
 #: STRINGS.NAMES.job_blacksmith
 msgctxt "STRINGS.NAMES.job_blacksmith"
 msgid "Blacksmith"
-msgstr "коваль|коваля"
+msgstr "Коваль|Коваля|Ковалем"
 
 #: STRINGS.NAMES.job_cook
 msgctxt "STRINGS.NAMES.job_cook"
@@ -38999,7 +39020,7 @@ msgstr "ОБЛАДУНКИ"
 #: STRINGS.UI.ARMORYSCREEN.UPGRADE_ARMORSMITH_TT
 msgctxt "STRINGS.UI.ARMORYSCREEN.UPGRADE_ARMORSMITH_TT"
 msgid "Speak with <#BLUE>{name.npc_armorsmith} the {name.job_armorsmith}</> to discover new upgrades!"
-msgstr ""
+msgstr "Поговоріть з <#BLUE>{4:{name.job_armorsmith}} {5:{Name.npc_armorsmith}}</>, щоб дізнатися про нові покращення!"
 
 #: STRINGS.UI.ARMORYSCREEN.WEIGHT
 msgctxt "STRINGS.UI.ARMORYSCREEN.WEIGHT"
@@ -44988,7 +45009,7 @@ msgstr "Стійка: %s"
 #: STRINGS.UI.WEAPONSELECTIONSCREEN.UPGRADE_BLACKSMITH_TT
 msgctxt "STRINGS.UI.WEAPONSELECTIONSCREEN.UPGRADE_BLACKSMITH_TT"
 msgid "Speak with <#BLUE>{name.npc_blacksmith} the {name.job_blacksmith}</> to discover new upgrades!"
-msgstr ""
+msgstr "Поговоріть з <#BLUE>{3:{name.job_blacksmith}} {4:{name.npc_blacksmith}}</>, щоб дізнатися про нові покращення!"
 
 #: STRINGS.UI.WEAPONSELECTIONSCREEN.UPGRADE_BUTTON
 msgctxt "STRINGS.UI.WEAPONSELECTIONSCREEN.UPGRADE_BUTTON"
