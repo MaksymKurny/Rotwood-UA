@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-10-26 15:30\n"
+"PO-Revision-Date: 2024-10-26 16:24\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -20486,7 +20486,7 @@ msgstr "Просувайтеся вперед роблячи експедиці�
 #: STRINGS.ITEMS.BIOME_EXPLORATION.eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.BIOME_EXPLORATION.eggzy_tundra.name"
 msgid "{name.eggzy_tundra} Exploration"
-msgstr "Дослідження: {name.eggzy_tundra}"
+msgstr "Дослідження: {Name.eggzy_tundra}"
 
 #: STRINGS.ITEMS.BIOME_EXPLORATION.owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.BIOME_EXPLORATION.owlitzer_forest.desc"
@@ -27873,7 +27873,7 @@ msgstr "Бонус фокусної шкоди"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_seek_reduced_damage.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_seek_reduced_damage.desc"
 msgid "Take less <#RED>{name.concept_damage}</> while <#RED>Seeking</>."
-msgstr ""
+msgstr "Отримуйте менше <#RED>{2:{name.concept_damage}}</> від <#RED>шукачів</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_seek_reduced_damage.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_seek_reduced_damage.name"
@@ -28181,7 +28181,7 @@ msgstr "Стійкість до шкоди"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_yammo_body.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_yammo_body.desc"
 msgid "Take less <#RED>{name.concept_damage}</> from <#RED>Regular {name_multiple.rot_boss}</>."
-msgstr ""
+msgstr "Отримуйте менше <#RED>{2:{name.concept_damage}}</> від <#RED>звичайних {2:{name_multiple.rot_boss}}</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_yammo_body.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_yammo_body.name"
@@ -29796,7 +29796,7 @@ msgstr "Щит-н-рол"
 #: STRINGS.ITEMS.POWERS.SHIELD.shield_dodge_knockback.desc
 msgctxt "STRINGS.ITEMS.POWERS.SHIELD.shield_dodge_knockback.desc"
 msgid "When you have <#BLUE>Shield</>, your <#RED>Dodge</> becomes an <#RED>Attack</> that deals <#RED>{damage_mod}% Weapon {name.concept_damage}</>."
-msgstr ""
+msgstr "Якщо у вас є <#BLUE>щит</>, ваше <#RED>ухилення</> стає <#RED>атакою</>, яка завдає <#RED>{damage_mod}% {2:{name.concept_damage}} від зброї</>."
 
 #: STRINGS.ITEMS.POWERS.SHIELD.shield_dodge_knockback.name
 msgctxt "STRINGS.ITEMS.POWERS.SHIELD.shield_dodge_knockback.name"
@@ -29806,7 +29806,7 @@ msgstr "Інерція"
 #: STRINGS.ITEMS.POWERS.SHIELD.shield_explosion_on_break.desc
 msgctxt "STRINGS.ITEMS.POWERS.SHIELD.shield_explosion_on_break.desc"
 msgid "When your <#BLUE>Shield</> breaks, deal <#RED>{damage_mult}x your {name.concept_weapon_damage}</> to nearby <#RED>Enemies</>."
-msgstr ""
+msgstr "Коли ваш <#BLUE>щит</> ламається, завдайте <#RED>{damage_mult}x вашого {name.concept_weapon_damage}</> найближчим <#RED>ворогам</>."
 
 #: STRINGS.ITEMS.POWERS.SHIELD.shield_explosion_on_break.name
 msgctxt "STRINGS.ITEMS.POWERS.SHIELD.shield_explosion_on_break.name"
@@ -29836,7 +29836,7 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.SHIELD.shield_heavy_attack.desc
 msgctxt "STRINGS.ITEMS.POWERS.SHIELD.shield_heavy_attack.desc"
 msgid "When your <#RED>Heavy Attacks</> hit <#RED>{targets_required} or more Targets</> at once, gain <#BLUE>{shield} Shield Segment</>."
-msgstr ""
+msgstr "Коли ваші <#RED>важкі атаки</> вразять <#RED>{targets_required} або більше цілі</> одночасно, ви отримаєте <#RED>{shield} сегмент щита</>."
 
 #: STRINGS.ITEMS.POWERS.SHIELD.shield_heavy_attack.name
 msgctxt "STRINGS.ITEMS.POWERS.SHIELD.shield_heavy_attack.name"
@@ -35070,7 +35070,7 @@ msgstr "Божевілля"
 #: STRINGS.NAMES.ascension_plus
 msgctxt "STRINGS.NAMES.ascension_plus"
 msgid "Super Frenzy"
-msgstr ""
+msgstr "Супер божевілля"
 
 #: STRINGS.NAMES.bandi_swamp
 msgctxt "STRINGS.NAMES.bandi_swamp"
@@ -35350,7 +35350,7 @@ msgstr ""
 #: STRINGS.NAMES.elite_prefix
 msgctxt "STRINGS.NAMES.elite_prefix"
 msgid "Imbued"
-msgstr "Наповнені|Наповнене|Наповнений"
+msgstr "Наповнені|Наповнене|Наповнений|Наповненого"
 
 #: STRINGS.NAMES.embison
 msgctxt "STRINGS.NAMES.embison"
@@ -38903,22 +38903,22 @@ msgstr "Натисніть <p bind='Controls.Digital.EQUIP' color=0> для за
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_ARMOR
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_ARMOR"
 msgid "Imbue a <#RED>{name.weapon_crystal_prefix}{armor_piece}</> with the {name.konjur_heart} of an <#RED>{name.elite_prefix} {boss}</> to have <#BLUE>{name.npc_armorsmith}</> craft this for you."
-msgstr "Наповніть <#RED>{name.weapon_crystal_prefix}{armor_piece}</> силою {name.konjur_heart} <#RED>{name.elite_prefix} {boss}</> для виготовлення цієї речі у <#BLUE>{4:{name.npc_armorsmith}}</>."
+msgstr "Наповніть <#RED>{Name.weapon_crystal_prefix}{armor_piece}</> силою {4:{name.elite_prefix}} {2:{name.konjur_heart}} <#RED>{boss}</> для виготовлення цієї речі у <#BLUE>{4:{Name.npc_armorsmith}}</>."
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_WEAPON
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_WEAPON"
 msgid "Imbue a <#RED>{name.weapon_crystal_prefix}{weapon_type}</> with the {name.konjur_heart} of an <#RED>{name.elite_prefix} {boss}</> to have <#BLUE>{name.npc_blacksmith}</> craft this for you."
-msgstr "Наповніть <#RED>{name.weapon_crystal_prefix}{weapon_type}</> силою {name.konjur_heart} <#RED>{name.elite_prefix} {boss}</> для виготовлення цієї речі у <#BLUE>{2:{name.npc_blacksmith}}</>."
+msgstr "Наповніть <#RED>{Name.weapon_crystal_prefix}{weapon_type}</> силою {4:{name.elite_prefix}} {2:{name.konjur_heart}} <#RED>{boss}</> для виготовлення цієї речі у <#BLUE>{2:{Name.npc_blacksmith}}</>."
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_ARMOR
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_ARMOR"
 msgid "Maybe <#BLUE>{name.npc_armorsmith}</> knows something?"
-msgstr "Можливо, <#BLUE>{name.npc_armorsmith}</> щось знає?"
+msgstr "Можливо, <#BLUE>{Name.npc_armorsmith}</> щось знає?"
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_WEAPON
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_WEAPON"
 msgid "Maybe <#BLUE>{name.npc_blacksmith}</> knows something?"
-msgstr "Можливо, <#BLUE>{name.npc_blacksmith}</> щось знає?"
+msgstr "Можливо, <#BLUE>{Name.npc_blacksmith}</> щось знає?"
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_DESC
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_DESC"
@@ -39405,7 +39405,7 @@ msgstr "{2:{Name.elite_prefix}} {name.konjur_heart}"
 #: STRINGS.UI.DUNGEONSELECTIONSCREEN.SUPER_FRENZY_WIDGET.SUPER_FRENZY_LEVEL_TITLE
 msgctxt "STRINGS.UI.DUNGEONSELECTIONSCREEN.SUPER_FRENZY_WIDGET.SUPER_FRENZY_LEVEL_TITLE"
 msgid "{weapon_type} {name.ascension_plus}"
-msgstr "{weapon_type} {name.ascension_plus}"
+msgstr "{weapon_type} - {name.ascension_plus}"
 
 #: STRINGS.UI.DUNGEONSUMMARYSCREEN.DAMAGED_BY
 msgctxt "STRINGS.UI.DUNGEONSUMMARYSCREEN.DAMAGED_BY"
@@ -43783,7 +43783,7 @@ msgstr "Ваш шанс покращити силу."
 #: STRINGS.UI.POWERSELECTIONSCREEN.FREE_UPGRADES_LABEL
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.FREE_UPGRADES_LABEL"
 msgid "Free upgrades remaining"
-msgstr "Залишилося безплатних покращень"
+msgstr "Безплатних покращень"
 
 #: STRINGS.UI.POWERSELECTIONSCREEN.FREE_UPGRADES_VALUE
 msgctxt "STRINGS.UI.POWERSELECTIONSCREEN.FREE_UPGRADES_VALUE"
@@ -44390,7 +44390,7 @@ msgstr ""
 #: STRINGS.UI.TOOLTIPS.CHAIN_REACTION.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.CHAIN_REACTION.DESC"
 msgid "Consume <#RED>1 Charge</> from all <#RED>Charged Enemies</>, dealing <#RED>{name.concept_damage}</>."
-msgstr ""
+msgstr "Споживає <#RED>1 заряд</> від усіх <#RED>заряджених ворогів</>, завдаючи <#RED>{name.concept_damage}</>."
 
 #: STRINGS.UI.TOOLTIPS.CHAIN_REACTION.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.CHAIN_REACTION.NAME"
@@ -44763,7 +44763,7 @@ msgstr "{Name.concept_shield}"
 #: STRINGS.UI.VENDING_MACHINE.SHOP_INVENTORY.upgrade
 msgctxt "STRINGS.UI.VENDING_MACHINE.SHOP_INVENTORY.upgrade"
 msgid "{name.concept_relic} Upgrade"
-msgstr "Покращення {name.concept_relic}"
+msgstr "Покращення {3:{name.concept_relic}}"
 
 #: STRINGS.UI.VENDING_MACHINE.WEAPON_LOCKED.BOW
 msgctxt "STRINGS.UI.VENDING_MACHINE.WEAPON_LOCKED.BOW"
