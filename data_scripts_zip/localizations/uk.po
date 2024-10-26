@@ -35375,7 +35375,7 @@ msgstr "Наповнений Яйце-Дреко"
 #: STRINGS.NAMES.eggzy_tundra
 msgctxt "STRINGS.NAMES.eggzy_tundra"
 msgid "Splintershard Cavern"
-msgstr ""
+msgstr "Печера Шипорульок|Печери Шипорульок|Печері Шипорульок"
 
 #: STRINGS.NAMES.elite_prefix
 msgctxt "STRINGS.NAMES.elite_prefix"
