@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-10-26 16:24\n"
+"PO-Revision-Date: 2024-10-26 18:30\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -4857,7 +4857,12 @@ msgid "agent:\n"
 " Right. I just wish I didn't have this nagging feeling...\n"
 " !shrug\n"
 " Like I said, I wasn't able to get too many specifics, so... just keep your eyes peeled for anything unusual."
-msgstr ""
+msgstr "agent:\n"
+" !agree\n"
+" !think\n"
+" Правильно. Просто хотів би, щоб у мене не було цього настирливого відчуття...\n"
+" !shrug\n"
+" Як я й казав, мені не вдалося отримати багато конкретики, тож... просто стежте за будь-якими незвичними речами."
 
 #: Convo.first_dgn_visit_scout_eggzy.HUB0.convo.giver.STATE_0.ANSWER_1B
 msgctxt "Convo.first_dgn_visit_scout_eggzy.HUB0.convo.giver.STATE_0.ANSWER_1B"
@@ -4867,7 +4872,12 @@ msgid "agent:\n"
 " True...\n"
 " !shrug\n"
 " Like I said, I wasn't able to get too many specifics. I guess just watch out for anything unusual."
-msgstr ""
+msgstr "agent:\n"
+" !nervous\n"
+" !agree\n"
+" Правда...\n"
+" !shrug\n"
+" Як я й казав, мені не вдалося отримати багато конкретики. Думаю, просто слідкуйте за будь-якими незвичними речами."
 
 #: Convo.first_dgn_visit_scout_eggzy.HUB0.convo.giver.STATE_0.ANSWER_1C
 msgctxt "Convo.first_dgn_visit_scout_eggzy.HUB0.convo.giver.STATE_0.ANSWER_1C"
@@ -4877,7 +4887,12 @@ msgid "agent:\n"
 " Like I said, I wasn't able to get too many specifics. \n"
 " !gesture\n"
 " Just keep your eyes peeled for anything unusual."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !think\n"
+" Як я й казав, мені не вдалося отримати багато конкретики. \n"
+" !gesture\n"
+" Просто слідкуйте за будь-якими незвичними речами."
 
 #: Convo.first_dgn_visit_scout_eggzy.HUB0.convo.giver.STATE_0.ANSWER_2A
 msgctxt "Convo.first_dgn_visit_scout_eggzy.HUB0.convo.giver.STATE_0.ANSWER_2A"
@@ -4890,27 +4905,35 @@ msgid "agent:\n"
 " ...\n"
 " !gesture\n"
 " Be careful out there, Hunter. I'll be right behind you."
-msgstr ""
+msgstr "agent:\n"
+" !laugh\n"
+" !point\n"
+" Ха-ха. Точно.\n"
+" !neutral\n"
+" !nervous\n"
+" ...\n"
+" !gesture\n"
+" Будьте обережні там, Мисливцю. Я буду зовсім поруч."
 
 #: Convo.first_dgn_visit_scout_eggzy.HUB0.convo.giver.STATE_0.QUESTION_1A
 msgctxt "Convo.first_dgn_visit_scout_eggzy.HUB0.convo.giver.STATE_0.QUESTION_1A"
 msgid "An abandoned nest, huh? Sounds easy enough to deal with!"
-msgstr ""
+msgstr "О, покинуте гніздо, так? Звучить досить просто!"
 
 #: Convo.first_dgn_visit_scout_eggzy.HUB0.convo.giver.STATE_0.QUESTION_1B
 msgctxt "Convo.first_dgn_visit_scout_eggzy.HUB0.convo.giver.STATE_0.QUESTION_1B"
 msgid "Doesn't sound too bad. But then, we <i>have</> been fooled before..."
-msgstr ""
+msgstr "Не так вже й погано. Але, як і раніше, нас <i>обманювали</>..."
 
 #: Convo.first_dgn_visit_scout_eggzy.HUB0.convo.giver.STATE_0.QUESTION_1C
 msgctxt "Convo.first_dgn_visit_scout_eggzy.HUB0.convo.giver.STATE_0.QUESTION_1C"
 msgid "Anything else you can tell me about this place?"
-msgstr ""
+msgstr "Щось ще ти можеш розповісти мені про це місце?"
 
 #: Convo.first_dgn_visit_scout_eggzy.HUB0.convo.giver.STATE_0.QUESTION_2A
 msgctxt "Convo.first_dgn_visit_scout_eggzy.HUB0.convo.giver.STATE_0.QUESTION_2A"
 msgid "More unusual than usual, you mean?"
-msgstr ""
+msgstr "Більш незвичними, ніж зазвичай, ти маєш на увазі?"
 
 #: Convo.first_dgn_visit_scout_owl.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.first_dgn_visit_scout_owl.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -11089,7 +11112,13 @@ msgid "agent:\n"
 " I'm sorry to say my intel for this place is a bit limited... this is the first time I've been able to bring the {name.damselfly} this far down into the cavern itself.\n"
 " !point\n"
 " That said, from the recon I <i>was</> able to do, there are signs that something big had a nest here... but abandoned it."
-msgstr ""
+msgstr "agent:\n"
+" !wave\n"
+" Ласкаво просимо до <#BLUE>{Name.eggzy_tundra}</>!\n"
+" !disagree\n"
+" На жаль, я змушений сказати, що моя інформація про це місце трохи обмежена... це вперше, коли я зміг привезти {Name.damselfly} так далеко в саму печеру.\n"
+" !point\n"
+" Однак, за тим розвідданим, які я <i>зміг</> зібрати, тут є ознаки того, що щось велике мало гніздо... але залишило його."
 
 #: Quest.first_dgn_visit_scout_owl.QUIP.chitchat:[in_quest_first_dgn_visit_scout_owl,location_owlitzer_forest,role_scout]NOT[has_killed_owlitzer,in_town].1
 msgctxt "Quest.first_dgn_visit_scout_owl.QUIP.chitchat:[in_quest_first_dgn_visit_scout_owl,location_owlitzer_forest,role_scout]NOT[has_killed_owlitzer,in_town].1"
@@ -20636,7 +20665,7 @@ msgstr "[none]"
 #: STRINGS.ITEMS.BODY.eggzy.name
 msgctxt "STRINGS.ITEMS.BODY.eggzy.name"
 msgid "{name.eggzy}'s Molted Capelet"
-msgstr ""
+msgstr "Розплавлений капелюх з {2:{Name.eggzy}}"
 
 #: STRINGS.ITEMS.BODY.embison.desc
 msgctxt "STRINGS.ITEMS.BODY.embison.desc"
@@ -24023,7 +24052,7 @@ msgstr "[none]"
 #: STRINGS.ITEMS.HEAD.eggzy.name
 msgctxt "STRINGS.ITEMS.HEAD.eggzy.name"
 msgid "{name.eggzy}'s Horned Helm"
-msgstr ""
+msgstr "Рогатий шолом з {2:{Name.eggzy}}"
 
 #: STRINGS.ITEMS.HEAD.embison.desc
 msgctxt "STRINGS.ITEMS.HEAD.embison.desc"
@@ -24910,7 +24939,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.boss_eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.MATERIALS.boss_eggzy_tundra.name"
 msgid "{name.eggzy} Skull"
-msgstr ""
+msgstr "Череп {2:{Name.eggzy}}"
 
 #: STRINGS.ITEMS.MATERIALS.boss_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.boss_owlitzer_forest.desc"
@@ -25169,7 +25198,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.imbued_eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.MATERIALS.imbued_eggzy_tundra.name"
 msgid "{name.eggzy_tundra} Egg"
-msgstr "Яйце {2:{name.eggzy_tundra}}"
+msgstr "Яйце з {2:{name.eggzy_tundra}}"
 
 #: STRINGS.ITEMS.MATERIALS.imbued_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.imbued_owlitzer_forest.desc"
@@ -25361,17 +25390,18 @@ msgstr "{Name_multiple.konjur_heart} {2:{Name.bandicoot}} ({count})"
 msgctxt "STRINGS.ITEMS.MATERIALS.konjur_heart_eggzy.desc"
 msgid "Magnificently powerful, solid <#KONJUR>{name.i_konjur}</>, recovered from a <#RED>{name.eggzy}</>.\n\n"
 "It is prized by the {name_multiple.foxtails}."
-msgstr ""
+msgstr "Надзвичайно потужний, твердий <#KONJUR>{name.i_konjur}</>, отриманий з <#RED>{2:{Name.eggzy}}</>.\n\n"
+"Його цінують {Name_multiple.foxtails}."
 
 #: STRINGS.ITEMS.MATERIALS.konjur_heart_eggzy.name
 msgctxt "STRINGS.ITEMS.MATERIALS.konjur_heart_eggzy.name"
 msgid "{name.eggzy} {name.konjur_heart}"
-msgstr ""
+msgstr "{Name.konjur_heart} {2:{Name.eggzy}}"
 
 #: STRINGS.ITEMS.MATERIALS.konjur_heart_eggzy.name_multiple_fmt
 msgctxt "STRINGS.ITEMS.MATERIALS.konjur_heart_eggzy.name_multiple_fmt"
 msgid "{name.eggzy} {name_multiple.konjur_heart} ({count})"
-msgstr ""
+msgstr "{Name_multiple.konjur_heart} {2:{Name.eggzy}} ({count})"
 
 #: STRINGS.ITEMS.MATERIALS.konjur_heart_elite_bandicoot.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.konjur_heart_elite_bandicoot.desc"
@@ -25675,7 +25705,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.normal_eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_eggzy_tundra.name"
 msgid "{name.eggzy_tundra} Chip"
-msgstr ""
+msgstr "Шматок з {2:{name.eggzy_tundra}}"
 
 #: STRINGS.ITEMS.MATERIALS.normal_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_owlitzer_forest.desc"
@@ -28356,7 +28386,7 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.HEART.heart_eggzy.name
 msgctxt "STRINGS.ITEMS.POWERS.HEART.heart_eggzy.name"
 msgid "Aspect of {name.eggzy}"
-msgstr ""
+msgstr "Аспект {2:{Name.eggzy}}"
 
 #: STRINGS.ITEMS.POWERS.HEART.heart_eggzy.variables.extra_choices
 msgctxt "STRINGS.ITEMS.POWERS.HEART.heart_eggzy.variables.extra_choices"
@@ -28518,12 +28548,12 @@ msgstr "Загнаний у кут койот"
 #: STRINGS.ITEMS.POWERS.PLAYER.bloodlust.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.bloodlust.desc"
 msgid "When you enter a <#RED>Combat Room</>, <#RED>Heal</> for <#RED>{heal} Health</>."
-msgstr ""
+msgstr "Коли ви входите в <#RED>бойову кімнату</>, <#RED>вилікуйтесь</> на <#RED>{heal} здоров’я</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.bloodlust.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.bloodlust.name"
 msgid "Bloodlust"
-msgstr ""
+msgstr "Кровожадність"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.bloodthirsty.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.bloodthirsty.desc"
@@ -28813,12 +28843,12 @@ msgstr "Легке відлуння"
 #: STRINGS.ITEMS.POWERS.PLAYER.eggbert_head_defense.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.eggbert_head_defense.desc"
 msgid "Take <#RED>Half Damage</> until your helmet <#RED>Breaks</>. While your helmet is broken, take <#RED>Double Damage</>."
-msgstr ""
+msgstr "Отримуйте <#RED>половину пошкоджень</> до тих пір, поки ваш шолом <#RED>не зламається</>. Коли ваш шолом зламаний, отримуйте <#RED>подвійні пошкодження</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.eggbert_head_defense.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.eggbert_head_defense.name"
 msgid "Scrambler Shellcap"
-msgstr ""
+msgstr "Шолом Скремблера"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.extended_range.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.extended_range.desc"
@@ -28870,22 +28900,22 @@ msgstr "Зворотній зв'язок"
 #: STRINGS.ITEMS.POWERS.PLAYER.fermented_brew.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.fermented_brew.desc"
 msgid "Your <#RED>Potion</> heals for <#RED>Half</>, but also increases your <#RED>Maximum Health</> by the amount healed."
-msgstr ""
+msgstr "Ваше <#RED>зілля</> лікує на <#RED>половину</>, але також збільшує ваше <#RED>максимальне здоров'я</> на суму, що була вилікувана."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.fermented_brew.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.fermented_brew.name"
 msgid "Fermented Brew"
-msgstr ""
+msgstr "Ферментований еліксир"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.follow_your_nose.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.follow_your_nose.desc"
 msgid "At the end of every room, a random exit is marked. If you go through the marked exit, <#RED>Heal</> for <#RED>{heal} Health</>."
-msgstr ""
+msgstr "Наприкінці кожної галявини буде показано випадковий вихід. Якщо ви пройдете через вказаний вихід, <#RED>відновіть</> <#RED>{heal} здоров'я</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.follow_your_nose.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.follow_your_nose.name"
 msgid "Follow Your Nose"
-msgstr ""
+msgstr "Слідуйте за своїм носом"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.force_weight_heavy.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.force_weight_heavy.desc"
@@ -28956,12 +28986,12 @@ msgstr "Зумі після вбивства"
 #: STRINGS.ITEMS.POWERS.PLAYER.giant_killer.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.giant_killer.desc"
 msgid "Whenever you <#RED>Kill</> an <#RED>{name.elite_prefix} {name.rot}</> without taking damage from it, gain <#RED>{max_health} Maximum Health</>."
-msgstr ""
+msgstr "Кожного разу, коли ви <#RED>вбиваєте</> <#RED>{4:{name.elite_prefix}} {2:{name.rot}}</> без отримання від нього ушкоджень, отримуйте <#RED>{max_health} максимальне здоров'я</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.giant_killer.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.giant_killer.name"
 msgid "Giant Killer"
-msgstr ""
+msgstr "Убивця гігантів"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.glass_cannon.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.glass_cannon.desc"
@@ -29292,12 +29322,12 @@ msgstr "Смертельний удар"
 #: STRINGS.ITEMS.POWERS.PLAYER.permanence.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.permanence.desc"
 msgid "Reduce incoming damage by <#RED>{reduction}%</>. When you take damage, decrease your <#RED>Maximum Health</> by the same amount."
-msgstr ""
+msgstr "Зменшуйте вхідні пошкодження на <#RED>{reduction}%</>. Коли ви отримуєте пошкодження, зменшуйте своє <#RED>максимальне здоров'я</> на ту ж кількість."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.permanence.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.permanence.name"
 msgid "Permanence"
-msgstr ""
+msgstr "Стабільність"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.pick_of_the_litter.desc_LEGENDARY
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.pick_of_the_litter.desc_LEGENDARY"
@@ -29387,12 +29417,12 @@ msgstr "Я гума, ти клей"
 #: STRINGS.ITEMS.POWERS.PLAYER.retail_therapy.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.retail_therapy.desc"
 msgid "When you enter a <#RED>Shop</>, <#RED>Heal</> for <#RED>{heal} Health</>."
-msgstr ""
+msgstr "Коли ви заходите на <#RED>ринок</>, ви <#RED>зцілюєтесь</> на <#RED>{heal} здоров'я</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.retail_therapy.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.retail_therapy.name"
 msgid "Retail Therapy"
-msgstr ""
+msgstr "Роздрібна терапія"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.retribution.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.retribution.desc"
@@ -29527,12 +29557,12 @@ msgstr "Ефект сніжної кулі"
 #: STRINGS.ITEMS.POWERS.PLAYER.solorevive.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.solorevive.desc"
 msgid "When you are <#RED>alone</>, <#RED>{name.npc_scout}</> can <#RED>Revive</> you to <#RED>{heal}% Max Health</> once every <#RED>{time} seconds</>."
-msgstr ""
+msgstr "Коли ви <#RED>один</>, <#RED>{name.npc_scout}</> може <#RED>оживити</> вас на <#RED>{heal}% від максимального здоров'я</> один раз кожні <#RED>{time} секунд</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.solorevive.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.solorevive.name"
 msgid "Support of the Foxtails"
-msgstr ""
+msgstr "Підтримка Лисячих хвостів"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.speed_demon.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.speed_demon.desc"
@@ -29569,12 +29599,12 @@ msgstr "Жалячи, як бджола"
 #: STRINGS.ITEMS.POWERS.PLAYER.stop_loss.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.stop_loss.desc"
 msgid "Gain <#RED>{max_health} Maximum Health</> at the start of each combat room. Lose <#RED>{health_loss} Maximum Health</> for every second you are in combat."
-msgstr ""
+msgstr "Отримуйте <#RED>{max_health} максимального здоров'я</> на початку кожної бойової кімнати. Втрачайте <#RED>{health_loss} максимального здоров'я</> за кожну секунду, що ви в бою."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.stop_loss.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.stop_loss.name"
 msgid "Stop-Loss"
-msgstr ""
+msgstr "Стоп-Лосс"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.streaking.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.streaking.desc"
@@ -31121,7 +31151,7 @@ msgstr ""
 #: STRINGS.ITEMS.STRUCTURES.eggzy_town_bossstatue.name
 msgctxt "STRINGS.ITEMS.STRUCTURES.eggzy_town_bossstatue.name"
 msgid "Idol of {name.eggzy}"
-msgstr ""
+msgstr "Ідол {2:{Name.eggzy}}"
 
 #: STRINGS.ITEMS.STRUCTURES.fence_iron.desc
 msgctxt "STRINGS.ITEMS.STRUCTURES.fence_iron.desc"
@@ -31806,7 +31836,7 @@ msgstr "[none]"
 #: STRINGS.ITEMS.WAIST.eggzy.name
 msgctxt "STRINGS.ITEMS.WAIST.eggzy.name"
 msgid "{name.eggzy}'s Birds-Eye Britches"
-msgstr ""
+msgstr "Пташине око {2:{Name.eggzy}}"
 
 #: STRINGS.ITEMS.WAIST.embison.desc
 msgctxt "STRINGS.ITEMS.WAIST.embison.desc"
@@ -34658,12 +34688,12 @@ msgstr "{Name.brundle}"
 #: STRINGS.LOCATIONS.eggzy_tundra.name
 msgctxt "STRINGS.LOCATIONS.eggzy_tundra.name"
 msgid "{name.eggzy_tundra}"
-msgstr ""
+msgstr "{name.eggzy_tundra}"
 
 #: STRINGS.LOCATIONS.eggzy_tundra.name_upper
 msgctxt "STRINGS.LOCATIONS.eggzy_tundra.name_upper"
 msgid "{NAME.eggzy_tundra}"
-msgstr ""
+msgstr "{NAME.eggzy_tundra}"
 
 #: STRINGS.LOCATIONS.owlitzer_forest.name
 msgctxt "STRINGS.LOCATIONS.owlitzer_forest.name"
@@ -38613,7 +38643,7 @@ msgstr "Завжди прохолодний"
 #: STRINGS.TITLE_CARDS.eggzy.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.eggzy.LOWERTHIRD"
 msgid "The Abandoned Spawn"
-msgstr ""
+msgstr "Покинуте гніздо"
 
 #: STRINGS.TITLE_CARDS.embison_miniboss.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.embison_miniboss.LOWERTHIRD"
