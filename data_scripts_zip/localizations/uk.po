@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-10-26 15:30\n"
+"PO-Revision-Date: 2024-10-26 15:47\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -35350,7 +35350,7 @@ msgstr ""
 #: STRINGS.NAMES.elite_prefix
 msgctxt "STRINGS.NAMES.elite_prefix"
 msgid "Imbued"
-msgstr "Наповнені|Наповнене|Наповнений"
+msgstr "Наповнені|Наповнене|Наповнений|Наповненого"
 
 #: STRINGS.NAMES.embison
 msgctxt "STRINGS.NAMES.embison"
@@ -38903,22 +38903,22 @@ msgstr "Натисніть <p bind='Controls.Digital.EQUIP' color=0> для за
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_ARMOR
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_ARMOR"
 msgid "Imbue a <#RED>{name.weapon_crystal_prefix}{armor_piece}</> with the {name.konjur_heart} of an <#RED>{name.elite_prefix} {boss}</> to have <#BLUE>{name.npc_armorsmith}</> craft this for you."
-msgstr "Наповніть <#RED>{name.weapon_crystal_prefix}{armor_piece}</> силою {name.konjur_heart} <#RED>{name.elite_prefix} {boss}</> для виготовлення цієї речі у <#BLUE>{4:{name.npc_armorsmith}}</>."
+msgstr "Наповніть <#RED>{Name.weapon_crystal_prefix}{armor_piece}</> силою {4:{name.elite_prefix}} {2:{name.konjur_heart}} <#RED>{boss}</> для виготовлення цієї речі у <#BLUE>{4:{Name.npc_armorsmith}}</>."
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_WEAPON
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_WEAPON"
 msgid "Imbue a <#RED>{name.weapon_crystal_prefix}{weapon_type}</> with the {name.konjur_heart} of an <#RED>{name.elite_prefix} {boss}</> to have <#BLUE>{name.npc_blacksmith}</> craft this for you."
-msgstr "Наповніть <#RED>{name.weapon_crystal_prefix}{weapon_type}</> силою {name.konjur_heart} <#RED>{name.elite_prefix} {boss}</> для виготовлення цієї речі у <#BLUE>{2:{name.npc_blacksmith}}</>."
+msgstr "Наповніть <#RED>{Name.weapon_crystal_prefix}{weapon_type}</> силою {4:{name.elite_prefix}} {2:{name.konjur_heart}} <#RED>{boss}</> для виготовлення цієї речі у <#BLUE>{2:{Name.npc_blacksmith}}</>."
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_ARMOR
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_ARMOR"
 msgid "Maybe <#BLUE>{name.npc_armorsmith}</> knows something?"
-msgstr "Можливо, <#BLUE>{name.npc_armorsmith}</> щось знає?"
+msgstr "Можливо, <#BLUE>{Name.npc_armorsmith}</> щось знає?"
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_WEAPON
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_WEAPON"
 msgid "Maybe <#BLUE>{name.npc_blacksmith}</> knows something?"
-msgstr "Можливо, <#BLUE>{name.npc_blacksmith}</> щось знає?"
+msgstr "Можливо, <#BLUE>{Name.npc_blacksmith}</> щось знає?"
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_DESC
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_DESC"
