@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-10-27 11:26\n"
+"PO-Revision-Date: 2024-10-27 13:38\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -117,7 +117,7 @@ msgstr ""
 #: Convo.after_insert_heart_scout_eggzy.HUB0.convo.giver.STATE_0.END
 msgctxt "Convo.after_insert_heart_scout_eggzy.HUB0.convo.giver.STATE_0.END"
 msgid "Alright, back to fighting!"
-msgstr ""
+msgstr "Добре, назад до боротьби!"
 
 #: Convo.after_insert_heart_scout_mt.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_scout_mt.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -241,7 +241,7 @@ msgstr ""
 #: Convo.after_insert_heart_scout_mt.HUB0.convo.giver.STATE_0.QUESTION_4B
 msgctxt "Convo.after_insert_heart_scout_mt.HUB0.convo.giver.STATE_0.QUESTION_4B"
 msgid "Better weapons? Alright, I'm convinced."
-msgstr ""
+msgstr "Краща зброя? Гаразд, я переконаний."
 
 #: Convo.after_insert_heart_scout_owl.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_scout_owl.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -680,7 +680,7 @@ msgstr ""
 #: Convo.defeated_boss_scout_owl.HUB0.convo.giver.STATE_0.END_OPT
 msgctxt "Convo.defeated_boss_scout_owl.HUB0.convo.giver.STATE_0.END_OPT"
 msgid "Alright!"
-msgstr ""
+msgstr "Гаразд!"
 
 #: Convo.defeated_boss_scout_owl.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.defeated_boss_scout_owl.HUB0.convo.giver.STATE_0.QUESTION_1"
@@ -5995,7 +5995,7 @@ msgid "agent:\n"
 " Foes leave themselves wide open after they <#RED>{name.concept_attack}</>, but you won't be able to capitalize if you're reelin' from a hit."
 msgstr "agent:\n"
 "!point\n"
-"Якщо ви кидаєтеся в бій наосліп, то в найкоротші терміни отримаєте удар на хвіст.\n"
+"Якщо ви кидаєтеся в бій наосліп, то в найкоротші терміни отримаєте удар під хвіст.\n"
 "!dubious\n"
 "Натомість спостерігайте за ворогами, щоб вгадати момент, коли вони збираються атакувати, і <#RED>{3:{name.concept_dodge}}</> від них натиснув <p bind='Controls.Digital.DODGE' color=BTNICON_DARK>, коли вони атакують.\n"
 "!gruffnod\n"
@@ -6702,7 +6702,9 @@ msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_2A"
 msgid "agent:\n"
 " !neutral\n"
 " ...Aye."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" ...Так."
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_2B
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_2B"
@@ -6711,7 +6713,11 @@ msgid "agent:\n"
 " Och, good. But I'll warn ye, the technique is... finnicky.\n"
 " !think\n"
 " First I'll be needin' <#KONJUR>{name.i_konjur_soul_lesser}</> to forge the <#RED>{name.weapon_crystal}</>."
-msgstr ""
+msgstr "agent:\n"
+" !gruffnod\n"
+" Ох, добре. Але я попереджаю, техніка... непроста.\n"
+" !think\n"
+" Спершу мені знадобиться <#KONJUR>{name.i_konjur_soul_lesser}</>, щоб викувати <#RED>{2:{name.weapon_crystal}}</>."
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_2C
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_2C"
@@ -6722,14 +6728,22 @@ msgid "agent:\n"
 " Right. So ye know the gist of it.\n"
 " !point\n"
 " I can forge ye a <#RED>{name.weapon_crystal}</> outta <#KONJUR>{name.i_konjur_soul_lesser}</>."
-msgstr ""
+msgstr "agent:\n"
+" !think\n"
+" <i>(Грмх. Тож вона вже вам розповіла, так?)</>\n"
+" !gruffnod\n"
+" Отже, ви знаєте основи.\n"
+" !point\n"
+" Я можу викувати <#RED>{2:{name.weapon_crystal}}</> із <#KONJUR>{2:{name.i_konjur_soul_lesser}}</>."
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_3A
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_3A"
 msgid "agent:\n"
 " !gesture\n"
 " Och... 'tis a Crystal vessel ta hold the <#RED>Boss</> power."
-msgstr ""
+msgstr "agent:\n"
+" !gesture\n"
+" Ох... Це кристалічна оболонка, що містить силу <#RED>боса</>."
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_3B
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_3B"
@@ -6746,21 +6760,37 @@ msgid "agent:\n"
 " And ta top it all off? It's fragile.\n"
 " !dubious\n"
 " Fail yer Hunt and it <#RED>shatters</>."
-msgstr ""
+msgstr "agent:\n"
+" !point\n"
+" Швидко схоплюєте, Мисливцю.\n"
+" !disagree\n"
+" <#RED>{Name.weapon_crystal}</> сама по собі не має сили.\n"
+" !gesture\n"
+" Єдиний спосіб її зарядити — використовувати її для битви з босом на <#RED>1 рівні супер божевілля</> або вище.\n"
+" !think\n"
+" А до того вона матиме низькі <#RED>показники</>. Без <#RED>{name_multiple.concept_skill}</>.\n"
+" !point\n"
+" І на додачу до всього? Вона крихка.\n"
+" !dubious\n"
+" Провалиш полювання, і вона <#RED>розібється</>."
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_4A
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_4A"
 msgid "agent:\n"
 " !shrug\n"
 " ...Hope ye got more <#KONJUR>{name_multiple.i_konjur_soul_lesser}</>."
-msgstr ""
+msgstr "agent:\n"
+" !shrug\n"
+" ...Сподіваюся, у вас є більше <#KONJUR>{2:{name_multiple.i_konjur_soul_lesser}}</>."
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_4B
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_4B"
 msgid "agent:\n"
 " !gruffnod\n"
 " Heh. I like yer spirit, Hunter."
-msgstr ""
+msgstr "agent:\n"
+" !gruffnod\n"
+" Хех. Мені подобається ваш запал, Мисливцю."
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_4C
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_4C"
@@ -6769,81 +6799,89 @@ msgid "agent:\n"
 " Aye. It might be.\n"
 " !shrug\n"
 " Think it over, Hunter."
-msgstr ""
+msgstr "agent:\n"
+" !gruffnod\n"
+" Угу. Можливо, це так.\n"
+" !shrug\n"
+" Обміркуйте це, Мисливцю."
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_5
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_5"
 msgid "agent:\n"
 " !gruffnod\n"
 " I'll fire up the forge."
-msgstr ""
+msgstr "agent:\n"
+" !gruffnod\n"
+" Я розпалю кузню."
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_6
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_6"
 msgid "agent:\n"
 " !gruffnod\n"
 " <i>(grunt)</>"
-msgstr ""
+msgstr "agent:\n"
+" !gruffnod\n"
+" <i>(бурчання)</>"
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_1"
 msgid "What's up?"
-msgstr ""
+msgstr "Що таке?"
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_2A
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_2A"
 msgid "Oh, I'm sure you say that to all the Hunters."
-msgstr ""
+msgstr "О, я впевнений, ти так кажеш усім Мисливцям."
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_2B
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_2B"
 msgid "I'll do ANYTHING if you make me a Boss Weapon!"
-msgstr ""
+msgstr "Я зроблю ЩО ЗАВГОДНО, якщо ти створиш мені зброю з боса!"
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_2C
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_2C"
 msgid "Right, Berna mentioned something about that."
-msgstr ""
+msgstr "Так, Берна згадувала про це."
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_3A
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_3A"
 msgid "{name.weapon_crystal}?"
-msgstr ""
+msgstr "{name.weapon_crystal}?"
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_3B
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_3B"
 msgid "Why do I feel like there's a catch somewhere?"
-msgstr ""
+msgstr "Чому я відчуваю, що тут є підстава?"
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_3BALT
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_3BALT"
 msgid "But there's a catch, right?"
-msgstr ""
+msgstr "Але ж тут є підстава, правда?"
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_4A
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_4A"
 msgid "What happens if I shatter it?"
-msgstr ""
+msgstr "Що станеться, якщо я розіб'ю її?"
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_4B
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_4B"
 msgid "That doesn't sound so bad."
-msgstr ""
+msgstr "Це не так вже й погано звучить."
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_4C
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_4C"
 msgid "That sounds impossible!"
-msgstr ""
+msgstr "Це звучить неможливо!"
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_5
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_5"
 msgid "Let's make a {name.weapon_crystal}!"
-msgstr ""
+msgstr "Створімо {2:{name.weapon_crystal}}!"
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_6
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.QUESTION_6"
 msgid "I've gotta go, talk to you later."
-msgstr ""
+msgstr "Мені треба йти, поговоримо пізніше."
 
 #: Convo.twn_cannon_explainer.HUB0.convo.giver.STATE_0.ADDEND
 msgctxt "Convo.twn_cannon_explainer.HUB0.convo.giver.STATE_0.ADDEND"
@@ -9042,12 +9080,12 @@ msgstr "Зброя <#RED><z 0.7>(Відгук)</z></>"
 #: Convo.twn_shop_armorsmith.HUB0.fortify.giver.STATE_0.OPT_CANCEL
 msgctxt "Convo.twn_shop_armorsmith.HUB0.fortify.giver.STATE_0.OPT_CANCEL"
 msgid "Nevermind."
-msgstr ""
+msgstr "Не зараз."
 
 #: Convo.twn_shop_armorsmith.HUB0.fortify.giver.STATE_0.OPT_CONFIRM
 msgctxt "Convo.twn_shop_armorsmith.HUB0.fortify.giver.STATE_0.OPT_CONFIRM"
 msgid "Let's do it!"
-msgstr ""
+msgstr "Давай зробимо це!"
 
 #: Convo.twn_shop_armorsmith.HUB0.fortify.giver.STATE_0.OPT_FORTIFY
 msgctxt "Convo.twn_shop_armorsmith.HUB0.fortify.giver.STATE_0.OPT_FORTIFY"
@@ -9060,28 +9098,32 @@ msgid "agent:\n"
 " !happy\n"
 " !clap\n"
 " {name.npc_lunn} and I are like, so excited to get started!"
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !clap\n"
+" {Name.npc_lunn} і я з нетерпінням чекаємо на початок роботи!"
 
 #: Convo.twn_shop_armorsmith.HUB0.fortify.giver.STATE_0.TALK_FORTIFY
 msgctxt "Convo.twn_shop_armorsmith.HUB0.fortify.giver.STATE_0.TALK_FORTIFY"
 msgid "agent:\n"
 " [recipe:fortify_recipe] This is what I'll need."
-msgstr ""
+msgstr "agent:\n"
+" [recipe:fortify_recipe] Це те, що мені потрібно."
 
 #: Convo.twn_shop_armorsmith.HUB0.fortify.giver.STATE_0.TT_CANT_AFFORD
 msgctxt "Convo.twn_shop_armorsmith.HUB0.fortify.giver.STATE_0.TT_CANT_AFFORD"
 msgid "<#RED>Can't afford</>"
-msgstr ""
+msgstr "<#RED>Не можу собі дозволити</>"
 
 #: Convo.twn_shop_armorsmith.HUB0.fortify.giver.STATE_0.TT_NEEDS_UPGRADED_ARMOUR_0
 msgctxt "Convo.twn_shop_armorsmith.HUB0.fortify.giver.STATE_0.TT_NEEDS_UPGRADED_ARMOUR_0"
 msgid "<#RED>Requires Level 6 Armour</>"
-msgstr ""
+msgstr "<#RED>Необхідний 6 рівень обладунків</>"
 
 #: Convo.twn_shop_armorsmith.HUB0.fortify.giver.STATE_0.TT_NEEDS_UPGRADED_ARMOUR_1
 msgctxt "Convo.twn_shop_armorsmith.HUB0.fortify.giver.STATE_0.TT_NEEDS_UPGRADED_ARMOUR_1"
 msgid "<#RED>Requires Level 9 Armour</>"
-msgstr ""
+msgstr "<#RED>Необхідний 9 рівень обладунків</>"
 
 #: Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.ANSWER_MAKE_DIFFERENT_TYPES
 msgctxt "Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.ANSWER_MAKE_DIFFERENT_TYPES"
@@ -9905,7 +9947,8 @@ msgstr "Але я ніколи раніше не бився в справжні�
 msgctxt "Convo.wrld_game_intro_sequence.CHAT_DUNGEON0.game_intro.giver.STATE_0.OPT_3C"
 msgid "Alright, no time to waste.\n"
 "<i><#RED><z 0.7>(Skip controls explainer)</></i></z>"
-msgstr ""
+msgstr "Гаразд, не будемо гаяти часу.\n"
+"<i><#RED><z 0.7>(Пропустити навчання)</></i></z>"
 
 #: Convo.wrld_game_intro_sequence.CHAT_DUNGEON0.game_intro.giver.STATE_0.OPT_4A
 msgctxt "Convo.wrld_game_intro_sequence.CHAT_DUNGEON0.game_intro.giver.STATE_0.OPT_4A"
@@ -10106,7 +10149,18 @@ msgid "agent:\n"
 " Takes more than a lil aerial free fall into a {name.rot}-infested forest to get rid of me!\n"
 " !dubious\n"
 " Speaking of-- how's <#BLUE>{name.npc_scout}</>? Are they okay??"
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !greet\n"
+" Ааааа! Мисливцю, ви вижили!\n"
+"player:\n"
+" <#BLUE>{Name.npc_armorsmith}</>! З тобою все гаразд!\n"
+"agent:\n"
+" !neutral\n"
+" !laugh\n"
+" Потрібно щось серйозніше, ніж невелике падіння з висоти в ліс, повний {3:{name.rot}}, щоб мене позбутися!\n"
+" !dubious\n"
+" До речі— як там <#BLUE>{Name.npc_scout}</>? З ними все добре??"
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK2
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK2"
@@ -10386,7 +10440,19 @@ msgid "agent:\n"
 " ...\n"
 " !nervous\n"
 " Wait a minute... I don't know if I like the sound of this expedition getting <i>more</> exciting..."
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !wave\n"
+" Гей, Мисливцю!\n"
+" !nervous\n"
+" Вибачте, що не розповідав вам, але ця частина історії поки що під грифом таємності.\n"
+" !bliss\n"
+" Але не хвилюйтеся, мої джерела кажуть, що попереду багато захоплюючого!\n"
+" !neutral\n"
+" !think\n"
+" ...\n"
+" !nervous\n"
+" Зачекай хвилинку... Мені не зовсім подобається, що ця експедиція стає <i>ще</> більш захоплюючою..."
 
 #: Quest.after_insert_heart_scout_mt.QUIP.chitchat:[has_deposited_1_zone_1_hearts,in_quest_after_insert_heart_scout_mt,in_town,role_scout].1
 msgctxt "Quest.after_insert_heart_scout_mt.QUIP.chitchat:[has_deposited_1_zone_1_hearts,in_quest_after_insert_heart_scout_mt,in_town,role_scout].1"
@@ -11035,7 +11101,7 @@ msgstr "agent:\n"
 #: Quest.dgn_shop_potion.OPT_CONFIRM
 msgctxt "Quest.dgn_shop_potion.OPT_CONFIRM"
 msgid "<#RED>[<p img='images/ui_ftf_icons/konjur.tex'> {konjur_cost} {name.konjur}]</> Take my {name.konjur}! <i><#RED><z 0.7>(Refill Potion)</></i></z>"
-msgstr "<#RED>[<p img='images/ui_ftf_icons/konjur.tex'> {konjur_cost} {2:{name.konjur}}]</> Візьміть мій {name.konjur}! <i><#RED><z 0.7>(Поновити зілля)</ ></i></z>"
+msgstr "<#RED>[<p img='images/ui_ftf_icons/konjur.tex'> {konjur_cost} {2:{name.konjur}}]</> Візьми мій {name.konjur}! <i><#RED><z 0.7>(Поновити зілля)</ ></i></z>"
 
 #: Quest.dgn_shop_potion.TALK_DONE_GAME
 msgctxt "Quest.dgn_shop_potion.TALK_DONE_GAME"
@@ -11377,7 +11443,11 @@ msgid "agent:\n"
 " Hunter.\n"
 " !gruffnod\n"
 " A word."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" Мисливцю.\n"
+" !gruffnod\n"
+" На два слова."
 
 #: Quest.twn_cannon_explainer.QUIP.chitchat:[in_quest_twn_cannon_explainer,in_town,pf_unlocked_masteries,role_hunter,weapon_type_cannon].1
 msgctxt "Quest.twn_cannon_explainer.QUIP.chitchat:[in_quest_twn_cannon_explainer,in_town,pf_unlocked_masteries,role_hunter,weapon_type_cannon].1"
@@ -12936,7 +13006,7 @@ msgid "!neutral\n"
 " ..."
 msgstr "!neutral\n"
 " !closedeyes\n"
-" {name.job_dojo} питав про вас.\n"
+" {Name.job_dojo} питав про вас.\n"
 " !dubious\n"
 " ..."
 
@@ -15602,7 +15672,9 @@ msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_
 msgid "!neutral\n"
 " !gruffnod\n"
 " Hrm."
-msgstr ""
+msgstr "!neutral\n"
+" !gruffnod\n"
+" Хрм."
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_blacksmith]NOT[in_town].2
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_blacksmith]NOT[in_town].2"
@@ -24278,7 +24350,7 @@ msgstr "[none]"
 #: STRINGS.ITEMS.HEAD.porkyspine.name
 msgctxt "STRINGS.ITEMS.HEAD.porkyspine.name"
 msgid "{name.porkyspine} Headband"
-msgstr "Пов'язка на голову з {2:{Name.porkyspine}}"
+msgstr "Пов'язка з {2:{Name.porkyspine}}"
 
 #: STRINGS.ITEMS.HEAD.rotwood.desc
 msgctxt "STRINGS.ITEMS.HEAD.rotwood.desc"
@@ -27979,7 +28051,7 @@ msgstr "Завдана шкода зброї"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_explode_on_land.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_explode_on_land.desc"
 msgid "<#RED>Explodes</> on landing, dealing a percentage of your <#RED>{name.concept_weapon_damage}</>."
-msgstr "<#RED>Вибухає</> після приземлення, завдаючи відсоток від вашої <#RED>{name.concept_weapon_damage}</>."
+msgstr "<#RED>Вибухає</> після приземлення, завдаючи відсоток від вашої <#RED>{2:{name.concept_weapon_damage}}</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_explode_on_land.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_explode_on_land.name"
@@ -28487,7 +28559,7 @@ msgstr "Аспект {2:{Name.bandicoot}}"
 #: STRINGS.ITEMS.POWERS.HEART.heart_eggzy.desc
 msgctxt "STRINGS.ITEMS.POWERS.HEART.heart_eggzy.desc"
 msgid "The first few <#RED>{name.concept_relic} Crystals</> you open contain more choices."
-msgstr ""
+msgstr "Перші кілька <#RED>кристалів {3:{name.concept_relic}}</>, які ви відкриваєте, містять більше виборів."
 
 #: STRINGS.ITEMS.POWERS.HEART.heart_eggzy.name
 msgctxt "STRINGS.ITEMS.POWERS.HEART.heart_eggzy.name"
@@ -35626,7 +35698,7 @@ msgstr "<p img='images/ui_ftf_icons/konjur_heart.tex' rpad=1>Кам'яне се�
 #: STRINGS.NAMES.i_konjur_soul_lesser
 msgctxt "STRINGS.NAMES.i_konjur_soul_lesser"
 msgid "<p img='images/ui_ftf_icons/lesser_soul.tex' rpad=1>Corestone"
-msgstr "<p img='images/ui_ftf_icons/lesser_soul.tex' rpad=1>Кам'яне ядро"
+msgstr "<p img='images/ui_ftf_icons/lesser_soul.tex' rpad=1>Кам'яне ядро|<p img='images/ui_ftf_icons/lesser_soul.tex' rpad=1>Кам'яного ядра"
 
 #: STRINGS.NAMES.job_apothecary
 msgctxt "STRINGS.NAMES.job_apothecary"
@@ -38754,7 +38826,7 @@ msgstr "Покинуте гніздо"
 #: STRINGS.TITLE_CARDS.embison_miniboss.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.embison_miniboss.LOWERTHIRD"
 msgid "Mean and stubborn as an ox"
-msgstr ""
+msgstr "Злий і впертий, як віл"
 
 #: STRINGS.TITLE_CARDS.floracrane_miniboss.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.floracrane_miniboss.LOWERTHIRD"
@@ -38779,7 +38851,7 @@ msgstr "Гниле серце лісу"
 #: STRINGS.TITLE_CARDS.megatreemon_elite.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.megatreemon_elite.LOWERTHIRD"
 msgid "Rotten(er) Heart of the Forest"
-msgstr ""
+msgstr "Гниле серце лісу"
 
 #: STRINGS.TITLE_CARDS.npc_apothecary.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.npc_apothecary.LOWERTHIRD"
@@ -38820,7 +38892,8 @@ msgstr "Мати темряви"
 msgctxt "STRINGS.TITLE_CARDS.owlitzer_elite.LOWERTHIRD"
 msgid "Mother of Darkness,\n"
 "Destroyer of the Light (Armour)"
-msgstr ""
+msgstr "Мати Темряви,\n"
+"Руйнівниця легкості (обладунків)"
 
 #: STRINGS.TITLE_CARDS.sedament.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.sedament.LOWERTHIRD"
@@ -45078,7 +45151,7 @@ msgstr "Стійка: %s"
 #: STRINGS.UI.WEAPONSELECTIONSCREEN.UPGRADE_BLACKSMITH_TT
 msgctxt "STRINGS.UI.WEAPONSELECTIONSCREEN.UPGRADE_BLACKSMITH_TT"
 msgid "Speak with <#BLUE>{name.npc_blacksmith} the {name.job_blacksmith}</> to discover new upgrades!"
-msgstr "Поговоріть з <#BLUE>{3:{name.job_blacksmith}} {4:{name.npc_blacksmith}}</>, щоб дізнатися про нові покращення!"
+msgstr "Поговоріть з <#BLUE>{3:{name.job_blacksmith}} {4:{Name.npc_blacksmith}}</>, щоб дізнатися про нові покращення!"
 
 #: STRINGS.UI.WEAPONSELECTIONSCREEN.UPGRADE_BUTTON
 msgctxt "STRINGS.UI.WEAPONSELECTIONSCREEN.UPGRADE_BUTTON"
