@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-10-27 10:39\n"
+"PO-Revision-Date: 2024-10-27 11:26\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -7641,24 +7641,33 @@ msgid "agent:\n"
 " I'd like to know how it's forged. Why don't ye let me do a few upgrades on it? Get a feel fer it.\n"
 " !point\n"
 " Might give me some more ideas fer upgradin' yer old weapons, too."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" Хм. Чудова робота. Дуже... креативно.\n"
+" !think\n"
+" Мені цікаво, як це виготовлено. Чому б вам не дозволити мені зробити кілька покращень? Відчути його.\n"
+" !point\n"
+" Це може дати мені кілька ідей для покращення вашої старої зброї."
 
 #: Convo.twn_fortify_blacksmith_2_intro.HUB0.convo.giver.STATE_0.ANSWER_2
 msgctxt "Convo.twn_fortify_blacksmith_2_intro.HUB0.convo.giver.STATE_0.ANSWER_2"
 msgid "agent:\n"
 " !gruffnod\n"
 " Aye. It does, doesn't it?"
-msgstr ""
+msgstr "agent:\n"
+" !gruffnod\n"
+" Так. Так і є, чи не так?"
 
 #: Convo.twn_fortify_blacksmith_2_intro.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.twn_fortify_blacksmith_2_intro.HUB0.convo.giver.STATE_0.QUESTION_1"
 msgid "Yep! What do you think?"
-msgstr ""
+msgstr "Так! Як тобі?"
 
 #: Convo.twn_fortify_blacksmith_2_intro.HUB0.convo.giver.STATE_0.QUESTION_2
 msgctxt "Convo.twn_fortify_blacksmith_2_intro.HUB0.convo.giver.STATE_0.QUESTION_2"
 msgid "Sounds good!"
-msgstr ""
+msgstr "Звучить непогано!"
 
 #: Convo.twn_fourth_heart_handin_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.twn_fourth_heart_handin_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -27356,7 +27365,7 @@ msgstr "Шкода додаткових ударів"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_body.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_body.desc"
 msgid "Deal <#RED>Tenfold Damage</> to nearby enemies when you take a <#RED>Massive Hit</>."
-msgstr ""
+msgstr "Нанесіть <#RED>десятикратну шкоду</> сусіднім ворогам, коли отримаєте <#RED>великий удар</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_body.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_body.name"
@@ -27366,12 +27375,12 @@ msgstr "equipment_eggbert_body"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_body.variables.massive_hit_threshold
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_body.variables.massive_hit_threshold"
 msgid "Massive Hit Threshold"
-msgstr ""
+msgstr "Поріг великого удару"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_head.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_head.desc"
 msgid "Each run, take <#RED>Half Damage</> until your helmet <#RED>Breaks</>. While your helmet is broken, take <#RED>Double Damage</>."
-msgstr ""
+msgstr "Отримуйте <#RED>половину шкоди</> до тих пір, поки ваш шолом <#RED>не зламається</>. Коли ваш шолом зламаний, отримуйте <#RED>подвійну шкоду</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_head.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_head.name"
@@ -27381,12 +27390,12 @@ msgstr "equipment_eggbert_head"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_head.variables.num_hits
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_head.variables.num_hits"
 msgid "Hits to Break"
-msgstr ""
+msgstr "Ударів, щоб зламати"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_waist.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_waist.desc"
 msgid "Deal <#RED>Damage</> to nearby enemies when you <#RED>Perfect Dodge</> a <#RED>Trap</>."
-msgstr ""
+msgstr "Нанесіть <#RED>шкоду</> сусіднім ворогам, коли ви <#RED>ідеально ухиляєтеся</> від <#RED>пастки</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_waist.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_waist.name"
@@ -27396,12 +27405,12 @@ msgstr "equipment_eggbert_waist"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_waist.variables.weapon_damage_dealt
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_waist.variables.weapon_damage_dealt"
 msgid "Weapon Damage Dealt"
-msgstr ""
+msgstr "Завдана шкода зброї"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_embison_body.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_embison_body.desc"
 msgid "When you finish an {name.combat_room} without <#RED>Dodging</>, deal bonus <#RED>{name.concept_damage}</> for the rest of the {name.run}"
-msgstr ""
+msgstr "Коли ви закінчуєте {name.combat_room} без <#RED>ухилення</>, отримайте бонусну <#RED>{name.concept_damage}</> до кінця {name.run}"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_embison_body.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_embison_body.name"
@@ -27411,7 +27420,7 @@ msgstr "equipment_embison_body"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_embison_head.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_embison_head.desc"
 msgid "Start the {name.run} with <#KONJUR>{name.i_konjur}</>."
-msgstr ""
+msgstr "Почніть {name.run} з <#KONJUR>{3:{name.i_konjur}}</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_embison_head.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_embison_head.name"
@@ -27421,12 +27430,12 @@ msgstr "equipment_embison_head"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_embison_head.variables.konjur
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_embison_head.variables.konjur"
 msgid "Amount"
-msgstr ""
+msgstr "Кількість"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_embison_waist.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_embison_waist.desc"
 msgid "Your <#RED>{name_multiple.concept_attack}</> can't be interrupted. Take less <#RED>{name.concept_damage}</> while attacking."
-msgstr ""
+msgstr "Ваші <#RED>{name_multiple.concept_attack}</> не можна перервати. Отримуйте менше <#RED>{2:{name.concept_damage}}</> під час атаки."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_embison_waist.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_embison_waist.name"
@@ -27436,7 +27445,7 @@ msgstr "equipment_embison_waist"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_embison_weapon.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_embison_weapon.desc"
 msgid "Deal bonus <#RED>{name.concept_damage}</> when your target is in the middle of an <#RED>Attack</>."
-msgstr ""
+msgstr "Нанесіть бонусну <#RED>{name.concept_damage}</>, коли ваша ціль перебуває в процесі <#RED>атаки</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_embison_weapon.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_embison_weapon.name"
@@ -27693,7 +27702,7 @@ msgstr "Додаткові удари"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_hammer_charged_light_attacks.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_hammer_charged_light_attacks.desc"
 msgid "<#RED>Light Attacks</> are <#BLUE>Chargeable</>, and do more <#RED>Damage</>."
-msgstr ""
+msgstr "<#RED>Легкі атаки</> можна <#BLUE>зарядити</> і завдати більшої <#RED>шкоди</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_hammer_charged_light_attacks.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_hammer_charged_light_attacks.name"
@@ -27910,7 +27919,7 @@ msgstr "Сто ударів списом"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_polearm_long_range.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_polearm_long_range.desc"
 msgid "Long range. <#BLUE>Focus Attacks</> do more <#RED>Damage</>."
-msgstr ""
+msgstr "Далекобійна. <#BLUE>Фокусні атаки</> завдають більше <#RED>шкоди</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_polearm_long_range.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_polearm_long_range.name"
@@ -27925,7 +27934,7 @@ msgstr "Бонус фокусної шкоди"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_body.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_body.desc"
 msgid "Deal <#RED>Damage</> to your <#RED>Attacker</> when taking <#RED>Damage</> from <#RED>Behind</>."
-msgstr ""
+msgstr "Нанесіть <#RED>шкоду</> вашому <#RED>нападнику</>, коли отримаєте <#RED>шкоду</> <#RED>позаду вас</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_body.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_body.name"
@@ -27935,12 +27944,12 @@ msgstr "equipment_porkyspine_body"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_body.variables.weapon_damage_dealt
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_body.variables.weapon_damage_dealt"
 msgid "Weapon Damage Dealt"
-msgstr ""
+msgstr "Завдана шкода зброї"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_head.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_head.desc"
 msgid "<#RED>Focus Attacks</> deal <#RED>Bonus Damage</>, scaling with your <#RED>Distance</> from the <#RED>Target</>."
-msgstr ""
+msgstr "<#RED>Фокусні атаки</> завдають <#RED>бонусну шкоду</>, що залежить від вашої <#RED>відстані</> до <#RED>цілі</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_head.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_head.name"
@@ -27950,12 +27959,12 @@ msgstr "equipment_porkyspine_head"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_head.variables.focus_damage_mult
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_head.variables.focus_damage_mult"
 msgid "Maximum Focus Damage Bonus"
-msgstr ""
+msgstr "Макс. бонус фокусної шкоди"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_waist.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_waist.desc"
 msgid "Fire an <#RED>Ice Spine</> at your <#RED>Attacker</> when you <#RED>Perfect Dodge</> a <#RED>Projectile</>."
-msgstr ""
+msgstr "Вистрілюйте <#RED>льодяний шип</> у вашого <#RED>нападника</> при <#RED>ідеальному ухиленні</> від <#RED>снаряда</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_waist.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_waist.name"
@@ -27965,7 +27974,7 @@ msgstr "equipment_porkyspine_head"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_waist.variables.weapon_damage_dealt
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_waist.variables.weapon_damage_dealt"
 msgid "Weapon Damage Dealt"
-msgstr ""
+msgstr "Завдана шкода зброї"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_explode_on_land.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_shotput_explode_on_land.desc"
@@ -30285,7 +30294,7 @@ msgstr "<#RED>Утримуйте</>, щоб зарядити, потім від�
 #: STRINGS.ITEMS.POWERS.SKILL.miniboss_embison.name
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.miniboss_embison.name"
 msgid "{name.embison}'s Turn Around Punch"
-msgstr "Удар з поворотом {2:{name.embison}}"
+msgstr "Удар з поворотом {2:{Name.embison}}"
 
 #: STRINGS.ITEMS.POWERS.SKILL.miniboss_floracrane.desc
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.miniboss_floracrane.desc"
@@ -32053,7 +32062,7 @@ msgstr "[none]"
 #: STRINGS.ITEMS.WAIST.porkyspine.name
 msgctxt "STRINGS.ITEMS.WAIST.porkyspine.name"
 msgid "{name.porkyspine} Cloven Booties"
-msgstr "Клішені Чобітки з {2:{Name.porkyspine}}"
+msgstr "Чобітки з копит {2:{Name.porkyspine}}"
 
 #: STRINGS.ITEMS.WAIST.rotwood.desc
 msgctxt "STRINGS.ITEMS.WAIST.rotwood.desc"
