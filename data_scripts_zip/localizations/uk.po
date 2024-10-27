@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-10-27 13:38\n"
+"PO-Revision-Date: 2024-10-27 13:49\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -6695,7 +6695,13 @@ msgid "agent:\n"
 " We figured there's a way ta hammer <#RED>{name.rot_boss}</> power into yer gear.\n"
 " !point\n"
 " Yer just the Hunter ta test it."
-msgstr ""
+msgstr "agent:\n"
+" !point\n"
+" Я з вашим {4:{name.job_armorsmith}}</> обмірковували це разом.\n"
+" !think\n"
+" Ми придумали, як вставити силу <#RED>{2:{name.rot_boss}}</> у ваше спорядження.\n"
+" !point\n"
+" Ви якраз той Мисливець, який це випробує."
 
 #: Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_2A
 msgctxt "Convo.twn_boss_wpn_explainer.HUB0.convo.giver.STATE_0.ANSWER_2A"
@@ -9135,7 +9141,14 @@ msgid "agent:\n"
 " Just equip the type o' weapon ye want me to make ya.\n"
 " !point\n"
 " Then I'll remember what it looks like!"
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" О, це просто.\n"
+" !gruffnod\n"
+" Просто спорядіть той тип зброї, який хочете, щоб я зробив для вас.\n"
+" !point\n"
+" Тоді я запам'ятаю, як він виглядає!"
 
 #: Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.OPT_CANCEL_CRAFT
 msgctxt "Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.OPT_CANCEL_CRAFT"
@@ -9150,49 +9163,51 @@ msgstr "Зроби це"
 #: Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.OPT_CONFIRM_REPAIR
 msgctxt "Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.OPT_CONFIRM_REPAIR"
 msgid "Fix it"
-msgstr ""
+msgstr "Відремонтуй"
 
 #: Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.OPT_CORESTONE_CRAFTING
 msgctxt "Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.OPT_CORESTONE_CRAFTING"
 msgid "<#RED>{name.weapon_crystal}</> Crafting"
-msgstr ""
+msgstr "<#RED>Створити {2:{name.weapon_crystal}}</>"
 
 #: Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.OPT_CRAFT_BOSS_WEAPON
 msgctxt "Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.OPT_CRAFT_BOSS_WEAPON"
 msgid "Finish <#RED>{name.weapon_crystal}</>"
-msgstr ""
+msgstr "Закінчити <#RED>{2:{name.weapon_crystal}}</>"
 
 #: Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.OPT_CRAFT_CORESTONE_WEAPON
 msgctxt "Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.OPT_CRAFT_CORESTONE_WEAPON"
 msgid "Make <#RED>{name.weapon_crystal}</>"
-msgstr ""
+msgstr "Зроби <#RED>{2:{name.weapon_crystal}}</>"
 
 #: Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.OPT_REPAIR_CORESTONE_WEAPON
 msgctxt "Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.OPT_REPAIR_CORESTONE_WEAPON"
 msgid "Repair <#RED>{name.weapon_crystal}</>"
-msgstr ""
+msgstr "Відремонтуй <#RED>{2:{name.weapon_crystal}}</>"
 
 #: Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.QUESTION_MAKE_DIFFERENT_TYPES
 msgctxt "Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.QUESTION_MAKE_DIFFERENT_TYPES"
 msgid "How do I make other <#RED>{name.weapon_crystal}s</>?"
-msgstr ""
+msgstr "Як мені створити інші <#RED>{3:{name.weapon_crystal}}</>?"
 
 #: Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.TALK_CRAFT_BOSS_WEAPON
 msgctxt "Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.TALK_CRAFT_BOSS_WEAPON"
 msgid "agent:\n"
 " Ah. I see you've imbued that weapon with the heart of a <#RED>{boss_name}</>.\n"
 " [recipe:boss_weapon_recipe] I can finish it now, if ye've got the goods that is."
-msgstr ""
+msgstr "agent: \n"
+"Ага. Бачу, ви наділили цю зброю серцем (<#RED>{boss_name}</>). \n"
+"[recipe:boss_weapon_recipe] Можу завершити роботу зараз, якщо маєте усе необхідне."
 
 #: Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.TALK_CRAFT_CORESTONE_WEAPON
 msgctxt "Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.TALK_CRAFT_CORESTONE_WEAPON"
 msgid "[recipe:corestone_weapon_recipe] Ye want me to make ye a <#RED>{corestone_weapon_name}</>?"
-msgstr ""
+msgstr "[recipe:corestone_weapon_recipe] Ви хочете, щоб я зробив для вас <#RED>{corestone_weapon_name}</>?"
 
 #: Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.TALK_REPAIR_CORESTONE_WEAPON
 msgctxt "Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.TALK_REPAIR_CORESTONE_WEAPON"
 msgid "[recipe:repair_weapon_recipe] Fix up yer <#RED>{equipped_weapon_name}</>?"
-msgstr ""
+msgstr "[recipe:repair_weapon_recipe] Відремонтувати ваш <#RED>{equipped_weapon_name}</>?"
 
 #: Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.TT_CANT_AFFORD
 msgctxt "Convo.twn_shop_blacksmith.HUB0.corestone_crafting.giver.STATE_0.TT_CANT_AFFORD"
@@ -9252,7 +9267,7 @@ msgstr "agent:\n"
 #: Convo.twn_shop_blacksmith.HUB1.fortify.giver.STATE_0.TT_CANT_AFFORD
 msgctxt "Convo.twn_shop_blacksmith.HUB1.fortify.giver.STATE_0.TT_CANT_AFFORD"
 msgid "<#RED>Can't afford</>"
-msgstr ""
+msgstr "<#RED>Не можу собі дозволити</>"
 
 #: Convo.twn_shop_blacksmith.HUB1.fortify.giver.STATE_0.TT_NEEDS_UPGRADED_WEAPON_0
 msgctxt "Convo.twn_shop_blacksmith.HUB1.fortify.giver.STATE_0.TT_NEEDS_UPGRADED_WEAPON_0"
