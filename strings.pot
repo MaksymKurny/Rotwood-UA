@@ -31268,6 +31268,11 @@ msgctxt "STRINGS.UI.MAINSCREEN.BTN_SINGLE_PLAYER_TITLE"
 msgid "Local Play"
 msgstr ""
 
+#: STRINGS.UI.MAINSCREEN.CMDLINE_ARGS
+msgctxt "STRINGS.UI.MAINSCREEN.CMDLINE_ARGS"
+msgid "Launch Options: {args}"
+msgstr ""
+
 #: STRINGS.UI.MAINSCREEN.DISCORD_CTA.BODY
 msgctxt "STRINGS.UI.MAINSCREEN.DISCORD_CTA.BODY"
 msgid "<#1C214E>Looking for people to play with?</>"
