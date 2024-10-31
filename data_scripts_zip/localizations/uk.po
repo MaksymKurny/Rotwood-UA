@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-10-30 19:53\n"
+"PO-Revision-Date: 2024-10-31 19:48\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -42112,6 +42112,11 @@ msgstr "Вирушайте самостійно та досліджуйте Ро
 msgctxt "STRINGS.UI.MAINSCREEN.BTN_SINGLE_PLAYER_TITLE"
 msgid "Local Play"
 msgstr "Локальна гра"
+
+#: STRINGS.UI.MAINSCREEN.CMDLINE_ARGS
+msgctxt "STRINGS.UI.MAINSCREEN.CMDLINE_ARGS"
+msgid "Launch Options: {args}"
+msgstr ""
 
 #: STRINGS.UI.MAINSCREEN.DISCORD_CTA.BODY
 msgctxt "STRINGS.UI.MAINSCREEN.DISCORD_CTA.BODY"
