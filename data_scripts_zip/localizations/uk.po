@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-11-13 19:47\n"
+"PO-Revision-Date: 2024-11-15 20:35\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -10873,20 +10873,15 @@ msgctxt "Localization.zh-CN.NAME"
 msgid "Chinese (Simplified)"
 msgstr "Китайська (спрощена)"
 
-#: Quest.after_insert_heart_4_scout.QUIP.chitchat:[has_deposited_4_zone_1_hearts,in_quest_after_insert_heart_4_scout,in_town,role_scout]NOT[has_killed_eggzy,has_killed_sedament].1
-msgctxt "Quest.after_insert_heart_4_scout.QUIP.chitchat:[has_deposited_4_zone_1_hearts,in_quest_after_insert_heart_4_scout,in_town,role_scout]NOT[has_killed_eggzy,has_killed_sedament].1"
+#: Quest.after_insert_heart_4_scout.QUIP.chitchat:[has_deposited_4_zone_1_hearts,in_quest_after_insert_heart_4_scout,in_town,role_scout].1
+msgctxt "Quest.after_insert_heart_4_scout.QUIP.chitchat:[has_deposited_4_zone_1_hearts,in_quest_after_insert_heart_4_scout,in_town,role_scout].1"
 msgid "agent:\n"
 " !neutral\n"
 " !think\n"
 " <i>I-I don't understand... the fourth <#KONJUR>{name.i_konjur_heart}</> was supposed to... what did I miss?</>\n"
 " !shocked\n"
 " Ah! Hunter! Y-you startled me."
-msgstr "agent:\n"
-" !neutral\n"
-" !think\n"
-" <i>Я-я не розумію... четверте <#KONJUR>{name.i_konjur_heart}</> і його мало... що я проґавив?</>\n"
-" !shocked\n"
-" Ой! Мисливцю! В-ви мене налякали."
+msgstr ""
 
 #: Quest.after_insert_heart_scout_bnd.QUIP.chitchat:[has_deposited_3_zone_1_hearts,in_quest_after_insert_heart_scout_bnd,in_town,role_scout].1
 msgctxt "Quest.after_insert_heart_scout_bnd.QUIP.chitchat:[has_deposited_3_zone_1_hearts,in_quest_after_insert_heart_scout_bnd,in_town,role_scout].1"
@@ -10978,8 +10973,8 @@ msgstr "agent:\n"
 " !clap\n"
 " Залишилося лише два!"
 
-#: Quest.after_insert_heart_scout_sdmnt.QUIP.chitchat:[has_killed_sedament,in_quest_after_insert_heart_scout_sdmnt,in_town,just_deposited_sedament_heart,role_scout]NOT[in_town].1
-msgctxt "Quest.after_insert_heart_scout_sdmnt.QUIP.chitchat:[has_killed_sedament,in_quest_after_insert_heart_scout_sdmnt,in_town,just_deposited_sedament_heart,role_scout]NOT[in_town].1"
+#: Quest.after_insert_heart_scout_sdmnt.QUIP.chitchat:[has_killed_sedament,in_quest_after_insert_heart_scout_sdmnt,in_town,just_deposited_sedament_heart,role_scout].1
+msgctxt "Quest.after_insert_heart_scout_sdmnt.QUIP.chitchat:[has_killed_sedament,in_quest_after_insert_heart_scout_sdmnt,in_town,just_deposited_sedament_heart,role_scout].1"
 msgid "agent:\n"
 " !happy\n"
 " !nervous\n"
@@ -10990,16 +10985,7 @@ msgid "agent:\n"
 " !happy\n"
 " !gesture\n"
 " But that kind of puts me in an awkward position talking to you now, doesn't it?"
-msgstr "agent:\n"
-" !happy\n"
-" !nervous\n"
-" Емм, просто попереджаю, що мені ще не дали мій сценарій для наступної частини <#RED>гри</>. Все ж таки <#RED>ранній доступ</>.\n"
-" !neutral\n"
-" !think\n"
-" Думаю, що десь за кулісами готується новий сюжет...\n"
-" !happy\n"
-" !gesture\n"
-" Але це ставить мене в незручне становище, розмовляючи з тобою зараз, чи не так?"
+msgstr ""
 
 #: Quest.defeated_boss_first_try_scout_mt.QUIP.chitchat:[first_run_in_treemon_forest,has_killed_megatreemon,has_megatreemon_heart,in_quest_defeated_boss_first_try_scout_mt,in_town,megatreemon_heart_level_0,role_scout].1
 msgctxt "Quest.defeated_boss_first_try_scout_mt.QUIP.chitchat:[first_run_in_treemon_forest,has_killed_megatreemon,has_megatreemon_heart,in_quest_defeated_boss_first_try_scout_mt,in_town,megatreemon_heart_level_0,role_scout].1"
@@ -19347,8 +19333,8 @@ msgstr "<p img='images/ui_ftf/arrow_left_narrow.tex' color=0>  Божевілл�
 
 #: STRINGS.ASCENSIONS.INGOTS_DROP_1
 msgctxt "STRINGS.ASCENSIONS.INGOTS_DROP_1"
-msgid "<p img='images/map_ftf/frenzy_ingots_drop.tex' color=0 scale=1.4> Additional {name_multiple.upgrade_ingot} drop"
-msgstr "<p img='images/map_ftf/frenzy_ingots_drop.tex' color=0 scale=1.4> Додаткові {name_multiple.upgrade_ingot}"
+msgid "<p img='images/map_ftf/frenzy_ingots_drop.tex' color=0 scale=1.4> {name_multiple.upgrade_ingot} may drop"
+msgstr ""
 
 #: STRINGS.ASCENSIONS.LEVEL_AVAILABLE
 msgctxt "STRINGS.ASCENSIONS.LEVEL_AVAILABLE"
@@ -19493,10 +19479,8 @@ msgstr "Подвійні {name_multiple.rot_miniboss}"
 
 #: STRINGS.ASCENSIONS.SUPER_MODIFIERS.ELITE_BOSS
 msgctxt "STRINGS.ASCENSIONS.SUPER_MODIFIERS.ELITE_BOSS"
-msgid "{name.elite_prefix} {name.rot_boss}\n"
-"<z 0.9>No Freebies</z>"
-msgstr "{3:{Name.elite_prefix}} {name.rot_boss}\n"
-"<z 0.9>Нічого безплатного</z>"
+msgid "Elite {name.rot_boss}"
+msgstr ""
 
 #: STRINGS.ASCENSIONS.SUPER_MODIFIERS.HIGHER_COSTS
 msgctxt "STRINGS.ASCENSIONS.SUPER_MODIFIERS.HIGHER_COSTS"
@@ -20534,8 +20518,8 @@ msgstr "Добувається зі звичайних гнильців."
 
 #: STRINGS.CRAFT_WIDGET.FOUND_IN_UPGRADE
 msgctxt "STRINGS.CRAFT_WIDGET.FOUND_IN_UPGRADE"
-msgid "Found in Frenzied Hunts."
-msgstr "Знайдено в божевільному полюванні."
+msgid "Found in Frenzy Levels 2 and higher."
+msgstr ""
 
 #: STRINGS.CRAFT_WIDGET.INGREDIENTS
 msgctxt "STRINGS.CRAFT_WIDGET.INGREDIENTS"
@@ -27802,8 +27786,8 @@ msgstr "Щоразу, коли ви завдаєте <#RED>зарядженої 
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.crit_on_charged_damage.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.crit_on_charged_damage.name"
-msgid "Thunderstruck"
-msgstr "Удар грому"
+msgid "[TEMP] Crit on Charged Damage"
+msgstr ""
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.heal_on_charged_damage.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.heal_on_charged_damage.desc"
@@ -42112,11 +42096,6 @@ msgstr "Вирушайте самостійно та досліджуйте Ро
 msgctxt "STRINGS.UI.MAINSCREEN.BTN_SINGLE_PLAYER_TITLE"
 msgid "Local Play"
 msgstr "Локальна гра"
-
-#: STRINGS.UI.MAINSCREEN.CMDLINE_ARGS
-msgctxt "STRINGS.UI.MAINSCREEN.CMDLINE_ARGS"
-msgid "Launch Options: {args}"
-msgstr ""
 
 #: STRINGS.UI.MAINSCREEN.DISCORD_CTA.BODY
 msgctxt "STRINGS.UI.MAINSCREEN.DISCORD_CTA.BODY"
