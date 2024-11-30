@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-11-30 12:59\n"
+"PO-Revision-Date: 2024-11-30 13:24\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -37283,12 +37283,12 @@ msgstr "<p img='images/ui_ftf_icons/konjur_heart.tex' rpad=1>Кам'яне се�
 #: STRINGS.NAMES.i_gem_dust
 msgctxt "STRINGS.NAMES.i_gem_dust"
 msgid "<p img='images/ui_ftf/gem_dust.tex' rpad=1>Gem Dust"
-msgstr ""
+msgstr "<p img='images/ui_ftf/gem_dust.tex' rpad=1> Подрібнити"
 
 #: STRINGS.NAMES.i_gem_dust_amt
 msgctxt "STRINGS.NAMES.i_gem_dust_amt"
 msgid "<p img='images/ui_ftf/gem_dust.tex' rpad=1>%s Gem Dust"
-msgstr ""
+msgstr "<p img='images/ui_ftf/gem_dust.tex' rpad=1>%s пилу самоцвітів"
 
 #: STRINGS.NAMES.i_konjur
 msgctxt "STRINGS.NAMES.i_konjur"
@@ -41920,7 +41920,7 @@ msgstr "У цей слот можна вмістити будь-який {name.g
 #: STRINGS.UI.GEMSCREEN.DUST_BTN
 msgctxt "STRINGS.UI.GEMSCREEN.DUST_BTN"
 msgid "Dust gem"
-msgstr "Пил самоцвітів"
+msgstr "Подрібнити"
 
 #: STRINGS.UI.GEMSCREEN.DUST_BTN_COST
 msgctxt "STRINGS.UI.GEMSCREEN.DUST_BTN_COST"
@@ -41930,17 +41930,17 @@ msgstr "+%d <p img='images/ui_ftf/gem_dust.tex' scale=1>"
 #: STRINGS.UI.GEMSCREEN.DUST_DISABLED_HOTKEY
 msgctxt "STRINGS.UI.GEMSCREEN.DUST_DISABLED_HOTKEY"
 msgid "<#DISABLED_HOTKEYS><p bind='Controls.Digital.DUST_GEM' color=0 scale=1> Dust gem (+%d <p img='images/ui_ftf/gem_dust.tex' scale=1>)</>"
-msgstr ""
+msgstr "<#DISABLED_HOTKEYS><p bind='Controls.Digital.DUST_GEM' color=0 scale=1> Подрібнити (+%d <p img='images/ui_ftf/gem_dust.tex' scale=1>)</>"
 
 #: STRINGS.UI.GEMSCREEN.DUST_HOTKEY
 msgctxt "STRINGS.UI.GEMSCREEN.DUST_HOTKEY"
 msgid "<p bind='Controls.Digital.DUST_GEM' color=0 scale=1> Dust gem (+%d <p img='images/ui_ftf/gem_dust.tex' scale=1>)"
-msgstr ""
+msgstr "<p bind='Controls.Digital.DUST_GEM' color=0 scale=1> Подрібнити (+%d <p img='images/ui_ftf/gem_dust.tex' scale=1>)"
 
 #: STRINGS.UI.GEMSCREEN.DUST_POPUP.MESSAGE
 msgctxt "STRINGS.UI.GEMSCREEN.DUST_POPUP.MESSAGE"
 msgid "The gem will be crumbled into %d <p img='images/ui_ftf/gem_dust.tex' scale=1> Gem Dust."
-msgstr ""
+msgstr "Самоцвіт буде розбито і ви отримаєте %d <p img='images/ui_ftf/gem_dust.tex' scale=1> пилу самоцвітів."
 
 #: STRINGS.UI.GEMSCREEN.DUST_POPUP.SUBTITLE
 msgctxt "STRINGS.UI.GEMSCREEN.DUST_POPUP.SUBTITLE"
@@ -41950,7 +41950,7 @@ msgstr "<p img='%s' scale=1.4> %s"
 #: STRINGS.UI.GEMSCREEN.DUST_POPUP.TITLE
 msgctxt "STRINGS.UI.GEMSCREEN.DUST_POPUP.TITLE"
 msgid "Dust this gem?"
-msgstr ""
+msgstr "Подрібнити цей самоцвіт?"
 
 #: STRINGS.UI.GEMSCREEN.EMPTY_GEMS_LIST
 msgctxt "STRINGS.UI.GEMSCREEN.EMPTY_GEMS_LIST"
@@ -41983,7 +41983,7 @@ msgstr "Вставити самоцвіт"
 #: STRINGS.UI.GEMSCREEN.EQUIP_HOTKEY
 msgctxt "STRINGS.UI.GEMSCREEN.EQUIP_HOTKEY"
 msgid "<p bind='Controls.Digital.MENU_ACCEPT' color=0 scale=1> Set gem"
-msgstr ""
+msgstr "<p bind='Controls.Digital.MENU_ACCEPT' color=0 scale=1> Вставити самоцвіт"
 
 #: STRINGS.UI.GEMSCREEN.GEMS_EMPTY
 msgctxt "STRINGS.UI.GEMSCREEN.GEMS_EMPTY"
@@ -41998,12 +41998,12 @@ msgstr "КОЛЕКЦІЯ САМОЦВІТІВ"
 #: STRINGS.UI.GEMSCREEN.GEM_BONUS_ACTIVE
 msgctxt "STRINGS.UI.GEMSCREEN.GEM_BONUS_ACTIVE"
 msgid "<p img='images/ui_ftf_options/checkbox_checked.tex' color=40AB38FF> Slot Match"
-msgstr ""
+msgstr "<p img='images/ui_ftf_options/checkbox_checked.tex' color=40AB38FF> Сумісність слоту"
 
 #: STRINGS.UI.GEMSCREEN.GEM_BONUS_INACTIVE
 msgctxt "STRINGS.UI.GEMSCREEN.GEM_BONUS_INACTIVE"
 msgid "<p img='images/ui_ftf_options/checkbox_unchecked.tex' color=967D71FF> Slot Match"
-msgstr ""
+msgstr "<p img='images/ui_ftf_options/checkbox_unchecked.tex' color=967D71FF> Сумісність слоту"
 
 #: STRINGS.UI.GEMSCREEN.GEM_EQUIPPED_OTHER_ITEM
 msgctxt "STRINGS.UI.GEMSCREEN.GEM_EQUIPPED_OTHER_ITEM"
@@ -42091,12 +42091,12 @@ msgstr ""
 #: STRINGS.UI.GEMSCREEN.UNEQUIP_BTN
 msgctxt "STRINGS.UI.GEMSCREEN.UNEQUIP_BTN"
 msgid "Unset"
-msgstr "Зняти"
+msgstr "Дістати"
 
 #: STRINGS.UI.GEMSCREEN.UNEQUIP_HOTKEY
 msgctxt "STRINGS.UI.GEMSCREEN.UNEQUIP_HOTKEY"
 msgid "<p bind='Controls.Digital.UNSET_GEM' color=0 scale=1> Unset"
-msgstr ""
+msgstr "<p bind='Controls.Digital.UNSET_GEM' color=0 scale=1> Дістати"
 
 #: STRINGS.UI.GEMSCREEN.UNLOCK_POPUP.DESC
 msgctxt "STRINGS.UI.GEMSCREEN.UNLOCK_POPUP.DESC"
@@ -42123,17 +42123,17 @@ msgstr "{Name_multiple.gem}"
 #: STRINGS.UI.GEMSCREEN.UNSET_GEM_POPUP.MESSAGE
 msgctxt "STRINGS.UI.GEMSCREEN.UNSET_GEM_POPUP.MESSAGE"
 msgid "Do you want to unset it from there first?"
-msgstr ""
+msgstr "Ви хочете спочатку дістати його звідти?"
 
 #: STRINGS.UI.GEMSCREEN.UNSET_GEM_POPUP.SUBTITLE
 msgctxt "STRINGS.UI.GEMSCREEN.UNSET_GEM_POPUP.SUBTITLE"
 msgid "<p img='%s' scale=1.4> %s"
-msgstr ""
+msgstr "<p img='%s' scale=1.4> %s"
 
 #: STRINGS.UI.GEMSCREEN.UNSET_GEM_POPUP.TITLE
 msgctxt "STRINGS.UI.GEMSCREEN.UNSET_GEM_POPUP.TITLE"
 msgid "Gem already set on your"
-msgstr ""
+msgstr "Самоцвіт вже встановлено в"
 
 #: STRINGS.UI.HEARTSCREEN.ADD_MORE_HEARTS
 msgctxt "STRINGS.UI.HEARTSCREEN.ADD_MORE_HEARTS"
@@ -42479,12 +42479,12 @@ msgstr "Прямувати додому!"
 #: STRINGS.UI.IDENTIFYGEMSCREEN.ACCEPT_DUST_BTN
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.ACCEPT_DUST_BTN"
 msgid "Keep dust"
-msgstr ""
+msgstr "Залишити пил"
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.ACCEPT_GEM_BTN
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.ACCEPT_GEM_BTN"
 msgid "Keep gem"
-msgstr ""
+msgstr "Залишити самоцвіт"
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.CANT_AFFORD
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.CANT_AFFORD"
@@ -42509,12 +42509,12 @@ msgstr "Нехай {name.npc_blacksmith} розпізнає знайдені в�
 #: STRINGS.UI.IDENTIFYGEMSCREEN.DUST_COUNT
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.DUST_COUNT"
 msgid "%d Gem Dust remains."
-msgstr ""
+msgstr "Залишилось %d пилу самоцвітів."
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.DUST_TITLE
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.DUST_TITLE"
 msgid "The gem crumbled"
-msgstr ""
+msgstr "Самоцвіт розсипався"
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.GEM_COUNT
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.GEM_COUNT"
@@ -42534,7 +42534,7 @@ msgstr ""
 #: STRINGS.UI.IDENTIFYGEMSCREEN.NOTIFICATION_DUST_DESC
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.NOTIFICATION_DUST_DESC"
 msgid "Added to <#RED>%s</>'s Chest."
-msgstr ""
+msgstr "Додано до скрині <#RED>%s</>."
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.NOTIFICATION_DUST_TITLE
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.NOTIFICATION_DUST_TITLE"
@@ -42569,7 +42569,7 @@ msgstr "Переобрати"
 #: STRINGS.UI.IDENTIFYGEMSCREEN.RETRY_DESC
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.RETRY_DESC"
 msgid "You can retry polishing this {name.gem}, but there's a chance it'll break into {name.i_gem_dust_amt}."
-msgstr ""
+msgstr "Ви можете ще раз спробувати відшліфувати цей {name.gem}, але є ймовірність, що ви отримаєте {name.i_gem_dust_amt}."
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.RETRY_TITLE
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.RETRY_TITLE"
