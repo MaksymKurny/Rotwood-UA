@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-11-30 12:56\n"
+"PO-Revision-Date: 2024-11-30 12:59\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -42489,7 +42489,7 @@ msgstr ""
 #: STRINGS.UI.IDENTIFYGEMSCREEN.CANT_AFFORD
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.CANT_AFFORD"
 msgid "Not enough gem dust."
-msgstr ""
+msgstr "Недостатньо пилу самоцвітів."
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.CRAFT_BTN
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.CRAFT_BTN"
@@ -42574,12 +42574,12 @@ msgstr ""
 #: STRINGS.UI.IDENTIFYGEMSCREEN.RETRY_TITLE
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.RETRY_TITLE"
 msgid "%.0f%% SUCCESS RATE"
-msgstr ""
+msgstr "РІВЕНЬ УСПІХУ %.0f%%"
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.STORED
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.STORED"
 msgid "<p img='images/icons_ftf/decor_stored.tex' color=0 scale=1.4> %s"
-msgstr ""
+msgstr "<p img='images/icons_ftf/decor_stored.tex' color=0 scale=1.4> %s"
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.TITLE
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.TITLE"
