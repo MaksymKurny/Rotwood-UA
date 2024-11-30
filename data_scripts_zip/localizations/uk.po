@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-11-16 20:32\n"
+"PO-Revision-Date: 2024-11-30 12:56\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -7989,7 +7989,7 @@ msgctxt "Convo.twn_frenzy_firstdone_scout.ATTRACT0.complete_frenzy.giver.STATE_0
 msgid "agent:\n"
 " !neutral\n"
 " !think\n"
-" ...<z 0.7><i>I-I don't understand... the fourth <#KONJUR>{name.i_konjur_heart}</> was supposed to... what did I miss?</z></i>\n"
+" ...<z 0.7><i>I-I don't understand... the fourth <#KONJUR>{name.i_konjur_heart}</> was supposed to... what did I miss?</></>\n"
 " !shocked\n"
 " Ah! Hunter! Y-you startled me.\n"
 " !gesture\n"
@@ -8007,7 +8007,7 @@ msgid "agent:\n"
 " Some kind of <#KONJUR>{name.gem}</>, aye? Let me get a better look.\n"
 " !neutral\n"
 " !think\n"
-" <i>(Hrmm... seems like... and the clarity... aye... should have enough power... t'would do nicely...)</>\n"
+" Hrmm... <z 0.7>seems like... and the clarity... aye... should have enough power... t'would do nicely...</>\n"
 " !neutral\n"
 " Nope. Don't know a thing about it."
 msgstr ""
@@ -8096,7 +8096,7 @@ msgstr "Пізніше, {Name.npc_blacksmith}!"
 #: Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.QUESTION_1
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.QUESTION_1"
 msgid "Can you tell me anything about this? <i><#RED><z 0.7>(Show {name.npc_blacksmith} the Unidentified {name.gem})</z></></i>"
-msgstr ""
+msgstr "Чи можеш ти мені щось сказати про це? <i><#RED><z 0.7>(Показати {3:{Name.npc_blacksmith}} невідомий {name.gem})</z></></i>"
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.QUESTION_2
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.QUESTION_2"
@@ -9369,19 +9369,11 @@ msgid "agent:\n"
 " !point\n"
 " <#RED>Frenzied</> Hunts are tougher than regular Hunts, but you need them for progression-- they're the only way to get those precious <#KONJUR>{name_multiple.i_konjur_heart}</>.\n"
 " !dubious\n"
-" Be mindful, though. <#RED>Reviving</> allies is free on regular Hunts, but on <#RED>Frenzy Level 1</> and above, it'll cost you some <#RED>Health</> to pick up a friend.\n"
+" Be mindful, though. <#RED>Reviving</> allies is free on regular Hunts, but on <#RED>Frenzy Level 2</> and above, it'll cost you some <#RED>Health</> to pick up a friend.\n"
 " !happy\n"
 " !gruffnod\n"
 " If you're worried, don't be. <#RED>Frenzy Levels</> might be challenging, but you'll never be given access to one that's beyond your ability."
-msgstr "agent:\n"
-"!neutral\n"
-"!point\n"
-"<#RED>Божевільні</> полювання складніші за звичайні, але їх необхідно пройти для прогресу — це єдиний спосіб отримати ці дорогоцінні <#KONJUR>{name_multiple.i_konjur_heart}</>.\n"
-"!dubious\n"
-"Але будьте уважними. <#RED>Оживлення</> союзників безплатне на звичайних полюваннях, але на <#RED>рівні божевілля 1</> і вище, вам доведеться втратити трохи <#RED>здоров'я</>, щоб підняти друга.\n"
-"!happy\n"
-"!gruffnod\n"
-"Якщо ви хвилюєтесь, не варто. <#RED>Рівні божевілля</> можуть бути складними, але вам ніколи не дозволять брати участь у тому, що перевищує ваші можливості."
+msgstr ""
 
 #: Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.TUTORIALS.GENERAL.FRENZIED_HUNTS_BTN
 msgctxt "Convo.twn_repeatable_tutorials_dojo.HUB0.general_tutorial.giver.STATE_0.TUTORIALS.GENERAL.FRENZIED_HUNTS_BTN"
@@ -10772,15 +10764,8 @@ msgid "agent:\n"
 " !point\n"
 " Let's comb the woods as far as we can. \n"
 " !agree\n"
-" The <#RED>{name.damselfly}</> is still operational, so I'll following in the air to make sure you stay safe, and scoop up anyone you find along the way."
-msgstr "agent:\n"
-" !neutral\n"
-" !shrug\n"
-" <#BLUE>{Name.npc_dojo_master}</> зник також, але він може за себе постояти.\n"
-" !point\n"
-" Пройдімось лісом наскільки зможемо.\n"
-" !agree\n"
-" <#RED>{Name.damselfly}</> все ще працює, тому я буду слідувати за вами в повітрі, щоб переконатися, що ви залишаєтеся в безпеці, і підбирати всіх, кого ви зустрінете по дорозі."
+" The <#RED>{name.damselfly}</> is still operational, so I'll be following in the air to make sure you stay safe, and scoop up anyone you find along the way."
+msgstr ""
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_1
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_1"
@@ -11941,25 +11926,29 @@ msgstr "agent:\n"
 msgctxt "Quest.dgn_seen_missing_friends_armorsmith_market.QUIP.chitchat:[in_quest_dgn_seen_missing_friends_armorsmith_market,location_treemon_forest,role_market_merchant]NOT[qc_twn_fn_unlocked_armorsmith].1"
 msgid "agent:\n"
 " ..."
-msgstr ""
+msgstr "agent:\n"
+" ..."
 
 #: Quest.dgn_seen_missing_friends_armorsmith_powerupgrade.QUIP.chitchat:[in_quest_dgn_seen_missing_friends_armorsmith_powerupgrade,location_treemon_forest,role_konjurist]NOT[qc_twn_fn_unlocked_armorsmith].1
 msgctxt "Quest.dgn_seen_missing_friends_armorsmith_powerupgrade.QUIP.chitchat:[in_quest_dgn_seen_missing_friends_armorsmith_powerupgrade,location_treemon_forest,role_konjurist]NOT[qc_twn_fn_unlocked_armorsmith].1"
 msgid "agent:\n"
 " ..."
-msgstr ""
+msgstr "agent:\n"
+" ..."
 
 #: Quest.dgn_seen_missing_friends_blacksmith_market.QUIP.chitchat:[in_quest_dgn_seen_missing_friends_blacksmith_market,location_owlitzer_forest,role_market_merchant]NOT[qc_twn_fn_unlocked_blacksmith].1
 msgctxt "Quest.dgn_seen_missing_friends_blacksmith_market.QUIP.chitchat:[in_quest_dgn_seen_missing_friends_blacksmith_market,location_owlitzer_forest,role_market_merchant]NOT[qc_twn_fn_unlocked_blacksmith].1"
 msgid "agent:\n"
 " ..."
-msgstr ""
+msgstr "agent:\n"
+" ..."
 
 #: Quest.dgn_seen_missing_friends_blacksmith_powerupgrade.QUIP.chitchat:[in_quest_dgn_seen_missing_friends_blacksmith_powerupgrade,location_owlitzer_forest,qc_twn_fn_unlocked_armorsmith,role_konjurist]NOT[qc_twn_fn_unlocked_blacksmith].1
 msgctxt "Quest.dgn_seen_missing_friends_blacksmith_powerupgrade.QUIP.chitchat:[in_quest_dgn_seen_missing_friends_blacksmith_powerupgrade,location_owlitzer_forest,qc_twn_fn_unlocked_armorsmith,role_konjurist]NOT[qc_twn_fn_unlocked_blacksmith].1"
 msgid "agent:\n"
 " ..."
-msgstr ""
+msgstr "agent:\n"
+" ..."
 
 #: Quest.dgn_seen_missing_friends_potion.QUIP.chitchat:[can_craft_potion,chitchat,in_quest_dgn_seen_missing_friends_potion,location_treemon_forest,role_travelling_salesman,seen_first_time].1
 msgctxt "Quest.dgn_seen_missing_friends_potion.QUIP.chitchat:[can_craft_potion,chitchat,in_quest_dgn_seen_missing_friends_potion,location_treemon_forest,role_travelling_salesman,seen_first_time].1"
@@ -16686,8 +16675,8 @@ msgstr "!neutral\n"
 " !dubious\n"
 " Гм? О мій друже, я не знав, що ви слухаєте!"
 
-#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers].1
-msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers].1"
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers]NOT[can_get_free_upgrade].1
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers]NOT[can_get_free_upgrade].1"
 msgid "!neutral\n"
 " !notebook\n"
 " Need another <#RED>Upgrade</>?\n"
@@ -16695,36 +16684,36 @@ msgid "!neutral\n"
 " Next one'll cost you."
 msgstr ""
 
-#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers].2
-msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers].2"
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers]NOT[can_get_free_upgrade].2
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers]NOT[can_get_free_upgrade].2"
 msgid "!neutral\n"
 " !notebook\n"
 " Don't forget, only the <i>first</i> one's free."
 msgstr ""
 
-#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers].3
-msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers].3"
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers]NOT[can_get_free_upgrade].3
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers]NOT[can_get_free_upgrade].3"
 msgid "!neutral\n"
 " !gesture\n"
 " I can do more <#RED>Upgrades</> if you don't mind paying."
 msgstr ""
 
-#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers].4
-msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers].4"
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers]NOT[can_get_free_upgrade].4
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers]NOT[can_get_free_upgrade].4"
 msgid "!neutral\n"
 " !shrug\n"
 " I'm out spare <#KONJUR>{name.konjur}</>, so you'll have to pay if you want another <#RED>Upgrade</>."
 msgstr ""
 
-#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers].5
-msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers].5"
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers]NOT[can_get_free_upgrade].5
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers]NOT[can_get_free_upgrade].5"
 msgid "!neutral\n"
 " !gesture\n"
 " Thanks for letting me do a free <#RED>Upgrade</>. It's a nice break."
 msgstr ""
 
-#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers].6
-msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers].6"
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers]NOT[can_get_free_upgrade].6
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,received_power_upgrade,role_konjurist,run_has_free_upgrades,upgradable_powers]NOT[can_get_free_upgrade].6"
 msgid "!neutral\n"
 " !shrug\n"
 " Hope that free <#RED>Upgrade</> does you some good."
@@ -16915,8 +16904,8 @@ msgid "!neutral\n"
 " Oh. Is it <#RED>Upgrade</> time?"
 msgstr ""
 
-#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_konjurist,upgradable_powers]no_freebie.1
-msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_konjurist,upgradable_powers]no_freebie.1"
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_konjurist,upgradable_powers]NOT[received_power_upgrade,run_has_free_upgrades]no_freebie.1
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_konjurist,upgradable_powers]NOT[received_power_upgrade,run_has_free_upgrades]no_freebie.1"
 msgid "!neutral\n"
 " !notebook\n"
 " Sorry, I've got no <#KONJUR>{name.i_konjur}</> to spare.\n"
@@ -16924,15 +16913,15 @@ msgid "!neutral\n"
 " If you want an <#RED>Upgrade</>, you're gonna have to pay up."
 msgstr ""
 
-#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_konjurist,upgradable_powers]no_freebie.2
-msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_konjurist,upgradable_powers]no_freebie.2"
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_konjurist,upgradable_powers]NOT[received_power_upgrade,run_has_free_upgrades]no_freebie.2
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_konjurist,upgradable_powers]NOT[received_power_upgrade,run_has_free_upgrades]no_freebie.2"
 msgid "!neutral\n"
 " !notebook\n"
 " No free <#RED>Upgrades</> this time around."
 msgstr ""
 
-#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_konjurist,upgradable_powers]no_freebie.3
-msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_konjurist,upgradable_powers]no_freebie.3"
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_konjurist,upgradable_powers]NOT[received_power_upgrade,run_has_free_upgrades]no_freebie.3
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_konjurist,upgradable_powers]NOT[received_power_upgrade,run_has_free_upgrades]no_freebie.3"
 msgid "!neutral\n"
 " !shrug\n"
 " Hey. This has been a great experiment and all, but...\n"
@@ -18640,19 +18629,11 @@ msgid "agent:\n"
 " !point\n"
 " <#RED>Frenzied</> Hunts are tougher than regular Hunts, but you need them for progression-- they're the only way to get those precious <#KONJUR>{name_multiple.i_konjur_heart}</>.\n"
 " !dubious\n"
-" Be mindful, though. <#RED>Reviving</> allies is free on regular Hunts, but on <#RED>Frenzy Level 1</> and above, it'll cost you some <#RED>Health</> to pick up a friend.\n"
+" Be mindful, though. <#RED>Reviving</> allies is free on regular Hunts, but on <#RED>Frenzy Level 2</> and above, it'll cost you some <#RED>Health</> to pick up a friend.\n"
 " !happy\n"
 " !gruffnod\n"
 " If you're worried, don't be. <#RED>Frenzy Levels</> might be challenging, but you'll never be given access to one that's beyond your ability."
-msgstr "agent:\n"
-"!neutral\n"
-"!point\n"
-"<#RED>Божевільні</> полювання складніші за звичайні, але їх необхідно пройти для прогресу — це єдиний спосіб отримати ці дорогоцінні <#KONJUR>{name_multiple.i_konjur_heart}</>.\n"
-"!dubious\n"
-"Але будьте уважними. <#RED>Оживлення</> союзників безплатне на звичайних полюваннях, але на <#RED>рівні божевілля 1</> і вище, вам доведеться втратити трохи <#RED>здоров'я</>, щоб підняти друга.\n"
-"!happy\n"
-"!gruffnod\n"
-"Якщо ви хвилюєтесь, не варто. <#RED>Рівні божевілля</> можуть бути складними, але вам ніколи не дозволять брати участь у тому, що перевищує ваші можливості."
+msgstr ""
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.FRENZIED_HUNTS_BTN
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.FRENZIED_HUNTS_BTN"
@@ -18990,8 +18971,8 @@ msgstr "Це дівча може виглядати як лисиця, але в
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[bandicoot,lost_boss]nervous.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[bandicoot,lost_boss]nervous.1"
-msgid "Ah. They say a coyote is most dangerous when it's cornered."
-msgstr "Ага. Кажуть, що койоти найбільш небезпечні, коли їх заганяють у кут."
+msgid "Ah. They say a hunted animal is most dangerous when it's cornered."
+msgstr ""
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[bandicoot,lost_boss]nervous.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[bandicoot,lost_boss]nervous.2"
@@ -23372,6 +23353,23 @@ msgctxt "STRINGS.ITEMS.GEMS.PROTOTYPE_DESC_TUTORIAL"
 msgid "Slot into a <#RED>Weapon</> at the <#RED>{name.station_gems}</>, located by {name.npc_blacksmith}."
 msgstr "Вставте в <#RED>зброю</> викрориставши <#RED>{name.station_gems}</>, поставлений {Name.npc_blacksmith}ем."
 
+#: STRINGS.ITEMS.GEMS.boss_soul.desc
+msgctxt "STRINGS.ITEMS.GEMS.boss_soul.desc"
+msgid ""
+msgstr ""
+""
+
+#: STRINGS.ITEMS.GEMS.boss_soul.name
+msgctxt "STRINGS.ITEMS.GEMS.boss_soul.name"
+msgid "Teffressence Container {name.gem}"
+msgstr ""
+
+#: STRINGS.ITEMS.GEMS.boss_soul.slotted_desc
+msgctxt "STRINGS.ITEMS.GEMS.boss_soul.slotted_desc"
+msgid "Kill an <#RED>{name.elite_prefix} {name.rot_boss}</> to consume this {name.gem} and <#RED>Imbue</> the equipped Item allowing <#RED>upgrading past Level 9</>.\n\n"
+"Not valid in {name_multiple.weapon_crystal} or Boss Weapons."
+msgstr ""
+
 #: STRINGS.ITEMS.GEMS.crit_chance.desc
 msgctxt "STRINGS.ITEMS.GEMS.crit_chance.desc"
 msgid "You can sense this {name.gem} judging you."
@@ -25126,7 +25124,7 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.heal_on_enter.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.heal_on_enter.slotted_desc"
 msgid "max_health_on_enter desc"
-msgstr ""
+msgstr "max_health_on_enter desc"
 
 #: STRINGS.ITEMS.GEMS.heal_on_enter.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.heal_on_enter.stat_name"
@@ -25282,7 +25280,7 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.max_health_on_enter.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.max_health_on_enter.slotted_desc"
 msgid "max_health_on_enter desc"
-msgstr ""
+msgstr "max_health_on_enter desc"
 
 #: STRINGS.ITEMS.GEMS.max_health_on_enter.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.max_health_on_enter.stat_name"
@@ -26524,7 +26522,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.gem_dust.name
 msgctxt "STRINGS.ITEMS.MATERIALS.gem_dust.name"
 msgid "{name.gem} Dust"
-msgstr ""
+msgstr "Пил {3:{name.gem}}"
 
 #: STRINGS.ITEMS.MATERIALS.gem_unidentified.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.gem_unidentified.desc"
@@ -26551,12 +26549,12 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.gem_unidentified_damage.name
 msgctxt "STRINGS.ITEMS.MATERIALS.gem_unidentified_damage.name"
 msgid "Unidentified Red Gem"
-msgstr ""
+msgstr "Невідомий червоний самоцвіт"
 
 #: STRINGS.ITEMS.MATERIALS.gem_unidentified_damage.name_multiple_fmt
 msgctxt "STRINGS.ITEMS.MATERIALS.gem_unidentified_damage.name_multiple_fmt"
 msgid "Unidentified Red Gem ({count})"
-msgstr ""
+msgstr "Невідомий червоний самоцвіт ({count})"
 
 #: STRINGS.ITEMS.MATERIALS.gem_unidentified_support.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.gem_unidentified_support.desc"
@@ -26567,12 +26565,12 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.gem_unidentified_support.name
 msgctxt "STRINGS.ITEMS.MATERIALS.gem_unidentified_support.name"
 msgid "Unidentified Yellow Gem"
-msgstr ""
+msgstr "Невідомий жовтий самоцвіт"
 
 #: STRINGS.ITEMS.MATERIALS.gem_unidentified_support.name_multiple_fmt
 msgctxt "STRINGS.ITEMS.MATERIALS.gem_unidentified_support.name_multiple_fmt"
 msgid "Unidentified Yellow Gem ({count})"
-msgstr ""
+msgstr "Невідомий жовтий самоцвіт ({count})"
 
 #: STRINGS.ITEMS.MATERIALS.gem_unidentified_sustain.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.gem_unidentified_sustain.desc"
@@ -26583,12 +26581,12 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.gem_unidentified_sustain.name
 msgctxt "STRINGS.ITEMS.MATERIALS.gem_unidentified_sustain.name"
 msgid "Unidentified Blue Gem"
-msgstr ""
+msgstr "Невідомий синій самоцвіт"
 
 #: STRINGS.ITEMS.MATERIALS.gem_unidentified_sustain.name_multiple_fmt
 msgctxt "STRINGS.ITEMS.MATERIALS.gem_unidentified_sustain.name_multiple_fmt"
 msgid "Unidentified Blue Gem ({count})"
-msgstr ""
+msgstr "Невідомий синій самоцвіт ({count})"
 
 #: STRINGS.ITEMS.MATERIALS.glitz.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.glitz.desc"
@@ -35404,7 +35402,7 @@ msgstr "Шукайте тепла біля {torches} смолоскипа."
 
 #: STRINGS.ITEMS.WEATHERS.eggberts.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.eggberts.desc"
-msgid "{rarity_text} {name_multiple.eggbert} spawn from the bushes."
+msgid "{rarity_text} periodically appear on the battlefield."
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.eggberts.name
@@ -35414,18 +35412,17 @@ msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.eggberts.rarity_text_COMMON
 msgctxt "STRINGS.ITEMS.WEATHERS.eggberts.rarity_text_COMMON"
-msgid ""
+msgid "Some {name_multiple.eggbert}"
 msgstr ""
-""
 
 #: STRINGS.ITEMS.WEATHERS.eggberts.rarity_text_EPIC
 msgctxt "STRINGS.ITEMS.WEATHERS.eggberts.rarity_text_EPIC"
-msgid "More"
+msgid "{name_multiple.eggbert}"
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.eggberts.rarity_text_LEGENDARY
 msgctxt "STRINGS.ITEMS.WEATHERS.eggberts.rarity_text_LEGENDARY"
-msgid "Even more"
+msgid "Loads of {name_multiple.eggbert}"
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.ghost.desc
@@ -35455,28 +35452,12 @@ msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.groakspores.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.groakspores.desc"
-msgid "{rarity_text} {name.groak} spores are strewn around the {name.dungeon_room}."
+msgid "There are {traps} {name.groak} spores strewn around the {name.dungeon_room}."
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.groakspores.name
 msgctxt "STRINGS.ITEMS.WEATHERS.groakspores.name"
 msgid "{name.groak} Spores"
-msgstr ""
-
-#: STRINGS.ITEMS.WEATHERS.groakspores.rarity_text_COMMON
-msgctxt "STRINGS.ITEMS.WEATHERS.groakspores.rarity_text_COMMON"
-msgid ""
-msgstr ""
-""
-
-#: STRINGS.ITEMS.WEATHERS.groakspores.rarity_text_EPIC
-msgctxt "STRINGS.ITEMS.WEATHERS.groakspores.rarity_text_EPIC"
-msgid "More"
-msgstr ""
-
-#: STRINGS.ITEMS.WEATHERS.groakspores.rarity_text_LEGENDARY
-msgctxt "STRINGS.ITEMS.WEATHERS.groakspores.rarity_text_LEGENDARY"
-msgid "Even more"
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.heal_on_kill_bow.desc
@@ -35541,18 +35522,18 @@ msgstr "Крижані хмари"
 
 #: STRINGS.ITEMS.WEATHERS.iceclouds.rarity_text_COMMON
 msgctxt "STRINGS.ITEMS.WEATHERS.iceclouds.rarity_text_COMMON"
-msgid "Ice Farts"
-msgstr "Крижані гази"
+msgid "Ice Clouds"
+msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.iceclouds.rarity_text_EPIC
 msgctxt "STRINGS.ITEMS.WEATHERS.iceclouds.rarity_text_EPIC"
-msgid "Many Ice Farts"
-msgstr "Багато крижаних газів"
+msgid "Many Ice Clouds"
+msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.iceclouds.rarity_text_LEGENDARY
 msgctxt "STRINGS.ITEMS.WEATHERS.iceclouds.rarity_text_LEGENDARY"
-msgid "Constant Ice Farts"
-msgstr "Крижані гази постійно"
+msgid "Constant Ice Clouds"
+msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.icicle_prison.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.icicle_prison.desc"
@@ -35571,12 +35552,12 @@ msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.icicle_prison.rarity_text_EPIC
 msgctxt "STRINGS.ITEMS.WEATHERS.icicle_prison.rarity_text_EPIC"
-msgid "A bigger prison"
+msgid "A large prison"
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.icicle_prison.rarity_text_LEGENDARY
 msgctxt "STRINGS.ITEMS.WEATHERS.icicle_prison.rarity_text_LEGENDARY"
-msgid "An even bigger prison"
+msgid "A huge prison"
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.increased_critchance.desc
@@ -35661,7 +35642,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.lastword.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.lastword.desc"
-msgid "Whenever something dies, make {rarity_text}."
+msgid "Whenever something dies, it makes {rarity_text}."
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.lastword.name
@@ -35676,12 +35657,12 @@ msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.lastword.rarity_text_EPIC
 msgctxt "STRINGS.ITEMS.WEATHERS.lastword.rarity_text_EPIC"
-msgid "a bigger explosion."
+msgid "a big explosion"
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.lastword.rarity_text_LEGENDARY
 msgctxt "STRINGS.ITEMS.WEATHERS.lastword.rarity_text_LEGENDARY"
-msgid "an even bigger explosion."
+msgid "a huge explosion"
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.menace.desc
@@ -35711,22 +35692,52 @@ msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.mothballprojectiles.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.mothballprojectiles.desc"
-msgid "{name.mothball_teen} projectiles spawn from the sides of the {name.dungeon_room}."
+msgid "{rarity_text} throughout the {name.dungeon_room}."
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.mothballprojectiles.name
 msgctxt "STRINGS.ITEMS.WEATHERS.mothballprojectiles.name"
-msgid "{name.mothball_teen} Projectiles"
+msgid "Unidentified Orbs"
+msgstr "Невідома куля"
+
+#: STRINGS.ITEMS.WEATHERS.mothballprojectiles.rarity_text_COMMON
+msgctxt "STRINGS.ITEMS.WEATHERS.mothballprojectiles.rarity_text_COMMON"
+msgid "An oily orb meanders"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.mothballprojectiles.rarity_text_EPIC
+msgctxt "STRINGS.ITEMS.WEATHERS.mothballprojectiles.rarity_text_EPIC"
+msgid "Oily orbs meander"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.mothballprojectiles.rarity_text_LEGENDARY
+msgctxt "STRINGS.ITEMS.WEATHERS.mothballprojectiles.rarity_text_LEGENDARY"
+msgid "Confusing and oily orbs meander"
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.mothballsondeath.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.mothballsondeath.desc"
-msgid "Whenever something dies, {name_multiple.mothball} spawn."
+msgid "Whenever something dies, {rarity_text} burst out of it."
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.mothballsondeath.name
 msgctxt "STRINGS.ITEMS.WEATHERS.mothballsondeath.name"
 msgid "{name_multiple.mothball}"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.mothballsondeath.rarity_text_COMMON
+msgctxt "STRINGS.ITEMS.WEATHERS.mothballsondeath.rarity_text_COMMON"
+msgid "a few {name_multiple.mothball}"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.mothballsondeath.rarity_text_EPIC
+msgctxt "STRINGS.ITEMS.WEATHERS.mothballsondeath.rarity_text_EPIC"
+msgid "{name_multiple.mothball}"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.mothballsondeath.rarity_text_LEGENDARY
+msgctxt "STRINGS.ITEMS.WEATHERS.mothballsondeath.rarity_text_LEGENDARY"
+msgid "loads of {name_multiple.mothball}"
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.night.desc
@@ -35806,7 +35817,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.slideblocks.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.slideblocks.desc"
-msgid "{rarity_text} Ice Blocks periodically fall from the sky."
+msgid "Ice Blocks {rarity_text} fall from the sky."
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.slideblocks.name
@@ -35816,18 +35827,17 @@ msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.slideblocks.rarity_text_COMMON
 msgctxt "STRINGS.ITEMS.WEATHERS.slideblocks.rarity_text_COMMON"
-msgid ""
+msgid "periodically"
 msgstr ""
-""
 
 #: STRINGS.ITEMS.WEATHERS.slideblocks.rarity_text_EPIC
 msgctxt "STRINGS.ITEMS.WEATHERS.slideblocks.rarity_text_EPIC"
-msgid "More"
+msgid "regularly"
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.slideblocks.rarity_text_LEGENDARY
 msgctxt "STRINGS.ITEMS.WEATHERS.slideblocks.rarity_text_LEGENDARY"
-msgid "Even more"
+msgid "constantly"
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.smallworld.desc
@@ -35848,17 +35858,19 @@ msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.smallworld.rarity_text_EPIC
 msgctxt "STRINGS.ITEMS.WEATHERS.smallworld.rarity_text_EPIC"
-msgid "[TEMP: more to come]"
-msgstr "[TEMP: more to come]"
+msgid ""
+msgstr ""
+""
 
 #: STRINGS.ITEMS.WEATHERS.smallworld.rarity_text_LEGENDARY
 msgctxt "STRINGS.ITEMS.WEATHERS.smallworld.rarity_text_LEGENDARY"
-msgid "[TEMP: even more to come]"
-msgstr "[TEMP: even more to come]"
+msgid ""
+msgstr ""
+""
 
 #: STRINGS.ITEMS.WEATHERS.snowballs.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.snowballs.desc"
-msgid "Someone's throwing snowballs from the bushes... {rarity_text}"
+msgid "Something's throwing {rarity_text} from the bushes..."
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.snowballs.name
@@ -35868,18 +35880,17 @@ msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.snowballs.rarity_text_COMMON
 msgctxt "STRINGS.ITEMS.WEATHERS.snowballs.rarity_text_COMMON"
-msgid ""
+msgid "snowballs"
 msgstr ""
-""
 
 #: STRINGS.ITEMS.WEATHERS.snowballs.rarity_text_EPIC
 msgctxt "STRINGS.ITEMS.WEATHERS.snowballs.rarity_text_EPIC"
-msgid "More snowballs are thrown."
+msgid "lots of snowballs"
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.snowballs.rarity_text_LEGENDARY
 msgctxt "STRINGS.ITEMS.WEATHERS.snowballs.rarity_text_LEGENDARY"
-msgid "Even more snowballs are thrown."
+msgid "loads of snowballs"
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.spiketraps.desc
@@ -36044,12 +36055,27 @@ msgstr "Іграшковий {name_multiple.weapon_shotput}"
 
 #: STRINGS.ITEMS.WEATHERS.windy.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.windy.desc"
-msgid "Wind periodically blows from the sides of the {name.dungeon_room}."
+msgid "Wind {rarity_text} blows from the sides of the {name.dungeon_room}."
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.windy.name
 msgctxt "STRINGS.ITEMS.WEATHERS.windy.name"
 msgid "Windy"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.windy.rarity_text_COMMON
+msgctxt "STRINGS.ITEMS.WEATHERS.windy.rarity_text_COMMON"
+msgid "periodically"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.windy.rarity_text_EPIC
+msgctxt "STRINGS.ITEMS.WEATHERS.windy.rarity_text_EPIC"
+msgid "regularly"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.windy.rarity_text_LEGENDARY
+msgctxt "STRINGS.ITEMS.WEATHERS.windy.rarity_text_LEGENDARY"
+msgid "consistently"
 msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.zuccotraps.desc
@@ -37182,12 +37208,12 @@ msgstr "Лисячий хвіст"
 #: STRINGS.NAMES.gem
 msgctxt "STRINGS.NAMES.gem"
 msgid "Gem"
-msgstr "Самоцвіт|Самоцвіту"
+msgstr "Самоцвіт|Самоцвіту|Самоцвітів"
 
 #: STRINGS.NAMES.gem_dust
 msgctxt "STRINGS.NAMES.gem_dust"
 msgid "Gem Dust"
-msgstr ""
+msgstr "Пил самоцвітів|Пилу самоцвітів"
 
 #: STRINGS.NAMES.gemtools
 msgctxt "STRINGS.NAMES.gemtools"
@@ -38352,7 +38378,7 @@ msgstr "Самоцвіти|Самоцвітами"
 #: STRINGS.NAMES_PLURAL.gem_dust
 msgctxt "STRINGS.NAMES_PLURAL.gem_dust"
 msgid "Gem Dust"
-msgstr ""
+msgstr "Пил самоцвітів|Пилу самоцвітів"
 
 #: STRINGS.NAMES_PLURAL.glitz
 msgctxt "STRINGS.NAMES_PLURAL.glitz"
@@ -39087,7 +39113,7 @@ msgstr "Самоцвіт|Самоцвіти"
 #: STRINGS.NAMES_PLURALITY.gem_dust
 msgctxt "STRINGS.NAMES_PLURALITY.gem_dust"
 msgid "Gem Dust|Gem Dust"
-msgstr ""
+msgstr "Gem Dust|Gem Dust"
 
 #: STRINGS.NAMES_PLURALITY.glitz
 msgctxt "STRINGS.NAMES_PLURALITY.glitz"
@@ -40454,8 +40480,9 @@ msgstr "Гниле серце лісу"
 
 #: STRINGS.TITLE_CARDS.megatreemon_elite.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.megatreemon_elite.LOWERTHIRD"
-msgid "Rotten(er) Heart of the Forest"
-msgstr "Гниле серце лісу"
+msgid "Rotten Heart of the Forest\n"
+"The Root of Corruption"
+msgstr ""
 
 #: STRINGS.TITLE_CARDS.npc_apothecary.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.npc_apothecary.LOWERTHIRD"
@@ -40495,9 +40522,8 @@ msgstr "Мати темряви"
 #: STRINGS.TITLE_CARDS.owlitzer_elite.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.owlitzer_elite.LOWERTHIRD"
 msgid "Mother of Darkness,\n"
-"Destroyer of the Light (Armour)"
-msgstr "Мати Темряви,\n"
-"Руйнівниця легкості (обладунків)"
+"Destroyer of the Light"
+msgstr ""
 
 #: STRINGS.TITLE_CARDS.sedament.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.sedament.LOWERTHIRD"
@@ -41894,12 +41920,37 @@ msgstr "У цей слот можна вмістити будь-який {name.g
 #: STRINGS.UI.GEMSCREEN.DUST_BTN
 msgctxt "STRINGS.UI.GEMSCREEN.DUST_BTN"
 msgid "Dust gem"
-msgstr ""
+msgstr "Пил самоцвітів"
 
 #: STRINGS.UI.GEMSCREEN.DUST_BTN_COST
 msgctxt "STRINGS.UI.GEMSCREEN.DUST_BTN_COST"
 msgid "+%d <p img='images/ui_ftf/gem_dust.tex' scale=1>"
 msgstr "+%d <p img='images/ui_ftf/gem_dust.tex' scale=1>"
+
+#: STRINGS.UI.GEMSCREEN.DUST_DISABLED_HOTKEY
+msgctxt "STRINGS.UI.GEMSCREEN.DUST_DISABLED_HOTKEY"
+msgid "<#DISABLED_HOTKEYS><p bind='Controls.Digital.DUST_GEM' color=0 scale=1> Dust gem (+%d <p img='images/ui_ftf/gem_dust.tex' scale=1>)</>"
+msgstr ""
+
+#: STRINGS.UI.GEMSCREEN.DUST_HOTKEY
+msgctxt "STRINGS.UI.GEMSCREEN.DUST_HOTKEY"
+msgid "<p bind='Controls.Digital.DUST_GEM' color=0 scale=1> Dust gem (+%d <p img='images/ui_ftf/gem_dust.tex' scale=1>)"
+msgstr ""
+
+#: STRINGS.UI.GEMSCREEN.DUST_POPUP.MESSAGE
+msgctxt "STRINGS.UI.GEMSCREEN.DUST_POPUP.MESSAGE"
+msgid "The gem will be crumbled into %d <p img='images/ui_ftf/gem_dust.tex' scale=1> Gem Dust."
+msgstr ""
+
+#: STRINGS.UI.GEMSCREEN.DUST_POPUP.SUBTITLE
+msgctxt "STRINGS.UI.GEMSCREEN.DUST_POPUP.SUBTITLE"
+msgid "<p img='%s' scale=1.4> %s"
+msgstr "<p img='%s' scale=1.4> %s"
+
+#: STRINGS.UI.GEMSCREEN.DUST_POPUP.TITLE
+msgctxt "STRINGS.UI.GEMSCREEN.DUST_POPUP.TITLE"
+msgid "Dust this gem?"
+msgstr ""
 
 #: STRINGS.UI.GEMSCREEN.EMPTY_GEMS_LIST
 msgctxt "STRINGS.UI.GEMSCREEN.EMPTY_GEMS_LIST"
@@ -41929,6 +41980,11 @@ msgctxt "STRINGS.UI.GEMSCREEN.EQUIP_BTN"
 msgid "Set gem"
 msgstr "Вставити самоцвіт"
 
+#: STRINGS.UI.GEMSCREEN.EQUIP_HOTKEY
+msgctxt "STRINGS.UI.GEMSCREEN.EQUIP_HOTKEY"
+msgid "<p bind='Controls.Digital.MENU_ACCEPT' color=0 scale=1> Set gem"
+msgstr ""
+
 #: STRINGS.UI.GEMSCREEN.GEMS_EMPTY
 msgctxt "STRINGS.UI.GEMSCREEN.GEMS_EMPTY"
 msgid "No {name_multiple.gem} in your inventory yet."
@@ -41938,6 +41994,16 @@ msgstr "{Name_multiple.gem} не знайдено у вашому інвента
 msgctxt "STRINGS.UI.GEMSCREEN.GEMS_TITLE"
 msgid "GEM COLLECTION"
 msgstr "КОЛЕКЦІЯ САМОЦВІТІВ"
+
+#: STRINGS.UI.GEMSCREEN.GEM_BONUS_ACTIVE
+msgctxt "STRINGS.UI.GEMSCREEN.GEM_BONUS_ACTIVE"
+msgid "<p img='images/ui_ftf_options/checkbox_checked.tex' color=40AB38FF> Slot Match"
+msgstr ""
+
+#: STRINGS.UI.GEMSCREEN.GEM_BONUS_INACTIVE
+msgctxt "STRINGS.UI.GEMSCREEN.GEM_BONUS_INACTIVE"
+msgid "<p img='images/ui_ftf_options/checkbox_unchecked.tex' color=967D71FF> Slot Match"
+msgstr ""
 
 #: STRINGS.UI.GEMSCREEN.GEM_EQUIPPED_OTHER_ITEM
 msgctxt "STRINGS.UI.GEMSCREEN.GEM_EQUIPPED_OTHER_ITEM"
@@ -41957,8 +42023,8 @@ msgstr "{Name.gem} встановлено в <#RED>%s</>."
 
 #: STRINGS.UI.GEMSCREEN.GEM_LEVEL
 msgctxt "STRINGS.UI.GEMSCREEN.GEM_LEVEL"
-msgid "Lvl %s"
-msgstr "Рів. %s"
+msgid "%s"
+msgstr ""
 
 #: STRINGS.UI.GEMSCREEN.INFO_LABEL
 msgctxt "STRINGS.UI.GEMSCREEN.INFO_LABEL"
@@ -41966,16 +42032,6 @@ msgid "<#LIGHT_TEXT>Press <p bind='Controls.Digital.ATTACK_HEAVY' color=0> on a 
 "Slay {name_multiple.rot} to level all equipped {name_multiple.gem}."
 msgstr "<#LIGHT_TEXT>Натисніть <p bind='Controls.Digital.ATTACK_HEAVY' color=0> по слоту, щоб зняти {name.gem}.</>\n\n"
 "Вбийте {name_multiple.rot}, щоб підвищити рівень усіх {name_multiple.gem}."
-
-#: STRINGS.UI.GEMSCREEN.LIST_HOTKEYS
-msgctxt "STRINGS.UI.GEMSCREEN.LIST_HOTKEYS"
-msgid "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Set gem    <p bind='Controls.Digital.PLACE_ITEM' color=0 scale=1> Place item"
-msgstr ""
-
-#: STRINGS.UI.GEMSCREEN.LIST_HOTKEYS_GAMEPAD
-msgctxt "STRINGS.UI.GEMSCREEN.LIST_HOTKEYS_GAMEPAD"
-msgid "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Craft item    <p bind='Controls.Digital.PLACE_ITEM' color=0 scale=1> Place item    <p bind='Controls.Digital.A' color=0 scale=1> Info"
-msgstr "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Створити    <p bind='Controls.Digital.PLACE_ITEM' color=0 scale=1> Розмістити    <p bind='Controls.Digital.A' color=0 scale=1> Інформація"
 
 #: STRINGS.UI.GEMSCREEN.MAX_LEVEL_GEM
 msgctxt "STRINGS.UI.GEMSCREEN.MAX_LEVEL_GEM"
@@ -41986,6 +42042,11 @@ msgstr "МАКСИМАЛЬНИЙ РІВЕНЬ"
 msgctxt "STRINGS.UI.GEMSCREEN.NO_GEM"
 msgid "No gem is selected."
 msgstr "Не вибрано жодного самоцвіту."
+
+#: STRINGS.UI.GEMSCREEN.NO_GEMS
+msgctxt "STRINGS.UI.GEMSCREEN.NO_GEMS"
+msgid "No gems in your inventory."
+msgstr "У вашому інвентарі немає самоцвітів."
 
 #: STRINGS.UI.GEMSCREEN.NO_ITEM
 msgctxt "STRINGS.UI.GEMSCREEN.NO_ITEM"
@@ -42012,15 +42073,30 @@ msgctxt "STRINGS.UI.GEMSCREEN.TITLE_EMPTY_ANY"
 msgid "Empty {name.gem} Slot"
 msgstr "Порожній слот для {2:{name.gem}}"
 
+#: STRINGS.UI.GEMSCREEN.UNACCEPTED_GEM_POPUP.MESSAGE
+msgctxt "STRINGS.UI.GEMSCREEN.UNACCEPTED_GEM_POPUP.MESSAGE"
+msgid "You must finish your choice before closing."
+msgstr ""
+
+#: STRINGS.UI.GEMSCREEN.UNACCEPTED_GEM_POPUP.SUBTITLE
+msgctxt "STRINGS.UI.GEMSCREEN.UNACCEPTED_GEM_POPUP.SUBTITLE"
+msgid "<p img='%s' scale=1.4> %s"
+msgstr ""
+
+#: STRINGS.UI.GEMSCREEN.UNACCEPTED_GEM_POPUP.TITLE
+msgctxt "STRINGS.UI.GEMSCREEN.UNACCEPTED_GEM_POPUP.TITLE"
+msgid "Identified item available"
+msgstr ""
+
 #: STRINGS.UI.GEMSCREEN.UNEQUIP_BTN
 msgctxt "STRINGS.UI.GEMSCREEN.UNEQUIP_BTN"
 msgid "Unset"
 msgstr "Зняти"
 
-#: STRINGS.UI.GEMSCREEN.UNEQUIP_BTN_COST
-msgctxt "STRINGS.UI.GEMSCREEN.UNEQUIP_BTN_COST"
-msgid "%d <p img='images/ui_ftf/corestone.tex' scale=0.9>"
-msgstr "%d <p img='images/ui_ftf/corestone.tex' scale=0.9>"
+#: STRINGS.UI.GEMSCREEN.UNEQUIP_HOTKEY
+msgctxt "STRINGS.UI.GEMSCREEN.UNEQUIP_HOTKEY"
+msgid "<p bind='Controls.Digital.UNSET_GEM' color=0 scale=1> Unset"
+msgstr ""
 
 #: STRINGS.UI.GEMSCREEN.UNLOCK_POPUP.DESC
 msgctxt "STRINGS.UI.GEMSCREEN.UNLOCK_POPUP.DESC"
@@ -42043,6 +42119,21 @@ msgstr "{Name.npc_blacksmith} подарував вам три нові <#HEALTH
 msgctxt "STRINGS.UI.GEMSCREEN.UNLOCK_POPUP.TITLE"
 msgid "{name_multiple.gem}"
 msgstr "{Name_multiple.gem}"
+
+#: STRINGS.UI.GEMSCREEN.UNSET_GEM_POPUP.MESSAGE
+msgctxt "STRINGS.UI.GEMSCREEN.UNSET_GEM_POPUP.MESSAGE"
+msgid "Do you want to unset it from there first?"
+msgstr ""
+
+#: STRINGS.UI.GEMSCREEN.UNSET_GEM_POPUP.SUBTITLE
+msgctxt "STRINGS.UI.GEMSCREEN.UNSET_GEM_POPUP.SUBTITLE"
+msgid "<p img='%s' scale=1.4> %s"
+msgstr ""
+
+#: STRINGS.UI.GEMSCREEN.UNSET_GEM_POPUP.TITLE
+msgctxt "STRINGS.UI.GEMSCREEN.UNSET_GEM_POPUP.TITLE"
+msgid "Gem already set on your"
+msgstr ""
 
 #: STRINGS.UI.HEARTSCREEN.ADD_MORE_HEARTS
 msgctxt "STRINGS.UI.HEARTSCREEN.ADD_MORE_HEARTS"
@@ -42403,12 +42494,12 @@ msgstr ""
 #: STRINGS.UI.IDENTIFYGEMSCREEN.CRAFT_BTN
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.CRAFT_BTN"
 msgid "Craft"
-msgstr ""
+msgstr "Створити"
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.CRAFT_BTN_COST
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.CRAFT_BTN_COST"
 msgid "<p img='images/ui_ftf/gem_dust.tex' scale=1> %d"
-msgstr ""
+msgstr "<p img='images/ui_ftf/gem_dust.tex' scale=1> %d"
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.DESC
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.DESC"
@@ -42433,7 +42524,7 @@ msgstr "x%d"
 #: STRINGS.UI.IDENTIFYGEMSCREEN.IDENTIFY_BTN
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.IDENTIFY_BTN"
 msgid "Identify gem"
-msgstr ""
+msgstr "Розпізнати cамоцвіт"
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.LOCATION_LABEL
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.LOCATION_LABEL"
@@ -42448,7 +42539,7 @@ msgstr ""
 #: STRINGS.UI.IDENTIFYGEMSCREEN.NOTIFICATION_DUST_TITLE
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.NOTIFICATION_DUST_TITLE"
 msgid "%s {name.gem_dust}"
-msgstr ""
+msgstr "%s {name.gem_dust}"
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.NOTIFICATION_GEM_DESC
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.NOTIFICATION_GEM_DESC"
@@ -42614,7 +42705,7 @@ msgstr "ЯКЩО З'ЇСТЕ, ОТРИМАЄТЕ<#LIGHT_TEXT>%s</>:"
 #: STRINGS.UI.INVENTORYSCREEN.GEM_DUST
 msgctxt "STRINGS.UI.INVENTORYSCREEN.GEM_DUST"
 msgid "<p img='images/hud_images/hud_gem_dust_drops_currency.tex'> %d"
-msgstr ""
+msgstr "<p img='images/hud_images/hud_gem_dust_drops_currency.tex'> %d"
 
 #: STRINGS.UI.INVENTORYSCREEN.ITEM_REWARD_POPTEXT
 msgctxt "STRINGS.UI.INVENTORYSCREEN.ITEM_REWARD_POPTEXT"
@@ -43885,6 +43976,16 @@ msgstr ""
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.GEMTABLE_UNLOCKED.TITLE"
 msgid "{name.station_gems} Unlocked!"
 msgstr ""
+
+#: STRINGS.UI.MECHANIC_TUTORIALS.NORMAL_ITEM_CHARGED_NOTIFICATION.DESC
+msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.NORMAL_ITEM_CHARGED_NOTIFICATION.DESC"
+msgid "%s can now be upgraded past <#RED>Level 9</>!"
+msgstr ""
+
+#: STRINGS.UI.MECHANIC_TUTORIALS.NORMAL_ITEM_CHARGED_NOTIFICATION.TITLE
+msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.NORMAL_ITEM_CHARGED_NOTIFICATION.TITLE"
+msgid "Imbued!"
+msgstr "Наповнені!|Наповнене!|Наповнений!|Наповненого!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.TEFFROMETER_UNLOCKED.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.TEFFROMETER_UNLOCKED.DESC"
@@ -45368,10 +45469,8 @@ msgstr "Візьмеш із собою друзів."
 
 #: STRINGS.UI.PAUSEMENU.CLIENTQUITSUBTITLE_DUNGEON
 msgctxt "STRINGS.UI.PAUSEMENU.CLIENTQUITSUBTITLE_DUNGEON"
-msgid "Whistle for air rescue and head home?\n"
-"You'll keep all loot collected this run."
-msgstr "Хочете викликати порятунок з повітря та повернутись додому?\n"
-"Усю зібрану здобич у цьому забігу ви збережете."
+msgid "You'll keep all loot collected prior to entering this {name.dungeon_room}."
+msgstr ""
 
 #: STRINGS.UI.PAUSEMENU.CLIENTQUITSUBTITLE_TOWN
 msgctxt "STRINGS.UI.PAUSEMENU.CLIENTQUITSUBTITLE_TOWN"
@@ -45447,6 +45546,12 @@ msgstr "Ви впевнені, що хочете вимкнути сервер? 
 msgctxt "STRINGS.UI.PAUSEMENU.HOSTQUITSUBTITLE"
 msgid "Shut down server?"
 msgstr "Вимкнути сервер?"
+
+#: STRINGS.UI.PAUSEMENU.HOSTQUITSUBTITLE_DUNGEON
+msgctxt "STRINGS.UI.PAUSEMENU.HOSTQUITSUBTITLE_DUNGEON"
+msgid "Whistle for air rescue and head home?\n"
+"You'll keep all loot collected this run."
+msgstr ""
 
 #: STRINGS.UI.PAUSEMENU.HOSTQUITTITLE
 msgctxt "STRINGS.UI.PAUSEMENU.HOSTQUITTITLE"
