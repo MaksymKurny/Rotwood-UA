@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-11-30 20:56\n"
+"PO-Revision-Date: 2024-11-30 23:01\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -8035,7 +8035,15 @@ msgid "agent:\n"
 " Hrmm... <z 0.7>seems like... and the clarity... aye... should have enough power... t'would do nicely...</>\n"
 " !neutral\n"
 " Nope. Don't know a thing about it."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" Щось на кшталт <#KONJUR>{2:{name.gem}}</>, так? Дайте-но придивлюся.\n"
+" !neutral\n"
+" !think\n"
+" Хмм... <z 0.7>виглядає як... а чистота... так, має достатньо сили... він чудово підійде...</>\n"
+" !neutral\n"
+" Ні. Не знаю про це нічого."
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.ANSWER_2
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.ANSWER_2"
@@ -8049,7 +8057,16 @@ msgid "agent:\n"
 " Fine. I'll tell ye.\n"
 " !point\n"
 " But don't go bletherin' to everyone in camp about this. 'Specially not that wee nosy {name.npc_armorsmith}. Ye ken?"
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" Я не...!\n"
+" !closedeyes\n"
+" Хм...\n"
+" !neutral\n"
+" Добре. Розкажу.\n"
+" !point\n"
+" Але не треба патякати про це всім у таборі. Особливо тій допитливій {3:{Name.npc_armorsmith}}. Зрозуміли?"
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.ANSWER_3A
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.ANSWER_3A"
@@ -8066,7 +8083,19 @@ msgid "agent:\n"
 " Crystallized Teffra, aye? Similar to a <#KONJUR>{name.konjur_soul_lesser}</>-- but if ye take a good look at the colour, 'n the clarity... aye, this didn't form the way most crystals do.\n"
 " !gesture\n"
 " And unlike most Teffra crystals ye come across, this one seems <i>stable</>. A wee bit less powerful I'd wager, but from the look of it, should last ye a lifetime."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" ...Ох. Ну гаразд.\n"
+" !closedeyes\n"
+" Я... трохи захоплююсь <#RED>ювелірним мистецтво</>.\n"
+" !point\n"
+" ТРОХИ, запам’ятайте. Це не моя основна спеціалізація.\n"
+" !think\n"
+" А оцей <#KONJUR>{name.gem}</>, що у вас, справді цікавий.\n"
+" !dubious\n"
+" Кристалізований конжур, так? Схожий на <#KONJUR>{name.konjur_soul_lesser}</> — але якщо придивитись до кольору та чистоти... так, він утворився не так, як більшість кристалів.\n"
+" !gesture\n"
+" І на відміну від більшості конжурових кристалів, цей виглядає <i>стабільним</>. Трохи менш потужним, я припускаю, але, судячи з усього, має слугувати все життя."
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.ANSWER_3B
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.ANSWER_3B"
@@ -8092,7 +8121,17 @@ msgid "agent:\n"
 " 'Course, I could tell ye more about it if I had me <#RED>{name.gemtools}</>.\n"
 " !shrug\n"
 " But I lost 'em. So."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !closedeyes\n"
+" Хм. <z 0.7>Хто б не хотів знати все про <#KONJUR>{name_multiple.gem}</>? Як вони блищать і виблискують? (*зітхає...*)</>\n"
+" !disagree\n"
+" !gesture\n"
+" ...Ех. Підчепив кілька знань тут і там.\n"
+" !think\n"
+" Звісно, я міг би розповісти більше, якби в мене були мої <#RED>{name.gemtools}</>.\n"
+" !shrug\n"
+" Але я їх загубив. От і все."
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.ANSWER_5
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.ANSWER_5"
@@ -8100,7 +8139,10 @@ msgid "agent:\n"
 " !neutral\n"
 " !think\n"
 " Probably still somewhere out in that <#BLUE>{name.owlitzer_forest}</> ye first found me in."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !think\n"
+" Ймовірно, вони все ще десь біля <#BLUE>{2:{Name.owlitzer_forest}}</>, де ви мене вперше знайшли."
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.ANSWER_6
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.ANSWER_6"
@@ -8111,7 +8153,13 @@ msgid "agent:\n"
 " !neutral\n"
 " !angry\n"
 " Alright, off with ye then!"
-msgstr ""
+msgstr "agent:\n"
+" !closedeyes\n"
+" !gruffnod\n"
+" ...Добре. Гадаю, це чесно.\n"
+" !neutral\n"
+" !angry\n"
+" Ну, йдіть вже!"
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.END
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.END"
@@ -8126,37 +8174,37 @@ msgstr "Чи можеш ти мені щось сказати про це? <i><#
 #: Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.QUESTION_2
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.QUESTION_2"
 msgid "C'mon, I can tell you know something-- why are you acting so weird about this?"
-msgstr ""
+msgstr "Та годі, я бачу, ти щось знаєш. Чому ти так дивно поводишся?"
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.QUESTION_3A
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.QUESTION_3A"
 msgid "Of course!"
-msgstr ""
+msgstr "Звісно!"
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.QUESTION_3B
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.QUESTION_3B"
 msgid "No promises..."
-msgstr ""
+msgstr "Не обіцяю..."
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.QUESTION_3B_A
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.QUESTION_3B_A"
 msgid "...Alright, FINE. I 'ken'."
-msgstr ""
+msgstr "...Гаразд, ДОБРЕ. Зрозумів."
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.QUESTION_4
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.QUESTION_4"
 msgid "That's amazing! I had no idea you were so knowledgeable about {name_multiple.gem}!"
-msgstr ""
+msgstr "Це неймовірно! Я навіть не здогадувався, що ти так багато знаєш про {name_multiple.gem}!"
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.QUESTION_5
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.QUESTION_5"
 msgid "Do you have any idea where they might be?"
-msgstr ""
+msgstr "Ти знаєш, де вони можуть бути?"
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.QUESTION_6
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.QUESTION_6"
 msgid "If I can find your tools, would you help me identify these {name_multiple.gem}?"
-msgstr ""
+msgstr "Якщо я знайду твої інструменти, ти допоможеш мені розпізнати ці {name_multiple.gem}?"
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.TALK
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.TALK"
@@ -8166,7 +8214,12 @@ msgid "agent:\n"
 " Looks like ye got yer mitts on somethin' shiny.\n"
 " !think\n"
 " I can see it gleamin' from here."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" Виглядає, ніби ви здобули щось блискуче.\n"
+" !think\n"
+" Я бачу, як воно виблискує навіть звідси."
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT1.gems_indungeon.giver.STATE_0.ANSWER_1
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT1.gems_indungeon.giver.STATE_0.ANSWER_1"
@@ -8177,17 +8230,23 @@ msgid "agent:\n"
 " Well. Innae that important, anyway.\n"
 " !closedeyes\n"
 " <i>(grunt)</>"
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" А.\n"
+" !shrug\n"
+" Що ж. Це не так вже й важливо.\n"
+" !closedeyes\n"
+" <i>(хм)</>"
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT1.gems_indungeon.giver.STATE_0.END
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT1.gems_indungeon.giver.STATE_0.END"
 msgid "Don't worry, I'll find them!"
-msgstr ""
+msgstr "Не хвилюйся, я їх знайду!"
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT1.gems_indungeon.giver.STATE_0.QUESTION_1
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT1.gems_indungeon.giver.STATE_0.QUESTION_1"
 msgid "Sorry, not yet."
-msgstr ""
+msgstr "Вибач, ще ні."
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT1.gems_indungeon.giver.STATE_0.TALK
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT1.gems_indungeon.giver.STATE_0.TALK"
@@ -8198,7 +8257,13 @@ msgid "agent:\n"
 " !neutral\n"
 " !dubious\n"
 " ...Me <#RED>{name.gemtools}</>?"
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !closedeyes\n"
+" Ви... часом їх не бачили? Ну ви знаєте...\n"
+" !neutral\n"
+" !dubious\n"
+" ...Мої <#RED>{name.gemtools}</>?"
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT2.gems_finish.giver.STATE_0.ANSWER_1
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT2.gems_finish.giver.STATE_0.ANSWER_1"
@@ -10560,7 +10625,12 @@ msgid "agent:\n"
 " Woah. What is that? I've never seen tech quite like this before.\n"
 " !think\n"
 " But if I'm not mistaken, this definitely looks like a port for collecting Teffra... and is this piece here some kind of miniature magnetic field generator...?"
-msgstr ""
+msgstr "agent:\n"
+" !shocked\n"
+" !dubious\n"
+" Ого. Що це таке? Я ніколи раніше не бачив подібної техніки.\n"
+" !think\n"
+" Але якщо я не помиляюся, це явно виглядає як порт для збору конжуру... а ось ця частина, чи це якийсь мініатюрний генератор магнітного поля...?"
 
 #: Convo.twn_weather_intro_scout.ATTRACT2.weather_finish.giver.STATE_0.ANSWER_2
 msgctxt "Convo.twn_weather_intro_scout.ATTRACT2.weather_finish.giver.STATE_0.ANSWER_2"
@@ -10574,7 +10644,16 @@ msgid "agent:\n"
 " No, I can't let myself get pessimistic!\n"
 " !point\n"
 " We'll find them! And in the meantime, hang onto that machine. I'm sure whoever it belongs to will want it back."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !think\n"
+" !dejected\n"
+" Можливо... хоча я хвилююся, що це не сприяє нашим шансам знайти їх.\n"
+" !shocked\n"
+" !disagree\n"
+" Ні, я не можу дозволити собі бути песимістичним!\n"
+" !point\n"
+" Ми їх знайдемо! А поки що, збережіть цю машину. Впевнений, той, кому вона належить, захоче її повернути."
 
 #: Convo.twn_weather_intro_scout.ATTRACT2.weather_finish.giver.STATE_0.ANSWER_3A
 msgctxt "Convo.twn_weather_intro_scout.ATTRACT2.weather_finish.giver.STATE_0.ANSWER_3A"
@@ -10582,7 +10661,10 @@ msgid "agent:\n"
 " !happy\n"
 " !agree\n"
 " Thanks, Hunter."
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !agree\n"
+" Дякую Мисливцю."
 
 #: Convo.twn_weather_intro_scout.ATTRACT2.weather_finish.giver.STATE_0.ANSWER_3B
 msgctxt "Convo.twn_weather_intro_scout.ATTRACT2.weather_finish.giver.STATE_0.ANSWER_3B"
@@ -10592,32 +10674,37 @@ msgid "agent:\n"
 " ...\n"
 " !laugh\n"
 " Well, I'd be lying if I said I wasn't curious too..."
-msgstr ""
+msgstr "agent:\n"
+" !shocked\n"
+" Мисливцю!\n"
+" ...\n"
+" !laugh\n"
+" Що ж, я б збрехав, якби сказав, що не цікавлюся також..."
 
 #: Convo.twn_weather_intro_scout.ATTRACT2.weather_finish.giver.STATE_0.END
 msgctxt "Convo.twn_weather_intro_scout.ATTRACT2.weather_finish.giver.STATE_0.END"
 msgid "Later, {name.npc_scout}!"
-msgstr ""
+msgstr "До зустрічі, {Name.npc_scout}!"
 
 #: Convo.twn_weather_intro_scout.ATTRACT2.weather_finish.giver.STATE_0.QUESTION_1
 msgctxt "Convo.twn_weather_intro_scout.ATTRACT2.weather_finish.giver.STATE_0.QUESTION_1"
 msgid "Yeah-- this weird doo-hickey. <z 0.7><i>(Show them the <#RED>Strange Machine</>)</><z/>"
-msgstr ""
+msgstr "Так... цю дивну штуковину. <z 0.7><i>(Показати <#RED>дивну машину</>)</><z/>"
 
 #: Convo.twn_weather_intro_scout.ATTRACT2.weather_finish.giver.STATE_0.QUESTION_2
 msgctxt "Convo.twn_weather_intro_scout.ATTRACT2.weather_finish.giver.STATE_0.QUESTION_2"
 msgid "Do you think it belongs to the person we're looking for?"
-msgstr ""
+msgstr "Ви думаєте, це належить тій персоні, яку ми шукаємо?"
 
 #: Convo.twn_weather_intro_scout.ATTRACT2.weather_finish.giver.STATE_0.QUESTION_3A
 msgctxt "Convo.twn_weather_intro_scout.ATTRACT2.weather_finish.giver.STATE_0.QUESTION_3A"
 msgid "Will do!"
-msgstr ""
+msgstr "Обов'язково!"
 
 #: Convo.twn_weather_intro_scout.ATTRACT2.weather_finish.giver.STATE_0.QUESTION_3B
 msgctxt "Convo.twn_weather_intro_scout.ATTRACT2.weather_finish.giver.STATE_0.QUESTION_3B"
 msgid "And, y'know... if we <i>very carefully</> try to work out what it does, I'm sure they wouldn't mind."
-msgstr ""
+msgstr "І, знаєте... якщо ми <i>дуже обережно</> спробуємо з'ясувати, для чого це, думаю, вони не будуть проти."
 
 #: Convo.twn_weather_intro_scout.ATTRACT2.weather_finish.giver.STATE_0.TALK
 msgctxt "Convo.twn_weather_intro_scout.ATTRACT2.weather_finish.giver.STATE_0.TALK"
@@ -10625,7 +10712,10 @@ msgid "agent:\n"
 " !neutral\n"
 " !gesture\n"
 " Hunter! Did you find something?"
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !gesture\n"
+" Мисливцю! Ви щось знайшли?"
 
 #: Convo.wrld_game_intro_sequence.CHAT_DUNGEON0.game_intro.giver.STATE_0.OPT2C_RESPONSE
 msgctxt "Convo.wrld_game_intro_sequence.CHAT_DUNGEON0.game_intro.giver.STATE_0.OPT2C_RESPONSE"
@@ -26008,7 +26098,7 @@ msgstr "{Name.gemtools}"
 #: STRINGS.ITEMS.KEY_ITEMS.teffrometer.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.teffrometer.desc"
 msgid "Allows the holder to earn <#RED>Bonus Rewards</> during Frenzied Hunts affected by a <#RED>{name.weather}</>."
-msgstr ""
+msgstr "Дозволяє власнику заробляти <#RED>бонусні нагороди</> під час божевільних полювань, на які впливає <#RED>{name.weather}</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.teffrometer.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.teffrometer.name"
@@ -26058,7 +26148,7 @@ msgstr "Завдати фінального удару двом велетенс
 #: STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.bandi_swamp_market_1.name
 msgctxt "STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.bandi_swamp_market_1.name"
 msgid "{name.bandi_swamp}: Giantslayer"
-msgstr "{name.bandi_swamp}: Вбивця велетнів"
+msgstr "{Name.bandi_swamp}: Вбивця велетнів"
 
 #: STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.bandi_swamp_market_2.desc
 msgctxt "STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.bandi_swamp_market_2.desc"
@@ -35708,52 +35798,52 @@ msgstr ""
 #: STRINGS.ITEMS.WEATHERS.lastword.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.lastword.desc"
 msgid "Whenever something dies, it makes {rarity_text}."
-msgstr ""
+msgstr "Щоразу, коли хтось помирає, він створює {rarity_text}."
 
 #: STRINGS.ITEMS.WEATHERS.lastword.name
 msgctxt "STRINGS.ITEMS.WEATHERS.lastword.name"
 msgid "Last Word"
-msgstr ""
+msgstr "Останнє слово"
 
 #: STRINGS.ITEMS.WEATHERS.lastword.rarity_text_COMMON
 msgctxt "STRINGS.ITEMS.WEATHERS.lastword.rarity_text_COMMON"
 msgid "an explosion"
-msgstr ""
+msgstr "вибух"
 
 #: STRINGS.ITEMS.WEATHERS.lastword.rarity_text_EPIC
 msgctxt "STRINGS.ITEMS.WEATHERS.lastword.rarity_text_EPIC"
 msgid "a big explosion"
-msgstr ""
+msgstr "великий вибух"
 
 #: STRINGS.ITEMS.WEATHERS.lastword.rarity_text_LEGENDARY
 msgctxt "STRINGS.ITEMS.WEATHERS.lastword.rarity_text_LEGENDARY"
 msgid "a huge explosion"
-msgstr ""
+msgstr "величезний вибух"
 
 #: STRINGS.ITEMS.WEATHERS.menace.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.menace.desc"
 msgid "{rarity_text} looms."
-msgstr ""
+msgstr "З'являється {rarity_text}."
 
 #: STRINGS.ITEMS.WEATHERS.menace.name
 msgctxt "STRINGS.ITEMS.WEATHERS.menace.name"
 msgid "Menace"
-msgstr ""
+msgstr "Загроза"
 
 #: STRINGS.ITEMS.WEATHERS.menace.rarity_text_COMMON
 msgctxt "STRINGS.ITEMS.WEATHERS.menace.rarity_text_COMMON"
 msgid "A menacing figure"
-msgstr ""
+msgstr "загрозлива фігура"
 
 #: STRINGS.ITEMS.WEATHERS.menace.rarity_text_EPIC
 msgctxt "STRINGS.ITEMS.WEATHERS.menace.rarity_text_EPIC"
 msgid "A truly menacing figure"
-msgstr ""
+msgstr "справді загрозлива фігура"
 
 #: STRINGS.ITEMS.WEATHERS.menace.rarity_text_LEGENDARY
 msgctxt "STRINGS.ITEMS.WEATHERS.menace.rarity_text_LEGENDARY"
 msgid "An overwhelmingly menacing figure"
-msgstr ""
+msgstr "надзвичайно загрозлива фігура"
 
 #: STRINGS.ITEMS.WEATHERS.mothballprojectiles.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.mothballprojectiles.desc"
@@ -38128,7 +38218,7 @@ msgstr "Майстерні інструменти коваля"
 #: STRINGS.NAMES.weather
 msgctxt "STRINGS.NAMES.weather"
 msgid "Teffra Anomaly"
-msgstr ""
+msgstr "Конжурова аномалія"
 
 #: STRINGS.NAMES.windmon
 msgctxt "STRINGS.NAMES.windmon"
@@ -44057,12 +44147,12 @@ msgstr "Наповнені!|Наповнене!|Наповнений!|Напов
 #: STRINGS.UI.MECHANIC_TUTORIALS.TEFFROMETER_UNLOCKED.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.TEFFROMETER_UNLOCKED.DESC"
 msgid "Earn <#RED>Bonus Rewards</> during Frenzied Hunts affected by a <#RED>{name.weather}</>."
-msgstr ""
+msgstr "Заробляйте <#RED>бонусні нагороди</> під час божевільних полювань, на які впливає <#RED>{name.weather}</>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.TEFFROMETER_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.TEFFROMETER_UNLOCKED.TITLE"
 msgid "{name.teffrometer} Unlocked!"
-msgstr ""
+msgstr "{name.teffrometer} розблокований!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_COMPLETE_1.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_COMPLETE_1.DESC"
@@ -47544,7 +47634,7 @@ msgstr "Відкрийте для себе більше комбо, поєдну
 #: STRINGS.WEATHER.REWARD_NOTIFICATION_BODY
 msgctxt "STRINGS.WEATHER.REWARD_NOTIFICATION_BODY"
 msgid "Earned <#RED>%s</> for reaching <#RED>Teffra Saturation Level %s</>."
-msgstr ""
+msgstr "Отримано <#RED>%s</> за досягнення <#RED>%s рівня насичення конжуром</>."
 
 #: STRINGS.WEATHER.REWARD_NOTIFICATION_TITLE
 msgctxt "STRINGS.WEATHER.REWARD_NOTIFICATION_TITLE"
