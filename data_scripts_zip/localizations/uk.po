@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-11-30 17:08\n"
+"PO-Revision-Date: 2024-11-30 18:24\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -8718,7 +8718,7 @@ msgid "agent:\n"
 " What d'ya say we make up for lost time and jump right into yer <#RED>Masteries</>?"
 msgstr "agent:\n"
 " [title:SPEAKER]\n"
-" [sound:Event.joinedTheParty] 0,5\n"
+" [sound:Event.joinedTheParty] 0.5\n"
 " !gruffnod\n"
 " !happy\n"
 " Це я. Ваш власний <#RED>{name.job_dojo}</>.\n"
@@ -14884,7 +14884,7 @@ msgstr "!neutral\n"
 " !closedeyes\n"
 " Ой, з їдальні знову тхне пригорілою кашею.\n"
 " !dubious\n"
-" <z 0,7>(гмпф)</>"
+" <z 0.7>(гмпф)</>"
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_blacksmith,wf_town_has_cook].2
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_blacksmith,wf_town_has_cook].2"
@@ -14895,7 +14895,7 @@ msgid "!neutral\n"
 " G'luck. I'm a steel trap."
 msgstr "!neutral\n"
 " !closedeyes\n"
-" {name.job_cook} уже давно хоче мій рецепт печива.\n"
+" {Name.job_cook} уже давно хоче мій рецепт печива.\n"
 " !dubious\n"
 " Удачі. Я сталева пастка."
 
@@ -14910,7 +14910,7 @@ msgstr "!neutral\n"
 " !closedeyes\n"
 " Ця вечеря схожа на обряд посвячення в гільдію.\n"
 " !dubious\n"
-" <z 0,7>(хмпф)</>"
+" <z 0.7>(хмпф)</>"
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_blacksmith,wf_town_has_cook].4
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_blacksmith,wf_town_has_cook].4"
@@ -34918,7 +34918,7 @@ msgstr "Багатоцільові фокусні удари"
 #: STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_golf_swing.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_golf_swing.desc"
 msgid "Hit at least <#RED>{enemies} Enemies</> with fully charged <#RED>Golf Swings</> ( <p bind='Controls.Digital.DODGE' color=0> <p img='images/ui_ftf/arrow_right.tex' scale=0.4> hold Backwards <p bind='Controls.Digital.ATTACK_HEAVY' color=0>)."
-msgstr "Вдарте принаймні <#RED>{enemies} ворогів</> повністю зарядженим <#RED>Ударом ключкою</> (<p bind='Controls.Digital.DODGE'> <p img='images/ui_ftf/arrow_right.tex' scale= 0,4> утримуйте <p bind='Controls.Digital.ATTACK_HEAVY'> у зворотному напрямку)."
+msgstr "Вдарте принаймні <#RED>{enemies} ворогів</> повністю зарядженим <#RED>Ударом ключкою</> (<p bind='Controls.Digital.DODGE' color=0> <p img='images/ui_ftf/arrow_right.tex' scale=0.4> утримуйте <p bind='Controls.Digital.ATTACK_HEAVY' color=0> у зворотному напрямку)."
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_golf_swing.name
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.HAMMER.hammer_golf_swing.name"
