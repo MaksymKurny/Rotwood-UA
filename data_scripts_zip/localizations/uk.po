@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-11-30 13:24\n"
+"PO-Revision-Date: 2024-11-30 15:15\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -21826,27 +21826,27 @@ msgstr "Ротвуд"
 #: STRINGS.GEMS.SLOT_TYPE.ANY
 msgctxt "STRINGS.GEMS.SLOT_TYPE.ANY"
 msgid "Any"
-msgstr "Будь-який"
+msgstr "будь-який"
 
 #: STRINGS.GEMS.SLOT_TYPE.DAMAGE
 msgctxt "STRINGS.GEMS.SLOT_TYPE.DAMAGE"
 msgid "{name.concept_damage}"
-msgstr "{3:{name.concept_damage}}"
+msgstr "{2:{name.concept_damage}}"
 
 #: STRINGS.GEMS.SLOT_TYPE.MOD
 msgctxt "STRINGS.GEMS.SLOT_TYPE.MOD"
 msgid "Mod"
-msgstr "Мод"
+msgstr "модифікацій"
 
 #: STRINGS.GEMS.SLOT_TYPE.SUPPORT
 msgctxt "STRINGS.GEMS.SLOT_TYPE.SUPPORT"
 msgid "Support"
-msgstr "Підтримка"
+msgstr "підтримки"
 
 #: STRINGS.GEMS.SLOT_TYPE.SUSTAIN
 msgctxt "STRINGS.GEMS.SLOT_TYPE.SUSTAIN"
 msgid "Sustain"
-msgstr "Підтримати"
+msgstr "витривалості"
 
 #: STRINGS.ITEMS.BIOME_EXPLORATION.bandi_swamp.desc
 msgctxt "STRINGS.ITEMS.BIOME_EXPLORATION.bandi_swamp.desc"
@@ -23362,13 +23362,14 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.boss_soul.name
 msgctxt "STRINGS.ITEMS.GEMS.boss_soul.name"
 msgid "Teffressence Container {name.gem}"
-msgstr ""
+msgstr "{Name.gem} конжурової сутності"
 
 #: STRINGS.ITEMS.GEMS.boss_soul.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.boss_soul.slotted_desc"
 msgid "Kill an <#RED>{name.elite_prefix} {name.rot_boss}</> to consume this {name.gem} and <#RED>Imbue</> the equipped Item allowing <#RED>upgrading past Level 9</>.\n\n"
 "Not valid in {name_multiple.weapon_crystal} or Boss Weapons."
-msgstr ""
+msgstr "Убийте <#RED>{4:{name.elite_prefix}} {2:{name.rot_boss}}</>, щоб поглинути цей {name.gem} і <#RED>наповнити</> екіпірований предмет, що дозволить <#RED>підвищувати рівень після 9-го</>.\n\n"
+"Не діє на {2:{name_multiple.weapon_crystal}} або зброю з боса."
 
 #: STRINGS.ITEMS.GEMS.crit_chance.desc
 msgctxt "STRINGS.ITEMS.GEMS.crit_chance.desc"
@@ -23425,7 +23426,7 @@ msgstr "Збільшує <#RED>{name.concept_damage}</> під час атаки
 #: STRINGS.ITEMS.GEMS.damage_bonus_backstab.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_backstab.stat_name"
 msgid "Backstab {name.concept_damage}"
-msgstr ""
+msgstr "{3:{Name.concept_damage}} від удару в спину"
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_battoad.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_battoad.desc"
@@ -23572,7 +23573,7 @@ msgstr "Збільшує <#RED>{name.concept_damage}</> при контрата�
 #: STRINGS.ITEMS.GEMS.damage_bonus_counter.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_counter.stat_name"
 msgid "Counter {name.concept_damage}"
-msgstr ""
+msgstr "{3:{Name.concept_damage}} контратаки"
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_crystroll.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_crystroll.desc"
@@ -23651,7 +23652,7 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_bonus_eyev.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_eyev.slotted_desc"
 msgid "Increases <#RED>{name.concept_damage}</> done to <#RED>{name_multiple.eyev}</>."
-msgstr ""
+msgstr "Збільшує <#RED>{name.concept_damage}</>, яку отримають <#RED>{Name_multiple.eyev}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_eyev.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_eyev.stat_name"
@@ -23667,12 +23668,12 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_bonus_floracrane.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_floracrane.name"
 msgid "{name.floracrane} Damage {name.gem}"
-msgstr ""
+msgstr "{Name.gem} шкоди {2:{Name.floracrane}}м"
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_floracrane.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_floracrane.slotted_desc"
 msgid "Increases <#RED>{name.concept_damage}</> done to <#RED>{name_multiple.floracrane}</>."
-msgstr ""
+msgstr "Збільшує <#RED>{name.concept_damage}</>, яку отримають <#RED>{Name_multiple.floracrane}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_floracrane.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_floracrane.stat_name"
@@ -23688,12 +23689,12 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_bonus_gnarlic.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_gnarlic.name"
 msgid "{name.gnarlic} Damage {name.gem}"
-msgstr ""
+msgstr "{Name.gem} шкоди {3:{Name.gnarlic}}"
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_gnarlic.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_gnarlic.slotted_desc"
 msgid "Increases <#RED>{name.concept_damage}</> done to <#RED>{name_multiple.gnarlic}</>."
-msgstr ""
+msgstr "Збільшує <#RED>{name.concept_damage}</>, яку отримають <#RED>{Name_multiple.gnarlic}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_gnarlic.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_gnarlic.stat_name"
@@ -23709,12 +23710,12 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_bonus_gourdo.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_gourdo.name"
 msgid "{name.gourdo} Damage {name.gem}"
-msgstr ""
+msgstr "{Name.gem} шкоди {Name.gourdo}"
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_gourdo.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_gourdo.slotted_desc"
 msgid "Increases <#RED>{name.concept_damage}</> done to <#RED>{name_multiple.gourdo}</>."
-msgstr ""
+msgstr "Збільшує <#RED>{name.concept_damage}</>, яку отримають <#RED>{Name_multiple.gourdo}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_gourdo.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_gourdo.stat_name"
@@ -23730,12 +23731,12 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_bonus_groak.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_groak.name"
 msgid "{name.groak} Damage {name.gem}"
-msgstr ""
+msgstr "{Name.gem} шкоди {3:{Name.groak}}"
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_groak.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_groak.slotted_desc"
 msgid "Increases <#RED>{name.concept_damage}</> done to <#RED>{name_multiple.groak}</>."
-msgstr ""
+msgstr "Збільшує <#RED>{name.concept_damage}</>, яку отримають <#RED>{Name_multiple.groak}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_groak.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_groak.stat_name"
@@ -23751,12 +23752,12 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_bonus_hammer_golfswing.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_hammer_golfswing.name"
 msgid "Hammer Golf Damage {name.gem}"
-msgstr ""
+msgstr "{Name.gem} шкоди удару ключкою"
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_hammer_golfswing.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_hammer_golfswing.slotted_desc"
 msgid "Increases <#RED>{name.concept_damage}</> dealt by the <#RED>Golf Swing</> attack."
-msgstr ""
+msgstr "Збільшує <#RED>{name.concept_damage}</> від атаки <#RED>Удар ключкою</>."
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_hammer_golfswing.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_hammer_golfswing.stat_name"
@@ -23782,7 +23783,7 @@ msgstr "Збільшує <#RED>{name.concept_damage} важкої атаки</>.
 #: STRINGS.ITEMS.GEMS.damage_bonus_heavy_attack.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_heavy_attack.stat_name"
 msgid "{name.powerdesc_damage_bonus}"
-msgstr ""
+msgstr "{Name.powerdesc_damage_bonus}"
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_light_attack.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_light_attack.desc"
@@ -23803,7 +23804,7 @@ msgstr "Збільшує <#RED>{name.concept_damage} легкої атаки</>.
 #: STRINGS.ITEMS.GEMS.damage_bonus_light_attack.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_light_attack.stat_name"
 msgid "{name.powerdesc_damage_bonus}"
-msgstr ""
+msgstr "{Name.powerdesc_damage_bonus}"
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_meowl.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_meowl.desc"
@@ -23814,12 +23815,12 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_bonus_meowl.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_meowl.name"
 msgid "{name.meowl} Damage {name.gem}"
-msgstr ""
+msgstr "{Name.gem} шкоди {3:{name.meowl}}"
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_meowl.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_meowl.slotted_desc"
 msgid "Increases <#RED>{name.concept_damage}</> done to <#RED>{name_multiple.meowl}</>."
-msgstr ""
+msgstr "Збільшує <#RED>{name.concept_damage}</>, яку отримають <#RED>{Name_multiple.meowl}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_meowl.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_meowl.stat_name"
@@ -23835,12 +23836,12 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_bonus_mossquito.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_mossquito.name"
 msgid "{name.mossquito} Damage {name.gem}"
-msgstr ""
+msgstr "{Name.gem} шкоди {3:{name.mossquito}}"
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_mossquito.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_mossquito.slotted_desc"
 msgid "Increases <#RED>{name.concept_damage}</> done to <#RED>{name_multiple.mossquito}</>."
-msgstr ""
+msgstr "Збільшує <#RED>{name.concept_damage}</>, яку отримають <#RED>{Name_multiple.mossquito}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_mossquito.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_mossquito.stat_name"
@@ -23856,12 +23857,12 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_bonus_mothball.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_mothball.name"
 msgid "{name.mothball} Damage {name.gem}"
-msgstr ""
+msgstr "{Name.gem} шкоди {3:{Name.mothball}}"
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_mothball.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_mothball.slotted_desc"
 msgid "Increases <#RED>{name.concept_damage}</> done to <#RED>{name_multiple.mothball}</>."
-msgstr ""
+msgstr "Збільшує <#RED>{name.concept_damage}</>, яку отримає <#RED>{Name_multiple.mothball}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_mothball.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_mothball.stat_name"
@@ -24108,17 +24109,17 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_bonus_undamaged_target.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_undamaged_target.name"
 msgid "Pristine {name.gem}"
-msgstr ""
+msgstr "{Name.gem} недоторканості"
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_undamaged_target.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_undamaged_target.slotted_desc"
 msgid "Increases <#RED>{name.concept_damage}</> against targets with full <#RED>Health</>."
-msgstr ""
+msgstr "Збільшує <#RED>{name.concept_damage}</> проти цілей з повними <#RED>здоров'я</>."
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_undamaged_target.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_undamaged_target.stat_name"
 msgid "{name.powerdesc_damage_bonus}"
-msgstr ""
+msgstr "{Name.powerdesc_damage_bonus}"
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_windmon.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_windmon.desc"
@@ -24273,7 +24274,7 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_resist_acid.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_acid.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
-msgstr ""
+msgstr "{Name.powerdesc_damage_reduction}"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_antleer.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_antleer.desc"
@@ -24305,17 +24306,17 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_resist_backstab.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_backstab.name"
 msgid "Backstab Protection {name.gem}"
-msgstr ""
+msgstr "{Name.gem} захисту від удару в спину"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_backstab.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_backstab.slotted_desc"
 msgid "Reduces <#RED>{name.concept_damage}</> from behind."
-msgstr ""
+msgstr "Зменшує <#RED>{name.concept_damage}</> від удару в спину."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_backstab.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_backstab.stat_name"
 msgid "Backstab {name.powerdesc_damage_reduction}"
-msgstr ""
+msgstr "{Name.powerdesc_damage_reduction} в спину"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_battoad.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_battoad.desc"
@@ -24389,17 +24390,17 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_resist_boss_normal.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_boss_normal.name"
 msgid "Boss Protection {name.gem}"
-msgstr ""
+msgstr "{Name.gem} захисту від босів"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_boss_normal.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_boss_normal.slotted_desc"
 msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.rot_boss}</>."
-msgstr ""
+msgstr "Отримуйте менше <#RED>{2:{name.concept_damage}}</> від <#RED>{name_multiple.rot_boss}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_boss_normal.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_boss_normal.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
-msgstr ""
+msgstr "{Name.powerdesc_damage_reduction}"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_bulbug.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_bulbug.desc"
@@ -24473,12 +24474,12 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_resist_counter.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_counter.name"
 msgid "Counter Protection {name.gem}"
-msgstr ""
+msgstr "{Name.gem} захисту під час контратак"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_counter.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_counter.slotted_desc"
 msgid "Reduces <#RED>{name.concept_damage}</> while attacking."
-msgstr ""
+msgstr "Зменшує <#RED>{name.concept_damage}</> під час атаки."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_counter.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_counter.stat_name"
@@ -37228,7 +37229,7 @@ msgstr "Блиск"
 #: STRINGS.NAMES.gnarlic
 msgctxt "STRINGS.NAMES.gnarlic"
 msgid "Gnarlic"
-msgstr "Часниріг|Часнирога"
+msgstr "Часниріг|Часнирога|Часнирогам"
 
 #: STRINGS.NAMES.gnarlic_elite
 msgctxt "STRINGS.NAMES.gnarlic_elite"
@@ -37253,7 +37254,7 @@ msgstr "Великий Гурдо"
 #: STRINGS.NAMES.groak
 msgctxt "STRINGS.NAMES.groak"
 msgid "Groak"
-msgstr "Гроак|Гроака"
+msgstr "Гроак|Гроака|Гроаку"
 
 #: STRINGS.NAMES.groak_elite
 msgctxt "STRINGS.NAMES.groak_elite"
@@ -37403,7 +37404,7 @@ msgstr "Наповнене Материнське дерево|Наповнен�
 #: STRINGS.NAMES.meowl
 msgctxt "STRINGS.NAMES.meowl"
 msgid "Meowl"
-msgstr "Мяова|Мяови"
+msgstr "Мяова|Мяови|Мяовам"
 
 #: STRINGS.NAMES.meowl_elite
 msgctxt "STRINGS.NAMES.meowl_elite"
@@ -37418,7 +37419,7 @@ msgstr "Великий"
 #: STRINGS.NAMES.mossquito
 msgctxt "STRINGS.NAMES.mossquito"
 msgid "Mossquito"
-msgstr "Мохскіт|Мохскітів"
+msgstr "Мохскіт|Мохскітів|Мохскітам"
 
 #: STRINGS.NAMES.mossquito_elite
 msgctxt "STRINGS.NAMES.mossquito_elite"
@@ -37428,7 +37429,7 @@ msgstr "Наповнений Мохскіт"
 #: STRINGS.NAMES.mothball
 msgctxt "STRINGS.NAMES.mothball"
 msgid "Mothball"
-msgstr "Клубкова міль|Клубкової молі"
+msgstr "Клубкова міль|Клубкової молі|Клубковій молі"
 
 #: STRINGS.NAMES.mothball_elite
 msgctxt "STRINGS.NAMES.mothball_elite"
@@ -38783,7 +38784,7 @@ msgstr "Гармати"
 #: STRINGS.NAMES_PLURAL.weapon_crystal
 msgctxt "STRINGS.NAMES_PLURAL.weapon_crystal"
 msgid "Proto-Weapons"
-msgstr "Протозброї"
+msgstr "Протозброї|Протозброю"
 
 #: STRINGS.NAMES_PLURAL.weapon_greatsword
 msgctxt "STRINGS.NAMES_PLURAL.weapon_greatsword"
@@ -41967,8 +41968,8 @@ msgstr ""
 msgctxt "STRINGS.UI.GEMSCREEN.EMPTY_SLOT"
 msgid "%s\n"
 "slot"
-msgstr "%s\n"
-"слот"
+msgstr "Слот\n"
+"%s"
 
 #: STRINGS.UI.GEMSCREEN.EMPTY_SLOTS_LIST
 msgctxt "STRINGS.UI.GEMSCREEN.EMPTY_SLOTS_LIST"
@@ -41998,12 +41999,12 @@ msgstr "КОЛЕКЦІЯ САМОЦВІТІВ"
 #: STRINGS.UI.GEMSCREEN.GEM_BONUS_ACTIVE
 msgctxt "STRINGS.UI.GEMSCREEN.GEM_BONUS_ACTIVE"
 msgid "<p img='images/ui_ftf_options/checkbox_checked.tex' color=40AB38FF> Slot Match"
-msgstr "<p img='images/ui_ftf_options/checkbox_checked.tex' color=40AB38FF> Сумісність слоту"
+msgstr "<p img='images/ui_ftf_options/checkbox_checked.tex' color=40AB38FF> Сумісний слот"
 
 #: STRINGS.UI.GEMSCREEN.GEM_BONUS_INACTIVE
 msgctxt "STRINGS.UI.GEMSCREEN.GEM_BONUS_INACTIVE"
 msgid "<p img='images/ui_ftf_options/checkbox_unchecked.tex' color=967D71FF> Slot Match"
-msgstr "<p img='images/ui_ftf_options/checkbox_unchecked.tex' color=967D71FF> Сумісність слоту"
+msgstr "<p img='images/ui_ftf_options/checkbox_unchecked.tex' color=967D71FF> Сумісний слот"
 
 #: STRINGS.UI.GEMSCREEN.GEM_EQUIPPED_OTHER_ITEM
 msgctxt "STRINGS.UI.GEMSCREEN.GEM_EQUIPPED_OTHER_ITEM"
@@ -42539,12 +42540,12 @@ msgstr "Додано до скрині <#RED>%s</>."
 #: STRINGS.UI.IDENTIFYGEMSCREEN.NOTIFICATION_DUST_TITLE
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.NOTIFICATION_DUST_TITLE"
 msgid "%s {name.gem_dust}"
-msgstr "%s {name.gem_dust}"
+msgstr "%s {2:{name.gem_dust}}"
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.NOTIFICATION_GEM_DESC
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.NOTIFICATION_GEM_DESC"
 msgid "Added to <#RED>%s</>'s Chest."
-msgstr ""
+msgstr "Додано до скрині <#RED>%s</>."
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.NOTIFICATION_GEM_TITLE
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.NOTIFICATION_GEM_TITLE"
@@ -44026,7 +44027,7 @@ msgstr ""
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_1.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_1.TITLE"
 msgid "Weapon Research"
-msgstr ""
+msgstr "Дослідження зброї"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_2.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_2.DESC"
@@ -44375,7 +44376,7 @@ msgstr "Підключення"
 #: STRINGS.UI.NOTIFICATION.ITEM_OBTAINED.DESC
 msgctxt "STRINGS.UI.NOTIFICATION.ITEM_OBTAINED.DESC"
 msgid "Added to <#RED>{player_name}</>'s Chest."
-msgstr ""
+msgstr "Додано до скрині <#RED>{player_name}</>."
 
 #: STRINGS.UI.NOTIFICATION.ITEM_OBTAINED.TITLE
 msgctxt "STRINGS.UI.NOTIFICATION.ITEM_OBTAINED.TITLE"
