@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-11-30 16:15\n"
+"PO-Revision-Date: 2024-11-30 17:08\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -434,7 +434,7 @@ msgid "agent:\n"
 msgstr "agent:\n"
 " !happy\n"
 " !dubious\n"
-" Ха-ха, здається, ви пов’язані тими ж правилами, що і я, так?\n"
+" Ха-ха, здається, ви пов'язані тими ж правилами, що і я, так?\n"
 " !gesture\n"
 " Але все одно, дякую, Мисливцю. Я дуже ціную твою підтримку та розуміння."
 
@@ -1548,7 +1548,7 @@ msgstr "agent:\n"
 "Знаєте, що кажуть, мій дорогий <#BLUE>{player.species}</>... місце, місце, місце!!\n"
 "!happy\n"
 "!dubious\n"
-"Але не зважайте на це... здається, ваше взуття розв’язане!"
+"Але не зважайте на це... здається, ваше взуття розв'язане!"
 
 #: Convo.dgn_bv_bandiswamp_potion.HUB0.convo.giver.STATE_0.ANSWER_2
 msgctxt "Convo.dgn_bv_bandiswamp_potion.HUB0.convo.giver.STATE_0.ANSWER_2"
@@ -5441,7 +5441,7 @@ msgid "agent:\n"
 msgstr "agent:\n"
 "!neutral\n"
 "!gesture\n"
-"По всьому <#BLUE>кар’єру</> розкидані жаровні, які на щастя, ще палають.\n"
+"По всьому <#BLUE>кар'єру</> розкидані жаровні, які на щастя, ще палають.\n"
 "!point\n"
 "Стоячи поруч, ви зігрієтесь, але... навіть жаровні інколи можуть <#RED>замерзнути</>.\n"
 "!shrug\n"
@@ -11840,7 +11840,7 @@ msgstr "agent:\n"
 "!notebook\n"
 "Хіба не цікаво, що <#KONJUR>{name.konjur}</> не замерзає при таких мінусових температурах?\n"
 "!think\n"
-"Я повинен провести лабораторні експерименти, щоб з’ясувати, за яких умов він стає твердим."
+"Я повинен провести лабораторні експерименти, щоб з'ясувати, за яких умов він стає твердим."
 
 #: Quest.dgn_grove_potion.QUIP.chitchat:[in_quest_dgn_grove_potion,location_owlitzer_forest,role_travelling_salesman].1
 msgctxt "Quest.dgn_grove_potion.QUIP.chitchat:[in_quest_dgn_grove_potion,location_owlitzer_forest,role_travelling_salesman].1"
@@ -14386,7 +14386,7 @@ msgstr "!happy\n"
 " !gesture\n"
 " <#BLUE>{Name.npc_cook}</> каже, що перегрівання їжі вивільняє поживні речовини.\n"
 " !point\n"
-" Ось чому вона все обов’язково спалює."
+" Ось чому вона все обов'язково спалює."
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_armorsmith,wf_town_has_cook].2
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_armorsmith,wf_town_has_cook].2"
@@ -15310,7 +15310,7 @@ msgid "!gruffnod\n"
 " !point\n"
 " You just gotta find what build works for you."
 msgstr "!gruffnod\n"
-"Пам’ятайте, усі <#RED>вагові категорії</> є життєздатними.\n"
+"Пам'ятайте, усі <#RED>вагові категорії</> є життєздатними.\n"
 "!point\n"
 "Вам просто потрібно знайти той варіант, який вам підходить."
 
@@ -17640,7 +17640,7 @@ msgstr "!happy\n"
 " !gesture\n"
 " Дякуємо, що зупинилися біля найкращого маленького каравану на цьому боці вулкана!\n"
 " !point\n"
-" Обов’язково розкажіть своїм друзям... <z 0.7>(з грошима.)</z>"
+" Обов'язково розкажіть своїм друзям... <z 0.7>(з грошима.)</z>"
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_travelling_salesman].3
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_travelling_salesman].3"
@@ -19247,7 +19247,7 @@ msgstr "Святе гуакамоле! З вами все гаразд??"
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gourdo,lost_during_miniboss]skeptical.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gourdo,lost_during_miniboss]skeptical.1"
 msgid "If you see them drop a healing seed, make sure to knock it out!"
-msgstr "Якщо ви побачите, що вони впустили цілюще насіння, обов’язково знешкодьте його!"
+msgstr "Якщо ви побачите, що вони впустили цілюще насіння, обов'язково знешкодьте його!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gourdo,lost_during_miniboss]skeptical.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gourdo,lost_during_miniboss]skeptical.2"
@@ -24264,12 +24264,12 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_resist_acid.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_acid.name"
 msgid "Acid Protection {name.gem}"
-msgstr ""
+msgstr "{Name.gem} захисту від кислоти"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_acid.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_acid.slotted_desc"
 msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>Poison</>."
-msgstr ""
+msgstr "Отримуйте менше <#RED>{2:{name.concept_damage}}</> від <#RED>кислоти</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_acid.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_acid.stat_name"
@@ -24316,7 +24316,8 @@ msgstr "Зменшує <#RED>{name.concept_damage}</> від удару в сп�
 #: STRINGS.ITEMS.GEMS.damage_resist_backstab.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_backstab.stat_name"
 msgid "Backstab {name.powerdesc_damage_reduction}"
-msgstr "{Name.powerdesc_damage_reduction} в спину"
+msgstr "{Name.powerdesc_damage_reduction}\n"
+"в спину"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_battoad.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_battoad.desc"
@@ -24484,7 +24485,8 @@ msgstr "Зменшує <#RED>{name.concept_damage}</> під час атаки."
 #: STRINGS.ITEMS.GEMS.damage_resist_counter.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_counter.stat_name"
 msgid "Counter {name.powerdesc_damage_reduction}"
-msgstr "{Name.powerdesc_damage_reduction} при контратаці"
+msgstr "{Name.powerdesc_damage_reduction}\n"
+"при контратаці"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_crystroll.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_crystroll.desc"
@@ -24684,12 +24686,12 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_resist_miniboss.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_miniboss.name"
 msgid "Miniboss Protection {name.gem}"
-msgstr ""
+msgstr "{Name.gem} захисту від мінібосів"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_miniboss.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_miniboss.slotted_desc"
 msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.rot_miniboss}</>."
-msgstr ""
+msgstr "Отримуйте менше <#RED>{2:{name.concept_damage}}</> від <#RED>{2:{name_multiple.rot_miniboss}}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_miniboss.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_miniboss.stat_name"
@@ -24810,12 +24812,12 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_resist_projectiles.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_projectiles.name"
 msgid "Projectile Protection {name.gem}"
-msgstr ""
+msgstr "{Name.gem} захисту від снарядів"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_projectiles.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_projectiles.slotted_desc"
 msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>Projectiles</>."
-msgstr ""
+msgstr "Отримуйте менше <#RED>{2:{name.concept_damage}}</> від <#RED>снарядів</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_projectiles.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_projectiles.stat_name"
@@ -24978,12 +24980,12 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_resist_traps.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_traps.name"
 msgid "Trap Protection {name.gem}"
-msgstr ""
+msgstr "{Name.gem} захисту від пасток"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_traps.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_traps.slotted_desc"
 msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>Traps</>."
-msgstr ""
+msgstr "Отримуйте менше <#RED>{2:{name.concept_damage}}</> від <#RED>пасток</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_traps.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_traps.stat_name"
@@ -25109,7 +25111,7 @@ msgstr "{Name.gem} примари"
 #: STRINGS.ITEMS.GEMS.dodge_passes_through.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.dodge_passes_through.slotted_desc"
 msgid "<#RED>Dodge</> passes through objects."
-msgstr "<#RED>Ухилення</> проходить крізь об’єкти."
+msgstr "<#RED>Ухилення</> проходить крізь об'єкти."
 
 #: STRINGS.ITEMS.GEMS.heal_on_enter.desc
 msgctxt "STRINGS.ITEMS.GEMS.heal_on_enter.desc"
@@ -25167,7 +25169,7 @@ msgstr "{Name.gem} \"Візьми мене\""
 #: STRINGS.ITEMS.GEMS.heal_on_konjur.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.heal_on_konjur.slotted_desc"
 msgid "Chance to <#RED>Heal</> for amount of <#KONJUR>{name.i_konjur}</> picked up."
-msgstr ""
+msgstr "Шанс <#RED>вилікуватись</> на отриману кількість <#KONJUR>{2:{name.i_konjur}}</>."
 
 #: STRINGS.ITEMS.GEMS.heal_on_konjur.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.heal_on_konjur.stat_name"
@@ -25230,7 +25232,7 @@ msgstr "{Name.gem} пацієнта"
 #: STRINGS.ITEMS.GEMS.longer_hitstreak.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.longer_hitstreak.slotted_desc"
 msgid "{name_multiple.concept_hitstreak} decay slower."
-msgstr "{name_multiple.concept_hitstreak} закінчуються повільніше."
+msgstr "{Name_multiple.concept_hitstreak} закінчуються повільніше."
 
 #: STRINGS.ITEMS.GEMS.longer_hitstreak.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.longer_hitstreak.stat_name"
@@ -25914,22 +25916,22 @@ msgstr "Захист для голови з {Name.zucco}"
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools1.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools1.desc"
 msgid "Allows the holder upgrade all armour to <#RED>Level 6</>."
-msgstr ""
+msgstr "Дозволяє власнику покращити всі обладунки до <#RED>рівня 6</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools1.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools1.name"
 msgid "{name.armourtools1}"
-msgstr ""
+msgstr "{Name.armourtools1}"
 
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools2.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools2.desc"
 msgid "Allows the holder upgrade all armour to <#RED>Level 9</>."
-msgstr ""
+msgstr "Дозволяє власнику покращити всі обладунки до <#RED>рівня 9</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools2.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools2.name"
 msgid "{name.armourtools2}"
-msgstr ""
+msgstr "{Name.armourtools2}"
 
 #: STRINGS.ITEMS.KEY_ITEMS.gemtools.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.gemtools.desc"
@@ -25954,22 +25956,22 @@ msgstr "{Name.teffrometer}"
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools1.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools1.desc"
 msgid "Allows the holder upgrade all weapons to <#RED>Level 6</>."
-msgstr ""
+msgstr "Дозволяє власнику покращити всю зброю до <#RED>рівня 6</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools1.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools1.name"
 msgid "{name.weapontools1}"
-msgstr ""
+msgstr "{Name.weapontools1}"
 
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools2.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools2.desc"
 msgid "Allows the holder upgrade all weapons to <#RED>Level 9</>."
-msgstr ""
+msgstr "Дозволяє власнику покращити всю зброю до <#RED>рівня 9</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools2.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools2.name"
 msgid "{name.weapontools2}"
-msgstr ""
+msgstr "{Name.weapontools2}"
 
 #: STRINGS.ITEMS.KONJUR_CONVERSION.basic.desc
 msgctxt "STRINGS.ITEMS.KONJUR_CONVERSION.basic.desc"
@@ -27640,7 +27642,7 @@ msgstr "Стовбур {2:{Name.yammo_elite}}"
 msgctxt "STRINGS.ITEMS.MATERIALS.zucco_claw.desc"
 msgid "They're a lot safer now they're not attached to a <#RED>{name.zucco_elite}</>.\n\n"
 "Found in: <#RED>{name.treemon_forest}</>"
-msgstr "Тепер вони набагато безпечніші, оскільки не прив’язані до <#RED>{Name.zucco_elite}</>.\n\n"
+msgstr "Тепер вони набагато безпечніші, оскільки не прив'язані до <#RED>{Name.zucco_elite}</>.\n\n"
 "Знайдені в: <#RED>{Name.treemon_forest}</>"
 
 #: STRINGS.ITEMS.MATERIALS.zucco_claw.name
@@ -28671,7 +28673,7 @@ msgstr "Пронизливі фокусні постріли"
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_corestone.desc"
 msgid "Kill an <#RED>{name.elite_prefix} {name.rot_boss}</> to absorb its essence.\n"
 "Breaks on <#RED>Death</>."
-msgstr ""
+msgstr "Вбийте <#RED>{4:{name.elite_prefix}} {2:{name.rot_boss}}</>, щоб поглинути його сутність. Ламається при <#RED>смерті</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_corestone.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_corestone.name"
@@ -29960,7 +29962,7 @@ msgstr "Відстань {name.concept_dodge}"
 #: STRINGS.ITEMS.POWERS.PLAYER.advantage.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.advantage.desc"
 msgid "Your <#RED>Attacks</> against <#RED>Enemies</> with <#RED>{rarity_text} Health</> are guaranteed to <#RED>Critical Hit</>."
-msgstr "Ваші <#RED>атаки</> проти <#RED>ворогів</> з <#RED>{rarity_text} здоров’ям</> гарантовано отримують <#RED>критичний удар</>."
+msgstr "Ваші <#RED>атаки</> проти <#RED>ворогів</> з <#RED>{rarity_text} здоров'ям</> гарантовано отримують <#RED>критичний удар</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.advantage.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.advantage.name"
@@ -30057,7 +30059,7 @@ msgstr "Загнаний у кут койот"
 #: STRINGS.ITEMS.POWERS.PLAYER.bloodlust.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.bloodlust.desc"
 msgid "When you enter a <#RED>Combat Room</>, <#RED>Heal</> for <#RED>{heal} Health</>."
-msgstr "Коли ви входите в <#RED>бойову кімнату</>, <#RED>вилікуйтесь</> на <#RED>{heal} здоров’я</>."
+msgstr "Коли ви входите в <#RED>бойову кімнату</>, <#RED>вилікуйтесь</> на <#RED>{heal} здоров'я</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.bloodlust.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.bloodlust.name"
@@ -30300,7 +30302,7 @@ msgstr "Мерехтіння"
 #: STRINGS.ITEMS.POWERS.PLAYER.dodge_passes_through.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.dodge_passes_through.desc"
 msgid "Your <#RED>{name.concept_dodge}</> passes through objects."
-msgstr "Ваше <#RED>{name.concept_dodge}</> проходить крізь об’єкти."
+msgstr "Ваше <#RED>{name.concept_dodge}</> проходить крізь об'єкти."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.dodge_passes_through.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.dodge_passes_through.name"
@@ -31715,7 +31717,7 @@ msgstr "Дзьоб {2:{Name.floracrane}}"
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.miniboss_gourdo.desc"
 msgid "Channel your inner seedling, restoring <#RED>{heal} Health</> to yourself and all <#RED>Allies</> within a medium radius.\n\n"
 "Regain <#RED>1 Stock</> for every <#RED>{damage_til_new_stock} {name.concept_damage}</> dealt, up to a maximum of <#RED>3 Stocks</>."
-msgstr "Використовуйте свій внутрішній саджанець, відновлюючи <#RED>{heal} здоров’я</> собі та всім <#RED>союзникам</> в середньому радіусі.\n\n"
+msgstr "Використовуйте свій внутрішній саджанець, відновлюючи <#RED>{heal} здоров'я</> собі та всім <#RED>союзникам</> в середньому радіусі.\n\n"
 "Відновіть <#RED>1 заряд</> після нанесення <#RED>{damage_til_new_stock} {2:{name.concept_damage}}</>, максимум <#RED>3 заряди</>."
 
 #: STRINGS.ITEMS.POWERS.SKILL.miniboss_gourdo.name
@@ -36854,12 +36856,12 @@ msgstr "Арак"
 #: STRINGS.NAMES.armourtools1
 msgctxt "STRINGS.NAMES.armourtools1"
 msgid "Advanced Sewing Kit"
-msgstr ""
+msgstr "Просунутий набір для шиття"
 
 #: STRINGS.NAMES.armourtools2
 msgctxt "STRINGS.NAMES.armourtools2"
 msgid "Master Sewing Kit"
-msgstr ""
+msgstr "Майстерний набір для шиття"
 
 #: STRINGS.NAMES.ascension
 msgctxt "STRINGS.NAMES.ascension"
@@ -38054,12 +38056,12 @@ msgstr "Страйкер|Страйкеру|Страйкера|Страйкер�
 #: STRINGS.NAMES.weapontools1
 msgctxt "STRINGS.NAMES.weapontools1"
 msgid "Advanced Smith's Tools"
-msgstr ""
+msgstr "Просунуті інструменти коваля"
 
 #: STRINGS.NAMES.weapontools2
 msgctxt "STRINGS.NAMES.weapontools2"
 msgid "Master Smith's Tools"
-msgstr ""
+msgstr "Майстерні інструменти коваля"
 
 #: STRINGS.NAMES.weather
 msgctxt "STRINGS.NAMES.weather"
@@ -43916,28 +43918,29 @@ msgstr "<p img='images/icons_ftf/character_title.tex' color=0> Нова клич
 #: STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_COMPLETE_1.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_COMPLETE_1.DESC"
 msgid "<#RED>{name.npc_armorsmith}</> can now upgrade all armour up to <#RED>Level 6</>!"
-msgstr ""
+msgstr "<#RED>{Name.npc_armorsmith}</> може покращити всі обладунки до <#RED>рівня 6</>!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_COMPLETE_1.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_COMPLETE_1.TITLE"
 msgid "{name.armourtools1} Crafted!"
-msgstr ""
+msgstr "Створено {name.armourtools1}!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_COMPLETE_2.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_COMPLETE_2.DESC"
 msgid "<#RED>{name.npc_armorsmith}</> can now upgrade all armour up to <#RED>Level 9</>!"
-msgstr ""
+msgstr "<#RED>{Name.npc_armorsmith}</> може покращити всі обладунки до <#RED>рівня 9</>!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_COMPLETE_2.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_COMPLETE_2.TITLE"
 msgid "{name.armourtools2} Crafted!"
-msgstr ""
+msgstr "Створено {name.armourtools2}!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_1.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_1.DESC"
 msgid "<#RED>{name.npc_armorsmith}</> needs to research your new equipment!\n\n"
 "<#RED>Upgrade</> an armour piece to <#RED>Level 6</>."
-msgstr ""
+msgstr "<#RED>{3:{Name.npc_armorsmith}}</> потрібно дослідити ваше нове спорядження! \n\n"
+"<#RED>Покращте</> частину обладунку до <#RED>6 рівня</>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_1.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_1.TITLE"
@@ -43948,12 +43951,13 @@ msgstr "Дослідження обладунків"
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_2.DESC"
 msgid "<#RED>{name.npc_armorsmith}</> needs to research your new equipment!\n\n"
 "<#RED>Upgrade</> an armour piece to <#RED>Level 9</>."
-msgstr ""
+msgstr "<#RED>{3:{Name.npc_armorsmith}}</> потрібно дослідити ваше нове спорядження! \n\n"
+"<#RED>Покращте</> частину обладунку до <#RED>9 рівня</>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_2.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_2.TITLE"
 msgid "Advanced Armour Research"
-msgstr ""
+msgstr "Покращене дослідження обладунків"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.BOSS_WEAPON_CRAFTING.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.BOSS_WEAPON_CRAFTING.DESC"
@@ -44006,7 +44010,7 @@ msgstr ""
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_COMPLETE_1.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_COMPLETE_1.TITLE"
 msgid "{name.weapontools1} Crafted!"
-msgstr ""
+msgstr "Створено {name.weapontools1}!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_COMPLETE_2.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_COMPLETE_2.DESC"
@@ -44016,13 +44020,14 @@ msgstr ""
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_COMPLETE_2.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_COMPLETE_2.TITLE"
 msgid "{name.weapontools2} Crafted!"
-msgstr ""
+msgstr "Створено {name.weapontools2}!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_1.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_1.DESC"
 msgid "<#RED>{name.npc_blacksmith}</> needs to research your new equipment!\n\n"
 "<#RED>Upgrade</> a weapon to <#RED>Level 6</>."
-msgstr ""
+msgstr "<#RED>{3:{Name.npc_blacksmith}}</> потрібно дослідити ваше нове спорядження! \n\n"
+"<#RED>Покращте</> зброю до <#RED>6 рівня</>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_1.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_1.TITLE"
@@ -44033,12 +44038,13 @@ msgstr "Дослідження зброї"
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_2.DESC"
 msgid "<#RED>{name.npc_blacksmith}</> needs to research your new equipment!\n\n"
 "<#RED>Upgrade</> a weapon to <#RED>Level 9</>."
-msgstr ""
+msgstr "<#RED>{3:{Name.npc_blacksmith}}</> потрібно дослідити ваше нове спорядження! \n\n"
+"<#RED>Покращте</> зброю до <#RED>9 рівня</>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_2.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_2.TITLE"
 msgid "Advanced Weapon Research"
-msgstr ""
+msgstr "Покращене дослідження зброї"
 
 #: STRINGS.UI.META_PROGRESS.DEPOSIT
 msgctxt "STRINGS.UI.META_PROGRESS.DEPOSIT"
@@ -46354,7 +46360,7 @@ msgstr "Киньте виклик!\n"
 #: STRINGS.UI.ROOM_PREVIEW.POTION
 msgctxt "STRINGS.UI.ROOM_PREVIEW.POTION"
 msgid "Restore your health!"
-msgstr "Відновіть ваше здоров’я!"
+msgstr "Відновіть ваше здоров'я!"
 
 #: STRINGS.UI.ROOM_PREVIEW.POWERUPGRADE
 msgctxt "STRINGS.UI.ROOM_PREVIEW.POWERUPGRADE"
