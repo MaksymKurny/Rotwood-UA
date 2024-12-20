@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-12-01 14:35\n"
+"PO-Revision-Date: 2024-12-20 23:01\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -3812,12 +3812,12 @@ msgstr ""
 #: Convo.dgn_mystery.ATTRACT8.upgrade_random_power.giver.STATE_0.OPT_ACCEPT
 msgctxt "Convo.dgn_mystery.ATTRACT8.upgrade_random_power.giver.STATE_0.OPT_ACCEPT"
 msgid "Okay..."
-msgstr "Добре..."
+msgstr ""
 
 #: Convo.dgn_mystery.ATTRACT8.upgrade_random_power.giver.STATE_0.OPT_BACK
 msgctxt "Convo.dgn_mystery.ATTRACT8.upgrade_random_power.giver.STATE_0.OPT_BACK"
 msgid "No way!"
-msgstr "Ні в якому разі!"
+msgstr ""
 
 #: Convo.dgn_mystery.ATTRACT8.upgrade_random_power.giver.STATE_0.TALK_UPGRADE_RANDOM_POWER
 msgctxt "Convo.dgn_mystery.ATTRACT8.upgrade_random_power.giver.STATE_0.TALK_UPGRADE_RANDOM_POWER"
@@ -3828,23 +3828,17 @@ msgid "agent:\n"
 " !think\n"
 " All it will cost is a slice of your finger! He! He! He!\n"
 " Accept: Random <#RED>{name.concept_relic}</> upgrade. <#RED>Take 250 Damage</>."
-msgstr "agent:\n"
-"!clap\n"
-"Хе! Хе! Хе! Я відчуваю себе щедрим!\n"
-"Я безплатно <#RED>покращу випадкову {2:{name.concept_relic}}</>.\n"
-"!think\n"
-"Це коштуватиме, — шматок вашого пальця! ! Хе! Хе! Хе!\n"
-"Прийняти: випадкова <#RED>{name.concept_relic}</> покращиться. <#RED>Отримаєте 250 шкоди</>."
+msgstr ""
 
 #: Convo.dgn_mystery.ATTRACT9.event_prototype.giver.STATE_0.OPT_ACCEPT
 msgctxt "Convo.dgn_mystery.ATTRACT9.event_prototype.giver.STATE_0.OPT_ACCEPT"
 msgid "<#RED>[Start Minigame]</> Let's go!"
-msgstr "<#RED>[Почати міні гру]</> Починай!"
+msgstr ""
 
 #: Convo.dgn_mystery.ATTRACT9.event_prototype.giver.STATE_0.OPT_BACK
 msgctxt "Convo.dgn_mystery.ATTRACT9.event_prototype.giver.STATE_0.OPT_BACK"
 msgid "No thanks."
-msgstr "Ні, дякую."
+msgstr ""
 
 #: Convo.dgn_mystery.ATTRACT9.event_prototype.giver.STATE_0.TALK_EVENT_PROTOTYPE
 msgctxt "Convo.dgn_mystery.ATTRACT9.event_prototype.giver.STATE_0.TALK_EVENT_PROTOTYPE"
@@ -3853,11 +3847,7 @@ msgid "agent:\n"
 " Let's prototype an event!\n"
 " !clap\n"
 " Start?"
-msgstr "agent:\n"
-" !point\n"
-" Створімо прототип події!\n"
-" !clap\n"
-" Починаємо?"
+msgstr ""
 
 #: Convo.dgn_new_biome_meeting_market.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.dgn_new_biome_meeting_market.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -4433,7 +4423,7 @@ msgstr ""
 #: Convo.dgn_seen_missing_friends_armorsmith_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_2
 msgctxt "Convo.dgn_seen_missing_friends_armorsmith_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_2"
 msgid "Thanks!"
-msgstr "Дякую!"
+msgstr ""
 
 #: Convo.dgn_seen_missing_friends_blacksmith_market.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.dgn_seen_missing_friends_blacksmith_market.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -7920,7 +7910,7 @@ msgstr ""
 #: Convo.twn_fortify_armorsmith_2_request.HUB0.convo.giver.STATE_0.END
 msgctxt "Convo.twn_fortify_armorsmith_2_request.HUB0.convo.giver.STATE_0.END"
 msgid "Okay...?"
-msgstr "Добре...?"
+msgstr ""
 
 #: Convo.twn_fortify_armorsmith_2_request.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.twn_fortify_armorsmith_2_request.HUB0.convo.giver.STATE_0.QUESTION_1"
@@ -7983,15 +7973,7 @@ msgid "agent:\n"
 " !disagree\n"
 " !think\n"
 " I don't like it. Something strange is definitely going on here."
-msgstr "agent:\n"
-" !neutral\n"
-" !think\n"
-" Оце я й хотів би з'ясувати. Вони виглядали й поводилися зовсім інакше... наче щось зробило їх <#RED>Божевільними</>.\n"
-" !shocked\n"
-" А той <#RED>{name.rot_boss}</>, якого ви здолали... якось зміг відновитися, ще й з повністю сформованим <#KONJUR>{name.i_konjur_heart}</>.\n"
-" !disagree\n"
-" !think\n"
-" Мені це не подобається. Тут явно відбувається щось дивне."
+msgstr ""
 
 #: Convo.twn_frenzy_firstdone_scout.ATTRACT0.complete_frenzy.giver.STATE_0.ANSWER_2
 msgctxt "Convo.twn_frenzy_firstdone_scout.ATTRACT0.complete_frenzy.giver.STATE_0.ANSWER_2"
@@ -8003,14 +7985,7 @@ msgid "agent:\n"
 " Those four <#KONJUR>{name_multiple.i_konjur_heart}</> should have been enough, but for some reason the Teffra levels are still too low.\n"
 " !nervous\n"
 " I'm so sorry, I-I must've miscalculated something..."
-msgstr "agent:\n"
-" !neutral \n"
-" !nervous \n"
-" Так... \n"
-" !think \n"
-" Цих чотирьох <#KONJUR>{name_multiple.i_konjur_heart}</> мало б вистачити, але з якоїсь причини рівень конжуру все ще занадто низький. \n"
-" !nervous \n"
-" Вибачте, я... мабуть, десь прорахувався..."
+msgstr ""
 
 #: Convo.twn_frenzy_firstdone_scout.ATTRACT0.complete_frenzy.giver.STATE_0.ANSWER_3
 msgctxt "Convo.twn_frenzy_firstdone_scout.ATTRACT0.complete_frenzy.giver.STATE_0.ANSWER_3"
@@ -8024,16 +7999,7 @@ msgid "agent:\n"
 " But if we keep pressing on, I know we'll get the grid working.\n"
 " !nervous\n"
 " I'd... hoped to avoid this, but... I do know a couple other locations that might be home to <#RED>{name_multiple.rot_boss}</>."
-msgstr "agent:\n"
-" !neutral\n"
-" !closedeyes\n"
-" Правильно... ви маєте рацію. У нас є план. Потрібно просто дотримуватись його.\n"
-" !think\n"
-" Можливо, є якийсь невідомий фактор, який я не врахував у перших розрахунках.\n"
-" !point\n"
-" Але якщо продовжимо наполегливо працювати, я впевнений, що ми запустимо сітку.\n"
-" !nervous\n"
-" Я... намагався уникнути цього, але... знаю ще декілька місць, де можуть перебувати <#RED>{name_multiple.rot_boss}</>."
+msgstr ""
 
 #: Convo.twn_frenzy_firstdone_scout.ATTRACT0.complete_frenzy.giver.STATE_0.ANSWER_4AB
 msgctxt "Convo.twn_frenzy_firstdone_scout.ATTRACT0.complete_frenzy.giver.STATE_0.ANSWER_4AB"
@@ -8050,29 +8016,17 @@ msgid "agent:\n"
 " I've marked out the two most likely <#RED>{name_multiple.rot_boss}</> locations on your map. We can head out whenever you're ready.\n"
 " !gruffnod\n"
 " We can still do this, Hunter. Let's get those <#KONJUR>{name_multiple.i_konjur_heart}</>!"
-msgstr "agent:\n"
-" !neutral\n"
-" !nervous\n"
-" Так... це місце не з приємних. Нам доведеться відправитися у крижані пустки.\n"
-" !point\n"
-" Тож одягніть теплий одяг і зберіть всю свою хоробрість...\n"
-" !neutral\n"
-" !shrug\n"
-" Ті <#RED>{name_multiple.rot}</> досить сильні, щоб вижити там, і так просто не піддадуться.\n"
-" !gesture\n"
-" Я позначив два найбільш ймовірні місця <#RED>{2:{name_multiple.rot_boss}}</> на вашій карті. Вирушаймо, як будете готові.\n"
-" !gruffnod\n"
-" У нас ще є шанси, Мисливцю. Давайте добудемо ці <#KONJUR>{name_multiple.i_konjur_heart}</>!"
+msgstr ""
 
 #: Convo.twn_frenzy_firstdone_scout.ATTRACT0.complete_frenzy.giver.STATE_0.QUESTION_1
 msgctxt "Convo.twn_frenzy_firstdone_scout.ATTRACT0.complete_frenzy.giver.STATE_0.QUESTION_1"
 msgid "Yeah... what happened to those {name_multiple.rot}?!"
-msgstr "Так... що сталося з тими {3:{name_multiple.rot}}?!"
+msgstr ""
 
 #: Convo.twn_frenzy_firstdone_scout.ATTRACT0.complete_frenzy.giver.STATE_0.QUESTION_2
 msgctxt "Convo.twn_frenzy_firstdone_scout.ATTRACT0.complete_frenzy.giver.STATE_0.QUESTION_2"
 msgid "Speaking of strange, shouldn't the shields be working now?"
-msgstr "Говорячи про дивне, хіба щити не повинні працювати зараз?"
+msgstr ""
 
 #: Convo.twn_frenzy_firstdone_scout.ATTRACT0.complete_frenzy.giver.STATE_0.QUESTION_3
 msgctxt "Convo.twn_frenzy_firstdone_scout.ATTRACT0.complete_frenzy.giver.STATE_0.QUESTION_3"
@@ -8380,7 +8334,7 @@ msgstr ""
 #: Convo.twn_gems_intro_blacksmith.ATTRACT2.gems_finish.giver.STATE_0.END
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT2.gems_finish.giver.STATE_0.END"
 msgid "{name.station_gems}, got it!"
-msgstr "{name.station_gems}, зрозумів!"
+msgstr "{Name.station_gems}, зрозумів!"
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT2.gems_finish.giver.STATE_0.QUESTION_1
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT2.gems_finish.giver.STATE_0.QUESTION_1"
@@ -9813,7 +9767,7 @@ msgstr "Не зараз."
 #: Convo.twn_shop_armorsmith.HUB1.fortify_2.giver.STATE_0.OPT_CONFIRM
 msgctxt "Convo.twn_shop_armorsmith.HUB1.fortify_2.giver.STATE_0.OPT_CONFIRM"
 msgid "<#RED>{name.armourtools2}</>, here we come!"
-msgstr "<#RED>{name.armourtools2}</>, ми йдемо!"
+msgstr "<#RED>{Name.armourtools2}</>, ми йдемо!"
 
 #: Convo.twn_shop_armorsmith.HUB1.fortify_2.giver.STATE_0.OPT_FORTIFY
 msgctxt "Convo.twn_shop_armorsmith.HUB1.fortify_2.giver.STATE_0.OPT_FORTIFY"
@@ -10815,6 +10769,247 @@ msgstr "agent:\n"
 " !neutral\n"
 " !gesture\n"
 " Мисливцю! Ви щось знайшли?"
+
+#: Convo.twn_winter2024_armorsmith.ATTRACT0.winter2024.giver.STATE_0.ANSWER_1A
+msgctxt "Convo.twn_winter2024_armorsmith.ATTRACT0.winter2024.giver.STATE_0.ANSWER_1A"
+msgid "agent:\n"
+" !happy\n"
+" !point\n"
+" It's super important. You've got to follow my instructions <i>exactly</>, okay?\n"
+" !gesture\n"
+" Close your eyes and hold out your hands."
+msgstr "agent:\n"
+" !happy\n"
+" !point\n"
+" Це дуже важливо. Ви маєте точно виконувати мої інструкції <i>без імпровізації</>, гаразд?\n"
+" !gesture\n"
+" Заплющте очі та простягніть руки."
+
+#: Convo.twn_winter2024_armorsmith.ATTRACT0.winter2024.giver.STATE_0.ANSWER_2A
+msgctxt "Convo.twn_winter2024_armorsmith.ATTRACT0.winter2024.giver.STATE_0.ANSWER_2A"
+msgid "agent:\n"
+" !clap\n"
+" Perfect! Stay just like that for a second...\n"
+" !happy\n"
+" !dubious\n"
+" ...Okay, now open your eyes!"
+msgstr "agent:\n"
+" !clap\n"
+" Чудово! Залишайтеся так ще секунду...\n"
+" !happy\n"
+" !dubious\n"
+" ...Добре, тепер відкрийте очі!"
+
+#: Convo.twn_winter2024_armorsmith.ATTRACT0.winter2024.giver.STATE_0.ANSWER_3A
+msgctxt "Convo.twn_winter2024_armorsmith.ATTRACT0.winter2024.giver.STATE_0.ANSWER_3A"
+msgid "agent:\n"
+" !bliss\n"
+" Hope you like it! {name.npc_lunn} helped me pick it out!"
+msgstr "agent:\n"
+" !bliss\n"
+" Сподіваюся, вам сподобається! {Name.npc_lunn} допоміг мені вибрати!"
+
+#: Convo.twn_winter2024_armorsmith.ATTRACT0.winter2024.giver.STATE_0.QUESTION_1A
+msgctxt "Convo.twn_winter2024_armorsmith.ATTRACT0.winter2024.giver.STATE_0.QUESTION_1A"
+msgid "What do you need?"
+msgstr "Що тобі потрібно?"
+
+#: Convo.twn_winter2024_armorsmith.ATTRACT0.winter2024.giver.STATE_0.QUESTION_2A
+msgctxt "Convo.twn_winter2024_armorsmith.ATTRACT0.winter2024.giver.STATE_0.QUESTION_2A"
+msgid "Okay! <i><#RED><z 0.7>(Close your eyes and hold out your hands)</z></></i>"
+msgstr "Добре! <i><#RED><z 0.7>(Заплющити очі та простягнути руки)</z></></i>"
+
+#: Convo.twn_winter2024_armorsmith.ATTRACT0.winter2024.giver.STATE_0.QUESTION_3A
+msgctxt "Convo.twn_winter2024_armorsmith.ATTRACT0.winter2024.giver.STATE_0.QUESTION_3A"
+msgid "A {name.holiday_winter} present? Wow, thanks {name.npc_armorsmith}!"
+msgstr "Подарунок до {2:{name.holiday_winter}}? Вау, дякую, {Name.npc_armorsmith}!"
+
+#: Convo.twn_winter2024_armorsmith.ATTRACT0.winter2024.giver.STATE_0.TALK
+msgctxt "Convo.twn_winter2024_armorsmith.ATTRACT0.winter2024.giver.STATE_0.TALK"
+msgid "agent:\n"
+" !happy\n"
+" !wave\n"
+" Hunteerrrrr, over here! I need you to do something for me!"
+msgstr "agent:\n"
+" !happy\n"
+" !wave\n"
+" Мисливцюююю, сюди! Мені потрібно, щоб ви щось зробили для мене!"
+
+#: Convo.twn_winter2024_blacksmith.ATTRACT0.winter2024.giver.STATE_0.ANSWER_1A
+msgctxt "Convo.twn_winter2024_blacksmith.ATTRACT0.winter2024.giver.STATE_0.ANSWER_1A"
+msgid "agent:\n"
+" !disagree\n"
+" (*grunt*) Dunnae mention it. Ever."
+msgstr "agent:\n"
+" !disagree\n"
+" (*глухий стогін*) Не згадуйте про це. Ніколи."
+
+#: Convo.twn_winter2024_blacksmith.ATTRACT0.winter2024.giver.STATE_0.QUESTION_1A
+msgctxt "Convo.twn_winter2024_blacksmith.ATTRACT0.winter2024.giver.STATE_0.QUESTION_1A"
+msgid "You got me a {name.holiday_winter} present? Thanks {name.npc_blacksmith}!"
+msgstr "Ти дав мені подарунок до {2:{name.holiday_winter}}? Дякую, {Name.npc_blacksmith}!"
+
+#: Convo.twn_winter2024_blacksmith.ATTRACT0.winter2024.giver.STATE_0.TALK
+msgctxt "Convo.twn_winter2024_blacksmith.ATTRACT0.winter2024.giver.STATE_0.TALK"
+msgid "agent:\n"
+" !neutral\n"
+" !closedeyes\n"
+" Hunter.\n"
+" !gesture\n"
+" ...Here."
+msgstr "agent:\n"
+" !neutral\n"
+" !closedeyes\n"
+" Мисливцю.\n"
+" !gesture\n"
+" ...Ось."
+
+#: Convo.twn_winter2024_dojo.ATTRACT0.winter2024.giver.STATE_0.ANSWER_1AB
+msgctxt "Convo.twn_winter2024_dojo.ATTRACT0.winter2024.giver.STATE_0.ANSWER_1AB"
+msgid "agent:\n"
+" !happy\n"
+" !shrug\n"
+" Everyone needs to take it easy now and then. Even you, Hunter.\n"
+" !happy\n"
+" !dubious\n"
+" But if you're not keen on takin' a break, you can take this instead."
+msgstr "agent:\n"
+" !happy\n"
+" !shrug\n"
+" Іноді всім потрібно трохи відпочити. Навіть вам, Мисливцю.\n"
+" !happy\n"
+" !dubious\n"
+" Але якщо ви не налаштовані відпочивати, тоді візьміть це."
+
+#: Convo.twn_winter2024_dojo.ATTRACT0.winter2024.giver.STATE_0.ANSWER_2A
+msgctxt "Convo.twn_winter2024_dojo.ATTRACT0.winter2024.giver.STATE_0.ANSWER_2A"
+msgid "!laugh\n"
+" Ha! Wouldn't you like to know!"
+msgstr "!laugh\n"
+" Ха! Хіба ви не хотіли б знати!"
+
+#: Convo.twn_winter2024_dojo.ATTRACT0.winter2024.giver.STATE_0.QUESTION_1A
+msgctxt "Convo.twn_winter2024_dojo.ATTRACT0.winter2024.giver.STATE_0.QUESTION_1A"
+msgid "I can't slow down, there's too much to do!"
+msgstr "Я не можу зупинитися, занадто багато роботи!"
+
+#: Convo.twn_winter2024_dojo.ATTRACT0.winter2024.giver.STATE_0.QUESTION_1B
+msgctxt "Convo.twn_winter2024_dojo.ATTRACT0.winter2024.giver.STATE_0.QUESTION_1B"
+msgid "Bah. Holidays are just used as an excuse to slack off."
+msgstr "Та ну. Свята — це просто привід для байдикування."
+
+#: Convo.twn_winter2024_dojo.ATTRACT0.winter2024.giver.STATE_0.QUESTION_2A
+msgctxt "Convo.twn_winter2024_dojo.ATTRACT0.winter2024.giver.STATE_0.QUESTION_2A"
+msgid "Aw, thanks {name.npc_dojo_master}! Does this mean I'm your favourite student?"
+msgstr "Ой, дякую, {Name.npc_dojo_master}! Це означає, що я твій улюблений учень?"
+
+#: Convo.twn_winter2024_dojo.ATTRACT0.winter2024.giver.STATE_0.TALK
+msgctxt "Convo.twn_winter2024_dojo.ATTRACT0.winter2024.giver.STATE_0.TALK"
+msgid "agent:\n"
+" !happy\n"
+" !gesture\n"
+" Still workin' hard over {name.holiday_winter}, eh kid?"
+msgstr "agent:\n"
+" !happy\n"
+" !gesture\n"
+" Працюєте, навіть під час {2:{name.holiday_winter}}, так, малий?"
+
+#: Convo.twn_winter2024_scout.ATTRACT0.winter2024.giver.STATE_0.ANSWER_1A
+msgctxt "Convo.twn_winter2024_scout.ATTRACT0.winter2024.giver.STATE_0.ANSWER_1A"
+msgid "agent:\n"
+" !neutral\n"
+" !agree\n"
+" We've all lost a lot these past ten years. I had a feeling you'd understand.\n"
+" !happy\n"
+" !shocked\n"
+" Oh! Look at me getting all sappy, I almost forgot! \n"
+" !happy\n"
+" !gesture\n"
+" Here. A little something from me to you."
+msgstr "agent:\n"
+" !neutral\n"
+" !agree\n"
+" Ми всі багато втратили за ці десять років. Я відчував, що ви це зрозумієте.\n"
+" !happy\n"
+" !shocked\n"
+" О! Дивіться, як я розчулився, мало не забув! \n"
+" !happy\n"
+" !gesture\n"
+" Ось. Маленький подарунок від мене для вас."
+
+#: Convo.twn_winter2024_scout.ATTRACT0.winter2024.giver.STATE_0.ANSWER_1B
+msgctxt "Convo.twn_winter2024_scout.ATTRACT0.winter2024.giver.STATE_0.ANSWER_1B"
+msgid "agent:\n"
+" !happy\n"
+" !agree\n"
+" Truer words were never spoken.\n"
+" !happy\n"
+" !shocked\n"
+" Oh! Look at me getting all sappy, I almost forgot! \n"
+" !happy\n"
+" !gesture\n"
+" Here. A little something from me to you."
+msgstr "agent:\n"
+" !happy\n"
+" !agree\n"
+" Ніколи не було сказано правдивіших слів.\n"
+" !happy\n"
+" !shocked\n"
+" О! Дивіться, як я розчулився, мало не забув! \n"
+" !happy\n"
+" !gesture\n"
+" Ось. Маленький подарунок від мене для вас."
+
+#: Convo.twn_winter2024_scout.ATTRACT0.winter2024.giver.STATE_0.ANSWER_2AB
+msgctxt "Convo.twn_winter2024_scout.ATTRACT0.winter2024.giver.STATE_0.ANSWER_2AB"
+msgid "!happy\n"
+" !gesture\n"
+" Happy Wintertide, Hunter."
+msgstr "!happy\n"
+" !gesture\n"
+" Щасливої зимної пори, Мисливцю."
+
+#: Convo.twn_winter2024_scout.ATTRACT0.winter2024.giver.STATE_0.QUESTION_1A
+msgctxt "Convo.twn_winter2024_scout.ATTRACT0.winter2024.giver.STATE_0.QUESTION_1A"
+msgid "Me neither..."
+msgstr "Я теж..."
+
+#: Convo.twn_winter2024_scout.ATTRACT0.winter2024.giver.STATE_0.QUESTION_1B
+msgctxt "Convo.twn_winter2024_scout.ATTRACT0.winter2024.giver.STATE_0.QUESTION_1B"
+msgid "There's nothing like spending {name.holiday_winter} with good friends."
+msgstr "Немає нічого кращого, ніж провести {3:{name.holiday_winter}} з хорошими друзями."
+
+#: Convo.twn_winter2024_scout.ATTRACT0.winter2024.giver.STATE_0.QUESTION_2AB
+msgctxt "Convo.twn_winter2024_scout.ATTRACT0.winter2024.giver.STATE_0.QUESTION_2AB"
+msgid "Thanks, {name.npc_scout}!"
+msgstr "Дякую, {Name.npc_scout}!"
+
+#: Convo.twn_winter2024_scout.ATTRACT0.winter2024.giver.STATE_0.TALK
+msgctxt "Convo.twn_winter2024_scout.ATTRACT0.winter2024.giver.STATE_0.TALK"
+msgid "agent:\n"
+" !neutral\n"
+" !closedeyes\n"
+" You know, usually I dread this time of year.\n"
+" !think\n"
+" It always brings up so many memories. But somehow... this time it feels easier.\n"
+" !happy\n"
+" !dubious\n"
+" I suspect you've got a lot to do with that. You, {name.npc_dojo_master}, {name.npc_armorsmith}, {name.npc_blacksmith}...\n"
+" !happy\n"
+" !shrug\n"
+" I can't remember the last time I was surrounded by so many folks during {name.holiday_winter}."
+msgstr "agent:\n"
+" !neutral\n"
+" !closedeyes\n"
+" Знаєте, зазвичай я боюся цієї пори року.\n"
+" !think\n"
+" Вона завжди приносить стільки спогадів. Але цього разу... усе здається простішим.\n"
+" !happy\n"
+" !dubious\n"
+" Думаю, це багато в чому завдяки вам. Вам, {Name.npc_dojo_master}у, {3:{Name.npc_armorsmith}}, {3:{name.npc_blacksmith}}...\n"
+" !happy\n"
+" !shrug\n"
+" Не можу згадати, коли востаннє мене оточувало стільки істот під час {2:{name.holiday_winter}}."
 
 #: Convo.wrld_game_intro_sequence.CHAT_DUNGEON0.game_intro.giver.STATE_0.OPT2C_RESPONSE
 msgctxt "Convo.wrld_game_intro_sequence.CHAT_DUNGEON0.game_intro.giver.STATE_0.OPT2C_RESPONSE"
@@ -14967,7 +15162,7 @@ msgid "!happy\n"
 " !gesture\n"
 " You know what makes me a good friend? I'm a great secret-keeper.\n"
 " !point\n"
-" For example, I've never told anyone that <#BLUE>{name.npc_scout}'s</> self-conscious about his snout."
+" For example, I've never told anyone that <#BLUE>{name.npc_scout}'s</> self-conscious about their snout."
 msgstr "!happy\n"
 " !gesture\n"
 " Знаєте, що робить мене хорошим другом? Я чудово вмію зберігати таємниці.\n"
@@ -20123,7 +20318,7 @@ msgstr "Місцеві гнильці"
 #: STRINGS.ASCENSIONS.MORE_ELITES
 msgctxt "STRINGS.ASCENSIONS.MORE_ELITES"
 msgid "<p img='images/map_ftf/frenzy_7.tex' color=0> More {name.elite_prefix} enemies spawn"
-msgstr ""
+msgstr "<p img='images/map_ftf/frenzy_7.tex' color=0> З'являються {name.elite_prefix} вороги"
 
 #: STRINGS.ASCENSIONS.MORE_ENEMIES
 msgctxt "STRINGS.ASCENSIONS.MORE_ENEMIES"
@@ -24527,7 +24722,7 @@ msgstr "Збільшує <#RED>{name.concept_damage}</> проти цілей з
 #: STRINGS.ITEMS.GEMS.damage_bonus_undamaged_target.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_undamaged_target.stat_name"
 msgid "{name.powerdesc_damage_bonus}"
-msgstr "{Name.powerdesc_damage_bonus}"
+msgstr ""
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_windmon.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_windmon.desc"
@@ -24661,7 +24856,7 @@ msgstr "Збільшує <#RED>{name.concept_damage} зброї</>."
 #: STRINGS.ITEMS.GEMS.damage_mod.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_mod.stat_name"
 msgid "Bonus {name.concept_damage}"
-msgstr "Бонусна {3:{name.concept_damage}}"
+msgstr ""
 
 #: STRINGS.ITEMS.GEMS.damage_resist_acid.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_acid.desc"
@@ -24672,12 +24867,12 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_resist_acid.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_acid.name"
 msgid "Acid Protection {name.gem}"
-msgstr "{Name.gem} захисту від кислоти"
+msgstr ""
 
 #: STRINGS.ITEMS.GEMS.damage_resist_acid.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_acid.slotted_desc"
 msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>Poison</>."
-msgstr "Отримуйте менше <#RED>{2:{name.concept_damage}}</> від <#RED>кислоти</>."
+msgstr ""
 
 #: STRINGS.ITEMS.GEMS.damage_resist_acid.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_acid.stat_name"
@@ -24724,8 +24919,7 @@ msgstr "Зменшує <#RED>{name.concept_damage}</> від удару в сп�
 #: STRINGS.ITEMS.GEMS.damage_resist_backstab.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_backstab.stat_name"
 msgid "Backstab {name.powerdesc_damage_reduction}"
-msgstr "{Name.powerdesc_damage_reduction}\n"
-"в спину"
+msgstr ""
 
 #: STRINGS.ITEMS.GEMS.damage_resist_battoad.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_battoad.desc"
@@ -24893,8 +25087,7 @@ msgstr "Зменшує <#RED>{name.concept_damage}</> під час атаки."
 #: STRINGS.ITEMS.GEMS.damage_resist_counter.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_counter.stat_name"
 msgid "Counter {name.powerdesc_damage_reduction}"
-msgstr "{Name.powerdesc_damage_reduction}\n"
-"при контратаці"
+msgstr ""
 
 #: STRINGS.ITEMS.GEMS.damage_resist_crystroll.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_crystroll.desc"
@@ -25094,17 +25287,17 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_resist_miniboss.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_miniboss.name"
 msgid "Miniboss Protection {name.gem}"
-msgstr "{Name.gem} захисту від мінібосів"
+msgstr ""
 
 #: STRINGS.ITEMS.GEMS.damage_resist_miniboss.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_miniboss.slotted_desc"
 msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.rot_miniboss}</>."
-msgstr "Отримуйте менше <#RED>{2:{name.concept_damage}}</> від <#RED>{2:{name_multiple.rot_miniboss}}</>."
+msgstr ""
 
 #: STRINGS.ITEMS.GEMS.damage_resist_miniboss.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_miniboss.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
-msgstr "{Name.powerdesc_damage_reduction}"
+msgstr ""
 
 #: STRINGS.ITEMS.GEMS.damage_resist_mossquito.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_mossquito.desc"
@@ -25220,17 +25413,17 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_resist_projectiles.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_projectiles.name"
 msgid "Projectile Protection {name.gem}"
-msgstr "{Name.gem} захисту від снарядів"
+msgstr ""
 
 #: STRINGS.ITEMS.GEMS.damage_resist_projectiles.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_projectiles.slotted_desc"
 msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>Projectiles</>."
-msgstr "Отримуйте менше <#RED>{2:{name.concept_damage}}</> від <#RED>снарядів</>."
+msgstr ""
 
 #: STRINGS.ITEMS.GEMS.damage_resist_projectiles.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_projectiles.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
-msgstr "{Name.powerdesc_damage_reduction}"
+msgstr ""
 
 #: STRINGS.ITEMS.GEMS.damage_resist_slowpoke.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_slowpoke.desc"
@@ -26334,7 +26527,7 @@ msgstr "{Name.armourtools1}"
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools2.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools2.desc"
 msgid "Allows the holder upgrade all armour to <#RED>Level 9</>."
-msgstr "Дозволяє власнику покращити всі обладунки до <#RED>рівня 9</>."
+msgstr "Дозволяє власнику покращити всі обладунки до <#RED>9 рівня</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools2.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools2.name"
@@ -26364,7 +26557,7 @@ msgstr "{Name.teffrometer}"
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools1.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools1.desc"
 msgid "Allows the holder upgrade all weapons to <#RED>Level 6</>."
-msgstr "Дозволяє власнику покращити всю зброю до <#RED>рівня 6</>."
+msgstr "Дозволяє власнику покращити всю зброю до <#RED>6 рівня</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools1.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools1.name"
@@ -26374,7 +26567,7 @@ msgstr "{Name.weapontools1}"
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools2.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools2.desc"
 msgid "Allows the holder upgrade all weapons to <#RED>Level 9</>."
-msgstr "Дозволяє власнику покращити всю зброю до <#RED>рівня 9</>."
+msgstr "Дозволяє власнику покращити всю зброю до <#RED>9 рівня</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools2.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools2.name"
@@ -32249,6 +32442,16 @@ msgctxt "STRINGS.ITEMS.POWERS.SKILL.shotput_summon.name"
 msgid "Direct Recall"
 msgstr "Пряме відкликання"
 
+#: STRINGS.ITEMS.POWERS.SKILL.throwsnowball.desc
+msgctxt "STRINGS.ITEMS.POWERS.SKILL.throwsnowball.desc"
+msgid "Throw a snowball!"
+msgstr "Киньте сніжок!"
+
+#: STRINGS.ITEMS.POWERS.SKILL.throwsnowball.name
+msgctxt "STRINGS.ITEMS.POWERS.SKILL.throwsnowball.name"
+msgid "Throw Snowball"
+msgstr "Кинуть сніжок"
+
 #: STRINGS.ITEMS.POWERS.SKILL.throwstone.desc
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.throwstone.desc"
 msgid "Throw a stone <#RED>Projectile</> which deals your <#RED>Weapon {name.concept_damage}</>."
@@ -32773,6 +32976,17 @@ msgctxt "STRINGS.ITEMS.STRUCTURES.bandicoot_town_bossstatue.name"
 msgid "Idol of {name.bandicoot}"
 msgstr "Ідол {2:{Name.bandicoot}}"
 
+#: STRINGS.ITEMS.STRUCTURES.battoad_gifts_winter_2024.desc
+msgctxt "STRINGS.ITEMS.STRUCTURES.battoad_gifts_winter_2024.desc"
+msgid ""
+msgstr ""
+""
+
+#: STRINGS.ITEMS.STRUCTURES.battoad_gifts_winter_2024.name
+msgctxt "STRINGS.ITEMS.STRUCTURES.battoad_gifts_winter_2024.name"
+msgid "{name.holiday_winter} {name.battoad} Gift"
+msgstr "Подарунок {2:{Name.battoad}} {2:{name.holiday_winter}}"
+
 #: STRINGS.ITEMS.STRUCTURES.bed_basic.desc
 msgctxt "STRINGS.ITEMS.STRUCTURES.bed_basic.desc"
 msgid "A decent spot to get some shut-eye."
@@ -33095,6 +33309,28 @@ msgctxt "STRINGS.ITEMS.STRUCTURES.fence_stone.name"
 msgid "Stone Wall"
 msgstr "Кам'яна стіна"
 
+#: STRINGS.ITEMS.STRUCTURES.fence_winter_2024.desc
+msgctxt "STRINGS.ITEMS.STRUCTURES.fence_winter_2024.desc"
+msgid ""
+msgstr ""
+""
+
+#: STRINGS.ITEMS.STRUCTURES.fence_winter_2024.name
+msgctxt "STRINGS.ITEMS.STRUCTURES.fence_winter_2024.name"
+msgid "{name.holiday_winter} Fence"
+msgstr "Огорожа {2:{name.holiday_winter}}"
+
+#: STRINGS.ITEMS.STRUCTURES.firepit_winter_2024.desc
+msgctxt "STRINGS.ITEMS.STRUCTURES.firepit_winter_2024.desc"
+msgid ""
+msgstr ""
+""
+
+#: STRINGS.ITEMS.STRUCTURES.firepit_winter_2024.name
+msgctxt "STRINGS.ITEMS.STRUCTURES.firepit_winter_2024.name"
+msgid "{name.holiday_winter} Firepit"
+msgstr "Вогнище {2:{name.holiday_winter}}"
+
 #: STRINGS.ITEMS.STRUCTURES.fruit_basket.desc
 msgctxt "STRINGS.ITEMS.STRUCTURES.fruit_basket.desc"
 msgid "Are those real?"
@@ -33104,6 +33340,28 @@ msgstr "Вони справжні?"
 msgctxt "STRINGS.ITEMS.STRUCTURES.fruit_basket.name"
 msgid "Fruit Basket"
 msgstr "Кошик з фруктами"
+
+#: STRINGS.ITEMS.STRUCTURES.gifts_winter_2024.desc
+msgctxt "STRINGS.ITEMS.STRUCTURES.gifts_winter_2024.desc"
+msgid ""
+msgstr ""
+""
+
+#: STRINGS.ITEMS.STRUCTURES.gifts_winter_2024.name
+msgctxt "STRINGS.ITEMS.STRUCTURES.gifts_winter_2024.name"
+msgid "{name.holiday_winter} Gifts"
+msgstr "Подарунки {2:{name.holiday_winter}}"
+
+#: STRINGS.ITEMS.STRUCTURES.gourdo_gifts_winter_2024.desc
+msgctxt "STRINGS.ITEMS.STRUCTURES.gourdo_gifts_winter_2024.desc"
+msgid ""
+msgstr ""
+""
+
+#: STRINGS.ITEMS.STRUCTURES.gourdo_gifts_winter_2024.name
+msgctxt "STRINGS.ITEMS.STRUCTURES.gourdo_gifts_winter_2024.name"
+msgid "{name.holiday_winter} {name.gourdo} Gift"
+msgstr "Подарунок {Name.gourdo} {2:{name.holiday_winter}}"
 
 #: STRINGS.ITEMS.STRUCTURES.hammock.desc
 msgctxt "STRINGS.ITEMS.STRUCTURES.hammock.desc"
@@ -33235,6 +33493,17 @@ msgctxt "STRINGS.ITEMS.STRUCTURES.lamp_tundra_2.name"
 msgid "Ice Crystal Lamp"
 msgstr "Кришталева лампа"
 
+#: STRINGS.ITEMS.STRUCTURES.lamp_winter_2024.desc
+msgctxt "STRINGS.ITEMS.STRUCTURES.lamp_winter_2024.desc"
+msgid ""
+msgstr ""
+""
+
+#: STRINGS.ITEMS.STRUCTURES.lamp_winter_2024.name
+msgctxt "STRINGS.ITEMS.STRUCTURES.lamp_winter_2024.name"
+msgid "{name.holiday_winter} Lamppost"
+msgstr "Ліхтар {2:{name.holiday_winter}}"
+
 #: STRINGS.ITEMS.STRUCTURES.loadout_mannequin.desc
 msgctxt "STRINGS.ITEMS.STRUCTURES.loadout_mannequin.desc"
 msgid "Save your favourite <#RED>Equipment Loadouts</> for fast and easy costume changes."
@@ -33254,6 +33523,17 @@ msgstr "Нехай вона стереже нас, як колись пильн�
 msgctxt "STRINGS.ITEMS.STRUCTURES.megatreemon_town_bossstatue.name"
 msgid "Idol of {name.megatreemon}"
 msgstr "Ідол {2:{Name.megatreemon}}"
+
+#: STRINGS.ITEMS.STRUCTURES.mothball_gifts_winter_2024.desc
+msgctxt "STRINGS.ITEMS.STRUCTURES.mothball_gifts_winter_2024.desc"
+msgid ""
+msgstr ""
+""
+
+#: STRINGS.ITEMS.STRUCTURES.mothball_gifts_winter_2024.name
+msgctxt "STRINGS.ITEMS.STRUCTURES.mothball_gifts_winter_2024.name"
+msgid "{name.holiday_winter} {name.mothball} Gift"
+msgstr "Подарунок {2:{Name.mothball}} {2:{name.holiday_winter}}"
 
 #: STRINGS.ITEMS.STRUCTURES.outdoor_seating.desc
 msgctxt "STRINGS.ITEMS.STRUCTURES.outdoor_seating.desc"
@@ -33395,6 +33675,17 @@ msgctxt "STRINGS.ITEMS.STRUCTURES.sedament_town_bossstatue.name"
 msgid "Idol of {name.sedament}"
 msgstr "Ідол {2:{Name.sedament}}"
 
+#: STRINGS.ITEMS.STRUCTURES.snowman_winter_2024.desc
+msgctxt "STRINGS.ITEMS.STRUCTURES.snowman_winter_2024.desc"
+msgid ""
+msgstr ""
+""
+
+#: STRINGS.ITEMS.STRUCTURES.snowman_winter_2024.name
+msgctxt "STRINGS.ITEMS.STRUCTURES.snowman_winter_2024.name"
+msgid "{name.holiday_winter} Snowie"
+msgstr "Сніговик {2:{name.holiday_winter}}"
+
 #: STRINGS.ITEMS.STRUCTURES.stool_outdoor_seating_basic.desc
 msgctxt "STRINGS.ITEMS.STRUCTURES.stool_outdoor_seating_basic.desc"
 msgid "That right there's a stool for sittin'."
@@ -33499,6 +33790,28 @@ msgctxt "STRINGS.ITEMS.STRUCTURES.thatcher_town_bossstatue.name"
 msgid "Idol of {name.thatcher}"
 msgstr "Ідол {2:{Name.thatcher}}"
 
+#: STRINGS.ITEMS.STRUCTURES.tree_winter_2024.desc
+msgctxt "STRINGS.ITEMS.STRUCTURES.tree_winter_2024.desc"
+msgid ""
+msgstr ""
+""
+
+#: STRINGS.ITEMS.STRUCTURES.tree_winter_2024.name
+msgctxt "STRINGS.ITEMS.STRUCTURES.tree_winter_2024.name"
+msgid "{name.holiday_winter} Tree"
+msgstr "Ялинка {2:{name.holiday_winter}}"
+
+#: STRINGS.ITEMS.STRUCTURES.vase_winter_2024.desc
+msgctxt "STRINGS.ITEMS.STRUCTURES.vase_winter_2024.desc"
+msgid ""
+msgstr ""
+""
+
+#: STRINGS.ITEMS.STRUCTURES.vase_winter_2024.name
+msgctxt "STRINGS.ITEMS.STRUCTURES.vase_winter_2024.name"
+msgid "{name.holiday_winter} Vase"
+msgstr "Ваза {2:{name.holiday_winter}}"
+
 #: STRINGS.ITEMS.STRUCTURES.wood_wooden_cart.desc
 msgctxt "STRINGS.ITEMS.STRUCTURES.wood_wooden_cart.desc"
 msgid "Gotta haul logs around somehow."
@@ -33508,6 +33821,17 @@ msgstr "Треба якось перевозити колоди."
 msgctxt "STRINGS.ITEMS.STRUCTURES.wood_wooden_cart.name"
 msgid "Wood Cart"
 msgstr "Дерев'яний візок"
+
+#: STRINGS.ITEMS.STRUCTURES.yammo_gifts_winter_2024.desc
+msgctxt "STRINGS.ITEMS.STRUCTURES.yammo_gifts_winter_2024.desc"
+msgid ""
+msgstr ""
+""
+
+#: STRINGS.ITEMS.STRUCTURES.yammo_gifts_winter_2024.name
+msgctxt "STRINGS.ITEMS.STRUCTURES.yammo_gifts_winter_2024.name"
+msgid "{name.holiday_winter} {name.yammo} Gift"
+msgstr "Подарунок {Name.yammo} {2:{name.holiday_winter}}"
 
 #: STRINGS.ITEMS.TONICS.explotion.desc
 msgctxt "STRINGS.ITEMS.TONICS.explotion.desc"
@@ -36726,6 +37050,11 @@ msgctxt "STRINGS.ITEM_CATEGORIES.RELATIONSHIP_CORE"
 msgid "Core Relationships"
 msgstr "Основні стосунки"
 
+#: STRINGS.ITEM_CATEGORIES.SEASONAL
+msgctxt "STRINGS.ITEM_CATEGORIES.SEASONAL"
+msgid "Seasonal Rewards"
+msgstr "Сезонні нагороди"
+
 #: STRINGS.ITEM_CATEGORIES.SEED
 msgctxt "STRINGS.ITEM_CATEGORIES.SEED"
 msgid "Seed"
@@ -37682,6 +38011,11 @@ msgstr "Великий Гроак"
 msgctxt "STRINGS.NAMES.heavy_weight"
 msgid "Power"
 msgstr "Силач"
+
+#: STRINGS.NAMES.holiday_winter
+msgctxt "STRINGS.NAMES.holiday_winter"
+msgid "Wintertide"
+msgstr "Зимова пора|Зимової пори|Зимову пору"
 
 #: STRINGS.NAMES.hunter
 msgctxt "STRINGS.NAMES.hunter"
@@ -38828,6 +39162,11 @@ msgctxt "STRINGS.NAMES_PLURAL.groak_elite"
 msgid "Greater Groaks"
 msgstr "Великі Гроаки"
 
+#: STRINGS.NAMES_PLURAL.holiday_winter
+msgctxt "STRINGS.NAMES_PLURAL.holiday_winter"
+msgid "Wintertides"
+msgstr "Зимова пора"
+
 #: STRINGS.NAMES_PLURAL.hunter
 msgctxt "STRINGS.NAMES_PLURAL.hunter"
 msgid "Hunters"
@@ -39562,6 +39901,11 @@ msgstr "Гроак|Гроака"
 msgctxt "STRINGS.NAMES_PLURALITY.groak_elite"
 msgid "Imbued Groak|Greater Groaks"
 msgstr "Imbued Groak|Greater Groaks"
+
+#: STRINGS.NAMES_PLURALITY.holiday_winter
+msgctxt "STRINGS.NAMES_PLURALITY.holiday_winter"
+msgid "Wintertide|Wintertides"
+msgstr "Wintertide|Wintertides"
 
 #: STRINGS.NAMES_PLURALITY.hunter
 msgctxt "STRINGS.NAMES_PLURALITY.hunter"
@@ -40574,6 +40918,16 @@ msgctxt "STRINGS.PLAYER_EMOTES.EMOTE_SHRUG.name"
 msgid "Shrug"
 msgstr "Знизати плечима"
 
+#: STRINGS.PLAYER_EMOTES.EMOTE_SNOW_JOY.desc
+msgctxt "STRINGS.PLAYER_EMOTES.EMOTE_SNOW_JOY.desc"
+msgid "EMOTE DESC"
+msgstr "EMOTE DESC"
+
+#: STRINGS.PLAYER_EMOTES.EMOTE_SNOW_JOY.name
+msgctxt "STRINGS.PLAYER_EMOTES.EMOTE_SNOW_JOY.name"
+msgid "Snow Cheer"
+msgstr "Снігова радість"
+
 #: STRINGS.PLAYER_EMOTES.EMOTE_STUNK_FART.desc
 msgctxt "STRINGS.PLAYER_EMOTES.EMOTE_STUNK_FART.desc"
 msgid "EMOTE DESC"
@@ -41203,6 +41557,11 @@ msgstr "Немає спорядження"
 msgctxt "STRINGS.UI.ARMORYSCREEN.TITLE"
 msgid "ARMOURY"
 msgstr "ОБЛАДУНКИ"
+
+#: STRINGS.UI.ARMORYSCREEN.TT_EQUIPPED_LABEL
+msgctxt "STRINGS.UI.ARMORYSCREEN.TT_EQUIPPED_LABEL"
+msgid "EQUIPPED"
+msgstr "СПОРЯДЖЕНО"
 
 #: STRINGS.UI.ARMORYSCREEN.UPGRADE_ARMORSMITH_TT
 msgctxt "STRINGS.UI.ARMORYSCREEN.UPGRADE_ARMORSMITH_TT"
@@ -42413,13 +42772,13 @@ msgstr "КОЛЕКЦІЯ САМОЦВІТІВ"
 
 #: STRINGS.UI.GEMSCREEN.GEM_BONUS_ACTIVE
 msgctxt "STRINGS.UI.GEMSCREEN.GEM_BONUS_ACTIVE"
-msgid "<p img='images/ui_ftf_options/checkbox_checked.tex' color=40AB38FF> Slot Match"
-msgstr "<p img='images/ui_ftf_options/checkbox_checked.tex' color=40AB38FF> Сумісний слот"
+msgid "<p img='images/ui_ftf_icons/completed.tex' color=40AB38FF scale=0.8> Slot Match"
+msgstr "<p img='images/ui_ftf_icons/completed.tex' color=40AB38FF scale=0.8> Сумісний слот"
 
 #: STRINGS.UI.GEMSCREEN.GEM_BONUS_INACTIVE
 msgctxt "STRINGS.UI.GEMSCREEN.GEM_BONUS_INACTIVE"
-msgid "<p img='images/ui_ftf_options/checkbox_unchecked.tex' color=967D71FF> Slot Match"
-msgstr "<p img='images/ui_ftf_options/checkbox_unchecked.tex' color=967D71FF> Сумісний слот"
+msgid "<p img='images/ui_ftf_icons/discord_off.tex' color=967D71FF scale=0.8> Slot Match"
+msgstr "<p img='images/ui_ftf_icons/discord_off.tex' color=967D71FF scale=0.8> Сумісний слот"
 
 #: STRINGS.UI.GEMSCREEN.GEM_EQUIPPED_OTHER_ITEM
 msgctxt "STRINGS.UI.GEMSCREEN.GEM_EQUIPPED_OTHER_ITEM"
@@ -42474,6 +42833,71 @@ msgctxt "STRINGS.UI.GEMSCREEN.SLOTS_EMPTY"
 msgid "This weapon has no {name.gem} slots."
 msgstr "Ця зброя не має слотів для {2:{name.gem}}."
 
+#: STRINGS.UI.GEMSCREEN.SORTINFO_FILTERS
+msgctxt "STRINGS.UI.GEMSCREEN.SORTINFO_FILTERS"
+msgid "<p img='images/icons_ftf/sort.tex' color=0 scale=0.7> Filter and sort <p bind='Controls.Digital.SORT_GEMS' color=0 scale=1>"
+msgstr ""
+
+#: STRINGS.UI.GEMSCREEN.SORTINFO_FILTERS_ACTIVE
+msgctxt "STRINGS.UI.GEMSCREEN.SORTINFO_FILTERS_ACTIVE"
+msgid "<p img='images/icons_ftf/sort.tex' color=0 scale=0.7> Filters active <p bind='Controls.Digital.SORT_GEMS' color=0 scale=1>"
+msgstr ""
+
+#: STRINGS.UI.GEMSCREEN.SORT_DIALOG.DIALOG_TITLE
+msgctxt "STRINGS.UI.GEMSCREEN.SORT_DIALOG.DIALOG_TITLE"
+msgid "Sorting options"
+msgstr "Налаштування сортування"
+
+#: STRINGS.UI.GEMSCREEN.SORT_DIALOG.FILTER_ALL_TITLE
+msgctxt "STRINGS.UI.GEMSCREEN.SORT_DIALOG.FILTER_ALL_TITLE"
+msgid "All gems"
+msgstr "Всі самоцвіти"
+
+#: STRINGS.UI.GEMSCREEN.SORT_DIALOG.FILTER_COMPATIBLE_TITLE
+msgctxt "STRINGS.UI.GEMSCREEN.SORT_DIALOG.FILTER_COMPATIBLE_TITLE"
+msgid "Only matching gems"
+msgstr ""
+
+#: STRINGS.UI.GEMSCREEN.SORT_DIALOG.FILTER_DAMAGE_TITLE
+msgctxt "STRINGS.UI.GEMSCREEN.SORT_DIALOG.FILTER_DAMAGE_TITLE"
+msgid "Only <p img='images/ui_ftf_gems/ic_gem_damage.tex' color=0 scale=0.9> Damage gems"
+msgstr ""
+
+#: STRINGS.UI.GEMSCREEN.SORT_DIALOG.FILTER_SUPPORT_TITLE
+msgctxt "STRINGS.UI.GEMSCREEN.SORT_DIALOG.FILTER_SUPPORT_TITLE"
+msgid "Only <p img='images/ui_ftf_gems/ic_gem_support.tex' color=0 scale=0.9> Support gems"
+msgstr ""
+
+#: STRINGS.UI.GEMSCREEN.SORT_DIALOG.FILTER_SUSTAIN_TITLE
+msgctxt "STRINGS.UI.GEMSCREEN.SORT_DIALOG.FILTER_SUSTAIN_TITLE"
+msgid "Only <p img='images/ui_ftf_gems/ic_gem_sustain.tex' color=0 scale=0.9> Sustain gems"
+msgstr ""
+
+#: STRINGS.UI.GEMSCREEN.SORT_DIALOG.FILTER_TITLE
+msgctxt "STRINGS.UI.GEMSCREEN.SORT_DIALOG.FILTER_TITLE"
+msgid "FILTER"
+msgstr "ФІЛЬТР"
+
+#: STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_LEVEL_TITLE
+msgctxt "STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_LEVEL_TITLE"
+msgid "Level"
+msgstr "Рівень"
+
+#: STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_RECENT_TITLE
+msgctxt "STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_RECENT_TITLE"
+msgid "Recent"
+msgstr "Недавні"
+
+#: STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_TITLE
+msgctxt "STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_TITLE"
+msgid "SORT"
+msgstr "СОРТУВАТИ"
+
+#: STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_TYPE_TITLE
+msgctxt "STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_TYPE_TITLE"
+msgid "Type"
+msgstr "Тип"
+
 #: STRINGS.UI.GEMSCREEN.TITLE
 msgctxt "STRINGS.UI.GEMSCREEN.TITLE"
 msgid "GEMS"
@@ -42488,6 +42912,16 @@ msgstr "Порожній %s слот для {2:{name.gem}}"
 msgctxt "STRINGS.UI.GEMSCREEN.TITLE_EMPTY_ANY"
 msgid "Empty {name.gem} Slot"
 msgstr "Порожній слот для {2:{name.gem}}"
+
+#: STRINGS.UI.GEMSCREEN.TT_EMPTY_SLOT_DESC
+msgctxt "STRINGS.UI.GEMSCREEN.TT_EMPTY_SLOT_DESC"
+msgid "No gem set."
+msgstr ""
+
+#: STRINGS.UI.GEMSCREEN.TT_EMPTY_SLOT_TITLE
+msgctxt "STRINGS.UI.GEMSCREEN.TT_EMPTY_SLOT_TITLE"
+msgid "{slot_type} slot"
+msgstr "Слот {slot_type}"
 
 #: STRINGS.UI.GEMSCREEN.UNACCEPTED_GEM_POPUP.MESSAGE
 msgctxt "STRINGS.UI.GEMSCREEN.UNACCEPTED_GEM_POPUP.MESSAGE"
@@ -42844,8 +43278,13 @@ msgstr "%s"
 
 #: STRINGS.UI.HUD.RUN_DATA_FRENZY
 msgctxt "STRINGS.UI.HUD.RUN_DATA_FRENZY"
-msgid "%s Frenzy Level %d"
-msgstr "%s Рівень божевілля %d"
+msgid "{icon} Frenzy Level {level}"
+msgstr "{icon} {level} Рівень божевілля"
+
+#: STRINGS.UI.HUD.RUN_DATA_SUPERFRENZY
+msgctxt "STRINGS.UI.HUD.RUN_DATA_SUPERFRENZY"
+msgid "{icon} Super Frenzy Level {level}"
+msgstr "{icon} {level} Рівень супер божевілля"
 
 #: STRINGS.UI.HUD.START
 msgctxt "STRINGS.UI.HUD.START"
@@ -42975,7 +43414,7 @@ msgstr "У вас немає невідомих самоцвітів."
 #: STRINGS.UI.IDENTIFYGEMSCREEN.RECIPE_COST
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.RECIPE_COST"
 msgid "{name.i_gem_dust_amt}"
-msgstr "{name.i_gem_dust_amt}"
+msgstr "{Name.i_gem_dust_amt}"
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.REROLL_BTN
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.REROLL_BTN"
@@ -44331,7 +44770,7 @@ msgstr "<p img='images/icons_ftf/character_title.tex' color=0> Нова клич
 #: STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_COMPLETE_1.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_COMPLETE_1.DESC"
 msgid "<#RED>{name.npc_armorsmith}</> can now upgrade all armour up to <#RED>Level 6</>!"
-msgstr "<#RED>{Name.npc_armorsmith}</> може покращити всі обладунки до <#RED>рівня 6</>!"
+msgstr "<#RED>{Name.npc_armorsmith}</> може покращити всі обладунки до <#RED>6 рівня</>!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_COMPLETE_1.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_COMPLETE_1.TITLE"
@@ -44341,7 +44780,7 @@ msgstr "Створено {name.armourtools1}!"
 #: STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_COMPLETE_2.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_COMPLETE_2.DESC"
 msgid "<#RED>{name.npc_armorsmith}</> can now upgrade all armour up to <#RED>Level 9</>!"
-msgstr "<#RED>{Name.npc_armorsmith}</> може покращити всі обладунки до <#RED>рівня 9</>!"
+msgstr "<#RED>{Name.npc_armorsmith}</> може покращити всі обладунки до <#RED>9 рівня</>!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_COMPLETE_2.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_COMPLETE_2.TITLE"
@@ -44395,7 +44834,7 @@ msgstr "Використовуйте <#RED>{name.gemtools}</>, щоб виріз
 #: STRINGS.UI.MECHANIC_TUTORIALS.GEMTABLE_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.GEMTABLE_UNLOCKED.TITLE"
 msgid "{name.station_gems} Unlocked!"
-msgstr "{name.station_gems} розблокований!"
+msgstr "{Name.station_gems} розблокований!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.NORMAL_ITEM_CHARGED_NOTIFICATION.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.NORMAL_ITEM_CHARGED_NOTIFICATION.DESC"
@@ -44415,12 +44854,12 @@ msgstr "Заробляйте <#RED>бонусні нагороди</> під ч�
 #: STRINGS.UI.MECHANIC_TUTORIALS.TEFFROMETER_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.TEFFROMETER_UNLOCKED.TITLE"
 msgid "{name.teffrometer} Unlocked!"
-msgstr "{name.teffrometer} розблокований!"
+msgstr "{Name.teffrometer} розблокований!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_COMPLETE_1.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_COMPLETE_1.DESC"
 msgid "<#RED>{name.npc_blacksmith}</> can now upgrade all weapons up to <#RED>Level 6</>!"
-msgstr "<#RED>{Name.npc_blacksmith}</> може покращити всю зброю до <#RED>рівня 6</>!"
+msgstr "<#RED>{Name.npc_blacksmith}</> може покращити всю зброю до <#RED>6 рівня</>!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_COMPLETE_1.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_COMPLETE_1.TITLE"
@@ -44430,7 +44869,7 @@ msgstr "Створено {name.weapontools1}!"
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_COMPLETE_2.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_COMPLETE_2.DESC"
 msgid "<#RED>{name.npc_blacksmith}</> can now upgrade all weapons up to <#RED>Level 9</>!"
-msgstr "<#RED>{Name.npc_blacksmith}</> може покращити всю зброю до <#RED>рівня 9</>!"
+msgstr "<#RED>{Name.npc_blacksmith}</> може покращити всю зброю до <#RED>9 рівня</>!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_COMPLETE_2.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_COMPLETE_2.TITLE"
@@ -44793,6 +45232,16 @@ msgstr "Неможливо приєднатися до онлайн гри"
 msgctxt "STRINGS.UI.NOTIFICATION.CONNECTING"
 msgid "Connecting"
 msgstr "Підключення"
+
+#: STRINGS.UI.NOTIFICATION.EMOTE_OBTAINED.DESC
+msgctxt "STRINGS.UI.NOTIFICATION.EMOTE_OBTAINED.DESC"
+msgid "Added to <#RED>{player_name}</>'s Emote Booth."
+msgstr "Додано до списку емоцій <#RED>{player_name}</>."
+
+#: STRINGS.UI.NOTIFICATION.EMOTE_OBTAINED.TITLE
+msgctxt "STRINGS.UI.NOTIFICATION.EMOTE_OBTAINED.TITLE"
+msgid "{item_name}"
+msgstr "{item_name}"
 
 #: STRINGS.UI.NOTIFICATION.ITEM_OBTAINED.DESC
 msgctxt "STRINGS.UI.NOTIFICATION.ITEM_OBTAINED.DESC"
