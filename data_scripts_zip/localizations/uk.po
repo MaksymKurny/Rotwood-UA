@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-12-21 23:06\n"
+"PO-Revision-Date: 2024-12-24 22:28\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -3812,12 +3812,12 @@ msgstr ""
 #: Convo.dgn_mystery.ATTRACT8.upgrade_random_power.giver.STATE_0.OPT_ACCEPT
 msgctxt "Convo.dgn_mystery.ATTRACT8.upgrade_random_power.giver.STATE_0.OPT_ACCEPT"
 msgid "Okay..."
-msgstr ""
+msgstr "Добре..."
 
 #: Convo.dgn_mystery.ATTRACT8.upgrade_random_power.giver.STATE_0.OPT_BACK
 msgctxt "Convo.dgn_mystery.ATTRACT8.upgrade_random_power.giver.STATE_0.OPT_BACK"
 msgid "No way!"
-msgstr ""
+msgstr "Ні в якому разі!"
 
 #: Convo.dgn_mystery.ATTRACT8.upgrade_random_power.giver.STATE_0.TALK_UPGRADE_RANDOM_POWER
 msgctxt "Convo.dgn_mystery.ATTRACT8.upgrade_random_power.giver.STATE_0.TALK_UPGRADE_RANDOM_POWER"
@@ -3828,17 +3828,23 @@ msgid "agent:\n"
 " !think\n"
 " All it will cost is a slice of your finger! He! He! He!\n"
 " Accept: Random <#RED>{name.concept_relic}</> upgrade. <#RED>Take 250 Damage</>."
-msgstr ""
+msgstr "agent:\n"
+"!clap\n"
+"Хе! Хе! Хе! Я відчуваю себе щедрим!\n"
+"Я безплатно <#RED>покращу випадкову {2:{name.concept_relic}}</>.\n"
+"!think\n"
+"Це коштуватиме, — шматок вашого пальця! ! Хе! Хе! Хе!\n"
+"Прийняти: випадкова <#RED>{name.concept_relic}</> покращиться. <#RED>Отримаєте 250 шкоди</>."
 
 #: Convo.dgn_mystery.ATTRACT9.event_prototype.giver.STATE_0.OPT_ACCEPT
 msgctxt "Convo.dgn_mystery.ATTRACT9.event_prototype.giver.STATE_0.OPT_ACCEPT"
 msgid "<#RED>[Start Minigame]</> Let's go!"
-msgstr ""
+msgstr "<#RED>[Почати міні гру]</> Починай!"
 
 #: Convo.dgn_mystery.ATTRACT9.event_prototype.giver.STATE_0.OPT_BACK
 msgctxt "Convo.dgn_mystery.ATTRACT9.event_prototype.giver.STATE_0.OPT_BACK"
 msgid "No thanks."
-msgstr ""
+msgstr "Ні, дякую."
 
 #: Convo.dgn_mystery.ATTRACT9.event_prototype.giver.STATE_0.TALK_EVENT_PROTOTYPE
 msgctxt "Convo.dgn_mystery.ATTRACT9.event_prototype.giver.STATE_0.TALK_EVENT_PROTOTYPE"
@@ -3847,7 +3853,11 @@ msgid "agent:\n"
 " Let's prototype an event!\n"
 " !clap\n"
 " Start?"
-msgstr ""
+msgstr "agent:\n"
+" !point\n"
+" Створімо прототип події!\n"
+" !clap\n"
+" Починаємо?"
 
 #: Convo.dgn_new_biome_meeting_market.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.dgn_new_biome_meeting_market.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -4423,7 +4433,7 @@ msgstr ""
 #: Convo.dgn_seen_missing_friends_armorsmith_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_2
 msgctxt "Convo.dgn_seen_missing_friends_armorsmith_powerupgrade.HUB0.convo.giver.STATE_0.QUESTION_2"
 msgid "Thanks!"
-msgstr ""
+msgstr "Дякую!"
 
 #: Convo.dgn_seen_missing_friends_blacksmith_market.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.dgn_seen_missing_friends_blacksmith_market.HUB0.convo.giver.STATE_0.ANSWER_1A"
