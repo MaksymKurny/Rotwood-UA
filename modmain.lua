@@ -5,9 +5,13 @@ local assert = _G.assert
 local next = _G.next
 local TheGameContent = _G.TheGameContent
 local STRINGS = _G.STRINGS
+local FONTFACE = _G.FONTFACE
+local UICOLORS = _G.UICOLORS
+local FONTSIZE = _G.FONTSIZE
 local lume = require "util.lume"
 local strict = require "util.strict"
 local kassert = require "util.kassert"
+local tostring = _G.tostring
 local Text = require "widgets.text"
 local LANGUAGE = require "languages.langs"
 local loc = require "questral.util.loc"
@@ -15,33 +19,45 @@ local contentloader = require "content.contentloader"
 
 LANGUAGE.UKRAINIAN = "uk"
 
---_G.assets = {
---	Asset("FONT", MODROOT.."fonts/fallback_full_packed_sdf_uk.zip")
---}
---
-----_G.UnloadFonts()
---table.insert(_G.FONTS, { filename = MODROOT.."fonts/fallback_full_packed_sdf_uk.zip", alias = "blockhead"})
-----_G.TheSim:LoadFont(
-----			MODROOT.."fonts/fallback_full_packed_sdf_uk.zip"
-----		)
---_G.LoadFonts()
+--table.insert(_G.FONTS, { filename = MODROOT.."fonts/blockhead_sdf_ua", alias = "blockhead"})
+--assets = {Asset("FONT", MODROOT.."fonts/blockhead_sdf_ua.zip")}
+--_G.UnloadFonts()
+--local _LoadFonts = _G.LoadFonts
+--_G.LoadFonts = function()
+--	table.insert(_G.FONTS, { filename = MODROOT.."fonts/blockhead_sdf_ua.zip", alias = "blockhead"})
+--	_LoadFonts()
+--end
+
+--local filter = _G.ProfanityFilter()
+--filter:AddDictionary("ua", {
+--	-- These only match at word boundaries. (Grouchy doesn't match).
+--	exact_match = {
+--		[strhash("блядь")] = true,
+--		[strhash("сука")] = true,
+--		[strhash("кончений")] = true,
+--	},
+--	-- These match occurrences of these characters inside other words. It's
+--	-- a json-encoded string.
+--	loose_match = '["пізда", "член", "єба", "блядь", "довбойоб", "підор"]',
+--})
 
 if GetModConfigData("auto_update") then
 	LocUpdate = require "loc_update"
+	LocUpdate.BRANCH = _G.RELEASE_CHANNEL == "dev" and "main_beta" or "main"
 	LocUpdate.PATH = MODROOT.."localizations/"
 	LocUpdate:CheckUpdate()
 end
 
 AddClassPostConstruct("screens/mainscreen", function(self, profile, skip_start)
+	local bottom_pad = 60
 	local ver_f = _G.io.open(MODROOT.."localizations/version.txt", "r")
 	if ver_f then
-		local bottom_pad = 60
 		local year, month, day = ver_f:read("*all"):match("(%d+)%-(%d+)%-(%d+)")
 		local rev = string.format("ПЕРЕКЛАД ВІД: %02d.%02d", day, month)
 		ver_f:close()
 		
-		self.translatename = self:AddChild(Text(_G.FONTFACE.DEFAULT, 42))
-			:SetGlyphColor(_G.UICOLORS.WHITE)
+		self.translatename = self:AddChild(Text(FONTFACE.DEFAULT, 42))
+			:SetGlyphColor(UICOLORS.WHITE)
 			:SetHAlign(_G.ANCHOR_RIGHT)
 			:SetText(rev)
 			:LayoutBounds("right", "top", self)
@@ -58,11 +74,17 @@ local function ReplaceNameInString(str, fns, clear_names)
 		-- Prefabs names are limited to lowercase letters, numbers, and
 		-- underscore.
 		
-		str = str:gsub('([?:#*%%]){name.([_a-z0-9]-)}', fns.singular)
-		str = str:gsub('{name.([_a-z0-9]-)}', fns.singular)
-		str = str:gsub('([?:#*%%]){name_multiple.([_a-z0-9]-)}', fns.plural)
-		str = str:gsub('{name_multiple.([_a-z0-9]-)}', fns.plural)
-		str = str:gsub('{name_plurality.([_a-z0-9]-)}', fns.plurality)
+		str = str:gsub('([?:#*%%]){name.([_a-z0-9]-)}', fns.lower_singular)
+		str = str:gsub('{name.([_a-z0-9]-)}', fns.lower_singular)
+		str = str:gsub('([?:#*%%]){name_multiple.([_a-z0-9]-)}', fns.lower_plural)
+		str = str:gsub('{name_multiple.([_a-z0-9]-)}', fns.lower_plural)
+		str = str:gsub('{name_plurality.([_a-z0-9]-)}', fns.lower_plurality)
+		
+		str = str:gsub('([?:#*%%]){Name.([_a-z0-9]-)}', fns.singular)
+		str = str:gsub('{Name.([_a-z0-9]-)}', fns.singular)
+		str = str:gsub('([?:#*%%]){Name_multiple.([_a-z0-9]-)}', fns.plural)
+		str = str:gsub('{Name_multiple.([_a-z0-9]-)}', fns.plural)
+		str = str:gsub('{Name_plurality.([_a-z0-9]-)}', fns.plurality)
 
 		str = str:gsub('{([?:#*%%])NAME.([_a-z0-9]-)}', fns.upper_singular)
 		str = str:gsub('{NAME.([_a-z0-9]-)}', fns.upper_singular)
@@ -131,8 +153,16 @@ function loc.ReplaceNames(string_table, name_table_singular, name_table_plural, 
 	end
 
     for _,k in ipairs(lume.keys(fns)) do
-        fns["upper_".. k] = function(key)
-            local name = fns[k](key)
+        fns["lower_".. k] = function(operand, _key)
+            local name = fns[k](operand, _key)
+            -- TODO: no longer safe to lower because transforms translated strings.
+            return name:lower()
+        end
+    end
+
+    for _,k in ipairs(lume.keys(fns)) do
+        fns["upper_".. k] = function(operand, _key)
+            local name = fns[k](operand, _key)
             -- TODO: no longer safe to upper because transforms translated strings.
             return name:upper()
         end

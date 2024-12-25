@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Language: uk_UA\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT Version: 2.0"
+
+#: STRINGS.PRETRANSLATED.LANGUAGES.uk
+msgctxt "STRINGS.PRETRANSLATED.LANGUAGES.uk"
+msgid ""
+msgstr"Українська (Ukrainian)"
+
+#: STRINGS.PRETRANSLATED.LANGUAGES_TITLE[LANGUAGE.UKRAINIAN]
+msgctxt "STRINGS.PRETRANSLATED.LANGUAGES_TITLE[LANGUAGE.UKRAINIAN]"
+msgid ""
+msgstr"Варіант перекладу"
+
+#: STRINGS.PRETRANSLATED.LANGUAGES_BODY[LANGUAGE.UKRAINIAN]
+msgctxt "STRINGS.PRETRANSLATED.LANGUAGES_BODY[LANGUAGE.UKRAINIAN]"
+msgid ""
+msgstr"В якості мови інтерфейсу вибрана українська. Вам потрібен переклад на вашу мову?"
+
+#: STRINGS.PRETRANSLATED.LANGUAGES_YES[LANGUAGE.UKRAINIAN]
+msgctxt "STRINGS.PRETRANSLATED.LANGUAGES_YES[LANGUAGE.UKRAINIAN]"
+msgid ""
+msgstr"Так"
+
+#: STRINGS.PRETRANSLATED.LANGUAGES_NO[LANGUAGE.UKRAINIAN]
+msgctxt "STRINGS.PRETRANSLATED.LANGUAGES_NO[LANGUAGE.UKRAINIAN]"
+msgid ""
+msgstr"Ні"
+
+
+
+#: STRINGS.UI.MAINSCREEN.MODTITLE
+msgctxt "STRINGS.UI.MAINSCREEN.MODTITLE"
+msgid "Mods Installed!"
+msgstr"Моди встановлено!"
+
+#: STRINGS.UI.MAINSCREEN.NEWMODDETAIL
+msgctxt "STRINGS.UI.MAINSCREEN.NEWMODDETAIL"
+msgid "Newly installed mods: "
+msgstr"Нещодавно встановлені моди: "
+
+#: STRINGS.UI.MAINSCREEN.MODDETAIL
+msgctxt "STRINGS.UI.MAINSCREEN.MODDETAIL"
+msgid "Installed mods: "
+msgstr"Встановлені моди: "
+
+#: STRINGS.UI.MAINSCREEN.MODDETAIL2
+msgctxt "STRINGS.UI.MAINSCREEN.MODDETAIL2"
+msgid "Klei is not able to help you should issues arise while using mods. Use with caution!"
+msgstr"Klei не може допомогти вам, якщо під час використання модів виникнуть проблеми. Будьте обережні!"
+
+#: STRINGS.UI.MAINSCREEN.TESTINGYES
+msgctxt "STRINGS.UI.MAINSCREEN.TESTINGYES"
+msgid "I understand."
+msgstr"Я розумію."
+
+#: STRINGS.UI.MAINSCREEN.FORCEMODDETAIL
+msgctxt "STRINGS.UI.MAINSCREEN.FORCEMODDETAIL"
+msgid "You are force loading these mods from modsettings.lua. They will always be enabled:"
+msgstr"Ви примусово завантажуєте ці моди з modsettings.lua. Вони завжди будуть увімкнені:"
+
+#: STRINGS.UI.MAINSCREEN.MODFORUMS
+msgctxt "STRINGS.UI.MAINSCREEN.MODFORUMS"
+msgid "Mod Forums"
+msgstr"Форум модів"
+
+#: STRINGS.UI.MAINSCREEN.MODSBADTITLE
+msgctxt "STRINGS.UI.MAINSCREEN.MODSBADTITLE"
+msgid "All Mods Disabled"
+msgstr"Всі моди вимкнено"
+
+#: STRINGS.UI.MAINSCREEN.FAILEDMODS
+msgctxt "STRINGS.UI.MAINSCREEN.FAILEDMODS"
+msgid "The following mods failed to run last time and have been disabled: "
+msgstr"Останнього разу не вдалося запустити наступні моди, тому їх було вимкнено: "
+
+#: STRINGS.UI.MAINSCREEN.MODSBADLOAD
+msgctxt "STRINGS.UI.MAINSCREEN.MODSBADLOAD"
+msgid "The game did not start correctly last time. This was likely caused by a mod, so all client mods have been disabled.\n\nYou can try re-enabling mods from the mod settings screen."
+msgstr"Останнього разу гра не запустилася належним чином. Ймовірно, це було спричинено модом, тому всі клієнтські моди були вимкнені.\n\nВи можете спробувати повторно ввімкнути моди на екрані налаштувань мода. "
+
+#: STRINGS.UI.MAINSCREEN.MODQUIT
+msgctxt "STRINGS.UI.MAINSCREEN.MODQUIT"
+msgid "Disable Mods"
+msgstr"Вимкнути моди"
+
+#: STRINGS.UI.MAINSCREEN.MODFAILDETAIL
+msgctxt "STRINGS.UI.MAINSCREEN.MODFAILDETAIL"
+msgid "The following mod(s) have caused a failure:"
+msgstr"Наступні моди спричинили помилку:"
+
+#: STRINGS.UI.MAINSCREEN.MODFAILDETAIL2
+msgctxt "STRINGS.UI.MAINSCREEN.MODFAILDETAIL2"
+msgid "The mod will be disabled, re-enable it from the mods menu."
+msgstr"Мод буде вимкнено, увімкніть його повторно з меню модів."
