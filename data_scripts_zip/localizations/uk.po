@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-01-25 12:56\n"
+"PO-Revision-Date: 2025-01-25 14:12\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -23694,7 +23694,7 @@ msgstr "[none]"
 #: STRINGS.ITEMS.BODY.fungoons.name
 msgctxt "STRINGS.ITEMS.BODY.fungoons.name"
 msgid "{name.fungoons_generic} Robe"
-msgstr ""
+msgstr "Роба з {2:{Name.fungoons_generic}}"
 
 #: STRINGS.ITEMS.BODY.funguile.desc
 msgctxt "STRINGS.ITEMS.BODY.funguile.desc"
@@ -23704,7 +23704,7 @@ msgstr "[none]"
 #: STRINGS.ITEMS.BODY.funguile.name
 msgctxt "STRINGS.ITEMS.BODY.funguile.name"
 msgid "{name.funguile} Sailor Top"
-msgstr ""
+msgstr "Моряцький верх з {2:{Name.funguile}}"
 
 #: STRINGS.ITEMS.BODY.gnarlic.desc
 msgctxt "STRINGS.ITEMS.BODY.gnarlic.desc"
@@ -23729,12 +23729,12 @@ msgstr "Жилет з {Name.gourdo}"
 #: STRINGS.ITEMS.BODY.grimhollow.desc
 msgctxt "STRINGS.ITEMS.BODY.grimhollow.desc"
 msgid "If you can get over the splinters, it's a very effective breastplate."
-msgstr ""
+msgstr "Якщо вас не лякають скалки, це дуже ефективний нагрудник."
 
 #: STRINGS.ITEMS.BODY.grimhollow.name
 msgctxt "STRINGS.ITEMS.BODY.grimhollow.name"
 msgid "{name.grimhollow} Breastplate"
-msgstr ""
+msgstr "Нагрудник з {2:{Name.grimhollow}}"
 
 #: STRINGS.ITEMS.BODY.groak.desc
 msgctxt "STRINGS.ITEMS.BODY.groak.desc"
@@ -23824,7 +23824,7 @@ msgstr "[none]"
 #: STRINGS.ITEMS.BODY.quetz.name
 msgctxt "STRINGS.ITEMS.BODY.quetz.name"
 msgid "{name.quetz} Scalemail"
-msgstr ""
+msgstr "Лускатий нагрудник з {2:{Name.quetz}}"
 
 #: STRINGS.ITEMS.BODY.rotwood.desc
 msgctxt "STRINGS.ITEMS.BODY.rotwood.desc"
@@ -26097,7 +26097,7 @@ msgstr "Збільшує <#RED>{name.concept_damage}</> проти цілей з
 #: STRINGS.ITEMS.GEMS.damage_bonus_undamaged_target.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_undamaged_target.stat_name"
 msgid "{name.powerdesc_damage_bonus}"
-msgstr ""
+msgstr "{Name.powerdesc_damage_bonus}"
 
 #: STRINGS.ITEMS.GEMS.damage_bonus_windmon.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_bonus_windmon.desc"
@@ -26231,7 +26231,7 @@ msgstr "Збільшує <#RED>{name.concept_damage} зброї</>."
 #: STRINGS.ITEMS.GEMS.damage_mod.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_mod.stat_name"
 msgid "Bonus {name.concept_damage}"
-msgstr ""
+msgstr "Бонусна {3:{name.concept_damage}}"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_acid.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_acid.desc"
@@ -26242,12 +26242,12 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_resist_acid.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_acid.name"
 msgid "Acid Protection {name.gem}"
-msgstr ""
+msgstr "{Name.gem} захисту від кислоти"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_acid.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_acid.slotted_desc"
 msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>Poison</>."
-msgstr ""
+msgstr "Отримуйте менше <#RED>{2:{name.concept_damage}}</> від <#RED>кислоти</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_acid.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_acid.stat_name"
@@ -26294,7 +26294,8 @@ msgstr "Зменшує <#RED>{name.concept_damage}</> від удару в сп�
 #: STRINGS.ITEMS.GEMS.damage_resist_backstab.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_backstab.stat_name"
 msgid "Backstab {name.powerdesc_damage_reduction}"
-msgstr ""
+msgstr "{Name.powerdesc_damage_reduction}\n"
+"в спину"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_battoad.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_battoad.desc"
@@ -26462,7 +26463,8 @@ msgstr "Зменшує <#RED>{name.concept_damage}</> під час атаки."
 #: STRINGS.ITEMS.GEMS.damage_resist_counter.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_counter.stat_name"
 msgid "Counter {name.powerdesc_damage_reduction}"
-msgstr ""
+msgstr "{Name.powerdesc_damage_reduction}\n"
+"при контратаці"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_crystroll.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_crystroll.desc"
@@ -26662,17 +26664,17 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_resist_miniboss.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_miniboss.name"
 msgid "Miniboss Protection {name.gem}"
-msgstr ""
+msgstr "{Name.gem} захисту від мінібосів"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_miniboss.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_miniboss.slotted_desc"
 msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.rot_miniboss}</>."
-msgstr ""
+msgstr "Отримуйте менше <#RED>{2:{name.concept_damage}}</> від <#RED>{2:{name_multiple.rot_miniboss}}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_miniboss.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_miniboss.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
-msgstr ""
+msgstr "{Name.powerdesc_damage_reduction}"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_mossquito.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_mossquito.desc"
@@ -26788,17 +26790,17 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.damage_resist_projectiles.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_projectiles.name"
 msgid "Projectile Protection {name.gem}"
-msgstr ""
+msgstr "{Name.gem} захисту від снарядів"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_projectiles.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_projectiles.slotted_desc"
 msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>Projectiles</>."
-msgstr ""
+msgstr "Отримуйте менше <#RED>{2:{name.concept_damage}}</> від <#RED>снарядів</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_projectiles.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_projectiles.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
-msgstr ""
+msgstr "{Name.powerdesc_damage_reduction}"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_slowpoke.desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_slowpoke.desc"
@@ -27203,17 +27205,17 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.konjur_on_damage.name
 msgctxt "STRINGS.ITEMS.GEMS.konjur_on_damage.name"
 msgid "Brightside {name.gem}"
-msgstr ""
+msgstr "{Name.gem} променя надії"
 
 #: STRINGS.ITEMS.GEMS.konjur_on_damage.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.konjur_on_damage.slotted_desc"
 msgid "Gain <#KONJUR>{name.i_konjur}</> when taking <#RED>Damage</> from others."
-msgstr ""
+msgstr "Отримуйте <#KONJUR>{name.i_konjur}</> при отриманні <#RED>шкоди</> від інших."
 
 #: STRINGS.ITEMS.GEMS.konjur_on_damage.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.konjur_on_damage.stat_name"
 msgid "{name.i_konjur} gained"
-msgstr ""
+msgstr "{2:{Name.i_konjur}} отримано"
 
 #: STRINGS.ITEMS.GEMS.longer_hitstreak.desc
 msgctxt "STRINGS.ITEMS.GEMS.longer_hitstreak.desc"
@@ -27380,17 +27382,17 @@ msgstr ""
 #: STRINGS.ITEMS.GEMS.perfect_pairing.name
 msgctxt "STRINGS.ITEMS.GEMS.perfect_pairing.name"
 msgid "Alchemist's {name.gem}"
-msgstr ""
+msgstr "{Name.gem} алхіміка"
 
 #: STRINGS.ITEMS.GEMS.perfect_pairing.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.perfect_pairing.slotted_desc"
 msgid "Increased <#RED>{name.potion}</> effectiveness."
-msgstr ""
+msgstr "Підвищує ефективність <#RED>{name.potion}</>."
 
 #: STRINGS.ITEMS.GEMS.perfect_pairing.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.perfect_pairing.stat_name"
 msgid "Bonus heal"
-msgstr ""
+msgstr "Бонусне лікування"
 
 #: STRINGS.ITEMS.GEMS.power_options.desc
 msgctxt "STRINGS.ITEMS.GEMS.power_options.desc"
@@ -27729,7 +27731,7 @@ msgstr "[none]"
 #: STRINGS.ITEMS.HEAD.fungoons.name
 msgctxt "STRINGS.ITEMS.HEAD.fungoons.name"
 msgid "{name.fungoons_generic} Cap"
-msgstr ""
+msgstr "Шляпка з {2:{Name.fungoons_generic}}"
 
 #: STRINGS.ITEMS.HEAD.funguile.desc
 msgctxt "STRINGS.ITEMS.HEAD.funguile.desc"
@@ -27739,7 +27741,7 @@ msgstr "[none]"
 #: STRINGS.ITEMS.HEAD.funguile.name
 msgctxt "STRINGS.ITEMS.HEAD.funguile.name"
 msgid "{name.funguile} Sailor Cap"
-msgstr ""
+msgstr "Моряцький капелюх з {2:{Name.funguile}}"
 
 #: STRINGS.ITEMS.HEAD.gnarlic.desc
 msgctxt "STRINGS.ITEMS.HEAD.gnarlic.desc"
@@ -27764,12 +27766,12 @@ msgstr "Пом'якшувач для голови з {Name.gourdo}"
 #: STRINGS.ITEMS.HEAD.grimhollow.desc
 msgctxt "STRINGS.ITEMS.HEAD.grimhollow.desc"
 msgid "Takes a solid knock on wood."
-msgstr ""
+msgstr "Витримує серйозний удар об дерево."
 
 #: STRINGS.ITEMS.HEAD.grimhollow.name
 msgctxt "STRINGS.ITEMS.HEAD.grimhollow.name"
 msgid "{name.grimhollow} Helm"
-msgstr ""
+msgstr "Шолом з {2:{Name.grimhollow}}"
 
 #: STRINGS.ITEMS.HEAD.groak.desc
 msgctxt "STRINGS.ITEMS.HEAD.groak.desc"
@@ -27789,7 +27791,7 @@ msgstr "[none]"
 #: STRINGS.ITEMS.HEAD.immorel.name
 msgctxt "STRINGS.ITEMS.HEAD.immorel.name"
 msgid "{name.immorel} Diadem"
-msgstr ""
+msgstr "Діадема з {2:{Name.immorel}}"
 
 #: STRINGS.ITEMS.HEAD.megatreemon.desc
 msgctxt "STRINGS.ITEMS.HEAD.megatreemon.desc"
@@ -27859,7 +27861,7 @@ msgstr "[none]"
 #: STRINGS.ITEMS.HEAD.quetz.name
 msgctxt "STRINGS.ITEMS.HEAD.quetz.name"
 msgid "{name.quetz} Headpiece"
-msgstr ""
+msgstr "Головний убір з {2:{Name.quetz}}"
 
 #: STRINGS.ITEMS.HEAD.rotwood.desc
 msgctxt "STRINGS.ITEMS.HEAD.rotwood.desc"
@@ -28477,7 +28479,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.boss_grimhollow_volcano.name
 msgctxt "STRINGS.ITEMS.MATERIALS.boss_grimhollow_volcano.name"
 msgid "{name.grimhollow} Death Mask"
-msgstr ""
+msgstr "Маска смерті {2:{Name.grimhollow}}"
 
 #: STRINGS.ITEMS.MATERIALS.boss_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.boss_owlitzer_forest.desc"
@@ -29185,7 +29187,7 @@ msgstr "Надзвичайно потужний, твердий <#KONJUR>{name.i
 #: STRINGS.ITEMS.MATERIALS.konjur_heart_elite_grimhollow.name
 msgctxt "STRINGS.ITEMS.MATERIALS.konjur_heart_elite_grimhollow.name"
 msgid "{name.grimhollow_elite} {name.konjur_heart}"
-msgstr "{name.konjur_heart} {2:{name.grimhollow_elite}}"
+msgstr "{Name.konjur_heart} {2:{Name.grimhollow_elite}}"
 
 #: STRINGS.ITEMS.MATERIALS.konjur_heart_elite_grimhollow.name_multiple_fmt
 msgctxt "STRINGS.ITEMS.MATERIALS.konjur_heart_elite_grimhollow.name_multiple_fmt"
@@ -29270,7 +29272,7 @@ msgstr "Надзвичайно потужний, твердий <#KONJUR>{name.i
 #: STRINGS.ITEMS.MATERIALS.konjur_heart_grimhollow.name
 msgctxt "STRINGS.ITEMS.MATERIALS.konjur_heart_grimhollow.name"
 msgid "{name.grimhollow} {name.konjur_heart}"
-msgstr "{name.konjur_heart} {2:{Name.grimhollow}}"
+msgstr "{Name.konjur_heart} {2:{Name.grimhollow}}"
 
 #: STRINGS.ITEMS.MATERIALS.konjur_heart_grimhollow.name_multiple_fmt
 msgctxt "STRINGS.ITEMS.MATERIALS.konjur_heart_grimhollow.name_multiple_fmt"
@@ -29494,7 +29496,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.normal_grimhollow_volcano.name
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_grimhollow_volcano.name"
 msgid "{name.grimhollow_volcano} Cobblestone"
-msgstr "Бруківка з {2:{Name.grimhollow_volcano}}"
+msgstr "Бруківка {2:{Name.grimhollow_volcano}}"
 
 #: STRINGS.ITEMS.MATERIALS.normal_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_owlitzer_forest.desc"
@@ -33776,7 +33778,7 @@ msgstr "Прокинься"
 #: STRINGS.ITEMS.POWERS.PLAYER.shrapnel.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.shrapnel.desc"
 msgid "Anything you break in the environment shatters into <#RED>{projectiles} Projectiles</> that deal <#RED>{damage_mult}x your {name.concept_weapon_damage}</>."
-msgstr ""
+msgstr "Усе, що ви розбиваєте в середовищі, розбивається на <#RED>{projectiles} снарядів</>, кожен завдає <#RED>{damage_mult}х {2:{name.concept_weapon_damage}}</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.shrapnel.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.shrapnel.name"
@@ -34402,7 +34404,7 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.SKILL.hammer_reflectinglights.variables.hypershot_damage_bonus
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.hammer_reflectinglights.variables.hypershot_damage_bonus"
 msgid "Damage Bonus"
-msgstr ""
+msgstr "Бонусна шкода"
 
 #: STRINGS.ITEMS.POWERS.SKILL.hammer_thump.desc
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.hammer_thump.desc"
@@ -36327,7 +36329,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.bonejaw.name
 msgctxt "STRINGS.ITEMS.WAIST.bonejaw.name"
 msgid "{name.bonejaw} Jawbelt"
-msgstr ""
+msgstr "Пояс з {2:{Name.bonejaw}}"
 
 #: STRINGS.ITEMS.WAIST.bulbug.desc
 msgctxt "STRINGS.ITEMS.WAIST.bulbug.desc"
@@ -36417,7 +36419,7 @@ msgstr "[none]"
 #: STRINGS.ITEMS.WAIST.fungoons.name
 msgctxt "STRINGS.ITEMS.WAIST.fungoons.name"
 msgid "{name.fungoons_generic} Trousers"
-msgstr ""
+msgstr "Штани з {2:{Name.fungoons_generic}}"
 
 #: STRINGS.ITEMS.WAIST.funguile.desc
 msgctxt "STRINGS.ITEMS.WAIST.funguile.desc"
@@ -36427,7 +36429,7 @@ msgstr "[none]"
 #: STRINGS.ITEMS.WAIST.funguile.name
 msgctxt "STRINGS.ITEMS.WAIST.funguile.name"
 msgid "{name.funguile} Sailor Slacks"
-msgstr ""
+msgstr "Моряцькі штани з {2:{Name.funguile}}"
 
 #: STRINGS.ITEMS.WAIST.gnarlic.desc
 msgctxt "STRINGS.ITEMS.WAIST.gnarlic.desc"
@@ -36452,12 +36454,12 @@ msgstr "Еластичні Шорти з {Name.gourdo}"
 #: STRINGS.ITEMS.WAIST.grimhollow.desc
 msgctxt "STRINGS.ITEMS.WAIST.grimhollow.desc"
 msgid "No, it's not mahogany."
-msgstr ""
+msgstr "Ні, це не червоне дерево."
 
 #: STRINGS.ITEMS.WAIST.grimhollow.name
 msgctxt "STRINGS.ITEMS.WAIST.grimhollow.name"
 msgid "{name.grimhollow} Faulds"
-msgstr ""
+msgstr "Фолди з {2:{Name.grimhollow}}"
 
 #: STRINGS.ITEMS.WAIST.groak.desc
 msgctxt "STRINGS.ITEMS.WAIST.groak.desc"
@@ -36477,7 +36479,7 @@ msgstr "[none]"
 #: STRINGS.ITEMS.WAIST.immorel.name
 msgctxt "STRINGS.ITEMS.WAIST.immorel.name"
 msgid "{name.immorel} Trunk Hose"
-msgstr ""
+msgstr "Трубчаті штани з {2:{Name.immorel}}"
 
 #: STRINGS.ITEMS.WAIST.megatreemon.desc
 msgctxt "STRINGS.ITEMS.WAIST.megatreemon.desc"
@@ -36547,7 +36549,7 @@ msgstr "[none]"
 #: STRINGS.ITEMS.WAIST.quetz.name
 msgctxt "STRINGS.ITEMS.WAIST.quetz.name"
 msgid "{name.quetz} Waist Guard"
-msgstr ""
+msgstr "Захист на пояс з {2:{Name.quetz}}"
 
 #: STRINGS.ITEMS.WAIST.rotwood.desc
 msgctxt "STRINGS.ITEMS.WAIST.rotwood.desc"
@@ -36701,7 +36703,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.bow_bonejaw.name
 msgctxt "STRINGS.ITEMS.WEAPON.bow_bonejaw.name"
 msgid "Tailwind"
-msgstr ""
+msgstr "Попутний вітер"
 
 #: STRINGS.ITEMS.WEAPON.bow_corestone.desc
 msgctxt "STRINGS.ITEMS.WEAPON.bow_corestone.desc"
@@ -36908,7 +36910,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.cannon_bonejaw.name
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_bonejaw.name"
 msgid "Bonebreaker"
-msgstr ""
+msgstr "Кістколам"
 
 #: STRINGS.ITEMS.WEAPON.cannon_corestone.desc
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_corestone.desc"
@@ -37005,7 +37007,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.cannon_grimhollow_volcano.name
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_grimhollow_volcano.name"
 msgid "Sporeshot"
-msgstr ""
+msgstr "Споростріл"
 
 #: STRINGS.ITEMS.WEAPON.cannon_groak.desc
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_groak.desc"
@@ -37118,7 +37120,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.hammer_bonejaw.name
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_bonejaw.name"
 msgid "The Gnasher"
-msgstr ""
+msgstr "Гризун"
 
 #: STRINGS.ITEMS.WEAPON.hammer_corestone.desc
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_corestone.desc"
@@ -37204,7 +37206,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.hammer_grimhollow_volcano.name
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_grimhollow_volcano.name"
 msgid "Toadstomper"
-msgstr ""
+msgstr "Жаботоп"
 
 #: STRINGS.ITEMS.WEAPON.hammer_groak.desc
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_groak.desc"
@@ -37348,7 +37350,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.polearm_bonejaw.name
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_bonejaw.name"
 msgid "Spiny Lance"
-msgstr ""
+msgstr "Шипоcпис"
 
 #: STRINGS.ITEMS.WEAPON.polearm_corestone.desc
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_corestone.desc"
@@ -37434,7 +37436,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.polearm_grimhollow_volcano.name
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_grimhollow_volcano.name"
 msgid "Snarling Spear"
-msgstr ""
+msgstr "Рикаючий спис"
 
 #: STRINGS.ITEMS.WEAPON.polearm_groak.desc
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_groak.desc"
@@ -37548,7 +37550,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.shotput_bonejaw.name
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_bonejaw.name"
 msgid "Overbite"
-msgstr ""
+msgstr "Перекус"
 
 #: STRINGS.ITEMS.WEAPON.shotput_corestone.desc
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_corestone.desc"
@@ -45851,7 +45853,7 @@ msgstr "Рівень"
 #: STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_LEVEL_TOOLTIP
 msgctxt "STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_LEVEL_TOOLTIP"
 msgid "Shows your highest level gems first."
-msgstr ""
+msgstr "Спочатку показує самоцвіти найвищого рівня."
 
 #: STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_RECENT_TITLE
 msgctxt "STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_RECENT_TITLE"
@@ -45861,12 +45863,12 @@ msgstr "Недавні"
 #: STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_RECENT_TOOLTIP
 msgctxt "STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_RECENT_TOOLTIP"
 msgid "Shows your newest gems first."
-msgstr ""
+msgstr "Спочатку показує найновіші самоцвіти."
 
 #: STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_TITLE
 msgctxt "STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_TITLE"
 msgid "SORT"
-msgstr "СОРТУВАТИ"
+msgstr "СОРТУВАННЯ"
 
 #: STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_TYPE_TITLE
 msgctxt "STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_TYPE_TITLE"
@@ -45876,7 +45878,7 @@ msgstr "Тип"
 #: STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_TYPE_TOOLTIP
 msgctxt "STRINGS.UI.GEMSCREEN.SORT_DIALOG.SORT_TYPE_TOOLTIP"
 msgid "Groups gems by type, and sorts them by level within each type."
-msgstr ""
+msgstr "Групує самоцвіти за типом та сортує їх за рівнем всередині кожного типу."
 
 #: STRINGS.UI.GEMSCREEN.TITLE
 msgctxt "STRINGS.UI.GEMSCREEN.TITLE"
@@ -45983,12 +45985,12 @@ msgstr "Рівень {current_level}/{max_level}"
 #: STRINGS.UI.HEARTSCREEN.INTERACT.BTN_DISABLE_HEARTSTONES
 msgctxt "STRINGS.UI.HEARTSCREEN.INTERACT.BTN_DISABLE_HEARTSTONES"
 msgid "{name.interact_hold} Disable Aspect"
-msgstr ""
+msgstr "{Name.interact_tap} Деактивувати аспект"
 
 #: STRINGS.UI.HEARTSCREEN.INTERACT.BTN_ENABLE_HEARTSTONES
 msgctxt "STRINGS.UI.HEARTSCREEN.INTERACT.BTN_ENABLE_HEARTSTONES"
 msgid "{name.interact_hold} Enable Aspect"
-msgstr ""
+msgstr "{Name.interact_tap} Активувати аспект"
 
 #: STRINGS.UI.HEARTSCREEN.INTERACT.BTN_PLACE_IN_WELL
 msgctxt "STRINGS.UI.HEARTSCREEN.INTERACT.BTN_PLACE_IN_WELL"
@@ -46443,27 +46445,27 @@ msgstr "Локація"
 #: STRINGS.UI.INVENTORYCHESTSCREEN.TAB_ALL
 msgctxt "STRINGS.UI.INVENTORYCHESTSCREEN.TAB_ALL"
 msgid "Drops"
-msgstr ""
+msgstr "Здобич"
 
 #: STRINGS.UI.INVENTORYCHESTSCREEN.TAB_CROPS
 msgctxt "STRINGS.UI.INVENTORYCHESTSCREEN.TAB_CROPS"
 msgid "Seeds"
-msgstr ""
+msgstr "Насіння"
 
 #: STRINGS.UI.INVENTORYCHESTSCREEN.TAB_CURRENCY
 msgctxt "STRINGS.UI.INVENTORYCHESTSCREEN.TAB_CURRENCY"
 msgid "Currencies"
-msgstr ""
+msgstr "Цінне"
 
 #: STRINGS.UI.INVENTORYCHESTSCREEN.TAB_INGOTS
 msgctxt "STRINGS.UI.INVENTORYCHESTSCREEN.TAB_INGOTS"
 msgid "Ingots"
-msgstr ""
+msgstr "Злитки"
 
 #: STRINGS.UI.INVENTORYCHESTSCREEN.TAB_KEY
 msgctxt "STRINGS.UI.INVENTORYCHESTSCREEN.TAB_KEY"
 msgid "Key items"
-msgstr ""
+msgstr "Важливе"
 
 #: STRINGS.UI.INVENTORYCHESTSCREEN.TITLE
 msgctxt "STRINGS.UI.INVENTORYCHESTSCREEN.TITLE"
