@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-01-26 11:25\n"
+"PO-Revision-Date: 2025-01-27 11:28\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -13278,7 +13278,12 @@ msgid "agent:\n"
 " Ghe-he-he. 'Ey Hunter! \n"
 " !point\n"
 " Don't think you've wriggled out of your first {name.pop_quiz} just 'cause I was lost in the woods!"
-msgstr ""
+msgstr "agent:\n"
+"!happy\n"
+"!laugh\n"
+"Ге-хе-хе. Ей, Мисливцю!\n"
+"!point\n"
+"Не думайте, що ваша перша {Name.pop_quiz} не відбудеться, тільки тому, що я заблукав у лісі!"
 
 #: Quest.pop_quiz_focus_hit.QUIP.chitchat:[in_quest_pop_quiz_focus_hit,in_town,pf_unlocked_masteries,role_hunter].1
 msgctxt "Quest.pop_quiz_focus_hit.QUIP.chitchat:[in_quest_pop_quiz_focus_hit,in_town,pf_unlocked_masteries,role_hunter].1"
@@ -24106,7 +24111,7 @@ msgstr "Убийте <#RED>{2:{Name.bandicoot}}</> в глибині <#BLUE>{2:{
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_bandicoot.name
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_bandicoot.name"
 msgid "Solo Her [{name.bandicoot} <p img='images/map_ftf/frenzy_level_3.tex' color=0>]"
-msgstr "Переможи її на самоті [{Name.bandicoot} <p img='images/map_ftf/frenzy_level_3.tex' color=0>]"
+msgstr "Перемога на самоті [{Name.bandicoot} <p img='images/map_ftf/frenzy_level_3.tex' color=0>]"
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_eggzy.desc
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_eggzy.desc"
@@ -24126,7 +24131,7 @@ msgstr "Убийте <#RED>{2:{name.grimhollow}}</> в глибині <#BLUE>{2:
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_grimhollow.name
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_grimhollow.name"
 msgid "Solo Him [{name.grimhollow} <p img='images/map_ftf/frenzy_level_3.tex' color=0>]"
-msgstr "Перемога на самоті [{name.grimhollow} <p img='images/map_ftf/frenzy_level_3.tex' color=0>]"
+msgstr "Перемога на самоті [{Name.grimhollow} <p img='images/map_ftf/frenzy_level_3.tex' color=0>]"
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_megatreemon.desc
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_megatreemon.desc"
@@ -30003,7 +30008,7 @@ msgstr "Перемогти {2:{Name.eggzy}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_1.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_1.desc"
 msgid "Kill <#RED>{name.eggzy}</> in <#BLUE> <p img='images/map_ftf/frenzy_level_1.tex' color=0> {name.eggzy_tundra}</>"
-msgstr "Вбийте <#RED>{2:{Name.eggzy}}</> вглибині <#BLUE> <p img='images/map_ftf/frenzy_level_1.tex' color=0> {2:{Name.eggzy_tundra}}</>"
+msgstr "Вбийте <#RED>{2:{Name.eggzy}}</> вглибині <#BLUE> <p img='images/map_ftf/frenzy_level_1.tex' color=0> {2:{Name.eggzy_tundra}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_1.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_1.name"
@@ -30033,7 +30038,7 @@ msgstr "Перемогти {2:{Name.eggzy}} <p img='images/map_ftf/frenzy_level_
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.grimhollow_kill.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.grimhollow_kill.desc"
 msgid "Kill <#RED>{name.grimhollow}</> in <#BLUE>{name.grimhollow_volcano}</>."
-msgstr "Вбийте <#RED>{2:{Name.grimhollow}}</> вглибині <#BLUE>{2:{Name.grimhollow_volcano}}</>."
+msgstr "Вбийте <#RED>{3:{Name.grimhollow}}</> вглибині <#BLUE>{2:{Name.grimhollow_volcano}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.grimhollow_kill.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.grimhollow_kill.name"
@@ -32987,7 +32992,7 @@ msgctxt "STRINGS.ITEMS.POWERS.PLAYER.down_to_business.desc"
 msgid "When you enter a new clearing, gain <#RED>+{speed}% {name.concept_runspeed}</> for <#RED>{time}</> seconds.\n\n"
 "On <#RED>Kill</>, add {bonus} seconds."
 msgstr "Коли ви заходите на нову галявину, ви отримаєте <#RED>+{speed}% {2:{name.concept_runspeed}}</> на <#RED>{time}</> секунд.\n\n"
-"<#RED>Вбивство</> додає {bonus} секунд."
+"<#RED>Вбивство</> додає {bonus} секунди."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.down_to_business.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.down_to_business.name"
@@ -33022,7 +33027,7 @@ msgstr "Отримуйте <#RED>половину пошкоджень</> до �
 #: STRINGS.ITEMS.POWERS.PLAYER.eggbert_head_defense.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.eggbert_head_defense.name"
 msgid "Scrambler Shellcap"
-msgstr "Шолом Скремблера"
+msgstr "Шолом Яйцебума"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.extended_range.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.extended_range.desc"
@@ -33054,7 +33059,7 @@ msgctxt "STRINGS.ITEMS.POWERS.PLAYER.extroverted.desc"
 msgid "When you enter a new clearing, gain <#RED>+{damage}% {name.concept_damage}</> for <#RED>{time}</> seconds.\n\n"
 "On <#RED>Kill</>, add {bonus} seconds."
 msgstr "Коли ви заходите на нову галявину, ви отримаєте <#RED>+{damage}% {2:{name.concept_damage}}</> на <#RED>{time}</> секунд.\n\n"
-"<#RED>Вбивство</> додає {bonus} секунд."
+"<#RED>Вбивство</> додає {bonus} секунди."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.extroverted.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.extroverted.name"
@@ -33381,7 +33386,7 @@ msgstr "Ще раз, поповнює"
 #: STRINGS.ITEMS.POWERS.PLAYER.jury_and_executioner.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.jury_and_executioner.desc"
 msgid "Your <#RED>Skill</> Order in the Court's damage now increases by your <#RED>{name.concept_weapon_damage}</> for each consecutive hit."
-msgstr "Шкода від вашої <#RED>навички</> Порядок у суді тепер збільшується на вашу <#RED>{3:{name.concept_weapon_damage}}</> за кожен послідовний удар."
+msgstr "Шкода від вашої <#RED>навички</> Порядок у суді тепер збільшується на вашу <#RED>{name.concept_weapon_damage}</> за кожен послідовний удар."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.jury_and_executioner.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.jury_and_executioner.name"
@@ -40313,7 +40318,7 @@ msgstr "Навичка|Навичку"
 #: STRINGS.NAMES.concept_weapon_damage
 msgctxt "STRINGS.NAMES.concept_weapon_damage"
 msgid "Weapon Damage"
-msgstr "Шкода зброєю|Шкоди зброєю"
+msgstr "Шкода зброї|Шкоди зброї|Шкоду зброї"
 
 #: STRINGS.NAMES.cosmetic
 msgctxt "STRINGS.NAMES.cosmetic"
@@ -44328,12 +44333,12 @@ msgstr "Натисніть <p bind='Controls.Digital.EQUIP' color=0> для за
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_ARMOR
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_ARMOR"
 msgid "Imbue a <#RED>{name.weapon_crystal_prefix}{armor_piece}</> with the {name.konjur_heart} of an <#RED>{name.elite_prefix} {boss}</> to have <#BLUE>{name.npc_armorsmith}</> craft this for you."
-msgstr "Наповніть <#RED>{Name.weapon_crystal_prefix}{armor_piece}</> силою {4:{name.elite_prefix}} {2:{name.konjur_heart}} <#RED>{boss}</> для виготовлення цієї речі у <#BLUE>{4:{Name.npc_armorsmith}}</>."
+msgstr "Наповніть <#RED>{Name.weapon_crystal_prefix}{armor_piece}</> силою {4:{name.elite_prefix}} {2:{name.konjur_heart}} (<#RED>{boss}</>) для виготовлення цього обладунку у <#BLUE>{4:{Name.npc_armorsmith}}</>."
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_WEAPON
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_WEAPON"
 msgid "Imbue a <#RED>{name.weapon_crystal_prefix}{weapon_type}</> with the {name.konjur_heart} of an <#RED>{name.elite_prefix} {boss}</> to have <#BLUE>{name.npc_blacksmith}</> craft this for you."
-msgstr "Наповніть <#RED>{Name.weapon_crystal_prefix}{weapon_type}</> силою {4:{name.elite_prefix}} {2:{name.konjur_heart}} <#RED>{boss}</> для виготовлення цієї речі у <#BLUE>{2:{Name.npc_blacksmith}}</>."
+msgstr "Наповніть <#RED>{Name.weapon_crystal_prefix}{weapon_type}</> силою {4:{name.elite_prefix}} {2:{name.konjur_heart}} (<#RED>{boss}</>) для виготовлення цієї зброї у <#BLUE>{2:{Name.npc_blacksmith}}</>."
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_ARMOR
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_ARMOR"
