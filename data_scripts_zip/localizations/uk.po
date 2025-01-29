@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-01-27 11:28\n"
+"PO-Revision-Date: 2025-01-29 16:55\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -2301,7 +2301,9 @@ msgctxt "Convo.dgn_challenge_grim_magpie.HUB0.convo.giver.STATE_0.ANSWER_END"
 msgid "agent:\n"
 " !gruffnod\n"
 " <z 0.8>Quawk quep!</z>"
-msgstr ""
+msgstr "agent:\n"
+" !gruffnod\n"
+" <z 0.8>Квук куіп!</z>"
 
 #: Convo.dgn_challenge_grim_magpie.HUB0.convo.giver.STATE_0.ANSWER_END_ALT
 msgctxt "Convo.dgn_challenge_grim_magpie.HUB0.convo.giver.STATE_0.ANSWER_END_ALT"
@@ -2310,7 +2312,11 @@ msgid "agent:\n"
 " <z 0.8>Kweh queep!</z>\n"
 " !laugh\n"
 " <z 0.8>Caa-caa-caa-caa!</z>"
-msgstr ""
+msgstr "agent:\n"
+" !gruffnod\n"
+" <z 0.8>Квех квіп!</z>\n"
+" !laugh\n"
+" <z 0.8>Каа-каа-каа-каа!</z>"
 
 #: Convo.dgn_challenge_grim_magpie.HUB0.convo.giver.STATE_0.END_GENERIC
 msgctxt "Convo.dgn_challenge_grim_magpie.HUB0.convo.giver.STATE_0.END_GENERIC"
@@ -2321,7 +2327,8 @@ msgstr "Вибач маю бігти. До зустрічі на ринку?"
 msgctxt "Convo.dgn_challenge_grim_magpie.HUB0.convo.giver.STATE_0.QUESTION_1"
 msgid "Alright {name.shop_magpie}, what's the challenge today?\n"
 "Give me your worst, I can take it!"
-msgstr ""
+msgstr "Гаразд, {Name.shop_magpie}, яке сьогодні випробування?\n"
+"Дай мені найгірше, я витримаю!"
 
 #: Convo.dgn_challenge_grim_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A
 msgctxt "Convo.dgn_challenge_grim_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A"
