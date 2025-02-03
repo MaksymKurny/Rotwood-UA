@@ -5,11 +5,8 @@ return Localization {
 	name = "Ukrainian",
 	fonts =
 	{
-		title = { font = "fonts/fallback_full_packed_sdf_uk.zip", sdfthreshold = 0.36, sdfboldthreshold = 0.30 },
-		body = { font = "fonts/fallback_full_packed_sdf_uk.zip", sdfthreshold = 0.4, sdfboldthreshold = 0.33 },
-		button = { font = "fonts/fallback_full_packed_sdf_uk.zip", sdfthreshold = 0.4, sdfboldthreshold = 0.33 },
-		tooltip = { font = "fonts/fallback_full_packed_sdf_uk.zip", sdfthreshold = 0.4, sdfboldthreshold = 0.33 },
-		speech = { font = "fonts/fallback_full_packed_sdf_uk.zip", sdfthreshold = 0.4, sdfboldthreshold = 0.33 },
+		blockhead = { font = "fonts/blockhead_sdf_uk.zip", sdfthreshold = 0.4, sdfboldthreshold = 0.33 },
+        title = { font = "fonts/blockhead_sdf_uk.zip", sdfthreshold = 0.5, sdfboldthreshold = 0.33, scale = 0.6, line_height_scale = 0.85 },
 	},
 	
 	can_display_italic = true,

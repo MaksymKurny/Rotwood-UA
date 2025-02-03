@@ -4,6 +4,9 @@ local select = _G.select
 local assert = _G.assert
 local next = _G.next
 local TheGameContent = _G.TheGameContent
+local TheSim = _G.TheSim
+local Sim = _G.Sim
+local ModManager = _G.ModManager
 local STRINGS = _G.STRINGS
 local FONTFACE = _G.FONTFACE
 local UICOLORS = _G.UICOLORS
@@ -19,14 +22,53 @@ local contentloader = require "content.contentloader"
 
 LANGUAGE.UKRAINIAN = "uk"
 
---table.insert(_G.FONTS, { filename = MODROOT.."fonts/blockhead_sdf_ua", alias = "blockhead"})
---assets = {Asset("FONT", MODROOT.."fonts/blockhead_sdf_ua.zip")}
---_G.UnloadFonts()
---local _LoadFonts = _G.LoadFonts
---_G.LoadFonts = function()
---	table.insert(_G.FONTS, { filename = MODROOT.."fonts/blockhead_sdf_ua.zip", alias = "blockhead"})
---	_LoadFonts()
---end
+Assets = {
+  Asset("FONT", "fonts/blockhead_sdf_uk.zip"),
+}
+
+local fallback_font = "fallback_font"
+local DEFAULT_FALLBACK_TABLE = {
+	fallback_font,
+}
+local font_posfix = "_uk"
+local uk_font = { filename = "fonts/blockhead_sdf"..font_posfix..".zip", alias = "blockhead", fallback = DEFAULT_FALLBACK_TABLE, sdfthreshold = 0.44, sdfboldthreshold = 0.2 }
+
+local function ApplyLocalizedFonts()
+	TheSim:UnloadFont(uk_font.alias)
+	TheSim:UnloadPrefabs({"uk_fonts"})
+
+	local FontsPrefab = _G.Prefab("uk_fonts", function() return _G.CreateEntity() end, Assets)
+	_G.RegisterPrefabs(FontsPrefab)
+	TheSim:LoadPrefabs({"uk_fonts"})
+
+	TheSim:LoadFont(
+		_G.resolvefilepath(uk_font.filename),
+		uk_font.alias,
+		uk_font.sdfthreshold,
+		uk_font.sdfboldthreshold,
+		uk_font.sdfshadowthreshold,
+		uk_font.supportsItalics
+	)
+	TheSim:SetupFontFallbacks(uk_font.alias, uk_font.fallback)
+end
+
+local _UnregisterAllPrefabs = Sim.UnregisterAllPrefabs
+Sim.UnregisterAllPrefabs = function(self, ...)
+	_UnregisterAllPrefabs(self, ...)
+	ApplyLocalizedFonts()
+end
+
+local _RegisterPrefabs = ModManager.RegisterPrefabs
+ModManager.RegisterPrefabs = function(self, ...)
+	_RegisterPrefabs(self, ...)
+	ApplyLocalizedFonts()
+end
+
+local _Start = Start
+function Start(...) 
+	ApplyLocalizedFonts()
+	return _Start(...)
+end
 
 --local filter = _G.ProfanityFilter()
 --filter:AddDictionary("ua", {
@@ -181,6 +223,9 @@ end
 TheGameContent:GetContentDB():LoadScript("scripts/localizations/ukrainian.lua")
 TheGameContent:SetLanguage()
 TheGameContent:LoadLanguageDisplayElements()
+
+local Localization = require("questral/localization")
+Localization:ApplyFonts()
 
 STRINGS.PRETRANSLATED.LANGUAGES[LANGUAGE.UKRAINIAN] = "Українська (Ukrainian)"
 STRINGS.PRETRANSLATED.LANGUAGES_TITLE[LANGUAGE.UKRAINIAN] = "Варіант перекладу"

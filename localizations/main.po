@@ -35,7 +35,7 @@ msgstr"Ні"
 #: STRINGS.UI.MAINSCREEN.MODTITLE
 msgctxt "STRINGS.UI.MAINSCREEN.MODTITLE"
 msgid "Mods Installed!"
-msgstr"Моди встановлено!"
+msgstr"Встановлено моди!"
 
 #: STRINGS.UI.MAINSCREEN.NEWMODDETAIL
 msgctxt "STRINGS.UI.MAINSCREEN.NEWMODDETAIL"
