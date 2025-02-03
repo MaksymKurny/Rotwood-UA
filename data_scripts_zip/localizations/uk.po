@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-02-03 18:21\n"
+"PO-Revision-Date: 2025-02-03 22:22\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -24266,7 +24266,7 @@ msgstr "Виглядає як субпродукт, чудовий смак.\n\n
 #: STRINGS.ITEMS.COOKED_FOOD.haggis.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.haggis.name"
 msgid "Haggis"
-msgstr "Хаггіс"
+msgstr "Хаґґіс"
 
 #: STRINGS.ITEMS.COOKED_FOOD.meatwich.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.meatwich.desc"
@@ -24376,7 +24376,7 @@ msgstr "[TODO]"
 #: STRINGS.ITEMS.CROP.bandi_swamp_crop.name
 msgctxt "STRINGS.ITEMS.CROP.bandi_swamp_crop.name"
 msgid "{name.bandicoot}'s Crop"
-msgstr ""
+msgstr "Насіння {2:{Name.bandicoot}}"
 
 #: STRINGS.ITEMS.CROP.eggzy_tundra_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.eggzy_tundra_crop.desc"
@@ -24386,7 +24386,7 @@ msgstr "[TODO]"
 #: STRINGS.ITEMS.CROP.eggzy_tundra_crop.name
 msgctxt "STRINGS.ITEMS.CROP.eggzy_tundra_crop.name"
 msgid "{name.eggzy}'s Crop"
-msgstr ""
+msgstr "Насіння {2:{Name.eggzy}}"
 
 #: STRINGS.ITEMS.CROP.gem_unidentified_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.gem_unidentified_crop.desc"
@@ -24406,7 +24406,7 @@ msgstr "[TODO]"
 #: STRINGS.ITEMS.CROP.grimhollow_volcano_crop.name
 msgctxt "STRINGS.ITEMS.CROP.grimhollow_volcano_crop.name"
 msgid "{name.grimhollow}'s Crop"
-msgstr ""
+msgstr "Насіння {2:{Name.grimhollow}}"
 
 #: STRINGS.ITEMS.CROP.owlitzer_forest_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.owlitzer_forest_crop.desc"
@@ -24416,7 +24416,7 @@ msgstr "[TODO]"
 #: STRINGS.ITEMS.CROP.owlitzer_forest_crop.name
 msgctxt "STRINGS.ITEMS.CROP.owlitzer_forest_crop.name"
 msgid "{name.owlitzer}'s Crop"
-msgstr ""
+msgstr "Насіння {2:{Name.owlitzer}}"
 
 #: STRINGS.ITEMS.CROP.sedament_tundra_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.sedament_tundra_crop.desc"
@@ -24426,7 +24426,7 @@ msgstr "[TODO]"
 #: STRINGS.ITEMS.CROP.sedament_tundra_crop.name
 msgctxt "STRINGS.ITEMS.CROP.sedament_tundra_crop.name"
 msgid "{name.sedament}'s Crop"
-msgstr ""
+msgstr "Насіння {2:{Name.sedament}}"
 
 #: STRINGS.ITEMS.CROP.thatcher_swamp_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.thatcher_swamp_crop.desc"
@@ -24436,7 +24436,7 @@ msgstr "[TODO]"
 #: STRINGS.ITEMS.CROP.thatcher_swamp_crop.name
 msgctxt "STRINGS.ITEMS.CROP.thatcher_swamp_crop.name"
 msgid "{name.thatcher}'s Crop"
-msgstr ""
+msgstr "Насіння {2:{Name.thatcher}}"
 
 #: STRINGS.ITEMS.CROP.treemon_forest_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.treemon_forest_crop.desc"
@@ -24446,7 +24446,7 @@ msgstr "[TODO]"
 #: STRINGS.ITEMS.CROP.treemon_forest_crop.name
 msgctxt "STRINGS.ITEMS.CROP.treemon_forest_crop.name"
 msgid "{name.megatreemon}'s Crop"
-msgstr ""
+msgstr "Насіння {2:{Name.megatreemon}}"
 
 #: STRINGS.ITEMS.DECOR.antleer_mid_plushies.desc
 msgctxt "STRINGS.ITEMS.DECOR.antleer_mid_plushies.desc"
@@ -31120,7 +31120,7 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_swap_light_heavy.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_swap_light_heavy.name"
 msgid "equipment_cannon_swap_light_heavy"
-msgstr ""
+msgstr "equipment_cannon_swap_light_heavy"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_corestone.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_corestone.desc"
@@ -32593,22 +32593,22 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.FROST.frost_damage_to_frozen.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_damage_to_frozen.desc"
 msgid "Deal <#RED>+{bonus}% Damage</> to <#RED>Frozen</> enemies."
-msgstr ""
+msgstr "Завдавайте <#RED>+{bonus}% шкоди</> <#RED>замороженим</> ворогам."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_damage_to_frozen.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_damage_to_frozen.name"
 msgid "Glacial Might"
-msgstr ""
+msgstr "Льодовикова міць"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_dodge_freeze.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_dodge_freeze.desc"
 msgid "After dodging through an enemy, they become <#RED>Frozen</> for <#RED>{duration} seconds</>."
-msgstr ""
+msgstr "Після ухилення від ворога він стає <#RED>замороженим</> на <#RED>{duration} секунд</>."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_dodge_freeze.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_dodge_freeze.name"
 msgid "Flash Freeze"
-msgstr ""
+msgstr "Швидка заморозка"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_explosion_on_hit.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_explosion_on_hit.desc"
@@ -32625,22 +32625,22 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.FROST.frost_frozen_explosion.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_explosion.desc"
 msgid "<#RED>Frozen</> enemies explode when killed, {rarity_text}."
-msgstr ""
+msgstr "<#RED>Заморожені</> вороги вибухають при вбивстві, {rarity_text}."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_frozen_explosion.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_explosion.name"
 msgid "Frozen Detonation"
-msgstr ""
+msgstr "Заморожена детонація"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_frozen_explosion.rarity_text_EPIC
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_explosion.rarity_text_EPIC"
 msgid "applying <#RED>Cold</> to nearby enemies"
-msgstr ""
+msgstr "<#RED>охолоджуючи</> ворогів поблизу"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_frozen_explosion.rarity_text_LEGENDARY
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_explosion.rarity_text_LEGENDARY"
 msgid "<#RED>Freezing</> nearby enemies"
-msgstr ""
+msgstr "<#RED>заморожуючи</> ворогів поблизу"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_on_attack.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_on_attack.desc"
@@ -32667,22 +32667,22 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.FROST.frost_on_light.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_on_light.desc"
 msgid "Your <#RED>Light Attacks</> apply <#RED>Cold</> to enemies."
-msgstr ""
+msgstr "Ваші <#RED>легкі атаки</> <#RED>охолоджують</> ворогів."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_on_light.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_on_light.name"
 msgid "Frost Strike"
-msgstr ""
+msgstr "Крижаний удар"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_shatter_execute.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_shatter_execute.desc"
 msgid "<#RED>Frozen</> enemies below <#RED>{threshold}% Health</> instantly shatter."
-msgstr ""
+msgstr "<#RED>Заморожені</> вороги в яких нижче <#RED>{threshold}% здоров'я</> миттєво розбиваються на друзки."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_shatter_execute.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_shatter_execute.name"
 msgid "Glacial Execution"
-msgstr ""
+msgstr "Льодовикова страта"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_snowball_on_dodge.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_snowball_on_dodge.desc"
@@ -34458,7 +34458,8 @@ msgstr "Хранитель місяця"
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.bow_fan.desc"
 msgid "Toss <#RED>{name.gnarlic} arrows</> in all directions.\n\n"
 "<#RED>Kill</> {kills_to_refill} enemy to recharge, up to a maximum of <#RED>{max_stocks} Stocks</>."
-msgstr ""
+msgstr "Киньте <#RED>стріли {2:{Name.gnarlic}}</> в усіх напрямках.\n\n"
+"<#RED>Вбийте</> {kills_to_refill} ворогів, щоб перезарядити, максимум <#RED>{max_stocks} запаси</>."
 
 #: STRINGS.ITEMS.POWERS.SKILL.bow_fan.name
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.bow_fan.name"
@@ -34552,7 +34553,7 @@ msgstr "Штурмовий таран"
 #: STRINGS.ITEMS.POWERS.SKILL.cannon_proximitymine.desc
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.cannon_proximitymine.desc"
 msgid "Plant one of your <#RED>{name_multiple.cannon_ammo}</> as a <#RED>Mine</> which blows up near enemies. Perform a <#RED>Shockwave</> to explode all <#RED>Mines</>."
-msgstr ""
+msgstr "Встановіть одну <#RED>міну</>, з ваших <#RED>{2:{name_multiple.cannon_ammo}}</> яка вибухає біля ворогів. Застосуйте <#RED>ударну хвилю</>, щоб підірвати всі <#RED>міни</>."
 
 #: STRINGS.ITEMS.POWERS.SKILL.cannon_proximitymine.name
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.cannon_proximitymine.name"
@@ -34986,7 +34987,8 @@ msgstr "DEV_TOXICITY_STRENGTH"
 msgctxt "STRINGS.ITEMS.POWERS.STATUSEFFECT.wet.desc"
 msgid "<#RED>Charged</> damage is increased by +{bonus_charged_damage}%.\n\n"
 "Get <#RED>Cold {bonus_cold}% faster</>{rarity_text}."
-msgstr ""
+msgstr "<#RED>Заряджена</> атака завдає на +{bonus_charged_damage}% більше шкоди.\n\n"
+"<#RED>Замерзайте на {bonus_cold}% швидше</>{rarity_text}."
 
 #: STRINGS.ITEMS.POWERS.STATUSEFFECT.wet.name
 msgctxt "STRINGS.ITEMS.POWERS.STATUSEFFECT.wet.name"
@@ -35002,12 +35004,12 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.STATUSEFFECT.wet.rarity_text_EPIC
 msgctxt "STRINGS.ITEMS.POWERS.STATUSEFFECT.wet.rarity_text_EPIC"
 msgid "and naturally <#RED>Warm</> half as fast"
-msgstr ""
+msgstr "і природно <#RED>зігрівайтесь</> у два рази повільніше"
 
 #: STRINGS.ITEMS.POWERS.STATUSEFFECT.wet.rarity_text_LEGENDARY
 msgctxt "STRINGS.ITEMS.POWERS.STATUSEFFECT.wet.rarity_text_LEGENDARY"
 msgid "and do not naturally <#RED>Warm</>"
-msgstr ""
+msgstr "і природно не <#RED>зігріваєтесь</>"
 
 #: STRINGS.ITEMS.POWERS.SUMMON.charm_on_kill.desc
 msgctxt "STRINGS.ITEMS.POWERS.SUMMON.charm_on_kill.desc"
@@ -37248,7 +37250,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.cannon_thatcher.name
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_thatcher.name"
 msgid "Earsplitter"
-msgstr ""
+msgstr "Навушник"
 
 #: STRINGS.ITEMS.WEAPON.cannon_thatcher_swamp.desc
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_thatcher_swamp.desc"
@@ -37678,7 +37680,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.polearm_thatcher.name
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_thatcher.name"
 msgid "Maestro's Baton"
-msgstr ""
+msgstr "Паличка маестро"
 
 #: STRINGS.ITEMS.WEAPON.polearm_treemon_forest.desc
 msgctxt "STRINGS.ITEMS.WEAPON.polearm_treemon_forest.desc"
@@ -39507,7 +39509,7 @@ msgstr "Тіло"
 #: STRINGS.ITEM_CATEGORIES.BOSS
 msgctxt "STRINGS.ITEM_CATEGORIES.BOSS"
 msgid "Boss"
-msgstr ""
+msgstr "Бос"
 
 #: STRINGS.ITEM_CATEGORIES.BOW
 msgctxt "STRINGS.ITEM_CATEGORIES.BOW"
@@ -39582,7 +39584,7 @@ msgstr "Обладнання"
 #: STRINGS.ITEM_CATEGORIES.EQUIPMENT_MASTERY
 msgctxt "STRINGS.ITEM_CATEGORIES.EQUIPMENT_MASTERY"
 msgid "Equipment Mastery"
-msgstr ""
+msgstr "Спорядження майстерності"
 
 #: STRINGS.ITEM_CATEGORIES.FOOD
 msgctxt "STRINGS.ITEM_CATEGORIES.FOOD"
@@ -39597,7 +39599,7 @@ msgstr "Їжа"
 #: STRINGS.ITEM_CATEGORIES.FROST
 msgctxt "STRINGS.ITEM_CATEGORIES.FROST"
 msgid "Frost"
-msgstr ""
+msgstr "Заморозка"
 
 #: STRINGS.ITEM_CATEGORIES.GEMS
 msgctxt "STRINGS.ITEM_CATEGORIES.GEMS"
@@ -43730,7 +43732,7 @@ msgstr "EMOTE DESC"
 #: STRINGS.PLAYER_EMOTES.EMOTE_FUNGUILE_BELLYSLAPS.name
 msgctxt "STRINGS.PLAYER_EMOTES.EMOTE_FUNGUILE_BELLYSLAPS.name"
 msgid "Belly Slap"
-msgstr ""
+msgstr "Удар по животу"
 
 #: STRINGS.PLAYER_EMOTES.EMOTE_GOURDO_FACE_BASH.desc
 msgctxt "STRINGS.PLAYER_EMOTES.EMOTE_GOURDO_FACE_BASH.desc"
@@ -43890,7 +43892,7 @@ msgstr "EMOTE DESC"
 #: STRINGS.PLAYER_EMOTES.EMOTE_SHOCK.name
 msgctxt "STRINGS.PLAYER_EMOTES.EMOTE_SHOCK.name"
 msgid "Shock"
-msgstr ""
+msgstr "Шок"
 
 #: STRINGS.PLAYER_EMOTES.EMOTE_SHOTPUT_TWIRL.desc
 msgctxt "STRINGS.PLAYER_EMOTES.EMOTE_SHOTPUT_TWIRL.desc"
@@ -45752,12 +45754,12 @@ msgstr "НАДІШЛІТЬ НАМ СВІЙ ВІДГУК"
 #: STRINGS.UI.FOODSCREEN.COOK_BTN
 msgctxt "STRINGS.UI.FOODSCREEN.COOK_BTN"
 msgid "Prepare meal"
-msgstr ""
+msgstr "Приготувати їжу"
 
 #: STRINGS.UI.FOODSCREEN.DESC
 msgctxt "STRINGS.UI.FOODSCREEN.DESC"
 msgid "Combine ingredients for a Power-full combination!"
-msgstr ""
+msgstr "Поєднуйте інгредієнти для Сильного поєднання смаків!"
 
 #: STRINGS.UI.FOODSCREEN.INVENTORY_COUNT
 msgctxt "STRINGS.UI.FOODSCREEN.INVENTORY_COUNT"
@@ -45767,12 +45769,13 @@ msgstr "%d в <p img='images/icons_ftf/inventory_equipment.tex' color=0>"
 #: STRINGS.UI.FOODSCREEN.LIST_HOTKEYS
 msgctxt "STRINGS.UI.FOODSCREEN.LIST_HOTKEYS"
 msgid "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Prepare meal"
-msgstr ""
+msgstr "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Приготувати їжу"
 
 #: STRINGS.UI.FOODSCREEN.LIST_HOTKEYS_GAMEPAD
 msgctxt "STRINGS.UI.FOODSCREEN.LIST_HOTKEYS_GAMEPAD"
 msgid "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Prepare meal    <p bind='Controls.Digital.A' color=0 scale=1> Info"
-msgstr ""
+msgstr "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Приготувати їжу\n"
+"<p bind='Controls.Digital.A' color=0 scale=1> Інфо"
 
 #: STRINGS.UI.FOODSCREEN.TITLE
 msgctxt "STRINGS.UI.FOODSCREEN.TITLE"
@@ -50436,12 +50439,12 @@ msgstr "Налаштувати персонажа"
 #: STRINGS.UI.SCREENOPENER_PROP.cooking_station
 msgctxt "STRINGS.UI.SCREENOPENER_PROP.cooking_station"
 msgid "Prepare Meal"
-msgstr ""
+msgstr "Приготувати їжу"
 
 #: STRINGS.UI.SCREENOPENER_PROP.cooking_station_dungeon
 msgctxt "STRINGS.UI.SCREENOPENER_PROP.cooking_station_dungeon"
 msgid "Pick a Meal"
-msgstr ""
+msgstr "Оберіть страву"
 
 #: STRINGS.UI.SCREENOPENER_PROP.default
 msgctxt "STRINGS.UI.SCREENOPENER_PROP.default"
@@ -50561,32 +50564,32 @@ msgstr "Подрібнювач насіння"
 #: STRINGS.UI.SELECTFOODSCREEN.DESC
 msgctxt "STRINGS.UI.SELECTFOODSCREEN.DESC"
 msgid "You can eat one of the meals you brought."
-msgstr ""
+msgstr "Ви можете з'їсти одну з тих страв, що принесли з собою."
 
 #: STRINGS.UI.SELECTFOODSCREEN.LIST_EMPTY
 msgctxt "STRINGS.UI.SELECTFOODSCREEN.LIST_EMPTY"
 msgid "You didn't prepare any meals in town."
-msgstr ""
+msgstr "Ви не готували їжу в місті."
 
 #: STRINGS.UI.SELECTFOODSCREEN.LIST_TITLE
 msgctxt "STRINGS.UI.SELECTFOODSCREEN.LIST_TITLE"
 msgid "Your Meals"
-msgstr ""
+msgstr "Ваша їжа"
 
 #: STRINGS.UI.SELECTFOODSCREEN.SELECTED_BTN
 msgctxt "STRINGS.UI.SELECTFOODSCREEN.SELECTED_BTN"
 msgid "Already ate"
-msgstr ""
+msgstr "Я вже поїв"
 
 #: STRINGS.UI.SELECTFOODSCREEN.SELECT_BTN
 msgctxt "STRINGS.UI.SELECTFOODSCREEN.SELECT_BTN"
 msgid "Consume this meal"
-msgstr ""
+msgstr "З'їсти цю їжу"
 
 #: STRINGS.UI.SELECTFOODSCREEN.TITLE
 msgctxt "STRINGS.UI.SELECTFOODSCREEN.TITLE"
 msgid "Picnic Basket"
-msgstr ""
+msgstr "Кошик для пікніку"
 
 #: STRINGS.UI.SHOP_ITEM.POTION.ALREADY_OWNED
 msgctxt "STRINGS.UI.SHOP_ITEM.POTION.ALREADY_OWNED"
@@ -50845,7 +50848,7 @@ msgstr "Збитий з ніг"
 #: STRINGS.UI.TOOLTIPS.KONJUR.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.KONJUR.DESC"
 msgid "Precious currency in Rotwood. It buys things like refilling <#RED>Potions</> or upgrading <#RED>{name_multiple.concept_relic}</>."
-msgstr ""
+msgstr "Цінна валюта в Ротвуді. Ним можна оплати, поповнення <#RED>зілля</> або покращення <#RED>{name_multiple.concept_relic}</>."
 
 #: STRINGS.UI.TOOLTIPS.KONJUR.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.KONJUR.NAME"
