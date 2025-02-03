@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-01-29 16:55\n"
+"PO-Revision-Date: 2025-02-03 15:51\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -26315,16 +26315,6 @@ msgid ""
 msgstr ""
 ""
 
-#: STRINGS.ITEMS.GEMS.damage_resist_battoad.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_battoad.name"
-msgid "{name.battoad} Protection {name.gem}"
-msgstr "{name.battoad} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_battoad.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_battoad.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.battoad}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.battoad}</>."
-
 #: STRINGS.ITEMS.GEMS.damage_resist_battoad.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_battoad.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
@@ -26336,16 +26326,6 @@ msgid ""
 msgstr ""
 ""
 
-#: STRINGS.ITEMS.GEMS.damage_resist_beets.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_beets.name"
-msgid "{name.beets} Protection {name.gem}"
-msgstr "{name.beets} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_beets.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_beets.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.beets}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.beets}</>."
-
 #: STRINGS.ITEMS.GEMS.damage_resist_beets.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_beets.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
@@ -26356,16 +26336,6 @@ msgctxt "STRINGS.ITEMS.GEMS.damage_resist_blarmadillo.desc"
 msgid ""
 msgstr ""
 ""
-
-#: STRINGS.ITEMS.GEMS.damage_resist_blarmadillo.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_blarmadillo.name"
-msgid "{name.blarmadillo} Protection {name.gem}"
-msgstr "{name.blarmadillo} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_blarmadillo.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_blarmadillo.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.blarmadillo}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.blarmadillo}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_blarmadillo.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_blarmadillo.stat_name"
@@ -26399,16 +26369,6 @@ msgid ""
 msgstr ""
 ""
 
-#: STRINGS.ITEMS.GEMS.damage_resist_bulbug.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_bulbug.name"
-msgid "{name.bulbug} Protection {name.gem}"
-msgstr "{name.bulbug} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_bulbug.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_bulbug.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.bulbug}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.bulbug}</>."
-
 #: STRINGS.ITEMS.GEMS.damage_resist_bulbug.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_bulbug.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
@@ -26420,16 +26380,6 @@ msgid ""
 msgstr ""
 ""
 
-#: STRINGS.ITEMS.GEMS.damage_resist_bunippy.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_bunippy.name"
-msgid "{name.bunippy} Protection {name.gem}"
-msgstr "{name.bunippy} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_bunippy.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_bunippy.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.bunippy}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.bunippy}</>."
-
 #: STRINGS.ITEMS.GEMS.damage_resist_bunippy.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_bunippy.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
@@ -26440,16 +26390,6 @@ msgctxt "STRINGS.ITEMS.GEMS.damage_resist_cabbageroll.desc"
 msgid ""
 msgstr ""
 ""
-
-#: STRINGS.ITEMS.GEMS.damage_resist_cabbageroll.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_cabbageroll.name"
-msgid "{name.cabbageroll} Protection {name.gem}"
-msgstr "{name.cabbageroll} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_cabbageroll.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_cabbageroll.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.cabbageroll}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.cabbageroll}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_cabbageroll.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_cabbageroll.stat_name"
@@ -26484,16 +26424,6 @@ msgid ""
 msgstr ""
 ""
 
-#: STRINGS.ITEMS.GEMS.damage_resist_crystroll.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_crystroll.name"
-msgid "{name.crystroll} Protection {name.gem}"
-msgstr "{name.crystroll} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_crystroll.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_crystroll.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.crystroll}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.crystroll}</>."
-
 #: STRINGS.ITEMS.GEMS.damage_resist_crystroll.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_crystroll.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
@@ -26505,16 +26435,6 @@ msgid ""
 msgstr ""
 ""
 
-#: STRINGS.ITEMS.GEMS.damage_resist_eggbert.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_eggbert.name"
-msgid "{name.eggbert} Protection {name.gem}"
-msgstr "{name.eggbert} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_eggbert.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_eggbert.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.eggbert}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.eggbert}</>."
-
 #: STRINGS.ITEMS.GEMS.damage_resist_eggbert.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_eggbert.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
@@ -26525,16 +26445,6 @@ msgctxt "STRINGS.ITEMS.GEMS.damage_resist_embison.desc"
 msgid ""
 msgstr ""
 ""
-
-#: STRINGS.ITEMS.GEMS.damage_resist_embison.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_embison.name"
-msgid "{name.embison} Protection {name.gem}"
-msgstr "{name.embison} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_embison.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_embison.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.embison}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.embison}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_embison.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_embison.stat_name"
@@ -26589,16 +26499,6 @@ msgid ""
 msgstr ""
 ""
 
-#: STRINGS.ITEMS.GEMS.damage_resist_gnarlic.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_gnarlic.name"
-msgid "{name.gnarlic} Protection {name.gem}"
-msgstr "{name.gnarlic} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_gnarlic.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_gnarlic.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.gnarlic}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.gnarlic}</>."
-
 #: STRINGS.ITEMS.GEMS.damage_resist_gnarlic.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_gnarlic.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
@@ -26609,16 +26509,6 @@ msgctxt "STRINGS.ITEMS.GEMS.damage_resist_gourdo.desc"
 msgid ""
 msgstr ""
 ""
-
-#: STRINGS.ITEMS.GEMS.damage_resist_gourdo.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_gourdo.name"
-msgid "{name.gourdo} Protection {name.gem}"
-msgstr "{name.gourdo} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_gourdo.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_gourdo.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.gourdo}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.gourdo}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_gourdo.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_gourdo.stat_name"
@@ -26631,16 +26521,6 @@ msgid ""
 msgstr ""
 ""
 
-#: STRINGS.ITEMS.GEMS.damage_resist_groak.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_groak.name"
-msgid "{name.groak} Protection {name.gem}"
-msgstr "{name.groak} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_groak.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_groak.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.groak}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.groak}</>."
-
 #: STRINGS.ITEMS.GEMS.damage_resist_groak.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_groak.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
@@ -26651,16 +26531,6 @@ msgctxt "STRINGS.ITEMS.GEMS.damage_resist_meowl.desc"
 msgid ""
 msgstr ""
 ""
-
-#: STRINGS.ITEMS.GEMS.damage_resist_meowl.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_meowl.name"
-msgid "{name.meowl} Protection {name.gem}"
-msgstr "{name.meowl} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_meowl.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_meowl.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.meowl}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.meowl}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_meowl.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_meowl.stat_name"
@@ -26694,16 +26564,6 @@ msgid ""
 msgstr ""
 ""
 
-#: STRINGS.ITEMS.GEMS.damage_resist_mossquito.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_mossquito.name"
-msgid "{name.mossquito} Protection {name.gem}"
-msgstr "{name.mossquito} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_mossquito.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_mossquito.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.mossquito}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.mossquito}</>."
-
 #: STRINGS.ITEMS.GEMS.damage_resist_mossquito.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_mossquito.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
@@ -26714,16 +26574,6 @@ msgctxt "STRINGS.ITEMS.GEMS.damage_resist_mothball.desc"
 msgid ""
 msgstr ""
 ""
-
-#: STRINGS.ITEMS.GEMS.damage_resist_mothball.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_mothball.name"
-msgid "{name.mothball} Protection {name.gem}"
-msgstr "{name.mothball} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_mothball.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_mothball.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.mothball}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.mothball}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_mothball.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_mothball.stat_name"
@@ -26736,16 +26586,6 @@ msgid ""
 msgstr ""
 ""
 
-#: STRINGS.ITEMS.GEMS.damage_resist_mothball_teen.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_mothball_teen.name"
-msgid "{name.mothball_teen} Protection {name.gem}"
-msgstr "{name.mothball_teen} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_mothball_teen.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_mothball_teen.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.mothball_teen}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.mothball_teen}</>."
-
 #: STRINGS.ITEMS.GEMS.damage_resist_mothball_teen.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_mothball_teen.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
@@ -26757,16 +26597,6 @@ msgid ""
 msgstr ""
 ""
 
-#: STRINGS.ITEMS.GEMS.damage_resist_plumper.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_plumper.name"
-msgid "{name.plumper} Protection {name.gem}"
-msgstr "{name.plumper} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_plumper.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_plumper.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.plumper}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.plumper}</>."
-
 #: STRINGS.ITEMS.GEMS.damage_resist_plumper.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_plumper.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
@@ -26777,16 +26607,6 @@ msgctxt "STRINGS.ITEMS.GEMS.damage_resist_porkyspine.desc"
 msgid ""
 msgstr ""
 ""
-
-#: STRINGS.ITEMS.GEMS.damage_resist_porkyspine.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_porkyspine.name"
-msgid "{name.porkyspine} Protection {name.gem}"
-msgstr "{name.porkyspine} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_porkyspine.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_porkyspine.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.porkyspine}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.porkyspine}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_porkyspine.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_porkyspine.stat_name"
@@ -26820,16 +26640,6 @@ msgid ""
 msgstr ""
 ""
 
-#: STRINGS.ITEMS.GEMS.damage_resist_slowpoke.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_slowpoke.name"
-msgid "{name.slowpoke} Protection {name.gem}"
-msgstr "{name.slowpoke} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_slowpoke.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_slowpoke.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.slowpoke}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.slowpoke}</>."
-
 #: STRINGS.ITEMS.GEMS.damage_resist_slowpoke.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_slowpoke.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
@@ -26840,16 +26650,6 @@ msgctxt "STRINGS.ITEMS.GEMS.damage_resist_snowball.desc"
 msgid ""
 msgstr ""
 ""
-
-#: STRINGS.ITEMS.GEMS.damage_resist_snowball.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_snowball.name"
-msgid "{name.snowball} Protection {name.gem}"
-msgstr "{name.snowball} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_snowball.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_snowball.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.snowball}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.snowball}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_snowball.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_snowball.stat_name"
@@ -26862,16 +26662,6 @@ msgid ""
 msgstr ""
 ""
 
-#: STRINGS.ITEMS.GEMS.damage_resist_snowfly.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_snowfly.name"
-msgid "{name.snowfly} Protection {name.gem}"
-msgstr "{name.snowfly} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_snowfly.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_snowfly.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.snowfly}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.snowfly}</>."
-
 #: STRINGS.ITEMS.GEMS.damage_resist_snowfly.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_snowfly.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
@@ -26883,16 +26673,6 @@ msgid ""
 msgstr ""
 ""
 
-#: STRINGS.ITEMS.GEMS.damage_resist_sporemon.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_sporemon.name"
-msgid "{name.sporemon} Protection {name.gem}"
-msgstr "{name.sporemon} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_sporemon.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_sporemon.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.sporemon}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.sporemon}</>."
-
 #: STRINGS.ITEMS.GEMS.damage_resist_sporemon.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_sporemon.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
@@ -26903,16 +26683,6 @@ msgctxt "STRINGS.ITEMS.GEMS.damage_resist_stunk.desc"
 msgid ""
 msgstr ""
 ""
-
-#: STRINGS.ITEMS.GEMS.damage_resist_stunk.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_stunk.name"
-msgid "{name.stunk} Protection {name.gem}"
-msgstr "{name.stunk} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_stunk.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_stunk.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.stunk}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.stunk}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_stunk.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_stunk.stat_name"
@@ -26988,11 +26758,6 @@ msgid ""
 msgstr ""
 ""
 
-#: STRINGS.ITEMS.GEMS.damage_resist_treemon.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_treemon.name"
-msgid "{name.treemon} Protection {name.gem}"
-msgstr "{name.treemon} Protection {name.gem}"
-
 #: STRINGS.ITEMS.GEMS.damage_resist_treemon.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_treemon.slotted_desc"
 msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.treemon}</>."
@@ -27009,16 +26774,6 @@ msgid ""
 msgstr ""
 ""
 
-#: STRINGS.ITEMS.GEMS.damage_resist_windmon.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_windmon.name"
-msgid "{name.windmon} Protection {name.gem}"
-msgstr "{name.windmon} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_windmon.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_windmon.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.windmon}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.windmon}</>."
-
 #: STRINGS.ITEMS.GEMS.damage_resist_windmon.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_windmon.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
@@ -27029,16 +26784,6 @@ msgctxt "STRINGS.ITEMS.GEMS.damage_resist_woworm.desc"
 msgid ""
 msgstr ""
 ""
-
-#: STRINGS.ITEMS.GEMS.damage_resist_woworm.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_woworm.name"
-msgid "{name.woworm} Protection {name.gem}"
-msgstr "{name.woworm} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_woworm.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_woworm.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.woworm}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.woworm}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_woworm.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_woworm.stat_name"
@@ -27051,16 +26796,6 @@ msgid ""
 msgstr ""
 ""
 
-#: STRINGS.ITEMS.GEMS.damage_resist_yammo.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_yammo.name"
-msgid "{name.yammo} Protection {name.gem}"
-msgstr "{name.yammo} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_yammo.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_yammo.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.yammo}</>."
-msgstr "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.yammo}</>."
-
 #: STRINGS.ITEMS.GEMS.damage_resist_yammo.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_yammo.stat_name"
 msgid "{name.powerdesc_damage_reduction}"
@@ -27071,16 +26806,6 @@ msgctxt "STRINGS.ITEMS.GEMS.damage_resist_zucco.desc"
 msgid ""
 msgstr ""
 ""
-
-#: STRINGS.ITEMS.GEMS.damage_resist_zucco.name
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_zucco.name"
-msgid "{name.zucco} Protection {name.gem}"
-msgstr "{name.zucco} Protection {name.gem}"
-
-#: STRINGS.ITEMS.GEMS.damage_resist_zucco.slotted_desc
-msgctxt "STRINGS.ITEMS.GEMS.damage_resist_zucco.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name_multiple.zucco}</>."
-msgstr "Отримуйте менше <#RED>{2:{name.concept_damage}}</> від <#RED>{Name_multiple.zucco}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_zucco.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_zucco.stat_name"
