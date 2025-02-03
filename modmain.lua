@@ -224,9 +224,6 @@ TheGameContent:GetContentDB():LoadScript("scripts/localizations/ukrainian.lua")
 TheGameContent:SetLanguage()
 TheGameContent:LoadLanguageDisplayElements()
 
-local Localization = require("questral/localization")
-Localization:ApplyFonts()
-
 STRINGS.PRETRANSLATED.LANGUAGES[LANGUAGE.UKRAINIAN] = "Українська (Ukrainian)"
 STRINGS.PRETRANSLATED.LANGUAGES_TITLE[LANGUAGE.UKRAINIAN] = "Варіант перекладу"
 STRINGS.PRETRANSLATED.LANGUAGES_BODY[LANGUAGE.UKRAINIAN] = "В якості мови інтерфейсу вибрана українська. Вам потрібен переклад на вашу мову?"
