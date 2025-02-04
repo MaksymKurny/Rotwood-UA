@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-02-03 22:22\n"
+"PO-Revision-Date: 2025-02-04 23:18\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -30839,7 +30839,7 @@ msgstr "Кіраса з {2:{Name.bonejaw}}"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bonejaw_head.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bonejaw_head.desc"
 msgid "Once per {name.dungeon_room} when you drop below a <#RED>Health</> threshold, <#RED>Heal</> a percentage of your <#RED>{name.powerdesc_maxhealth}</>."
-msgstr ""
+msgstr "Один раз за {3:{name.dungeon_room}}, коли ваш рівень <#RED>здоров'я</> падає нижче порогу, ви <#RED>лікуєтесь</> на відсоток від свого <#RED>{2:{name.powerdesc_maxhealth}}</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bonejaw_head.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bonejaw_head.name"
@@ -30869,7 +30869,7 @@ msgstr "equipment_bonejaw_waist"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bonejaw_weapon.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bonejaw_weapon.desc"
 msgid "Once per {name.dungeon_room} when you drop below a <#RED>Health</> threshold, your <#RED>Skill</> hits twice for a period of time, gaining more time per kill."
-msgstr ""
+msgstr "Один раз за {3:{name.dungeon_room}}, коли ваш рівень <#RED>здоров'я</> падає нижче порогу, ваша <#RED>навичка</> завдає подвійного удару протягом певного часу, подовжуючи ефект за кожне вбивство."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bonejaw_weapon.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bonejaw_weapon.name"
@@ -30879,7 +30879,7 @@ msgstr "Попутний вітер"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bonejaw_weapon.variables.seconds_per_kill
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bonejaw_weapon.variables.seconds_per_kill"
 msgid "Seconds added per kill"
-msgstr ""
+msgstr "Секунд за кожне вбивство"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bonejaw_weapon.variables.threshold_percent
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bonejaw_weapon.variables.threshold_percent"
@@ -31050,7 +31050,7 @@ msgstr "equipment_cabbageroll_waist"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_big_clip_increasing_damage.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_big_clip_increasing_damage.desc"
 msgid "Your <#RED>Cannon</> has <#RED>10 {name_multiple.cannon_ammo}</> and reduced <#RED>{name.concept_damage}</>. Every shot within a clip gains <#RED>Bonus Damage</>."
-msgstr ""
+msgstr "Ваша <#RED>гармата</> має <#RED>10 {2:{name_multiple.cannon_ammo}}</> і знижений рівень <#RED>{name.concept_damage}</>. Кожен постріл в обоймі отримує <#RED>додаткову шкоду</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_big_clip_increasing_damage.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_big_clip_increasing_damage.name"
@@ -31060,12 +31060,12 @@ msgstr "Споростріл"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_big_clip_increasing_damage.variables.damage_bonus_per_missing_bullet
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_big_clip_increasing_damage.variables.damage_bonus_per_missing_bullet"
 msgid "Bonus Damage per shot"
-msgstr ""
+msgstr "Додаткова шкода за постріл"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_big_clip_increasing_damage.variables.damage_nerf
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_big_clip_increasing_damage.variables.damage_nerf"
 msgid "Reduced Base Damage"
-msgstr ""
+msgstr "Зменшена базова шкода"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_clusterbomb.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_clusterbomb.desc"
@@ -31115,7 +31115,7 @@ msgstr "Пронизливі фокусні постріли"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_swap_light_heavy.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_swap_light_heavy.desc"
 msgid "<#RED>Light Attacks</> are spread shots, and <#RED>Heavy Attacks</> are single shots."
-msgstr ""
+msgstr "<#RED>Легкі атаки</> - це розсіяні постріли, а <#RED>важкі атаки</> - одиночні постріли."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_swap_light_heavy.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_swap_light_heavy.name"
@@ -31848,7 +31848,7 @@ msgstr "Ушанка з {2:{Name.mothball}}"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_mothball_waist.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_mothball_waist.desc"
 msgid "Gain more <#RED>Health</> when <#RED>Healing</> near an <#RED>{name.concept_ally}</>."
-msgstr ""
+msgstr "Отримайте більше <#RED>здоров'я</>, <#RED>лікуючись</> біля <#RED>{name.concept_ally}а</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_mothball_waist.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_mothball_waist.name"
@@ -32086,7 +32086,7 @@ msgstr "equipment_shotput_spiked_rebound"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_skill_marks_target.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_skill_marks_target.desc"
 msgid "Your <#RED>Skill</> follow-up deals more <#RED>{name.concept_damage}</> to the <#RED>Target</> the <#RED>Javelin</> hit, but less <#RED>{name.concept_damage}</> to others."
-msgstr ""
+msgstr "Ваша <#RED>навичка</> наносить більше <#RED>{2:{name.concept_damage}}</> <#RED>цілі</>, в яку потрапив <#RED>спис</>, але менше <#RED>{2:{name.concept_damage}}</> іншим."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_skill_marks_target.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_skill_marks_target.name"
@@ -32096,12 +32096,12 @@ msgstr "Рикаючий спис"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_skill_marks_target.variables.damage_to_marked
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_skill_marks_target.variables.damage_to_marked"
 msgid "{name.concept_damage} to Javelin target"
-msgstr ""
+msgstr "{3:{Name.concept_damage}} цілі списа"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_skill_marks_target.variables.damage_to_other
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_skill_marks_target.variables.damage_to_other"
 msgid "{name.concept_damage} to others"
-msgstr ""
+msgstr "{3:{Name.concept_damage}} іншим"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_body.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_body.desc"
