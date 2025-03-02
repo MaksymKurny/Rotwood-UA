@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-02-06 20:46\n"
+"PO-Revision-Date: 2025-03-02 08:46\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -7823,8 +7823,8 @@ msgstr "Я... я помер?"
 
 #: Convo.twn_first_death_scout.HUB0.convo.giver.STATE_0.QUESTION_2
 msgctxt "Convo.twn_first_death_scout.HUB0.convo.giver.STATE_0.QUESTION_2"
-msgid "How did I end up in camp?"
-msgstr "Як я опинився в таборі?"
+msgid "How did I end up here? Where are we?"
+msgstr ""
 
 #: Convo.twn_first_death_scout.HUB0.convo.giver.STATE_0.QUESTION_3A
 msgctxt "Convo.twn_first_death_scout.HUB0.convo.giver.STATE_0.QUESTION_3A"
@@ -7835,6 +7835,142 @@ msgstr "Приємно знати, що ти за моєю спиною."
 msgctxt "Convo.twn_first_death_scout.HUB0.convo.giver.STATE_0.QUESTION_3B"
 msgid "Next time, could you grab me <i>before</> I get knocked out?"
 msgstr "Наступного разу не міг би ти мене схопити <i>перш ніж</> я опинюся в нокдауні?"
+
+#: Convo.twn_fn_unlocked_apothecary.ATTRACT0.farmtools_indungeon.giver.STATE_0.ANSWER_1
+msgctxt "Convo.twn_fn_unlocked_apothecary.ATTRACT0.farmtools_indungeon.giver.STATE_0.ANSWER_1"
+msgid "agent:\n"
+" !neutral\n"
+" !shrug\n"
+" I'd recognize the smell of those tools anywhere.\n"
+" !think\n"
+" They're probably still lost somewhere in the <#BLUE>{name.thatcher_swamp}</>."
+msgstr ""
+
+#: Convo.twn_fn_unlocked_apothecary.ATTRACT0.farmtools_indungeon.giver.STATE_0.END
+msgctxt "Convo.twn_fn_unlocked_apothecary.ATTRACT0.farmtools_indungeon.giver.STATE_0.END"
+msgid "Don't worry, I'll find them!"
+msgstr "Не хвилюйся, я їх знайду!"
+
+#: Convo.twn_fn_unlocked_apothecary.ATTRACT0.farmtools_indungeon.giver.STATE_0.QUESTION_1
+msgctxt "Convo.twn_fn_unlocked_apothecary.ATTRACT0.farmtools_indungeon.giver.STATE_0.QUESTION_1"
+msgid "Wh-- how did you know?!"
+msgstr ""
+
+#: Convo.twn_fn_unlocked_apothecary.ATTRACT0.farmtools_indungeon.giver.STATE_0.TALK
+msgctxt "Convo.twn_fn_unlocked_apothecary.ATTRACT0.farmtools_indungeon.giver.STATE_0.TALK"
+msgid "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" <i>(sniff, sniff)</>\n"
+" Haven't found my <#RED>{name.farmtools}</> yet, huh?"
+msgstr ""
+
+#: Convo.twn_fn_unlocked_apothecary.ATTRACT1.farmtools_finish.giver.STATE_0.ANSWER_1
+msgctxt "Convo.twn_fn_unlocked_apothecary.ATTRACT1.farmtools_finish.giver.STATE_0.ANSWER_1"
+msgid "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" <i>(sniff, sniff)</> ...You could've at least wiped off the <#RED>{name.totolili}</> spit.\n"
+" !think\n"
+" Okay. Now that we've got tools, you can use them to plant and care for seeds in your <#RED>garden plot</>.\n"
+" !point\n"
+" I already divided it up so everyone gets their own plot. Don't try to plant stuff in someone else's space!\n"
+" player:\n"
+" Noted, I'll keep my paws off of other folks' plots.\n"
+" agent:\n"
+" !gruffnod\n"
+" Good. Oh, and take a look at the <#RED>Seed Exchange</> machine. It'd be really useful if you can get it working."
+msgstr ""
+
+#: Convo.twn_fn_unlocked_apothecary.ATTRACT1.farmtools_finish.giver.STATE_0.END
+msgctxt "Convo.twn_fn_unlocked_apothecary.ATTRACT1.farmtools_finish.giver.STATE_0.END"
+msgid "Will do. Thanks, {name.npc_apothecary}!"
+msgstr ""
+
+#: Convo.twn_fn_unlocked_apothecary.ATTRACT1.farmtools_finish.giver.STATE_0.QUESTION_1
+msgctxt "Convo.twn_fn_unlocked_apothecary.ATTRACT1.farmtools_finish.giver.STATE_0.QUESTION_1"
+msgid "I found your {name.farmtools}!"
+msgstr ""
+
+#: Convo.twn_fn_unlocked_apothecary.ATTRACT1.farmtools_finish.giver.STATE_0.TALK
+msgctxt "Convo.twn_fn_unlocked_apothecary.ATTRACT1.farmtools_finish.giver.STATE_0.TALK"
+msgid "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" You're back?"
+msgstr ""
+
+#: Convo.twn_fn_unlocked_apothecary.HUB2.convo.giver.STATE_0.ANSWER_1
+msgctxt "Convo.twn_fn_unlocked_apothecary.HUB2.convo.giver.STATE_0.ANSWER_1"
+msgid "agent:\n"
+" !neutral\n"
+" ...<#BLUE>{name.npc_apothecary}</>.\n"
+" !think\n"
+" The others call you 'Hunter'. Because you hunt the <#RED>{name_multiple.rot}, right?\n"
+" !shocked\n"
+" You don't <i>eat</> them do you?"
+msgstr ""
+
+#: Convo.twn_fn_unlocked_apothecary.HUB2.convo.giver.STATE_0.ANSWER_2
+msgctxt "Convo.twn_fn_unlocked_apothecary.HUB2.convo.giver.STATE_0.ANSWER_2"
+msgid "agent:\n"
+" !neutral\n"
+" !think\n"
+" Oh. Where do you get your food?"
+msgstr ""
+
+#: Convo.twn_fn_unlocked_apothecary.HUB2.convo.giver.STATE_0.ANSWER_3
+msgctxt "Convo.twn_fn_unlocked_apothecary.HUB2.convo.giver.STATE_0.ANSWER_3"
+msgid "agent:\n"
+" !neutral\n"
+" !shocked\n"
+" Maybe <i>that's</> why you smell weird. Don't you have any normal food?"
+msgstr ""
+
+#: Convo.twn_fn_unlocked_apothecary.HUB2.convo.giver.STATE_0.ANSWER_4
+msgctxt "Convo.twn_fn_unlocked_apothecary.HUB2.convo.giver.STATE_0.ANSWER_4"
+msgid "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" <#BLUE>'The Brinks'</>?\n"
+" !disagree\n"
+" Whatever. Eating old, stale food sounds gross. What you need is a garden.\n"
+" !think\n"
+" You have the space for it-- I was able to clear out a perfect gardening area under all those weeds that were growing here before.\n"
+" !gesture\n"
+" I could teach you how to grow crops. Only...\n"
+" !shrug\n"
+" I don't have my <#RED>{name.farmtools}</>. A stinky old <#RED>{name.totolili}</> stole them from my yard.\n"
+" !gesture\n"
+" I was out looking for them when I ran into you. They're probably still in the <#BLUE>{name.thatcher_swamp}</> somewhere.\n"
+" player:\n"
+" {name.farmtools}, huh? I'll keep an eye out for them!"
+msgstr ""
+
+#: Convo.twn_fn_unlocked_apothecary.HUB2.convo.giver.STATE_0.QUESTION_1
+msgctxt "Convo.twn_fn_unlocked_apothecary.HUB2.convo.giver.STATE_0.QUESTION_1"
+msgid "Glad to see you're settling in! I forgot to ask, what's your name?"
+msgstr ""
+
+#: Convo.twn_fn_unlocked_apothecary.HUB2.convo.giver.STATE_0.QUESTION_2
+msgctxt "Convo.twn_fn_unlocked_apothecary.HUB2.convo.giver.STATE_0.QUESTION_2"
+msgid "What?! No!!"
+msgstr ""
+
+#: Convo.twn_fn_unlocked_apothecary.HUB2.convo.giver.STATE_0.QUESTION_3
+msgctxt "Convo.twn_fn_unlocked_apothecary.HUB2.convo.giver.STATE_0.QUESTION_3"
+msgid "I might've taken a nibble once or twice..."
+msgstr ""
+
+#: Convo.twn_fn_unlocked_apothecary.HUB2.convo.giver.STATE_0.QUESTION_4
+msgctxt "Convo.twn_fn_unlocked_apothecary.HUB2.convo.giver.STATE_0.QUESTION_4"
+msgid "We brought some food from the Brinks. It's a little stale, but there's enough to share."
+msgstr ""
+
+#: Convo.twn_fn_unlocked_apothecary.HUB2.convo.giver.STATE_0.TITLE
+msgctxt "Convo.twn_fn_unlocked_apothecary.HUB2.convo.giver.STATE_0.TITLE"
+msgid "Kuma Town Intro"
+msgstr ""
 
 #: Convo.twn_fn_unlocked_armorsmith.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.twn_fn_unlocked_armorsmith.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -8169,6 +8305,50 @@ msgctxt "Convo.twn_fn_unlocked_blacksmith.HUB0.convo.giver.STATE_0.TITLE"
 msgid "Hammer Home"
 msgstr "Коваль удома"
 
+#: Convo.twn_fn_unlocked_cook.HUB0.convo.giver.STATE_0.ANSWER_1
+msgctxt "Convo.twn_fn_unlocked_cook.HUB0.convo.giver.STATE_0.ANSWER_1"
+msgid "agent:\n"
+" !happy\n"
+" !laugh\n"
+" Oh just swell, don't you worry your little head about me!\n"
+" !neutral\n"
+" !think\n"
+" I've been busyin' myself with all manner of kitchen-y stuff!"
+msgstr ""
+
+#: Convo.twn_fn_unlocked_cook.HUB0.convo.giver.STATE_0.ANSWER_2
+msgctxt "Convo.twn_fn_unlocked_cook.HUB0.convo.giver.STATE_0.ANSWER_2"
+msgid "agent:\n"
+" !shocked\n"
+" Huh? Oh. You know... stokin' the oven, and um... sortin' my... spoons?\n"
+" !happy\n"
+" !point\n"
+" Anyway-- just give me a holler if you want any grub for your next Hunt.\n"
+" !happy\n"
+" !gruffnod\n"
+" I'll get it all packed up for ya!"
+msgstr ""
+
+#: Convo.twn_fn_unlocked_cook.HUB0.convo.giver.STATE_0.END_OPT
+msgctxt "Convo.twn_fn_unlocked_cook.HUB0.convo.giver.STATE_0.END_OPT"
+msgid "Thanks!"
+msgstr "Дякую!"
+
+#: Convo.twn_fn_unlocked_cook.HUB0.convo.giver.STATE_0.QUESTION_1
+msgctxt "Convo.twn_fn_unlocked_cook.HUB0.convo.giver.STATE_0.QUESTION_1"
+msgid "How are you settling in?"
+msgstr ""
+
+#: Convo.twn_fn_unlocked_cook.HUB0.convo.giver.STATE_0.QUESTION_2
+msgctxt "Convo.twn_fn_unlocked_cook.HUB0.convo.giver.STATE_0.QUESTION_2"
+msgid "Oooh! Like what?"
+msgstr ""
+
+#: Convo.twn_fn_unlocked_cook.HUB0.convo.giver.STATE_0.TITLE
+msgctxt "Convo.twn_fn_unlocked_cook.HUB0.convo.giver.STATE_0.TITLE"
+msgid "Get Cooking"
+msgstr ""
+
 #: Convo.twn_fortify_armorsmith_1_intro.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.twn_fortify_armorsmith_1_intro.HUB0.convo.giver.STATE_0.ANSWER_1"
 msgid "agent:\n"
@@ -8303,6 +8483,102 @@ msgstr "Добре...?"
 msgctxt "Convo.twn_fortify_armorsmith_2_request.HUB0.convo.giver.STATE_0.QUESTION_1"
 msgid "Are you talking about {name.npc_market_merchant}?"
 msgstr "Ти говорила про {Name.npc_market_merchant}а?"
+
+#: Convo.twn_fortify_blacksmith_1_intro.HUB0.convo.giver.STATE_0.ANSWER_1
+msgctxt "Convo.twn_fortify_blacksmith_1_intro.HUB0.convo.giver.STATE_0.ANSWER_1"
+msgid "agent:\n"
+" !neutral\n"
+" !gruffnod\n"
+" 'Tis a fine bit of smithing. Can't say I'm familiar with the forging technique, but whoever yer buyin' from knows their craft.\n"
+" !think\n"
+" I wouldnae mind takin' a closer look. If I can figure out how it's done...\n"
+" !gruffnod\n"
+" I could use the new method ta upgrade yer old weapons, too. Give 'em a real nice boost."
+msgstr ""
+
+#: Convo.twn_fortify_blacksmith_1_intro.HUB0.convo.giver.STATE_0.ANSWER_2
+msgctxt "Convo.twn_fortify_blacksmith_1_intro.HUB0.convo.giver.STATE_0.ANSWER_2"
+msgid "agent:\n"
+" !neutral\n"
+" !think\n"
+" Workin' on that weapon till it's <#RED>fully upgraded</> should give me a feel fer how it's done.\n"
+" !gruffnod\n"
+" Just bring the goods over to the <#RED>Weapons Racks</> like usual. I'll take it from there."
+msgstr ""
+
+#: Convo.twn_fortify_blacksmith_1_intro.HUB0.convo.giver.STATE_0.ANSWER_3
+msgctxt "Convo.twn_fortify_blacksmith_1_intro.HUB0.convo.giver.STATE_0.ANSWER_3"
+msgid "agent:\n"
+" !gruffnod\n"
+" <i>(grunt)</>"
+msgstr "agent:\n"
+" !gruffnod\n"
+" <i>(бурчання)</>"
+
+#: Convo.twn_fortify_blacksmith_1_intro.HUB0.convo.giver.STATE_0.QUESTION_1
+msgctxt "Convo.twn_fortify_blacksmith_1_intro.HUB0.convo.giver.STATE_0.QUESTION_1"
+msgid "Yep! What do you think?"
+msgstr "Так! Як тобі?"
+
+#: Convo.twn_fortify_blacksmith_1_intro.HUB0.convo.giver.STATE_0.QUESTION_2
+msgctxt "Convo.twn_fortify_blacksmith_1_intro.HUB0.convo.giver.STATE_0.QUESTION_2"
+msgid "By all means!"
+msgstr "Неодмінно!"
+
+#: Convo.twn_fortify_blacksmith_1_intro.HUB0.convo.giver.STATE_0.QUESTION_3
+msgctxt "Convo.twn_fortify_blacksmith_1_intro.HUB0.convo.giver.STATE_0.QUESTION_3"
+msgid "Can't wait to get started!"
+msgstr "Не можу дочекатися, щоб почати!"
+
+#: Convo.twn_fortify_blacksmith_2_intro.HUB0.convo.giver.STATE_0.ANSWER_1
+msgctxt "Convo.twn_fortify_blacksmith_2_intro.HUB0.convo.giver.STATE_0.ANSWER_1"
+msgid "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" Hm. Fine work. Very... creative.\n"
+" !think\n"
+" I'd be keen to work on it meself. Getting it up ta <#RED>Level 9</> should give me a feel fer it.\n"
+" !point\n"
+" Might give me some ideas fer upgradin' yer old weapons up to the same level, too."
+msgstr ""
+
+#: Convo.twn_fortify_blacksmith_2_intro.HUB0.convo.giver.STATE_0.ANSWER_2
+msgctxt "Convo.twn_fortify_blacksmith_2_intro.HUB0.convo.giver.STATE_0.ANSWER_2"
+msgid "agent:\n"
+" !gruffnod\n"
+" Aye. It does, doesn't it?"
+msgstr "agent:\n"
+" !gruffnod\n"
+" Так. Так і є, чи не так?"
+
+#: Convo.twn_fortify_blacksmith_2_intro.HUB0.convo.giver.STATE_0.QUESTION_1
+msgctxt "Convo.twn_fortify_blacksmith_2_intro.HUB0.convo.giver.STATE_0.QUESTION_1"
+msgid "Yep! What do you think?"
+msgstr "Так! Як тобі?"
+
+#: Convo.twn_fortify_blacksmith_2_intro.HUB0.convo.giver.STATE_0.QUESTION_2
+msgctxt "Convo.twn_fortify_blacksmith_2_intro.HUB0.convo.giver.STATE_0.QUESTION_2"
+msgid "Sounds good!"
+msgstr "Звучить непогано!"
+
+#: Convo.twn_fortify_blacksmith_2_request.HUB0.convo.giver.STATE_0.ANSWER_1
+msgctxt "Convo.twn_fortify_blacksmith_2_request.HUB0.convo.giver.STATE_0.ANSWER_1"
+msgid "agent:\n"
+" !gruffnod\n"
+" Aye. If ye spot that Market in one o' them <#RED>Frenzied</> areas, why don't ye give it a look-over?\n"
+" !point\n"
+" Bring back any weapons ye find interestin'. I wouldnae mind seein' them meself."
+msgstr ""
+
+#: Convo.twn_fortify_blacksmith_2_request.HUB0.convo.giver.STATE_0.END
+msgctxt "Convo.twn_fortify_blacksmith_2_request.HUB0.convo.giver.STATE_0.END"
+msgid "Will do!"
+msgstr "Обов'язково!"
+
+#: Convo.twn_fortify_blacksmith_2_request.HUB0.convo.giver.STATE_0.QUESTION_1
+msgctxt "Convo.twn_fortify_blacksmith_2_request.HUB0.convo.giver.STATE_0.QUESTION_1"
+msgid "You mean the {name.species_ogre} from the Market?"
+msgstr ""
 
 #: Convo.twn_fourth_heart_handin_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.twn_fourth_heart_handin_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -8580,7 +8856,7 @@ msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.ANSWE
 msgid "agent:\n"
 " !neutral\n"
 " !closedeyes\n"
-" Hmph. <z 0.7>Who wouldnae want ta know everythin' about <#KONJUR>{name_multiple.gem}</>? The way they shine and sparkle? (*sigh...*)</>\n"
+" Hmph. <z 0.7>Who wouldnae want ta know everythin' about <#KONJUR>{name_multiple.gem}</>? The way they shine and sparkle? <i>(sigh...)</></>\n"
 " !disagree\n"
 " !gesture\n"
 " ....Eh. I've picked up a few things here 'n there.\n"
@@ -8588,17 +8864,7 @@ msgid "agent:\n"
 " 'Course, I could tell ye more about it if I had me <#RED>{name.gemtools}</>.\n"
 " !shrug\n"
 " But I lost 'em. So."
-msgstr "agent:\n"
-" !neutral\n"
-" !closedeyes\n"
-" Хм. <z 0.7>Хто б не хотів знати все про <#KONJUR>{name_multiple.gem}</>? Як вони блищать і виблискують? (*зітхає...*)</>\n"
-" !disagree\n"
-" !gesture\n"
-" ...Ех. Підчепив кілька знань тут і там.\n"
-" !think\n"
-" Звісно, я міг би розповісти більше, якби в мене були мої <#RED>{name.gemtools}</>.\n"
-" !shrug\n"
-" Але я їх загубив. От і все."
+msgstr ""
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.ANSWER_5
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT0.gems_intro.giver.STATE_0.ANSWER_5"
@@ -11326,10 +11592,8 @@ msgstr "agent:\n"
 msgctxt "Convo.twn_winter2024_blacksmith.ATTRACT0.winter2024.giver.STATE_0.ANSWER_1A"
 msgid "agent:\n"
 " !disagree\n"
-" (*grunt*) Dunnae mention it. Ever."
-msgstr "agent:\n"
-" !disagree\n"
-" (*глухий стогін*) Не згадуйте про це. Ніколи."
+" (grunt) Dunnae mention it. Ever."
+msgstr ""
 
 #: Convo.twn_winter2024_blacksmith.ATTRACT0.winter2024.giver.STATE_0.QUESTION_1A
 msgctxt "Convo.twn_winter2024_blacksmith.ATTRACT0.winter2024.giver.STATE_0.QUESTION_1A"
@@ -11538,17 +11802,10 @@ msgid "agent:\n"
 " !dubious\n"
 " R-really? \n"
 " !nervous\n"
-" <z 0.7>That... might have been nice to know before I hired you for this expedition...</z>\n"
+" <z 0.7>That... might have been nice to know before we started this expedition...</z>\n"
 " !think\n"
-" Well, um. I know the basics of fighting, I could give you a refresher if you'd like?"
-msgstr "agent:\n"
-" !neutral\n"
-" !dubious\n"
-" С-справді?\n"
-"!nervous\n"
-"<z 0.7>Було б добре знати це до того, як я вас найняв для цієї експедиції...</z>\n"
-" !think\n"
-" Ну, гм. Я знаю основи бою, я міг би відновити знання, якщо бажаєте?"
+" Well, um... I know the basics of fighting, I could give you a refresher if you'd like?"
+msgstr ""
 
 #: Convo.wrld_game_intro_sequence.CHAT_DUNGEON0.game_intro.giver.STATE_0.OPT3C_RESPONSE
 msgctxt "Convo.wrld_game_intro_sequence.CHAT_DUNGEON0.game_intro.giver.STATE_0.OPT3C_RESPONSE"
@@ -11726,6 +11983,134 @@ msgstr "agent:\n"
 " Пройдімось лісом наскільки зможемо.\n"
 " !agree\n"
 " <#RED>{Name.damselfly}</> все ще працює, тому я буду слідувати за вами в повітрі, щоб переконатися, що ви залишаєтеся в безпеці, і підбирати всіх, кого ви зустрінете по дорозі."
+
+#: Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_1
+msgctxt "Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_1"
+msgid "Me? What are <i>you</> doing out here?! Are you all by yourself?"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_2
+msgctxt "Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_2"
+msgid "It's dangerous!"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_3
+msgctxt "Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_3"
+msgid "Why don't you come to our camp? You'll be safe there-- {name.npc_scout} can give you a ride."
+msgstr ""
+
+#: Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK
+msgctxt "Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK"
+msgid "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" <i>(sniff, sniff)</>\n"
+" !point\n"
+" You're new. What are you doing here?"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK2
+msgctxt "Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK2"
+msgid "agent:\n"
+" !neutral\n"
+" !shrug\n"
+" Yeah. Why wouldn't I be?"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK3
+msgctxt "Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK3"
+msgid "agent:\n"
+" !neutral\n"
+" !think\n"
+" I guess...?"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK4
+msgctxt "Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK4"
+msgid "agent:\n"
+" [title:SPEAKER]\n"
+" [sound:Event.joinedTheParty] 0.5\n"
+" !neutral\n"
+" !shocked\n"
+" 'Camp'... with people?\n"
+" !closedeyes\n"
+" Um... okay?\n"
+" [title:CLEAR]"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK4_CLIENT
+msgctxt "Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK4_CLIENT"
+msgid "agent:\n"
+" !neutral\n"
+" !shocked\n"
+" 'Camp'... with people?\n"
+" !closedeyes\n"
+" Um... okay?"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1
+msgctxt "Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1"
+msgid "Me? What are <i>you</> doing out here?! Are you all by yourself?"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2
+msgctxt "Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2"
+msgid "It's dangerous!"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_3
+msgctxt "Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_3"
+msgid "Why don't you come to our camp? You'll be safe there-- {name.npc_scout} can give you a ride."
+msgstr ""
+
+#: Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK
+msgctxt "Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK"
+msgid "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" <i>(sniff, sniff)</>\n"
+" !point\n"
+" You're new. What are you doing here?"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK2
+msgctxt "Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK2"
+msgid "agent:\n"
+" !neutral\n"
+" !shrug\n"
+" Yeah. Why wouldn't I be?"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK3
+msgctxt "Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK3"
+msgid "agent:\n"
+" !neutral\n"
+" !think\n"
+" I guess...?"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4
+msgctxt "Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4"
+msgid "agent:\n"
+" [title:SPEAKER]\n"
+" [sound:Event.joinedTheParty] 0.5\n"
+" !neutral\n"
+" !shocked\n"
+" 'Camp'... with people?\n"
+" !closedeyes\n"
+" Um... okay?\n"
+" [title:CLEAR]"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4_CLIENT
+msgctxt "Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK4_CLIENT"
+msgid "agent:\n"
+" !neutral\n"
+" !shocked\n"
+" 'Camp'... with people?\n"
+" !closedeyes\n"
+" Um... okay?"
+msgstr ""
 
 #: Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_1
 msgctxt "Convo.wrld_intro_meeting_armorsmith.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_1"
@@ -12156,6 +12541,114 @@ msgstr "agent:\n"
 " !neutral\n"
 " !gruffnod\n"
 " Гм. Краще тоді рушати далі."
+
+#: Convo.wrld_intro_meeting_cook.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_1
+msgctxt "Convo.wrld_intro_meeting_cook.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_1"
+msgid "I am! But what are <i>you</> doing out here?"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_cook.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_2
+msgctxt "Convo.wrld_intro_meeting_cook.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.OPT_2"
+msgid "It'd be nice to have a real {name.job_cook} at camp. Welcome aboard!"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_cook.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK
+msgctxt "Convo.wrld_intro_meeting_cook.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK"
+msgid "agent:\n"
+" !happy\n"
+" !greet\n"
+" Well howdy there, stranger! \n"
+" !happy\n"
+" !dubious\n"
+" Tell me, are you part of that there expedition that's got <#BLUE>the Brinks</> all in a tizzy?"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_cook.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK2
+msgctxt "Convo.wrld_intro_meeting_cook.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK2"
+msgid "agent:\n"
+" !shocked\n"
+" Oh, where are my manners? \n"
+" !happy\n"
+" !gesture\n"
+" The name's <#BLUE>{name.npc_cook}</>, <#RED>{name.job_cook}</> for hire. \n"
+" !point\n"
+" I reckon an important outfit like yours has plenty of mouths what need feedin'--\n"
+" !bliss\n"
+" And there's nothin' I love more in this world than whipping up big tasty batches of grub!\n"
+" !gesture\n"
+" So I thought I'd mosey over and see if there's room for one more on your team!"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_cook.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK3
+msgctxt "Convo.wrld_intro_meeting_cook.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK3"
+msgid "agent:\n"
+" [title:SPEAKER]\n"
+" [sound:Event.joinedTheParty] 0.5\n"
+" !bliss\n"
+" <i>Hoo-whee!</> See you at camp!\n"
+" [title:CLEAR]"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_cook.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK3_CLIENT
+msgctxt "Convo.wrld_intro_meeting_cook.CHAT_DUNGEON0.talk_in_dungeon.giver.STATE_0.TALK3_CLIENT"
+msgid "agent:\n"
+" !bliss\n"
+" <i>Hoo-whee!</> See you at camp!"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_cook.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1
+msgctxt "Convo.wrld_intro_meeting_cook.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_1"
+msgid "I am! But what are <i>you</> doing out here?"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_cook.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2
+msgctxt "Convo.wrld_intro_meeting_cook.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.OPT_2"
+msgid "It'd be nice to have a real {name.job_cook} at camp. Welcome aboard!"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_cook.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK
+msgctxt "Convo.wrld_intro_meeting_cook.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK"
+msgid "agent:\n"
+" !happy\n"
+" !greet\n"
+" Well howdy there, stranger! \n"
+" !happy\n"
+" !dubious\n"
+" Tell me, are you part of that there expedition that's got <#BLUE>the Brinks</> all in a tizzy?"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_cook.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK2
+msgctxt "Convo.wrld_intro_meeting_cook.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK2"
+msgid "agent:\n"
+" !shocked\n"
+" Oh, where are my manners? \n"
+" !happy\n"
+" !gesture\n"
+" The name's <#BLUE>{name.npc_cook}</>, <#RED>{name.job_cook}</> for hire. \n"
+" !point\n"
+" I reckon an important outfit like yours has plenty of mouths what need feedin'--\n"
+" !bliss\n"
+" And there's nothin' I love more in this world than whipping up big tasty batches of grub!\n"
+" !gesture\n"
+" So I thought I'd mosey over and see if there's room for one more on your team!"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_cook.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK3
+msgctxt "Convo.wrld_intro_meeting_cook.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK3"
+msgid "agent:\n"
+" [title:SPEAKER]\n"
+" [sound:Event.joinedTheParty] 0.5\n"
+" !bliss\n"
+" <i>Hoo-whee!</> See you at camp!\n"
+" [title:CLEAR]"
+msgstr ""
+
+#: Convo.wrld_intro_meeting_cook.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK3_CLIENT
+msgctxt "Convo.wrld_intro_meeting_cook.CHAT_DUNGEON1.talk_in_dungeon.giver.STATE_0.TALK3_CLIENT"
+msgid "agent:\n"
+" !bliss\n"
+" <i>Hoo-whee!</> See you at camp!"
+msgstr ""
 
 #: Localization.en.NAME
 msgctxt "Localization.en.NAME"
@@ -13603,23 +14096,22 @@ msgstr "agent:\n"
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[abandoned_last_run,in_quest_twn_fallback_chat,in_town,role_apothecary].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[abandoned_last_run,in_quest_twn_fallback_chat,in_town,role_apothecary].1"
-msgid "!greet\n"
-" Home so soon?\n"
+msgid "!shocked\n"
+" Back so soon?\n"
 " !neutral\n"
-" Did you miss the farm?"
-msgstr "!greet\n"
-" Ви вже вдома?\n"
-" !neutral\n"
-" Сумували за фермою?"
+" !think\n"
+" Did you forget to water the plants?"
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[abandoned_last_run,in_quest_twn_fallback_chat,in_town,role_apothecary].2
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[abandoned_last_run,in_quest_twn_fallback_chat,in_town,role_apothecary].2"
-msgid "!greet\n"
-" You're back earlier than usual.\n"
-" Did you forget to pack a potion?"
-msgstr "!greet\n"
-" Ви повернулися раніше, ніж зазвичай.\n"
-" Забули взяти зілля?"
+msgid "!neutral\n"
+" !shrug\n"
+" I guess even <#RED>Hunters</> get nervous sometimes.\n"
+" !happy\n"
+" !gesture\n"
+" That's kind of nice to know, actually."
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[abandoned_last_run,in_quest_twn_fallback_chat,in_town,role_armorsmith].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[abandoned_last_run,in_quest_twn_fallback_chat,in_town,role_armorsmith].1"
@@ -13668,6 +14160,25 @@ msgstr "!neutral\n"
 " Повернулися за кращою зброєю, так?\n"
 " !dubious\n"
 " Мудро."
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[abandoned_last_run,in_quest_twn_fallback_chat,in_town,role_cook].1
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[abandoned_last_run,in_quest_twn_fallback_chat,in_town,role_cook].1"
+msgid "!shocked\n"
+" Back so soon?\n"
+" !neutral\n"
+" !think\n"
+" Did you forget to pack a lunch?"
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[abandoned_last_run,in_quest_twn_fallback_chat,in_town,role_cook].2
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[abandoned_last_run,in_quest_twn_fallback_chat,in_town,role_cook].2"
+msgid "!happy\n"
+" !gesture\n"
+" It's alright Hunter, sometimes you've gotta know when to cut and run.\n"
+" !neutral\n"
+" !shrug\n"
+" I ain't gonna fault you for that."
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[abandoned_last_run,in_quest_twn_fallback_chat,in_town,role_scout].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[abandoned_last_run,in_quest_twn_fallback_chat,in_town,role_scout].1"
@@ -15191,29 +15702,21 @@ msgstr "!neutral\n"
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,lost_last_run,role_apothecary].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,lost_last_run,role_apothecary].1"
-msgid "!gesture\n"
-" Welcome home!\n"
-" !point\n"
-" I hear you gave almost as good as you got."
-msgstr "!gesture\n"
-" Ласкаво просимо додому!\n"
-" !point\n"
-" Я чув, що ви віддали майже стільки ж, скільки отримали."
+msgid "!neutral\n"
+" !gesture\n"
+" Don't feel bad, Hunter.\n"
+" !gruffnod\n"
+" You did your best."
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,lost_last_run,role_apothecary].2
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,lost_last_run,role_apothecary].2"
-msgid "!happy\n"
-" !gesture\n"
-" I really admire your grit.\n"
-" !neutral\n"
-" !point\n"
-" ...and your ears."
-msgstr "!happy\n"
-" !gesture\n"
-" Я справді захоплююся вашою твердістю.\n"
-" !neutral\n"
-" !point\n"
-" ...і вашими вухами."
+msgid "!neutral\n"
+" !think\n"
+" My Grandma used to say that making mistakes is just as important as winning.\n"
+" !shrug\n"
+" Learning from mistakes makes us stronger."
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,lost_last_run,role_armorsmith].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,lost_last_run,role_armorsmith].1"
@@ -15452,6 +15955,25 @@ msgstr "!neutral\n"
 " ...\n"
 " !gruffnod\n"
 " Якщо ви програєте, значить, ви граєте."
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,lost_last_run,role_cook].1
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,lost_last_run,role_cook].1"
+msgid "!neutral\n"
+" !dubious\n"
+" Hoo-whee, looks like somethin' gave you a real shiner.\n"
+" !neutral\n"
+" !think\n"
+" I heard slappin' a slab of steak on it helps. Except we don't got any steak... maybe a bag of frozen beans, then?"
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,lost_last_run,role_cook].2
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,lost_last_run,role_cook].2"
+msgid "!happy\n"
+" !gesture\n"
+" Don't you worry your little head over it, Hunter.\n"
+" !point\n"
+" You'll get that varmint next time!"
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,lost_last_run,role_hunter].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,lost_last_run,role_hunter].1"
@@ -15716,119 +16238,197 @@ msgstr "!happy\n"
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary,weapon_type_polearm].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary,weapon_type_polearm].1"
-msgid "That's not a scythe.\n"
+msgid "!neutral\n"
+" !dubious\n"
+" That's not a scythe.\n"
+" !disagree\n"
 " I hope you're not planning to harvest our crops with that."
-msgstr "Це не коса.\n"
-" Ви ж не плануєте збирати цим врожай?"
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary,wf_seen_npc_potionmaker_dungeon].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary,wf_seen_npc_potionmaker_dungeon].1"
-msgid "Some folks make potions...\n"
-" ... Other folks just sell them"
-msgstr "Дехто варить зілля...\n"
-" ... А інші просто їх продають"
-
-#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary,wf_seen_npc_potionmaker_dungeon].2
-msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary,wf_seen_npc_potionmaker_dungeon].2"
 msgid "!neutral\n"
-" Potionmaking is an art...\n"
-" ... One that certain capitalist lizards don't appreciate."
-msgstr "!neutral\n"
-" Варіння зілля – це мистецтво...\n"
-" ... Яке певні капіталістичні ящери не цінують."
-
-#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary,wf_town_has_blacksmith].1
-msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary,wf_town_has_blacksmith].1"
-msgid "<#BLUE>{name.npc_blacksmith}</> is working hard.\n"
-" I can smell his forge from across the camp."
-msgstr "<#BLUE>{Name.npc_blacksmith}</> працює не покладаючи рук.\n"
-" Я відчуваю запах його кузні через табір."
-
-#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary,wf_town_has_blacksmith].2
-msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary,wf_town_has_blacksmith].2"
-msgid "!point\n"
-" Do you know if <#BLUE>{name.npc_blacksmith}</> is busy?\n"
-" Maybe I could convince him to make me a new shovel."
-msgstr "!point\n"
-" Ви не знаєте, чи зайнятий <#BLUE>{Name.npc_blacksmith}</>?\n"
-" Можливо, я зможу переконати його викувати мені нову лопату."
+" !dubious\n"
+" <i>(sniff, sniff)</>\n"
+" !disagree\n"
+" I don't like the smell of those potions you've been getting from the potion-seller.\n"
+" !think\n"
+" I can't pick up a single natural ingredient."
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary,wf_town_has_dojo].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary,wf_town_has_dojo].1"
 msgid "!neutral\n"
-" !gesture\n"
-" <#BLUE>{name.npc_dojo_master}</> has had that cough for awhile.\n"
+" !dubious\n"
+" Was <#BLUE>{name.npc_dojo_master}</> really a Hunter too?\n"
 " !think\n"
-" I wonder if he's taking the potion I made him at all."
-msgstr "!neutral\n"
-" !gesture\n"
-" <#BLUE>{Name.npc_dojo_master}</> вже давно кашляє.\n"
-" !think\n"
-" Цікаво, він взагалі приймає зілля, яке я йому зробив?"
+" I wonder if he knows... never mind."
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary,won_last_run].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary,won_last_run].1"
-msgid "!greet\n"
-" You're a pretty good hunter...\n"
-" !point\n"
-" ...but can you farm?"
-msgstr "!greet\n"
-" Ви непоганий мисливець...\n"
-" !point\n"
-" ...Але чи вмієте ви працювати на фермі?"
+msgid "!neutral\n"
+" !dubious\n"
+" (sniff, sniff) Eww...\n"
+" !shocked\n"
+" You're covered in <#RED>{name.rot_boss}</> stink. Hope that means you beat it."
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary,won_last_run].2
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary,won_last_run].2"
-msgid "!gesture\n"
-" You're kicking ass out there.\n"
-" Do you even need potions?"
-msgstr "!gesture\n"
-" Ви чудово справляєтесь на полі бою.\n"
-" Вам взагалі потрібні зілля?"
+msgid "!neutral\n"
+" !gesture\n"
+" <#BLUE>{name.npc_scout}</> said you beat the <#RED>{name.rot_boss}</>.\n"
+" !happy\n"
+" !think\n"
+" They seemed really proud."
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].1"
-msgid "!happy\n"
+msgid "!neutral\n"
 " !dubious\n"
-" Find you're dying a bunch out there?\n"
+" <i>(sniff, sniff)\n"
 " !point\n"
-" The right kind of <#RED>Potion</> could change that..."
-msgstr "!happy\n"
+" You smell weird.\n"
+" !closedeyes\n"
+" Okay, bye."
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].10
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].10"
+msgid "!neutral\n"
+" !think\n"
+" <#BLUE>{name.npc_scout}</> keeps talking about a place called 'the Brinks'?\n"
+" !shrug\n"
+" Is that where the sky ships took everybody?"
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].11
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].11"
+msgid "!neutral\n"
+" !think\n"
+" There's nothing wrong with dirt. It's natural.\n"
+" !angry\n"
+" What's <i>weird</> is everyone telling me to 'wash my hands' and 'wipe my feet before coming in'."
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].12
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].12"
+msgid "!neutral\n"
+" !closedeyes\n"
+" Everyone here talks so much.\n"
 " !dubious\n"
-" Здається, ви там часто вмираєте?\n"
-" !point\n"
-" Правильне <#RED>зілля</> могло б це змінити..."
+" Don't you get tired of the noise?"
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].13
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].13"
+msgid "!neutral\n"
+" !think\n"
+" Do you ever feel bad for the <#RED>{name_multiple.rot}</>?\n"
+" !gesture\n"
+" I do sometimes. It's not really their fault they're like that."
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].14
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].14"
+msgid "!neutral\n"
+" !closedeyes\n"
+" I was just thinking...\n"
+" !closedeyes\n"
+" ...about how much I want to take a nap."
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].15
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].15"
+msgid "!neutral\n"
+" !think\n"
+" I want to like being around people. But it's a little hard sometimes.\n"
+" !nervous\n"
+" ...What if I never get used to it?"
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].16
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].16"
+msgid "!"
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].2
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].2"
-msgid "!happy\n"
-" !dubious\n"
-" Is it just me?\n"
-" !point\n"
-" Or does it smell like updog in here?"
-msgstr "!happy\n"
-" !dubious\n"
-" Це тільки мені так здається?\n"
-" !point\n"
-" Чи тут справді пахне апдейтом?"
+msgid "!angry\n"
+" Shhhhhhhhhh!\n"
+" !happy\n"
+" !closedeyes\n"
+" The bugs are singing. Don't interrupt."
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].3
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].3"
-msgid "Persistance guides the hunter.\n"
-" Luck guides the gatherer.\n"
-" But the farmer?\n"
-" The farmer is the master of his fate."
-msgstr "Наполегливість веде мисливця.\n"
-" Удача веде збирача.\n"
-" А фермера?\n"
-" Фермер сам обирає свою долю."
+msgid "!neutral\n"
+" !closedeyes\n"
+" <i>(yawn)</> Do you know any good napping spots?\n"
+" !dubious\n"
+" The {name.job_blacksmith} gets mad when I sleep next to his forge.\n"
+" !think\n"
+" It's such a warm, cozy spot, too..."
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].4
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].4"
+msgid "!nervous\n"
+" There's so many people here...\n"
+" !neutral\n"
+" !dubious\n"
+" Are they here <i>all</> the time?!"
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].5
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].5"
+msgid "!closedeyes\n"
+" Shh. I'm practicing being invisible."
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].6
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].6"
+msgid "!neutral\n"
+" !shrug\n"
+" Taking care of plants is easy.\n"
+" !closedeyes\n"
+" They tell you what they need without talking."
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].7
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].7"
+msgid "!neutral\n"
+" !think\n"
+" <#BLUE>{name.npc_armorsmith}</> never seems to run out of things to say.\n"
+" !gesture\n"
+" ...Maybe that's because she repeats what <i>other</> people say, too."
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].8
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].8"
+msgid "!neutral\n"
+" !closedeyes\n"
+" I miss Grandma's hut. And our garden.\n"
+" !shrug\n"
+" ...But it's overrun with <#RED>{name_multiple.rot}</> now. So."
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].9
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].9"
+msgid "!happy\n"
+" I like watching the plants grow.\n"
+" !agree\n"
+" They're doing such a good job."
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary]NOT[wf_town_has_blacksmith].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary]NOT[wf_town_has_blacksmith].1"
-msgid "Is <#BLUE>{name.npc_blacksmith}</> back yet?\n"
-" I wanna commission a new shovel from him."
-msgstr "<#BLUE>{Name.npc_blacksmith}</> вже повернувся?\n"
-" Я хочу замовити у нього нову лопату."
+msgid "!dubious\n"
+" Um. How have you lasted this long without a <#RED>{name.job_blacksmith}</>?"
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_armorsmith,weapon_type_polearm].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_armorsmith,weapon_type_polearm].1"
@@ -16436,12 +17036,8 @@ msgid "!neutral\n"
 " !closedeyes\n"
 " Th' town's gettin' crowded.\n"
 " !gruffnod\n"
-" <z 0.7>(hmph)</>"
-msgstr "!neutral\n"
-" !closedeyes\n"
-" Місто стає переповненим.\n"
-" !gruffnod\n"
-" <z 0.7>(хмпф)</>"
+" <i>(hmph)</>"
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_blacksmith,wf_town_has_cook].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_blacksmith,wf_town_has_cook].1"
@@ -16449,12 +17045,8 @@ msgid "!neutral\n"
 " !closedeyes\n"
 " Och, th' scullery reeks o' burnt porridge again.\n"
 " !dubious\n"
-" <z 0.7>(hmph)</>"
-msgstr "!neutral\n"
-" !closedeyes\n"
-" Ой, з їдальні знову тхне пригорілою кашею.\n"
-" !dubious\n"
-" <z 0.7>(гмпф)</>"
+" <i>(hmph)</>"
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_blacksmith,wf_town_has_cook].2
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_blacksmith,wf_town_has_cook].2"
@@ -16475,38 +17067,24 @@ msgid "!neutral\n"
 " !closedeyes\n"
 " Th' dinner around here's like a Guild initiation rite.\n"
 " !dubious\n"
-" <z 0.7>(hmph)</>"
-msgstr "!neutral\n"
-" !closedeyes\n"
-" Ця вечеря схожа на обряд посвячення в гільдію.\n"
-" !dubious\n"
-" <z 0.7>(хмпф)</>"
+" <i>(hmph)</>"
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_blacksmith,wf_town_has_cook].4
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_blacksmith,wf_town_has_cook].4"
 msgid "!neutral\n"
-" !gruffnod\n"
-" Yer {name.job_cook}'s fried tatties'd kill a {name.groak} faster'n a <#RED>{name.weapon_cannon}</>.\n"
-" !closedeyes\n"
-" <i>Och.</i>"
-msgstr "!neutral\n"
-"!gruffnod\n"
-"Смажена картопля нашого {2:{name.job_cook}} вбила б {2:{Name.groak}} швидше, ніж <#RED>{name.weapon_cannon}</>.\n"
-"!closedeyes\n"
-"<i>Ох.</i>"
+" !disagree\n"
+" Och. Yer {name.job_cook}'s fried tatties'd kill a {name.groak} faster'n a <#RED>{name.weapon_cannon}</>."
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_blacksmith,wf_town_has_dojo].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_blacksmith,wf_town_has_dojo].1"
 msgid "!neutral\n"
 " !closedeyes\n"
-" That {name.job_dojo}'s got a few marks on 'im.\n"
+" That {name.job_dojo}'s got some battle scars.\n"
 " !dubious\n"
-" <z 0.7>(grumble)</>"
-msgstr "!neutral\n"
-" !closedeyes\n"
-" Цей {name.job_dojo} має кілька позначок на собі.\n"
-" !dubious\n"
-" <z 0.7>(бурчання)</>"
+" I'd wager he's got some tales to tell."
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_blacksmith,wf_town_has_dojo].2
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_blacksmith,wf_town_has_dojo].2"
@@ -16566,12 +17144,8 @@ msgid "!neutral\n"
 " !point\n"
 " Yer wee {name.job_armorsmith}'s been snoopin' round me forge again.\n"
 " !dubious\n"
-" <z 0.7>(hmph)</>"
-msgstr "!neutral\n"
-" !point\n"
-" Ваш маленький {name.job_armorsmith} знову шастає навколо моєї кузні.\n"
-" !dubious\n"
-" <z 0.7>(хмпф)</>"
+" <i>(hmph)</>"
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_blacksmith].10
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_blacksmith].10"
@@ -16661,12 +17235,8 @@ msgid "!neutral\n"
 " !point\n"
 " Mind ye tell yer {name.job_armorsmith} she cannae name other people's tools.\n"
 " !dubious\n"
-" <z 0.7>(hmph)</>"
-msgstr "!neutral\n"
-" !point\n"
-" Скажи своєму {2:{name.job_armorsmith}}, що вона не може називати інструменти інших.\n"
-" !dubious\n"
-" <z 0.7>(хмпф)</>"
+" <i>(hmph)</>"
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_blacksmith].5
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_blacksmith].5"
@@ -16738,6 +17308,166 @@ msgstr "!neutral\n"
 " Ніколи не відвертайтесь від родини...\n"
 " !closedeyes\n"
 " Це дає їм змогу поцілити у ваші життєво важливі органи."
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook,won_last_run].1
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook,won_last_run].1"
+msgid "!happy\n"
+" !clap\n"
+" Hoooo-whee! Heard you gave 'em a real thrashing out there!\n"
+" !happy\n"
+" !dubious\n"
+" All thanks to that faaaan<i>tastic</> lunch I packed for you, right?"
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook,won_last_run].2
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook,won_last_run].2"
+msgid "!happy\n"
+" !point\n"
+" Nice going, Hunter!\n"
+" !happy\n"
+" !dubious\n"
+" Did you get lots of good loot from beating that oversized <#RED>{name.rot_boss}?"
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].1
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].1"
+msgid "!happy\n"
+" !wave\n"
+" Well howdy there, Hunter!\n"
+" !point\n"
+" Feelin' a bit peckish?"
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].10
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].10"
+msgid "!neutral\n"
+" !think\n"
+" Oh, uh, sorry I'm just a bit busy with... vegetable sorting.\n"
+" !happy\n"
+" !shrug\n"
+" Gotta make sure all those sneaky veggies are in order, y'know?"
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].11
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].11"
+msgid "!angry\n"
+" Hey, wouldya tell <#BLUE>{name.npc_armorsmith}</> to stop pokin' her nose around my kitchen?\n"
+" !neutral\n"
+" !think\n"
+" Doesn’t she have more important things to do?"
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].12
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].12"
+msgid "!neutral\n"
+" !disagree\n"
+" Hunter... <#BLUE>{name.npc_dojo_master}</> told me somethin' awful.\n"
+" !nervous\n"
+" He said that on your Hunts you find <#KONJUR>Teffra Crystals</> and... <i>smash them</>?!\n"
+" !dejected\n"
+" Tell me it's not true! Do you have any idea how much those'd be worth in <#BLUE>the Brinks</>?!"
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].13
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].13"
+msgid "!neutral\n"
+" !dubious\n"
+" You haven't overheard any gripin' about my cookin' have you?\n"
+" !point\n"
+" Throwin' around comments like 'she don't know a fritter from a flambé'?\n"
+" !angry\n"
+" I know what I'm doin'! Some folks just don't appreciate simple, country-style food, is all."
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].14
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].14"
+msgid "!neutral\n"
+" !think\n"
+" As soon as I'm done cookin', there's all these dishes to clean.\n"
+" !dejected\n"
+" Then when I'm done cleanin' the dishes, it's time to cook again.\n"
+" !scared\n"
+" Where does it end?!"
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].2
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].2"
+msgid "!happy\n"
+" !bliss\n"
+" There's nothin' I love more in this world than whipping up big tasty batches of grub!\n"
+" !point\n"
+" Hooo-wee! Boy howdy!"
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].3
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].3"
+msgid "!happy\n"
+" !wave\n"
+" Howdy! Everything's right as rain here--\n"
+" !shrug\n"
+" I sure do love choppin' and fryin' and all that other cookin' stuff!"
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].4
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].4"
+msgid "!laugh\n"
+" Well, someone's lookin' ready for adventure!\n"
+" !happy\n"
+" !dubious\n"
+" Best get a move-on, don't ya think?"
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].5
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].5"
+msgid "!neutral\n"
+" !think\n"
+" Aw shucks, I can't find my flipper-flapper... er... turner-over...er...?\n"
+" !shocked\n"
+" Splatula! I definitely meant splatula."
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].6
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].6"
+msgid "!happy\n"
+" !wave\n"
+" Hoo-boy, I sure am workin' hard in this here kitchen! Yes-siree!\n"
+" !bliss\n"
+" Here I am, cookin' up a storm!\n"
+" !happy\n"
+" !shrug\n"
+" Mixin' and stirrin' away!\n"
+" !neutral\n"
+" ...Are you gonna be standin' there for much longer, Hunter?"
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].7
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].7"
+msgid "!neutral\n"
+" !shocked\n"
+" Yeep! Don't sneak up on me like that!!\n"
+" !happy\n"
+" !nervous\n"
+" ...Uh, sorry, guess I got a mite jumpy there. Good to see ya!"
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].8
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].8"
+msgid "!happy\n"
+" !dubious\n"
+" Findin' lots of rare stuff on your adventures?\n"
+" !shrug\n"
+" Just curious!"
+msgstr ""
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].9
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_cook].9"
+msgid "!happy\n"
+" !think\n"
+" Whew, the stuff in that big chest sure would fetch a pretty penny back in the Brinks.\n"
+" !neutral\n"
+" !shocked\n"
+" N-not that I was snoopin' or nothin'!"
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_hunter,won_last_run].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_hunter,won_last_run].1"
@@ -18477,9 +19207,8 @@ msgstr "!neutral\n"
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_apothecary]NOT[in_town].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_apothecary]NOT[in_town].1"
 msgid "!closedeyes\n"
-" I can smell home already."
-msgstr "!closedeyes\n"
-" Я вже відчуваю запах дому."
+" Hmm. Other people..."
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_armorsmith]NOT[in_town].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_armorsmith]NOT[in_town].1"
@@ -18602,6 +19331,13 @@ msgid "!neutral\n"
 msgstr "!neutral\n"
 " !gruffnod\n"
 " Тоді йдіть."
+
+#: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_cook]NOT[in_town].1
+msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_cook]NOT[in_town].1"
+msgid "!happy\n"
+" !wave\n"
+" Happy trails, Hunter. Seeya at camp!"
+msgstr ""
 
 #: Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_konjurist,upgradable_powers].1
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,role_konjurist,upgradable_powers].1"
@@ -19530,6 +20266,11 @@ msgstr "!neutral\n"
 " !gruffnod\n"
 " Хмфф."
 
+#: Quest.twn_fallback_chat.QUIP.nothingtosay:[in_quest_twn_fallback_chat,role_cook].1
+msgctxt "Quest.twn_fallback_chat.QUIP.nothingtosay:[in_quest_twn_fallback_chat,role_cook].1"
+msgid "HEY WRITER,"
+msgstr ""
+
 #: Quest.twn_fallback_chat.QUIP.nothingtosay:[in_quest_twn_fallback_chat,role_hunter].1
 msgctxt "Quest.twn_fallback_chat.QUIP.nothingtosay:[in_quest_twn_fallback_chat,role_hunter].1"
 msgid "!neutral\n"
@@ -19700,11 +20441,22 @@ msgctxt "Quest.twn_first_death_scout.QUIP.chitchat:[in_quest_twn_first_death_sco
 msgid "agent:\n"
 " !happy\n"
 " !nervous\n"
-" Whew! I grabbed you in the nick of time."
-msgstr "agent:\n"
-" !happy\n"
-" !nervous\n"
-"Фух! Я вчасно схопив вас."
+" Whew! I grabbed you in the nick of time.\n"
+" !gesture\n"
+" Welcome to the {name.foxtails} base camp! Go ahead and take a look around.\n"
+" !shrug\n"
+" It'll be our home for the forseeable future."
+msgstr ""
+
+#: Quest.twn_fn_unlocked_apothecary.QUIP.chitchat:[chitchat,in_quest_twn_fn_unlocked_apothecary,in_town,role_apothecary].1
+msgctxt "Quest.twn_fn_unlocked_apothecary.QUIP.chitchat:[chitchat,in_quest_twn_fn_unlocked_apothecary,in_town,role_apothecary].1"
+msgid "agent:\n"
+" !neutral\n"
+" !dubious\n"
+" <i>(sniff, sniff)</>\n"
+" !neutral\n"
+" Oh. It's you."
+msgstr ""
 
 #: Quest.twn_fn_unlocked_armorsmith.QUIP.chitchat:[chitchat,in_quest_twn_fn_unlocked_armorsmith,in_town,role_armorsmith].1
 msgctxt "Quest.twn_fn_unlocked_armorsmith.QUIP.chitchat:[chitchat,in_quest_twn_fn_unlocked_armorsmith,in_town,role_armorsmith].1"
@@ -19725,6 +20477,14 @@ msgid "agent:\n"
 msgstr "agent:\n"
 " !neutral\n"
 " Гмпф..."
+
+#: Quest.twn_fn_unlocked_cook.QUIP.chitchat:[chitchat,in_quest_twn_fn_unlocked_cook,in_town,role_cook].1
+msgctxt "Quest.twn_fn_unlocked_cook.QUIP.chitchat:[chitchat,in_quest_twn_fn_unlocked_cook,in_town,role_cook].1"
+msgid "agent:\n"
+" !happy\n"
+" !gesture\n"
+" You've sure got a nice little setup here, real homey!"
+msgstr ""
 
 #: Quest.twn_fortify_armorsmith_1_intro.QUIP.chitchat:[armour_fortification_valid_1,in_quest_twn_fortify_armorsmith_1_intro,in_town,role_armorsmith].1
 msgctxt "Quest.twn_fortify_armorsmith_1_intro.QUIP.chitchat:[armour_fortification_valid_1,in_quest_twn_fortify_armorsmith_1_intro,in_town,role_armorsmith].1"
@@ -21738,8 +22498,8 @@ msgstr "... і всі попередні модифікатори"
 
 #: STRINGS.ASCENSIONS.SUPER_MODIFIERS.DEADLY_TRAPS
 msgctxt "STRINGS.ASCENSIONS.SUPER_MODIFIERS.DEADLY_TRAPS"
-msgid "Deadly traps"
-msgstr "Смертельні пастки"
+msgid "Increased trap damage"
+msgstr ""
 
 #: STRINGS.ASCENSIONS.SUPER_MODIFIERS.DOUBLE_MINIBOSS
 msgctxt "STRINGS.ASCENSIONS.SUPER_MODIFIERS.DOUBLE_MINIBOSS"
@@ -21748,15 +22508,14 @@ msgstr "Подвійні {name_multiple.rot_miniboss}"
 
 #: STRINGS.ASCENSIONS.SUPER_MODIFIERS.ELITE_BOSS
 msgctxt "STRINGS.ASCENSIONS.SUPER_MODIFIERS.ELITE_BOSS"
-msgid "{name.elite_prefix} {name.rot_boss}\n"
-"<z 0.9>No Freebies</z>"
-msgstr "{3:{Name.elite_prefix}} {name.rot_boss}\n"
-"<z 0.9>Нічого безплатного</z>"
+msgid "{name.elite_prefix} {name.rot_boss}"
+msgstr ""
 
 #: STRINGS.ASCENSIONS.SUPER_MODIFIERS.HIGHER_COSTS
 msgctxt "STRINGS.ASCENSIONS.SUPER_MODIFIERS.HIGHER_COSTS"
-msgid "Economic downturn"
-msgstr "Економічний спад"
+msgid "Economic downturn\n"
+"<z 0.9>No Freebies</z>"
+msgstr ""
 
 #: STRINGS.ASCENSIONS.SUPER_MODIFIERS.START_DAMAGED
 msgctxt "STRINGS.ASCENSIONS.SUPER_MODIFIERS.START_DAMAGED"
@@ -22809,8 +23568,8 @@ msgstr "Знайдено в божевільному полюванні."
 
 #: STRINGS.CRAFT_WIDGET.INGREDIENTS
 msgctxt "STRINGS.CRAFT_WIDGET.INGREDIENTS"
-msgid "Ingredients"
-msgstr "Інгредієнти"
+msgid "INGREDIENTS"
+msgstr ""
 
 #: STRINGS.CRAFT_WIDGET.ITEM_UNSEEN_BADGE_TT
 msgctxt "STRINGS.CRAFT_WIDGET.ITEM_UNSEEN_BADGE_TT"
@@ -23746,6 +24505,17 @@ msgctxt "STRINGS.CREDITS.QA_BY"
 msgid "QA by"
 msgstr "QA виконав"
 
+#: STRINGS.ENCOUNTERS.farm_plots.text
+msgctxt "STRINGS.ENCOUNTERS.farm_plots.text"
+msgid "<#RED>[TEMP]</RED>Farm"
+msgstr ""
+
+#: STRINGS.ENCOUNTERS.loot_machine.text
+msgctxt "STRINGS.ENCOUNTERS.loot_machine.text"
+msgid "<#RED>[TEMP]</RED> Under repair.\n\n"
+"DO NOT TOUCH!"
+msgstr ""
+
 #: STRINGS.FEEDBACK.BAD
 msgctxt "STRINGS.FEEDBACK.BAD"
 msgid "Bad"
@@ -24494,14 +25264,81 @@ msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_thatcher.name"
 msgid "Solo Them [{name.thatcher} <p img='images/map_ftf/frenzy_level_3.tex' color=0>]"
 msgstr "Перемога на самоті [{Name.thatcher} <p img='images/map_ftf/frenzy_level_3.tex' color=0>]"
 
+#: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_bandi_swamp.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_bandi_swamp.desc"
+msgid "Better than it looks!"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_bandi_swamp.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_bandi_swamp.name"
+msgid "Re-fried Bog Beans"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_eggzy_tundra.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_eggzy_tundra.desc"
+msgid "A cool twist on swamp cuisine."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_eggzy_tundra.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_eggzy_tundra.name"
+msgid "Chilly Chili Bowl"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_grimhollow_volcano.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_grimhollow_volcano.desc"
+msgid "Hot meets wet in this unique dish."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_grimhollow_volcano.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_grimhollow_volcano.name"
+msgid "Black Bean Chow Mein"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_owlitzer_forest.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_owlitzer_forest.desc"
+msgid "An exotic woodland blend."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_owlitzer_forest.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_owlitzer_forest.name"
+msgid "Buzzworthy Pudding"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_sedament_tundra.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_sedament_tundra.desc"
+msgid "An unlikely but delectable duo."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_sedament_tundra.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_sedament_tundra.name"
+msgid "Bean Casserole"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_thatcher_swamp.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_thatcher_swamp.desc"
+msgid "Twice the swamp, twice the flavor."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_thatcher_swamp.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_thatcher_swamp.name"
+msgid "Jelly Rolls"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_treemon_forest.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_treemon_forest.desc"
+msgid "A bold fusion of flavors."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_treemon_forest.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_treemon_forest.name"
+msgid "Sweet Bean Dessert"
+msgstr ""
+
 #: STRINGS.ITEMS.COOKED_FOOD.cabbage_wrap.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.cabbage_wrap.desc"
 msgid "Some <#RED>{name_multiple.cabbageroll}</> were harmed in the making of this snack.\n\n"
-"<#RED>Lunch Boxes</> are automatically eaten at the start of a run.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr "Деякі <#RED>{Name_multiple.cabbageroll}</> були порізані під час приготування цієї закуски.\n\n"
-"<#RED>Ланч-бокс</> автоматично з'їдається на початку забігу.\n\n"
-"<#RED>Бафф</> залишається активними протягом забігу."
+msgstr ""
 
 #: STRINGS.ITEMS.COOKED_FOOD.cabbage_wrap.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.cabbage_wrap.name"
@@ -24511,11 +25348,8 @@ msgstr "Загорток з цибулі"
 #: STRINGS.ITEMS.COOKED_FOOD.cased_sausage.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.cased_sausage.desc"
 msgid "Pack yourself a snack for the road, just in case.\n\n"
-"<#RED>Lunch Boxes</> are automatically eaten at the start of a run.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr "Про всяк випадок запакуйте собі перекус на дорогу.\n\n"
-"<#RED>Ланч-бокс</> автоматично з'їдається на початку забігу.\n\n"
-"<#RED>Бафф</> залишається активними протягом забігу."
+msgstr ""
 
 #: STRINGS.ITEMS.COOKED_FOOD.cased_sausage.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.cased_sausage.name"
@@ -24525,16 +25359,83 @@ msgstr "Ковбаса в оболонці"
 #: STRINGS.ITEMS.COOKED_FOOD.dimsum.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.dimsum.desc"
 msgid "You know you want sum.\n\n"
-"<#RED>Lunch Boxes</> are automatically eaten at the start of a run.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr "Ви знаєте, що хочете добавку.\n\n"
-"<#RED>Ланч-бокс</> автоматично з'їдається на початку забігу.\n\n"
-"<#RED>Бафф</> залишається активними протягом забігу."
+msgstr ""
 
 #: STRINGS.ITEMS.COOKED_FOOD.dimsum.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.dimsum.name"
 msgid "Dim Sum"
 msgstr "Дімсам"
+
+#: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_bandi_swamp.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_bandi_swamp.desc"
+msgid "A surprisingly tasty blend."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_bandi_swamp.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_bandi_swamp.name"
+msgid "Stuffed Onion"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_eggzy_tundra.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_eggzy_tundra.desc"
+msgid "A frozen favorite."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_eggzy_tundra.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_eggzy_tundra.name"
+msgid "Roasted Shallots"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_grimhollow_volcano.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_grimhollow_volcano.desc"
+msgid "Hot and cold in perfect harmony."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_grimhollow_volcano.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_grimhollow_volcano.name"
+msgid "Sticky Onion Buns"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_owlitzer_forest.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_owlitzer_forest.desc"
+msgid "A cool forest creation."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_owlitzer_forest.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_owlitzer_forest.name"
+msgid "Chef's Special Sundae"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_sedament_tundra.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_sedament_tundra.desc"
+msgid "A perfectly chilled pairing."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_sedament_tundra.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_sedament_tundra.name"
+msgid "Vegetarian Meatloaf"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_thatcher_swamp.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_thatcher_swamp.desc"
+msgid "A chilly swamp delicacy."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_thatcher_swamp.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_thatcher_swamp.name"
+msgid "Frozen Onion Fruit Pops"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_treemon_forest.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_treemon_forest.desc"
+msgid "A refreshing forest dish."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_treemon_forest.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_treemon_forest.name"
+msgid "Onion Rings and Fries"
+msgstr ""
 
 #: STRINGS.ITEMS.COOKED_FOOD.floracrane_feet.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.floracrane_feet.desc"
@@ -24549,25 +25450,89 @@ msgstr "Ноги Флоравля"
 #: STRINGS.ITEMS.COOKED_FOOD.gourd_stew.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.gourd_stew.desc"
 msgid "You can even eat the bowl!\n\n"
-"<#RED>Lunch Boxes</> are automatically eaten at the start of a run.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr "Ви навіть можете з'їсти миску!\n\n"
-"<#RED>Ланч-бокс</> автоматично з'їдається на початку забігу.\n\n"
-"<#RED>Бафф</> залишається активними протягом забігу."
+msgstr ""
 
 #: STRINGS.ITEMS.COOKED_FOOD.gourd_stew.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.gourd_stew.name"
 msgid "Gourd Stew"
 msgstr "Рагу з гарбуза"
 
+#: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_bandi_swamp.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_bandi_swamp.desc"
+msgid "Steam rises from this exotic blend."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_bandi_swamp.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_bandi_swamp.name"
+msgid "Bean Dogs"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_eggzy_tundra.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_eggzy_tundra.desc"
+msgid "A dramatic temperature twist."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_eggzy_tundra.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_eggzy_tundra.name"
+msgid "Caramelized Onion Buns"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_grimhollow_volcano.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_grimhollow_volcano.desc"
+msgid "Warning: Extremely hot!"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_grimhollow_volcano.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_grimhollow_volcano.name"
+msgid "Crusty Artisan Bread"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_owlitzer_forest.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_owlitzer_forest.desc"
+msgid "Where fire meets forest."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_owlitzer_forest.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_owlitzer_forest.name"
+msgid "Berry Muffins"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_sedament_tundra.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_sedament_tundra.desc"
+msgid "Hot meets cold in this unique dish."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_sedament_tundra.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_sedament_tundra.name"
+msgid "Cabbage Puffs"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_thatcher_swamp.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_thatcher_swamp.desc"
+msgid "A blazing bog blend."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_thatcher_swamp.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_thatcher_swamp.name"
+msgid "Fruit Tart"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_treemon_forest.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_treemon_forest.desc"
+msgid "A sizzling woodland dish."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_treemon_forest.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_treemon_forest.name"
+msgid "Squash Ravioli"
+msgstr ""
+
 #: STRINGS.ITEMS.COOKED_FOOD.haggis.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.haggis.desc"
 msgid "Looks offal, tastes great.\n\n"
-"<#RED>Lunch Boxes</> are automatically eaten at the start of a run.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr "Виглядає як субпродукт, чудовий смак.\n\n"
-"<#RED>Ланч-бокс</> автоматично з'їдається на початку забігу.\n\n"
-"<#RED>Бафф</> залишається активними протягом забігу."
+msgstr ""
 
 #: STRINGS.ITEMS.COOKED_FOOD.haggis.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.haggis.name"
@@ -24578,12 +25543,8 @@ msgstr "Хаґґіс"
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.meatwich.desc"
 msgid "Take some meat. Put it between some other meat.\n"
 "Enjoy.\n\n"
-"<#RED>Lunch Boxes</> are automatically eaten at the start of a run.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr "Візьміть трохи м'яса. Покладіть його між іншим м'ясом.\n"
-"Насолоджуйтеся.\n\n"
-"<#RED>Ланч-бокс</> автоматично з'їдається на початку забігу.\n\n"
-"<#RED>Бафф</> залишається активними протягом забігу."
+msgstr ""
 
 #: STRINGS.ITEMS.COOKED_FOOD.meatwich.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.meatwich.name"
@@ -24593,25 +25554,89 @@ msgstr "М'ясоброд"
 #: STRINGS.ITEMS.COOKED_FOOD.noodle_legs.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.noodle_legs.desc"
 msgid "Wriggles all the way down!\n\n"
-"<#RED>Lunch Boxes</> are automatically eaten at the start of a run.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr "Звиваються до самого кінця!\n\n"
-"<#RED>Ланч-бокс</> автоматично з'їдається на початку забігу.\n\n"
-"<#RED>Бафф</> залишається активними протягом забігу."
+msgstr ""
 
 #: STRINGS.ITEMS.COOKED_FOOD.noodle_legs.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.noodle_legs.name"
 msgid "Noodle Legs"
 msgstr "Лапшеві ніжки"
 
+#: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_bandi_swamp.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_bandi_swamp.desc"
+msgid "A peculiar pairing that works surprisingly well."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_bandi_swamp.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_bandi_swamp.name"
+msgid "Jelly Beans"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_eggzy_tundra.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_eggzy_tundra.desc"
+msgid "Chilled to perfection."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_eggzy_tundra.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_eggzy_tundra.name"
+msgid "Sweet Onion Skewers"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_grimhollow_volcano.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_grimhollow_volcano.desc"
+msgid "A fiery forest combination."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_grimhollow_volcano.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_grimhollow_volcano.name"
+msgid "Berry Pancakes"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_owlitzer_forest.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_owlitzer_forest.desc"
+msgid "A wise choice for lunch."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_owlitzer_forest.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_owlitzer_forest.name"
+msgid "Berry Compote"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_sedament_tundra.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_sedament_tundra.desc"
+msgid "A refreshingly cool combination."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_sedament_tundra.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_sedament_tundra.name"
+msgid "Chilled Berry Salad"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_thatcher_swamp.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_thatcher_swamp.desc"
+msgid "An acquired taste."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_thatcher_swamp.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_thatcher_swamp.name"
+msgid "Fruit Skewers"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_treemon_forest.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_treemon_forest.desc"
+msgid "A classic forest combination."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_treemon_forest.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_treemon_forest.name"
+msgid "Owl's Nest Cookies"
+msgstr ""
+
 #: STRINGS.ITEMS.COOKED_FOOD.roast_tail.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.roast_tail.desc"
 msgid "Tastes hearty, but leaves one feeling fit and spry.\n\n"
-"<#RED>Lunch Boxes</> are automatically eaten at the start of a run.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr "Смачно ситний, але залишає відчуття бадьорості та жвавості.\n\n"
-"<#RED>Ланч-бокс</> автоматично з'їдається на початку забігу.\n\n"
-"<#RED>Бафф</> залишається активними протягом забігу."
+msgstr ""
 
 #: STRINGS.ITEMS.COOKED_FOOD.roast_tail.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.roast_tail.name"
@@ -24621,25 +25646,89 @@ msgstr "Смажений хвіст"
 #: STRINGS.ITEMS.COOKED_FOOD.salad.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.salad.desc"
 msgid "Supposedly \"healthy\".\n\n"
-"<#RED>Lunch Boxes</> are automatically eaten at the start of a run.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr "Нібито \"здоровий\".\n\n"
-"<#RED>Ланч-бокс</> автоматично з'їдається на початку забігу.\n\n"
-"<#RED>Бафф</> залишається активними протягом забігу."
+msgstr ""
 
 #: STRINGS.ITEMS.COOKED_FOOD.salad.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.salad.name"
 msgid "Leaf Salad"
 msgstr "Листяний салат"
 
+#: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_bandi_swamp.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_bandi_swamp.desc"
+msgid "Cold meets murky."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_bandi_swamp.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_bandi_swamp.name"
+msgid "Leafy Bean Dumplings"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_eggzy_tundra.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_eggzy_tundra.desc"
+msgid "Extra cold, extra good."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_eggzy_tundra.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_eggzy_tundra.name"
+msgid "Bulbous Braised Cabbage"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_grimhollow_volcano.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_grimhollow_volcano.desc"
+msgid "An explosive combination of flavors."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_grimhollow_volcano.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_grimhollow_volcano.name"
+msgid "Bread Dip"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_owlitzer_forest.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_owlitzer_forest.desc"
+msgid "A frosty forest favorite."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_owlitzer_forest.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_owlitzer_forest.name"
+msgid "Green Smoothie"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_sedament_tundra.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_sedament_tundra.desc"
+msgid "Best served frozen."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_sedament_tundra.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_sedament_tundra.name"
+msgid "Grazer's Feast"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_thatcher_swamp.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_thatcher_swamp.desc"
+msgid "Where frost meets marsh."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_thatcher_swamp.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_thatcher_swamp.name"
+msgid "Chopped Salad"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_treemon_forest.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_treemon_forest.desc"
+msgid "Where cold meets cozy."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_treemon_forest.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_treemon_forest.name"
+msgid "Roasted Squash Wraps"
+msgstr ""
+
 #: STRINGS.ITEMS.COOKED_FOOD.spiced_gourd.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.spiced_gourd.desc"
 msgid "It tastes kind of how autumn leaves smell.\n\n"
-"<#RED>Lunch Boxes</> are automatically eaten at the start of a run.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr "На смак схожий на запах осіннього листя.\n\n"
-"<#RED>Ланч-бокс</> автоматично з'їдається на початку забігу.\n\n"
-"<#RED>Бафф</> залишається активними протягом забігу."
+msgstr ""
 
 #: STRINGS.ITEMS.COOKED_FOOD.spiced_gourd.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.spiced_gourd.name"
@@ -24649,11 +25738,8 @@ msgstr "Гарбуз зі спеціями"
 #: STRINGS.ITEMS.COOKED_FOOD.spoiled_food.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.spoiled_food.desc"
 msgid "Are you sure you wanna eat that?\n\n"
-"<#RED>Lunch Boxes</> are automatically eaten at the start of a run.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr "Ви впевнені, що хочете це з'їсти?\n\n"
-"<#RED>Ланч-бокс</> автоматично з'їдається на початку забігу.\n\n"
-"<#RED>Бафф</> залишається активними протягом забігу."
+msgstr ""
 
 #: STRINGS.ITEMS.COOKED_FOOD.spoiled_food.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.spoiled_food.name"
@@ -24663,96 +25749,273 @@ msgstr "Зіпсована їжа"
 #: STRINGS.ITEMS.COOKED_FOOD.stuffed_blarma.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.stuffed_blarma.desc"
 msgid "Soon you will be, too.\n\n"
-"<#RED>Lunch Boxes</> are automatically eaten at the start of a run.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr "Ти наступний.\n\n"
-"<#RED>Ланч-бокс</> автоматично з'їдається на початку забігу.\n\n"
-"<#RED>Бафф</> залишається активними протягом забігу."
+msgstr ""
 
 #: STRINGS.ITEMS.COOKED_FOOD.stuffed_blarma.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.stuffed_blarma.name"
 msgid "Stuffed {name.blarmadillo}"
 msgstr "Фарширований {Name.blarmadillo}"
 
+#: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_bandi_swamp.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_bandi_swamp.desc"
+msgid "A swampy sensation."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_bandi_swamp.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_bandi_swamp.name"
+msgid "Ants on a Log"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_eggzy_tundra.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_eggzy_tundra.desc"
+msgid "Surprisingly refreshing!"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_eggzy_tundra.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_eggzy_tundra.name"
+msgid "Fruit and Onion Medley"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_grimhollow_volcano.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_grimhollow_volcano.desc"
+msgid "Watch out - it's hot!"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_grimhollow_volcano.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_grimhollow_volcano.name"
+msgid "Glazed Fruit Cake"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_owlitzer_forest.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_owlitzer_forest.desc"
+msgid "A unique forest combination."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_owlitzer_forest.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_owlitzer_forest.name"
+msgid "Fruit Salad"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_sedament_tundra.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_sedament_tundra.desc"
+msgid "A frosty take on swamp cuisine."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_sedament_tundra.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_sedament_tundra.name"
+msgid "Fruit Rolls"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_thatcher_swamp.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_thatcher_swamp.desc"
+msgid "A swamp dweller's favorite."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_thatcher_swamp.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_thatcher_swamp.name"
+msgid "Fruit Medley"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_treemon_forest.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_treemon_forest.desc"
+msgid "A mysterious mix of tastes."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_treemon_forest.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_treemon_forest.name"
+msgid "Dried Fruit Chips"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_bandi_swamp.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_bandi_swamp.desc"
+msgid "An unusual but tasty combination."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_bandi_swamp.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_bandi_swamp.name"
+msgid "Veggie Bog Burger"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_eggzy_tundra.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_eggzy_tundra.desc"
+msgid "Best served cold."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_eggzy_tundra.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_eggzy_tundra.name"
+msgid "Forest Fritters"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_grimhollow_volcano.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_grimhollow_volcano.desc"
+msgid "Hot and spicy forest fare."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_grimhollow_volcano.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_grimhollow_volcano.name"
+msgid "Ma's Old-Fashioned Gruel"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_owlitzer_forest.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_owlitzer_forest.desc"
+msgid "The best of both forests combined."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_owlitzer_forest.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_owlitzer_forest.name"
+msgid "Squashed Berry Mash"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_sedament_tundra.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_sedament_tundra.desc"
+msgid "A chilly forest delicacy."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_sedament_tundra.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_sedament_tundra.name"
+msgid "Garnished Squash Puree"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_thatcher_swamp.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_thatcher_swamp.desc"
+msgid "Don't let the look fool you - it's delicious!"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_thatcher_swamp.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_thatcher_swamp.name"
+msgid "Fruit and Veggie Bites"
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_treemon_forest.desc
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_treemon_forest.desc"
+msgid "A hearty blend of forest ingredients."
+msgstr ""
+
+#: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_treemon_forest.name
+msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_treemon_forest.name"
+msgid "Sautéed Squash"
+msgstr ""
+
 #: STRINGS.ITEMS.CROP.bandi_swamp_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.bandi_swamp_crop.desc"
-msgid "[TODO]"
-msgstr "[TODO]"
+msgid "Bog Crop"
+msgstr ""
 
 #: STRINGS.ITEMS.CROP.bandi_swamp_crop.name
 msgctxt "STRINGS.ITEMS.CROP.bandi_swamp_crop.name"
-msgid "{name.bandicoot}'s Crop"
-msgstr "Насіння {2:{Name.bandicoot}}"
+msgid "Bog Crop"
+msgstr ""
+
+#: STRINGS.ITEMS.CROP.bandi_swamp_crop.seed
+msgctxt "STRINGS.ITEMS.CROP.bandi_swamp_crop.seed"
+msgid "Bog Seed"
+msgstr ""
 
 #: STRINGS.ITEMS.CROP.eggzy_tundra_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.eggzy_tundra_crop.desc"
-msgid "[TODO]"
-msgstr "[TODO]"
+msgid "Cavern Crop"
+msgstr ""
 
 #: STRINGS.ITEMS.CROP.eggzy_tundra_crop.name
 msgctxt "STRINGS.ITEMS.CROP.eggzy_tundra_crop.name"
-msgid "{name.eggzy}'s Crop"
-msgstr "Насіння {2:{Name.eggzy}}"
+msgid "Cavern Crop"
+msgstr ""
+
+#: STRINGS.ITEMS.CROP.eggzy_tundra_crop.seed
+msgctxt "STRINGS.ITEMS.CROP.eggzy_tundra_crop.seed"
+msgid "Cavern Seed"
+msgstr ""
 
 #: STRINGS.ITEMS.CROP.gem_unidentified_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.gem_unidentified_crop.desc"
-msgid "TODO Unidentified Gem Crop"
-msgstr "TODO Unidentified Gem Crop"
+msgid "Crystallized Crop"
+msgstr ""
 
 #: STRINGS.ITEMS.CROP.gem_unidentified_crop.name
 msgctxt "STRINGS.ITEMS.CROP.gem_unidentified_crop.name"
-msgid "TODO Unidentified Gem Crop"
-msgstr "TODO Unidentified Gem Crop"
+msgid "Crystallized Crop"
+msgstr ""
+
+#: STRINGS.ITEMS.CROP.gem_unidentified_crop.seed
+msgctxt "STRINGS.ITEMS.CROP.gem_unidentified_crop.seed"
+msgid "Crystallized Seed"
+msgstr ""
 
 #: STRINGS.ITEMS.CROP.grimhollow_volcano_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.grimhollow_volcano_crop.desc"
-msgid "[TODO]"
-msgstr "[TODO]"
+msgid "Ruins Crop"
+msgstr ""
 
 #: STRINGS.ITEMS.CROP.grimhollow_volcano_crop.name
 msgctxt "STRINGS.ITEMS.CROP.grimhollow_volcano_crop.name"
-msgid "{name.grimhollow}'s Crop"
-msgstr "Насіння {2:{Name.grimhollow}}"
+msgid "Ruins Crop"
+msgstr ""
+
+#: STRINGS.ITEMS.CROP.grimhollow_volcano_crop.seed
+msgctxt "STRINGS.ITEMS.CROP.grimhollow_volcano_crop.seed"
+msgid "Ruins Seed"
+msgstr ""
 
 #: STRINGS.ITEMS.CROP.owlitzer_forest_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.owlitzer_forest_crop.desc"
-msgid "[TODO]"
-msgstr "[TODO]"
+msgid "Grove Crop"
+msgstr ""
 
 #: STRINGS.ITEMS.CROP.owlitzer_forest_crop.name
 msgctxt "STRINGS.ITEMS.CROP.owlitzer_forest_crop.name"
-msgid "{name.owlitzer}'s Crop"
-msgstr "Насіння {2:{Name.owlitzer}}"
+msgid "Grove Crop"
+msgstr ""
+
+#: STRINGS.ITEMS.CROP.owlitzer_forest_crop.seed
+msgctxt "STRINGS.ITEMS.CROP.owlitzer_forest_crop.seed"
+msgid "Grove Seed"
+msgstr ""
 
 #: STRINGS.ITEMS.CROP.sedament_tundra_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.sedament_tundra_crop.desc"
-msgid "[TODO]"
-msgstr "[TODO]"
+msgid "Quarry Crop"
+msgstr ""
 
 #: STRINGS.ITEMS.CROP.sedament_tundra_crop.name
 msgctxt "STRINGS.ITEMS.CROP.sedament_tundra_crop.name"
-msgid "{name.sedament}'s Crop"
-msgstr "Насіння {2:{Name.sedament}}"
+msgid "Quarry Crop"
+msgstr ""
+
+#: STRINGS.ITEMS.CROP.sedament_tundra_crop.seed
+msgctxt "STRINGS.ITEMS.CROP.sedament_tundra_crop.seed"
+msgid "Quarry Seed"
+msgstr ""
 
 #: STRINGS.ITEMS.CROP.thatcher_swamp_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.thatcher_swamp_crop.desc"
-msgid "[TODO]"
-msgstr "[TODO]"
+msgid "Molded Crop"
+msgstr ""
 
 #: STRINGS.ITEMS.CROP.thatcher_swamp_crop.name
 msgctxt "STRINGS.ITEMS.CROP.thatcher_swamp_crop.name"
-msgid "{name.thatcher}'s Crop"
-msgstr "Насіння {2:{Name.thatcher}}"
+msgid "Molded Crop"
+msgstr ""
+
+#: STRINGS.ITEMS.CROP.thatcher_swamp_crop.seed
+msgctxt "STRINGS.ITEMS.CROP.thatcher_swamp_crop.seed"
+msgid "Molded Seed"
+msgstr ""
 
 #: STRINGS.ITEMS.CROP.treemon_forest_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.treemon_forest_crop.desc"
-msgid "[TODO]"
-msgstr "[TODO]"
+msgid "Forest Crop"
+msgstr ""
 
 #: STRINGS.ITEMS.CROP.treemon_forest_crop.name
 msgctxt "STRINGS.ITEMS.CROP.treemon_forest_crop.name"
-msgid "{name.megatreemon}'s Crop"
-msgstr "Насіння {2:{Name.megatreemon}}"
+msgid "Forest Crop"
+msgstr ""
+
+#: STRINGS.ITEMS.CROP.treemon_forest_crop.seed
+msgctxt "STRINGS.ITEMS.CROP.treemon_forest_crop.seed"
+msgid "Forest Seed"
+msgstr ""
 
 #: STRINGS.ITEMS.DECOR.antleer_mid_plushies.desc
 msgctxt "STRINGS.ITEMS.DECOR.antleer_mid_plushies.desc"
@@ -25359,6 +26622,16 @@ msgstr "Соковита фіолетова рослина.\n"
 msgctxt "STRINGS.ITEMS.DECOR.town_flower_coralbell.name"
 msgid "Coral Bells"
 msgstr "Коралові дзвіночки"
+
+#: STRINGS.ITEMS.DECOR.town_flower_mushroom.desc
+msgctxt "STRINGS.ITEMS.DECOR.town_flower_mushroom.desc"
+msgid "Button Mushroom"
+msgstr ""
+
+#: STRINGS.ITEMS.DECOR.town_flower_mushroom.name
+msgctxt "STRINGS.ITEMS.DECOR.town_flower_mushroom.name"
+msgid "Button Mushroom"
+msgstr ""
 
 #: STRINGS.ITEMS.DECOR.town_flower_violet.desc
 msgctxt "STRINGS.ITEMS.DECOR.town_flower_violet.desc"
@@ -27855,6 +29128,27 @@ msgctxt "STRINGS.ITEMS.GEMS.thorns.stat_name"
 msgid "{name.concept_damage}"
 msgstr "{3:{Name.concept_damage}}"
 
+#: STRINGS.ITEMS.GEMS.toxicity_reduction.desc
+msgctxt "STRINGS.ITEMS.GEMS.toxicity_reduction.desc"
+msgid ""
+msgstr ""
+""
+
+#: STRINGS.ITEMS.GEMS.toxicity_reduction.name
+msgctxt "STRINGS.ITEMS.GEMS.toxicity_reduction.name"
+msgid "Poison Resistance {name.gem}"
+msgstr ""
+
+#: STRINGS.ITEMS.GEMS.toxicity_reduction.slotted_desc
+msgctxt "STRINGS.ITEMS.GEMS.toxicity_reduction.slotted_desc"
+msgid "<#RED>Poison</> builds up slower."
+msgstr "<#RED>Отрута</> накопичується повільніше."
+
+#: STRINGS.ITEMS.GEMS.toxicity_reduction.stat_name
+msgctxt "STRINGS.ITEMS.GEMS.toxicity_reduction.stat_name"
+msgid "Resistance"
+msgstr "Resistance"
+
 #: STRINGS.ITEMS.GEMS.weight_down.desc
 msgctxt "STRINGS.ITEMS.GEMS.weight_down.desc"
 msgid ""
@@ -28320,6 +29614,16 @@ msgctxt "STRINGS.ITEMS.HEAD.zucco.name"
 msgid "{name.zucco}'s Noggin-Padder"
 msgstr "Захист для голови з {Name.zucco}"
 
+#: STRINGS.ITEMS.KEY_ITEMS.armourtools0.desc
+msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools0.desc"
+msgid "Allows the holder upgrade all armour to <#RED>Level 3</>."
+msgstr "Дозволяє власнику покращити всі обладунки до <#RED>3 рівня</>."
+
+#: STRINGS.ITEMS.KEY_ITEMS.armourtools0.name
+msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools0.name"
+msgid "{name.armourtools0}"
+msgstr ""
+
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools1.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools1.desc"
 msgid "Allows the holder upgrade all armour to <#RED>Level 6</>."
@@ -28340,6 +29644,16 @@ msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools2.name"
 msgid "{name.armourtools2}"
 msgstr "{Name.armourtools2}"
 
+#: STRINGS.ITEMS.KEY_ITEMS.farmtools.desc
+msgctxt "STRINGS.ITEMS.KEY_ITEMS.farmtools.desc"
+msgid "Allows the holder to refine and plant seeds"
+msgstr ""
+
+#: STRINGS.ITEMS.KEY_ITEMS.farmtools.name
+msgctxt "STRINGS.ITEMS.KEY_ITEMS.farmtools.name"
+msgid "{name.farmtools}"
+msgstr ""
+
 #: STRINGS.ITEMS.KEY_ITEMS.gemtools.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.gemtools.desc"
 msgid "Allows the holder to use a <#RED>Gem Crafting Table</>."
@@ -28359,6 +29673,16 @@ msgstr "Дозволяє власнику заробляти <#RED>бонусн�
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.teffrometer.name"
 msgid "{name.teffrometer}"
 msgstr "{Name.teffrometer}"
+
+#: STRINGS.ITEMS.KEY_ITEMS.weapontools0.desc
+msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools0.desc"
+msgid "Allows the holder upgrade all weapons to <#RED>Level 3</>."
+msgstr "Дозволяє власнику покращити всю зброю до <#RED>3 рівня</>."
+
+#: STRINGS.ITEMS.KEY_ITEMS.weapontools0.name
+msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools0.name"
+msgid "{name.weapontools0}"
+msgstr ""
 
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools1.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools1.desc"
@@ -28908,73 +30232,73 @@ msgstr "Скіна {Name.cabbageroll}"
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_bandi_swamp.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_bandi_swamp.desc"
-msgid "TODO Bandicoot Beans"
-msgstr "TODO Bandicoot Beans"
+msgid "Bog Beans"
+msgstr ""
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_bandi_swamp.name
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_bandi_swamp.name"
-msgid "TODO Bandicoot Beans"
-msgstr "TODO Bandicoot Beans"
+msgid "Bog Beans"
+msgstr ""
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_eggzy_tundra.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_eggzy_tundra.desc"
-msgid "TODO Eggzy Onion"
-msgstr "TODO Eggzy Onion"
+msgid "Cavern Onion"
+msgstr ""
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_eggzy_tundra.name"
-msgid "TODO Eggzy Onion"
-msgstr "TODO Eggzy Onion"
+msgid "Cavern Onion"
+msgstr ""
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_grimhollow_volcano.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_grimhollow_volcano.desc"
-msgid "TODO Grimhollow Wheat"
-msgstr "TODO Grimhollow Wheat"
+msgid "Ruins Wheat"
+msgstr ""
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_grimhollow_volcano.name
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_grimhollow_volcano.name"
-msgid "TODO Grimhollow Wheat"
-msgstr "TODO Grimhollow Wheat"
+msgid "Ruins Wheat"
+msgstr ""
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_owlitzer_forest.desc"
-msgid "TODO Owlitzer Berries"
-msgstr "TODO Owlitzer Berries"
+msgid "Grove Berries"
+msgstr ""
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_owlitzer_forest.name
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_owlitzer_forest.name"
-msgid "TODO Owlitzer Berries"
-msgstr "TODO Owlitzer Berries"
+msgid "Grove Berries"
+msgstr ""
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_sedament_tundra.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_sedament_tundra.desc"
-msgid "TODO Sedament Cabbage"
-msgstr "TODO Sedament Cabbage"
+msgid "Quarry Cabbage"
+msgstr ""
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_sedament_tundra.name
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_sedament_tundra.name"
-msgid "TODO Sedament Cabbage"
-msgstr "TODO Sedament Cabbage"
+msgid "Quarry Cabbage"
+msgstr ""
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_thatcher_swamp.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_thatcher_swamp.desc"
-msgid "TODO Thatcher Fruit"
-msgstr "TODO Thatcher Fruit"
+msgid "Molded Fruit"
+msgstr ""
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_thatcher_swamp.name
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_thatcher_swamp.name"
-msgid "TODO Thatcher Fruit"
-msgstr "TODO Thatcher Fruit"
+msgid "Molded Fruit"
+msgstr ""
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_treemon_forest.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_treemon_forest.desc"
-msgid "TODO Treemon Squash"
-msgstr "TODO Treemon Squash"
+msgid "Forest Squash"
+msgstr ""
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_treemon_forest.name
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_treemon_forest.name"
-msgid "TODO Treemon Squash"
-msgstr "TODO Treemon Squash"
+msgid "Forest Squash"
+msgstr ""
 
 #: STRINGS.ITEMS.MATERIALS.eyev_eyelashes.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.eyev_eyelashes.desc"
@@ -29842,8 +31166,8 @@ msgstr ""
 
 #: STRINGS.ITEMS.MATERIALS.normal_owlitzer_forest.name
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_owlitzer_forest.name"
-msgid "{name.owlitzer_forest} Seeds"
-msgstr "Насіння {2:{Name.owlitzer_forest}}"
+msgid "{name.owlitzer_forest} Bark"
+msgstr "{name.owlitzer_forest} Кора"
 
 #: STRINGS.ITEMS.MATERIALS.normal_sedament_tundra.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_sedament_tundra.desc"
@@ -30792,6 +32116,46 @@ msgctxt "STRINGS.ITEMS.POTIONS.quick_heal1.name"
 msgid "Bubbling Brew"
 msgstr "Булькаюче пиво"
 
+#: STRINGS.ITEMS.POWERS.CHALLENGE.challenge_test.desc
+msgctxt "STRINGS.ITEMS.POWERS.CHALLENGE.challenge_test.desc"
+msgid "Test"
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.CHALLENGE.challenge_test.name
+msgctxt "STRINGS.ITEMS.POWERS.CHALLENGE.challenge_test.name"
+msgid "Challenge Test"
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.CHALLENGE.pain_dodge_konjur.desc
+msgctxt "STRINGS.ITEMS.POWERS.CHALLENGE.pain_dodge_konjur.desc"
+msgid "Take <#RED>{damage} {name.concept_damage}</> when you <#RED>Dodge</>. After clearing {rooms} {name_multiple.dungeon_room}, gain <#KONJUR>{reward} {name.i_konjur}</>."
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.CHALLENGE.pain_dodge_konjur.name
+msgctxt "STRINGS.ITEMS.POWERS.CHALLENGE.pain_dodge_konjur.name"
+msgid "Painful Dodge"
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.CHALLENGE.pain_heavy_konjur.desc
+msgctxt "STRINGS.ITEMS.POWERS.CHALLENGE.pain_heavy_konjur.desc"
+msgid "Take <#RED>{damage} {name.concept_damage}</> when you <#RED>Heavy Attack</>. After clearing {rooms} {name_multiple.dungeon_room}, gain <#KONJUR>{reward} {name.i_konjur}</>."
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.CHALLENGE.pain_heavy_konjur.name
+msgctxt "STRINGS.ITEMS.POWERS.CHALLENGE.pain_heavy_konjur.name"
+msgid "Painful Heavies"
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.CHALLENGE.pain_light_konjur.desc
+msgctxt "STRINGS.ITEMS.POWERS.CHALLENGE.pain_light_konjur.desc"
+msgid "Take <#RED>{damage} {name.concept_damage}</> when you <#RED>Light Attack</>. After clearing {rooms} {name_multiple.dungeon_room}, gain <#KONJUR>{reward} {name.i_konjur}</>."
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.CHALLENGE.pain_light_konjur.name
+msgctxt "STRINGS.ITEMS.POWERS.CHALLENGE.pain_light_konjur.name"
+msgid "Painful Lights"
+msgstr ""
+
 #: STRINGS.ITEMS.POWERS.ELECTRIC.bonus_crit_against_charged.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.bonus_crit_against_charged.desc"
 msgid "Gain <#RED>+{bonus}% Critical Chance</> for every stack of <#RED>Charge</> your target has."
@@ -30891,6 +32255,16 @@ msgstr "Запускає <#RED>ланцюгову реакцію</>, коли в
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_consume_on_focus.name"
 msgid "Lightning Rod"
 msgstr "Блискавко відвід"
+
+#: STRINGS.ITEMS.POWERS.ELECTRIC.charge_lightning_on_perfect_dodge.desc
+msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_lightning_on_perfect_dodge.desc"
+msgid "When you <#RED>Perfect Dodge</>, cast a <#RED>Lightning Bolt</> in your <#RED>Attacker's</>place."
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.ELECTRIC.charge_lightning_on_perfect_dodge.name
+msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_lightning_on_perfect_dodge.name"
+msgid "Volt Riposte"
+msgstr ""
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_orb_on_dodge.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_orb_on_dodge.desc"
@@ -31908,8 +33282,8 @@ msgstr "Додатковий час"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_hammer_charged_golfswing_hits_again.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_hammer_charged_golfswing_hits_again.desc"
-msgid "Fully charged <#RED>Golf Swing</> (<p bind='Controls.Digital.DODGE'> <p img='images/ui_ftf/arrow_right.tex' scale=0.4> hold Backwards <p bind='Controls.Digital.ATTACK_HEAVY'>) hits multiple times."
-msgstr "Повністю заряджений <#RED>удар ключкою</> (<p bind='Controls.Digital.DODGE'> <p img='images/ui_ftf/arrow_right.tex' scale=0.4> утримуйте <p bind='Controls.Digital.ATTACK_HEAVY'> у зворотному напрямку) наносить кілька ударів."
+msgid "Fully charged <#RED>Golf Swing</> (<p bind='Controls.Digital.DODGE' color=0> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> hold Backwards <p bind='Controls.Digital.ATTACK_HEAVY' color=0>) hits multiple times."
+msgstr "Повністю заряджений <#RED>удар ключкою</> (<p bind='Controls.Digital.DODGE' color=0> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> утримуйте <p bind='Controls.Digital.ATTACK_HEAVY' color=0> у зворотному напрямку) наносить кілька ударів."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_hammer_charged_golfswing_hits_again.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_hammer_charged_golfswing_hits_again.name"
@@ -32194,8 +33568,8 @@ msgstr "equipment_owlitzer_waist"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_polearm_extended_drill.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_polearm_extended_drill.desc"
-msgid "Hold <#RED>Light Attack</> to extend the length of your <#RED>Spear Drill</> (<p bind='Controls.Digital.DODGE'> <p bind='Controls.Digital.ATTACK_LIGHT'>) attack."
-msgstr "Утримуйте <#RED>легку атаку</>, щоб збільшити довжину вашої атаки <#RED>закрученим свердлом</> (<p bind='Controls.Digital.DODGE'> <p bind='Controls.Digital.ATTACK_LIGHT'>)."
+msgid "Hold <#RED>Light Attack</> to extend the length of your <#RED>Spear Drill</> (<p bind='Controls.Digital.DODGE' color=0> <p bind='Controls.Digital.ATTACK_LIGHT' color=0>) attack."
+msgstr "Утримуйте <#RED>легку атаку</>, щоб збільшити довжину вашої атаки <#RED>закрученим свердлом</> (<p bind='Controls.Digital.DODGE' color=0> <p bind='Controls.Digital.ATTACK_LIGHT' color=0>)."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_polearm_extended_drill.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_polearm_extended_drill.name"
@@ -32209,8 +33583,8 @@ msgstr "Додаткові цикли"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_polearm_extended_multithrust.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_polearm_extended_multithrust.desc"
-msgid "Hold <#RED>Heavy Attack</> to extend the length of your <#RED>Multi-thrust</> (<p bind='Controls.Digital.ATTACK_LIGHT'> <p bind='Controls.Digital.ATTACK_LIGHT'> <p bind='Controls.Digital.ATTACK_LIGHT'> <p bind='Controls.Digital.ATTACK_HEAVY'>) attack."
-msgstr "Утримуйте <#RED>важку атаку</>, щоб збільшити довжину вашого <#RED>мульти-удару</> (<p bind='Controls.Digital.ATTACK_LIGHT'> <p bind='Controls.Digital.ATTACK_LIGHT'> <p bind='Controls.Digital.ATTACK_LIGHT'> <p bind='Controls.Digital.ATTACK_HEAVY'>)."
+msgid "Hold <#RED>Heavy Attack</> to extend the length of your <#RED>Multi-thrust</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=0> <p bind='Controls.Digital.ATTACK_LIGHT' color=0> <p bind='Controls.Digital.ATTACK_LIGHT' color=0> <p bind='Controls.Digital.ATTACK_HEAVY' color=0>) attack."
+msgstr "Утримуйте <#RED>важку атаку</>, щоб збільшити довжину вашого <#RED>мульти-удару</> (<p bind='Controls.Digital.ATTACK_LIGHT' color=0> <p bind='Controls.Digital.ATTACK_LIGHT' color=0> <p bind='Controls.Digital.ATTACK_LIGHT' color=0> <p bind='Controls.Digital.ATTACK_HEAVY' color=0>)."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_polearm_extended_multithrust.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_polearm_extended_multithrust.name"
@@ -32224,8 +33598,8 @@ msgstr "Додаткові цикли"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_polearm_infinite_multithrust.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_polearm_infinite_multithrust.desc"
-msgid "Mash <#RED>Heavy Attack</> during the Multi-thrust (<p bind='Controls.Digital.ATTACK_LIGHT'> <p bind='Controls.Digital.ATTACK_LIGHT'> <p bind='Controls.Digital.ATTACK_LIGHT'> <p bind='Controls.Digital.ATTACK_HEAVY'>) attack to keep attacking."
-msgstr "Натискайте <#RED>важку атаку</> під час мульти-удару (<p bind='Controls.Digital.ATTACK_LIGHT'> <p bind='Controls.Digital.ATTACK_LIGHT'> <p bind='Controls.Digital.ATTACK_LIGHT'> <p bind='Controls.Digital.ATTACK_HEAVY'>), щоб продовжувати атакувати."
+msgid "Mash <#RED>Heavy Attack</> during the Multi-thrust (<p bind='Controls.Digital.ATTACK_LIGHT' color=0> <p bind='Controls.Digital.ATTACK_LIGHT' color=0> <p bind='Controls.Digital.ATTACK_LIGHT' color=0> <p bind='Controls.Digital.ATTACK_HEAVY' color=0>) attack to keep attacking."
+msgstr "Натискайте <#RED>важку атаку</> під час мульти-удару (<p bind='Controls.Digital.ATTACK_LIGHT' color=0> <p bind='Controls.Digital.ATTACK_LIGHT' color=0> <p bind='Controls.Digital.ATTACK_LIGHT' color=0> <p bind='Controls.Digital.ATTACK_HEAVY' color=0>), щоб продовжувати атакувати."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_polearm_infinite_multithrust.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_polearm_infinite_multithrust.name"
@@ -32886,69 +34260,97 @@ msgctxt "STRINGS.ITEMS.POWERS.FOOD_POWER.thick_skin.name"
 msgid "Silver Lining"
 msgstr "Срібна підкладка"
 
-#: STRINGS.ITEMS.POWERS.FROST.frost_critical_chance_to_frozen.desc
-msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_critical_chance_to_frozen.desc"
-msgid ""
+#: STRINGS.ITEMS.POWERS.FROST.frost_aura.desc
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_aura.desc"
+msgid "Constantly apply <#RED>Cold</> to enemies in a medium radius."
 msgstr ""
-""
 
-#: STRINGS.ITEMS.POWERS.FROST.frost_critical_chance_to_frozen.name
-msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_critical_chance_to_frozen.name"
-msgid ""
+#: STRINGS.ITEMS.POWERS.FROST.frost_aura.name
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_aura.name"
+msgid "Diamond Dust"
 msgstr ""
-""
 
-#: STRINGS.ITEMS.POWERS.FROST.frost_damage_to_frozen.desc
-msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_damage_to_frozen.desc"
-msgid "Deal <#RED>+{bonus}% Damage</> to <#RED>Frozen</> enemies."
-msgstr "Завдавайте <#RED>+{bonus}% шкоди</> <#RED>замороженим</> ворогам."
+#: STRINGS.ITEMS.POWERS.FROST.frost_aura_effect.desc
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_aura_effect.desc"
+msgid "Gain <#RED>{cold_per_proc} Cold</> per second."
+msgstr ""
 
-#: STRINGS.ITEMS.POWERS.FROST.frost_damage_to_frozen.name
-msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_damage_to_frozen.name"
+#: STRINGS.ITEMS.POWERS.FROST.frost_aura_effect.name
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_aura_effect.name"
+msgid "Diamond Dust Effect"
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_capacitor.desc
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_capacitor.desc"
+msgid "When you <#RED>Light Attack</> a <#RED>Frozen Enemy</>, store <#RED>{damage_stored}% Damage</> dealt. <#RED>Heavy Attack</> to deal the stored <#RED>Damage</>.\n\n"
+"Reset when you take <#RED>Damage</>."
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_capacitor.name
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_capacitor.name"
+msgid "Cold Storage"
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_extended_range.desc
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_extended_range.desc"
+msgid "Every sixth <#RED>Light Attack</> shoots three <#RED>Ice Chunks</>."
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_extended_range.name
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_extended_range.name"
+msgid "Let It Go"
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_freeze_nearest_on_kill.desc
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_freeze_nearest_on_kill.desc"
+msgid "When you <#RED>Kill</> a <#RED>Frozen Enemy</>, deal <#RED>{weapon_damage}% Weapon Damage</> to and <#RED>Freeze</> the nearest enemy."
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_freeze_nearest_on_kill.name
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_freeze_nearest_on_kill.name"
+msgid "Frostbite"
+msgstr "Крижаний укус"
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_frozen_defense.desc
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_defense.desc"
+msgid "Gain <#RED>{damage_reduction}% Damage Resistance</> for every nearby <#RED>Frozen Enemy</>."
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_frozen_defense.name
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_defense.name"
+msgid "Glacial Armour"
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_frozen_speed.desc
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_speed.desc"
+msgid "Gain <#RED>{speed_bonus}% {name.concept_runspeed}</> for every nearby <#RED>Frozen Enemy</>."
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_frozen_speed.name
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_speed.name"
+msgid "Glacial Rush"
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_frozen_strength.desc
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_strength.desc"
+msgid "Gain <#RED>{damage_bonus}% Bonus Damage</> for every nearby <#RED>Frozen Enemy</>."
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_frozen_strength.name
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_strength.name"
 msgid "Glacial Might"
 msgstr "Льодовикова міць"
 
-#: STRINGS.ITEMS.POWERS.FROST.frost_dodge_freeze.desc
-msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_dodge_freeze.desc"
-msgid "After dodging through an enemy, they become <#RED>Frozen</> for <#RED>{duration} seconds</>."
-msgstr "Після ухилення від ворога він стає <#RED>замороженим</> на <#RED>{duration} секунд</>."
-
-#: STRINGS.ITEMS.POWERS.FROST.frost_dodge_freeze.name
-msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_dodge_freeze.name"
-msgid "Flash Freeze"
-msgstr "Швидка заморозка"
-
-#: STRINGS.ITEMS.POWERS.FROST.frost_explosion_on_hit.desc
-msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_explosion_on_hit.desc"
-msgid ""
+#: STRINGS.ITEMS.POWERS.FROST.frost_icicle_storage.desc
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_icicle_storage.desc"
+msgid "When you <#RED>Kill</> a <#RED>Frozen Enemy</>, store an <#RED>Ice Spine</>. <#RED>Dodge</> to shoot all stored <#RED>Ice Spines</> at the nearest <#RED>Enemy</>.\n\n"
+"Reset when you take <#RED>Damage</>."
 msgstr ""
-""
 
-#: STRINGS.ITEMS.POWERS.FROST.frost_explosion_on_hit.name
-msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_explosion_on_hit.name"
-msgid ""
+#: STRINGS.ITEMS.POWERS.FROST.frost_icicle_storage.name
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_icicle_storage.name"
+msgid "Ice Storm"
 msgstr ""
-""
-
-#: STRINGS.ITEMS.POWERS.FROST.frost_frozen_explosion.desc
-msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_explosion.desc"
-msgid "<#RED>Frozen</> enemies explode when killed, {rarity_text}."
-msgstr "<#RED>Заморожені</> вороги вибухають при вбивстві, {rarity_text}."
-
-#: STRINGS.ITEMS.POWERS.FROST.frost_frozen_explosion.name
-msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_explosion.name"
-msgid "Frozen Detonation"
-msgstr "Заморожена детонація"
-
-#: STRINGS.ITEMS.POWERS.FROST.frost_frozen_explosion.rarity_text_EPIC
-msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_explosion.rarity_text_EPIC"
-msgid "applying <#RED>Cold</> to nearby enemies"
-msgstr "<#RED>охолоджуючи</> ворогів поблизу"
-
-#: STRINGS.ITEMS.POWERS.FROST.frost_frozen_explosion.rarity_text_LEGENDARY
-msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_explosion.rarity_text_LEGENDARY"
-msgid "<#RED>Freezing</> nearby enemies"
-msgstr "<#RED>заморожуючи</> ворогів поблизу"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_on_attack.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_on_attack.desc"
@@ -32962,15 +34364,13 @@ msgstr "Тест атаки морозом"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_on_heavy.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_on_heavy.desc"
-msgid ""
+msgid "Your first <#RED>Heavy Attack</> per clearing triggers an <#RED>Ice Explosion</> on all <#RED>Enemies</>."
 msgstr ""
-""
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_on_heavy.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_on_heavy.name"
-msgid ""
-msgstr ""
-""
+msgid "Cold Snap"
+msgstr "Холодний спалах"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_on_light.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_on_light.desc"
@@ -32982,27 +34382,75 @@ msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_on_light.name"
 msgid "Frost Strike"
 msgstr "Крижаний удар"
 
+#: STRINGS.ITEMS.POWERS.FROST.frost_perfect_dodge.desc
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_perfect_dodge.desc"
+msgid "When you <#RED>Perfect Dodge</>, cause an <#RED>Ice Explosion</>."
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_perfect_dodge.name
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_perfect_dodge.name"
+msgid "Chilly Response"
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_retaliation.desc
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_retaliation.desc"
+msgid "When you take <#RED>Damage</>, <#RED>Freeze</> your <#RED>Attacker</> in an <#RED>Ice Prison</>."
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_retaliation.name
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_retaliation.name"
+msgid "Desolate Imprisonment"
+msgstr ""
+
 #: STRINGS.ITEMS.POWERS.FROST.frost_shatter_execute.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_shatter_execute.desc"
-msgid "<#RED>Frozen</> enemies below <#RED>{threshold}% Health</> instantly shatter."
-msgstr "<#RED>Заморожені</> вороги в яких нижче <#RED>{threshold}% здоров'я</> миттєво розбиваються на друзки."
+msgid "Your attacks against <#RED>Frozen</> enemies with low <#RED>Health</> instantly <#RED>Kill</> them."
+msgstr ""
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_shatter_execute.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_shatter_execute.name"
-msgid "Glacial Execution"
-msgstr "Льодовикова страта"
+msgid "Frozen Fatality"
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_shrapnel.desc
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_shrapnel.desc"
+msgid "When you <#RED>Kill</> a <#RED>Frozen Enemy</>, it explodes into <#RED>{projectiles} Ice Chunks</>."
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_shrapnel.name
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_shrapnel.name"
+msgid "Ice Nova"
+msgstr ""
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_snowball_on_dodge.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_snowball_on_dodge.desc"
-msgid ""
+msgid "When you <#RED>Dodge</>, throw a snowball at the nearest enemy in a large radius."
 msgstr ""
-""
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_snowball_on_dodge.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_snowball_on_dodge.name"
-msgid ""
+msgid "Snowball Fight"
 msgstr ""
-""
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_spread_cold.desc
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_spread_cold.desc"
+msgid "{rarity_text}"
+msgstr "{rarity_text}"
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_spread_cold.name
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_spread_cold.name"
+msgid "Cold Wave"
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_spread_cold.rarity_text_EPIC
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_spread_cold.rarity_text_EPIC"
+msgid "When you deal <#RED>Damage</> to a <#RED>Cold or Frozen Enemy</>, apply small amounts of <#RED>Cold</> to enemies in a large radius."
+msgstr ""
+
+#: STRINGS.ITEMS.POWERS.FROST.frost_spread_cold.rarity_text_LEGENDARY
+msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_spread_cold.rarity_text_LEGENDARY"
+msgid "When you deal <#RED>Damage</> to a <#RED>Cold or Frozen Enemy</>, apply <#RED>Cold</> to enemies in a large radius."
+msgstr ""
 
 #: STRINGS.ITEMS.POWERS.HEART.heart_bandicoot.desc
 msgctxt "STRINGS.ITEMS.POWERS.HEART.heart_bandicoot.desc"
@@ -34346,8 +35794,9 @@ msgstr "Стоп-Лосс"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.streaking.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.streaking.desc"
-msgid "Increase your <#RED>{name.concept_runspeed}</> by a percentage equal to {rarity_text}."
-msgstr "Збільшує вашу <#RED>{name.concept_runspeed}</> на відсоток, рівний вашій {rarity_text}."
+msgid "Increase your <#RED>{name.concept_runspeed}</> by a percentage equal to {rarity_text}. \n\n"
+"When your <#RED>Hit Streak</> ends, the bonus decays over time."
+msgstr ""
 
 #: STRINGS.ITEMS.POWERS.PLAYER.streaking.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.streaking.name"
@@ -35026,8 +36475,8 @@ msgstr "Анулюйте вхідну <#RED>атаку</>, щоб отримат
 
 #: STRINGS.ITEMS.POWERS.SKILL.parry.name
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.parry.name"
-msgid "Parry"
-msgstr "Парування"
+msgid "{name.bandicoot}'s Parry"
+msgstr ""
 
 #: STRINGS.ITEMS.POWERS.SKILL.polearm_extend.desc
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.polearm_extend.desc"
@@ -35421,9 +36870,8 @@ msgstr "Швидкість Зукко"
 
 #: STRINGS.ITEMS.POWERS.WEIGHT.weight_heavy.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEIGHT.weight_heavy.desc"
-msgid ""
+msgid "A heavyweight build with high <#RED>{name.concept_damage} Resistance</> and low speed."
 msgstr ""
-""
 
 #: STRINGS.ITEMS.POWERS.WEIGHT.weight_heavy.name
 msgctxt "STRINGS.ITEMS.POWERS.WEIGHT.weight_heavy.name"
@@ -35432,9 +36880,8 @@ msgstr "Клас {name.heavy_weight}"
 
 #: STRINGS.ITEMS.POWERS.WEIGHT.weight_light.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEIGHT.weight_light.desc"
-msgid ""
+msgid "A lightweight build with a quick <#RED>{name.concept_dodge}</> and shorter invulnerability period."
 msgstr ""
-""
 
 #: STRINGS.ITEMS.POWERS.WEIGHT.weight_light.name
 msgctxt "STRINGS.ITEMS.POWERS.WEIGHT.weight_light.name"
@@ -35443,9 +36890,8 @@ msgstr "Клас {name.light_weight}"
 
 #: STRINGS.ITEMS.POWERS.WEIGHT.weight_normal.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEIGHT.weight_normal.desc"
-msgid ""
+msgid "A medium-weight build with an even spread of speed, <#RED>{name.concept_damage}</>, and <#RED>{name.concept_damage} Resistance</>."
 msgstr ""
-""
 
 #: STRINGS.ITEMS.POWERS.WEIGHT.weight_normal.name
 msgctxt "STRINGS.ITEMS.POWERS.WEIGHT.weight_normal.name"
@@ -37411,6 +38857,17 @@ msgctxt "STRINGS.ITEMS.WEAPON.cannon_bonejaw.name"
 msgid "Bonebreaker"
 msgstr "Кістколам"
 
+#: STRINGS.ITEMS.WEAPON.cannon_bunisnowflyballs.desc
+msgctxt "STRINGS.ITEMS.WEAPON.cannon_bunisnowflyballs.desc"
+msgid ""
+msgstr ""
+""
+
+#: STRINGS.ITEMS.WEAPON.cannon_bunisnowflyballs.name
+msgctxt "STRINGS.ITEMS.WEAPON.cannon_bunisnowflyballs.name"
+msgid "Bunbun Bomber"
+msgstr ""
+
 #: STRINGS.ITEMS.WEAPON.cannon_corestone.desc
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_corestone.desc"
 msgid ""
@@ -37777,8 +39234,8 @@ msgstr ""
 
 #: STRINGS.ITEMS.WEAPON.hammer_thatcher.name
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_thatcher.name"
-msgid "[TEMP] {name.thatcher} {name.weapon_hammer}"
-msgstr "[TEMP] {name.thatcher} {name.weapon_hammer}"
+msgid "Fortissimo"
+msgstr ""
 
 #: STRINGS.ITEMS.WEAPON.hammer_thatcher_swamp.desc
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_thatcher_swamp.desc"
@@ -38197,8 +39654,8 @@ msgstr ""
 
 #: STRINGS.ITEMS.WEAPON.shotput_thatcher.name
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_thatcher.name"
-msgid "[TEMP] {name.thatcher} {name.weapon_shotput}"
-msgstr "[TEMP] {name.thatcher} {name.weapon_shotput}"
+msgid "Swarm's Spite"
+msgstr ""
 
 #: STRINGS.ITEMS.WEAPON.shotput_treemon_forest.desc
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_treemon_forest.desc"
@@ -39096,6 +40553,56 @@ msgctxt "STRINGS.ITEMS.WEATHERS.eggberts.rarity_text_LEGENDARY"
 msgid "Loads of {name_multiple.eggbert}"
 msgstr "Купа {2:{Name_multiple.eggbert}}"
 
+#: STRINGS.ITEMS.WEATHERS.fungoonhats.desc
+msgctxt "STRINGS.ITEMS.WEATHERS.fungoonhats.desc"
+msgid "Something's throwing {rarity_text} caps from the bushes..."
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.fungoonhats.name
+msgctxt "STRINGS.ITEMS.WEATHERS.fungoonhats.name"
+msgid "{name.fungoons_generic} Caps"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.fungoonhats.rarity_text_COMMON
+msgctxt "STRINGS.ITEMS.WEATHERS.fungoonhats.rarity_text_COMMON"
+msgid "{name.fungoons_generic}"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.fungoonhats.rarity_text_EPIC
+msgctxt "STRINGS.ITEMS.WEATHERS.fungoonhats.rarity_text_EPIC"
+msgid "lots of {name.fungoons_generic}"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.fungoonhats.rarity_text_LEGENDARY
+msgctxt "STRINGS.ITEMS.WEATHERS.fungoonhats.rarity_text_LEGENDARY"
+msgid "loads of {name.fungoons_generic}"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.funguilehats.desc
+msgctxt "STRINGS.ITEMS.WEATHERS.funguilehats.desc"
+msgid "{rarity_text} somewhere in the {name.dungeon_room}."
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.funguilehats.name
+msgctxt "STRINGS.ITEMS.WEATHERS.funguilehats.name"
+msgid "{name.funguile} Caps"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.funguilehats.rarity_text_COMMON
+msgctxt "STRINGS.ITEMS.WEATHERS.funguilehats.rarity_text_COMMON"
+msgid "A {name.funguile} cap lies"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.funguilehats.rarity_text_EPIC
+msgctxt "STRINGS.ITEMS.WEATHERS.funguilehats.rarity_text_EPIC"
+msgid "{name.funguile} caps lie"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.funguilehats.rarity_text_LEGENDARY
+msgctxt "STRINGS.ITEMS.WEATHERS.funguilehats.rarity_text_LEGENDARY"
+msgid "Multiple {name.funguile} caps lie"
+msgstr ""
+
 #: STRINGS.ITEMS.WEATHERS.ghost.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.ghost.desc"
 msgid "{rarity_text}. Defeat all other {name_multiple.rot} to proceed."
@@ -39120,6 +40627,31 @@ msgstr "З'являються два привиди {2:{name_multiple.rot}}"
 msgctxt "STRINGS.ITEMS.WEATHERS.ghost.rarity_text_LEGENDARY"
 msgid "Three ghost {name_multiple.rot} exist"
 msgstr "З'являються три привиди {2:{name_multiple.rot}}"
+
+#: STRINGS.ITEMS.WEATHERS.gooseberries.desc
+msgctxt "STRINGS.ITEMS.WEATHERS.gooseberries.desc"
+msgid "Self-destructing {name_multiple.gooseberry} jump out from the bushes {rarity_text}."
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.gooseberries.name
+msgctxt "STRINGS.ITEMS.WEATHERS.gooseberries.name"
+msgid "Self-destructing {name_multiple.gooseberry}"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.gooseberries.rarity_text_COMMON
+msgctxt "STRINGS.ITEMS.WEATHERS.gooseberries.rarity_text_COMMON"
+msgid "periodically"
+msgstr "періодично"
+
+#: STRINGS.ITEMS.WEATHERS.gooseberries.rarity_text_EPIC
+msgctxt "STRINGS.ITEMS.WEATHERS.gooseberries.rarity_text_EPIC"
+msgid "frequently"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.gooseberries.rarity_text_LEGENDARY
+msgctxt "STRINGS.ITEMS.WEATHERS.gooseberries.rarity_text_LEGENDARY"
+msgid "constantly"
+msgstr "постійно"
 
 #: STRINGS.ITEMS.WEATHERS.groakspores.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.groakspores.desc"
@@ -39310,6 +40842,31 @@ msgstr "Вбивства {4:{name.weapon_shotput}} дають <#KONJUR>{konjur} 
 msgctxt "STRINGS.ITEMS.WEATHERS.konjur_on_kill_shotput.name"
 msgid "{name.weapon_shotput} Pinata"
 msgstr "Піньята {4:{name.weapon_shotput}}"
+
+#: STRINGS.ITEMS.WEATHERS.lasertraps.desc
+msgctxt "STRINGS.ITEMS.WEATHERS.lasertraps.desc"
+msgid "{rarity_text}."
+msgstr "{rarity_text}."
+
+#: STRINGS.ITEMS.WEATHERS.lasertraps.name
+msgctxt "STRINGS.ITEMS.WEATHERS.lasertraps.name"
+msgid "{name_multiple.trap_togglelaser}"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.lasertraps.rarity_text_COMMON
+msgctxt "STRINGS.ITEMS.WEATHERS.lasertraps.rarity_text_COMMON"
+msgid "A {name_multiple.trap_togglelaser} appear on the battlefield"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.lasertraps.rarity_text_EPIC
+msgctxt "STRINGS.ITEMS.WEATHERS.lasertraps.rarity_text_EPIC"
+msgid "A {name.trap_togglelaser} and {name_multiple.trap_toggleswitch} appear on the battlefield"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.lasertraps.rarity_text_LEGENDARY
+msgctxt "STRINGS.ITEMS.WEATHERS.lasertraps.rarity_text_LEGENDARY"
+msgid "Multiple {name_multiple.trap_togglelaser} and {name_multiple.trap_toggleswitch} appear on the battlefield"
+msgstr ""
 
 #: STRINGS.ITEMS.WEATHERS.lastword.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.lastword.desc"
@@ -39624,6 +41181,31 @@ msgctxt "STRINGS.ITEMS.WEATHERS.stampede.name"
 msgid "Stampede"
 msgstr "Штовханина"
 
+#: STRINGS.ITEMS.WEATHERS.treels.desc
+msgctxt "STRINGS.ITEMS.WEATHERS.treels.desc"
+msgid "{name_multiple.treel} {rarity_text} pay a visit in the {name.dungeon_room}."
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.treels.name
+msgctxt "STRINGS.ITEMS.WEATHERS.treels.name"
+msgid "{name_multiple.treel}"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.treels.rarity_text_COMMON
+msgctxt "STRINGS.ITEMS.WEATHERS.treels.rarity_text_COMMON"
+msgid "periodically"
+msgstr "періодично"
+
+#: STRINGS.ITEMS.WEATHERS.treels.rarity_text_EPIC
+msgctxt "STRINGS.ITEMS.WEATHERS.treels.rarity_text_EPIC"
+msgid "frequently"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.treels.rarity_text_LEGENDARY
+msgctxt "STRINGS.ITEMS.WEATHERS.treels.rarity_text_LEGENDARY"
+msgid "constantly"
+msgstr "постійно"
+
 #: STRINGS.ITEMS.WEATHERS.weapon_damagebonus_bow.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.weapon_damagebonus_bow.desc"
 msgid "{name_multiple.weapon_bow} deal +{bonus_damage}% {name.concept_damage}."
@@ -39749,6 +41331,31 @@ msgctxt "STRINGS.ITEMS.WEATHERS.windy.rarity_text_LEGENDARY"
 msgid "consistently"
 msgstr "постійно"
 
+#: STRINGS.ITEMS.WEATHERS.zaptraps.desc
+msgctxt "STRINGS.ITEMS.WEATHERS.zaptraps.desc"
+msgid "{rarity_text}."
+msgstr "{rarity_text}."
+
+#: STRINGS.ITEMS.WEATHERS.zaptraps.name
+msgctxt "STRINGS.ITEMS.WEATHERS.zaptraps.name"
+msgid "{name_multiple.trap_togglezap}"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.zaptraps.rarity_text_COMMON
+msgctxt "STRINGS.ITEMS.WEATHERS.zaptraps.rarity_text_COMMON"
+msgid "A {name.trap_togglezap} appears on the battlefield"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.zaptraps.rarity_text_EPIC
+msgctxt "STRINGS.ITEMS.WEATHERS.zaptraps.rarity_text_EPIC"
+msgid "A {name.trap_togglezap} and {name_multiple.trap_toggleswitch} appear on the battlefield"
+msgstr ""
+
+#: STRINGS.ITEMS.WEATHERS.zaptraps.rarity_text_LEGENDARY
+msgctxt "STRINGS.ITEMS.WEATHERS.zaptraps.rarity_text_LEGENDARY"
+msgid "Multiple {name_multiple.trap_togglezap} and {name_multiple.trap_toggleswitch} appear on the battlefield"
+msgstr ""
+
 #: STRINGS.ITEMS.WEATHERS.zuccotraps.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.zuccotraps.desc"
 msgid "{rarity_text} are strewn around the {name.dungeon_room}."
@@ -39779,6 +41386,11 @@ msgctxt "STRINGS.ITEMS.WEATHER_REWARDS.GEM_UNIDENTIFIED.name"
 msgid "Unidentified {name.gem}"
 msgstr "Невідомий {name.gem}"
 
+#: STRINGS.ITEMS.WEATHER_REWARDS.GEM_UNIDENTIFIED_SEED.name
+msgctxt "STRINGS.ITEMS.WEATHER_REWARDS.GEM_UNIDENTIFIED_SEED.name"
+msgid "Crystallized Seed"
+msgstr ""
+
 #: STRINGS.ITEMS.WEATHER_REWARDS.INGOT.name
 msgctxt "STRINGS.ITEMS.WEATHER_REWARDS.INGOT.name"
 msgid "{name.upgrade_ingot}"
@@ -39788,6 +41400,11 @@ msgstr "{Name.upgrade_ingot}"
 msgctxt "STRINGS.ITEMS.WEATHER_REWARDS.LOOT.name"
 msgid "{name_multiple.material}"
 msgstr "{Name_multiple.material}"
+
+#: STRINGS.ITEMS.WEATHER_REWARDS.SEED_BAG.name
+msgctxt "STRINGS.ITEMS.WEATHER_REWARDS.SEED_BAG.name"
+msgid "Seeds"
+msgstr "Насіння"
 
 #: STRINGS.ITEM_CATEGORIES.ARMOUR_SETS
 msgctxt "STRINGS.ITEM_CATEGORIES.ARMOUR_SETS"
@@ -39838,6 +41455,11 @@ msgstr "Будівлі"
 msgctxt "STRINGS.ITEM_CATEGORIES.CANNON"
 msgid "{name.weapon_cannon}"
 msgstr "{Name.weapon_cannon}"
+
+#: STRINGS.ITEM_CATEGORIES.CHALLENGE
+msgctxt "STRINGS.ITEM_CATEGORIES.CHALLENGE"
+msgid "Challenge"
+msgstr "Випробування"
 
 #: STRINGS.ITEM_CATEGORIES.CHALLENGE_MASTERY
 msgctxt "STRINGS.ITEM_CATEGORIES.CHALLENGE_MASTERY"
@@ -40591,6 +42213,11 @@ msgctxt "STRINGS.NAMES.arak"
 msgid "Arak"
 msgstr "Арак"
 
+#: STRINGS.NAMES.armourtools0
+msgctxt "STRINGS.NAMES.armourtools0"
+msgid "Basic Sewing Kit"
+msgstr ""
+
 #: STRINGS.NAMES.armourtools1
 msgctxt "STRINGS.NAMES.armourtools1"
 msgid "Advanced Sewing Kit"
@@ -40838,8 +42465,8 @@ msgstr "Великий Колоссапфір"
 
 #: STRINGS.NAMES.current_beta
 msgctxt "STRINGS.NAMES.current_beta"
-msgid "Ruins Beta"
-msgstr "Бета Руїн"
+msgid "Delicious Beta"
+msgstr "Смачна бета"
 
 #: STRINGS.NAMES.damselfly
 msgctxt "STRINGS.NAMES.damselfly"
@@ -40925,6 +42552,11 @@ msgstr "Ірисс|Ірисса"
 msgctxt "STRINGS.NAMES.eyev_elite"
 msgid "Imbued Iriss"
 msgstr "Наповнений Ірисс"
+
+#: STRINGS.NAMES.farmtools
+msgctxt "STRINGS.NAMES.farmtools"
+msgid "Farming Tools"
+msgstr ""
 
 #: STRINGS.NAMES.flitt_lastname
 msgctxt "STRINGS.NAMES.flitt_lastname"
@@ -41791,6 +43423,21 @@ msgctxt "STRINGS.NAMES.trap_bomb_pinecone"
 msgid "Paincone"
 msgstr "Шишколючка|Шишколючки"
 
+#: STRINGS.NAMES.trap_togglelaser
+msgctxt "STRINGS.NAMES.trap_togglelaser"
+msgid "Laser Trap"
+msgstr ""
+
+#: STRINGS.NAMES.trap_toggleswitch
+msgctxt "STRINGS.NAMES.trap_toggleswitch"
+msgid "Switch"
+msgstr ""
+
+#: STRINGS.NAMES.trap_togglezap
+msgctxt "STRINGS.NAMES.trap_togglezap"
+msgid "Thumper Trap"
+msgstr ""
+
 #: STRINGS.NAMES.trap_weed_spikes
 msgctxt "STRINGS.NAMES.trap_weed_spikes"
 msgid "Spike Plant"
@@ -41905,6 +43552,11 @@ msgstr "Спис|Спису|Списа|Списом"
 msgctxt "STRINGS.NAMES.weapon_shotput"
 msgid "Striker"
 msgstr "Страйкер|Страйкеру|Страйкера|Страйкером"
+
+#: STRINGS.NAMES.weapontools0
+msgctxt "STRINGS.NAMES.weapontools0"
+msgid "Basic Smith's Tools"
+msgstr ""
 
 #: STRINGS.NAMES.weapontools1
 msgctxt "STRINGS.NAMES.weapontools1"
@@ -42675,6 +44327,21 @@ msgstr "Колодязі"
 msgctxt "STRINGS.NAMES_PLURAL.trap_bomb_pinecone"
 msgid "Paincones"
 msgstr "Шишколючки|Шишколючок"
+
+#: STRINGS.NAMES_PLURAL.trap_togglelaser
+msgctxt "STRINGS.NAMES_PLURAL.trap_togglelaser"
+msgid "Laser Traps"
+msgstr ""
+
+#: STRINGS.NAMES_PLURAL.trap_toggleswitch
+msgctxt "STRINGS.NAMES_PLURAL.trap_toggleswitch"
+msgid "Switches"
+msgstr ""
+
+#: STRINGS.NAMES_PLURAL.trap_togglezap
+msgctxt "STRINGS.NAMES_PLURAL.trap_togglezap"
+msgid "Thumper Traps"
+msgstr ""
 
 #: STRINGS.NAMES_PLURAL.trap_weed_spikes
 msgctxt "STRINGS.NAMES_PLURAL.trap_weed_spikes"
@@ -43506,6 +45173,21 @@ msgctxt "STRINGS.NAMES_PLURALITY.trap_bomb_pinecone"
 msgid "Paincone|Paincones"
 msgstr "Paincone|Paincones"
 
+#: STRINGS.NAMES_PLURALITY.trap_togglelaser
+msgctxt "STRINGS.NAMES_PLURALITY.trap_togglelaser"
+msgid "Laser Trap|Laser Traps"
+msgstr "Laser Trap|Laser Traps"
+
+#: STRINGS.NAMES_PLURALITY.trap_toggleswitch
+msgctxt "STRINGS.NAMES_PLURALITY.trap_toggleswitch"
+msgid "Switch|Switches"
+msgstr "Switch|Switches"
+
+#: STRINGS.NAMES_PLURALITY.trap_togglezap
+msgctxt "STRINGS.NAMES_PLURALITY.trap_togglezap"
+msgid "Thumper Trap|Thumper Traps"
+msgstr "Thumper Trap|Thumper Traps"
+
 #: STRINGS.NAMES_PLURALITY.trap_weed_spikes
 msgctxt "STRINGS.NAMES_PLURALITY.trap_weed_spikes"
 msgid "Spike Plant|Spike Plants"
@@ -44324,18 +46006,18 @@ msgstr "Щита"
 
 #: STRINGS.POWERS.POWER_RARITY.COMMON
 msgctxt "STRINGS.POWERS.POWER_RARITY.COMMON"
-msgid "Common"
-msgstr "Загальну"
+msgid "Bronze"
+msgstr ""
 
 #: STRINGS.POWERS.POWER_RARITY.EPIC
 msgctxt "STRINGS.POWERS.POWER_RARITY.EPIC"
-msgid "Epic"
-msgstr "Епічна"
+msgid "Silver"
+msgstr ""
 
 #: STRINGS.POWERS.POWER_RARITY.LEGENDARY
 msgctxt "STRINGS.POWERS.POWER_RARITY.LEGENDARY"
-msgid "Legendary"
-msgstr "Легендарна"
+msgid "Gold"
+msgstr ""
 
 #: STRINGS.POWERS.POWER_TYPE.EQUIPMENT
 msgctxt "STRINGS.POWERS.POWER_TYPE.EQUIPMENT"
@@ -44785,6 +46467,16 @@ msgstr "{Name.interact_hold} Оживити"
 msgctxt "STRINGS.UI.ACTIONS.REVIVING"
 msgid "{name.interact_tap} Reviving"
 msgstr "{Name.interact_tap} Оживити"
+
+#: STRINGS.UI.ACTIONS.SEED_GRINDER_NOACCESS
+msgctxt "STRINGS.UI.ACTIONS.SEED_GRINDER_NOACCESS"
+msgid "Requires tools"
+msgstr "Потрібні інструменти"
+
+#: STRINGS.UI.ACTIONS.SEED_GRINDER_OPEN
+msgctxt "STRINGS.UI.ACTIONS.SEED_GRINDER_OPEN"
+msgid "{name.interact_tap} Transmute Seeds"
+msgstr ""
 
 #: STRINGS.UI.ACTIONS.SIT
 msgctxt "STRINGS.UI.ACTIONS.SIT"
@@ -45530,6 +47222,169 @@ msgctxt "STRINGS.UI.EMOTESCREEN.WEAPONS_INFO"
 msgid "<p img='images/ui_ftf/ic_warning.tex' color=0 scale=1.1> Weapon emotes will match your equipped weapon."
 msgstr "<p img='images/ui_ftf/ic_warning.tex' color=0 scale=1.1> Емоції зброї будуть відповідати вашому спорядженню."
 
+#: STRINGS.UI.EQUIPMENTSCREEN.BACK_BUTTON
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.BACK_BUTTON"
+msgid "BACK"
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.DESC
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.DESC"
+msgid "Pick out the best gear for your outings."
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.HOTKEYS_ITEM_BACK
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.HOTKEYS_ITEM_BACK"
+msgid "Back"
+msgstr "Назад"
+
+#: STRINGS.UI.EQUIPMENTSCREEN.HOTKEYS_ITEM_EQUIP
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.HOTKEYS_ITEM_EQUIP"
+msgid "Equip"
+msgstr "Спорядити"
+
+#: STRINGS.UI.EQUIPMENTSCREEN.HOTKEYS_ITEM_UNEQUIP
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.HOTKEYS_ITEM_UNEQUIP"
+msgid "Un-equip"
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.HOTKEYS_ITEM_UPGRADE
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.HOTKEYS_ITEM_UPGRADE"
+msgid "Upgrade"
+msgstr "Покращити"
+
+#: STRINGS.UI.EQUIPMENTSCREEN.HOTKEYS_ITEM_UPGRADE_INGREDIENTS_INFO
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.HOTKEYS_ITEM_UPGRADE_INGREDIENTS_INFO"
+msgid "Ingredient info"
+msgstr "Інформація про інгредієнт"
+
+#: STRINGS.UI.EQUIPMENTSCREEN.ITEM_EQUIP_BUTTON
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.ITEM_EQUIP_BUTTON"
+msgid "EQUIP"
+msgstr "СПОРЯДИТИ"
+
+#: STRINGS.UI.EQUIPMENTSCREEN.ITEM_UNEQUIP_BUTTON
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.ITEM_UNEQUIP_BUTTON"
+msgid "UN-EQUIP"
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.ITEM_UPGRADE_AVAILABLE
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.ITEM_UPGRADE_AVAILABLE"
+msgid "<p img='images/icons_ftf/upgrade.tex' color=0 scale=1.0> Lvl %d upgrade available!"
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.ITEM_UPGRADE_BUTTON
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.ITEM_UPGRADE_BUTTON"
+msgid "UPGRADE"
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.ITEM_UPGRADE_MAXXED
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.ITEM_UPGRADE_MAXXED"
+msgid "Item at max level!"
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.NO_GEM_SLOTS
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.NO_GEM_SLOTS"
+msgid "This item has no gem slots."
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.SWITCH_WEAPON_BTN
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.SWITCH_WEAPON_BTN"
+msgid "<p img='images/icons_ftf/switch.tex' color=0 scale=1.1> Change weapon type"
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.TAB_EQUIPMENT
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.TAB_EQUIPMENT"
+msgid "EQUIPMENT"
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.TAB_ITEM_DETAILS
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.TAB_ITEM_DETAILS"
+msgid "DETAILS"
+msgstr "ДЕТАЛІ"
+
+#: STRINGS.UI.EQUIPMENTSCREEN.TAB_ITEM_GEMS
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.TAB_ITEM_GEMS"
+msgid "GEMS"
+msgstr "САМОЦВІТИ"
+
+#: STRINGS.UI.EQUIPMENTSCREEN.TAB_ITEM_UPGRADES
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.TAB_ITEM_UPGRADES"
+msgid "UPGRADES"
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.TAB_UPGRADES
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.TAB_UPGRADES"
+msgid "UPGRADES"
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.TITLE
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.TITLE"
+msgid "EQUIPMENT"
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.UPGRADES_EMPTY
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.UPGRADES_EMPTY"
+msgid "No equipment station upgrades available yet.\n"
+"Check again later."
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_ARMORSMITH_LEVEL.1
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_ARMORSMITH_LEVEL.1"
+msgid "It'll allow you to upgrade armour up to level 6."
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_ARMORSMITH_LEVEL.2
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_ARMORSMITH_LEVEL.2"
+msgid "It'll allow you to upgrade armour up to level 9."
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_ARMORSMITH_LEVEL.3
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_ARMORSMITH_LEVEL.3"
+msgid "Already at maximum level."
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_ARMORSMITH_TITLE
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_ARMORSMITH_TITLE"
+msgid "Upgrade {name.npc_armorsmith} station"
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_BLACKSMITH_LEVEL.1
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_BLACKSMITH_LEVEL.1"
+msgid "It'll allow you to upgrade weapons up to level 6."
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_BLACKSMITH_LEVEL.2
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_BLACKSMITH_LEVEL.2"
+msgid "It'll allow you to upgrade weapons up to level 9."
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_BLACKSMITH_LEVEL.3
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_BLACKSMITH_LEVEL.3"
+msgid "Already at maximum level."
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_BLACKSMITH_TITLE
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_BLACKSMITH_TITLE"
+msgid "Upgrade {name.npc_blacksmith} station"
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.WEAPON_TYPE_BUTTON
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.WEAPON_TYPE_BUTTON"
+msgid "<p img='%s' color=0 scale=1.8>\n\n"
+"%s"
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.WEAPON_TYPE_BUTTON_LOCKED
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.WEAPON_TYPE_BUTTON_LOCKED"
+msgid "<p img='%s' color=0 scale=1.8>\n\n"
+"<p img='images/icons_ftf/lock_icon.tex' color=0 scale=0.8>%s"
+msgstr ""
+
+#: STRINGS.UI.EQUIPMENTSCREEN.WEAPON_TYPE_TITLE
+msgctxt "STRINGS.UI.EQUIPMENTSCREEN.WEAPON_TYPE_TITLE"
+msgid "Select weapon type"
+msgstr ""
+
 #: STRINGS.UI.EQUIPMENT_STATS.ARMOUR.desc
 msgctxt "STRINGS.UI.EQUIPMENT_STATS.ARMOUR.desc"
 msgid "Reduces the amount of <#RED>{name.concept_damage}</> you take when hit."
@@ -45542,8 +47397,8 @@ msgstr "Зменшує кількість <#RED>{2:{name.concept_damage}}</>, я
 
 #: STRINGS.UI.EQUIPMENT_STATS.ARMOUR.name
 msgctxt "STRINGS.UI.EQUIPMENT_STATS.ARMOUR.name"
-msgid "DMG REDUCTION"
-msgstr "ЗМЕНШЕННЯ ШКОДИ"
+msgid "DEFENSE"
+msgstr ""
 
 #: STRINGS.UI.EQUIPMENT_STATS.CRIT.desc
 msgctxt "STRINGS.UI.EQUIPMENT_STATS.CRIT.desc"
@@ -45584,8 +47439,8 @@ msgstr "Помножує <#RED>{name.concept_damage} зброї</>."
 
 #: STRINGS.UI.EQUIPMENT_STATS.DMG_MULT.name
 msgctxt "STRINGS.UI.EQUIPMENT_STATS.DMG_MULT.name"
-msgid "WEAPON DAMAGE MULTIPLIER"
-msgstr "МНОЖНИК ШКОДИ ЗБРОЇ"
+msgid "ATTACK"
+msgstr ""
 
 #: STRINGS.UI.EQUIPMENT_STATS.DURABILITY.desc
 msgctxt "STRINGS.UI.EQUIPMENT_STATS.DURABILITY.desc"
@@ -45730,13 +47585,18 @@ msgstr "ЗАГОРНУТИ"
 
 #: STRINGS.UI.FARMING.ALREADY_WATERED
 msgctxt "STRINGS.UI.FARMING.ALREADY_WATERED"
-msgid "Doesn't Need Water"
-msgstr "Не потребує води"
+msgid "Already Watered"
+msgstr ""
 
 #: STRINGS.UI.FARMING.CLOSE_SELECTION
 msgctxt "STRINGS.UI.FARMING.CLOSE_SELECTION"
 msgid "<p bind='Controls.Digital.CANCEL' color=0> Cancel"
 msgstr "<p bind='Controls.Digital.CANCEL' color=0> Скасувати"
+
+#: STRINGS.UI.FARMING.CROP_INFO.ACCELERATED
+msgctxt "STRINGS.UI.FARMING.CROP_INFO.ACCELERATED"
+msgid "<p img='images/ui_ftf/accelerate.tex'> Accelerated: This seed will grow faster"
+msgstr ""
 
 #: STRINGS.UI.FARMING.CROP_INFO.DROPS
 msgctxt "STRINGS.UI.FARMING.CROP_INFO.DROPS"
@@ -45767,6 +47627,21 @@ msgstr "{turns_passed}/{turns_to_mature} днів"
 msgctxt "STRINGS.UI.FARMING.CROP_INFO.GROWTH_PROGRESS_TITLE"
 msgid "GROWTH PROGRESS"
 msgstr "ПРОГРЕС РОСТУ"
+
+#: STRINGS.UI.FARMING.CROP_INFO.HARVEST_AMOUNT_FIXED
+msgctxt "STRINGS.UI.FARMING.CROP_INFO.HARVEST_AMOUNT_FIXED"
+msgid "({amount})"
+msgstr ""
+
+#: STRINGS.UI.FARMING.CROP_INFO.HARVEST_AMOUNT_RANGE
+msgctxt "STRINGS.UI.FARMING.CROP_INFO.HARVEST_AMOUNT_RANGE"
+msgid "({min}-{max})"
+msgstr ""
+
+#: STRINGS.UI.FARMING.CROP_INFO.HARVEST_TITLE
+msgctxt "STRINGS.UI.FARMING.CROP_INFO.HARVEST_TITLE"
+msgid "HARVEST DROPS"
+msgstr ""
 
 #: STRINGS.UI.FARMING.CROP_INFO.SEEDS
 msgctxt "STRINGS.UI.FARMING.CROP_INFO.SEEDS"
@@ -45800,8 +47675,8 @@ msgstr "Можна збирати!"
 
 #: STRINGS.UI.FARMING.CROP_INFO.WATER_STATUS_WATERED
 msgctxt "STRINGS.UI.FARMING.CROP_INFO.WATER_STATUS_WATERED"
-msgid "Doesn't need water"
-msgstr "Не потребує води"
+msgid "Watered"
+msgstr ""
 
 #: STRINGS.UI.FARMING.EQUIP
 msgctxt "STRINGS.UI.FARMING.EQUIP"
@@ -45820,8 +47695,9 @@ msgstr "{Name.interact_tap} Посадити насіння"
 
 #: STRINGS.UI.FARMING.SELECT_CROP_EMPTY_LIST
 msgctxt "STRINGS.UI.FARMING.SELECT_CROP_EMPTY_LIST"
-msgid "You don't have any seeds."
-msgstr "У вас немає насіння."
+msgid "You don't have any seeds.\n\n"
+"<i>Find them while out Hunting!</i>"
+msgstr ""
 
 #: STRINGS.UI.FARMING.SELECT_CROP_TITLE
 msgctxt "STRINGS.UI.FARMING.SELECT_CROP_TITLE"
@@ -45867,6 +47743,16 @@ msgstr "{Name.interact_tap} Полити"
 msgctxt "STRINGS.UI.FARMING.UNEQUIP"
 msgid "{name.interact_tap} Unequip {tool}"
 msgstr "{Name.interact_tap} Зняти {tool}"
+
+#: STRINGS.UI.FARM_PLOT_SIGN.OWNERSHIP
+msgctxt "STRINGS.UI.FARM_PLOT_SIGN.OWNERSHIP"
+msgid "%s's Farm"
+msgstr ""
+
+#: STRINGS.UI.FARM_PLOT_SIGN.RESERVED
+msgctxt "STRINGS.UI.FARM_PLOT_SIGN.RESERVED"
+msgid "Reserved"
+msgstr ""
 
 #: STRINGS.UI.FEEDBACK_SCREEN.ABOUT
 msgctxt "STRINGS.UI.FEEDBACK_SCREEN.ABOUT"
@@ -46064,26 +47950,60 @@ msgctxt "STRINGS.UI.FOODSCREEN.COOK_BTN"
 msgid "Prepare meal"
 msgstr "Приготувати їжу"
 
+#: STRINGS.UI.FOODSCREEN.COOK_BTN_SOLD_OUT
+msgctxt "STRINGS.UI.FOODSCREEN.COOK_BTN_SOLD_OUT"
+msgid "Sold out!"
+msgstr ""
+
 #: STRINGS.UI.FOODSCREEN.DESC
 msgctxt "STRINGS.UI.FOODSCREEN.DESC"
 msgid "Combine ingredients for a Power-full combination!"
 msgstr "Поєднуйте інгредієнти для Сильного поєднання смаків!"
+
+#: STRINGS.UI.FOODSCREEN.HOTKEY_COOK
+msgctxt "STRINGS.UI.FOODSCREEN.HOTKEY_COOK"
+msgid "Prepare meal"
+msgstr "Приготувати їжу"
+
+#: STRINGS.UI.FOODSCREEN.HOTKEY_INFO
+msgctxt "STRINGS.UI.FOODSCREEN.HOTKEY_INFO"
+msgid "Ingredient info"
+msgstr "Інформація про інгредієнт"
 
 #: STRINGS.UI.FOODSCREEN.INVENTORY_COUNT
 msgctxt "STRINGS.UI.FOODSCREEN.INVENTORY_COUNT"
 msgid "%d in <p img='images/icons_ftf/inventory_equipment.tex' color=0>"
 msgstr "%d в <p img='images/icons_ftf/inventory_equipment.tex' color=0>"
 
-#: STRINGS.UI.FOODSCREEN.LIST_HOTKEYS
-msgctxt "STRINGS.UI.FOODSCREEN.LIST_HOTKEYS"
-msgid "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Prepare meal"
-msgstr "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Приготувати їжу"
+#: STRINGS.UI.FOODSCREEN.NUM_REMAINING
+msgctxt "STRINGS.UI.FOODSCREEN.NUM_REMAINING"
+msgid "{num_left} left"
+msgstr "{num_left} вийшов"
 
-#: STRINGS.UI.FOODSCREEN.LIST_HOTKEYS_GAMEPAD
-msgctxt "STRINGS.UI.FOODSCREEN.LIST_HOTKEYS_GAMEPAD"
-msgid "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Prepare meal    <p bind='Controls.Digital.A' color=0 scale=1> Info"
-msgstr "<p bind='Controls.Digital.CRAFT_ITEM' color=0 scale=1> Приготувати їжу\n"
-"<p bind='Controls.Digital.A' color=0 scale=1> Інфо"
+#: STRINGS.UI.FOODSCREEN.SOLD_OUT
+msgctxt "STRINGS.UI.FOODSCREEN.SOLD_OUT"
+msgid "Sold out!"
+msgstr ""
+
+#: STRINGS.UI.FOODSCREEN.TEMPORARY_MENU_TITLE
+msgctxt "STRINGS.UI.FOODSCREEN.TEMPORARY_MENU_TITLE"
+msgid "LIMITED SPECIALS!"
+msgstr ""
+
+#: STRINGS.UI.FOODSCREEN.TIME_REMAINING
+msgctxt "STRINGS.UI.FOODSCREEN.TIME_REMAINING"
+msgid "{days_left} days"
+msgstr "{days_left} днів"
+
+#: STRINGS.UI.FOODSCREEN.TIME_REMAINING_LAST_DAY
+msgctxt "STRINGS.UI.FOODSCREEN.TIME_REMAINING_LAST_DAY"
+msgid "Last day!"
+msgstr ""
+
+#: STRINGS.UI.FOODSCREEN.TIME_REMAINING_TITLE
+msgctxt "STRINGS.UI.FOODSCREEN.TIME_REMAINING_TITLE"
+msgid "TIME LEFT"
+msgstr ""
 
 #: STRINGS.UI.FOODSCREEN.TITLE
 msgctxt "STRINGS.UI.FOODSCREEN.TITLE"
@@ -46705,6 +48625,16 @@ msgctxt "STRINGS.UI.HELP.ZOOM_OUT"
 msgid "Zoom Out"
 msgstr "Зменшити"
 
+#: STRINGS.UI.HOTKEY_DISABLED
+msgctxt "STRINGS.UI.HOTKEY_DISABLED"
+msgid "<#DISABLED_HOTKEYS><p bind='{control}' color=0 scale=1> {label}</>"
+msgstr ""
+
+#: STRINGS.UI.HOTKEY_ENABLED
+msgctxt "STRINGS.UI.HOTKEY_ENABLED"
+msgid "<p bind='{control}' color=0 scale=1> {label}"
+msgstr "<p bind='{control}' color=0 scale=1> {label}"
+
 #: STRINGS.UI.HUD.CANNOT_INTERACT_BUSY
 msgctxt "STRINGS.UI.HUD.CANNOT_INTERACT_BUSY"
 msgid "A player is in a menu"
@@ -47262,26 +49192,12 @@ msgctxt "STRINGS.UI.INVENTORYSCREEN.WEIGHT_NORMAL"
 msgid "M"
 msgstr "Н"
 
-#: STRINGS.UI.INVENTORYSCREEN.WEIGHT_TOOLTIP_HEAVY
-msgctxt "STRINGS.UI.INVENTORYSCREEN.WEIGHT_TOOLTIP_HEAVY"
-msgid "<#BLUE>{name.heavy_weight} Class</>\n"
-"<z 0.9>A heavyweight build with high <#RED>{name.concept_damage} Resistance</> and low speed</>"
-msgstr "<#BLUE>Клас {name.heavy_weight}</>\n"
-"<z 0.9>Важка конструкція з високою <#RED>стійкістю до {2:{name.concept_damage}}</> і низькою швидкістю</>"
-
-#: STRINGS.UI.INVENTORYSCREEN.WEIGHT_TOOLTIP_LIGHT
-msgctxt "STRINGS.UI.INVENTORYSCREEN.WEIGHT_TOOLTIP_LIGHT"
-msgid "<#BLUE>{name.light_weight} Class</>\n"
-"<z 0.9>A lightweight build with a quick <#RED>{name.concept_dodge}</> and shorter invulnerability period</>"
-msgstr "<#BLUE>Клас {name.light_weight}</>\n"
-"<z 0.9>Легка конструкція зі швидким <#RED>{name.concept_dodge}</> і коротшим періодом невразливості</>"
-
-#: STRINGS.UI.INVENTORYSCREEN.WEIGHT_TOOLTIP_MEDIUM
-msgctxt "STRINGS.UI.INVENTORYSCREEN.WEIGHT_TOOLTIP_MEDIUM"
-msgid "<#BLUE>{name.medium_weight} Class</>\n"
-"<z 0.9>A medium-weight build with an even spread of speed, <#RED>{name.concept_damage}</>, and <#RED>{name.concept_damage} Resistance</></>"
-msgstr "<#BLUE>Клас {name.medium_weight}</>\n"
-"<z 0.9>Середня вага з рівномірним розподілом швидкості, <#RED>{2:{name.concept_damage}}</> та <#RED>стійкості до {2:{name.concept_damage}}</></>"
+#: STRINGS.UI.INVENTORYSCREEN.WEIGHT_TOOLTIP_CLASS
+msgctxt "STRINGS.UI.INVENTORYSCREEN.WEIGHT_TOOLTIP_CLASS"
+msgid "<#BLUE>{name}</>\n"
+"<z 0.9>{desc}</>"
+msgstr "<#BLUE>{name}</>\n"
+"<z 0.9>{desc}</>"
 
 #: STRINGS.UI.INVENTORYSCREEN.WEIGHT_TOOLTIP_PREVIEW_HEAVY
 msgctxt "STRINGS.UI.INVENTORYSCREEN.WEIGHT_TOOLTIP_PREVIEW_HEAVY"
@@ -47336,6 +49252,11 @@ msgctxt "STRINGS.UI.KEYITEMGIVER.default"
 msgid "Interact"
 msgstr "Взаємодія"
 
+#: STRINGS.UI.KEYITEMGIVER.keyitem_farmtools
+msgctxt "STRINGS.UI.KEYITEMGIVER.keyitem_farmtools"
+msgid "Pick up {name.farmtools}"
+msgstr "Забрати {name.farmtools}"
+
 #: STRINGS.UI.KEYITEMGIVER.keyitem_gemtools
 msgctxt "STRINGS.UI.KEYITEMGIVER.keyitem_gemtools"
 msgid "Pick up {name.gemtools}"
@@ -47372,6 +49293,11 @@ msgstr "Зверніть увагу!"
 msgctxt "STRINGS.UI.LOADINGINDICATOR.LOADING_TEXT"
 msgid "Loading..."
 msgstr "Завантаження..."
+
+#: STRINGS.UI.LUCKY_POPUP
+msgctxt "STRINGS.UI.LUCKY_POPUP"
+msgid "LUCKY!"
+msgstr ""
 
 #: STRINGS.UI.MAINSCREEN.ASKQUIT
 msgctxt "STRINGS.UI.MAINSCREEN.ASKQUIT"
@@ -47740,10 +49666,30 @@ msgctxt "STRINGS.UI.MAINSCREEN.SCRIPTERROR_DEBUG"
 msgid "<p img='images/ui_ftf_icons/console.tex' scale=1.2 color=0>  Debug Console"
 msgstr "<p img='images/ui_ftf_icons/console.tex' scale=1.2 color=0>  Консоль"
 
-#: STRINGS.UI.MAINSCREEN.SCRIPTERROR_MODWARNING
-msgctxt "STRINGS.UI.MAINSCREEN.SCRIPTERROR_MODWARNING"
-msgid "You had these mods:\n"
-msgstr "У вас були такі моди:\n"
+#: STRINGS.UI.MAINSCREEN.SCRIPTERROR_MOD.BLAME_RESOLVE
+msgctxt "STRINGS.UI.MAINSCREEN.SCRIPTERROR_MOD.BLAME_RESOLVE"
+msgid "The mod will be disabled, re-enable it from the mods menu."
+msgstr "Модифікацію буде вимкнено, щоб увімкнути її знову, скористайтеся меню модів."
+
+#: STRINGS.UI.MAINSCREEN.SCRIPTERROR_MOD.BLAME_TARGET
+msgctxt "STRINGS.UI.MAINSCREEN.SCRIPTERROR_MOD.BLAME_TARGET"
+msgid "The following mod(s) have caused a failure:"
+msgstr "Наступна(і) модифікація(ії) спричинили збій:"
+
+#: STRINGS.UI.MAINSCREEN.SCRIPTERROR_MOD.INSTALLED_MODS
+msgctxt "STRINGS.UI.MAINSCREEN.SCRIPTERROR_MOD.INSTALLED_MODS"
+msgid "You had these mods:"
+msgstr "У вас були такі моди:"
+
+#: STRINGS.UI.MAINSCREEN.SCRIPTERROR_MOD.MODFORUMS
+msgctxt "STRINGS.UI.MAINSCREEN.SCRIPTERROR_MOD.MODFORUMS"
+msgid "Mod Forums"
+msgstr "Форум модів"
+
+#: STRINGS.UI.MAINSCREEN.SCRIPTERROR_MOD.RESET_WITHOUT_MODS
+msgctxt "STRINGS.UI.MAINSCREEN.SCRIPTERROR_MOD.RESET_WITHOUT_MODS"
+msgid "Disable Mods"
+msgstr "Вимкнути моди"
 
 #: STRINGS.UI.MAINSCREEN.SCRIPTERROR_RESTART
 msgctxt "STRINGS.UI.MAINSCREEN.SCRIPTERROR_RESTART"
@@ -48374,6 +50320,16 @@ msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.BOSS_WEAPON_CRAFTING.TITLE"
 msgid "{name_multiple.weapon_crystal}"
 msgstr "{Name_multiple.weapon_crystal}"
 
+#: STRINGS.UI.MECHANIC_TUTORIALS.FARMTOOLS_UNLOCKED.DESC
+msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.FARMTOOLS_UNLOCKED.DESC"
+msgid "Equip {name.farmtools} to plant, uproot, harvest and water your plants! The <#RED>Seed Exchange</> is also unlocked!"
+msgstr ""
+
+#: STRINGS.UI.MECHANIC_TUTORIALS.FARMTOOLS_UNLOCKED.TITLE
+msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.FARMTOOLS_UNLOCKED.TITLE"
+msgid "{name.farmtools} Unlocked!"
+msgstr "{name.farmtools} розблокований!"
+
 #: STRINGS.UI.MECHANIC_TUTORIALS.GEMTABLE_UNLOCKED.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.GEMTABLE_UNLOCKED.DESC"
 msgid "Use the <#RED>{name.gemtools}</> to cut <#RED>{name_multiple.gem}</> and set them in your <#RED>Weapons</>."
@@ -48801,6 +50757,11 @@ msgctxt "STRINGS.UI.NOTIFICATION.ITEM_OBTAINED.TITLE"
 msgid "{item_name}"
 msgstr "{item_name}"
 
+#: STRINGS.UI.NOTIFICATION.ITEM_OBTAINED.TITLE_MULTIPLE
+msgctxt "STRINGS.UI.NOTIFICATION.ITEM_OBTAINED.TITLE_MULTIPLE"
+msgid "{item_name} x{count}"
+msgstr ""
+
 #: STRINGS.UI.NOTIFICATION.LOADING
 msgctxt "STRINGS.UI.NOTIFICATION.LOADING"
 msgid "Loading"
@@ -48815,6 +50776,16 @@ msgstr "Натисніть {input}, щоб від'єднатися"
 msgctxt "STRINGS.UI.NOTIFICATION.SAVING"
 msgid "Saving"
 msgstr "Збереження"
+
+#: STRINGS.UI.NOTIFICATION.TIME_PASSED.DESC
+msgctxt "STRINGS.UI.NOTIFICATION.TIME_PASSED.DESC"
+msgid "The day has progressed."
+msgstr ""
+
+#: STRINGS.UI.NOTIFICATION.TIME_PASSED.TITLE
+msgctxt "STRINGS.UI.NOTIFICATION.TIME_PASSED.TITLE"
+msgid "New Day!"
+msgstr "Новий день!"
 
 #: STRINGS.UI.ONLINESCREEN.BACK
 msgctxt "STRINGS.UI.ONLINESCREEN.BACK"
@@ -49446,6 +51417,13 @@ msgstr "Збір даних"
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.LANGUAGE_DESC"
 msgid "The translation to use for the user interface and dialogue text."
 msgstr "Переклад інтерфейсу та діалогів."
+
+#: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.LANGUAGE_MOD_DESC
+msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.LANGUAGE_MOD_DESC"
+msgid "A fan-provided mod translation of in-game text created by {author}.\n"
+"Mod v{version} description: {mod_desc}"
+msgstr "Наданий фанатами мод перекладу ігрового тексту, створений {author}.\n"
+"Опис модифікації v{version}: {mod_desc}"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.LANGUAGE_TITLE
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.LANGUAGE_TITLE"
@@ -50585,155 +52563,6 @@ msgctxt "STRINGS.UI.RESEARCHSCREEN.WEAPON_LOCKED"
 msgid "You haven't unlocked this weapon type yet."
 msgstr "Ви ще не розблокували цей тип зброї."
 
-#: STRINGS.UI.ROOM_PREVIEW.BIGTOKEN1
-msgctxt "STRINGS.UI.ROOM_PREVIEW.BIGTOKEN1"
-msgid ""
-msgstr ""
-""
-
-#: STRINGS.UI.ROOM_PREVIEW.BIGTOKEN2
-msgctxt "STRINGS.UI.ROOM_PREVIEW.BIGTOKEN2"
-msgid ""
-msgstr ""
-""
-
-#: STRINGS.UI.ROOM_PREVIEW.BOSS_BANDICOOT
-msgctxt "STRINGS.UI.ROOM_PREVIEW.BOSS_BANDICOOT"
-msgid "Danger ahead"
-msgstr "Попереду небезпека"
-
-#: STRINGS.UI.ROOM_PREVIEW.BOSS_MEGATREEMON
-msgctxt "STRINGS.UI.ROOM_PREVIEW.BOSS_MEGATREEMON"
-msgid "Danger ahead"
-msgstr "Попереду небезпека"
-
-#: STRINGS.UI.ROOM_PREVIEW.BOSS_OWLITZER
-msgctxt "STRINGS.UI.ROOM_PREVIEW.BOSS_OWLITZER"
-msgid "Danger ahead"
-msgstr "Попереду небезпека"
-
-#: STRINGS.UI.ROOM_PREVIEW.BOSS_SEDAMENT
-msgctxt "STRINGS.UI.ROOM_PREVIEW.BOSS_SEDAMENT"
-msgid "Danger ahead"
-msgstr "Попереду небезпека"
-
-#: STRINGS.UI.ROOM_PREVIEW.BOSS_THATCHER
-msgctxt "STRINGS.UI.ROOM_PREVIEW.BOSS_THATCHER"
-msgid "Danger ahead"
-msgstr "Попереду небезпека"
-
-#: STRINGS.UI.ROOM_PREVIEW.COIN1
-msgctxt "STRINGS.UI.ROOM_PREVIEW.COIN1"
-msgid "{name.konjur} rewards"
-msgstr "{Name.konjur} у нагороду"
-
-#: STRINGS.UI.ROOM_PREVIEW.COIN2
-msgctxt "STRINGS.UI.ROOM_PREVIEW.COIN2"
-msgid "Challenge ahead!\n"
-"{name.konjur} rewards"
-msgstr "Киньте виклик!\n"
-"{name.konjur} у нагороду"
-
-#: STRINGS.UI.ROOM_PREVIEW.FABLED1
-msgctxt "STRINGS.UI.ROOM_PREVIEW.FABLED1"
-msgid "Get a special power!"
-msgstr "Отримайте особливу силу!"
-
-#: STRINGS.UI.ROOM_PREVIEW.FABLED2
-msgctxt "STRINGS.UI.ROOM_PREVIEW.FABLED2"
-msgid "Challenge ahead!\n"
-"Get a special power!"
-msgstr "Киньте виклик!\n"
-"Отримайте особливу силу!"
-
-#: STRINGS.UI.ROOM_PREVIEW.FOOD
-msgctxt "STRINGS.UI.ROOM_PREVIEW.FOOD"
-msgid "Fill your stomach!"
-msgstr "Заповніть шлунок!"
-
-#: STRINGS.UI.ROOM_PREVIEW.MARKET
-msgctxt "STRINGS.UI.ROOM_PREVIEW.MARKET"
-msgid "Armor, weapons and resources!"
-msgstr "Обладунки, зброя і ресурси!"
-
-#: STRINGS.UI.ROOM_PREVIEW.MATERIAL1
-msgctxt "STRINGS.UI.ROOM_PREVIEW.MATERIAL1"
-msgid "Loot and material rewards"
-msgstr "Здобич і матеріали у нагороду"
-
-#: STRINGS.UI.ROOM_PREVIEW.MATERIAL2
-msgctxt "STRINGS.UI.ROOM_PREVIEW.MATERIAL2"
-msgid "Challenge ahead!\n"
-"Loot and material rewards"
-msgstr "Киньте виклик!\n"
-"Здобич і матеріали у нагороду"
-
-#: STRINGS.UI.ROOM_PREVIEW.METAUNLOCK
-msgctxt "STRINGS.UI.ROOM_PREVIEW.METAUNLOCK"
-msgid "New unlocks!"
-msgstr "Відкрито нове!"
-
-#: STRINGS.UI.ROOM_PREVIEW.MINIBOSS
-msgctxt "STRINGS.UI.ROOM_PREVIEW.MINIBOSS"
-msgid "Danger ahead"
-msgstr "Попереду небезпека"
-
-#: STRINGS.UI.ROOM_PREVIEW.PLAIN1
-msgctxt "STRINGS.UI.ROOM_PREVIEW.PLAIN1"
-msgid "Get a new power!"
-msgstr "Отримайте нову силу!"
-
-#: STRINGS.UI.ROOM_PREVIEW.PLAIN2
-msgctxt "STRINGS.UI.ROOM_PREVIEW.PLAIN2"
-msgid "Challenge ahead!\n"
-"Get a new power!"
-msgstr "Киньте виклик!\n"
-"Отримайте нову силу!"
-
-#: STRINGS.UI.ROOM_PREVIEW.POTION
-msgctxt "STRINGS.UI.ROOM_PREVIEW.POTION"
-msgid "Restore your health!"
-msgstr "Відновіть ваше здоров'я!"
-
-#: STRINGS.UI.ROOM_PREVIEW.POWERUPGRADE
-msgctxt "STRINGS.UI.ROOM_PREVIEW.POWERUPGRADE"
-msgid "Upgrade your powers!"
-msgstr "Поліпшіть свої сили!"
-
-#: STRINGS.UI.ROOM_PREVIEW.QUEST
-msgctxt "STRINGS.UI.ROOM_PREVIEW.QUEST"
-msgid "Move the story forward!"
-msgstr "Рухайте історію вперед!"
-
-#: STRINGS.UI.ROOM_PREVIEW.SKILL1
-msgctxt "STRINGS.UI.ROOM_PREVIEW.SKILL1"
-msgid "Get new skill!"
-msgstr "Здобудь нову навичку!"
-
-#: STRINGS.UI.ROOM_PREVIEW.SKILL2
-msgctxt "STRINGS.UI.ROOM_PREVIEW.SKILL2"
-msgid "Challenge ahead!\n"
-"Get a new skill!"
-msgstr "Киньте виклик!\n"
-"Отримайте нову навичку!"
-
-#: STRINGS.UI.ROOM_PREVIEW.SMALLTOKEN1
-msgctxt "STRINGS.UI.ROOM_PREVIEW.SMALLTOKEN1"
-msgid "Corestones rewards"
-msgstr "Кам'яне ядро у нагороду"
-
-#: STRINGS.UI.ROOM_PREVIEW.SMALLTOKEN2
-msgctxt "STRINGS.UI.ROOM_PREVIEW.SMALLTOKEN2"
-msgid "Challenge ahead!\n"
-"Corestones rewards"
-msgstr "Киньте виклик!\n"
-"Кам'яне ядро у нагороду"
-
-#: STRINGS.UI.ROOM_PREVIEW.SPECIALEVENT
-msgctxt "STRINGS.UI.ROOM_PREVIEW.SPECIALEVENT"
-msgid "???"
-msgstr "???"
-
 #: STRINGS.UI.SCREENOPENER_PROP.armory
 msgctxt "STRINGS.UI.SCREENOPENER_PROP.armory"
 msgid "Open Armoury"
@@ -50801,38 +52630,33 @@ msgstr "<p img='images/ui_ftf_dialog/quirk_vip.tex' color=0> Усунення н
 
 #: STRINGS.UI.SEEDGRINDSCREEN.DESC
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.DESC"
-msgid "Crush some of your materials into seeds."
-msgstr "Подрібніть частину ваших матеріалів на насіння."
+msgid "Transmute one type of seed into another."
+msgstr ""
 
 #: STRINGS.UI.SEEDGRINDSCREEN.DROP_AREA_INFO
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.DROP_AREA_INFO"
-msgid "Select materials to grind into a seed."
-msgstr "Виберіть матеріали для подрібнення в насіння."
+msgid "Transmute seeds into other seeds."
+msgstr ""
 
 #: STRINGS.UI.SEEDGRINDSCREEN.DROP_AREA_TITLE
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.DROP_AREA_TITLE"
-msgid "Grinder"
-msgstr "Подрібнювач"
+msgid "Transmute"
+msgstr ""
 
 #: STRINGS.UI.SEEDGRINDSCREEN.EMPTY_LIST
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.EMPTY_LIST"
-msgid "Explore more to find materials you can turn into seeds."
-msgstr "Досліджуйте більше, щоб знайти матеріали, які можна перетворити на насіння."
+msgid "Explore to find different types of seeds."
+msgstr ""
 
 #: STRINGS.UI.SEEDGRINDSCREEN.GRIND_BTN
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.GRIND_BTN"
-msgid "Grind"
-msgstr "Перемолоти"
-
-#: STRINGS.UI.SEEDGRINDSCREEN.GRIND_DISABLED_HOTKEY
-msgctxt "STRINGS.UI.SEEDGRINDSCREEN.GRIND_DISABLED_HOTKEY"
-msgid "<#DISABLED_HOTKEYS><p bind='Controls.Digital.MENU_SECONDARY' color=0 scale=1> Grind materials</>"
-msgstr "<#DISABLED_HOTKEYS><p bind='Controls.Digital.MENU_SECONDARY' color=0 scale=1> Подрібнити</>"
+msgid "Transmute"
+msgstr ""
 
 #: STRINGS.UI.SEEDGRINDSCREEN.GRIND_HOTKEY
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.GRIND_HOTKEY"
-msgid "<p bind='Controls.Digital.MENU_SECONDARY' color=0 scale=1> Grind materials"
-msgstr "<p bind='Controls.Digital.MENU_SECONDARY' color=0 scale=1> Подрібнити"
+msgid "Transmute"
+msgstr ""
 
 #: STRINGS.UI.SEEDGRINDSCREEN.INVENTORY_COUNT
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.INVENTORY_COUNT"
@@ -50841,8 +52665,8 @@ msgstr "%d в <p img='images/icons_ftf/inventory_equipment.tex' color=0>"
 
 #: STRINGS.UI.SEEDGRINDSCREEN.MATERIAL_HOTKEY
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.MATERIAL_HOTKEY"
-msgid "<p bind='Controls.Digital.ACCEPT' color=0 scale=1> Add material"
-msgstr "<p bind='Controls.Digital.ACCEPT' color=0 scale=1> Додати матеріал"
+msgid "Add"
+msgstr ""
 
 #: STRINGS.UI.SEEDGRINDSCREEN.NOTIFICATION_GRIND_ITEM
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.NOTIFICATION_GRIND_ITEM"
@@ -50861,13 +52685,13 @@ msgstr "<p img='images/ui_ftf_icons/reset.tex' color=0 scale=0.9> Очистит
 
 #: STRINGS.UI.SEEDGRINDSCREEN.RESET_HOTKEY
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.RESET_HOTKEY"
-msgid "<p bind='Controls.Digital.CANCEL' color=0 scale=1> Clear"
-msgstr "<p bind='Controls.Digital.CANCEL' color=0 scale=1> Очистити"
+msgid "Clear"
+msgstr ""
 
 #: STRINGS.UI.SEEDGRINDSCREEN.TITLE
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.TITLE"
-msgid "Seed Grinder"
-msgstr "Подрібнювач насіння"
+msgid "Seed Exchange"
+msgstr ""
 
 #: STRINGS.UI.SELECTFOODSCREEN.DESC
 msgctxt "STRINGS.UI.SELECTFOODSCREEN.DESC"
@@ -51173,6 +52997,16 @@ msgctxt "STRINGS.UI.TOOLTIPS.LIGHT_ATTACK.NAME"
 msgid "Light Attack"
 msgstr "Легка атака"
 
+#: STRINGS.UI.TOOLTIPS.LUCK.DESC
+msgctxt "STRINGS.UI.TOOLTIPS.LUCK.DESC"
+msgid "The chances of good things happening to you, like finding more <#RED>{name_multiple.material}</>, <#KONJUR>{name.konjur}</>, or even being <#RED>Lucky Revived</>."
+msgstr ""
+
+#: STRINGS.UI.TOOLTIPS.LUCK.NAME
+msgctxt "STRINGS.UI.TOOLTIPS.LUCK.NAME"
+msgid "Luck"
+msgstr "Удача"
+
 #: STRINGS.UI.TOOLTIPS.LUCKY.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.LUCKY.DESC"
 msgid "The quality of this roll was upgraded because of your <#RED>Luck</>! Lucky you!"
@@ -51336,6 +53170,26 @@ msgctxt "STRINGS.UI.UNITFRAME.WAITING_TO_JOIN"
 msgid "Waiting to join safely!"
 msgstr "Очікуйте на безпечне приєднання!"
 
+#: STRINGS.UI.UNLOCKGRINDERPANEL.DESC
+msgctxt "STRINGS.UI.UNLOCKGRINDERPANEL.DESC"
+msgid "Grow ingredients to repair the Seed Exchange"
+msgstr ""
+
+#: STRINGS.UI.UNLOCKGRINDERPANEL.INGREDIENTS
+msgctxt "STRINGS.UI.UNLOCKGRINDERPANEL.INGREDIENTS"
+msgid "Ingredients"
+msgstr "Інгредієнти"
+
+#: STRINGS.UI.UNLOCKGRINDERPANEL.TITLE
+msgctxt "STRINGS.UI.UNLOCKGRINDERPANEL.TITLE"
+msgid "Seed Exchange"
+msgstr ""
+
+#: STRINGS.UI.UNLOCKGRINDERPANEL.UNLOCK_BTN
+msgctxt "STRINGS.UI.UNLOCKGRINDERPANEL.UNLOCK_BTN"
+msgid "Repair"
+msgstr ""
+
 #: STRINGS.UI.VENDING_MACHINE.ALREADY_PURCHASED
 msgctxt "STRINGS.UI.VENDING_MACHINE.ALREADY_PURCHASED"
 msgid "Already owned"
@@ -51393,9 +53247,8 @@ msgstr "Оплата завершена"
 #: STRINGS.UI.VENDING_MACHINE.PURCHASE
 msgctxt "STRINGS.UI.VENDING_MACHINE.PURCHASE"
 msgid "{name.interact_tap} Purchase\n"
-"({name.interact_hold}) Purchase and equip"
-msgstr "{Name.interact_tap} Купити\n"
-"({Name.interact_hold}) Купити та екіпірувати"
+"{name.interact_hold} Purchase and equip"
+msgstr ""
 
 #: STRINGS.UI.VENDING_MACHINE.REFUND
 msgctxt "STRINGS.UI.VENDING_MACHINE.REFUND"
@@ -51426,6 +53279,11 @@ msgstr "{Name_multiple.material}"
 msgctxt "STRINGS.UI.VENDING_MACHINE.SHOP_INVENTORY.potion"
 msgid "{name.potion} Refill"
 msgstr "Поповнення {name.potion}"
+
+#: STRINGS.UI.VENDING_MACHINE.SHOP_INVENTORY.seed_bag
+msgctxt "STRINGS.UI.VENDING_MACHINE.SHOP_INVENTORY.seed_bag"
+msgid "Seeds"
+msgstr "Насіння"
 
 #: STRINGS.UI.VENDING_MACHINE.SHOP_INVENTORY.shield
 msgctxt "STRINGS.UI.VENDING_MACHINE.SHOP_INVENTORY.shield"
