@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-03-08 19:27\n"
+"PO-Revision-Date: 2025-03-09 09:17\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -25482,7 +25482,7 @@ msgstr "Краще, ніж виглядає!"
 #: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_bandi_swamp.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_bandi_swamp.name"
 msgid "Re-fried Bog Beans"
-msgstr "Повторно обсмажена болотна квасоля"
+msgstr "Повторно обсмажені болотні боби"
 
 #: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_eggzy_tundra.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_eggzy_tundra.desc"
@@ -25502,7 +25502,7 @@ msgstr "Гаряче поєднується з вологим у цій унік
 #: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_grimhollow_volcano.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_grimhollow_volcano.name"
 msgid "Black Bean Chow Mein"
-msgstr "Чау Мейн з чорною квасолею"
+msgstr "Чау Мейн з чорними бобами"
 
 #: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_owlitzer_forest.desc"
@@ -25512,43 +25512,44 @@ msgstr "Екзотична лісова суміш."
 #: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_owlitzer_forest.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_owlitzer_forest.name"
 msgid "Buzzworthy Pudding"
-msgstr ""
+msgstr "Чудовий пудинг"
 
 #: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_sedament_tundra.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_sedament_tundra.desc"
 msgid "An unlikely but delectable duo."
-msgstr ""
+msgstr "Несподіваний, але вишуканий дует."
 
 #: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_sedament_tundra.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_sedament_tundra.name"
 msgid "Bean Casserole"
-msgstr ""
+msgstr "Запіканка з бобів"
 
 #: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_thatcher_swamp.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_thatcher_swamp.desc"
 msgid "Twice the swamp, twice the flavor."
-msgstr ""
+msgstr "Удвічі більше болота, удвічі більше смаку."
 
 #: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_thatcher_swamp.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_thatcher_swamp.name"
 msgid "Jelly Rolls"
-msgstr ""
+msgstr "Желейні рулетики"
 
 #: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_treemon_forest.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_treemon_forest.desc"
 msgid "A bold fusion of flavors."
-msgstr ""
+msgstr "Сміливе поєднання смаків."
 
 #: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_treemon_forest.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_treemon_forest.name"
 msgid "Sweet Bean Dessert"
-msgstr ""
+msgstr "Десерт із солодких бобів"
 
 #: STRINGS.ITEMS.COOKED_FOOD.cabbage_wrap.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.cabbage_wrap.desc"
 msgid "Some <#RED>{name_multiple.cabbageroll}</> were harmed in the making of this snack.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr ""
+msgstr "Декілька <#RED>{Name_multiple.cabbageroll}</> постраждали під час створення цієї закуски.\n\n"
+"<#RED>Бафф</> залишається активними протягом забігу."
 
 #: STRINGS.ITEMS.COOKED_FOOD.cabbage_wrap.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.cabbage_wrap.name"
@@ -25559,7 +25560,8 @@ msgstr "Загорток з цибулі"
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.cased_sausage.desc"
 msgid "Pack yourself a snack for the road, just in case.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr ""
+msgstr "Візьміть з собою перекус на дорогу, про всяк випадок.\n\n"
+"<#RED>Бафф</> залишається активними протягом забігу."
 
 #: STRINGS.ITEMS.COOKED_FOOD.cased_sausage.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.cased_sausage.name"
@@ -25570,7 +25572,8 @@ msgstr "Ковбаса в оболонці"
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.dimsum.desc"
 msgid "You know you want sum.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr ""
+msgstr "Ви ж точно цього хочете.\n\n"
+"<#RED>Бафф</> залишається активними протягом забігу."
 
 #: STRINGS.ITEMS.COOKED_FOOD.dimsum.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.dimsum.name"
@@ -25580,72 +25583,72 @@ msgstr "Дімсам"
 #: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_bandi_swamp.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_bandi_swamp.desc"
 msgid "A surprisingly tasty blend."
-msgstr ""
+msgstr "Неочікувано смачна суміш."
 
 #: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_bandi_swamp.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_bandi_swamp.name"
 msgid "Stuffed Onion"
-msgstr ""
+msgstr "Фарширована цибуля"
 
 #: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_eggzy_tundra.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_eggzy_tundra.desc"
 msgid "A frozen favorite."
-msgstr ""
+msgstr "Заморожений улюбленець."
 
 #: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_eggzy_tundra.name"
 msgid "Roasted Shallots"
-msgstr ""
+msgstr "Запечені шалоти"
 
 #: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_grimhollow_volcano.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_grimhollow_volcano.desc"
 msgid "Hot and cold in perfect harmony."
-msgstr ""
+msgstr "Гаряче та холодне в ідеальній гармонії."
 
 #: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_grimhollow_volcano.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_grimhollow_volcano.name"
 msgid "Sticky Onion Buns"
-msgstr ""
+msgstr "Липкі цибулеві булочки"
 
 #: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_owlitzer_forest.desc"
 msgid "A cool forest creation."
-msgstr ""
+msgstr "Прохолодне лісове творіння."
 
 #: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_owlitzer_forest.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_owlitzer_forest.name"
 msgid "Chef's Special Sundae"
-msgstr ""
+msgstr "Особливе санді від шефа"
 
 #: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_sedament_tundra.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_sedament_tundra.desc"
 msgid "A perfectly chilled pairing."
-msgstr ""
+msgstr "Ідеально охолоджене поєднання."
 
 #: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_sedament_tundra.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_sedament_tundra.name"
 msgid "Tusk-in Onion Confit"
-msgstr ""
+msgstr "Цибулеве конфі з бивнем"
 
 #: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_thatcher_swamp.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_thatcher_swamp.desc"
 msgid "A chilly swamp delicacy."
-msgstr ""
+msgstr "Прохолодний болотний делікатес."
 
 #: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_thatcher_swamp.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_thatcher_swamp.name"
 msgid "Frozen Onion Fruit Pops"
-msgstr ""
+msgstr "Заморожені цибулево-фруктові льодяники"
 
 #: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_treemon_forest.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_treemon_forest.desc"
 msgid "A refreshing forest dish."
-msgstr ""
+msgstr "Освіжаюча лісова страва."
 
 #: STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_treemon_forest.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.eggzy_tundra_treemon_forest.name"
 msgid "Onion Rings and Fries"
-msgstr ""
+msgstr "Цибулеві кільця та картопля фрі"
 
 #: STRINGS.ITEMS.COOKED_FOOD.floracrane_feet.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.floracrane_feet.desc"
@@ -25661,7 +25664,8 @@ msgstr "Ноги Флоравля"
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.gourd_stew.desc"
 msgid "You can even eat the bowl!\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr ""
+msgstr "Можна навіть з’їсти тарілку!\n\n"
+"<#RED>Бафф</> залишається активними протягом забігу."
 
 #: STRINGS.ITEMS.COOKED_FOOD.gourd_stew.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.gourd_stew.name"
@@ -25671,78 +25675,79 @@ msgstr "Рагу з гарбуза"
 #: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_bandi_swamp.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_bandi_swamp.desc"
 msgid "Steam rises from this exotic blend."
-msgstr ""
+msgstr "Над цією екзотичною сумішшю підіймається пара."
 
 #: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_bandi_swamp.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_bandi_swamp.name"
 msgid "Bean Dogs"
-msgstr ""
+msgstr "Бобові хот-доги"
 
 #: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_eggzy_tundra.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_eggzy_tundra.desc"
 msgid "A dramatic temperature twist."
-msgstr ""
+msgstr "Драматичний температурний контраст."
 
 #: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_eggzy_tundra.name"
 msgid "Caramelized Onion Buns"
-msgstr ""
+msgstr "Булочки з карамелізованою цибулею"
 
 #: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_grimhollow_volcano.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_grimhollow_volcano.desc"
 msgid "Warning: Extremely hot!"
-msgstr ""
+msgstr "Увага: надзвичайно гаряче!"
 
 #: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_grimhollow_volcano.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_grimhollow_volcano.name"
 msgid "Crusty Artisan Bread"
-msgstr ""
+msgstr "Хрусткий ремісничий хліб"
 
 #: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_owlitzer_forest.desc"
 msgid "Where fire meets forest."
-msgstr ""
+msgstr "Там, де вогонь зустрічається з лісом."
 
 #: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_owlitzer_forest.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_owlitzer_forest.name"
 msgid "Berry Muffins"
-msgstr ""
+msgstr "Ягідні мафіни"
 
 #: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_sedament_tundra.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_sedament_tundra.desc"
 msgid "Hot meets cold in this unique dish."
-msgstr ""
+msgstr "Гаряче поєднується з холодним у цій унікальній страві."
 
 #: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_sedament_tundra.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_sedament_tundra.name"
 msgid "Cabbage Puffs"
-msgstr ""
+msgstr "Капустяні слойки"
 
 #: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_thatcher_swamp.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_thatcher_swamp.desc"
 msgid "A blazing bog blend."
-msgstr ""
+msgstr "Пекуча болотяна суміш."
 
 #: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_thatcher_swamp.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_thatcher_swamp.name"
 msgid "Fruit Tart"
-msgstr ""
+msgstr "Фруктовий тарт"
 
 #: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_treemon_forest.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_treemon_forest.desc"
 msgid "A sizzling woodland dish."
-msgstr ""
+msgstr "Шипляча лісова страва."
 
 #: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_treemon_forest.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_treemon_forest.name"
 msgid "Squash Ravioli"
-msgstr ""
+msgstr "Равіолі з кабачків"
 
 #: STRINGS.ITEMS.COOKED_FOOD.haggis.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.haggis.desc"
 msgid "Looks offal, tastes great.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr ""
+msgstr "Виглядає жахливо, але смакує чудово.\n\n"
+"<#RED>Бафф</> залишається активними протягом забігу."
 
 #: STRINGS.ITEMS.COOKED_FOOD.haggis.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.haggis.name"
@@ -25754,7 +25759,8 @@ msgctxt "STRINGS.ITEMS.COOKED_FOOD.meatwich.desc"
 msgid "Take some meat. Put it between some other meat.\n"
 "Enjoy.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr ""
+msgstr "Візьміть трохи м'яса. Покладіть його між іншим м'ясом. Насолоджуйтесь.\n\n"
+"<#RED>Бафф</> залишається активними протягом забігу."
 
 #: STRINGS.ITEMS.COOKED_FOOD.meatwich.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.meatwich.name"
@@ -25765,7 +25771,8 @@ msgstr "М'ясоброд"
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.noodle_legs.desc"
 msgid "Wriggles all the way down!\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr ""
+msgstr "Зісковзує аж до самого дна!\n\n"
+"<#RED>Бафф</> залишається активними протягом забігу."
 
 #: STRINGS.ITEMS.COOKED_FOOD.noodle_legs.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.noodle_legs.name"
@@ -25775,78 +25782,79 @@ msgstr "Лапшеві ніжки"
 #: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_bandi_swamp.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_bandi_swamp.desc"
 msgid "A peculiar pairing that works surprisingly well."
-msgstr ""
+msgstr "Дивне поєднання, що працює напрочуд добре."
 
 #: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_bandi_swamp.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_bandi_swamp.name"
 msgid "Jelly Beans"
-msgstr ""
+msgstr "Желейні боби"
 
 #: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_eggzy_tundra.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_eggzy_tundra.desc"
 msgid "Chilled to perfection."
-msgstr ""
+msgstr "Охолоджені до досконалості."
 
 #: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_eggzy_tundra.name"
 msgid "Sweet Onion Skewers"
-msgstr ""
+msgstr "Шашлички із солодкої цибулі"
 
 #: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_grimhollow_volcano.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_grimhollow_volcano.desc"
 msgid "A fiery forest combination."
-msgstr ""
+msgstr "Вогняне лісове поєднання."
 
 #: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_grimhollow_volcano.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_grimhollow_volcano.name"
 msgid "Berry Pancakes"
-msgstr ""
+msgstr "Ягідні млинці"
 
 #: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_owlitzer_forest.desc"
 msgid "A wise choice for lunch."
-msgstr ""
+msgstr "Розумний вибір для обіду."
 
 #: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_owlitzer_forest.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_owlitzer_forest.name"
 msgid "Berry Compote"
-msgstr ""
+msgstr "Ягідний компот"
 
 #: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_sedament_tundra.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_sedament_tundra.desc"
 msgid "A refreshingly cool combination."
-msgstr ""
+msgstr "Освіжаюче прохолодне поєднання."
 
 #: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_sedament_tundra.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_sedament_tundra.name"
 msgid "Chilled Berry Salad"
-msgstr ""
+msgstr "Охолоджений ягідний салат"
 
 #: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_thatcher_swamp.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_thatcher_swamp.desc"
 msgid "An acquired taste."
-msgstr ""
+msgstr "На любителя."
 
 #: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_thatcher_swamp.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_thatcher_swamp.name"
 msgid "Fruit Skewers"
-msgstr ""
+msgstr "Фруктові шпажки"
 
 #: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_treemon_forest.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_treemon_forest.desc"
 msgid "A classic forest combination."
-msgstr ""
+msgstr "Класичне лісове поєднання."
 
 #: STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_treemon_forest.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.owlitzer_forest_treemon_forest.name"
 msgid "Owl's Nest Cookies"
-msgstr ""
+msgstr "Печиво \"Сова у гнізді\""
 
 #: STRINGS.ITEMS.COOKED_FOOD.roast_tail.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.roast_tail.desc"
 msgid "Tastes hearty, but leaves one feeling fit and spry.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr ""
+msgstr "Має насичений смак, але залишає відчуття легкості та енергії.\n\n"
+"<#RED>Бафф</> залишається активними протягом забігу."
 
 #: STRINGS.ITEMS.COOKED_FOOD.roast_tail.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.roast_tail.name"
@@ -25857,7 +25865,8 @@ msgstr "Смажений хвіст"
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.salad.desc"
 msgid "Supposedly \"healthy\".\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr ""
+msgstr "Начебто \"корисне\".\n\n"
+"<#RED>Бафф</> залишається активними протягом забігу."
 
 #: STRINGS.ITEMS.COOKED_FOOD.salad.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.salad.name"
@@ -25867,78 +25876,79 @@ msgstr "Листяний салат"
 #: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_bandi_swamp.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_bandi_swamp.desc"
 msgid "Cold meets murky."
-msgstr ""
+msgstr "Холод зустрічається з темрявою."
 
 #: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_bandi_swamp.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_bandi_swamp.name"
 msgid "Leafy Bean Dumplings"
-msgstr ""
+msgstr "Листяні бобові пельмені"
 
 #: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_eggzy_tundra.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_eggzy_tundra.desc"
 msgid "Extra cold, extra good."
-msgstr ""
+msgstr "Дуже холодна, дуже смачна."
 
 #: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_eggzy_tundra.name"
 msgid "Bulbous Braised Cabbage"
-msgstr ""
+msgstr "Тушкована капуста з цибулинами"
 
 #: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_grimhollow_volcano.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_grimhollow_volcano.desc"
 msgid "An explosive combination of flavors."
-msgstr ""
+msgstr "Вибухове поєднання смаків."
 
 #: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_grimhollow_volcano.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_grimhollow_volcano.name"
 msgid "Bread Dip"
-msgstr ""
+msgstr "Хлібний соус"
 
 #: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_owlitzer_forest.desc"
 msgid "A frosty forest favorite."
-msgstr ""
+msgstr "Морозний лісовий улюбленець."
 
 #: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_owlitzer_forest.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_owlitzer_forest.name"
 msgid "Green Smoothie"
-msgstr ""
+msgstr "Зелений смузі"
 
 #: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_sedament_tundra.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_sedament_tundra.desc"
 msgid "Best served frozen."
-msgstr ""
+msgstr "Найкраще подавати замороженим."
 
 #: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_sedament_tundra.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_sedament_tundra.name"
 msgid "Grazer's Feast"
-msgstr ""
+msgstr "Бенкет травоїда"
 
 #: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_thatcher_swamp.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_thatcher_swamp.desc"
 msgid "Where frost meets marsh."
-msgstr ""
+msgstr "Де мороз зустрічається з болотом."
 
 #: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_thatcher_swamp.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_thatcher_swamp.name"
 msgid "Chopped Salad"
-msgstr ""
+msgstr "Рубаний салат"
 
 #: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_treemon_forest.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_treemon_forest.desc"
 msgid "Where cold meets cozy."
-msgstr ""
+msgstr "Де холод зустрічається з затишком."
 
 #: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_treemon_forest.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_treemon_forest.name"
 msgid "Roasted Squash Wraps"
-msgstr ""
+msgstr "Обгортки з запеченими кабачками"
 
 #: STRINGS.ITEMS.COOKED_FOOD.spiced_gourd.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.spiced_gourd.desc"
 msgid "It tastes kind of how autumn leaves smell.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr ""
+msgstr "На смак нагадує аромат осіннього листя.\n\n"
+"<#RED>Бафф</> залишається активними протягом забігу."
 
 #: STRINGS.ITEMS.COOKED_FOOD.spiced_gourd.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.spiced_gourd.name"
@@ -25949,7 +25959,8 @@ msgstr "Гарбуз зі спеціями"
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.spoiled_food.desc"
 msgid "Are you sure you wanna eat that?\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr ""
+msgstr "Ви впевнені, що хочете це з'їсти?\n\n"
+"<#RED>Бафф</> залишається активними протягом забігу."
 
 #: STRINGS.ITEMS.COOKED_FOOD.spoiled_food.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.spoiled_food.name"
@@ -25960,7 +25971,8 @@ msgstr "Зіпсована їжа"
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.stuffed_blarma.desc"
 msgid "Soon you will be, too.\n\n"
 "<#RED>Buffs</> remain active for the run's duration."
-msgstr ""
+msgstr "Скоро ви теж будете.\n\n"
+"<#RED>Бафф</> залишається активними протягом забігу."
 
 #: STRINGS.ITEMS.COOKED_FOOD.stuffed_blarma.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.stuffed_blarma.name"
@@ -25970,142 +25982,142 @@ msgstr "Фарширований {Name.blarmadillo}"
 #: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_bandi_swamp.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_bandi_swamp.desc"
 msgid "A swampy sensation."
-msgstr ""
+msgstr "Болотяна насолода."
 
 #: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_bandi_swamp.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_bandi_swamp.name"
 msgid "Ants on a Log"
-msgstr ""
+msgstr "Мурахи на колоді"
 
 #: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_eggzy_tundra.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_eggzy_tundra.desc"
 msgid "Surprisingly refreshing!"
-msgstr ""
+msgstr "Неочікувано освіжаюче!"
 
 #: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_eggzy_tundra.name"
 msgid "Fruit and Onion Medley"
-msgstr ""
+msgstr "Фруктово-цибулеве асорті"
 
 #: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_grimhollow_volcano.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_grimhollow_volcano.desc"
 msgid "Watch out - it's hot!"
-msgstr ""
+msgstr "Обережно – гаряче!"
 
 #: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_grimhollow_volcano.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_grimhollow_volcano.name"
 msgid "Glazed Fruit Cake"
-msgstr ""
+msgstr "Глазурований фруктовий торт"
 
 #: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_owlitzer_forest.desc"
 msgid "A unique forest combination."
-msgstr ""
+msgstr "Унікальне лісове поєднання."
 
 #: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_owlitzer_forest.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_owlitzer_forest.name"
 msgid "Fruit Salad"
-msgstr ""
+msgstr "Фруктовий салат"
 
 #: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_sedament_tundra.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_sedament_tundra.desc"
 msgid "A frosty take on swamp cuisine."
-msgstr ""
+msgstr "Морозний варіант болотної кухні."
 
 #: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_sedament_tundra.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_sedament_tundra.name"
 msgid "Fruit Rolls"
-msgstr ""
+msgstr "Фруктові рулетики"
 
 #: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_thatcher_swamp.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_thatcher_swamp.desc"
 msgid "A swamp dweller's favorite."
-msgstr ""
+msgstr "Улюблена страва болотяників."
 
 #: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_thatcher_swamp.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_thatcher_swamp.name"
 msgid "Fruit Medley"
-msgstr ""
+msgstr "Фруктове асорті"
 
 #: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_treemon_forest.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_treemon_forest.desc"
 msgid "A mysterious mix of tastes."
-msgstr ""
+msgstr "Загадкова суміш смаків."
 
 #: STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_treemon_forest.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.thatcher_swamp_treemon_forest.name"
 msgid "Dried Fruit Chips"
-msgstr ""
+msgstr "Чипси з сухофруктів"
 
 #: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_bandi_swamp.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_bandi_swamp.desc"
 msgid "An unusual but tasty combination."
-msgstr ""
+msgstr "Незвичайне, але смачне поєднання."
 
 #: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_bandi_swamp.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_bandi_swamp.name"
 msgid "Veggie Bog Burger"
-msgstr ""
+msgstr "Овочевий болотний бургер"
 
 #: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_eggzy_tundra.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_eggzy_tundra.desc"
 msgid "Best served cold."
-msgstr ""
+msgstr "Найкраще подавати холодним."
 
 #: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_eggzy_tundra.name"
 msgid "Forest Fritters"
-msgstr ""
+msgstr "Лісові оладки"
 
 #: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_grimhollow_volcano.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_grimhollow_volcano.desc"
 msgid "Hot and spicy forest fare."
-msgstr ""
+msgstr "Гаряча й пряна лісова страва."
 
 #: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_grimhollow_volcano.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_grimhollow_volcano.name"
 msgid "Ma's Old-Fashioned Gruel"
-msgstr ""
+msgstr "Гречка по-маминому"
 
 #: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_owlitzer_forest.desc"
 msgid "The best of both forests combined."
-msgstr ""
+msgstr "Найкраще з обох лісів разом."
 
 #: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_owlitzer_forest.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_owlitzer_forest.name"
 msgid "Squashed Berry Mash"
-msgstr ""
+msgstr "Пюре з ягід"
 
 #: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_sedament_tundra.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_sedament_tundra.desc"
 msgid "A chilly forest delicacy."
-msgstr ""
+msgstr "Прохолодний лісовий делікатес."
 
 #: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_sedament_tundra.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_sedament_tundra.name"
 msgid "Garnished Squash Puree"
-msgstr ""
+msgstr "Гарнір з кабачкового пюре"
 
 #: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_thatcher_swamp.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_thatcher_swamp.desc"
 msgid "Don't let the look fool you - it's delicious!"
-msgstr ""
+msgstr "Не дайте вигляду вас обдурити – це смачно!"
 
 #: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_thatcher_swamp.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_thatcher_swamp.name"
 msgid "Fruit and Veggie Bites"
-msgstr ""
+msgstr "Фруктові та овочеві закуски"
 
 #: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_treemon_forest.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_treemon_forest.desc"
 msgid "A hearty blend of forest ingredients."
-msgstr ""
+msgstr "Насичена суміш лісових інгредієнтів."
 
 #: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_treemon_forest.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_treemon_forest.name"
 msgid "Sautéed Squash"
-msgstr ""
+msgstr "Соте з кабачків"
 
 #: STRINGS.ITEMS.CROP.bandi_swamp_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.bandi_swamp_crop.desc"
@@ -29832,7 +29844,7 @@ msgstr "Дозволяє власнику покращити всі обладу
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools0.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools0.name"
 msgid "{name.armourtools0}"
-msgstr ""
+msgstr "{Name.armourtools0}"
 
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools1.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools1.desc"
@@ -29862,7 +29874,7 @@ msgstr ""
 #: STRINGS.ITEMS.KEY_ITEMS.cookingtools.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.cookingtools.name"
 msgid "{name.cookingtools}"
-msgstr ""
+msgstr "{Name.cookingtools}"
 
 #: STRINGS.ITEMS.KEY_ITEMS.farmtools.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.farmtools.desc"
@@ -29872,7 +29884,7 @@ msgstr ""
 #: STRINGS.ITEMS.KEY_ITEMS.farmtools.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.farmtools.name"
 msgid "{name.farmtools}"
-msgstr ""
+msgstr "{Name.farmtools}"
 
 #: STRINGS.ITEMS.KEY_ITEMS.gemtools.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.gemtools.desc"
@@ -29902,7 +29914,7 @@ msgstr "Дозволяє власнику покращити всю зброю �
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools0.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools0.name"
 msgid "{name.weapontools0}"
-msgstr ""
+msgstr "{Name.weapontools0}"
 
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools1.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools1.desc"
@@ -42199,7 +42211,7 @@ msgstr "Геть від коханої КОРОЛЕВИ!\n"
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_ACID_COATING_1_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_ACID_COATING_1_4"
 msgid "You will feel our sting..."
-msgstr ""
+msgstr "Ви відчуєте наш укус..."
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_DASH_UPPERCUT_1_2
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_DASH_UPPERCUT_1_2"
@@ -42209,7 +42221,7 @@ msgstr "Ви не можете втекти!"
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_DASH_UPPERCUT_1_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_DASH_UPPERCUT_1_4"
 msgid "You will succumb!"
-msgstr ""
+msgstr "Ви піддадетеся!"
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_DASH_UPPERCUT_2_2
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_DASH_UPPERCUT_2_2"
@@ -42219,66 +42231,70 @@ msgstr "КОНИК-СТРИБУНЕЦЬ!"
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_DASH_UPPERCUT_2_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_DASH_UPPERCUT_2_4"
 msgid "SCORPION SLASH!"
-msgstr ""
+msgstr "УДАР СКОРПІОНА!"
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_DEATH_1
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_DEATH_1"
 msgid "N-not... enough..."
-msgstr ""
+msgstr "Н-не... досить..."
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_DEATH_2
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_DEATH_2"
 msgid "Let us return... to the ichor..."
-msgstr ""
+msgstr "Дозвольте нам повернутися... до іхора..."
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_INTRO_1
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_INTRO_1"
 msgid "We are stronger, stronger than you!"
-msgstr ""
+msgstr "Ми сильніші, сильніші за вас!"
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_INTRO_2
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_INTRO_2"
 msgid "The ichor flows through us!"
-msgstr ""
+msgstr "Іхор тече через нас!"
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_INTRO_3
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_INTRO_3"
 msgid "Hear our sweet lament!\n"
 "For our QUEEN, for the SLEEPING BEAST."
-msgstr ""
+msgstr "Почуйте наш солодкий плач!\n"
+"Для нашої КОРОЛЕВИ, для СПЯЧОГО ЗВІРА."
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_PHASE_TRANSITION_1_2
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_PHASE_TRANSITION_1_2"
 msgid "You do not learn...\n"
 "This is not where it ends."
-msgstr ""
+msgstr "Ви не вчитеся...\n"
+"Це не кінець."
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_PHASE_TRANSITION_1_3
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_PHASE_TRANSITION_1_3"
 msgid "You do not learn...\n"
 "This is not where it ends."
-msgstr ""
+msgstr "Ви не вчитеся...\n"
+"Це не кінець."
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_PHASE_TRANSITION_1_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_PHASE_TRANSITION_1_4"
 msgid "You do not learn...\n"
 "This is not where it ends."
-msgstr ""
+msgstr "Ви не вчитеся...\n"
+"Це не кінець."
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_PHASE_TRANSITION_2_2
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_PHASE_TRANSITION_2_2"
 msgid "You cannot kill us all!"
-msgstr ""
+msgstr "Ви не можете вбити нас усіх!"
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_PHASE_TRANSITION_2_3
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_PHASE_TRANSITION_2_3"
 msgid "You cannot kill us all!"
-msgstr ""
+msgstr "Ви не можете вбити нас усіх!"
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_PHASE_TRANSITION_2_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_PHASE_TRANSITION_2_4"
 msgid "You cannot kill us all!"
-msgstr ""
+msgstr "Ви не можете вбити нас усіх!"
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SPINNING_ATTACK_1_1
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SPINNING_ATTACK_1_1"
@@ -42288,7 +42304,7 @@ msgstr "Атакуйте! Захищайте! Ми дістанемось до �
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SPINNING_ATTACK_1_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SPINNING_ATTACK_1_4"
 msgid "Our venom will burn in your veins!"
-msgstr ""
+msgstr "Наша отрута горітиме у ваших венах!"
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SPINNING_ATTACK_2_1
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SPINNING_ATTACK_2_1"
@@ -42298,7 +42314,7 @@ msgstr "ОБЕРТАЮЧЕСЯ ЛЕЗО БОГОМОЛА!"
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SPINNING_ATTACK_2_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SPINNING_ATTACK_2_4"
 msgid "POISON HORNET SPIN!"
-msgstr ""
+msgstr "КРУЖЛЯННЯ ОТРУЙНОГО ШЕРШНЯ!"
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SWING_SMASH_1_3
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SWING_SMASH_1_3"
@@ -42308,7 +42324,7 @@ msgstr "Бійся НАС!"
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SWING_SMASH_1_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SWING_SMASH_1_4"
 msgid "All for QUEEN!"
-msgstr ""
+msgstr "Все для КОРОЛЕВИ!"
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SWING_SMASH_2_3
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SWING_SMASH_2_3"
@@ -42318,32 +42334,32 @@ msgstr "СУПЕР ЖАЛО!"
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SWING_SMASH_2_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SWING_SMASH_2_4"
 msgid "VENOM STRIKE!"
-msgstr ""
+msgstr "УДАР ОТРУТОЮ!"
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_TAUNT_1
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_TAUNT_1"
 msgid "You do not deserve the ichor!"
-msgstr ""
+msgstr "Ви не заслуговуєте на іхор!"
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_TAUNT_2
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_TAUNT_2"
 msgid "You steal ichor from the Sleeping Beast!"
-msgstr ""
+msgstr "Ви крадете іхор у Сплячого Звіра!"
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_TAUNT_3
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_TAUNT_3"
 msgid "We are chosen!"
-msgstr ""
+msgstr "Ми обрані!"
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_TAUNT_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_TAUNT_4"
 msgid "We protect QUEEN from you!"
-msgstr ""
+msgstr "Ми захищаємо КОРОЛЕВУ від вас!"
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_TAUNT_5
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_TAUNT_5"
 msgid "You will meet your GRAND FINALE!"
-msgstr ""
+msgstr "Ви зустрінете свій ВЕЛИКИЙ ФІНАЛ!"
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher.THATCHER_DASH_UPPERCUT_1_2
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher.THATCHER_DASH_UPPERCUT_1_2"
@@ -42501,7 +42517,8 @@ msgstr "-ЧРП- б-ЧРП- 'чіт кв'Скрієр\n"
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_ACID_COATING_1_4"
 msgid "'chit'Scree'itchitch b'Uzzqq k'Brr'Brrq \n"
 "'Scree'itchitchw xy'Uzzsl..."
-msgstr ""
+msgstr "'чіт'Скрі'ічітч б'Уззкк к'Брр'Бррк \n"
+"'Скрі'ічітчв хй'Уззсл..."
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_DASH_UPPERCUT_1_2
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_DASH_UPPERCUT_1_2"
@@ -42514,7 +42531,8 @@ msgstr "'чіт'Скрі'ічітч х-ЧРП- сс'Скрій\n"
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_DASH_UPPERCUT_1_4"
 msgid "'chit'Scree'itchitch b'Uzzqq \n"
 "x'itchitchhh'itchitchrg!"
-msgstr ""
+msgstr "'чіт'Скрі'ічітч б'Уззкк \n"
+"х'ічітчхх'ічітчрг!"
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_DASH_UPPERCUT_2_2
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_DASH_UPPERCUT_2_2"
@@ -42524,31 +42542,35 @@ msgstr "В'УззХ'УззСЛ ЛВ-ЧРП- ХХМ'СкріУУ'БррВ!"
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_DASH_UPPERCUT_2_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_DASH_UPPERCUT_2_4"
 msgid "XH'ScreeWU'Uzz'ScreeS XQ-CHRP- XM!"
-msgstr ""
+msgstr "ХГ'СкріУ'Узз'СкріС ХК-ЧРП- КМ!"
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_DEATH_1
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_DEATH_1"
 msgid "Ss'Screey... 'Brrs'Scree'itchitchlm..."
-msgstr ""
+msgstr "Сс'Скрі... 'Бррс'Скрі'ічітчлм..."
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_DEATH_2
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_DEATH_2"
 msgid "Q'Brry 'itchitchx w'Brry'itchitchws... \n"
 "y'Scree ym'Brr 'Uzzhm'Screew..."
-msgstr ""
+msgstr "К'Бррй 'ічітчх в'Бррй'ічітчвс... \n"
+"й'Скрі йм'Брр 'Уззм'Скрів..."
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_INTRO_1
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_INTRO_1"
 msgid "B'Brr -CHRP- w'Brr xyw'Screesl'Brrw \n"
 "xyw'Screesl'Brrw ym-CHRP- s \n"
 "'chit'Scree'itchitch!"
-msgstr ""
+msgstr "Б'Брр -ЧРП- в'Брр хйв'Скрісл'Бррв \n"
+"хйв'Скрісл'Бррв йм-ЧРП- с \n"
+"'чіт'Скрі'ічітч!"
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_INTRO_2
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_INTRO_2"
 msgid "Ym'Brr 'Uzzhm'Screew kq'Screebx \n"
 "ymw'Scree'itchitchlm 'itchitchx!"
-msgstr ""
+msgstr "Йм'Брр 'Уззм'Скріф кк'Скріебх \n"
+"ймв'Скрі'ічітчлм 'ічітчх!"
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_INTRO_3
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_INTRO_3"
@@ -42557,7 +42579,11 @@ msgid "M'Brr-CHRP- w 'Scree'itchitchw \n"
 "K'Screew 'Scree'itchitchw \n"
 "V'itchitch'Brr'BrrS k'Screew ym'Brr \n"
 "XQ'Brr'BrrU'UzzSL G'Brr-CHRP- XY."
-msgstr ""
+msgstr "М'Брр-ЧРП- в 'Скрі'ічітчв \n"
+"кб'Брр'Брри к-ЧРП- р'Бррсі!\n"
+"К'Скрів 'Скрі'ічітчв \n"
+"В'ічітч'Брр'БррС к'Скріф йм'Брр \n"
+"ХК'Брр'БррУ'УззСЛ Г'Брр-ЧРП- ХУ."
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_PHASE_TRANSITION_1_2
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_PHASE_TRANSITION_1_2"
@@ -42565,7 +42591,10 @@ msgid "'chit'Scree'itchitch i'Scree s'Screey \n"
 "q'Brr-CHRP- ws...\n"
 "Ym'Uzzx 'Uzzx s'Screey bm'Brrw'Brr \n"
 "'Uzzy 'Brrsix."
-msgstr ""
+msgstr "'чіт'Скрі'ічітч і'Скрі с'Скрі \n"
+"к'Брр-ЧРП- вс...\n"
+"Йм'Уззх 'Уззх с'Скрі бм'Бррв'Брр \n"
+"'Уззи 'Бррсікс."
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_PHASE_TRANSITION_1_3
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_PHASE_TRANSITION_1_3"
@@ -42573,7 +42602,10 @@ msgid "'chit'Scree'itchitch i'Scree s'Screey \n"
 "q'Brr-CHRP- ws...\n"
 "Ym'Uzzx 'Uzzx s'Screey bm'Brrw'Brr \n"
 "'Uzzy 'Brrsix."
-msgstr ""
+msgstr "'чіт'Скрі'ічітч і'Скрі с'Скрі \n"
+"к'Брр-ЧРП- вс...\n"
+"Йм'Уззх 'Уззх с'Скрі бм'Бррв'Брр \n"
+"'Уззи 'Бррсікс."
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_PHASE_TRANSITION_1_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_PHASE_TRANSITION_1_4"
@@ -42581,25 +42613,31 @@ msgid "'chit'Scree'itchitch i'Scree s'Screey \n"
 "q'Brr-CHRP- ws...\n"
 "Ym'Uzzx 'Uzzx s'Screey bm'Brrw'Brr \n"
 "'Uzzy 'Brrsix."
-msgstr ""
+msgstr "'чіт'Скрі'ічітч і'Скрі с'Скрі \n"
+"к'Брр-ЧРП- вс...\n"
+"Йм'Уззх 'Уззх с'Скрі бм'Бррв'Брр \n"
+"'Уззи 'Бррсікс."
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_PHASE_TRANSITION_2_2
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_PHASE_TRANSITION_2_2"
 msgid "'chit'Scree'itchitch h-CHRP- ss'Screey \n"
 "p'Uzzqq 'itchitchx -CHRP- qq!"
-msgstr ""
+msgstr "'чіт'Скрі'ічітч х-ЧРП- сс'Скрі \n"
+"п'Уззкк 'ічітчх -ЧРП- кв!"
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_PHASE_TRANSITION_2_3
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_PHASE_TRANSITION_2_3"
 msgid "'chit'Scree'itchitch h-CHRP- ss'Screey \n"
 "p'Uzzqq 'itchitchx -CHRP- qq!"
-msgstr ""
+msgstr "'чіт'Скрі'ічітч х-ЧРП- сс'Скрі \n"
+"п'Уззкк 'ічітчх -ЧРП- кв!"
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_PHASE_TRANSITION_2_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_PHASE_TRANSITION_2_4"
 msgid "'chit'Scree'itchitch h-CHRP- ss'Screey \n"
 "p'Uzzqq 'itchitchx -CHRP- qq!"
-msgstr ""
+msgstr "'чіт'Скрі'ічітч х-ЧРП- сс'Скрі \n"
+"п'Уззкк 'ічітчх -ЧРП- кв!"
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SPINNING_ATTACK_1_1
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SPINNING_ATTACK_1_1"
@@ -42615,7 +42653,9 @@ msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SPINNING_ATTA
 msgid "'Scree'itchitchw a'Brrs'Screer b'Uzzqq \n"
 "g'itchitchws 'Uzzs \n"
 "'chit'Scree'itchitchw a'Brr'Uzzsx!"
-msgstr ""
+msgstr "'Скрі'ічітчв а'Бррс'Скрієр б'Уззкк \n"
+"г'ічітчвс 'Уззс \n"
+"'чіт'Скрі'ічітчв а'Брр'Уззсх!"
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SPINNING_ATTACK_2_1
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SPINNING_ATTACK_2_1"
@@ -42628,7 +42668,8 @@ msgstr "ХУ'УззСС'УззСЛ Р-ЧРП- СИ'УззХ ГК-ЧРП-\n"
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SPINNING_ATTACK_2_4"
 msgid "U'Scree'UzzX'ScreeS M'ScreeWS'BrrY \n"
 "XU'UzzS!"
-msgstr ""
+msgstr "У'Скрі'УззХ'СкріС М'СкріВС'БррЙ \n"
+"ХУ'УззС!"
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SWING_SMASH_1_3
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SWING_SMASH_1_3"
@@ -42638,7 +42679,7 @@ msgstr "К'Брр-ЧРП- в Б'Брр!"
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SWING_SMASH_1_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SWING_SMASH_1_4"
 msgid "-CHRP- qq k'Screew V'itchitch'Brr'BrrS!"
-msgstr ""
+msgstr "-ЧРП- кв к'Скріф В'ічітч'Брр'БррС!"
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SWING_SMASH_2_3
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SWING_SMASH_2_3"
@@ -42648,39 +42689,46 @@ msgstr "Х'ічітчУ'БррВ ХУ'УззСЛ!"
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SWING_SMASH_2_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SWING_SMASH_2_4"
 msgid "A'BrrS'ScreeR XYW'UzzP'Brr!"
-msgstr ""
+msgstr "А'БррС'СкріР ХЙ'УззП'Брр!"
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_TAUNT_1
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_TAUNT_1"
 msgid "'chit'Scree'itchitch i'Scree s'Screey \n"
 "i'Brrx'Brrwa'Brr ym'Brr 'Uzzhm'Screew!"
-msgstr ""
+msgstr "'чіт'Скрі'ічітч і'Скрі с'Скрі \n"
+"і'Бррх'Бррва'Брр йм'Брр 'Уззм'Скрів!"
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_TAUNT_2
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_TAUNT_2"
 msgid "'chit'Scree'itchitch xy'Brr-CHRP- q \n"
 "'Uzzhm'Screew kw'Screer ym'Brr \n"
 "Xq'Brr'Brru'Uzzsl G'Brr-CHRP- xy!"
-msgstr ""
+msgstr "'чіт'Скрі'ічітч хй'Брр-ЧРП- к \n"
+"'Уззм'Скріф кв'Скрієр йм'Брр \n"
+"Хк'Брр'Брру'Уззсл Г'Брр-ЧРП- хй!"
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_TAUNT_3
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_TAUNT_3"
 msgid "B'Brr -CHRP- w'Brr hm'Screex'Brrs!"
-msgstr ""
+msgstr "Б'Брр -ЧРП- в'Брр хм'Скріекс'Бррс!"
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_TAUNT_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_TAUNT_4"
 msgid "B'Brr uw'Screey'Brrhy \n"
 "V'itchitch'Brr'BrrS kw'Screer \n"
 "'chit'Scree'itchitch!"
-msgstr ""
+msgstr "Б'Брр ув'Скрі'й'Бррхи \n"
+"В'ічітч'Брр'БррС кв'Скрієр \n"
+"'чіт'Скрі'ічітч!"
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_TAUNT_5
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_TAUNT_5"
 msgid "'chit'Scree'itchitch b'Uzzqq r'Brr'Brry \n"
 "'chit'Scree'itchitchw LW-CHRP- SI \n"
 "K'UzzS-CHRP- Q'Brr!"
-msgstr ""
+msgstr "'чіт'Скрі'ічітч б'Уззкк р'Брр'Брри \n"
+"'чіт'Скрі'ічітчв ЛВ-ЧРП- СІ \n"
+"К'УззС-ЧРП- К'Брр!"
 
 #: STRINGS.NAMES.antleer
 msgctxt "STRINGS.NAMES.antleer"
@@ -47866,13 +47914,15 @@ msgstr "{item_name}"
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.WEAPON_TYPE_BUTTON"
 msgid "<p img='%s' color=0 scale=1.8>\n\n"
 "%s"
-msgstr ""
+msgstr "<p img='%s' color=0 scale=1.8>\n\n"
+"%s"
 
 #: STRINGS.UI.EQUIPMENTSCREEN.WEAPON_TYPE_BUTTON_LOCKED
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.WEAPON_TYPE_BUTTON_LOCKED"
 msgid "<p img='%s' color=0 scale=1.8>\n\n"
 "<p img='images/icons_ftf/lock_icon.tex' color=0 scale=0.8>%s"
-msgstr ""
+msgstr "<p img='%s' color=0 scale=1.8>\n\n"
+"<p img='images/icons_ftf/lock_icon.tex' color=0 scale=0.8>%s"
 
 #: STRINGS.UI.EQUIPMENTSCREEN.WEAPON_TYPE_TITLE
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.WEAPON_TYPE_TITLE"
@@ -48125,12 +48175,12 @@ msgstr "ПРОГРЕС РОСТУ"
 #: STRINGS.UI.FARMING.CROP_INFO.HARVEST_AMOUNT_FIXED
 msgctxt "STRINGS.UI.FARMING.CROP_INFO.HARVEST_AMOUNT_FIXED"
 msgid "({amount})"
-msgstr ""
+msgstr "({amount})"
 
 #: STRINGS.UI.FARMING.CROP_INFO.HARVEST_AMOUNT_RANGE
 msgctxt "STRINGS.UI.FARMING.CROP_INFO.HARVEST_AMOUNT_RANGE"
 msgid "({min}-{max})"
-msgstr ""
+msgstr "({min}-{max})"
 
 #: STRINGS.UI.FARMING.CROP_INFO.HARVEST_TITLE
 msgctxt "STRINGS.UI.FARMING.CROP_INFO.HARVEST_TITLE"
@@ -49796,7 +49846,7 @@ msgstr "Завантаження..."
 #: STRINGS.UI.LUCKY_POPUP
 msgctxt "STRINGS.UI.LUCKY_POPUP"
 msgid "LUCKY!"
-msgstr ""
+msgstr "ПОЩАСТИЛО!"
 
 #: STRINGS.UI.MAINSCREEN.ASKQUIT
 msgctxt "STRINGS.UI.MAINSCREEN.ASKQUIT"
@@ -51269,7 +51319,7 @@ msgstr "{item_name}"
 #: STRINGS.UI.NOTIFICATION.ITEM_OBTAINED.TITLE_MULTIPLE
 msgctxt "STRINGS.UI.NOTIFICATION.ITEM_OBTAINED.TITLE_MULTIPLE"
 msgid "{item_name} x{count}"
-msgstr ""
+msgstr "{item_name} x{count}"
 
 #: STRINGS.UI.NOTIFICATION.LOADING
 msgctxt "STRINGS.UI.NOTIFICATION.LOADING"
@@ -52201,38 +52251,39 @@ msgstr "Курсор миші"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_SETTING.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_SETTING.DESC"
 msgid "The maximum frame rate the game will render at independent of update rate."
-msgstr ""
+msgstr "Максимальна частота кадрів, з якою гра буде рендерити незалежно від частоти оновлення."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_SETTING.TITLE
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_SETTING.TITLE"
 msgid "Frame Rate Limit"
-msgstr ""
+msgstr "Обмеження частоти кадрів"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_SETTING.VALUES.HALF_REFRESH_RATE
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_SETTING.VALUES.HALF_REFRESH_RATE"
 msgid "Half Refresh Rate ({rr})"
-msgstr ""
+msgstr "Половина частоти оновлення ({rr})"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_SETTING.VALUES.REFRESH_RATE
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_SETTING.VALUES.REFRESH_RATE"
 msgid "Refresh Rate ({rr})"
-msgstr ""
+msgstr "Частота оновлення ({rr})"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_SETTING.VALUES.SIXTY_HERTZ
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_SETTING.VALUES.SIXTY_HERTZ"
 msgid "60"
-msgstr ""
+msgstr "60"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_SETTING.VALUES.THIRTY_HERTZ
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_SETTING.VALUES.THIRTY_HERTZ"
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_USE.OFF.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_USE.OFF.DESC"
 msgid "Game does not impose a frame rate limit.\n"
 "Changing this setting will require restarting the game."
-msgstr ""
+msgstr "Гра не накладає обмеження на частоту кадрів.\n"
+"Зміна цього параметра вимагатиме перезапуску гри."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_USE.OFF.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_USE.OFF.NAME"
@@ -53197,37 +53248,37 @@ msgstr "<p img='images/ui_ftf_dialog/quirk_vip.tex' color=0> Усунення н
 #: STRINGS.UI.SEEDGRINDSCREEN.DESC
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.DESC"
 msgid "Transmute items into seeds."
-msgstr ""
+msgstr "Перетворіть предмети на насіння."
 
 #: STRINGS.UI.SEEDGRINDSCREEN.DROP_AREA_INFO_MATERIAL
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.DROP_AREA_INFO_MATERIAL"
 msgid "Transmute materials into seeds."
-msgstr ""
+msgstr "Перетворіть матеріали на насіння."
 
 #: STRINGS.UI.SEEDGRINDSCREEN.DROP_AREA_INFO_SEED
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.DROP_AREA_INFO_SEED"
 msgid "Transmute seeds into other seeds."
-msgstr ""
+msgstr "Перетворіть насіння на інші насіння."
 
 #: STRINGS.UI.SEEDGRINDSCREEN.DROP_AREA_TITLE
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.DROP_AREA_TITLE"
 msgid "Transmute"
-msgstr ""
+msgstr "Перетворити"
 
 #: STRINGS.UI.SEEDGRINDSCREEN.EMPTY_LIST
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.EMPTY_LIST"
 msgid "Explore to find different types of seeds."
-msgstr ""
+msgstr "Досліджуйте, щоб знайти різні типи насіння."
 
 #: STRINGS.UI.SEEDGRINDSCREEN.GRIND_BTN
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.GRIND_BTN"
 msgid "Transmute"
-msgstr ""
+msgstr "Перетворити"
 
 #: STRINGS.UI.SEEDGRINDSCREEN.GRIND_HOTKEY
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.GRIND_HOTKEY"
 msgid "Transmute"
-msgstr ""
+msgstr "Перетворити"
 
 #: STRINGS.UI.SEEDGRINDSCREEN.INVENTORY_COUNT
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.INVENTORY_COUNT"
@@ -53237,7 +53288,7 @@ msgstr "%d в <p img='images/icons_ftf/inventory_equipment.tex' color=0>"
 #: STRINGS.UI.SEEDGRINDSCREEN.MATERIAL_HOTKEY
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.MATERIAL_HOTKEY"
 msgid "Add"
-msgstr ""
+msgstr "Додати"
 
 #: STRINGS.UI.SEEDGRINDSCREEN.NOTIFICATION_GRIND_ITEM
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.NOTIFICATION_GRIND_ITEM"
@@ -53257,7 +53308,7 @@ msgstr "<p img='images/ui_ftf_icons/reset.tex' color=0 scale=0.9> Очистит
 #: STRINGS.UI.SEEDGRINDSCREEN.RESET_HOTKEY
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.RESET_HOTKEY"
 msgid "Clear"
-msgstr ""
+msgstr "Очистити"
 
 #: STRINGS.UI.SEEDGRINDSCREEN.TABS.MATERIAL
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.TABS.MATERIAL"
@@ -53267,17 +53318,17 @@ msgstr "МАТЕРІАЛИ"
 #: STRINGS.UI.SEEDGRINDSCREEN.TABS.SEED
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.TABS.SEED"
 msgid "SEEDS"
-msgstr ""
+msgstr "НАСІННЯ"
 
 #: STRINGS.UI.SEEDGRINDSCREEN.TABS.UPGRADE
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.TABS.UPGRADE"
 msgid "UPGRADES"
-msgstr ""
+msgstr "ПОКРАЩЕННЯ"
 
 #: STRINGS.UI.SEEDGRINDSCREEN.TITLE
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.TITLE"
 msgid "Seed Exchange"
-msgstr ""
+msgstr "Обмін насіння"
 
 #: STRINGS.UI.SELECTFOODSCREEN.DESC
 msgctxt "STRINGS.UI.SELECTFOODSCREEN.DESC"
@@ -53586,7 +53637,7 @@ msgstr "Легка атака"
 #: STRINGS.UI.TOOLTIPS.LUCK.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.LUCK.DESC"
 msgid "The chances of good things happening to you, like finding more <#RED>{name_multiple.material}</>, <#KONJUR>{name.konjur}</>, or even being <#RED>Lucky Revived</>."
-msgstr ""
+msgstr "Шанс на те, що з вами трапиться щось хороше, наприклад, ви знайдете <#RED>{name_multiple.material}</>, <#KONJUR>{name.konjur}</>, або навіть станете <#RED>щасливчиком, який пережив смерть</>."
 
 #: STRINGS.UI.TOOLTIPS.LUCK.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.LUCK.NAME"
@@ -53759,7 +53810,7 @@ msgstr "Очікуйте на безпечне приєднання!"
 #: STRINGS.UI.UNLOCKGRINDERPANEL.MATERIAL_DESC
 msgctxt "STRINGS.UI.UNLOCKGRINDERPANEL.MATERIAL_DESC"
 msgid "Learn how to transmute materials into seeds."
-msgstr ""
+msgstr "Дізнайтеся, як перетворювати матеріали в насіння."
 
 #: STRINGS.UI.UNLOCKGRINDERPANEL.MATERIAL_INGREDIENTS
 msgctxt "STRINGS.UI.UNLOCKGRINDERPANEL.MATERIAL_INGREDIENTS"
@@ -53769,17 +53820,17 @@ msgstr "Інгредієнти"
 #: STRINGS.UI.UNLOCKGRINDERPANEL.MATERIAL_TITLE
 msgctxt "STRINGS.UI.UNLOCKGRINDERPANEL.MATERIAL_TITLE"
 msgid "Material Exchange"
-msgstr ""
+msgstr "Обмін матеріалів"
 
 #: STRINGS.UI.UNLOCKGRINDERPANEL.MATERIAL_UNLOCK_BTN
 msgctxt "STRINGS.UI.UNLOCKGRINDERPANEL.MATERIAL_UNLOCK_BTN"
 msgid "Learn"
-msgstr ""
+msgstr "Вивчити"
 
 #: STRINGS.UI.UNLOCKGRINDERPANEL.SEED_DESC
 msgctxt "STRINGS.UI.UNLOCKGRINDERPANEL.SEED_DESC"
 msgid "Learn how to transmute one seed into another."
-msgstr ""
+msgstr "Дізнайтеся, як трансформувати одне насіння в інше."
 
 #: STRINGS.UI.UNLOCKGRINDERPANEL.SEED_INGREDIENTS
 msgctxt "STRINGS.UI.UNLOCKGRINDERPANEL.SEED_INGREDIENTS"
@@ -53789,17 +53840,17 @@ msgstr "Інгредієнти"
 #: STRINGS.UI.UNLOCKGRINDERPANEL.SEED_TITLE
 msgctxt "STRINGS.UI.UNLOCKGRINDERPANEL.SEED_TITLE"
 msgid "Seed Exchange"
-msgstr ""
+msgstr "Обмін насіння"
 
 #: STRINGS.UI.UNLOCKGRINDERPANEL.SEED_UNLOCK_BTN
 msgctxt "STRINGS.UI.UNLOCKGRINDERPANEL.SEED_UNLOCK_BTN"
 msgid "Learn"
-msgstr ""
+msgstr "Вивчити"
 
 #: STRINGS.UI.UNLOCKGRINDERPANEL.SKILL_UNLOCKED
 msgctxt "STRINGS.UI.UNLOCKGRINDERPANEL.SKILL_UNLOCKED"
 msgid "Known!"
-msgstr ""
+msgstr "Знаєте!"
 
 #: STRINGS.UI.VENDING_MACHINE.ALREADY_PURCHASED
 msgctxt "STRINGS.UI.VENDING_MACHINE.ALREADY_PURCHASED"
@@ -53859,7 +53910,8 @@ msgstr "Оплата завершена"
 msgctxt "STRINGS.UI.VENDING_MACHINE.PURCHASE"
 msgid "{name.interact_tap} Purchase\n"
 "{name.interact_hold} Purchase and equip"
-msgstr ""
+msgstr "{Name.interact_tap} Купити\n"
+"{Name.interact_hold} Купити та екіпірувати"
 
 #: STRINGS.UI.VENDING_MACHINE.REFUND
 msgctxt "STRINGS.UI.VENDING_MACHINE.REFUND"
