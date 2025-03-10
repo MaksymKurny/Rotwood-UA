@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-03-09 09:17\n"
+"PO-Revision-Date: 2025-03-10 09:58\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -8085,7 +8085,7 @@ msgstr "agent:\n"
 #: Convo.twn_fn_unlocked_armorsmith.ATTRACT0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.twn_fn_unlocked_armorsmith.ATTRACT0.convo.giver.STATE_0.QUESTION_1"
 msgid "Glad to see you settling in!"
-msgstr "Радий бачити, що ви облаштувалися!"
+msgstr "Радий бачити, що ти облаштувалася!"
 
 #: Convo.twn_fn_unlocked_armorsmith.ATTRACT0.convo.giver.STATE_0.QUESTION_2A
 msgctxt "Convo.twn_fn_unlocked_armorsmith.ATTRACT0.convo.giver.STATE_0.QUESTION_2A"
@@ -25740,7 +25740,7 @@ msgstr "Шипляча лісова страва."
 #: STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_treemon_forest.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.grimhollow_volcano_treemon_forest.name"
 msgid "Squash Ravioli"
-msgstr "Равіолі з кабачків"
+msgstr "Равіолі з гарбуза"
 
 #: STRINGS.ITEMS.COOKED_FOOD.haggis.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.haggis.desc"
@@ -25941,7 +25941,7 @@ msgstr "Де холод зустрічається з затишком."
 #: STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_treemon_forest.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.sedament_tundra_treemon_forest.name"
 msgid "Roasted Squash Wraps"
-msgstr "Обгортки з запеченими кабачками"
+msgstr "Обгортки з запеченими гарбузами"
 
 #: STRINGS.ITEMS.COOKED_FOOD.spiced_gourd.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.spiced_gourd.desc"
@@ -26097,7 +26097,7 @@ msgstr "Прохолодний лісовий делікатес."
 #: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_sedament_tundra.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_sedament_tundra.name"
 msgid "Garnished Squash Puree"
-msgstr "Гарнір з кабачкового пюре"
+msgstr "Гарнір з гарбузового пюре"
 
 #: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_thatcher_swamp.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_thatcher_swamp.desc"
@@ -26117,127 +26117,127 @@ msgstr "Насичена суміш лісових інгредієнтів."
 #: STRINGS.ITEMS.COOKED_FOOD.treemon_forest_treemon_forest.name
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_treemon_forest.name"
 msgid "Sautéed Squash"
-msgstr "Соте з кабачків"
+msgstr "Соте з гарбузів"
 
 #: STRINGS.ITEMS.CROP.bandi_swamp_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.bandi_swamp_crop.desc"
 msgid "Bog Crop"
-msgstr ""
+msgstr "Болотяний саджанець"
 
 #: STRINGS.ITEMS.CROP.bandi_swamp_crop.name
 msgctxt "STRINGS.ITEMS.CROP.bandi_swamp_crop.name"
 msgid "Bog Crop"
-msgstr ""
+msgstr "Болотяний саджанець"
 
 #: STRINGS.ITEMS.CROP.bandi_swamp_crop.seed
 msgctxt "STRINGS.ITEMS.CROP.bandi_swamp_crop.seed"
 msgid "Bog Seed"
-msgstr ""
+msgstr "Болотяне насіння"
 
 #: STRINGS.ITEMS.CROP.eggzy_tundra_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.eggzy_tundra_crop.desc"
 msgid "Cavern Crop"
-msgstr ""
+msgstr "Печерний саджанець"
 
 #: STRINGS.ITEMS.CROP.eggzy_tundra_crop.name
 msgctxt "STRINGS.ITEMS.CROP.eggzy_tundra_crop.name"
 msgid "Cavern Crop"
-msgstr ""
+msgstr "Печерний саджанець"
 
 #: STRINGS.ITEMS.CROP.eggzy_tundra_crop.seed
 msgctxt "STRINGS.ITEMS.CROP.eggzy_tundra_crop.seed"
 msgid "Cavern Seed"
-msgstr ""
+msgstr "Печерне насіння"
 
 #: STRINGS.ITEMS.CROP.gem_unidentified_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.gem_unidentified_crop.desc"
 msgid "Crystallized Crop"
-msgstr ""
+msgstr "Кристалізований саджанець"
 
 #: STRINGS.ITEMS.CROP.gem_unidentified_crop.name
 msgctxt "STRINGS.ITEMS.CROP.gem_unidentified_crop.name"
 msgid "Crystallized Crop"
-msgstr ""
+msgstr "Кристалізований саджанець"
 
 #: STRINGS.ITEMS.CROP.gem_unidentified_crop.seed
 msgctxt "STRINGS.ITEMS.CROP.gem_unidentified_crop.seed"
 msgid "Crystallized Seed"
-msgstr ""
+msgstr "Кристалізоване насіння"
 
 #: STRINGS.ITEMS.CROP.grimhollow_volcano_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.grimhollow_volcano_crop.desc"
 msgid "Ruins Crop"
-msgstr ""
+msgstr "Саджанець руїн"
 
 #: STRINGS.ITEMS.CROP.grimhollow_volcano_crop.name
 msgctxt "STRINGS.ITEMS.CROP.grimhollow_volcano_crop.name"
 msgid "Ruins Crop"
-msgstr ""
+msgstr "Саджанець руїн"
 
 #: STRINGS.ITEMS.CROP.grimhollow_volcano_crop.seed
 msgctxt "STRINGS.ITEMS.CROP.grimhollow_volcano_crop.seed"
 msgid "Ruins Seed"
-msgstr ""
+msgstr "Насіння руїн"
 
 #: STRINGS.ITEMS.CROP.owlitzer_forest_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.owlitzer_forest_crop.desc"
 msgid "Grove Crop"
-msgstr ""
+msgstr "Саджанець гаю"
 
 #: STRINGS.ITEMS.CROP.owlitzer_forest_crop.name
 msgctxt "STRINGS.ITEMS.CROP.owlitzer_forest_crop.name"
 msgid "Grove Crop"
-msgstr ""
+msgstr "Саджанець гаю"
 
 #: STRINGS.ITEMS.CROP.owlitzer_forest_crop.seed
 msgctxt "STRINGS.ITEMS.CROP.owlitzer_forest_crop.seed"
 msgid "Grove Seed"
-msgstr ""
+msgstr "Насіння гаю"
 
 #: STRINGS.ITEMS.CROP.sedament_tundra_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.sedament_tundra_crop.desc"
 msgid "Quarry Crop"
-msgstr ""
+msgstr "Кар'єрний саджанець"
 
 #: STRINGS.ITEMS.CROP.sedament_tundra_crop.name
 msgctxt "STRINGS.ITEMS.CROP.sedament_tundra_crop.name"
 msgid "Quarry Crop"
-msgstr ""
+msgstr "Кар'єрний саджанець"
 
 #: STRINGS.ITEMS.CROP.sedament_tundra_crop.seed
 msgctxt "STRINGS.ITEMS.CROP.sedament_tundra_crop.seed"
 msgid "Quarry Seed"
-msgstr ""
+msgstr "Кар'єрне насіння"
 
 #: STRINGS.ITEMS.CROP.thatcher_swamp_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.thatcher_swamp_crop.desc"
 msgid "Molded Crop"
-msgstr ""
+msgstr "Запліснявілий саджанець"
 
 #: STRINGS.ITEMS.CROP.thatcher_swamp_crop.name
 msgctxt "STRINGS.ITEMS.CROP.thatcher_swamp_crop.name"
 msgid "Molded Crop"
-msgstr ""
+msgstr "Запліснявілий саджанець"
 
 #: STRINGS.ITEMS.CROP.thatcher_swamp_crop.seed
 msgctxt "STRINGS.ITEMS.CROP.thatcher_swamp_crop.seed"
 msgid "Molded Seed"
-msgstr ""
+msgstr "Запліснявіле насіння"
 
 #: STRINGS.ITEMS.CROP.treemon_forest_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.treemon_forest_crop.desc"
 msgid "Forest Crop"
-msgstr ""
+msgstr "Лісовий саджанець"
 
 #: STRINGS.ITEMS.CROP.treemon_forest_crop.name
 msgctxt "STRINGS.ITEMS.CROP.treemon_forest_crop.name"
 msgid "Forest Crop"
-msgstr ""
+msgstr "Лісовий саджанець"
 
 #: STRINGS.ITEMS.CROP.treemon_forest_crop.seed
 msgctxt "STRINGS.ITEMS.CROP.treemon_forest_crop.seed"
 msgid "Forest Seed"
-msgstr ""
+msgstr "Лісове насіння"
 
 #: STRINGS.ITEMS.DECOR.antleer_mid_plushies.desc
 msgctxt "STRINGS.ITEMS.DECOR.antleer_mid_plushies.desc"
@@ -29869,7 +29869,7 @@ msgstr "{Name.armourtools2}"
 #: STRINGS.ITEMS.KEY_ITEMS.cookingtools.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.cookingtools.desc"
 msgid "Allows the holder to cook meals and bring them on Hunts."
-msgstr ""
+msgstr "Дозволяє власнику готувати їжу та приносити її на полювання."
 
 #: STRINGS.ITEMS.KEY_ITEMS.cookingtools.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.cookingtools.name"
@@ -29879,7 +29879,7 @@ msgstr "{Name.cookingtools}"
 #: STRINGS.ITEMS.KEY_ITEMS.farmtools.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.farmtools.desc"
 msgid "Allows the holder to refine and plant seeds"
-msgstr ""
+msgstr "Дозволяє власнику обробляти та садити насіння"
 
 #: STRINGS.ITEMS.KEY_ITEMS.farmtools.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.farmtools.name"
@@ -30465,72 +30465,72 @@ msgstr "Скіна {Name.cabbageroll}"
 #: STRINGS.ITEMS.MATERIALS.crop_drop_bandi_swamp.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_bandi_swamp.desc"
 msgid "Bog Beans"
-msgstr ""
+msgstr "Болотні боби"
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_bandi_swamp.name
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_bandi_swamp.name"
 msgid "Bog Beans"
-msgstr ""
+msgstr "Болотні боби"
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_eggzy_tundra.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_eggzy_tundra.desc"
 msgid "Cavern Onion"
-msgstr ""
+msgstr "Печерна цибуля"
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_eggzy_tundra.name"
 msgid "Cavern Onion"
-msgstr ""
+msgstr "Печерна цибуля"
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_grimhollow_volcano.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_grimhollow_volcano.desc"
 msgid "Ruins Wheat"
-msgstr ""
+msgstr "Пшениця руїн"
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_grimhollow_volcano.name
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_grimhollow_volcano.name"
 msgid "Ruins Wheat"
-msgstr ""
+msgstr "Пшениця руїн"
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_owlitzer_forest.desc"
 msgid "Grove Berries"
-msgstr ""
+msgstr "Ягоди гаю"
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_owlitzer_forest.name
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_owlitzer_forest.name"
 msgid "Grove Berries"
-msgstr ""
+msgstr "Ягоди гаю"
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_sedament_tundra.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_sedament_tundra.desc"
 msgid "Quarry Cabbage"
-msgstr ""
+msgstr "Кар'єрна капуста"
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_sedament_tundra.name
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_sedament_tundra.name"
 msgid "Quarry Cabbage"
-msgstr ""
+msgstr "Кар'єрна капуста"
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_thatcher_swamp.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_thatcher_swamp.desc"
 msgid "Molded Fruit"
-msgstr ""
+msgstr "Запліснявілі фрукти"
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_thatcher_swamp.name
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_thatcher_swamp.name"
 msgid "Molded Fruit"
-msgstr ""
+msgstr "Запліснявілі фрукти"
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_treemon_forest.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_treemon_forest.desc"
 msgid "Forest Squash"
-msgstr ""
+msgstr "Лісовий гарбуз"
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_treemon_forest.name
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_treemon_forest.name"
 msgid "Forest Squash"
-msgstr ""
+msgstr "Лісовий гарбуз"
 
 #: STRINGS.ITEMS.MATERIALS.eyev_eyelashes.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.eyev_eyelashes.desc"
@@ -39477,7 +39477,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.hammer_thatcher.name
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_thatcher.name"
 msgid "Fortissimo"
-msgstr ""
+msgstr "Фортисимо"
 
 #: STRINGS.ITEMS.WEAPON.hammer_thatcher_swamp.desc
 msgctxt "STRINGS.ITEMS.WEAPON.hammer_thatcher_swamp.desc"
@@ -39897,7 +39897,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.shotput_thatcher.name
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_thatcher.name"
 msgid "Swarm's Spite"
-msgstr ""
+msgstr "Лють рою"
 
 #: STRINGS.ITEMS.WEAPON.shotput_treemon_forest.desc
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_treemon_forest.desc"
@@ -42748,7 +42748,7 @@ msgstr "Арак"
 #: STRINGS.NAMES.armourtools0
 msgctxt "STRINGS.NAMES.armourtools0"
 msgid "Basic Sewing Kit"
-msgstr ""
+msgstr "Звичайний набір для шиття"
 
 #: STRINGS.NAMES.armourtools1
 msgctxt "STRINGS.NAMES.armourtools1"
@@ -42978,7 +42978,7 @@ msgstr "Шкода зброї|Шкоди зброї|Шкоду зброї"
 #: STRINGS.NAMES.cookingtools
 msgctxt "STRINGS.NAMES.cookingtools"
 msgid "Cooking Spoon"
-msgstr ""
+msgstr "Кулінарна ложка|Кулінарну ложку"
 
 #: STRINGS.NAMES.cosmetic
 msgctxt "STRINGS.NAMES.cosmetic"
@@ -43093,7 +43093,7 @@ msgstr "Наповнений Ірисс"
 #: STRINGS.NAMES.farmtools
 msgctxt "STRINGS.NAMES.farmtools"
 msgid "Farming Tools"
-msgstr ""
+msgstr "Фермерські інструменти"
 
 #: STRINGS.NAMES.flitt_lastname
 msgctxt "STRINGS.NAMES.flitt_lastname"
@@ -44093,7 +44093,7 @@ msgstr "Страйкер|Страйкеру|Страйкера|Страйкер�
 #: STRINGS.NAMES.weapontools0
 msgctxt "STRINGS.NAMES.weapontools0"
 msgid "Basic Smith's Tools"
-msgstr ""
+msgstr "Звичайні інструменти коваля"
 
 #: STRINGS.NAMES.weapontools1
 msgctxt "STRINGS.NAMES.weapontools1"
@@ -46928,7 +46928,7 @@ msgstr "Скасувати"
 #: STRINGS.UI.ACTIONS.COOKING_STATION_NO_ACCESS
 msgctxt "STRINGS.UI.ACTIONS.COOKING_STATION_NO_ACCESS"
 msgid "Requires {name.cookingtools}"
-msgstr ""
+msgstr "Потрібна {name.cookingtools}"
 
 #: STRINGS.UI.ACTIONS.GEM_TABLE_NOACCESS
 msgctxt "STRINGS.UI.ACTIONS.GEM_TABLE_NOACCESS"
@@ -48130,7 +48130,7 @@ msgstr "ЗАГОРНУТИ"
 #: STRINGS.UI.FARMING.ALREADY_WATERED
 msgctxt "STRINGS.UI.FARMING.ALREADY_WATERED"
 msgid "Already Watered"
-msgstr ""
+msgstr "Вже поливали"
 
 #: STRINGS.UI.FARMING.CLOSE_SELECTION
 msgctxt "STRINGS.UI.FARMING.CLOSE_SELECTION"
@@ -48140,7 +48140,7 @@ msgstr "<p bind='Controls.Digital.CANCEL' color=0> Скасувати"
 #: STRINGS.UI.FARMING.CROP_INFO.ACCELERATED
 msgctxt "STRINGS.UI.FARMING.CROP_INFO.ACCELERATED"
 msgid "<p img='images/ui_ftf/accelerate.tex'> Accelerated: This seed will grow faster"
-msgstr ""
+msgstr "<p img='images/ui_ftf/accelerate.tex'> Прискорено: Це насіння буде рости швидше"
 
 #: STRINGS.UI.FARMING.CROP_INFO.DROPS
 msgctxt "STRINGS.UI.FARMING.CROP_INFO.DROPS"
@@ -48185,7 +48185,7 @@ msgstr "({min}-{max})"
 #: STRINGS.UI.FARMING.CROP_INFO.HARVEST_TITLE
 msgctxt "STRINGS.UI.FARMING.CROP_INFO.HARVEST_TITLE"
 msgid "HARVEST DROPS"
-msgstr ""
+msgstr "ЗІБРАТИ ВРОЖАЙ"
 
 #: STRINGS.UI.FARMING.CROP_INFO.SEEDS
 msgctxt "STRINGS.UI.FARMING.CROP_INFO.SEEDS"
@@ -48220,7 +48220,7 @@ msgstr "Можна збирати!"
 #: STRINGS.UI.FARMING.CROP_INFO.WATER_STATUS_WATERED
 msgctxt "STRINGS.UI.FARMING.CROP_INFO.WATER_STATUS_WATERED"
 msgid "Watered"
-msgstr ""
+msgstr "Поливали"
 
 #: STRINGS.UI.FARMING.EQUIP
 msgctxt "STRINGS.UI.FARMING.EQUIP"
@@ -48241,7 +48241,8 @@ msgstr "{Name.interact_tap} Посадити насіння"
 msgctxt "STRINGS.UI.FARMING.SELECT_CROP_EMPTY_LIST"
 msgid "You don't have any seeds.\n\n"
 "<i>Find them while out Hunting!</i>"
-msgstr ""
+msgstr "У вас немає насіння.\n\n"
+"<i>Знайдіть їх під час полювання!</i>"
 
 #: STRINGS.UI.FARMING.SELECT_CROP_TITLE
 msgctxt "STRINGS.UI.FARMING.SELECT_CROP_TITLE"
@@ -48291,12 +48292,12 @@ msgstr "{Name.interact_tap} Зняти {tool}"
 #: STRINGS.UI.FARM_PLOT_SIGN.OWNERSHIP
 msgctxt "STRINGS.UI.FARM_PLOT_SIGN.OWNERSHIP"
 msgid "%s's Farm"
-msgstr ""
+msgstr "Ферма: %s"
 
 #: STRINGS.UI.FARM_PLOT_SIGN.RESERVED
 msgctxt "STRINGS.UI.FARM_PLOT_SIGN.RESERVED"
 msgid "Reserved"
-msgstr ""
+msgstr "Зарезервовано"
 
 #: STRINGS.UI.FEEDBACK_SCREEN.ABOUT
 msgctxt "STRINGS.UI.FEEDBACK_SCREEN.ABOUT"
@@ -48492,12 +48493,12 @@ msgstr "НАДІШЛІТЬ НАМ СВІЙ ВІДГУК"
 #: STRINGS.UI.FOODSCREEN.COOK_BTN
 msgctxt "STRINGS.UI.FOODSCREEN.COOK_BTN"
 msgid "Prepare meal"
-msgstr "Приготувати їжу"
+msgstr "Приготувати"
 
 #: STRINGS.UI.FOODSCREEN.COOK_BTN_SOLD_OUT
 msgctxt "STRINGS.UI.FOODSCREEN.COOK_BTN_SOLD_OUT"
 msgid "Sold out!"
-msgstr ""
+msgstr "Закінчилось!"
 
 #: STRINGS.UI.FOODSCREEN.DESC
 msgctxt "STRINGS.UI.FOODSCREEN.DESC"
@@ -48527,27 +48528,27 @@ msgstr "{num_left} вийшов"
 #: STRINGS.UI.FOODSCREEN.SOLD_OUT
 msgctxt "STRINGS.UI.FOODSCREEN.SOLD_OUT"
 msgid "Sold out!"
-msgstr ""
+msgstr "Закінчилось!"
 
 #: STRINGS.UI.FOODSCREEN.TEMPORARY_MENU_TITLE
 msgctxt "STRINGS.UI.FOODSCREEN.TEMPORARY_MENU_TITLE"
 msgid "LIMITED SPECIALS!"
-msgstr ""
+msgstr "ОБМЕЖЕНА ПРОПОЗИЦІЯ!"
 
 #: STRINGS.UI.FOODSCREEN.TIME_REMAINING
 msgctxt "STRINGS.UI.FOODSCREEN.TIME_REMAINING"
 msgid "{days_left} days"
-msgstr "{days_left} днів"
+msgstr "{days_left} дні(в)"
 
 #: STRINGS.UI.FOODSCREEN.TIME_REMAINING_LAST_DAY
 msgctxt "STRINGS.UI.FOODSCREEN.TIME_REMAINING_LAST_DAY"
 msgid "Last day!"
-msgstr ""
+msgstr "Останній день!"
 
 #: STRINGS.UI.FOODSCREEN.TIME_REMAINING_TITLE
 msgctxt "STRINGS.UI.FOODSCREEN.TIME_REMAINING_TITLE"
 msgid "TIME LEFT"
-msgstr ""
+msgstr "ЗАЛИШИЛОСЯ ЧАСУ"
 
 #: STRINGS.UI.FOODSCREEN.TITLE
 msgctxt "STRINGS.UI.FOODSCREEN.TITLE"
@@ -49172,7 +49173,7 @@ msgstr "Зменшити"
 #: STRINGS.UI.HOTKEY_DISABLED
 msgctxt "STRINGS.UI.HOTKEY_DISABLED"
 msgid "<#DISABLED_HOTKEYS><p bind='{control}' color=0 scale=1> {label}</>"
-msgstr ""
+msgstr "<#DISABLED_HOTKEYS><p bind='{control}' color=0 scale=1> {label}</>"
 
 #: STRINGS.UI.HOTKEY_ENABLED
 msgctxt "STRINGS.UI.HOTKEY_ENABLED"
@@ -49799,7 +49800,7 @@ msgstr "Взаємодія"
 #: STRINGS.UI.KEYITEMGIVER.keyitem_cookingtools
 msgctxt "STRINGS.UI.KEYITEMGIVER.keyitem_cookingtools"
 msgid "Pick up {name.cookingtools}"
-msgstr ""
+msgstr "Забрати {2:{name.cookingtools}}"
 
 #: STRINGS.UI.KEYITEMGIVER.keyitem_farmtools
 msgctxt "STRINGS.UI.KEYITEMGIVER.keyitem_farmtools"
@@ -50872,22 +50873,22 @@ msgstr "{Name_multiple.weapon_crystal}"
 #: STRINGS.UI.MECHANIC_TUTORIALS.COOKINGTOOLS_UNLOCKED.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.COOKINGTOOLS_UNLOCKED.DESC"
 msgid "You can now use the cooking station to make meals and consume them for Powers during a Hunt!"
-msgstr ""
+msgstr "Тепер ви можете використовувати кухонну станцію, щоб готувати їжу для отримання сили під час полювання!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.COOKINGTOOLS_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.COOKINGTOOLS_UNLOCKED.TITLE"
 msgid "{name.cookingtools} Unlocked!"
-msgstr ""
+msgstr "{name.cookingtools} розблокована!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.FARMTOOLS_UNLOCKED.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.FARMTOOLS_UNLOCKED.DESC"
 msgid "Equip {name.farmtools} to plant, uproot, harvest and water your plants! The <#RED>Seed Exchange</> is also unlocked!"
-msgstr ""
+msgstr "Візьміть {name.farmtools}, щоб садити, викорчовувати, збирати врожай та поливати свої рослини! Також розблоковано <#RED>Обмін насіння</>!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.FARMTOOLS_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.FARMTOOLS_UNLOCKED.TITLE"
 msgid "{name.farmtools} Unlocked!"
-msgstr "{name.farmtools} розблокований!"
+msgstr "{name.farmtools} розблоковано!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.GEMTABLE_UNLOCKED.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.GEMTABLE_UNLOCKED.DESC"
@@ -51339,7 +51340,7 @@ msgstr "Збереження"
 #: STRINGS.UI.NOTIFICATION.TIME_PASSED.DESC
 msgctxt "STRINGS.UI.NOTIFICATION.TIME_PASSED.DESC"
 msgid "The day has progressed."
-msgstr ""
+msgstr "День пішов вперед."
 
 #: STRINGS.UI.NOTIFICATION.TIME_PASSED.TITLE
 msgctxt "STRINGS.UI.NOTIFICATION.TIME_PASSED.TITLE"
@@ -52294,7 +52295,8 @@ msgstr "ВИМК"
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_USE.ON.DESC"
 msgid "Set a limit to the number of frames drawn per second.  <b>(Recommended)</b>\n"
 "Changing this setting will require restarting the game."
-msgstr ""
+msgstr "Встановіть обмеження на частоту оновлення кадрів за секунду. <b>(Рекомендовано)</b>\n"
+"Зміна цього параметра потребує перезапуску гри."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_USE.ON.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_USE.ON.NAME"
@@ -52304,7 +52306,7 @@ msgstr "УВІМК"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_USE.TITLE
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_USE.TITLE"
 msgid "Use Frame Rate Limiter"
-msgstr ""
+msgstr "Обмеження частоти кадрів"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FULLSCREEN.OFF.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FULLSCREEN.OFF.DESC"
