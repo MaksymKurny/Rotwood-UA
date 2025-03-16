@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-03-16 15:23\n"
+"PO-Revision-Date: 2025-03-16 15:30\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -48751,7 +48751,7 @@ msgstr "Политий"
 #: STRINGS.UI.FARMING.EQUIP
 msgctxt "STRINGS.UI.FARMING.EQUIP"
 msgid "{name.interact_tap} Equip {tool}"
-msgstr "{Name.interact_tap} Спорядити: {tool}"
+msgstr "{Name.interact_tap} Взяти {tool}"
 
 #: STRINGS.UI.FARMING.HARVEST_NOT_READY
 msgctxt "STRINGS.UI.FARMING.HARVEST_NOT_READY"
@@ -48778,7 +48778,7 @@ msgstr "Насіння в скрині"
 #: STRINGS.UI.FARMING.TOOLS.HARVEST
 msgctxt "STRINGS.UI.FARMING.TOOLS.HARVEST"
 msgid "Harvesting Scythe"
-msgstr "Коса для збирання врожаю"
+msgstr "косу"
 
 #: STRINGS.UI.FARMING.TOOLS.HARVEST_ACTION
 msgctxt "STRINGS.UI.FARMING.TOOLS.HARVEST_ACTION"
@@ -48788,12 +48788,12 @@ msgstr "{Name.interact_tap} Зібрати"
 #: STRINGS.UI.FARMING.TOOLS.PLANT_ACTION
 msgctxt "STRINGS.UI.FARMING.TOOLS.PLANT_ACTION"
 msgid "{name.interact_tap} Plant a crop"
-msgstr "{Name.interact_tap} Посадити рослину"
+msgstr "{Name.interact_tap} Посадити саджанець"
 
 #: STRINGS.UI.FARMING.TOOLS.SHOVEL
 msgctxt "STRINGS.UI.FARMING.TOOLS.SHOVEL"
 msgid "Planting Shovel"
-msgstr "Садова лопата|Садову лопату"
+msgstr "садову лопату"
 
 #: STRINGS.UI.FARMING.TOOLS.SHOVEL_ACTION
 msgctxt "STRINGS.UI.FARMING.TOOLS.SHOVEL_ACTION"
@@ -48803,7 +48803,7 @@ msgstr "{Name.interact_hold} Викорчувати"
 #: STRINGS.UI.FARMING.TOOLS.WATER
 msgctxt "STRINGS.UI.FARMING.TOOLS.WATER"
 msgid "Watering Can"
-msgstr "Лійка|Лійку"
+msgstr "лійку"
 
 #: STRINGS.UI.FARMING.TOOLS.WATER_ACTION
 msgctxt "STRINGS.UI.FARMING.TOOLS.WATER_ACTION"
@@ -48813,7 +48813,7 @@ msgstr "{Name.interact_tap} Полити"
 #: STRINGS.UI.FARMING.UNEQUIP
 msgctxt "STRINGS.UI.FARMING.UNEQUIP"
 msgid "{name.interact_tap} Unequip {tool}"
-msgstr "{Name.interact_tap} Зняти: {tool}"
+msgstr "{Name.interact_tap} Покласти {tool}"
 
 #: STRINGS.UI.FARM_PLOT_SIGN.OWNERSHIP
 msgctxt "STRINGS.UI.FARM_PLOT_SIGN.OWNERSHIP"
