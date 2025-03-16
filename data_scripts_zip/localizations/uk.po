@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-03-16 12:31\n"
+"PO-Revision-Date: 2025-03-16 15:23\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -48337,7 +48337,7 @@ msgstr "ЗНЯТИ"
 #: STRINGS.UI.EQUIPMENTSCREEN.ITEM_UPGRADE_AVAILABLE
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.ITEM_UPGRADE_AVAILABLE"
 msgid "<p img='images/icons_ftf/upgrade.tex' color=0 scale=1.0> Lvl %d upgrade available!"
-msgstr "<p img='images/icons_ftf/upgrade.tex' color=0 scale=1.0> доступний %d рівень пакращення!"
+msgstr "<p img='images/icons_ftf/upgrade.tex' color=0 scale=1.0> Доступний %d рівень покращення!"
 
 #: STRINGS.UI.EQUIPMENTSCREEN.ITEM_UPGRADE_BUTTON
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.ITEM_UPGRADE_BUTTON"
@@ -48656,7 +48656,7 @@ msgstr "ЗАГОРНУТИ"
 #: STRINGS.UI.FARMING.ALREADY_WATERED
 msgctxt "STRINGS.UI.FARMING.ALREADY_WATERED"
 msgid "Already Watered"
-msgstr "Вже поливали"
+msgstr "Вже политий"
 
 #: STRINGS.UI.FARMING.CLOSE_SELECTION
 msgctxt "STRINGS.UI.FARMING.CLOSE_SELECTION"
@@ -48711,7 +48711,7 @@ msgstr "({min}-{max})"
 #: STRINGS.UI.FARMING.CROP_INFO.HARVEST_TITLE
 msgctxt "STRINGS.UI.FARMING.CROP_INFO.HARVEST_TITLE"
 msgid "HARVEST DROPS"
-msgstr "ЗІБРАТИ ВРОЖАЙ"
+msgstr "ВРОЖАЙ"
 
 #: STRINGS.UI.FARMING.CROP_INFO.SEEDS
 msgctxt "STRINGS.UI.FARMING.CROP_INFO.SEEDS"
@@ -48736,7 +48736,7 @@ msgstr "Потребує води"
 #: STRINGS.UI.FARMING.CROP_INFO.WATER_STATUS_DEAD
 msgctxt "STRINGS.UI.FARMING.CROP_INFO.WATER_STATUS_DEAD"
 msgid "Dried"
-msgstr "Засохла"
+msgstr "Засох"
 
 #: STRINGS.UI.FARMING.CROP_INFO.WATER_STATUS_READY
 msgctxt "STRINGS.UI.FARMING.CROP_INFO.WATER_STATUS_READY"
@@ -48746,12 +48746,12 @@ msgstr "Можна збирати!"
 #: STRINGS.UI.FARMING.CROP_INFO.WATER_STATUS_WATERED
 msgctxt "STRINGS.UI.FARMING.CROP_INFO.WATER_STATUS_WATERED"
 msgid "Watered"
-msgstr "Поливали"
+msgstr "Политий"
 
 #: STRINGS.UI.FARMING.EQUIP
 msgctxt "STRINGS.UI.FARMING.EQUIP"
 msgid "{name.interact_tap} Equip {tool}"
-msgstr "{Name.interact_tap} Спорядити {tool}"
+msgstr "{Name.interact_tap} Спорядити: {tool}"
 
 #: STRINGS.UI.FARMING.HARVEST_NOT_READY
 msgctxt "STRINGS.UI.FARMING.HARVEST_NOT_READY"
@@ -48793,7 +48793,7 @@ msgstr "{Name.interact_tap} Посадити рослину"
 #: STRINGS.UI.FARMING.TOOLS.SHOVEL
 msgctxt "STRINGS.UI.FARMING.TOOLS.SHOVEL"
 msgid "Planting Shovel"
-msgstr "Садова лопата"
+msgstr "Садова лопата|Садову лопату"
 
 #: STRINGS.UI.FARMING.TOOLS.SHOVEL_ACTION
 msgctxt "STRINGS.UI.FARMING.TOOLS.SHOVEL_ACTION"
@@ -48803,7 +48803,7 @@ msgstr "{Name.interact_hold} Викорчувати"
 #: STRINGS.UI.FARMING.TOOLS.WATER
 msgctxt "STRINGS.UI.FARMING.TOOLS.WATER"
 msgid "Watering Can"
-msgstr "Лійка"
+msgstr "Лійка|Лійку"
 
 #: STRINGS.UI.FARMING.TOOLS.WATER_ACTION
 msgctxt "STRINGS.UI.FARMING.TOOLS.WATER_ACTION"
@@ -48813,7 +48813,7 @@ msgstr "{Name.interact_tap} Полити"
 #: STRINGS.UI.FARMING.UNEQUIP
 msgctxt "STRINGS.UI.FARMING.UNEQUIP"
 msgid "{name.interact_tap} Unequip {tool}"
-msgstr "{Name.interact_tap} Зняти {tool}"
+msgstr "{Name.interact_tap} Зняти: {tool}"
 
 #: STRINGS.UI.FARM_PLOT_SIGN.OWNERSHIP
 msgctxt "STRINGS.UI.FARM_PLOT_SIGN.OWNERSHIP"
@@ -49019,7 +49019,7 @@ msgstr "НАДІШЛІТЬ НАМ СВІЙ ВІДГУК"
 #: STRINGS.UI.FOODSCREEN.BUNDLE_TITLE
 msgctxt "STRINGS.UI.FOODSCREEN.BUNDLE_TITLE"
 msgid "{food_name} Bundle"
-msgstr "Пакунок {food_name}"
+msgstr "Пакунок '{food_name}'"
 
 #: STRINGS.UI.FOODSCREEN.COOK_BTN
 msgctxt "STRINGS.UI.FOODSCREEN.COOK_BTN"
@@ -49029,7 +49029,7 @@ msgstr "Приготувати"
 #: STRINGS.UI.FOODSCREEN.COOK_BTN_BUNDLE
 msgctxt "STRINGS.UI.FOODSCREEN.COOK_BTN_BUNDLE"
 msgid "Prepare bundle (x{count})"
-msgstr "Підготувати пакунок (x{count})"
+msgstr "Приготувати пакунок (x{count})"
 
 #: STRINGS.UI.FOODSCREEN.COOK_BTN_SOLD_OUT
 msgctxt "STRINGS.UI.FOODSCREEN.COOK_BTN_SOLD_OUT"
@@ -54373,7 +54373,7 @@ msgstr "Вивчити"
 #: STRINGS.UI.UNLOCKGRINDERPANEL.SEED_DESC
 msgctxt "STRINGS.UI.UNLOCKGRINDERPANEL.SEED_DESC"
 msgid "Learn how to transmute one seed into another."
-msgstr "Дізнайтеся, як трансформувати одне насіння в інше."
+msgstr "Дізнайтеся, як перетворити одне насіння в інше."
 
 #: STRINGS.UI.UNLOCKGRINDERPANEL.SEED_INGREDIENTS
 msgctxt "STRINGS.UI.UNLOCKGRINDERPANEL.SEED_INGREDIENTS"
