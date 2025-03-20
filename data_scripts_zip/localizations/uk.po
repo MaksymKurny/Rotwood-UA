@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-03-16 15:30\n"
+"PO-Revision-Date: 2025-03-20 23:11\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -6017,11 +6017,11 @@ msgid "agent:\n"
 " !dubious\n"
 " And the introduction of <#KONJUR>{name.i_konjur}</> certainly didn't help matters.\n"
 " !gesture\n"
-" But <#RED>Poison's</> easy enough to understand. There's only one rule--\n"
+" But <#RED>{name.concept_toxic}'s</> easy enough to understand. There's only one rule--\n"
 " !shrug\n"
 " Don't touch it.\n"
 " !point\n"
-" If something spits at you or leaves a <#RED>Poison</> trail, don't stand around in it.\n"
+" If something spits at you or leaves a <#RED>{name.concept_toxic}</> trail, don't stand around in it.\n"
 " !happy\n"
 " !shrug\n"
 " Unless you're looking to do some industrial-strength exfoliation."
@@ -6032,11 +6032,11 @@ msgstr "agent:\n"
 " !dubious\n"
 " І поява <#KONJUR>{2:{name.i_konjur}}</> справі точно не допомогла. \n"
 " !gesture\n"
-" Але <#RED>кислоту</> досить легко зрозуміти. Зрештою, є лише одне правило...\n"
+" Але <#RED>{2:{name.concept_toxic}}</> досить легко зрозуміти. Зрештою, є лише одне правило...\n"
 " !shrug\n"
 " Не торкайтеся її.\n"
 " !point\n"
-" Якщо щось плює у вас або залишає за собою <#RED>кислотний</> слід, рухайтесь і не стійте в ньому.\n"
+" Якщо щось плює у вас або залишає за собою слід з <#RED>{3:{name.concept_toxic}}</>, рухайтесь і не стійте в ньому.\n"
 " !happy\n"
 " !shrug\n"
 " Якщо ви не хочете зробити серйозний пілінг."
@@ -6143,8 +6143,8 @@ msgstr "agent:\n"
 
 #: Convo.first_dgn_visit_scout_thchr.HUB0.convo.giver.STATE_0.QUESTION_1A
 msgctxt "Convo.first_dgn_visit_scout_thchr.HUB0.convo.giver.STATE_0.QUESTION_1A"
-msgid "Poison?"
-msgstr "Отрута?"
+msgid "{name.concept_toxic}?"
+msgstr "{Name.concept_toxic}?"
 
 #: Convo.first_dgn_visit_scout_thchr.HUB0.convo.giver.STATE_0.QUESTION_1B
 msgctxt "Convo.first_dgn_visit_scout_thchr.HUB0.convo.giver.STATE_0.QUESTION_1B"
@@ -7866,12 +7866,12 @@ msgctxt "Convo.twn_fn_unlocked_apothecary.ATTRACT0.farmtools_indungeon.giver.STA
 msgid "agent:\n"
 " !neutral\n"
 " !dubious\n"
-" <i>(sniff, sniff)</>\n"
+" {name.apothecary_sniff}\n"
 " Haven't found my <#RED>{name.farmtools}</> yet, huh?"
 msgstr "agent:\n"
 " !neutral\n"
 " !dubious\n"
-" <i>(нюхає, нюхає)</>\n"
+" {name.apothecary_sniff}\n"
 " Ви ще не знайшли мої <#RED>{name.farmtools}</>, так?"
 
 #: Convo.twn_fn_unlocked_apothecary.ATTRACT1.farmtools_finish.giver.STATE_0.ANSWER_1
@@ -7879,7 +7879,7 @@ msgctxt "Convo.twn_fn_unlocked_apothecary.ATTRACT1.farmtools_finish.giver.STATE_
 msgid "agent:\n"
 " !neutral\n"
 " !dubious\n"
-" <i>(sniff, sniff)</> ...You could've at least wiped off the <#RED>{name.totolili}</> spit.\n"
+" {name.apothecary_sniff} ...You could've at least wiped off the <#RED>{name.totolili}</> spit.\n"
 " !think\n"
 " Okay. Now that we've got tools, you can use them to plant and care for <#RED>seeds</> in your <#RED>garden plot</>.\n"
 " !point\n"
@@ -7892,7 +7892,7 @@ msgid "agent:\n"
 msgstr "agent:\n"
 " !neutral\n"
 " !dubious\n"
-" <i>(нюхає, нюхає)</> ...Ви хоча б могли витерти слину <#RED>{Name.totolili}ї</>.\n"
+" {name.apothecary_sniff} ...Ви хоча б могли витерти слину <#RED>{Name.totolili}ї</>.\n"
 " !think\n"
 " Гаразд. Тепер, коли у нас є інструменти, ви можете використовувати їх для посадки та догляду за <#RED>насінням</> на своїй <#RED>садовій ділянці</>.\n"
 " !point\n"
@@ -8023,15 +8023,15 @@ msgctxt "Convo.twn_fn_unlocked_apothecary.ATTRACT2.convo.giver.STATE_0.TALK"
 msgid "agent:\n"
 " !neutral\n"
 " !dubious\n"
-" <i>(sniff, sniff)</>\n"
+" {name.apothecary_sniff}\n"
 " !neutral\n"
 " Oh. It's you."
 msgstr "agent:\n"
 " !neutral\n"
 " !dubious\n"
-" <i>(нюхає, нюхає)</>\n"
+" {name.apothecary_sniff}\n"
 " !neutral\n"
-" О. Це ви."
+" Ох. Це ви."
 
 #: Convo.twn_fn_unlocked_apothecary.ATTRACT2.convo.giver.STATE_0.TITLE
 msgctxt "Convo.twn_fn_unlocked_apothecary.ATTRACT2.convo.giver.STATE_0.TITLE"
@@ -12421,13 +12421,13 @@ msgctxt "Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON0.talk_in_dungeon.giver
 msgid "agent:\n"
 " !neutral\n"
 " !dubious\n"
-" <i>(sniff, sniff)</>\n"
+" {name.apothecary_sniff}\n"
 " !point\n"
 " You're new. What are you doing here?"
 msgstr "agent:\n"
 " !neutral\n"
 " !dubious\n"
-" <i>(нюхає, нюхає)</>\n"
+" {name.apothecary_sniff}\n"
 " !point\n"
 " Ви новенький. Що ви тут робите?"
 
@@ -12509,13 +12509,13 @@ msgctxt "Convo.wrld_intro_meeting_apothecary.CHAT_DUNGEON1.talk_in_dungeon.giver
 msgid "agent:\n"
 " !neutral\n"
 " !dubious\n"
-" <i>(sniff, sniff)</>\n"
+" {name.apothecary_sniff}\n"
 " !point\n"
 " You're new. What are you doing here?"
 msgstr "agent:\n"
 " !neutral\n"
 " !dubious\n"
-" <i>(нюхає, нюхає)</>\n"
+" {name.apothecary_sniff}\n"
 " !point\n"
 " Ви новенький. Що ви тут робите?"
 
@@ -14451,13 +14451,13 @@ msgid "agent:\n"
 " !wave\n"
 " Hey hey! Welcome to <#BLUE>{name.thatcher_swamp}</>-- enjoy the lush scenery, and watch your step!\n"
 " !shrug\n"
-" Unless you like <#RED>Poison</> between your toes."
+" Unless you like <#RED>{name.concept_toxic}</> between your toes."
 msgstr "agent:\n"
 " !happy\n"
 " !wave\n"
 " Гей, гей! Ласкаво просимо до <#BLUE>{2:{Name.thatcher_swamp}}</>... насолоджуйтеся пишними пейзажами та дивиться під ноги!\n"
 " !shrug\n"
-" Якщо вам не подобається <#RED>отрута</> між пальцями ніг."
+" Якщо вам не подобається <#RED>{name.concept_toxic}</> між пальцями ніг."
 
 #: Quest.flitts_secret_dojo.QUIP.chitchat:[in_quest_flitts_secret_dojo,in_town,pf_after_bandi_flitt,pf_unlocked_masteries,role_hunter].1
 msgctxt "Quest.flitts_secret_dojo.QUIP.chitchat:[in_quest_flitts_secret_dojo,in_town,pf_after_bandi_flitt,pf_unlocked_masteries,role_hunter].1"
@@ -16803,16 +16803,16 @@ msgstr "!neutral\n"
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary,wf_seen_npc_potionmaker_dungeon].1"
 msgid "!neutral\n"
 " !dubious\n"
-" <i>(sniff, sniff)</>\n"
+" {name.apothecary_sniff}\n"
 " !disagree\n"
 " I don't like the smell of those potions you've been getting from the potion-seller.\n"
 " !think\n"
 " I can't pick up a single natural ingredient."
 msgstr "!neutral\n"
 " !dubious\n"
-" <i>(нюхає)</>\n"
+" {name.apothecary_sniff}\n"
 " !disagree\n"
-" Мені не подобається запах тих зіллів, що ви купуєте у продавця.\n"
+" Мені не подобається запах того зілля, що ви купуєте у продавця.\n"
 " !think\n"
 " Я не відчуваю жодного природного інгредієнта."
 
@@ -16833,12 +16833,12 @@ msgstr "!neutral\n"
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary,won_last_run].1"
 msgid "!neutral\n"
 " !dubious\n"
-" (sniff, sniff) Eww...\n"
+" {name.apothecary_sniff} Eww...\n"
 " !shocked\n"
 " You're covered in <#RED>{name.rot_boss}</> stink. Hope that means you beat it."
 msgstr "!neutral\n"
 " !dubious\n"
-" (нюхає, нюхає) Фу...\n"
+" {name.apothecary_sniff} Фу...\n"
 " !shocked\n"
 " Ви покриті смородом <#RED>{2:{name.rot_boss}}</>. Сподіваюся, це означає, що ви його здолали."
 
@@ -16861,14 +16861,14 @@ msgstr "!neutral\n"
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,in_town,role_apothecary].1"
 msgid "!neutral\n"
 " !dubious\n"
-" <i>(sniff, sniff)\n"
+" {name.apothecary_sniff}\n"
 " !point\n"
 " You smell weird.\n"
 " !closedeyes\n"
 " Okay, bye."
 msgstr "!neutral\n"
 " !dubious\n"
-" <i>(нюхає, нюхає)</>\n"
+" {name.apothecary_sniff}\n"
 " !point\n"
 " Ви дивно пахнете.\n"
 " !closedeyes\n"
@@ -19688,12 +19688,12 @@ msgstr "!happy\n"
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,location_thatcher_swamp,role_scout]NOT[in_town].3"
 msgid "!happy\n"
 " !point\n"
-" Oh hey, remember not to stand in the <#RED>Poison</>.\n"
+" Oh hey, remember not to stand in the <#RED>{name.concept_toxic}</>.\n"
 " !shrug\n"
 " You'd be surprised how many Hunters forget."
 msgstr "!happy\n"
 " !point\n"
-" Ой, пам'ятайте, що не варто стояти в <#RED>отруті</>.\n"
+" Ой, пам'ятайте, що не варто стояти в <#RED>{5:{name.concept_toxic}}</>.\n"
 " !shrug\n"
 " Ви будете здивовані, скільки мисливців забувають."
 
@@ -19701,12 +19701,12 @@ msgstr "!happy\n"
 msgctxt "Quest.twn_fallback_chat.QUIP.chitchat:[in_quest_twn_fallback_chat,location_thatcher_swamp,role_scout]NOT[in_town].4"
 msgid "!neutral\n"
 " !nervous\n"
-" Ah geez, I hope I don't get any <#RED>Poison</> on my watch.\n"
+" Ah geez, I hope I don't get any <#RED>{name.concept_toxic}</> on my watch.\n"
 " !dejected\n"
 " Why didn't I leave it at home?"
 msgstr "!neutral\n"
 " !nervous\n"
-" О боже, я сподіваюся, що <#RED>отрута</> не потрапить на мій годинник.\n"
+" О боже, я сподіваюся, що <#RED>{name.concept_toxic}</> не потрапить на мій годинник.\n"
 " !dejected\n"
 " Чому я не залишив його вдома?"
 
@@ -25220,33 +25220,52 @@ msgctxt "STRINGS.ENCOUNTERS.INTERACT_FOCUS.change_power_groak_no_powers"
 msgid "No {name_multiple.concept_relic} to offer..."
 msgstr "Немає {name_multiple.concept_relic}, щоб запропонувати..."
 
+#: STRINGS.ENCOUNTERS.INTERACT_FOCUS.revive_mothball_injured
+msgctxt "STRINGS.ENCOUNTERS.INTERACT_FOCUS.revive_mothball_injured"
+msgid "{name.interact_tap} {name.concept_revive} injured {name.mothball}"
+msgstr "{Name.interact_tap} {Name.concept_revive} поранену {4:{Name.mothball}}"
+
+#: STRINGS.ENCOUNTERS.angry_meowl.text
+msgctxt "STRINGS.ENCOUNTERS.angry_meowl.text"
+msgid "Don't wake up the {name.meowl}!"
+msgstr "Не розбуди {4:{Name.meowl}}!"
+
 #: STRINGS.ENCOUNTERS.blood_shop.text
 msgctxt "STRINGS.ENCOUNTERS.blood_shop.text"
-msgid "<#RED>[HELLOWRITER]</RED> Donate a slice of your life! Receive great stuff!"
-msgstr "<#RED>[HELLOWRITER]</RED> Пожертвуйте частинку свого життя! Отримайте чудові нагороди!"
+msgid "Donate a slice of your life! Receive great stuff!"
+msgstr "Пожертвуй частинку свого життя! Отримай чудові речі!"
 
 #: STRINGS.ENCOUNTERS.challengepower_shrine.text
 msgctxt "STRINGS.ENCOUNTERS.challengepower_shrine.text"
-msgid "<#RED>[HELLOWRITER]</RED> Endure the pain for later gain..."
-msgstr "<#RED>[HELLOWRITER]</RED> Перетерпіть біль заради майбутньої винагороди..."
+msgid "Endure the pain for later gain..."
+msgstr "Терпіть біль, щоб потім отримати..."
 
 #: STRINGS.ENCOUNTERS.change_power_groak.text
 msgctxt "STRINGS.ENCOUNTERS.change_power_groak.text"
-msgid "<#RED>[HELLOWRITER]</RED> Do not feed the {name.groak} <#RED>{name_multiple.concept_relic}!</>"
-msgstr "<#RED>[HELLOWRITER]</RED> Не годуйте {2:{Name.groak}}\n"
-"<#RED>{2:{name_multiple.concept_relic}}!</>"
+msgid "Do not feed the {name.groak} <#RED>{name_multiple.concept_relic}!</>"
+msgstr "Не годуйте {2:{Name.groak}} <#RED>{2:{name_multiple.concept_relic}}!</>"
+
+#: STRINGS.ENCOUNTERS.curse_healing_fountain.text
+msgctxt "STRINGS.ENCOUNTERS.curse_healing_fountain.text"
+msgid "Drink at your own risk!"
+msgstr "Пийте на свій страх і ризик!"
 
 #: STRINGS.ENCOUNTERS.farm_plots.text
 msgctxt "STRINGS.ENCOUNTERS.farm_plots.text"
-msgid "<#RED>[HELLOWRITER]</RED> Feel free to take my crops..."
-msgstr "<#RED>[HELLOWRITER]</RED> Можете брати мій урожай..."
+msgid "Feel free to take my crops..."
+msgstr "Можете брати мій урожай..."
 
 #: STRINGS.ENCOUNTERS.loot_machine.text
 msgctxt "STRINGS.ENCOUNTERS.loot_machine.text"
-msgid "<#RED>[HELLOWRITER]</RED> Under repair.\n\n"
+msgid "Under repair.\n\n"
 "DO NOT ATTACK!"
-msgstr "<#RED>[HELLOWRITER]</RED> На ремонті.\n\n"
+msgstr "На ремонті.\n\n"
 "НЕ АТАКУЙТЕ!"
+
+#: STRINGS.ENCOUNTERS.statues.text
+msgctxt "STRINGS.ENCOUNTERS.statues.text"
+msgid "You've got your reward... Risk it for more?"
+msgstr "Ви отримали свою винагороду... Ризикнути заради більшого?"
 
 #: STRINGS.FEEDBACK.BAD
 msgctxt "STRINGS.FEEDBACK.BAD"
@@ -26641,123 +26660,123 @@ msgctxt "STRINGS.ITEMS.COOKED_FOOD.treemon_forest_treemon_forest.name"
 msgid "Sautéed Squash"
 msgstr "Соте з гарбузів"
 
+#: STRINGS.ITEMS.CROP.bandi_swamp_crop.crop
+msgctxt "STRINGS.ITEMS.CROP.bandi_swamp_crop.crop"
+msgid "{name.bandi_swamp} Crop"
+msgstr "Саджанець {2:{Name.bandi_swamp}}"
+
 #: STRINGS.ITEMS.CROP.bandi_swamp_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.bandi_swamp_crop.desc"
-msgid "{name.bandi_swamp} Crop"
-msgstr "Саджанець {2:{Name.bandi_swamp}}"
-
-#: STRINGS.ITEMS.CROP.bandi_swamp_crop.name
-msgctxt "STRINGS.ITEMS.CROP.bandi_swamp_crop.name"
-msgid "{name.bandi_swamp} Crop"
-msgstr "Саджанець {2:{Name.bandi_swamp}}"
-
-#: STRINGS.ITEMS.CROP.bandi_swamp_crop.seed
-msgctxt "STRINGS.ITEMS.CROP.bandi_swamp_crop.seed"
 msgid "{name.bandi_swamp} Seed"
 msgstr "Насіння {2:{Name.bandi_swamp}}"
 
+#: STRINGS.ITEMS.CROP.bandi_swamp_crop.name
+msgctxt "STRINGS.ITEMS.CROP.bandi_swamp_crop.name"
+msgid "{name.bandi_swamp} Seed"
+msgstr "Насіння {2:{Name.bandi_swamp}}"
+
+#: STRINGS.ITEMS.CROP.eggzy_tundra_crop.crop
+msgctxt "STRINGS.ITEMS.CROP.eggzy_tundra_crop.crop"
+msgid "{name.eggzy_tundra} Crop"
+msgstr "Саджанець {2:{Name.eggzy_tundra}}"
+
 #: STRINGS.ITEMS.CROP.eggzy_tundra_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.eggzy_tundra_crop.desc"
-msgid "{name.eggzy_tundra} Crop"
-msgstr "Саджанець {2:{Name.eggzy_tundra}}"
-
-#: STRINGS.ITEMS.CROP.eggzy_tundra_crop.name
-msgctxt "STRINGS.ITEMS.CROP.eggzy_tundra_crop.name"
-msgid "{name.eggzy_tundra} Crop"
-msgstr "Саджанець {2:{Name.eggzy_tundra}}"
-
-#: STRINGS.ITEMS.CROP.eggzy_tundra_crop.seed
-msgctxt "STRINGS.ITEMS.CROP.eggzy_tundra_crop.seed"
 msgid "{name.eggzy_tundra} Seed"
 msgstr "Насіння {2:{Name.eggzy_tundra}}"
 
+#: STRINGS.ITEMS.CROP.eggzy_tundra_crop.name
+msgctxt "STRINGS.ITEMS.CROP.eggzy_tundra_crop.name"
+msgid "{name.eggzy_tundra} Seed"
+msgstr "Насіння {2:{Name.eggzy_tundra}}"
+
+#: STRINGS.ITEMS.CROP.gem_unidentified_crop.crop
+msgctxt "STRINGS.ITEMS.CROP.gem_unidentified_crop.crop"
+msgid "Crystallized Crop"
+msgstr "Кристалізований саджанець"
+
 #: STRINGS.ITEMS.CROP.gem_unidentified_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.gem_unidentified_crop.desc"
-msgid "Crystallized Crop"
-msgstr "Кристалізований саджанець"
-
-#: STRINGS.ITEMS.CROP.gem_unidentified_crop.name
-msgctxt "STRINGS.ITEMS.CROP.gem_unidentified_crop.name"
-msgid "Crystallized Crop"
-msgstr "Кристалізований саджанець"
-
-#: STRINGS.ITEMS.CROP.gem_unidentified_crop.seed
-msgctxt "STRINGS.ITEMS.CROP.gem_unidentified_crop.seed"
 msgid "Crystallized Seed"
 msgstr "Кристалізоване насіння"
 
+#: STRINGS.ITEMS.CROP.gem_unidentified_crop.name
+msgctxt "STRINGS.ITEMS.CROP.gem_unidentified_crop.name"
+msgid "Crystallized Seed"
+msgstr "Кристалізоване насіння"
+
+#: STRINGS.ITEMS.CROP.grimhollow_volcano_crop.crop
+msgctxt "STRINGS.ITEMS.CROP.grimhollow_volcano_crop.crop"
+msgid "{name.grimhollow_volcano} Crop"
+msgstr "Саджанець {2:{Name.grimhollow_volcano}}"
+
 #: STRINGS.ITEMS.CROP.grimhollow_volcano_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.grimhollow_volcano_crop.desc"
-msgid "{name.grimhollow_volcano} Crop"
-msgstr "Саджанець {2:{Name.grimhollow_volcano}}"
-
-#: STRINGS.ITEMS.CROP.grimhollow_volcano_crop.name
-msgctxt "STRINGS.ITEMS.CROP.grimhollow_volcano_crop.name"
-msgid "{name.grimhollow_volcano} Crop"
-msgstr "Саджанець {2:{Name.grimhollow_volcano}}"
-
-#: STRINGS.ITEMS.CROP.grimhollow_volcano_crop.seed
-msgctxt "STRINGS.ITEMS.CROP.grimhollow_volcano_crop.seed"
 msgid "{name.grimhollow_volcano} Seed"
 msgstr "Насіння {2:{Name.grimhollow_volcano}}"
 
+#: STRINGS.ITEMS.CROP.grimhollow_volcano_crop.name
+msgctxt "STRINGS.ITEMS.CROP.grimhollow_volcano_crop.name"
+msgid "{name.grimhollow_volcano} Seed"
+msgstr "Насіння {2:{Name.grimhollow_volcano}}"
+
+#: STRINGS.ITEMS.CROP.owlitzer_forest_crop.crop
+msgctxt "STRINGS.ITEMS.CROP.owlitzer_forest_crop.crop"
+msgid "{name.owlitzer_forest} Crop"
+msgstr "Саджанець {2:{Name.owlitzer_forest}}"
+
 #: STRINGS.ITEMS.CROP.owlitzer_forest_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.owlitzer_forest_crop.desc"
-msgid "{name.owlitzer_forest} Crop"
-msgstr "Саджанець {2:{Name.owlitzer_forest}}"
-
-#: STRINGS.ITEMS.CROP.owlitzer_forest_crop.name
-msgctxt "STRINGS.ITEMS.CROP.owlitzer_forest_crop.name"
-msgid "{name.owlitzer_forest} Crop"
-msgstr "Саджанець {2:{Name.owlitzer_forest}}"
-
-#: STRINGS.ITEMS.CROP.owlitzer_forest_crop.seed
-msgctxt "STRINGS.ITEMS.CROP.owlitzer_forest_crop.seed"
 msgid "{name.owlitzer_forest} Seed"
 msgstr "Насіння {2:{Name.owlitzer_forest}}"
 
+#: STRINGS.ITEMS.CROP.owlitzer_forest_crop.name
+msgctxt "STRINGS.ITEMS.CROP.owlitzer_forest_crop.name"
+msgid "{name.owlitzer_forest} Seed"
+msgstr "Насіння {2:{Name.owlitzer_forest}}"
+
+#: STRINGS.ITEMS.CROP.sedament_tundra_crop.crop
+msgctxt "STRINGS.ITEMS.CROP.sedament_tundra_crop.crop"
+msgid "{name.sedament_tundra} Crop"
+msgstr "Саджанець {2:{Name.sedament_tundra}}"
+
 #: STRINGS.ITEMS.CROP.sedament_tundra_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.sedament_tundra_crop.desc"
-msgid "{name.sedament_tundra} Crop"
-msgstr "Саджанець {2:{Name.sedament_tundra}}"
-
-#: STRINGS.ITEMS.CROP.sedament_tundra_crop.name
-msgctxt "STRINGS.ITEMS.CROP.sedament_tundra_crop.name"
-msgid "{name.sedament_tundra} Crop"
-msgstr "Саджанець {2:{Name.sedament_tundra}}"
-
-#: STRINGS.ITEMS.CROP.sedament_tundra_crop.seed
-msgctxt "STRINGS.ITEMS.CROP.sedament_tundra_crop.seed"
 msgid "{name.sedament_tundra} Seed"
 msgstr "Насіння {2:{Name.sedament_tundra}}"
 
+#: STRINGS.ITEMS.CROP.sedament_tundra_crop.name
+msgctxt "STRINGS.ITEMS.CROP.sedament_tundra_crop.name"
+msgid "{name.sedament_tundra} Seed"
+msgstr "Насіння {2:{Name.sedament_tundra}}"
+
+#: STRINGS.ITEMS.CROP.thatcher_swamp_crop.crop
+msgctxt "STRINGS.ITEMS.CROP.thatcher_swamp_crop.crop"
+msgid "{name.thatcher_swamp} Crop"
+msgstr "Саджанець {2:{Name.thatcher_swamp}}"
+
 #: STRINGS.ITEMS.CROP.thatcher_swamp_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.thatcher_swamp_crop.desc"
-msgid "{name.thatcher_swamp} Crop"
-msgstr "Саджанець {2:{Name.thatcher_swamp}}"
-
-#: STRINGS.ITEMS.CROP.thatcher_swamp_crop.name
-msgctxt "STRINGS.ITEMS.CROP.thatcher_swamp_crop.name"
-msgid "{name.thatcher_swamp} Crop"
-msgstr "Саджанець {2:{Name.thatcher_swamp}}"
-
-#: STRINGS.ITEMS.CROP.thatcher_swamp_crop.seed
-msgctxt "STRINGS.ITEMS.CROP.thatcher_swamp_crop.seed"
 msgid "{name.thatcher_swamp} Seed"
 msgstr "Насіння {2:{Name.thatcher_swamp}}"
 
-#: STRINGS.ITEMS.CROP.treemon_forest_crop.desc
-msgctxt "STRINGS.ITEMS.CROP.treemon_forest_crop.desc"
+#: STRINGS.ITEMS.CROP.thatcher_swamp_crop.name
+msgctxt "STRINGS.ITEMS.CROP.thatcher_swamp_crop.name"
+msgid "{name.thatcher_swamp} Seed"
+msgstr "Насіння {2:{Name.thatcher_swamp}}"
+
+#: STRINGS.ITEMS.CROP.treemon_forest_crop.crop
+msgctxt "STRINGS.ITEMS.CROP.treemon_forest_crop.crop"
 msgid "{name.treemon_forest} Crop"
 msgstr "Саджанець {2:{Name.treemon_forest}}"
+
+#: STRINGS.ITEMS.CROP.treemon_forest_crop.desc
+msgctxt "STRINGS.ITEMS.CROP.treemon_forest_crop.desc"
+msgid "{name.treemon_forest} Seed"
+msgstr "Насіння {2:{Name.treemon_forest}}"
 
 #: STRINGS.ITEMS.CROP.treemon_forest_crop.name
 msgctxt "STRINGS.ITEMS.CROP.treemon_forest_crop.name"
-msgid "{name.treemon_forest} Crop"
-msgstr "Саджанець {2:{Name.treemon_forest}}"
-
-#: STRINGS.ITEMS.CROP.treemon_forest_crop.seed
-msgctxt "STRINGS.ITEMS.CROP.treemon_forest_crop.seed"
 msgid "{name.treemon_forest} Seed"
 msgstr "Насіння {2:{Name.treemon_forest}}"
 
@@ -28594,13 +28613,13 @@ msgstr ""
 
 #: STRINGS.ITEMS.GEMS.damage_resist_acid.name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_acid.name"
-msgid "Acid Protection {name.gem}"
-msgstr "{Name.gem} захисту від кислоти"
+msgid "{name.concept_toxic} Protection {name.gem}"
+msgstr "{Name.gem} захисту від {3:{name.concept_toxic}}"
 
 #: STRINGS.ITEMS.GEMS.damage_resist_acid.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_acid.slotted_desc"
-msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>Acid</>."
-msgstr "Отримуйте менше <#RED>{2:{name.concept_damage}}</> від <#RED>кислоти</>."
+msgid "Reduces <#RED>{name.concept_damage}</> received from <#RED>{name.concept_toxic}</>."
+msgstr "Отримуйте менше <#RED>{2:{name.concept_damage}}</> від <#RED>{3:{name.concept_toxic}}</>."
 
 #: STRINGS.ITEMS.GEMS.damage_resist_acid.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.damage_resist_acid.stat_name"
@@ -29747,6 +29766,22 @@ msgctxt "STRINGS.ITEMS.GEMS.perfect_pairing.stat_name"
 msgid "Bonus heal"
 msgstr "Бонусне лікування"
 
+#: STRINGS.ITEMS.GEMS.player_acid_self_damage.desc
+msgctxt "STRINGS.ITEMS.GEMS.player_acid_self_damage.desc"
+msgid ""
+msgstr ""
+""
+
+#: STRINGS.ITEMS.GEMS.player_acid_self_damage.name
+msgctxt "STRINGS.ITEMS.GEMS.player_acid_self_damage.name"
+msgid "Corrosive {name.gem}"
+msgstr "{Name.gem} корозії"
+
+#: STRINGS.ITEMS.GEMS.player_acid_self_damage.slotted_desc
+msgctxt "STRINGS.ITEMS.GEMS.player_acid_self_damage.slotted_desc"
+msgid "Take <#RED>{name.concept_damage}</> from <#RED>{name.concept_toxic}</> created by {name_multiple.hunter}."
+msgstr "Отримуйте <#RED>{4:{name.concept_damage}}</> від <#RED>{3:{name.concept_toxic}}</> створеної {2:{Name_multiple.hunter}}."
+
 #: STRINGS.ITEMS.GEMS.power_options.desc
 msgctxt "STRINGS.ITEMS.GEMS.power_options.desc"
 msgid ""
@@ -29880,13 +29915,13 @@ msgstr ""
 
 #: STRINGS.ITEMS.GEMS.toxicity_reduction.name
 msgctxt "STRINGS.ITEMS.GEMS.toxicity_reduction.name"
-msgid "Acid Resistance {name.gem}"
-msgstr "{Name.gem} опору кислоті"
+msgid "{name.concept_toxic} Resistance {name.gem}"
+msgstr "{Name.gem} захисту від {3:{name.concept_toxic}}"
 
 #: STRINGS.ITEMS.GEMS.toxicity_reduction.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.toxicity_reduction.slotted_desc"
-msgid "<#RED>Acid</> builds up slower."
-msgstr "<#RED>Кислота</> накопичується повільніше."
+msgid "<#RED>{name.concept_toxic}</> builds up slower."
+msgstr "<#RED>{Name.concept_toxic}</> накопичується повільніше."
 
 #: STRINGS.ITEMS.GEMS.toxicity_reduction.stat_name
 msgctxt "STRINGS.ITEMS.GEMS.toxicity_reduction.stat_name"
@@ -30585,8 +30620,8 @@ msgstr "{name.thatcher_swamp}: Розбивач панцерів"
 
 #: STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.thatcher_swamp_market_2.desc
 msgctxt "STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.thatcher_swamp_market_2.desc"
-msgid "Suffer no Acid Damage"
-msgstr "Не отримати шкоди від кислоти"
+msgid "Suffer no {name.concept_toxic} Damage"
+msgstr "Не отримайте шкоди від {3:{name.concept_toxic}}"
 
 #: STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.thatcher_swamp_market_2.name
 msgctxt "STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.thatcher_swamp_market_2.name"
@@ -32870,6 +32905,16 @@ msgctxt "STRINGS.ITEMS.POTIONS.quick_heal1.name"
 msgid "Bubbling Brew"
 msgstr "Булькаюче пиво"
 
+#: STRINGS.ITEMS.POWERS.CHALLENGE.angry_meowl.desc
+msgctxt "STRINGS.ITEMS.POWERS.CHALLENGE.angry_meowl.desc"
+msgid "An angry <#RED>{name.meowl}</> follows you for {rooms} {name_multiple.dungeon_room}..."
+msgstr "Зла <#RED>{Name.meowl}</> стежить за вами протягом {rooms} {2:{name_multiple.dungeon_room}}..."
+
+#: STRINGS.ITEMS.POWERS.CHALLENGE.angry_meowl.name
+msgctxt "STRINGS.ITEMS.POWERS.CHALLENGE.angry_meowl.name"
+msgid "Angry Meowl"
+msgstr "Зла Мяова"
+
 #: STRINGS.ITEMS.POWERS.CHALLENGE.challenge_test.desc
 msgctxt "STRINGS.ITEMS.POWERS.CHALLENGE.challenge_test.desc"
 msgid "Test"
@@ -33343,8 +33388,8 @@ msgstr "equipment_bow_biggeronpierce"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bow_bullseye_acid.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bow_bullseye_acid.desc"
-msgid "Create an <#RED>Acid Pool</> on <#RED>Bullseye</>."
-msgstr "Створюйте <#RED>калюжу кислоти</> при <#RED>влучанні в яблучко</>."
+msgid "Create an <#RED>{name.concept_toxic} Pool</> on <#RED>Bullseye</>."
+msgstr "Створюйте <#RED>калюжу {3:{name.concept_toxic}}</> при <#RED>влучанні в яблучко</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bow_bullseye_acid.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bow_bullseye_acid.name"
@@ -34555,8 +34600,8 @@ msgstr "Шкода"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_head.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_head.desc"
-msgid "Prevent <#RED>Acid Damage</> when health is low."
-msgstr "Запобігає <#RED>шкоді від кислоти</>, коли рівень здоров'я низький."
+msgid "Prevent <#RED>{name.concept_toxic} Damage</> when health is low."
+msgstr "Запобігає <#RED>пошкодженню від {3:{name.concept_toxic}}</> при низькому рівні здоров'я."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_head.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_head.name"
@@ -34570,8 +34615,8 @@ msgstr "Розподіл лікування"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_waist.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_waist.desc"
-msgid "<#RED>Acid</> builds up slower."
-msgstr "<#RED>Кислота</> накопичується повільніше."
+msgid "<#RED>{name.concept_toxic}</> builds up slower."
+msgstr "<#RED>{Name.concept_toxic}</> накопичується повільніше."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_waist.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_slowpoke_waist.name"
@@ -34691,8 +34736,8 @@ msgstr "equipment_stunk_waist"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_swarmy_body.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_swarmy_body.desc"
-msgid "Create an <#RED>Acid Pool</> on <#RED>Kill</>."
-msgstr "Створюйте <#RED>калюжу кислоти</> при <#RED>вбивстві</>."
+msgid "Create an <#RED>{name.concept_toxic} Pool</> on <#RED>Kill</>."
+msgstr "Створюйте <#RED>калюжу {3:{name.concept_toxic}}</> при <#RED>вбивстві</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_swarmy_body.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_swarmy_body.name"
@@ -34706,8 +34751,8 @@ msgstr "Тривалість калюжі"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_swarmy_head.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_swarmy_head.desc"
-msgid "Increase your <#RED>{name.concept_runspeed}</> when standing in <#RED>Acid</>."
-msgstr "Збільшує вашу <#RED>{name.concept_runspeed}</> перебуваючи в <#RED>кислоті</>."
+msgid "Increase your <#RED>{name.concept_runspeed}</> when standing in <#RED>{name.concept_toxic}</>."
+msgstr "Збільшує вашу <#RED>{name.concept_runspeed}</>, перебуваючи в <#RED>{5:{name.concept_toxic}}</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_swarmy_head.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_swarmy_head.name"
@@ -34721,8 +34766,8 @@ msgstr "{Name.concept_runspeed}"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_swarmy_waist.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_swarmy_waist.desc"
-msgid "Your <#RED>{name.concept_dodge}</> is faster when standing in <#RED>Acid</>."
-msgstr "Ваше <#RED>{2:{name.concept_dodge}}</> швидше, коли ви стоїте в <#RED>кислоті</>."
+msgid "Your <#RED>{name.concept_dodge}</> is faster when standing in <#RED>{name.concept_toxic}</>."
+msgstr "Ваше <#RED>{2:{name.concept_dodge}}</> швидше, коли ви стоїте в <#RED>{5:{name.concept_toxic}}</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_swarmy_waist.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_swarmy_waist.name"
@@ -34811,8 +34856,8 @@ msgstr "equipment_wip_waist"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_woworm_body.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_woworm_body.desc"
-msgid "Leave an <#RED>Acid Pool</> when you <#RED>{name.concept_dodge}</>."
-msgstr "Залишайте <#RED>калюжу кислоти</>, коли виконуєте <#RED>{name.concept_dodge}</>."
+msgid "Leave an <#RED>{name.concept_toxic} Pool</> when you <#RED>{name.concept_dodge}</>."
+msgstr "Залишайте <#RED>калюжу {3:{name.concept_toxic}}</>, коли виконуєте <#RED>{name.concept_dodge}</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_woworm_body.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_woworm_body.name"
@@ -34826,8 +34871,8 @@ msgstr "Тривалість калюжі"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_woworm_head.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_woworm_head.desc"
-msgid "<#RED>Heal</> for a percent of <#RED>Acid Damage</> taken."
-msgstr "<#RED>Зцілення</> на відсоток <#RED>шкоди від кислоти</>."
+msgid "<#RED>Heal</> for a percent of <#RED>{name.concept_toxic} Damage</> taken."
+msgstr "<#RED>Зцілення</> на відсоток <#RED>шкоди від {3:{name.concept_toxic}}</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_woworm_head.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_woworm_head.name"
@@ -34841,8 +34886,8 @@ msgstr "Кількість лікування"
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_woworm_waist.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_woworm_waist.desc"
-msgid "Take less <#RED>{name.concept_damage}</> when standing in <#RED>Acid</>."
-msgstr "Отримуйте менше <#RED>{2:{name.concept_damage}}</> перебуваючи в <#RED>кислоті</>."
+msgid "Take less <#RED>{name.concept_damage}</> when standing in <#RED>{name.concept_toxic}</>."
+msgstr "Отримуйте менше <#RED>{2:{name.concept_damage}}</> перебуваючи в <#RED>{5:{name.concept_toxic}}</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_woworm_waist.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_woworm_waist.name"
@@ -36709,13 +36754,13 @@ msgstr "Заспокійливі духи"
 
 #: STRINGS.ITEMS.POWERS.SEED.acid_on_dodge.desc
 msgctxt "STRINGS.ITEMS.POWERS.SEED.acid_on_dodge.desc"
-msgid "[TEMP]When you <#RED>Dodge</>, leave behind a trail of <#RED>Acid</>."
-msgstr "[TEMP]Коли ви <#RED>ухиляєтеся</>, ви залишаєте за собою <#RED>кислоту</>."
+msgid "[TEMP]When you <#RED>Dodge</>, leave behind a trail of <#RED>{name.concept_toxic}</>."
+msgstr "[TEMP]Коли ви <#RED>ухиляєтеся</>, ви залишаєте за собою <#RED>{2:{name.concept_toxic}}</>."
 
 #: STRINGS.ITEMS.POWERS.SEED.acid_on_dodge.name
 msgctxt "STRINGS.ITEMS.POWERS.SEED.acid_on_dodge.name"
-msgid "[TEMP] Seed: Acid On Dodge"
-msgstr "[TEMP] Початковий матеріал: кислота при уникненні"
+msgid "[TEMP] Seed: {name.concept_toxic} On Dodge"
+msgstr "[TEMP] Насіння: {name.concept_toxic} при ухиленні"
 
 #: STRINGS.ITEMS.POWERS.SEED.seeded.desc
 msgctxt "STRINGS.ITEMS.POWERS.SEED.seeded.desc"
@@ -36970,8 +37015,8 @@ msgstr "Хранитель місяця"
 
 #: STRINGS.ITEMS.POWERS.SKILL.boss_thatcher.desc
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.boss_thatcher.desc"
-msgid "While active, your <#RED>Attacks</> coats <#RED>Targets</> in <#RED>Acid</>, which deals <#RED>{name.concept_damage}</> and maintains <#RED>Hit Streaks</>."
-msgstr "Поки активовано, ваші <#RED>атаки</> покривають <#RED>цілі</> <#RED>кислотою</>, яка завдає <#RED>{name.concept_damage}</> та підтримує <#RED>серію влучань</>."
+msgid "While active, your <#RED>Attacks</> coats <#RED>Targets</> in <#RED>{name.concept_toxic}</>, which deals <#RED>{name.concept_damage}</> and maintains <#RED>Hit Streaks</>."
+msgstr "Поки активовано, ваші <#RED>атаки</> покривають <#RED>цілі</> <#RED>{4:{name.concept_toxic}}</>, яка завдає <#RED>{name.concept_damage}</> та підтримує <#RED>серію влучань</>."
 
 #: STRINGS.ITEMS.POWERS.SKILL.boss_thatcher.name
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.boss_thatcher.name"
@@ -37014,13 +37059,13 @@ msgstr "Ляпас"
 
 #: STRINGS.ITEMS.POWERS.SKILL.bow_primearrow_acid.desc
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.bow_primearrow_acid.desc"
-msgid "Your next <#RED>Heavy Attack</> leaves an <#RED>Acid Pool</> when hitting the ground."
-msgstr "Ваша наступна <#RED>важка атака</> залишає <#RED>калюжу кислоти</> при влучанні в землю."
+msgid "Your next <#RED>Heavy Attack</> leaves an <#RED>{name.concept_toxic} Pool</> when hitting the ground."
+msgstr "Ваша наступна <#RED>важка атака</> залишає <#RED>калюжу {3:{name.concept_toxic}}</> при влучанні в землю."
 
 #: STRINGS.ITEMS.POWERS.SKILL.bow_primearrow_acid.name
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.bow_primearrow_acid.name"
-msgid "Acid Dip"
-msgstr "Кислотне занурення"
+msgid "{name.concept_toxic} Dip"
+msgstr "Занурення у {2:{name.concept_toxic}}"
 
 #: STRINGS.ITEMS.POWERS.SKILL.bow_primearrow_cold.desc
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.bow_primearrow_cold.desc"
@@ -37144,18 +37189,6 @@ msgstr "Пожертвуйте <#RED>{healthtocreate} здоров'я</>, щоб
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.hammer_totem.name"
 msgid "Hazard Idol"
 msgstr "Ідол небезпеки"
-
-#: STRINGS.ITEMS.POWERS.SKILL.megatreemon_weaponskill.desc
-msgctxt "STRINGS.ITEMS.POWERS.SKILL.megatreemon_weaponskill.desc"
-msgid "Summon <#RED>{name.megatreemon}'s Roots</>.\n\n"
-"Press <#RED>Skill</> during a <#RED>Heavy Attack</> to queue a summon on Hit."
-msgstr "Створіть ряд <#RED>коренів {2:{Name.megatreemon}}</>.\n\n"
-"Натисніть <#RED>навичку</> під час <#RED>важкої атаки</>, щоб черговий раз створити при влучанні."
-
-#: STRINGS.ITEMS.POWERS.SKILL.megatreemon_weaponskill.name
-msgctxt "STRINGS.ITEMS.POWERS.SKILL.megatreemon_weaponskill.name"
-msgid "Mother of Methuselah"
-msgstr "Мати Мафусаїла"
 
 #: STRINGS.ITEMS.POWERS.SKILL.miniboss_bonejaw.desc
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.miniboss_bonejaw.desc"
@@ -37457,15 +37490,15 @@ msgctxt "STRINGS.ITEMS.POWERS.STATUSEFFECT.juggernaut.name"
 msgid "Juggernaut"
 msgstr "Джаггернаут"
 
-#: STRINGS.ITEMS.POWERS.STATUSEFFECT.poison_from_player.desc
-msgctxt "STRINGS.ITEMS.POWERS.STATUSEFFECT.poison_from_player.desc"
+#: STRINGS.ITEMS.POWERS.STATUSEFFECT.player_acid.desc
+msgctxt "STRINGS.ITEMS.POWERS.STATUSEFFECT.player_acid.desc"
 msgid "You should never see this in the UI."
 msgstr "Ви ніколи не повинні бачити це в інтерфейсі."
 
-#: STRINGS.ITEMS.POWERS.STATUSEFFECT.poison_from_player.name
-msgctxt "STRINGS.ITEMS.POWERS.STATUSEFFECT.poison_from_player.name"
-msgid "poison_from_player"
-msgstr "poison_from_player"
+#: STRINGS.ITEMS.POWERS.STATUSEFFECT.player_acid.name
+msgctxt "STRINGS.ITEMS.POWERS.STATUSEFFECT.player_acid.name"
+msgid "player_acid"
+msgstr "player_acid"
 
 #: STRINGS.ITEMS.POWERS.STATUSEFFECT.smallify.desc
 msgctxt "STRINGS.ITEMS.POWERS.STATUSEFFECT.smallify.desc"
@@ -37544,6 +37577,16 @@ msgstr "Один раз на галявині, коли ви <#RED>вбиває�
 msgctxt "STRINGS.ITEMS.POWERS.SUMMON.charm_on_kill.name"
 msgid "Enchantée"
 msgstr "Очарування"
+
+#: STRINGS.ITEMS.POWERS.SUMMON.injured_mothball.desc
+msgctxt "STRINGS.ITEMS.POWERS.SUMMON.injured_mothball.desc"
+msgid "A friendly <#RED>{name.mothball}</> is now your ally."
+msgstr "Дружня <#RED>{Name.mothball}</> тепер ваш союзник."
+
+#: STRINGS.ITEMS.POWERS.SUMMON.injured_mothball.name
+msgctxt "STRINGS.ITEMS.POWERS.SUMMON.injured_mothball.name"
+msgid "Fuzzy Friend"
+msgstr "Пухнастий друг"
 
 #: STRINGS.ITEMS.POWERS.SUMMON.summon_on_kill.desc
 msgctxt "STRINGS.ITEMS.POWERS.SUMMON.summon_on_kill.desc"
@@ -39633,7 +39676,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.cannon_bunisnowflyballs.name
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_bunisnowflyballs.name"
 msgid "Bunbun Bomber"
-msgstr ""
+msgstr "Банбун Бомбер"
 
 #: STRINGS.ITEMS.WEAPON.cannon_corestone.desc
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_corestone.desc"
@@ -41227,38 +41270,38 @@ msgstr "{weather_name} (екстрим)"
 
 #: STRINGS.ITEMS.WEATHERS.acidfloor.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.acidfloor.desc"
-msgid "The floor of the room slowly turns into acid."
-msgstr "Підлога кімнати повільно перетворюється на кислоту."
+msgid "The floor of the room slowly turns into {name.concept_toxic}."
+msgstr "Підлога кімнати повільно перетворюється на {2:{name.concept_toxic}}."
 
 #: STRINGS.ITEMS.WEATHERS.acidfloor.name
 msgctxt "STRINGS.ITEMS.WEATHERS.acidfloor.name"
-msgid "Acid Floor"
-msgstr "Кислотна підлога"
+msgid "{name.concept_toxic} Floor"
+msgstr "Підлога з {3:{name.concept_toxic}}"
 
 #: STRINGS.ITEMS.WEATHERS.acidrain.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.acidrain.desc"
 msgid "The {name.dungeon_room} is littered with {rarity_text}."
-msgstr "На {2:{name.dungeon_room}} зараз {rarity_text}."
+msgstr "{3:{Name.dungeon_room}} заливає {rarity_text}."
 
 #: STRINGS.ITEMS.WEATHERS.acidrain.name
 msgctxt "STRINGS.ITEMS.WEATHERS.acidrain.name"
-msgid "Acid Rain"
-msgstr "Кислотний дощ"
+msgid "{name.concept_toxic} Rain"
+msgstr "Дощ з {3:{name.concept_toxic}}"
 
 #: STRINGS.ITEMS.WEATHERS.acidrain.rarity_text_COMMON
 msgctxt "STRINGS.ITEMS.WEATHERS.acidrain.rarity_text_COMMON"
-msgid "Acid"
-msgstr "Кислота"
+msgid "{name.concept_toxic}"
+msgstr "{4:{name.concept_toxic}}"
 
 #: STRINGS.ITEMS.WEATHERS.acidrain.rarity_text_EPIC
 msgctxt "STRINGS.ITEMS.WEATHERS.acidrain.rarity_text_EPIC"
-msgid "a lot of Acid"
-msgstr "багато кислоти"
+msgid "a lot of {name.concept_toxic}"
+msgstr "великою кількістю {3:{name.concept_toxic}}"
 
 #: STRINGS.ITEMS.WEATHERS.acidrain.rarity_text_LEGENDARY
 msgctxt "STRINGS.ITEMS.WEATHERS.acidrain.rarity_text_LEGENDARY"
-msgid "an overwhelming amount of Acid"
-msgstr "переважна кількість кислоти"
+msgid "an overwhelming amount of {name.concept_toxic}"
+msgstr "величезною кількістю {3:{name.concept_toxic}}"
 
 #: STRINGS.ITEMS.WEATHERS.bigworld.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.bigworld.desc"
@@ -42838,8 +42881,8 @@ msgstr "ОБЕРТАЮЧЕСЯ ЛЕЗО БОГОМОЛА!"
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SPINNING_ATTACK_2_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SPINNING_ATTACK_2_4"
-msgid "POISON HORNET SPIN!"
-msgstr "КРУЖЛЯННЯ ОТРУЙНОГО ШЕРШНЯ!"
+msgid "{NAME.concept_toxic} HORNET SPIN!"
+msgstr "КРУЖЛЯННЯ ШЕРШНЯ {3:{NAME.concept_toxic}}!"
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SWING_SMASH_1_3
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SWING_SMASH_1_3"
@@ -43191,10 +43234,12 @@ msgstr "ХУ'УззСС'УззСЛ Р-ЧРП- СИ'УззХ ГК-ЧРП-\n"
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SPINNING_ATTACK_2_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SPINNING_ATTACK_2_4"
-msgid "U'Scree'UzzX'ScreeS M'ScreeWS'BrrY \n"
-"XU'UzzS!"
-msgstr "У'Скрі'УззХ'СкріС М'СкріВС'БррЙ \n"
-"ХУ'УззС!"
+msgid "S-CHRP- \n"
+"R'Brr.h'Screesh'Brruyy'Screec'Uzzh \n"
+"M'ScreeWS'BrrY XU'UzzS!"
+msgstr "С-ЧРП- \n"
+"Р'Брр.х'Скріш'Брруй'Скрік'Уззх \n"
+"М'СкріВС'БррЙ КС'УззС!"
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SWING_SMASH_1_3
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SWING_SMASH_1_3"
@@ -43264,6 +43309,11 @@ msgstr "Глузоріг|Глузорога"
 msgctxt "STRINGS.NAMES.antleer_elite"
 msgid "Imbued Antleer"
 msgstr "Наповнений Глузоріг"
+
+#: STRINGS.NAMES.apothecary_sniff
+msgctxt "STRINGS.NAMES.apothecary_sniff"
+msgid "<i>(sniff, sniff)</i>"
+msgstr "<i>(нюхає, нюхає)</i>"
 
 #: STRINGS.NAMES.arak
 msgctxt "STRINGS.NAMES.arak"
@@ -43494,6 +43544,11 @@ msgstr "Сегмент щита"
 msgctxt "STRINGS.NAMES.concept_skill"
 msgid "Skill"
 msgstr "Навичка|Навичку"
+
+#: STRINGS.NAMES.concept_toxic
+msgctxt "STRINGS.NAMES.concept_toxic"
+msgid "Acid"
+msgstr "Кислота|Кислоту|Кислоти|Кислотою|Кислоті"
 
 #: STRINGS.NAMES.concept_weapon_damage
 msgctxt "STRINGS.NAMES.concept_weapon_damage"
@@ -43938,7 +43993,7 @@ msgstr "Наповнене Материнське дерево|Наповнен�
 #: STRINGS.NAMES.meowl
 msgctxt "STRINGS.NAMES.meowl"
 msgid "Meowl"
-msgstr "Мяова|Мяови|Мяовам"
+msgstr "Мяова|Мяови|Мяовам|Мяову"
 
 #: STRINGS.NAMES.meowl_elite
 msgctxt "STRINGS.NAMES.meowl_elite"
@@ -43963,7 +44018,7 @@ msgstr "Наповнений Мохскіт"
 #: STRINGS.NAMES.mothball
 msgctxt "STRINGS.NAMES.mothball"
 msgid "Mothball"
-msgstr "Клубкова міль|Клубкової молі|Клубковій молі"
+msgstr "Клубкова міль|Клубкової молі|Клубковій молі|Клубкову міль"
 
 #: STRINGS.NAMES.mothball_elite
 msgctxt "STRINGS.NAMES.mothball_elite"
@@ -44893,7 +44948,7 @@ msgstr "Весняні вузли"
 #: STRINGS.NAMES_PLURAL.dungeon_room
 msgctxt "STRINGS.NAMES_PLURAL.dungeon_room"
 msgid "Clearings"
-msgstr "Галявини"
+msgstr "Галявини|Галявин"
 
 #: STRINGS.NAMES_PLURAL.eggbert
 msgctxt "STRINGS.NAMES_PLURAL.eggbert"
@@ -45058,7 +45113,7 @@ msgstr "Зимова пора"
 #: STRINGS.NAMES_PLURAL.hunter
 msgctxt "STRINGS.NAMES_PLURAL.hunter"
 msgid "Hunters"
-msgstr "Мисливці"
+msgstr "Мисливці|Мисливцями"
 
 #: STRINGS.NAMES_PLURAL.i_boss_heart
 msgctxt "STRINGS.NAMES_PLURAL.i_boss_heart"
@@ -54405,6 +54460,11 @@ msgctxt "STRINGS.UI.VENDING_MACHINE.ARMOUR_UNOWNED"
 msgid "Must own armour piece"
 msgstr "Необхідно мати частину броні"
 
+#: STRINGS.UI.VENDING_MACHINE.CURSED_HEALING_FOUNTAIN
+msgctxt "STRINGS.UI.VENDING_MACHINE.CURSED_HEALING_FOUNTAIN"
+msgid "Suspicious Brew"
+msgstr "Підозрілий напій"
+
 #: STRINGS.UI.VENDING_MACHINE.DEPOSIT
 msgctxt "STRINGS.UI.VENDING_MACHINE.DEPOSIT"
 msgid "{name.interact_tap} Deposit"
@@ -54468,8 +54528,8 @@ msgstr "{Name.interact_tap} \"Безплатний\" зразок?"
 
 #: STRINGS.UI.VENDING_MACHINE.SAMPLE_HEALING_FOUNTAIN_CURSED
 msgctxt "STRINGS.UI.VENDING_MACHINE.SAMPLE_HEALING_FOUNTAIN_CURSED"
-msgid "{name.interact_tap} Something smells strange...?"
-msgstr "{Name.interact_tap} Щось дивно пахне...?"
+msgid "{name.interact_tap} Something smells strange..."
+msgstr "{Name.interact_tap} Щось дивно пахне..."
 
 #: STRINGS.UI.VENDING_MACHINE.SHOP_INVENTORY.ingot
 msgctxt "STRINGS.UI.VENDING_MACHINE.SHOP_INVENTORY.ingot"
