@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-03-28 17:30\n"
+"PO-Revision-Date: 2025-04-05 19:28\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -7996,7 +7996,7 @@ msgstr "agent:\n"
 " !gesture\n"
 " Я саме шукала їх, коли натрапила на вас. Вони, мабуть, досі десь в <#BLUE>{3:{Name.thatcher_swamp}}</>.\n"
 " player:\n"
-" {name.farmtools}, кажеш? Я буду тримати їх у полі зору!"
+" {Name.farmtools}, кажеш? Я спробую пошукати!"
 
 #: Convo.twn_fn_unlocked_apothecary.ATTRACT2.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.twn_fn_unlocked_apothecary.ATTRACT2.convo.giver.STATE_0.QUESTION_1"
