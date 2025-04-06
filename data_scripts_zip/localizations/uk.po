@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-03-20 23:11\n"
+"PO-Revision-Date: 2025-04-05 19:28\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -7996,7 +7996,7 @@ msgstr "agent:\n"
 " !gesture\n"
 " Я саме шукала їх, коли натрапила на вас. Вони, мабуть, досі десь в <#BLUE>{3:{Name.thatcher_swamp}}</>.\n"
 " player:\n"
-" {name.farmtools}, кажеш? Я буду тримати їх у полі зору!"
+" {Name.farmtools}, кажеш? Я спробую пошукати!"
 
 #: Convo.twn_fn_unlocked_apothecary.ATTRACT2.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.twn_fn_unlocked_apothecary.ATTRACT2.convo.giver.STATE_0.QUESTION_1"
@@ -48130,7 +48130,7 @@ msgstr "Розблоковано!"
 #: STRINGS.UI.DUNGEONSELECTIONSCREEN.CONFIRM_TRAVEL.NO
 msgctxt "STRINGS.UI.DUNGEONSELECTIONSCREEN.CONFIRM_TRAVEL.NO"
 msgid "Wait a minute."
-msgstr "Почекай хвилинку."
+msgstr "Хвилиночку."
 
 #: STRINGS.UI.DUNGEONSELECTIONSCREEN.CONFIRM_TRAVEL.TITLE
 msgctxt "STRINGS.UI.DUNGEONSELECTIONSCREEN.CONFIRM_TRAVEL.TITLE"
@@ -53796,7 +53796,7 @@ msgstr "Приготувати їжу"
 #: STRINGS.UI.SCREENOPENER_PROP.cooking_station_dungeon
 msgctxt "STRINGS.UI.SCREENOPENER_PROP.cooking_station_dungeon"
 msgid "Pick a Meal"
-msgstr "Оберіть страву"
+msgstr "Обрати страву"
 
 #: STRINGS.UI.SCREENOPENER_PROP.default
 msgctxt "STRINGS.UI.SCREENOPENER_PROP.default"
