@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-04-05 19:28\n"
+"PO-Revision-Date: 2025-04-06 19:28\n"
 
 #: Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_4_scout.HUB0.convo.giver.STATE_0.ANSWER_1"
@@ -3358,7 +3358,7 @@ msgstr "agent:\n"
 " Тепер, коли ви прибули, я дуже радий повідомити вам:\n"
 " !happy\n"
 " !gesture\n"
-" <i>Ви можете придбати мою <#RED>броню</> та <#RED>зброю</></i>.\n"
+" <i>Ви можете придбати мої <#RED>обладунки</> та <#RED>зброю</></i>.\n"
 " !closedeyes\n"
 " Ласкаво просимо."
 
@@ -21254,7 +21254,7 @@ msgid "agent:\n"
 msgstr "agent:\n"
 " !neutral\n"
 " !think\n"
-" Знову отримали нову броню від <#RED>нього</>, хмх?"
+" Знову отримали нові обладунки від <#RED>нього</>, хмх?"
 
 #: Quest.twn_fortify_armorsmith_2_ready.QUIP.chitchat:[armour_fortification_complete_2,in_quest_twn_fortify_armorsmith_2_ready,in_town,qc_twn_fortify_armorsmith_2_intro,role_armorsmith].1
 msgctxt "Quest.twn_fortify_armorsmith_2_ready.QUIP.chitchat:[armour_fortification_complete_2,in_quest_twn_fortify_armorsmith_2_ready,in_town,qc_twn_fortify_armorsmith_2_intro,role_armorsmith].1"
@@ -23420,7 +23420,7 @@ msgstr "<p img='images/ui_ftf_character/BtnCustomize.tex' color=0 scale=0.9> Н�
 #: STRINGS.CHARACTER_CREATOR.HIDE_ARMOR_BUTTON_TOOLTIP
 msgctxt "STRINGS.CHARACTER_CREATOR.HIDE_ARMOR_BUTTON_TOOLTIP"
 msgid "Click to toggle armour off"
-msgstr "Натисніть, щоб приховати броню"
+msgstr "Натисніть, щоб приховати обладунки"
 
 #: STRINGS.CHARACTER_CREATOR.HIDING_ARMOR_BUTTON
 msgctxt "STRINGS.CHARACTER_CREATOR.HIDING_ARMOR_BUTTON"
@@ -23487,7 +23487,7 @@ msgstr "<p img='images/ui_ftf_character/BtnShowingArmor.tex' color=0 scale=2.5>\
 #: STRINGS.CHARACTER_CREATOR.SHOW_ARMOR_BUTTON_TOOLTIP
 msgctxt "STRINGS.CHARACTER_CREATOR.SHOW_ARMOR_BUTTON_TOOLTIP"
 msgid "Click to toggle armour on"
-msgstr "Натисніть, щоб показати броню"
+msgstr "Натисніть, щоб показати обладунки"
 
 #: STRINGS.CHARACTER_CREATOR.START_BUTTON
 msgctxt "STRINGS.CHARACTER_CREATOR.START_BUTTON"
@@ -36264,7 +36264,7 @@ msgstr "Коли ви <#RED>вбиваєте</> <#RED>ворога</> одним
 #: STRINGS.ITEMS.POWERS.PLAYER.no_contest.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.no_contest.name"
 msgid "No Contest"
-msgstr "Ні конкурсу"
+msgstr "Без змагання"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.no_pushback.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.no_pushback.desc"
@@ -42564,7 +42564,7 @@ msgstr "Готує цікаві еліксири з трав і магічних
 #: STRINGS.JOB_DESCRIPTIONS.ForgeArmor
 msgctxt "STRINGS.JOB_DESCRIPTIONS.ForgeArmor"
 msgid "Forges protective armour for use in combat."
-msgstr "Кує захисну броню для використання в бою."
+msgstr "Кує захисні обладунки для використання в бою."
 
 #: STRINGS.JOB_DESCRIPTIONS.ForgeWeapon
 msgctxt "STRINGS.JOB_DESCRIPTIONS.ForgeWeapon"
@@ -49149,12 +49149,12 @@ msgstr "МЕНЮ ЇЖІ"
 #: STRINGS.UI.FORGEARMORSCREEN.CANNOT_APPLY_WRAP_HELPTEXT
 msgctxt "STRINGS.UI.FORGEARMORSCREEN.CANNOT_APPLY_WRAP_HELPTEXT"
 msgid "This armour cannot be wrapped."
-msgstr "Цю броню неможливо загорнути."
+msgstr "Ці обладунки неможливо загорнути."
 
 #: STRINGS.UI.FORGEARMORSCREEN.CAN_APPLY_WRAP_HELPTEXT
 msgctxt "STRINGS.UI.FORGEARMORSCREEN.CAN_APPLY_WRAP_HELPTEXT"
 msgid "This armour can be wrapped."
-msgstr "Цю броню можна загорнути."
+msgstr "Ці обладунки можна загорнути."
 
 #: STRINGS.UI.FORGEARMORSCREEN.MAX_SLOTS_HELPTEXT
 msgctxt "STRINGS.UI.FORGEARMORSCREEN.MAX_SLOTS_HELPTEXT"
@@ -49169,7 +49169,7 @@ msgstr "Ці обладунки можна покращити максимум %
 #: STRINGS.UI.FORGEARMORSCREEN.MENU_TITLE
 msgctxt "STRINGS.UI.FORGEARMORSCREEN.MENU_TITLE"
 msgid "Forge Armour"
-msgstr "Кувати броню"
+msgstr "Кувати обладунки"
 
 #: STRINGS.UI.FORGEARMORSCREEN.STATS_BODY_TITLE
 msgctxt "STRINGS.UI.FORGEARMORSCREEN.STATS_BODY_TITLE"
@@ -51187,7 +51187,7 @@ msgstr "Заповніть шлунок!"
 #: STRINGS.UI.MAP_ICONS.MARKET
 msgctxt "STRINGS.UI.MAP_ICONS.MARKET"
 msgid "Buy armour, new weapons and resources!"
-msgstr "Купуйте броню, нову зброю та ресурси!"
+msgstr "Купуйте обладунки, нову зброю та ресурси!"
 
 #: STRINGS.UI.MAP_ICONS.MATERIAL1
 msgctxt "STRINGS.UI.MAP_ICONS.MATERIAL1"
@@ -51335,7 +51335,7 @@ msgstr "<p bind='Controls.Digital.MENU_ACCEPT' color=0> ЗАБРАТИ!"
 #: STRINGS.UI.MASTERYSCREEN.DESC
 msgctxt "STRINGS.UI.MASTERYSCREEN.DESC"
 msgid "Complete Masteries to earn rewards!"
-msgstr "Виконуй майстерності, щоб заробити нагороди!"
+msgstr "Виконуйте майстерності, щоб заробити нагороди!"
 
 #: STRINGS.UI.MASTERYSCREEN.GEMS
 msgctxt "STRINGS.UI.MASTERYSCREEN.GEMS"
@@ -54763,7 +54763,7 @@ msgstr "<p img='images/ui_ftf/small_panel_narrow.tex' scale=0.2 color=0>  Нов
 #: STRINGS.UI.WEAPON_RACK_TOOLTIP.REWARD_USE
 msgctxt "STRINGS.UI.WEAPON_RACK_TOOLTIP.REWARD_USE"
 msgid "<p img='images/ui_ftf/small_panel_narrow.tex' scale=0.2 color=0>  Unlocks {weapon}"
-msgstr "<p img='images/ui_ftf/small_panel_narrow.tex' scale=0.2 color=0>  Розблоковувати {weapon}"
+msgstr "<p img='images/ui_ftf/small_panel_narrow.tex' scale=0.2 color=0>  Розблокує {weapon}"
 
 #: STRINGS.UI.WEAPON_RACK_TOOLTIP.TITLE
 msgctxt "STRINGS.UI.WEAPON_RACK_TOOLTIP.TITLE"
@@ -54773,7 +54773,7 @@ msgstr "Стійка: {weapon}"
 #: STRINGS.UI.WEAPON_RACK_TOOLTIP.UNLOCK_TEXT
 msgctxt "STRINGS.UI.WEAPON_RACK_TOOLTIP.UNLOCK_TEXT"
 msgid "<p img='images/icons_ftf/unlock_icon.tex' scale=0.8 color=0>Unlock cost"
-msgstr "<p img='images/icons_ftf/unlock_icon.tex' scale=0.8 color=0>Вартість розблокування"
+msgstr "<p img='images/icons_ftf/unlock_icon.tex' scale=0.8 color=0>Вартість"
 
 #: STRINGS.UI.WEIGHT_CHANGED_SCREEN.HEAVY.BRIEF
 msgctxt "STRINGS.UI.WEIGHT_CHANGED_SCREEN.HEAVY.BRIEF"
