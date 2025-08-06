@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-06 18:09\n"
+"PO-Revision-Date: 2025-08-06 18:41\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -41587,7 +41587,7 @@ msgstr "Наповнені Бавовногради"
 #: STRINGS.NAMES_PLURAL.c_konjur_heart_shard
 msgctxt "STRINGS.NAMES_PLURAL.c_konjur_heart_shard"
 msgid "<#KONJUR>Heart Shards</>"
-msgstr ""
+msgstr "<#KONJUR>Уламки серця</>"
 
 #: STRINGS.NAMES_PLURAL.cabbageroll
 msgctxt "STRINGS.NAMES_PLURAL.cabbageroll"
@@ -41967,7 +41967,7 @@ msgstr "Кам'яні серця|Кам'яних сердець"
 #: STRINGS.NAMES_PLURAL.konjur_heart_shard
 msgctxt "STRINGS.NAMES_PLURAL.konjur_heart_shard"
 msgid "Heart Shards"
-msgstr ""
+msgstr "Уламки серця"
 
 #: STRINGS.NAMES_PLURAL.konjur_soul_greater
 msgctxt "STRINGS.NAMES_PLURAL.konjur_soul_greater"
@@ -47387,7 +47387,7 @@ msgstr "Зберігайте улюблені мисливські налашт�
 #: STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_BUTTON
 msgctxt "STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_BUTTON"
 msgid "Delete Loadout"
-msgstr "Вибрати комплект"
+msgstr "Видалити комплект"
 
 #: STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_CANCEL_BTN
 msgctxt "STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_CANCEL_BTN"
@@ -47662,7 +47662,7 @@ msgstr "<p img='images/ui_ftf_character/BtnHidingArmor.tex' color=0 scale=2.5>\n
 #: STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_BASE_COLOUR_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_BASE_COLOUR_TITLE"
 msgid "<p img='images/icons_ftf/emotes.tex' color=0 scale=1> Select Base Colour"
-msgstr "<p img='images/icons_ftf/emotes.tex' color=0 scale=1> Виберіть основний колір"
+msgstr "<p img='images/icons_ftf/emotes.tex' color=0 scale=1> Виберіть колір тіла"
 
 #: STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_BASE_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_BASE_TITLE"
@@ -48748,7 +48748,7 @@ msgstr "Комплекти спорядження!"
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_2.DESC"
 msgid "After a loadout is created, you can quickly switch between them using any <#RED>Mannequin</>.\n\n"
 "When a loadout is changed, you can choose to either <#RED>Save</> the loadout or <#RED>Create</> a new one."
-msgstr "Після створення комплекту спорядження Ви можете швидко перемикатися між ними за допомогою будь-якого <#RED>манекена</>.\n\n"
+msgstr "Після створення комплекту спорядження ви можете швидко перемикатися між ними за допомогою будь-якого <#RED>манекена</>.\n\n"
 "Під час зміни комплекту спорядження ви можете обрати: <#RED>Зберегти</> змінений комплект або <#RED>створити</> новий."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_2.TITLE
@@ -49410,12 +49410,12 @@ msgstr "Зберегти зміни чи скасувати їх?"
 #: STRINGS.UI.OPTIONSSCREEN.CONFIRM_TEXTURE_QUALITY_SUBTITLE
 msgctxt "STRINGS.UI.OPTIONSSCREEN.CONFIRM_TEXTURE_QUALITY_SUBTITLE"
 msgid "Texture quality changed to <b>{new_mode}</b>"
-msgstr ""
+msgstr "Якість текстур змінено на <b>{new_mode}</b>"
 
 #: STRINGS.UI.OPTIONSSCREEN.CONFIRM_TEXTURE_QUALITY_TEXT
 msgctxt "STRINGS.UI.OPTIONSSCREEN.CONFIRM_TEXTURE_QUALITY_TEXT"
 msgid "You must restart the game to apply texture quality change."
-msgstr ""
+msgstr "Щоб змінити якість текстур, необхідно перезапустити гру."
 
 #: STRINGS.UI.OPTIONSSCREEN.CONFIRM_TEXTURE_QUALITY_TITLE
 msgctxt "STRINGS.UI.OPTIONSSCREEN.CONFIRM_TEXTURE_QUALITY_TITLE"
@@ -49584,7 +49584,7 @@ msgstr "Інше"
 #: STRINGS.UI.OPTIONSSCREEN.REQUIRE_RESTART
 msgctxt "STRINGS.UI.OPTIONSSCREEN.REQUIRE_RESTART"
 msgid "Changing this setting requires restarting the game."
-msgstr ""
+msgstr "Зміна цього параметра потребує перезапуску гри."
 
 #: STRINGS.UI.OPTIONSSCREEN.SAVED_OPTIONS_LABEL
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SAVED_OPTIONS_LABEL"
@@ -49884,7 +49884,7 @@ msgstr "ВИМК"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.DATACOLLECTION.DESC.ON.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.DATACOLLECTION.DESC.ON.DESC"
 msgid "The game will send gameplay data to Klei's servers to help us improve the game."
-msgstr ""
+msgstr "Гра надсилатиме дані ігрового процесу на сервери Klei, щоб допомогти нам покращити гру."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.DATACOLLECTION.DESC.ON.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.DATACOLLECTION.DESC.ON.NAME"
@@ -49916,39 +49916,41 @@ msgstr "Мова"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.PROFILE_NAME.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.PROFILE_NAME.DESC"
 msgid "Use the Account Name for as player name for all local players."
-msgstr ""
+msgstr "Використовує ім'я акаунта як ім'я гравця для всіх локальних гравців."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.PROFILE_NAME.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.PROFILE_NAME.NAME"
 msgid "Account Name"
-msgstr ""
+msgstr "Назва акаунта"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE"
 msgid "Player Name Display"
-msgstr ""
+msgstr "Відображення імені гравця"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_ALL.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_ALL.DESC"
 msgid "Use selected Title as player name for all local players.\n"
 "Change your Title with the 'Customize Character' mirror in Town."
-msgstr ""
+msgstr "Використовує вибраний титул як ім'я гравця для всіх локальних гравців.\n"
+"Змініть свій титул за допомогою дзеркала 'Налаштувати персонажа' в місті."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_ALL.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_ALL.NAME"
 msgid "Title For All Local Players"
-msgstr ""
+msgstr "Титул для всіх локальних гравців"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_SECONDARY.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_SECONDARY.DESC"
 msgid "Use selected Title as player name for all local players, except first player.\n"
 "Change your Title with the 'Customize Character' mirror in Town."
-msgstr ""
+msgstr "Використовує вибраний титул як ім'я гравця для всіх локальних гравців, окрім першого.\n"
+"Змініть свій титул за допомогою дзеркала 'Налаштувати персонажа' в місті."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_SECONDARY.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_SECONDARY.NAME"
 msgid "Title For Local Secondary"
-msgstr ""
+msgstr "Титул для наступних локальних гравців"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PROFANITY_FILTER.NONE.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PROFANITY_FILTER.NONE.DESC"
@@ -50057,7 +50059,7 @@ msgstr "Видалити"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.RESET_PROGRESS_YES_COUNTDOWN
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.RESET_PROGRESS_YES_COUNTDOWN"
 msgid "Delete Save ({wait_time_remaining})"
-msgstr ""
+msgstr "Видалити збереження ({wait_time_remaining})"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.RESET_SETTINGS_CONFIRM
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.RESET_SETTINGS_CONFIRM"
@@ -50157,7 +50159,7 @@ msgstr "ВИМКНЕНО"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.BLOOM.ON.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.BLOOM.ON.DESC"
 msgid "Glow effects are drawn around certain visual elements. <b>(Recommended)</b>"
-msgstr ""
+msgstr "Ефекти світіння малюються навколо певних візуальних елементів. <b>(рекомендовано)</b>"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.BLOOM.ON.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.BLOOM.ON.NAME"
@@ -50217,7 +50219,7 @@ msgstr "Курсор миші"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_SETTING.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_SETTING.DESC"
 msgid "The maximum render frame rate independent of gameplay update rate. Lower values may produce more consistent frame rates on low end machines."
-msgstr ""
+msgstr "Максимальна частота оновлення кадрів, незалежна від частоти оновлення гри. Нижчі значення можуть забезпечити більш стабільну частоту оновлення кадрів на слабких комп'ютерах."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_SETTING.TITLE
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_SETTING.TITLE"
@@ -50247,17 +50249,17 @@ msgstr "30"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_USE.OFF.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_USE.OFF.DESC"
 msgid "Game frame rate is limited only by system settings like VSync."
-msgstr ""
+msgstr "Частота кадрів у грі обмежиться лише системними налаштуваннями, такими як VSync."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_USE.OFF.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_USE.OFF.NAME"
 msgid "Disable Frame Rate Limiter"
-msgstr ""
+msgstr "Вимкнення обмеження частоти кадрів"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_USE.ON.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_USE.ON.DESC"
 msgid "Limit frames drawn per second for smoother and more consistent frame rate. <b>(Recommended)</b>"
-msgstr ""
+msgstr "Обмежена кількість кадрів на секунду, для більш плавної та стабільної частоти кадрів. <b>(рекомендовано)</b>"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_USE.ON.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.FRAMERATELIMITER_USE.ON.NAME"
@@ -50327,7 +50329,7 @@ msgstr "ВИМКНЕНО"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.RIM_LIGHTING.ON.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.RIM_LIGHTING.ON.DESC"
 msgid "Silhouette-enhancing effects drawn around important characters. <b>(Recommended)</b>"
-msgstr ""
+msgstr "Ефекти покращення силуету навколо важливих персонажів. <b>(рекомендовано)</b>"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.RIM_LIGHTING.ON.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.RIM_LIGHTING.ON.NAME"
@@ -50402,7 +50404,7 @@ msgstr "ВИМКНЕНО"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.SHADOWS.ON.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.SHADOWS.ON.DESC"
 msgid "Shadows are drawn for props and characters. <b>(Recommended)</b>"
-msgstr ""
+msgstr "Тіні для речей і персонажів. <b>(рекомендовано)</b>"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.SHADOWS.ON.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.SHADOWS.ON.NAME"
@@ -50417,7 +50419,7 @@ msgstr "Тіні"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXTURE_QUALITY.AUTO.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXTURE_QUALITY.AUTO.DESC"
 msgid "The game will pick the optimal mode on launch. <b>(Recommended)</b>"
-msgstr ""
+msgstr "Гра вибере оптимальний режим при запуску. <b>(рекомендовано)</b>"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXTURE_QUALITY.AUTO.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXTURE_QUALITY.AUTO.NAME"
@@ -50427,52 +50429,52 @@ msgstr "Авто"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXTURE_QUALITY.FORCE_HIGH.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXTURE_QUALITY.FORCE_HIGH.DESC"
 msgid "Force high texture quality (if the resources are available) on game launch."
-msgstr ""
+msgstr "Примусово встановити високу якість текстур (якщо ресурси дозволяють) під час запуску гри."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXTURE_QUALITY.FORCE_HIGH.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXTURE_QUALITY.FORCE_HIGH.NAME"
 msgid "Force High"
-msgstr ""
+msgstr "Примусово висока"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXTURE_QUALITY.FORCE_LOW.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXTURE_QUALITY.FORCE_LOW.DESC"
 msgid "Force low texture quality to prevent crashes on low end GPUs."
-msgstr ""
+msgstr "Примусово встановити низьку якість текстур, щоб запобігти збою на слабких відеокартах."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXTURE_QUALITY.FORCE_LOW.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXTURE_QUALITY.FORCE_LOW.NAME"
 msgid "Force Low"
-msgstr ""
+msgstr "Примусово низька"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXTURE_QUALITY.TITLE
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXTURE_QUALITY.TITLE"
 msgid "Texture Quality"
-msgstr ""
+msgstr "Якість текстур"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXT_SIZE.BIGGER.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXT_SIZE.BIGGER.DESC"
 msgid "A good trade-off of large text without compromising UI layout."
-msgstr ""
+msgstr "Хороший компроміс між великим текстом і збереженням макета інтерфейсу користувача."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXT_SIZE.BIGGER.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXT_SIZE.BIGGER.NAME"
 msgid "Bigger"
-msgstr ""
+msgstr "Великий"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXT_SIZE.BIGGEST.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXT_SIZE.BIGGEST.DESC"
 msgid "Largest text size at the expense of aesthetics."
-msgstr ""
+msgstr "Найбільший розмір тексту коштом естетики."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXT_SIZE.BIGGEST.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXT_SIZE.BIGGEST.NAME"
 msgid "Extreme"
-msgstr ""
+msgstr "Екстремальний"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXT_SIZE.NORMAL.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXT_SIZE.NORMAL.DESC"
 msgid "Standard size text and UI scale."
-msgstr ""
+msgstr "Стандартний розмір тексту і масштабу інтерфейсу."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXT_SIZE.NORMAL.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXT_SIZE.NORMAL.NAME"
@@ -50482,7 +50484,7 @@ msgstr "Нормальний"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXT_SIZE.TITLE
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.VIDEO.TEXT_SIZE.TITLE"
 msgid "Text Size"
-msgstr ""
+msgstr "Розмір тексту"
 
 #: STRINGS.UI.PAUSEMENU.ABANDON_BUTTON
 msgctxt "STRINGS.UI.PAUSEMENU.ABANDON_BUTTON"
@@ -51533,12 +51535,12 @@ msgstr "<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpa
 #: STRINGS.UI.TALENTSCREEN.TALENT_RANK
 msgctxt "STRINGS.UI.TALENTSCREEN.TALENT_RANK"
 msgid "RANK: {rank}"
-msgstr ""
+msgstr "ГАНГ: {rank}"
 
 #: STRINGS.UI.TALENTSCREEN.TALENT_SOURCE_DEFAULT
 msgctxt "STRINGS.UI.TALENTSCREEN.TALENT_SOURCE_DEFAULT"
 msgid "THE HUNTER"
-msgstr ""
+msgstr "МИСЛИВЕЦЬ"
 
 #: STRINGS.UI.TALENTSCREEN.TITLE
 msgctxt "STRINGS.UI.TALENTSCREEN.TITLE"
@@ -51548,7 +51550,7 @@ msgstr ""
 #: STRINGS.UI.TALENTSCREEN.UNSPENT_LABEL
 msgctxt "STRINGS.UI.TALENTSCREEN.UNSPENT_LABEL"
 msgid "Unspent:"
-msgstr ""
+msgstr "Залишилось:"
 
 #: STRINGS.UI.TALENTSCREEN.UNSPENT_TALENT_POINT_WARNING_DESC
 msgctxt "STRINGS.UI.TALENTSCREEN.UNSPENT_TALENT_POINT_WARNING_DESC"
