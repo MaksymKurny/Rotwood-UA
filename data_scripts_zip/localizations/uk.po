@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-06 21:29\n"
+"PO-Revision-Date: 2025-08-06 21:47\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -25745,7 +25745,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_2.desc"
@@ -25755,17 +25755,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_1.desc"
@@ -25775,7 +25775,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_2.desc"
@@ -25785,17 +25785,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_1.desc"
@@ -25805,7 +25805,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_2.desc"
@@ -25815,17 +25815,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_1.desc"
@@ -25835,7 +25835,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_2.desc"
@@ -25845,17 +25845,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_1.desc"
@@ -25865,7 +25865,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_2.desc"
@@ -25875,17 +25875,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_1.desc"
@@ -25895,7 +25895,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_2.desc"
@@ -25905,17 +25905,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_1.desc"
@@ -25925,7 +25925,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_2.desc"
@@ -25935,17 +25935,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_1.desc"
@@ -25955,7 +25955,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_2.desc"
@@ -25965,17 +25965,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_1.desc"
@@ -25985,7 +25985,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_2.desc"
@@ -25995,17 +25995,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_1.desc"
@@ -26015,7 +26015,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_2.desc"
@@ -26025,17 +26025,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_1.desc"
@@ -26045,7 +26045,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_2.desc"
@@ -26055,17 +26055,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_1.desc"
@@ -26075,7 +26075,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_2.desc"
@@ -26085,17 +26085,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_1.desc"
@@ -26105,7 +26105,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_2.desc"
@@ -26115,17 +26115,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_1.desc"
@@ -26135,7 +26135,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_2.desc"
@@ -26145,17 +26145,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_1.desc"
@@ -26165,7 +26165,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_2.desc"
@@ -26175,17 +26175,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_1.desc"
@@ -26195,7 +26195,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_2.desc"
@@ -26205,17 +26205,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_1.desc"
@@ -26225,7 +26225,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_2.desc"
@@ -26235,17 +26235,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_1.desc"
@@ -26255,7 +26255,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_2.desc"
@@ -26265,17 +26265,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_1.desc"
@@ -26285,7 +26285,7 @@ msgstr "Одягніть повний <#RED>{name.concept_loadout}</> зі сп�
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_2.desc"
@@ -26295,17 +26295,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_1.desc"
@@ -26315,7 +26315,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_2.desc"
@@ -26325,17 +26325,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_1.desc"
@@ -26345,7 +26345,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_2.desc"
@@ -26355,17 +26355,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_1.desc"
@@ -26375,7 +26375,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_1.name"
 msgid "{name.concept_talent_tree} 1"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 1"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_2.desc"
@@ -26385,17 +26385,17 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_2.name"
 msgid "{name.concept_talent_tree} 2"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 2"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_3.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_3.desc"
 msgid "Complete the {name.run}!"
-msgstr ""
+msgstr "Завершіть {name.run}!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_3.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_3.name"
 msgid "{name.concept_talent_tree} 3"
-msgstr ""
+msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools0.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools0.desc"
@@ -27783,7 +27783,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.konjur_heart_shard.name
 msgctxt "STRINGS.ITEMS.MATERIALS.konjur_heart_shard.name"
 msgid "{name.konjur_heart_shard}"
-msgstr ""
+msgstr "{Name.konjur_heart_shard}"
 
 #: STRINGS.ITEMS.MATERIALS.konjur_heart_shard.name_multiple_fmt
 msgctxt "STRINGS.ITEMS.MATERIALS.konjur_heart_shard.name_multiple_fmt"
@@ -28849,7 +28849,7 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.CURSE.lose_max_health_potion_room.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lose_max_health_potion_room.name"
 msgid "{name.potion}phobia"
-msgstr ""
+msgstr "{Name.potion}-фобія"
 
 #: STRINGS.ITEMS.POWERS.CURSE.lose_max_health_power_room.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lose_max_health_power_room.desc"
@@ -28859,7 +28859,7 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.CURSE.lose_max_health_power_room.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lose_max_health_power_room.name"
 msgid "{name.concept_relic}phobia"
-msgstr ""
+msgstr "{Name.concept_relic}-фобія"
 
 #: STRINGS.ITEMS.POWERS.CURSE.lose_max_health_teffra_room.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lose_max_health_teffra_room.desc"
@@ -28869,7 +28869,7 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.CURSE.lose_max_health_teffra_room.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lose_max_health_teffra_room.name"
 msgid "{name.konjur}phobia"
-msgstr ""
+msgstr "{Name.konjur}-фобія"
 
 #: STRINGS.ITEMS.POWERS.CURSE.lose_max_health_upgrade_room.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lose_max_health_upgrade_room.desc"
@@ -28889,7 +28889,7 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.CURSE.lose_max_health_wanderer_room.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lose_max_health_wanderer_room.name"
 msgid "{name.npc_specialeventhost}-phobia"
-msgstr ""
+msgstr "{name.npc_specialeventhost}-фобія"
 
 #: STRINGS.ITEMS.POWERS.CURSE.max_health_curse_and_do_damage.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.max_health_curse_and_do_damage.desc"
@@ -33752,7 +33752,7 @@ msgstr "Збільшує вашу <#RED>{name.concept_damage}</> проти <#RE
 #: STRINGS.ITEMS.POWERS.TALENT.talent_boss_damage.name
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_boss_damage.name"
 msgid "Giant Slayer"
-msgstr "Убився гігантів"
+msgstr "Убивця гігантів"
 
 #: STRINGS.ITEMS.POWERS.TALENT.talent_dodge_damage_reduction.desc
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_dodge_damage_reduction.desc"
@@ -34050,72 +34050,72 @@ msgstr "Клас {name.medium_weight}"
 #: STRINGS.ITEMS.RARITY.COMMON
 msgctxt "STRINGS.ITEMS.RARITY.COMMON"
 msgid "{name.c_item_rarity_common}"
-msgstr ""
+msgstr "{Name.c_item_rarity_common}"
 
 #: STRINGS.ITEMS.RARITY.EPIC
 msgctxt "STRINGS.ITEMS.RARITY.EPIC"
 msgid "{name.c_item_rarity_epic}"
-msgstr ""
+msgstr "{Name.c_item_rarity_epic}"
 
 #: STRINGS.ITEMS.RARITY.LEGENDARY
 msgctxt "STRINGS.ITEMS.RARITY.LEGENDARY"
 msgid "{name.c_item_rarity_legendary}"
-msgstr ""
+msgstr "{Name.c_item_rarity_legendary}"
 
 #: STRINGS.ITEMS.RARITY.RARE
 msgctxt "STRINGS.ITEMS.RARITY.RARE"
 msgid "{name.c_item_rarity_rare}"
-msgstr ""
+msgstr "{Name.c_item_rarity_rare}"
 
 #: STRINGS.ITEMS.RARITY.SET
 msgctxt "STRINGS.ITEMS.RARITY.SET"
 msgid "{name.c_item_rarity_set}"
-msgstr ""
+msgstr "{Name.c_item_rarity_set}"
 
 #: STRINGS.ITEMS.RARITY.TITAN
 msgctxt "STRINGS.ITEMS.RARITY.TITAN"
 msgid "{name.c_item_rarity_titan}"
-msgstr ""
+msgstr "{Name.c_item_rarity_titan}"
 
 #: STRINGS.ITEMS.RARITY.UNCOMMON
 msgctxt "STRINGS.ITEMS.RARITY.UNCOMMON"
 msgid "{name.c_item_rarity_uncommon}"
-msgstr ""
+msgstr "{Name.c_item_rarity_uncommon}"
 
 #: STRINGS.ITEMS.RARITY_CAPS.COMMON
 msgctxt "STRINGS.ITEMS.RARITY_CAPS.COMMON"
 msgid "{NAME.c_item_rarity_common}"
-msgstr ""
+msgstr "{NAME.c_item_rarity_common}"
 
 #: STRINGS.ITEMS.RARITY_CAPS.EPIC
 msgctxt "STRINGS.ITEMS.RARITY_CAPS.EPIC"
 msgid "{NAME.c_item_rarity_epic}"
-msgstr ""
+msgstr "{NAME.c_item_rarity_epic}"
 
 #: STRINGS.ITEMS.RARITY_CAPS.LEGENDARY
 msgctxt "STRINGS.ITEMS.RARITY_CAPS.LEGENDARY"
 msgid "{NAME.c_item_rarity_legendary}"
-msgstr ""
+msgstr "{NAME.c_item_rarity_legendary}"
 
 #: STRINGS.ITEMS.RARITY_CAPS.RARE
 msgctxt "STRINGS.ITEMS.RARITY_CAPS.RARE"
 msgid "{NAME.c_item_rarity_rare}"
-msgstr ""
+msgstr "{NAME.c_item_rarity_rare}"
 
 #: STRINGS.ITEMS.RARITY_CAPS.SET
 msgctxt "STRINGS.ITEMS.RARITY_CAPS.SET"
 msgid "{NAME.c_item_rarity_set}"
-msgstr ""
+msgstr "{NAME.c_item_rarity_set}"
 
 #: STRINGS.ITEMS.RARITY_CAPS.TITAN
 msgctxt "STRINGS.ITEMS.RARITY_CAPS.TITAN"
 msgid "{NAME.c_item_rarity_titan}"
-msgstr ""
+msgstr "{NAME.c_item_rarity_titan}"
 
 #: STRINGS.ITEMS.RARITY_CAPS.UNCOMMON
 msgctxt "STRINGS.ITEMS.RARITY_CAPS.UNCOMMON"
 msgid "{NAME.c_item_rarity_uncommon}"
-msgstr ""
+msgstr "{NAME.c_item_rarity_uncommon}"
 
 #: STRINGS.ITEMS.REWARDGROUPS.bandi_swamp_decor.desc
 msgctxt "STRINGS.ITEMS.REWARDGROUPS.bandi_swamp_decor.desc"
@@ -38517,7 +38517,7 @@ msgstr "Кристалізоване насіння"
 #: STRINGS.ITEMS.WEATHER_REWARDS.HEART_SHARD.name
 msgctxt "STRINGS.ITEMS.WEATHER_REWARDS.HEART_SHARD.name"
 msgid "{name.konjur_heart_shard}"
-msgstr ""
+msgstr "{Name.konjur_heart_shard}"
 
 #: STRINGS.ITEMS.WEATHER_REWARDS.INGOT.name
 msgctxt "STRINGS.ITEMS.WEATHER_REWARDS.INGOT.name"
@@ -38687,7 +38687,7 @@ msgstr "{Name.konjur_heart}"
 #: STRINGS.ITEM_CATEGORIES.HEART_SHARD_MASTERY
 msgctxt "STRINGS.ITEM_CATEGORIES.HEART_SHARD_MASTERY"
 msgid "{name.concept_talent_tree}"
-msgstr ""
+msgstr "{Name.concept_talent_tree}"
 
 #: STRINGS.ITEM_CATEGORIES.KEY_ITEMS
 msgctxt "STRINGS.ITEM_CATEGORIES.KEY_ITEMS"
@@ -38797,7 +38797,7 @@ msgstr "Викликати"
 #: STRINGS.ITEM_CATEGORIES.TALENT
 msgctxt "STRINGS.ITEM_CATEGORIES.TALENT"
 msgid "{name.concept_talent}"
-msgstr ""
+msgstr "{Name.concept_talent}"
 
 #: STRINGS.ITEM_CATEGORIES.TONIC
 msgctxt "STRINGS.ITEM_CATEGORIES.TONIC"
@@ -38892,22 +38892,22 @@ msgstr "{NAME.bandi_swamp}"
 #: STRINGS.LOCATIONS.bandi_swamp_r1.name
 msgctxt "STRINGS.LOCATIONS.bandi_swamp_r1.name"
 msgid "{name.bandi_swamp_r1}"
-msgstr ""
+msgstr "{Name.bandi_swamp_r1}"
 
 #: STRINGS.LOCATIONS.bandi_swamp_r1.name_upper
 msgctxt "STRINGS.LOCATIONS.bandi_swamp_r1.name_upper"
 msgid "{NAME.bandi_swamp_r1}"
-msgstr ""
+msgstr "{NAME.bandi_swamp_r1}"
 
 #: STRINGS.LOCATIONS.bandi_swamp_r2.name
 msgctxt "STRINGS.LOCATIONS.bandi_swamp_r2.name"
 msgid "{name.bandi_swamp_r2}"
-msgstr ""
+msgstr "{Name.bandi_swamp_r2}"
 
 #: STRINGS.LOCATIONS.bandi_swamp_r2.name_upper
 msgctxt "STRINGS.LOCATIONS.bandi_swamp_r2.name_upper"
 msgid "{NAME.bandi_swamp_r2}"
-msgstr ""
+msgstr "{NAME.bandi_swamp_r2}"
 
 #: STRINGS.LOCATIONS.brundle.name
 msgctxt "STRINGS.LOCATIONS.brundle.name"
@@ -38927,12 +38927,12 @@ msgstr "{NAME.eggzy_tundra}"
 #: STRINGS.LOCATIONS.eggzy_tundra_r1.name
 msgctxt "STRINGS.LOCATIONS.eggzy_tundra_r1.name"
 msgid "{name.eggzy_tundra_r1}"
-msgstr ""
+msgstr "{Name.eggzy_tundra_r1}"
 
 #: STRINGS.LOCATIONS.eggzy_tundra_r1.name_upper
 msgctxt "STRINGS.LOCATIONS.eggzy_tundra_r1.name_upper"
 msgid "{NAME.eggzy_tundra_r1}"
-msgstr ""
+msgstr "{NAME.eggzy_tundra_r1}"
 
 #: STRINGS.LOCATIONS.grimhollow_volcano.name
 msgctxt "STRINGS.LOCATIONS.grimhollow_volcano.name"
@@ -38947,22 +38947,22 @@ msgstr "{NAME.grimhollow_volcano}"
 #: STRINGS.LOCATIONS.grimhollow_volcano_r1.name
 msgctxt "STRINGS.LOCATIONS.grimhollow_volcano_r1.name"
 msgid "{name.grimhollow_volcano_r1}"
-msgstr ""
+msgstr "{Name.grimhollow_volcano_r1}"
 
 #: STRINGS.LOCATIONS.grimhollow_volcano_r1.name_upper
 msgctxt "STRINGS.LOCATIONS.grimhollow_volcano_r1.name_upper"
 msgid "{NAME.grimhollow_volcano_r1}"
-msgstr ""
+msgstr "{NAME.grimhollow_volcano_r1}"
 
 #: STRINGS.LOCATIONS.grimhollow_volcano_r2.name
 msgctxt "STRINGS.LOCATIONS.grimhollow_volcano_r2.name"
 msgid "{name.grimhollow_volcano_r2}"
-msgstr ""
+msgstr "{Name.grimhollow_volcano_r2}"
 
 #: STRINGS.LOCATIONS.grimhollow_volcano_r2.name_upper
 msgctxt "STRINGS.LOCATIONS.grimhollow_volcano_r2.name_upper"
 msgid "{NAME.grimhollow_volcano_r2}"
-msgstr ""
+msgstr "{NAME.grimhollow_volcano_r2}"
 
 #: STRINGS.LOCATIONS.owlitzer_forest.name
 msgctxt "STRINGS.LOCATIONS.owlitzer_forest.name"
@@ -38977,32 +38977,32 @@ msgstr "{NAME.owlitzer_forest}"
 #: STRINGS.LOCATIONS.owlitzer_forest_r1.name
 msgctxt "STRINGS.LOCATIONS.owlitzer_forest_r1.name"
 msgid "{name.owlitzer_forest_r1}"
-msgstr ""
+msgstr "{Name.owlitzer_forest_r1}"
 
 #: STRINGS.LOCATIONS.owlitzer_forest_r1.name_upper
 msgctxt "STRINGS.LOCATIONS.owlitzer_forest_r1.name_upper"
 msgid "{NAME.owlitzer_forest_r1}"
-msgstr ""
+msgstr "{NAME.owlitzer_forest_r1}"
 
 #: STRINGS.LOCATIONS.owlitzer_forest_r2.name
 msgctxt "STRINGS.LOCATIONS.owlitzer_forest_r2.name"
 msgid "{name.owlitzer_forest_r2}"
-msgstr ""
+msgstr "{Name.owlitzer_forest_r2}"
 
 #: STRINGS.LOCATIONS.owlitzer_forest_r2.name_upper
 msgctxt "STRINGS.LOCATIONS.owlitzer_forest_r2.name_upper"
 msgid "{NAME.owlitzer_forest_r2}"
-msgstr ""
+msgstr "{NAME.owlitzer_forest_r2}"
 
 #: STRINGS.LOCATIONS.owlitzer_forest_r3.name
 msgctxt "STRINGS.LOCATIONS.owlitzer_forest_r3.name"
 msgid "{name.owlitzer_forest_r3}"
-msgstr ""
+msgstr "{Name.owlitzer_forest_r3}"
 
 #: STRINGS.LOCATIONS.owlitzer_forest_r3.name_upper
 msgctxt "STRINGS.LOCATIONS.owlitzer_forest_r3.name_upper"
 msgid "{NAME.owlitzer_forest_r3}"
-msgstr ""
+msgstr "{NAME.owlitzer_forest_r3}"
 
 #: STRINGS.LOCATIONS.restroom.name
 msgctxt "STRINGS.LOCATIONS.restroom.name"
@@ -39022,22 +39022,22 @@ msgstr "{NAME.sedament_tundra}"
 #: STRINGS.LOCATIONS.sedament_tundra_r1.name
 msgctxt "STRINGS.LOCATIONS.sedament_tundra_r1.name"
 msgid "{name.sedament_tundra_r1}"
-msgstr ""
+msgstr "{Name.sedament_tundra_r1}"
 
 #: STRINGS.LOCATIONS.sedament_tundra_r1.name_upper
 msgctxt "STRINGS.LOCATIONS.sedament_tundra_r1.name_upper"
 msgid "{NAME.sedament_tundra_r1}"
-msgstr ""
+msgstr "{NAME.sedament_tundra_r1}"
 
 #: STRINGS.LOCATIONS.sedament_tundra_r2.name
 msgctxt "STRINGS.LOCATIONS.sedament_tundra_r2.name"
 msgid "{name.sedament_tundra_r2}"
-msgstr ""
+msgstr "{Name.sedament_tundra_r2}"
 
 #: STRINGS.LOCATIONS.sedament_tundra_r2.name_upper
 msgctxt "STRINGS.LOCATIONS.sedament_tundra_r2.name_upper"
 msgid "{NAME.sedament_tundra_r2}"
-msgstr ""
+msgstr "{NAME.sedament_tundra_r2}"
 
 #: STRINGS.LOCATIONS.thatcher_swamp.name
 msgctxt "STRINGS.LOCATIONS.thatcher_swamp.name"
@@ -39052,22 +39052,22 @@ msgstr "{NAME.thatcher_swamp}"
 #: STRINGS.LOCATIONS.thatcher_swamp_r1.name
 msgctxt "STRINGS.LOCATIONS.thatcher_swamp_r1.name"
 msgid "{name.thatcher_swamp_r1}"
-msgstr ""
+msgstr "{Name.thatcher_swamp_r1}"
 
 #: STRINGS.LOCATIONS.thatcher_swamp_r1.name_upper
 msgctxt "STRINGS.LOCATIONS.thatcher_swamp_r1.name_upper"
 msgid "{NAME.thatcher_swamp_r1}"
-msgstr ""
+msgstr "{NAME.thatcher_swamp_r1}"
 
 #: STRINGS.LOCATIONS.thatcher_swamp_r2.name
 msgctxt "STRINGS.LOCATIONS.thatcher_swamp_r2.name"
 msgid "{name.thatcher_swamp_r2}"
-msgstr ""
+msgstr "{Name.thatcher_swamp_r2}"
 
 #: STRINGS.LOCATIONS.thatcher_swamp_r2.name_upper
 msgctxt "STRINGS.LOCATIONS.thatcher_swamp_r2.name_upper"
 msgid "{NAME.thatcher_swamp_r2}"
-msgstr ""
+msgstr "{NAME.thatcher_swamp_r2}"
 
 #: STRINGS.LOCATIONS.treemon_forest.name
 msgctxt "STRINGS.LOCATIONS.treemon_forest.name"
@@ -39082,32 +39082,32 @@ msgstr "{NAME.treemon_forest}"
 #: STRINGS.LOCATIONS.treemon_forest_r1.name
 msgctxt "STRINGS.LOCATIONS.treemon_forest_r1.name"
 msgid "{name.treemon_forest_r1}"
-msgstr ""
+msgstr "{Name.treemon_forest_r1}"
 
 #: STRINGS.LOCATIONS.treemon_forest_r1.name_upper
 msgctxt "STRINGS.LOCATIONS.treemon_forest_r1.name_upper"
 msgid "{NAME.treemon_forest_r1}"
-msgstr ""
+msgstr "{NAME.treemon_forest_r1}"
 
 #: STRINGS.LOCATIONS.treemon_forest_r2.name
 msgctxt "STRINGS.LOCATIONS.treemon_forest_r2.name"
 msgid "{name.treemon_forest_r2}"
-msgstr ""
+msgstr "{Name.treemon_forest_r2}"
 
 #: STRINGS.LOCATIONS.treemon_forest_r2.name_upper
 msgctxt "STRINGS.LOCATIONS.treemon_forest_r2.name_upper"
 msgid "{NAME.treemon_forest_r2}"
-msgstr ""
+msgstr "{NAME.treemon_forest_r2}"
 
 #: STRINGS.LOCATIONS.treemon_forest_r3.name
 msgctxt "STRINGS.LOCATIONS.treemon_forest_r3.name"
 msgid "{name.treemon_forest_r3}"
-msgstr ""
+msgstr "{Name.treemon_forest_r3}"
 
 #: STRINGS.LOCATIONS.treemon_forest_r3.name_upper
 msgctxt "STRINGS.LOCATIONS.treemon_forest_r3.name_upper"
 msgid "{NAME.treemon_forest_r3}"
-msgstr ""
+msgstr "{NAME.treemon_forest_r3}"
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher.THATCHER_DASH_UPPERCUT_1_2
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher.THATCHER_DASH_UPPERCUT_1_2"
@@ -43882,7 +43882,7 @@ msgstr "{Name.concept_skill}"
 #: STRINGS.POWERS.POWER_TYPE.TALENT
 msgctxt "STRINGS.POWERS.POWER_TYPE.TALENT"
 msgid "{name.concept_talent}"
-msgstr ""
+msgstr "{Name.concept_talent}"
 
 #: STRINGS.POWERS.POWER_TYPE.WEIGHT
 msgctxt "STRINGS.POWERS.POWER_TYPE.WEIGHT"
@@ -44296,12 +44296,12 @@ msgstr ""
 #: STRINGS.UI.ACTIONS.DRINK_POTION_ITEM
 msgctxt "STRINGS.UI.ACTIONS.DRINK_POTION_ITEM"
 msgid "{name.interact_hold} Drink {name.potion}"
-msgstr ""
+msgstr "{Name.interact_hold} Випити {name.potion}"
 
 #: STRINGS.UI.ACTIONS.GIVE_GIFT
 msgctxt "STRINGS.UI.ACTIONS.GIVE_GIFT"
 msgid "{name.interact_hold} Give Gift"
-msgstr ""
+msgstr "{Name.interact_hold} Подарувати подарунок"
 
 #: STRINGS.UI.ACTIONS.HEAD_OUT
 msgctxt "STRINGS.UI.ACTIONS.HEAD_OUT"
@@ -44331,7 +44331,7 @@ msgstr "Відсутні елементи обладнання"
 #: STRINGS.UI.ACTIONS.MANNEQUIN_QUICK_EQUIP
 msgctxt "STRINGS.UI.ACTIONS.MANNEQUIN_QUICK_EQUIP"
 msgid "{name.interact_hold} Quick Equip"
-msgstr ""
+msgstr "{Name.interact_hold} Швидке спорядження"
 
 #: STRINGS.UI.ACTIONS.MANNEQUIN_SET_EQUIPMENT
 msgctxt "STRINGS.UI.ACTIONS.MANNEQUIN_SET_EQUIPMENT"
@@ -45953,7 +45953,7 @@ msgstr "Закрито"
 #: STRINGS.UI.FOODSCREEN.TEMPORARY_MENU_TITLE
 msgctxt "STRINGS.UI.FOODSCREEN.TEMPORARY_MENU_TITLE"
 msgid "{NAME.cook_rotating_recipe}!"
-msgstr ""
+msgstr "{NAME.cook_rotating_recipe}!"
 
 #: STRINGS.UI.FOODSCREEN.TIME_REMAINING
 msgctxt "STRINGS.UI.FOODSCREEN.TIME_REMAINING"
@@ -46078,7 +46078,7 @@ msgstr ""
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_farm_seedgrind_unlocked.name
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_farm_seedgrind_unlocked.name"
 msgid "{name.seed_grinder}"
-msgstr ""
+msgstr "{Name.seed_grinder}"
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_town_crafting_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_town_crafting_unlocked.desc"
@@ -46507,22 +46507,22 @@ msgstr ""
 #: STRINGS.UI.HEARTSHARDCHALLENGES.INFO_CHALLENGE_PROGRESS
 msgctxt "STRINGS.UI.HEARTSHARDCHALLENGES.INFO_CHALLENGE_PROGRESS"
 msgid "{progress}/{total}"
-msgstr ""
+msgstr "{progress}/{total}"
 
 #: STRINGS.UI.HEARTSHARDCHALLENGES.NOTIF_CHALLENGE_COMPLETED
 msgctxt "STRINGS.UI.HEARTSHARDCHALLENGES.NOTIF_CHALLENGE_COMPLETED"
 msgid "{name.konjur_heart_shard} Earned!"
-msgstr ""
+msgstr "Отримано {name.konjur_heart_shard}!"
 
 #: STRINGS.UI.HEARTSHARDCHALLENGES.NOTIF_CHALLENGE_COMPLETED_BODY
 msgctxt "STRINGS.UI.HEARTSHARDCHALLENGES.NOTIF_CHALLENGE_COMPLETED_BODY"
 msgid "{challenge_desc}"
-msgstr ""
+msgstr "{challenge_desc}"
 
 #: STRINGS.UI.HEARTSHARDCHALLENGES.TITLE
 msgctxt "STRINGS.UI.HEARTSHARDCHALLENGES.TITLE"
 msgid "{NAME.concept_talent_tree}"
-msgstr ""
+msgstr "{NAME.concept_talent_tree}"
 
 #: STRINGS.UI.HEARTTOOLTIP.HEART_LEVEL
 msgctxt "STRINGS.UI.HEARTTOOLTIP.HEART_LEVEL"
@@ -46702,7 +46702,7 @@ msgstr "<#DISABLED_HOTKEYS><p bind='{control}' color=0 scale=1> {label}</>"
 #: STRINGS.UI.HOTKEY_DISABLED_MODIFIER
 msgctxt "STRINGS.UI.HOTKEY_DISABLED_MODIFIER"
 msgid "<#DISABLED_HOTKEYS><p bind='Controls.Digital.MENU_MODIFIER' color=0 scale=1> + <p bind='{control}' color=0 scale=1> {label}</>"
-msgstr ""
+msgstr "<#DISABLED_HOTKEYS><p bind='Controls.Digital.MENU_MODIFIER' color=0 scale=1> + <p bind='{control}' color=0 scale=1> {label}</>"
 
 #: STRINGS.UI.HOTKEY_ENABLED
 msgctxt "STRINGS.UI.HOTKEY_ENABLED"
@@ -47122,7 +47122,7 @@ msgstr "ЯКЩО З'ЇСТЕ, ОТРИМАЄТЕ<#LIGHT_TEXT>%s</>:"
 #: STRINGS.UI.INVENTORYSCREEN.LOOT_PICKUP_POPTEXT
 msgctxt "STRINGS.UI.INVENTORYSCREEN.LOOT_PICKUP_POPTEXT"
 msgid "+<p img='{icon_tex}'> {material_name}"
-msgstr ""
+msgstr "+<p img='{icon_tex}'> {material_name}"
 
 #: STRINGS.UI.INVENTORYSCREEN.MENU_TITLE
 msgctxt "STRINGS.UI.INVENTORYSCREEN.MENU_TITLE"
@@ -47350,7 +47350,7 @@ msgstr ""
 #: STRINGS.UI.KNOWN_ERRORS.ERR_CODE
 msgctxt "STRINGS.UI.KNOWN_ERRORS.ERR_CODE"
 msgid "Error Code: {code}"
-msgstr ""
+msgstr "Код помилки: {code}"
 
 #: STRINGS.UI.KONJURSOULSWIDGET.NUM
 msgctxt "STRINGS.UI.KONJURSOULSWIDGET.NUM"
@@ -48258,7 +48258,7 @@ msgstr "<p img='images/map_ftf/lock_icon.tex' color=0 scale=4>\n\n\n"
 #: STRINGS.UI.MAPSCREEN.MAIN_HUNT_SUBTITLE
 msgctxt "STRINGS.UI.MAPSCREEN.MAIN_HUNT_SUBTITLE"
 msgid "{name.main_run}"
-msgstr ""
+msgstr "{Name.main_run}"
 
 #: STRINGS.UI.MAPSCREEN.RECOMMENDED_ATTACK_LABEL
 msgctxt "STRINGS.UI.MAPSCREEN.RECOMMENDED_ATTACK_LABEL"
@@ -48860,7 +48860,7 @@ msgstr ""
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEATHER_UNLOCKED_1.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEATHER_UNLOCKED_1.TITLE"
 msgid "{name_multiple.weather}"
-msgstr ""
+msgstr "{Name_multiple.weather}"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEATHER_UNLOCKED_2.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEATHER_UNLOCKED_2.DESC"
@@ -48870,7 +48870,7 @@ msgstr ""
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEATHER_UNLOCKED_2.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEATHER_UNLOCKED_2.TITLE"
 msgid "{name_multiple.weather}"
-msgstr ""
+msgstr "{Name_multiple.weather}"
 
 #: STRINGS.UI.META_PROGRESS.NOT_ENOUGH_XP
 msgctxt "STRINGS.UI.META_PROGRESS.NOT_ENOUGH_XP"
@@ -51126,7 +51126,7 @@ msgstr "{name} (х{count})"
 #: STRINGS.UI.QUANTITY_IMG
 msgctxt "STRINGS.UI.QUANTITY_IMG"
 msgid "{image} {count:%.0f}"
-msgstr ""
+msgstr "{image} {count:%.0f}"
 
 #: STRINGS.UI.RECIPESCREEN.ITEM_COUNT
 msgctxt "STRINGS.UI.RECIPESCREEN.ITEM_COUNT"
@@ -51321,7 +51321,7 @@ msgstr ""
 #: STRINGS.UI.SEEDGRINDSCREEN.TITLE
 msgctxt "STRINGS.UI.SEEDGRINDSCREEN.TITLE"
 msgid "{name.seed_grinder}"
-msgstr ""
+msgstr "{Name.seed_grinder}"
 
 #: STRINGS.UI.SELECTFOODSCREEN.DESC
 msgctxt "STRINGS.UI.SELECTFOODSCREEN.DESC"
@@ -51500,7 +51500,7 @@ msgstr "Витратьте свої {name_multiple.konjur_heart_shard} на рі
 #: STRINGS.UI.TALENTSCREEN.LIST_TITLE
 msgctxt "STRINGS.UI.TALENTSCREEN.LIST_TITLE"
 msgid "{NAME_MULTIPLE.concept_talent}"
-msgstr ""
+msgstr "{NAME_MULTIPLE.concept_talent}"
 
 #: STRINGS.UI.TALENTSCREEN.TALENT_DETAILS_TITLE
 msgctxt "STRINGS.UI.TALENTSCREEN.TALENT_DETAILS_TITLE"
@@ -51545,7 +51545,7 @@ msgstr "МИСЛИВЕЦЬ"
 #: STRINGS.UI.TALENTSCREEN.TITLE
 msgctxt "STRINGS.UI.TALENTSCREEN.TITLE"
 msgid "{NAME.concept_talent_tree}"
-msgstr ""
+msgstr "{NAME.concept_talent_tree}"
 
 #: STRINGS.UI.TALENTSCREEN.UNSPENT_LABEL
 msgctxt "STRINGS.UI.TALENTSCREEN.UNSPENT_LABEL"
@@ -51812,7 +51812,7 @@ msgstr "Сегмент щита"
 #: STRINGS.UI.TOOLTIPS.SKILL.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.SKILL.DESC"
 msgid "<p bind='Controls.Digital.SKILL' color=BTNICON_DARK> <#RED>{name.concept_skill}</>."
-msgstr ""
+msgstr "<p bind='Controls.Digital.SKILL' color=BTNICON_DARK> <#RED>{name.concept_skill}</>."
 
 #: STRINGS.UI.TOOLTIPS.SKILL.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.SKILL.NAME"
@@ -52166,7 +52166,8 @@ msgstr ""
 msgctxt "STRINGS.UI.WARE_PURCHASE_POPUP.PURCHASE_TITLE"
 msgid "{cost}\n"
 "{interaction}"
-msgstr ""
+msgstr "{cost}\n"
+"{interaction}"
 
 #: STRINGS.UI.WARE_PURCHASE_POPUP.SHIPPED_TEXT
 msgctxt "STRINGS.UI.WARE_PURCHASE_POPUP.SHIPPED_TEXT"
