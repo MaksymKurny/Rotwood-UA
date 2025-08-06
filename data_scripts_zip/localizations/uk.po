@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-06 11:24\n"
+"PO-Revision-Date: 2025-08-06 18:09\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -26280,7 +26280,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_1.desc"
 msgid "Wear a full <#RED>{name.concept_loadout}</> of equipment <#RED>above Level 1</>!"
-msgstr ""
+msgstr "Одягніть повний <#RED>{name.concept_loadout}</> зі спорядженням <#RED>вище 1 рівня</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_1.name"
@@ -33747,23 +33747,24 @@ msgstr "Думки про портали"
 #: STRINGS.ITEMS.POWERS.TALENT.talent_boss_damage.desc
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_boss_damage.desc"
 msgid "Increase your <#RED>{name.concept_damage}</> against <#RED>{name_multiple.rot_boss}</>."
-msgstr ""
+msgstr "Збільшує вашу <#RED>{name.concept_damage}</> проти <#RED>{2:{name_multiple.rot_boss}}</>."
 
 #: STRINGS.ITEMS.POWERS.TALENT.talent_boss_damage.name
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_boss_damage.name"
 msgid "Giant Slayer"
-msgstr ""
+msgstr "Убився гігантів"
 
 #: STRINGS.ITEMS.POWERS.TALENT.talent_dodge_damage_reduction.desc
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_dodge_damage_reduction.desc"
 msgid "Take <#RED>Reduced {name.concept_damage}</> during <#RED>{name_multiple.concept_dodge}</>.\n\n"
 "<i><z 0.7>(Reduces damage if you are hit outside of the <#RED>Perfect {name.concept_dodge}</> window)</z></i>"
-msgstr ""
+msgstr "Отримуйте <#RED>зменшену {name.concept_damage}</> під час <#RED>{name_multiple.concept_dodge}</>.\n\n"
+"<i><z 0.7>(Зменшує шкоду, якщо ви отримали удар поза вікном <#RED>ідеального {name.concept_dodge}</>)</z></i>"
 
 #: STRINGS.ITEMS.POWERS.TALENT.talent_dodge_damage_reduction.name
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_dodge_damage_reduction.name"
 msgid "Backup Plan"
-msgstr ""
+msgstr "Запасний план"
 
 #: STRINGS.ITEMS.POWERS.TALENT.talent_dodge_speed.desc
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_dodge_speed.desc"
@@ -33773,7 +33774,7 @@ msgstr "Збільшує вашу <#RED>{name.powerdesc_roll_speed_bonus}</>."
 #: STRINGS.ITEMS.POWERS.TALENT.talent_dodge_speed.name
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_dodge_speed.name"
 msgid "Exit Strategy"
-msgstr ""
+msgstr "Стратегія виходу"
 
 #: STRINGS.ITEMS.POWERS.TALENT.talent_extra_lives.desc
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_extra_lives.desc"
@@ -33789,7 +33790,7 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.TALENT.talent_extra_lives.name
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_extra_lives.name"
 msgid "Second Chance"
-msgstr ""
+msgstr "Другий шанс"
 
 #: STRINGS.ITEMS.POWERS.TALENT.talent_heal_area.desc
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_heal_area.desc"
@@ -33799,12 +33800,12 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.TALENT.talent_heal_area.name
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_heal_area.name"
 msgid "Group Hug"
-msgstr ""
+msgstr "Групові обійми"
 
 #: STRINGS.ITEMS.POWERS.TALENT.talent_heal_area.variable_units.area_radius
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_heal_area.variable_units.area_radius"
 msgid "Units"
-msgstr ""
+msgstr "одиниць"
 
 #: STRINGS.ITEMS.POWERS.TALENT.talent_heal_on_enter.desc
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_heal_on_enter.desc"
@@ -33814,7 +33815,7 @@ msgstr "Коли ви заходите на нову галявину, <#RED>з�
 #: STRINGS.ITEMS.POWERS.TALENT.talent_heal_on_enter.name
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_heal_on_enter.name"
 msgid "Breath of Life"
-msgstr ""
+msgstr "Подих життя"
 
 #: STRINGS.ITEMS.POWERS.TALENT.talent_healthy_damage.desc
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_healthy_damage.desc"
@@ -33824,7 +33825,7 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.TALENT.talent_healthy_damage.name
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_healthy_damage.name"
 msgid "Peak Performance"
-msgstr ""
+msgstr "Пікова продуктивність"
 
 #: STRINGS.ITEMS.POWERS.TALENT.talent_hitstreak_decay.desc
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_hitstreak_decay.desc"
@@ -33834,7 +33835,7 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.TALENT.talent_hitstreak_decay.name
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_hitstreak_decay.name"
 msgid "Time Dilation"
-msgstr ""
+msgstr "Сповільнення часу"
 
 #: STRINGS.ITEMS.POWERS.TALENT.talent_max_health.desc
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_max_health.desc"
@@ -33854,7 +33855,7 @@ msgstr "Збільшує вашу <#RED>{name.concept_runspeed}</>."
 #: STRINGS.ITEMS.POWERS.TALENT.talent_movement_speed.name
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_movement_speed.name"
 msgid "Swiftness"
-msgstr ""
+msgstr "Швидкість"
 
 #: STRINGS.ITEMS.POWERS.TALENT.talent_potion_aoe_healing.desc
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_potion_aoe_healing.desc"
@@ -33879,7 +33880,7 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.TALENT.talent_potion_charges.name
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_potion_charges.name"
 msgid "Field Medicine"
-msgstr ""
+msgstr "Польова медицина"
 
 #: STRINGS.ITEMS.POWERS.TALENT.talent_potion_charges.variable_units.potion_charges
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_potion_charges.variable_units.potion_charges"
@@ -33894,7 +33895,7 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.TALENT.talent_potion_heal.name
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_potion_heal.name"
 msgid "Potent Brew"
-msgstr ""
+msgstr "Потужний напій"
 
 #: STRINGS.ITEMS.POWERS.TALENT.talent_power_choices.desc
 msgctxt "STRINGS.ITEMS.POWERS.TALENT.talent_power_choices.desc"
@@ -39971,7 +39972,7 @@ msgstr "Наповнений Цибулін"
 #: STRINGS.NAMES.cabbageroll_miniboss
 msgctxt "STRINGS.NAMES.cabbageroll_miniboss"
 msgid "Bulbin King"
-msgstr ""
+msgstr "Король цибулінів"
 
 #: STRINGS.NAMES.cannon_ammo
 msgctxt "STRINGS.NAMES.cannon_ammo"
@@ -40031,7 +40032,7 @@ msgstr "<p img='images/icons_ftf/reroll_corrency.tex' color=0 scale=0.9> Пер�
 #: STRINGS.NAMES.concept_loadout
 msgctxt "STRINGS.NAMES.concept_loadout"
 msgid "Loadout"
-msgstr ""
+msgstr "Комплект"
 
 #: STRINGS.NAMES.concept_multistrike
 msgctxt "STRINGS.NAMES.concept_multistrike"
@@ -40076,12 +40077,12 @@ msgstr "Навичка|Навичку"
 #: STRINGS.NAMES.concept_talent
 msgctxt "STRINGS.NAMES.concept_talent"
 msgid "Talent"
-msgstr ""
+msgstr "Талант"
 
 #: STRINGS.NAMES.concept_talent_tree
 msgctxt "STRINGS.NAMES.concept_talent_tree"
 msgid "Hunter's Path"
-msgstr ""
+msgstr "Шлях мисливця|Шляху мисливця"
 
 #: STRINGS.NAMES.concept_toxic
 msgctxt "STRINGS.NAMES.concept_toxic"
@@ -41371,7 +41372,7 @@ msgstr "<#RED>Ухилення</> (<p bind='Controls.Digital.DODGE' color=0>)"
 #: STRINGS.NAMES.tutorial_playerstatus
 msgctxt "STRINGS.NAMES.tutorial_playerstatus"
 msgid "<#RED>Player Status</> (<p bind='Controls.Digital.SHOW_PLAYER_STATUS' color=0>)"
-msgstr ""
+msgstr "<#RED>cтатус гравця</> (<p bind='Controls.Digital.SHOW_PLAYER_STATUS' color=0>|<#RED>cтатусі гравця</> (<p bind='Controls.Digital.SHOW_PLAYER_STATUS' color=0>"
 
 #: STRINGS.NAMES.upgrade_ingot
 msgctxt "STRINGS.NAMES.upgrade_ingot"
@@ -41646,7 +41647,7 @@ msgstr "<p img='images/icons_ftf/reroll_corrency.tex' color=0 scale=0.9> Пер�
 #: STRINGS.NAMES_PLURAL.concept_loadout
 msgctxt "STRINGS.NAMES_PLURAL.concept_loadout"
 msgid "Loadouts"
-msgstr ""
+msgstr "Комплекти"
 
 #: STRINGS.NAMES_PLURAL.concept_multistrike
 msgctxt "STRINGS.NAMES_PLURAL.concept_multistrike"
@@ -41686,12 +41687,12 @@ msgstr "Навички"
 #: STRINGS.NAMES_PLURAL.concept_talent
 msgctxt "STRINGS.NAMES_PLURAL.concept_talent"
 msgid "Talents"
-msgstr ""
+msgstr "Таланти"
 
 #: STRINGS.NAMES_PLURAL.concept_talent_tree
 msgctxt "STRINGS.NAMES_PLURAL.concept_talent_tree"
 msgid "Hunter's Paths"
-msgstr ""
+msgstr "Шляхи мисливця"
 
 #: STRINGS.NAMES_PLURAL.cook_rotating_recipe
 msgctxt "STRINGS.NAMES_PLURAL.cook_rotating_recipe"
@@ -42451,7 +42452,7 @@ msgstr "Imbued Cottonhail|Imbued Cottonhails"
 #: STRINGS.NAMES_PLURALITY.c_konjur_heart_shard
 msgctxt "STRINGS.NAMES_PLURALITY.c_konjur_heart_shard"
 msgid "<#KONJUR>Heart Shard</>|<#KONJUR>Heart Shards</>"
-msgstr ""
+msgstr "<#KONJUR>Heart Shard</>|<#KONJUR>Heart Shards</>"
 
 #: STRINGS.NAMES_PLURALITY.cabbageroll
 msgctxt "STRINGS.NAMES_PLURALITY.cabbageroll"
@@ -42511,7 +42512,7 @@ msgstr "<p img='images/icons_ftf/reroll_corrency.tex' color=0 scale=0.9> Пер�
 #: STRINGS.NAMES_PLURALITY.concept_loadout
 msgctxt "STRINGS.NAMES_PLURALITY.concept_loadout"
 msgid "Loadout|Loadouts"
-msgstr ""
+msgstr "Loadout|Loadouts"
 
 #: STRINGS.NAMES_PLURALITY.concept_multistrike
 msgctxt "STRINGS.NAMES_PLURALITY.concept_multistrike"
@@ -42551,17 +42552,17 @@ msgstr "Навичка|Навички"
 #: STRINGS.NAMES_PLURALITY.concept_talent
 msgctxt "STRINGS.NAMES_PLURALITY.concept_talent"
 msgid "Talent|Talents"
-msgstr ""
+msgstr "Talent|Talents"
 
 #: STRINGS.NAMES_PLURALITY.concept_talent_tree
 msgctxt "STRINGS.NAMES_PLURALITY.concept_talent_tree"
 msgid "Hunter's Path|Hunter's Paths"
-msgstr ""
+msgstr "Hunter's Path|Hunter's Paths"
 
 #: STRINGS.NAMES_PLURALITY.cook_rotating_recipe
 msgctxt "STRINGS.NAMES_PLURALITY.cook_rotating_recipe"
 msgid "Limited Special|Limited Specials"
-msgstr ""
+msgstr "Limited Special|Limited Specials"
 
 #: STRINGS.NAMES_PLURALITY.cosmetic
 msgctxt "STRINGS.NAMES_PLURALITY.cosmetic"
@@ -42831,7 +42832,7 @@ msgstr "Кам'яне сердце|Кам'яних сердець"
 #: STRINGS.NAMES_PLURALITY.konjur_heart_shard
 msgctxt "STRINGS.NAMES_PLURALITY.konjur_heart_shard"
 msgid "Heart Shard|Heart Shards"
-msgstr ""
+msgstr "Heart Shard|Heart Shards"
 
 #: STRINGS.NAMES_PLURALITY.konjur_soul_greater
 msgctxt "STRINGS.NAMES_PLURALITY.konjur_soul_greater"
@@ -42936,7 +42937,7 @@ msgstr "Potion|Potions"
 #: STRINGS.NAMES_PLURALITY.potion_charge
 msgctxt "STRINGS.NAMES_PLURALITY.potion_charge"
 msgid "Potion Charge|Potion Charges"
-msgstr ""
+msgstr "Potion Charge|Potion Charges"
 
 #: STRINGS.NAMES_PLURALITY.quetz
 msgctxt "STRINGS.NAMES_PLURALITY.quetz"
@@ -42971,7 +42972,7 @@ msgstr "Hunt|Hunts"
 #: STRINGS.NAMES_PLURALITY.run_ascension
 msgctxt "STRINGS.NAMES_PLURALITY.run_ascension"
 msgid "Frenzied Hunt|Frenzied Hunts"
-msgstr ""
+msgstr "Frenzied Hunt|Frenzied Hunts"
 
 #: STRINGS.NAMES_PLURALITY.sedament
 msgctxt "STRINGS.NAMES_PLURALITY.sedament"
@@ -43191,7 +43192,7 @@ msgstr "Striker|Strikers"
 #: STRINGS.NAMES_PLURALITY.weather
 msgctxt "STRINGS.NAMES_PLURALITY.weather"
 msgid "Teffra Anomaly|Teffra Anomalies"
-msgstr ""
+msgstr "Teffra Anomaly|Teffra Anomalies"
 
 #: STRINGS.NAMES_PLURALITY.windmon
 msgctxt "STRINGS.NAMES_PLURALITY.windmon"
@@ -44320,7 +44321,7 @@ msgstr "{Name.interact_tap} Змінити спорядження"
 #: STRINGS.UI.ACTIONS.MANNEQUIN_CLAIM_MANNEQUIN
 msgctxt "STRINGS.UI.ACTIONS.MANNEQUIN_CLAIM_MANNEQUIN"
 msgid "{name.interact_hold} Claim Ownership & Save Loadout"
-msgstr ""
+msgstr "{Name.interact_hold} Забрати собі та зберегти комплект"
 
 #: STRINGS.UI.ACTIONS.MANNEQUIN_INVALID_INTERACTION
 msgctxt "STRINGS.UI.ACTIONS.MANNEQUIN_INVALID_INTERACTION"
@@ -44340,7 +44341,7 @@ msgstr "{Name.interact_tap} Встановити спорядження"
 #: STRINGS.UI.ACTIONS.MANNEQUIN_VIEW_LOADOUTS
 msgctxt "STRINGS.UI.ACTIONS.MANNEQUIN_VIEW_LOADOUTS"
 msgid "{name.interact_tap} View Loadouts"
-msgstr ""
+msgstr "{Name.interact_tap} Переглянути комплекти"
 
 #: STRINGS.UI.ACTIONS.MANNEQUIN_WIPE_EQUIPMENT
 msgctxt "STRINGS.UI.ACTIONS.MANNEQUIN_WIPE_EQUIPMENT"
@@ -45234,7 +45235,7 @@ msgstr "ПОКРАЩЕННЯ"
 #: STRINGS.UI.EQUIPMENTSCREEN.TAB_LOADOUTS
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.TAB_LOADOUTS"
 msgid "LOADOUTS"
-msgstr ""
+msgstr "КОМПЛЕКТИ"
 
 #: STRINGS.UI.EQUIPMENTSCREEN.TAB_UPGRADES
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.TAB_UPGRADES"
@@ -46471,7 +46472,7 @@ msgstr "{Name.interact_tap} Активувати аспект"
 #: STRINGS.UI.HEARTSCREEN.INTERACT.BTN_PLACE_IN_WELL
 msgctxt "STRINGS.UI.HEARTSCREEN.INTERACT.BTN_PLACE_IN_WELL"
 msgid "{name.interact_tap} Feed Machine"
-msgstr ""
+msgstr "{Name.interact_tap} Віддати машині"
 
 #: STRINGS.UI.HEARTSCREEN.INTERACT.BTN_SWAP_HEARTSTONES
 msgctxt "STRINGS.UI.HEARTSCREEN.INTERACT.BTN_SWAP_HEARTSTONES"
@@ -46481,17 +46482,17 @@ msgstr "{Name.interact_tap} Змінити аспект"
 #: STRINGS.UI.HEARTSCREEN.INTERACT.BTN_VIEW_TALENTS
 msgctxt "STRINGS.UI.HEARTSCREEN.INTERACT.BTN_VIEW_TALENTS"
 msgid "{name.interact_tap} View {name_multiple.concept_talent}"
-msgstr ""
+msgstr "{Name.interact_tap} Оглянути {name_multiple.concept_talent}"
 
 #: STRINGS.UI.HEARTSCREEN.INTERACT.PLACE_HEARTSHARDS
 msgctxt "STRINGS.UI.HEARTSCREEN.INTERACT.PLACE_HEARTSHARDS"
 msgid "<#KONJUR><p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=1>{item_name} (x{count})</>"
-msgstr ""
+msgstr "<#KONJUR><p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=1>{item_name} (x{count})</>"
 
 #: STRINGS.UI.HEARTSCREEN.INTERACT.PLACE_HEARTSTONE
 msgctxt "STRINGS.UI.HEARTSCREEN.INTERACT.PLACE_HEARTSTONE"
 msgid "<#KONJUR><p img='images/hud_images/hud_konjur_heart_drops_currency.tex' rpad=1>{item_name}</>"
-msgstr ""
+msgstr "<#KONJUR><p img='images/hud_images/hud_konjur_heart_drops_currency.tex' rpad=1>{item_name}</>"
 
 #: STRINGS.UI.HEARTSHARDCHALLENGES.DESC
 msgctxt "STRINGS.UI.HEARTSHARDCHALLENGES.DESC"
@@ -47381,12 +47382,12 @@ msgstr "Завантаження..."
 #: STRINGS.UI.LOADOUTSCREEN.DESC
 msgctxt "STRINGS.UI.LOADOUTSCREEN.DESC"
 msgid "Save your favourite hunting setups."
-msgstr ""
+msgstr "Зберігайте улюблені мисливські налаштування."
 
 #: STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_BUTTON
 msgctxt "STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_BUTTON"
 msgid "Delete Loadout"
-msgstr ""
+msgstr "Вибрати комплект"
 
 #: STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_CANCEL_BTN
 msgctxt "STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_CANCEL_BTN"
@@ -47401,17 +47402,17 @@ msgstr "ВИДАЛИТИ"
 #: STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_DESCRIPTION
 msgctxt "STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_DESCRIPTION"
 msgid "Are you sure you want to delete this loadout?"
-msgstr ""
+msgstr "Ви впевнені, що хочете видалити цей комплект?"
 
 #: STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_TITLE
 msgctxt "STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_TITLE"
 msgid "DELETE LOADOUT"
-msgstr ""
+msgstr "ВИДАЛИТИ КОМПЛЕКТ"
 
 #: STRINGS.UI.LOADOUTSCREEN.LOADOUT_EMPTY
 msgctxt "STRINGS.UI.LOADOUTSCREEN.LOADOUT_EMPTY"
 msgid "EMPTY"
-msgstr ""
+msgstr "ПУСТО"
 
 #: STRINGS.UI.LOADOUTSCREEN.LOADOUT_EQUIP_BUTTON
 msgctxt "STRINGS.UI.LOADOUTSCREEN.LOADOUT_EQUIP_BUTTON"
@@ -47421,28 +47422,29 @@ msgstr "СПОРЯДИТИ"
 #: STRINGS.UI.LOADOUTSCREEN.LOADOUT_FILTER_BUTTON
 msgctxt "STRINGS.UI.LOADOUTSCREEN.LOADOUT_FILTER_BUTTON"
 msgid "Filter and Sort Loadouts <p bind='Controls.Digital.MENU_SORT_GEMS' color=0 scale=1>"
-msgstr ""
+msgstr "Фільтр і сортування комплектів <p bind='Controls.Digital.MENU_SORT_GEMS' color=0 scale=1>"
 
 #: STRINGS.UI.LOADOUTSCREEN.LOADOUT_SAVE_BUTTON
 msgctxt "STRINGS.UI.LOADOUTSCREEN.LOADOUT_SAVE_BUTTON"
 msgid "Save Loadout"
-msgstr ""
+msgstr "Зберегти комплект"
 
 #: STRINGS.UI.LOADOUTSCREEN.LOADOUT_SAVE_NEW_BUTTON
 msgctxt "STRINGS.UI.LOADOUTSCREEN.LOADOUT_SAVE_NEW_BUTTON"
 msgid "Save As New Loadout"
-msgstr ""
+msgstr "Зберегти як новий комплект"
 
 #: STRINGS.UI.LOADOUTSCREEN.LOADOUT_VIEW_CURRENT_BUTTON
 msgctxt "STRINGS.UI.LOADOUTSCREEN.LOADOUT_VIEW_CURRENT_BUTTON"
 msgid "Go To Equipped Loadout"
-msgstr ""
+msgstr "Перейти до екіпірованого комплекту"
 
 #: STRINGS.UI.LOADOUTSCREEN.MANNEQUIN_BUTTON
 msgctxt "STRINGS.UI.LOADOUTSCREEN.MANNEQUIN_BUTTON"
 msgid "DISPLAY\n"
 "LOADOUT"
-msgstr ""
+msgstr "ПОКАЗАТИ\n"
+"КОМПЛЕКТ"
 
 #: STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.DIALOG_TITLE
 msgctxt "STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.DIALOG_TITLE"
@@ -47452,32 +47454,32 @@ msgstr "Налаштування сортування"
 #: STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.FILTER_ALL_TITLE
 msgctxt "STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.FILTER_ALL_TITLE"
 msgid "All loadouts"
-msgstr ""
+msgstr "Всі комплекти"
 
 #: STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.FILTER_BOW_TITLE
 msgctxt "STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.FILTER_BOW_TITLE"
 msgid "Only {name.weapon_bow}"
-msgstr ""
+msgstr "Лише {name.weapon_bow}"
 
 #: STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.FILTER_CANNON_TITLE
 msgctxt "STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.FILTER_CANNON_TITLE"
 msgid "Only {name.weapon_cannon}"
-msgstr ""
+msgstr "Лише {name.weapon_cannon}"
 
 #: STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.FILTER_HAMMER_TITLE
 msgctxt "STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.FILTER_HAMMER_TITLE"
 msgid "Only {name.weapon_hammer}"
-msgstr ""
+msgstr "Лише {name.weapon_hammer}"
 
 #: STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.FILTER_POLEARM_TITLE
 msgctxt "STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.FILTER_POLEARM_TITLE"
 msgid "Only {name.weapon_polearm}"
-msgstr ""
+msgstr "Лише {name.weapon_polearm}"
 
 #: STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.FILTER_SHOTPUT_TITLE
 msgctxt "STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.FILTER_SHOTPUT_TITLE"
 msgid "Only {name.weapon_shotput}"
-msgstr ""
+msgstr "Лише {name.weapon_shotput}"
 
 #: STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.FILTER_TITLE
 msgctxt "STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.FILTER_TITLE"
@@ -47487,12 +47489,12 @@ msgstr "ФІЛЬТР"
 #: STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.SORT_CREATED_TITLE
 msgctxt "STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.SORT_CREATED_TITLE"
 msgid "Created"
-msgstr ""
+msgstr "Створені"
 
 #: STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.SORT_CREATED_TOOLTIP
 msgctxt "STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.SORT_CREATED_TOOLTIP"
 msgid "Sorts loadouts in the order they were created in."
-msgstr ""
+msgstr "Сортує комплекти в порядку їх створення."
 
 #: STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.SORT_LEVEL_TITLE
 msgctxt "STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.SORT_LEVEL_TITLE"
@@ -47502,7 +47504,7 @@ msgstr "Рівень"
 #: STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.SORT_LEVEL_TOOLTIP
 msgctxt "STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.SORT_LEVEL_TOOLTIP"
 msgid "Sorts by gear level."
-msgstr ""
+msgstr "Сортує за рівнем спорядження."
 
 #: STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.SORT_RECENT_TITLE
 msgctxt "STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.SORT_RECENT_TITLE"
@@ -47512,7 +47514,7 @@ msgstr "Недавні"
 #: STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.SORT_RECENT_TOOLTIP
 msgctxt "STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.SORT_RECENT_TOOLTIP"
 msgid "Shows your more recently used loadouts first."
-msgstr ""
+msgstr "Спочатку показує останні використані комплекти."
 
 #: STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.SORT_TITLE
 msgctxt "STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.SORT_TITLE"
@@ -47522,27 +47524,27 @@ msgstr "СОРТУВАННЯ"
 #: STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.SORT_TYPE_TITLE
 msgctxt "STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.SORT_TYPE_TITLE"
 msgid "Weapon Type"
-msgstr ""
+msgstr "Тип зброї"
 
 #: STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.SORT_TYPE_TOOLTIP
 msgctxt "STRINGS.UI.LOADOUTSCREEN.SORT_DIALOG.SORT_TYPE_TOOLTIP"
 msgid "Sorts by weapon type."
-msgstr ""
+msgstr "Сортує за типом зброї."
 
 #: STRINGS.UI.LOADOUTSCREEN.TALENT_SUMMARY_BUTTON
 msgctxt "STRINGS.UI.LOADOUTSCREEN.TALENT_SUMMARY_BUTTON"
 msgid "{name.concept_talent_tree}"
-msgstr ""
+msgstr "{Name.concept_talent_tree}"
 
 #: STRINGS.UI.LOADOUTSCREEN.TALENT_SUMMARY_DIALOG.DIALOG_TITLE
 msgctxt "STRINGS.UI.LOADOUTSCREEN.TALENT_SUMMARY_DIALOG.DIALOG_TITLE"
 msgid "{name.concept_talent_tree} Summary"
-msgstr ""
+msgstr "Підсумок {2:{name.concept_talent_tree}}"
 
 #: STRINGS.UI.LOADOUTSCREEN.TITLE
 msgctxt "STRINGS.UI.LOADOUTSCREEN.TITLE"
 msgid "LOADOUTS"
-msgstr ""
+msgstr "КОМПЛЕКТИ"
 
 #: STRINGS.UI.LUCKY_POPUP
 msgctxt "STRINGS.UI.LUCKY_POPUP"
@@ -47589,7 +47591,7 @@ msgstr "Продовжити"
 #: STRINGS.UI.MAINSCREEN.BETA_WELCOME.EXPLAIN_SAVE.TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.BETA_WELCOME.EXPLAIN_SAVE.TITLE"
 msgid "Welcome to the <#DARK_TEXT_SELECTED>{name.current_beta}</>!"
-msgstr "Ласкаво просимо до <#DARK_TEXT_SELECTED>{2:{Name.current_beta}}</>!"
+msgstr "Ласкаво просимо до \"<#DARK_TEXT_SELECTED>{2:{Name.current_beta}}</>\"!"
 
 #: STRINGS.UI.MAINSCREEN.BTN_HOST_TEXT
 msgctxt "STRINGS.UI.MAINSCREEN.BTN_HOST_TEXT"
@@ -47695,7 +47697,7 @@ msgstr "<p img='images/icons_ftf/character_head.tex' color=0 scale=1> Вибер
 #: STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_LOADOUT_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_LOADOUT_TITLE"
 msgid "Select Loadout"
-msgstr "Вибрати спорядження"
+msgstr "Вибрати комплект"
 
 #: STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_WEAPON_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_WEAPON_TITLE"
@@ -48688,12 +48690,14 @@ msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.FIRST_HUNTERS_PATH.DESC"
 msgid "You progressed the <#RED>{name.concept_talent_tree}</>, earning a <#RED>{name.i_konjur_heart_shard}</>!\n\n"
 "{name_multiple.konjur_heart_shard} are used to increase your Hunter's Power.\n\n"
 "You can view each {name.run}'s challenges in {name.tutorial_playerstatus}. "
-msgstr ""
+msgstr "Ви просунулися на <#RED>{2:{name.concept_talent_tree}}</> і отримали <#RED>{name.i_konjur_heart_shard}</>!\n\n"
+"{Name_multiple.konjur_heart_shard} використовуються для підвищення сили Мисливця.\n\n"
+"Ви можете переглянути виклики кожного {name.run} у {2:{name.tutorial_playerstatus}}. "
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.FIRST_HUNTERS_PATH.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.FIRST_HUNTERS_PATH.TITLE"
 msgid "{name.concept_talent_tree}"
-msgstr ""
+msgstr "{Name.concept_talent_tree}"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.FRENZY_UNLOCKED.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.FRENZY_UNLOCKED.DESC"
@@ -48720,44 +48724,47 @@ msgstr "{Name.station_gems} розблокований!"
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.HUNTERS_PATH_UNLOCKED.DESC"
 msgid "The <#RED>{name.concept_talent_tree}</> allows you to earn and spend {name_multiple.i_konjur_heart_shard} by completing challenges in each hunt.\n\n"
 "{name_multiple.konjur_heart_shard} can be redistributed freely, so experiment with different builds to see what works best with various weapons and armour pieces!"
-msgstr ""
+msgstr "<#RED>{Name.concept_talent_tree}</> дозволяє заробляти та витрачати {name_multiple.i_konjur_heart_shard}, виконуючи виклики під час кожного полювання.\n\n"
+"{Name_multiple.konjur_heart_shard} можна вільно перерозподіляти, тож експериментуйте з різними збірками, щоб знайти найкращу комбінацію для різної зброї та частин обладунку!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.HUNTERS_PATH_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.HUNTERS_PATH_UNLOCKED.TITLE"
 msgid "Hunter's Path!"
-msgstr ""
+msgstr "Шлях мисливця!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_1.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_1.DESC"
 msgid "Using the <#RED>Mannequin</>, you can save and access your <#RED>Loadouts</>!\n\n"
 "Loadouts save your equipment, gems and hunter's path talent choices."
-msgstr ""
+msgstr "За допомогою <#RED>манекена</> ви можете зберігати та відкривати свої <#RED>комплекти спорядження</>!\n\n"
+"Комплекти спорядження зберігають ваше спорядження, самоцвіти та вибрані таланти шляху мисливця."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_1.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_1.TITLE"
 msgid "Equipment Loadouts!"
-msgstr ""
+msgstr "Комплекти спорядження!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_2.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_2.DESC"
 msgid "After a loadout is created, you can quickly switch between them using any <#RED>Mannequin</>.\n\n"
 "When a loadout is changed, you can choose to either <#RED>Save</> the loadout or <#RED>Create</> a new one."
-msgstr ""
+msgstr "Після створення комплекту спорядження Ви можете швидко перемикатися між ними за допомогою будь-якого <#RED>манекена</>.\n\n"
+"Під час зміни комплекту спорядження ви можете обрати: <#RED>Зберегти</> змінений комплект або <#RED>створити</> новий."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_2.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_2.TITLE"
 msgid "Equipment Loadouts!"
-msgstr ""
+msgstr "Комплекти спорядження!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_3.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_3.DESC"
 msgid "You can also display your favorite Loadouts on any <#RED>Mannequin</> that you own, and quickly equip the displayed loadout at that Mannequin."
-msgstr ""
+msgstr "Ви також можете показувати улюблені комплекти спорядження на будь-якому <#RED>манекені</>, який ви маєте, і швидко екіпірувати показаний комплект біля цього манекена."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_3.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_3.TITLE"
 msgid "Equipment Loadouts!"
-msgstr ""
+msgstr "Комплекти спорядження!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.NORMAL_ITEM_CHARGED_NOTIFICATION.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.NORMAL_ITEM_CHARGED_NOTIFICATION.DESC"
@@ -50627,12 +50634,12 @@ msgstr "Хост {player_name} призупинив гру"
 #: STRINGS.UI.PAUSEMENU.HUNTERS_PATH.PROGRESS_TEXT
 msgctxt "STRINGS.UI.PAUSEMENU.HUNTERS_PATH.PROGRESS_TEXT"
 msgid "P{player_num}: {progress}/{max_progress}"
-msgstr ""
+msgstr "Г{player_num}: {progress}/{max_progress}"
 
 #: STRINGS.UI.PAUSEMENU.HUNTERS_PATH.PROGRESS_TEXT_COMPLETE
 msgctxt "STRINGS.UI.PAUSEMENU.HUNTERS_PATH.PROGRESS_TEXT_COMPLETE"
 msgid "P{player_num}:  <p img='images/ui_ftf_icons/completed.tex' color=0>"
-msgstr ""
+msgstr "Г{player_num}:  <p img='images/ui_ftf_icons/completed.tex' color=0>"
 
 #: STRINGS.UI.PAUSEMENU.IMSTUCK.BODY
 msgctxt "STRINGS.UI.PAUSEMENU.IMSTUCK.BODY"
