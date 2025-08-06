@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-06 10:09\n"
+"PO-Revision-Date: 2025-08-06 10:19\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -40126,7 +40126,7 @@ msgstr ""
 #: STRINGS.NAMES.current_beta
 msgctxt "STRINGS.NAMES.current_beta"
 msgid "Friendly Beta"
-msgstr ""
+msgstr "Дружня бета"
 
 #: STRINGS.NAMES.cyborg_prefix
 msgctxt "STRINGS.NAMES.cyborg_prefix"
@@ -47573,7 +47573,7 @@ msgstr "<p img='images/ui_ftf_dialog/ic_back.tex' color=0 scale=1.1> Назад"
 msgctxt "STRINGS.UI.MAINSCREEN.BETA_WELCOME.EXPLAIN_SAVE.BODY"
 msgid "Rotwood betas use a separate save file. You can find your save directory in the Options menu.\n\n"
 "Regardless, your beta test progress will <b>not</b> affect your main save."
-msgstr "Бета-версії Rotwood використовують окремий файл збереження. Ви можете знайти свій каталог збереження в меню «Параметри».\n\n"
+msgstr "Бета-версії Rotwood використовують окремий файл збереження. Ви можете знайти свій каталог збереження в меню \"Параметри\".\n\n"
 "Попри це, прогрес бета-тестування <b>не</b> вплине на ваше основне збереження."
 
 #: STRINGS.UI.MAINSCREEN.BETA_WELCOME.EXPLAIN_SAVE.INFO
