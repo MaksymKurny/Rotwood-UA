@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-06 18:41\n"
+"PO-Revision-Date: 2025-08-06 21:29\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -40597,7 +40597,7 @@ msgstr "Кам'яне серце|Кам'яного серця"
 #: STRINGS.NAMES.konjur_heart_shard
 msgctxt "STRINGS.NAMES.konjur_heart_shard"
 msgid "Heart Shard"
-msgstr ""
+msgstr "Уламок серця"
 
 #: STRINGS.NAMES.konjur_soul_greater
 msgctxt "STRINGS.NAMES.konjur_soul_greater"
@@ -51495,7 +51495,7 @@ msgstr "Приготуйтеся <#RED>%s</>"
 #: STRINGS.UI.TALENTSCREEN.DESC
 msgctxt "STRINGS.UI.TALENTSCREEN.DESC"
 msgid "Spend your {name_multiple.konjur_heart_shard} on various {name.konjur} {name_multiple.concept_relic}."
-msgstr ""
+msgstr "Витратьте свої {name_multiple.konjur_heart_shard} на різні {name.konjur}-{name_multiple.concept_relic}."
 
 #: STRINGS.UI.TALENTSCREEN.LIST_TITLE
 msgctxt "STRINGS.UI.TALENTSCREEN.LIST_TITLE"
@@ -51510,7 +51510,7 @@ msgstr "ДЕТАЛІ"
 #: STRINGS.UI.TALENTSCREEN.TALENT_GROUP_TITLE
 msgctxt "STRINGS.UI.TALENTSCREEN.TALENT_GROUP_TITLE"
 msgid "PATH OF {source}"
-msgstr ""
+msgstr "ШЛЯХ {2:{source}}"
 
 #: STRINGS.UI.TALENTSCREEN.TALENT_HOTKEYS.ADD_POINT
 msgctxt "STRINGS.UI.TALENTSCREEN.TALENT_HOTKEYS.ADD_POINT"
