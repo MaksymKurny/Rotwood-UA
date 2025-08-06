@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-06 08:47\n"
+"PO-Revision-Date: 2025-08-06 10:09\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -28,7 +28,18 @@ msgid "agent:\n"
 " What do you say, Hunter?\n"
 " player:\n"
 " Let's do this."
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !dubious\n"
+" Ви теж там жили? Цікаво, чи могли б ми перетнутися за інших обставин...\n"
+" !neutral\n"
+" !think\n"
+" У будь-якому разі, <#BLUE>{name.grimhollow_volcano}</> – наш найкращий шанс знайти відповіді.\n"
+" !happy\n"
+" !gesture\n"
+" Що скажете, Мисливцю?\n"
+"player:\n"
+" Зробімо це."
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1B
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1B"
@@ -44,7 +55,18 @@ msgid "agent:\n"
 " What do you say, Hunter?\n"
 " player:\n"
 " Let's do this."
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !disagree\n"
+" Ха. Вас нічого не бере, так? Мені слід було цього очікувати.\n"
+" !neutral\n"
+" !think\n"
+" У будь-якому разі, <#BLUE>{name.grimhollow_volcano}</> – наш найкращий шанс знайти відповіді.\n"
+" !happy\n"
+" !gesture\n"
+" Що скажете, Мисливцю?\n"
+"player:\n"
+" Зробімо це."
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.QUESTION_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.QUESTION_1A"
@@ -54,7 +76,7 @@ msgstr "Цікаво, чи стоїть ще мій будинок..."
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.QUESTION_1B
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.QUESTION_1B"
 msgid "Fighting through the ruins of a Rot-infested city? Sounds fun."
-msgstr ""
+msgstr "Битися серед руїн міста, сповненого гнильцями? Звучить як цікава розвага."
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -74,12 +96,17 @@ msgid "agent:\n"
 " Right! All we need to worry about now is getting that last <#KONJUR>{name.i_konjur_heart}</>.\n"
 " !gruffnod\n"
 " Mark my words, Hunter. Our expedition's going to fix everything!"
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !point\n"
+" Так! Зараз потрібно лише знайти останнє <#KONJUR>{name.i_konjur_heart}</>.\n"
+" !gruffnod\n"
+" Запам'ятай мої слова, Мисливцю. Наша експедиція виправить усе!"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.QUESTION_1A
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.QUESTION_1A"
 msgid "If the shield was ready, why didn't it protect us from the eruption?"
-msgstr ""
+msgstr "Якщо щит був готовий, чому він не захистив нас від виверження?"
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.QUESTION_2
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.QUESTION_2"
@@ -180,7 +207,7 @@ msgstr "Полетіли!"
 #: Convo.after_insert_heart_scout_owl.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.after_insert_heart_scout_owl.HUB0.convo.giver.STATE_0.QUESTION_1"
 msgid "How do you know so much about this stuff?"
-msgstr ""
+msgstr "Звідки ти так багато знаєш про ці речі?"
 
 #: Convo.defeated_boss_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.defeated_boss_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -277,7 +304,12 @@ msgid "agent:\n"
 " Ah-! Me? Oh no, no, no, you're the one who deserves the credit for all your hard work! I'm just glad to help where I can.\n"
 " !gesture\n"
 " Anyway. Congrats on your win, Hunter."
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !shocked\n"
+" Ах..! Я? О ні, ні, ні, це ви заслуговуєте на похвалу за всю вашу важку працю! Я просто радий допомогти, де можу.\n"
+" !gesture\n"
+" У будь-якому разі, вітаю з перемогою, Мисливцю."
 
 #: Convo.defeated_miniboss_scout_mt.HUB0.convo.giver.STATE_0.ANSWER_2B
 msgctxt "Convo.defeated_miniboss_scout_mt.HUB0.convo.giver.STATE_0.ANSWER_2B"
@@ -292,12 +324,12 @@ msgstr ""
 #: Convo.defeated_miniboss_scout_mt.HUB0.convo.giver.STATE_0.QUESTION_1
 msgctxt "Convo.defeated_miniboss_scout_mt.HUB0.convo.giver.STATE_0.QUESTION_1"
 msgid "I can't believe I downed that {name.yammo_miniboss}!"
-msgstr ""
+msgstr "Не можу повірити, я переміг {2:{name.yammo_miniboss}}!"
 
 #: Convo.defeated_miniboss_scout_mt.HUB0.convo.giver.STATE_0.QUESTION_2A
 msgctxt "Convo.defeated_miniboss_scout_mt.HUB0.convo.giver.STATE_0.QUESTION_2A"
 msgid "A lot of that is thanks to you."
-msgstr ""
+msgstr "Багато з цього завдяки тобі."
 
 #: Convo.defeated_miniboss_scout_mt.HUB0.convo.giver.STATE_0.QUESTION_2B
 msgctxt "Convo.defeated_miniboss_scout_mt.HUB0.convo.giver.STATE_0.QUESTION_2B"
@@ -1130,7 +1162,8 @@ msgstr "Виглядає так само, як старе зілля."
 msgctxt "Convo.dgn_bv_sedamenttundra_potion.HUB0.convo.giver.STATE_0.QUESTION_1B"
 msgid "<#RED>[<p img='images/hud_images/hud_konjur_drops_currency.tex'> {limited_konjur_cost} {name.konjur}]</> I'll take one!\n"
 "<i><#RED><z 0.7>(Refill with <i>Limited Edition</i> Potion)</></i></z>"
-msgstr ""
+msgstr "<#RED>[<p img='images/hud_images/hud_konjur_drops_currency.tex'> {limited_konjur_cost} {name.konjur}у]</> Я візьму одне!\n"
+"<i><#RED><z 0.7>(Поновити зілля <i>обмеженою серією</i>)</></i></z>"
 
 #: Convo.dgn_bv_sedamenttundra_potion.HUB0.convo.giver.STATE_0.QUESTION_1C
 msgctxt "Convo.dgn_bv_sedamenttundra_potion.HUB0.convo.giver.STATE_0.QUESTION_1C"
@@ -1147,7 +1180,8 @@ msgstr "Насправді мені сьогодні не потрібне зі�
 msgctxt "Convo.dgn_bv_sedamenttundra_potion.HUB0.convo.giver.STATE_0.QUESTION_2A"
 msgid "<#RED>[<p img='images/hud_images/hud_konjur_drops_currency.tex'> {konjur_cost} {name.konjur}]</> Now <i>that's</i> more like it.\n"
 "<i><#RED><z 0.7>(Refill with Limited Edition Potion)</></i></z>"
-msgstr ""
+msgstr "<#RED>[<p img='images/hud_images/hud_konjur_drops_currency.tex'> {konjur_cost} {2:{name.konjur}}]</> Тепер <i>це</i> мені більше подобається.\n"
+"<i><#RED><z 0.7>(Поновити зілля обмеженою серією)</></i></z>"
 
 #: Convo.dgn_bv_sedamenttundra_potion.HUB0.convo.giver.STATE_0.QUESTION_2B
 msgctxt "Convo.dgn_bv_sedamenttundra_potion.HUB0.convo.giver.STATE_0.QUESTION_2B"
@@ -51839,12 +51873,12 @@ msgstr "<p bind='Controls.Digital.ATTACK_HEAVY' color=0> коли ви приз�
 #: STRINGS.UI.UNITFRAME.EXTRA_LIVES_COUNT
 msgctxt "STRINGS.UI.UNITFRAME.EXTRA_LIVES_COUNT"
 msgid "{num_lives}"
-msgstr ""
+msgstr "{num_lives}"
 
 #: STRINGS.UI.UNITFRAME.EXTRA_LIVES_OVER_MAX
 msgctxt "STRINGS.UI.UNITFRAME.EXTRA_LIVES_OVER_MAX"
 msgid "{max_lives}+"
-msgstr ""
+msgstr "{max_lives}+"
 
 #: STRINGS.UI.UNITFRAME.FOOD_TOOLTIP
 msgctxt "STRINGS.UI.UNITFRAME.FOOD_TOOLTIP"
