@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-06 10:19\n"
+"PO-Revision-Date: 2025-08-06 11:24\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -17747,7 +17747,7 @@ msgstr "Не здавайтесь! Ви майже розбили це!"
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[eggzy,in_end_boss,lost]nervous.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[eggzy,in_end_boss,lost]nervous.1"
 msgid "Are you okay? You looked a bit scrambled out there."
-msgstr "Ви в порядку? Виглядаєте трохи «збитими»."
+msgstr "Ви в порядку? Виглядаєте трохи \"збитими\"."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[eggzy,in_end_boss,lost]nervous.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[eggzy,in_end_boss,lost]nervous.2"
@@ -19003,7 +19003,7 @@ msgstr "Ви впевнені?"
 #: STRINGS.CHARACTER_SELECTOR.DELETE_CONFIRM_COUNTDOWN
 msgctxt "STRINGS.CHARACTER_SELECTOR.DELETE_CONFIRM_COUNTDOWN"
 msgid "Delete ({wait_time_remaining})"
-msgstr ""
+msgstr "Видалити ({wait_time_remaining})"
 
 #: STRINGS.CHARACTER_SELECTOR.DELETE_SUBTITLE
 msgctxt "STRINGS.CHARACTER_SELECTOR.DELETE_SUBTITLE"
@@ -19865,12 +19865,12 @@ msgstr "Успіх"
 #: STRINGS.CREDITS.CONTRACTORS.1
 msgctxt "STRINGS.CREDITS.CONTRACTORS.1"
 msgid "Auday Hussein"
-msgstr ""
+msgstr "Оді Ґ'юзен"
 
 #: STRINGS.CREDITS.CONTRACTORS.2
 msgctxt "STRINGS.CREDITS.CONTRACTORS.2"
 msgid "Kathrin Lauckner (arandomcreative)"
-msgstr ""
+msgstr "Катрін Лаукнер (arandomcreative)"
 
 #: STRINGS.CREDITS.FMOD
 msgctxt "STRINGS.CREDITS.FMOD"
@@ -20167,7 +20167,7 @@ msgstr "Джакомо Фрега"
 #: STRINGS.CREDITS.KLEI.61
 msgctxt "STRINGS.CREDITS.KLEI.61"
 msgid "Thomas Mathews"
-msgstr ""
+msgstr "Томас Метьюс"
 
 #: STRINGS.CREDITS.KLEI.7
 msgctxt "STRINGS.CREDITS.KLEI.7"
@@ -39751,7 +39751,7 @@ msgstr "Наповнений Глузоріг"
 #: STRINGS.NAMES.apothecary_hiss
 msgctxt "STRINGS.NAMES.apothecary_hiss"
 msgid "<i>(hiss)</i>"
-msgstr ""
+msgstr "<i>(шипіння)</i>"
 
 #: STRINGS.NAMES.apothecary_sniff
 msgctxt "STRINGS.NAMES.apothecary_sniff"
@@ -39841,12 +39841,12 @@ msgstr "Наповнений Буряк"
 #: STRINGS.NAMES.blacksmith_grunt
 msgctxt "STRINGS.NAMES.blacksmith_grunt"
 msgid "<i>(grunt)</i>"
-msgstr ""
+msgstr "<i>(бурчання)</i>"
 
 #: STRINGS.NAMES.blacksmith_hmph
 msgctxt "STRINGS.NAMES.blacksmith_hmph"
 msgid "<i>(hmph)</i>"
-msgstr ""
+msgstr "<i>(Гмпф)</i>"
 
 #: STRINGS.NAMES.blarmadillo
 msgctxt "STRINGS.NAMES.blarmadillo"
@@ -39956,7 +39956,7 @@ msgstr ""
 #: STRINGS.NAMES.c_konjur_heart_shard
 msgctxt "STRINGS.NAMES.c_konjur_heart_shard"
 msgid "<#KONJUR>Heart Shard</>"
-msgstr ""
+msgstr "<#KONJUR>Уламок серця</>|<#KONJUR>Уламка серця</>"
 
 #: STRINGS.NAMES.cabbageroll
 msgctxt "STRINGS.NAMES.cabbageroll"
@@ -40466,22 +40466,22 @@ msgstr ""
 #: STRINGS.NAMES.i_konjur
 msgctxt "STRINGS.NAMES.i_konjur"
 msgid "<p img='images/hud_images/hud_konjur_drops_currency.tex' rpad=1><#KONJUR>Teffra</>"
-msgstr ""
+msgstr "<p img='images/hud_images/hud_konjur_drops_currency.tex' rpad=1><#KONJUR>Конжур</>|<p img='images/hud_images/hud_konjur_drops_currency.tex' rpad=1><#KONJUR>Конжура</>"
 
 #: STRINGS.NAMES.i_konjur_heart
 msgctxt "STRINGS.NAMES.i_konjur_heart"
 msgid "<p img='images/hud_images/hud_konjur_heart_drops_currency.tex' rpad=1><#KONJUR>Heartstone</>"
-msgstr ""
+msgstr "<p img='images/hud_images/hud_konjur_heart_drops_currency.tex' rpad=1><#KONJUR>Кам'яне серце</>|<p img='images/hud_images/hud_konjur_heart_drops_currency.tex' rpad=1><#KONJUR>Кам'яного серця</>"
 
 #: STRINGS.NAMES.i_konjur_heart_shard
 msgctxt "STRINGS.NAMES.i_konjur_heart_shard"
 msgid "<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=1><#KONJUR>Heart Shard</>"
-msgstr ""
+msgstr "<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=1><#KONJUR>Уламок серця</>|<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=1><#KONJUR>Уламка серця</>"
 
 #: STRINGS.NAMES.i_konjur_soul_lesser
 msgctxt "STRINGS.NAMES.i_konjur_soul_lesser"
 msgid "<p img='images/hud_images/hud_konjur_soul_lesser_drops_currency.tex' rpad=1><#KONJUR>Corestone</>"
-msgstr ""
+msgstr "<p img='images/hud_images/hud_konjur_soul_lesser_drops_currency.tex' rpad=1><#KONJUR>Кам'яне ядро</>|<p img='images/hud_images/hud_konjur_soul_lesser_drops_currency.tex' rpad=1><#KONJUR>Кам'яного ядра</>"
 
 #: STRINGS.NAMES.i_station_diary
 msgctxt "STRINGS.NAMES.i_station_diary"
@@ -41891,17 +41891,17 @@ msgstr "Мисливці|Мисливцями"
 #: STRINGS.NAMES_PLURAL.i_konjur_heart
 msgctxt "STRINGS.NAMES_PLURAL.i_konjur_heart"
 msgid "<p img='images/hud_images/hud_konjur_heart_drops_currency.tex' rpad=1><#KONJUR>Heartstones</>"
-msgstr ""
+msgstr "<p img='images/hud_images/hud_konjur_heart_drops_currency.tex' rpad=1><#KONJUR>Кам'яні серця</>|<p img='images/hud_images/hud_konjur_heart_drops_currency.tex' rpad=1><#KONJUR>Кам'яних сердець</>"
 
 #: STRINGS.NAMES_PLURAL.i_konjur_heart_shard
 msgctxt "STRINGS.NAMES_PLURAL.i_konjur_heart_shard"
 msgid "<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=1><#KONJUR>Heart Shards</>"
-msgstr ""
+msgstr "<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=1><#KONJUR>Уламки серця</>|<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=1><#KONJUR>Уламків серця</>"
 
 #: STRINGS.NAMES_PLURAL.i_konjur_soul_lesser
 msgctxt "STRINGS.NAMES_PLURAL.i_konjur_soul_lesser"
 msgid "<p img='images/hud_images/hud_konjur_soul_lesser_drops_currency.tex' rpad=1><#KONJUR>Corestones</>"
-msgstr ""
+msgstr "<p img='images/hud_images/hud_konjur_soul_lesser_drops_currency.tex' rpad=1><#KONJUR>Кам'яні ядра</>|<p img='images/hud_images/hud_konjur_soul_lesser_drops_currency.tex' rpad=1><#KONJUR>Кам'яних ядер</>"
 
 #: STRINGS.NAMES_PLURAL.immorel
 msgctxt "STRINGS.NAMES_PLURAL.immorel"
@@ -42756,17 +42756,17 @@ msgstr "Мисливець|Мисливці"
 #: STRINGS.NAMES_PLURALITY.i_konjur_heart
 msgctxt "STRINGS.NAMES_PLURALITY.i_konjur_heart"
 msgid "<p img='images/hud_images/hud_konjur_heart_drops_currency.tex' rpad=1><#KONJUR>Heartstone</>|<p img='images/hud_images/hud_konjur_heart_drops_currency.tex' rpad=1><#KONJUR>Heartstones</>"
-msgstr ""
+msgstr "<p img='images/hud_images/hud_konjur_heart_drops_currency.tex' rpad=1><#KONJUR>Heartstone</>|<p img='images/hud_images/hud_konjur_heart_drops_currency.tex' rpad=1><#KONJUR>Heartstones</>"
 
 #: STRINGS.NAMES_PLURALITY.i_konjur_heart_shard
 msgctxt "STRINGS.NAMES_PLURALITY.i_konjur_heart_shard"
 msgid "<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=1><#KONJUR>Heart Shard</>|<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=1><#KONJUR>Heart Shards</>"
-msgstr ""
+msgstr "<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=1><#KONJUR>Heart Shard</>|<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=1><#KONJUR>Heart Shards</>"
 
 #: STRINGS.NAMES_PLURALITY.i_konjur_soul_lesser
 msgctxt "STRINGS.NAMES_PLURALITY.i_konjur_soul_lesser"
 msgid "<p img='images/hud_images/hud_konjur_soul_lesser_drops_currency.tex' rpad=1><#KONJUR>Corestone</>|<p img='images/hud_images/hud_konjur_soul_lesser_drops_currency.tex' rpad=1><#KONJUR>Corestones</>"
-msgstr ""
+msgstr "<p img='images/hud_images/hud_konjur_soul_lesser_drops_currency.tex' rpad=1><#KONJUR>Corestone</>|<p img='images/hud_images/hud_konjur_soul_lesser_drops_currency.tex' rpad=1><#KONJUR>Corestones</>"
 
 #: STRINGS.NAMES_PLURALITY.immorel
 msgctxt "STRINGS.NAMES_PLURALITY.immorel"
@@ -44617,7 +44617,7 @@ msgctxt "STRINGS.UI.CONTROLSCHEMEPOPUP.DESC"
 msgid "Your control scheme is an important part of the hunt. We suggest using Mouse Aiming for more accurate and fluid control, however practice may be required.\n\n"
 "Don't worry, you can always change this in the Options menu."
 msgstr "Ваша схема контролю є важливою частиною полювання. Ми пропонуємо використовувати прицілювання миші для більш точного та плавного керування, однак може знадобитися практика.\n\n"
-"Не хвилюйтеся, ви завжди можете змінити це в меню «Параметри»."
+"Не хвилюйтеся, ви завжди можете змінити це в меню \"Параметри\"."
 
 #: STRINGS.UI.CONTROLSCHEMEPOPUP.MOUSE_AIMING_OFF
 msgctxt "STRINGS.UI.CONTROLSCHEMEPOPUP.MOUSE_AIMING_OFF"
@@ -44758,7 +44758,7 @@ msgstr "Продовжити"
 #: STRINGS.UI.DATACOLLECTION.LOGIN.SEE_OPTIONS
 msgctxt "STRINGS.UI.DATACOLLECTION.LOGIN.SEE_OPTIONS"
 msgid "Data Collection settings can be modified in the Options menu."
-msgstr "Параметри збору даних можна змінити в меню «Параметри»."
+msgstr "Параметри збору даних можна змінити в меню \"Параметри\"."
 
 #: STRINGS.UI.DATACOLLECTION.LOGIN.TITLE
 msgctxt "STRINGS.UI.DATACOLLECTION.LOGIN.TITLE"
@@ -45184,7 +45184,7 @@ msgstr "ЗНЯТИ"
 #: STRINGS.UI.EQUIPMENTSCREEN.ITEM_UPGRADE_AVAILABLE
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.ITEM_UPGRADE_AVAILABLE"
 msgid "<p img='images/icons_ftf/upgrade.tex' color=0 scale=1.0> Lvl {upgrade_level:%.0f} upgrade available!"
-msgstr ""
+msgstr "<p img='images/icons_ftf/upgrade.tex' color=0 scale=1.0> Доступно оновлення {upgrade_level:%.0f} рівня!"
 
 #: STRINGS.UI.EQUIPMENTSCREEN.ITEM_UPGRADE_BUTTON
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.ITEM_UPGRADE_BUTTON"
@@ -45199,7 +45199,7 @@ msgstr "Предмет максимального рівня!"
 #: STRINGS.UI.EQUIPMENTSCREEN.ITEM_UPGRADE_PREVIEW
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.ITEM_UPGRADE_PREVIEW"
 msgid "<p img='images/icons_ftf/upgrade.tex' color=0 scale=1.0> Lvl {upgrade_level:%.0f} upgrade details"
-msgstr ""
+msgstr "<p img='images/icons_ftf/upgrade.tex' color=0 scale=1.0> Деталі оновлення {upgrade_level:%.0f} рівня"
 
 #: STRINGS.UI.EQUIPMENTSCREEN.NO_GEM_SLOTS
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.NO_GEM_SLOTS"
@@ -45239,7 +45239,7 @@ msgstr ""
 #: STRINGS.UI.EQUIPMENTSCREEN.TAB_UPGRADES
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.TAB_UPGRADES"
 msgid "STATION UPGRADES"
-msgstr ""
+msgstr "ПОКРАЩЕННЯ СТАНЦІЇ"
 
 #: STRINGS.UI.EQUIPMENTSCREEN.TITLE
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.TITLE"
@@ -47391,12 +47391,12 @@ msgstr ""
 #: STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_CANCEL_BTN
 msgctxt "STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_CANCEL_BTN"
 msgid "CANCEL"
-msgstr ""
+msgstr "СКАСУВАТИ"
 
 #: STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_CONFIRM_BTN
 msgctxt "STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_CONFIRM_BTN"
 msgid "DELETE"
-msgstr ""
+msgstr "ВИДАЛИТИ"
 
 #: STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_DESCRIPTION
 msgctxt "STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_DESCRIPTION"
@@ -47660,47 +47660,47 @@ msgstr "<p img='images/ui_ftf_character/BtnHidingArmor.tex' color=0 scale=2.5>\n
 #: STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_BASE_COLOUR_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_BASE_COLOUR_TITLE"
 msgid "<p img='images/icons_ftf/emotes.tex' color=0 scale=1> Select Base Colour"
-msgstr ""
+msgstr "<p img='images/icons_ftf/emotes.tex' color=0 scale=1> Виберіть основний колір"
 
 #: STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_BASE_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_BASE_TITLE"
 msgid "<p img='images/icons_ftf/character_body.tex' color=0 scale=1> Select Base"
-msgstr ""
+msgstr "<p img='images/icons_ftf/character_body.tex' color=0 scale=1> Виберіть основу"
 
 #: STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_BODY_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_BODY_TITLE"
 msgid "<p img='images/icons_ftf/character_body.tex' color=0 scale=1> Select Body"
-msgstr ""
+msgstr "<p img='images/icons_ftf/character_body.tex' color=0 scale=1> Виберіть тіло"
 
 #: STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_EYE_COLOUR_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_EYE_COLOUR_TITLE"
 msgid "<p img='images/icons_ftf/emotes.tex' color=0 scale=1> Select Eye Colour"
-msgstr ""
+msgstr "<p img='images/icons_ftf/emotes.tex' color=0 scale=1> Виберіть колір очей"
 
 #: STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_FACE_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_FACE_TITLE"
 msgid "<p img='images/icons_ftf/character_head.tex' color=0 scale=1> Select Face"
-msgstr ""
+msgstr "<p img='images/icons_ftf/character_body.tex' color=0 scale=1> Виберіть обличчя"
 
 #: STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_HAIR_COLOUR_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_HAIR_COLOUR_TITLE"
 msgid "<p img='images/icons_ftf/emotes.tex' color=0 scale=1> Select Hair Colour"
-msgstr ""
+msgstr "<p img='images/icons_ftf/emotes.tex' color=0 scale=1> Виберіть колір волосся"
 
 #: STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_HAIR_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_HAIR_TITLE"
 msgid "<p img='images/icons_ftf/character_head.tex' color=0 scale=1> Select Hair Style"
-msgstr ""
+msgstr "<p img='images/icons_ftf/character_head.tex' color=0 scale=1> Виберіть стиль волосся"
 
 #: STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_LOADOUT_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_LOADOUT_TITLE"
 msgid "Select Loadout"
-msgstr ""
+msgstr "Вибрати спорядження"
 
 #: STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_WEAPON_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_WEAPON_TITLE"
 msgid "<p img='images/icons_ftf/inventory_weapon.tex' color=0 scale=1> Select Weapon"
-msgstr ""
+msgstr "<p img='images/icons_ftf/inventory_weapon.tex' color=0 scale=1> Виберіть зброю"
 
 #: STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SHOWING_ARMOR_BUTTON
 msgctxt "STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SHOWING_ARMOR_BUTTON"
@@ -51187,17 +51187,17 @@ msgstr "Відкрити скриню"
 #: STRINGS.UI.SCREENOPENER_PROP.masteries_station
 msgctxt "STRINGS.UI.SCREENOPENER_PROP.masteries_station"
 msgid "View {name.masteries_station}"
-msgstr ""
+msgstr "Оглянути {name.masteries_station}"
 
 #: STRINGS.UI.SCREENOPENER_PROP.player_friend_diary
 msgctxt "STRINGS.UI.SCREENOPENER_PROP.player_friend_diary"
 msgid "View Diary"
-msgstr ""
+msgstr "Відкрити щоденник"
 
 #: STRINGS.UI.SCREENOPENER_PROP.seed_grinder
 msgctxt "STRINGS.UI.SCREENOPENER_PROP.seed_grinder"
 msgid "Transmute Seeds"
-msgstr ""
+msgstr "Трансмутація насіння"
 
 #: STRINGS.UI.SCRIPTERROR.HACKMOD.DESC
 msgctxt "STRINGS.UI.SCRIPTERROR.HACKMOD.DESC"
