@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-06 21:47\n"
+"PO-Revision-Date: 2025-08-07 22:10\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -1192,7 +1192,8 @@ msgstr "Я сказав ні."
 msgctxt "Convo.dgn_bv_sedamenttundra_potion.HUB0.convo.giver.STATE_0.QUESTION_3A"
 msgid "<#RED>[<p img='images/hud_images/hud_konjur_drops_currency.tex'> {limited_konjur_cost} {name.konjur}]</> Okay, fine, I'll try it.\n"
 "<i><#RED><z 0.7>(Refill with Limited Edition Potion)</></i></z>"
-msgstr ""
+msgstr "<#RED>[<p img='images/hud_images/hud_konjur_drops_currency.tex'> {limited_konjur_cost} {2:{name.konjur}}]</> Гаразд, добре, я спробую.\n"
+"<i><#RED><z 0.7>(Поновити зілля обмеженою серією)</></i></z>"
 
 #: Convo.dgn_bv_sedamenttundra_potion.HUB0.convo.giver.STATE_0.QUESTION_3B
 msgctxt "Convo.dgn_bv_sedamenttundra_potion.HUB0.convo.giver.STATE_0.QUESTION_3B"
@@ -14713,7 +14714,11 @@ msgid "!happy\n"
 " Hey, Hunter... I just wanted to say I appreciate all the work you do for the <#RED>{name_multiple.foxtails}'</> expedition.\n"
 " !nervous\n"
 " That's... that's all. Sorry if I embarrassed you."
-msgstr ""
+msgstr "!happy\n"
+" !gesture\n"
+" Привіт, Мисливцю... Я просто хотів сказати, що я ціную всю вашу роботу для експедиції <#RED>{3:{Name_multiple.foxtails}}</>.\n"
+" !nervous\n"
+" Це... це все. Вибачте, якщо я вас збентежив."
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,role_travelling_salesman,steal_five_finger_brew].1
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,role_travelling_salesman,steal_five_finger_brew].1"
@@ -16067,7 +16072,15 @@ msgid "agent:\n"
 " I'm sorry to say my intel for this place is a bit limited... this is the first time I've been able to bring the <#RED>{name.damselfly}</> this far down into the cavern itself.\n"
 " !think\n"
 " That said, from the recon I <i>was</> able to do, there are signs that something big had a nest here... but abandoned it."
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !wave\n"
+" Ласкаво просимо до <#BLUE>{Name.eggzy_tundra}</>!\n"
+" !neutral\n"
+" !disagree\n"
+" На жаль, я змушений сказати, що моя інформація про це місце трохи обмежена... це вперше, коли я зміг привезти <#RED>{Name.damselfly}</> так далеко в саму печеру.\n"
+" !think\n"
+" Однак, за тим розвідданим, які я <i>зміг</> зібрати, тут є ознаки того, що щось велике мало гніздо... але залишило його."
 
 #: Quest.first_dgn_visit_scout_grimhollow.QUIP.chitchat:[in_quest_first_dgn_visit_scout_grimhollow,location_grimhollow_volcano,role_scout]NOT[has_killed_grimhollow,in_town].1
 msgctxt "Quest.first_dgn_visit_scout_grimhollow.QUIP.chitchat:[in_quest_first_dgn_visit_scout_grimhollow,location_grimhollow_volcano,role_scout]NOT[has_killed_grimhollow,in_town].1"
@@ -16078,7 +16091,13 @@ msgid "agent:\n"
 " !neutral\n"
 " !closedeyes\n"
 " It feels so strange to be back..."
-msgstr ""
+msgstr "agent:\n"
+" !neutral\n"
+" !gesture\n"
+" Ласкаво просимо до <#BLUE>{2:{name.grimhollow_volcano}}</>. Того, що від неї залишилося.\n"
+" !neutral\n"
+" !closedeyes\n"
+" Дивне відчуття – знову бути тут..."
 
 #: Quest.first_dgn_visit_scout_owl.QUIP.chitchat:[in_quest_first_dgn_visit_scout_owl,location_owlitzer_forest,role_scout]NOT[has_killed_owlitzer,in_town].1
 msgctxt "Quest.first_dgn_visit_scout_owl.QUIP.chitchat:[in_quest_first_dgn_visit_scout_owl,location_owlitzer_forest,role_scout]NOT[has_killed_owlitzer,in_town].1"
@@ -16357,7 +16376,13 @@ msgid "agent:\n"
 " !happy\n"
 " !bliss\n"
 " I... I almost can't believe it. It's really happening. Everyone's going to be able to come home!"
-msgstr ""
+msgstr "agent:\n"
+" !happy\n"
+" !shocked\n"
+" Ви це зробили! Це останнє <#KONJUR>{name.i_konjur_heart}</>, яке нам було потрібно!\n"
+" !happy\n"
+" !bliss\n"
+" Я... майже не можу повірити. Це насправді відбувається. Усі зможуть повернутися додому!"
 
 #: Quest.twn_frenzy_hint_buy_from_alphonse_armorsmith.QUIP.chitchat:[frenzy_unlocked,has_victory_in_eggzy_tundra,has_victory_in_grimhollow_volcano,has_victory_in_sedament_tundra,in_quest_twn_frenzy_hint_buy_from_alphonse_armorsmith,in_town,role_armorsmith].1
 msgctxt "Quest.twn_frenzy_hint_buy_from_alphonse_armorsmith.QUIP.chitchat:[frenzy_unlocked,has_victory_in_eggzy_tundra,has_victory_in_grimhollow_volcano,has_victory_in_sedament_tundra,in_quest_twn_frenzy_hint_buy_from_alphonse_armorsmith,in_town,role_armorsmith].1"
@@ -39797,12 +39822,12 @@ msgstr "Болото Блістербейн|Болота Блістербейн"
 #: STRINGS.NAMES.bandi_swamp_r1
 msgctxt "STRINGS.NAMES.bandi_swamp_r1"
 msgid "Thorned Quagmire"
-msgstr ""
+msgstr "Колюче болото|Колючого болота"
 
 #: STRINGS.NAMES.bandi_swamp_r2
 msgctxt "STRINGS.NAMES.bandi_swamp_r2"
 msgid "Retching Mire"
-msgstr ""
+msgstr "Болото блювоти|Болота блювоти"
 
 #: STRINGS.NAMES.bandicoot
 msgctxt "STRINGS.NAMES.bandicoot"
@@ -39862,7 +39887,7 @@ msgstr "Наповнений Рілло"
 #: STRINGS.NAMES.blarmadillo_miniboss
 msgctxt "STRINGS.NAMES.blarmadillo_miniboss"
 msgid "Armourillo"
-msgstr ""
+msgstr "Панцирілло"
 
 #: STRINGS.NAMES.bonejaw
 msgctxt "STRINGS.NAMES.bonejaw"
@@ -39877,7 +39902,7 @@ msgstr "Наповнена Кістяна щелепа"
 #: STRINGS.NAMES.bonejaw_miniboss
 msgctxt "STRINGS.NAMES.bonejaw_miniboss"
 msgid "Tusker"
-msgstr ""
+msgstr "Іклан"
 
 #: STRINGS.NAMES.brundle
 msgctxt "STRINGS.NAMES.brundle"
@@ -39897,12 +39922,12 @@ msgstr "Наповнена Лампомаха"
 #: STRINGS.NAMES.bullrog
 msgctxt "STRINGS.NAMES.bullrog"
 msgid "Magmoo"
-msgstr ""
+msgstr "Лавобик"
 
 #: STRINGS.NAMES.bullrog_miniboss
 msgctxt "STRINGS.NAMES.bullrog_miniboss"
 msgid "Magmoo"
-msgstr ""
+msgstr "Лавобик"
 
 #: STRINGS.NAMES.bunippy
 msgctxt "STRINGS.NAMES.bunippy"
@@ -39917,42 +39942,42 @@ msgstr "Наповнений Бавовноград"
 #: STRINGS.NAMES.c_item_rarity_common
 msgctxt "STRINGS.NAMES.c_item_rarity_common"
 msgid "<#COMMON>Grimy</>"
-msgstr ""
+msgstr "<#COMMON>Брудна</>"
 
 #: STRINGS.NAMES.c_item_rarity_epic
 msgctxt "STRINGS.NAMES.c_item_rarity_epic"
 msgid "<#EPIC>Impeccable</>"
-msgstr ""
+msgstr "<#EPIC>Бездоганна</>"
 
 #: STRINGS.NAMES.c_item_rarity_legendary
 msgctxt "STRINGS.NAMES.c_item_rarity_legendary"
 msgid "<#LEGENDARY>Masterwork</>"
-msgstr ""
+msgstr "<#LEGENDARY>Шедевр</>"
 
 #: STRINGS.NAMES.c_item_rarity_rare
 msgctxt "STRINGS.NAMES.c_item_rarity_rare"
 msgid "<#RARE>Pristine</>"
-msgstr ""
+msgstr "<#RARE>Недоторканна</>"
 
 #: STRINGS.NAMES.c_item_rarity_set
 msgctxt "STRINGS.NAMES.c_item_rarity_set"
 msgid "<#SET>Set</>"
-msgstr ""
+msgstr "<#SET>Набір</>"
 
 #: STRINGS.NAMES.c_item_rarity_titan
 msgctxt "STRINGS.NAMES.c_item_rarity_titan"
 msgid "<#TITAN>DEV_UNUSED</>"
-msgstr ""
+msgstr "<#TITAN>DEV_UNUSED</>"
 
 #: STRINGS.NAMES.c_item_rarity_uncommon
 msgctxt "STRINGS.NAMES.c_item_rarity_uncommon"
 msgid "<#UNCOMMON>Scuffed</>"
-msgstr ""
+msgstr "<#UNCOMMON>Подряпана</>"
 
 #: STRINGS.NAMES.c_konjur
 msgctxt "STRINGS.NAMES.c_konjur"
 msgid "<#KONJUR>Teffra</>"
-msgstr ""
+msgstr "<#KONJUR>Конжур</>"
 
 #: STRINGS.NAMES.c_konjur_heart_shard
 msgctxt "STRINGS.NAMES.c_konjur_heart_shard"
@@ -40097,7 +40122,7 @@ msgstr "Шкода зброї|Шкоди зброї|Шкоду зброї"
 #: STRINGS.NAMES.cook_rotating_recipe
 msgctxt "STRINGS.NAMES.cook_rotating_recipe"
 msgid "Limited Special"
-msgstr ""
+msgstr "Обмежена пропозиція"
 
 #: STRINGS.NAMES.cookingtools
 msgctxt "STRINGS.NAMES.cookingtools"
@@ -40122,7 +40147,7 @@ msgstr "Наповнений Колоссапфір"
 #: STRINGS.NAMES.crystroll_miniboss
 msgctxt "STRINGS.NAMES.crystroll_miniboss"
 msgid "Onyx"
-msgstr ""
+msgstr "Онікс"
 
 #: STRINGS.NAMES.current_beta
 msgctxt "STRINGS.NAMES.current_beta"
@@ -40132,7 +40157,7 @@ msgstr "Дружня бета"
 #: STRINGS.NAMES.cyborg_prefix
 msgctxt "STRINGS.NAMES.cyborg_prefix"
 msgid "Cyborg"
-msgstr ""
+msgstr "Кіборг"
 
 #: STRINGS.NAMES.damselfly
 msgctxt "STRINGS.NAMES.damselfly"
@@ -41697,7 +41722,7 @@ msgstr "Шляхи мисливця"
 #: STRINGS.NAMES_PLURAL.cook_rotating_recipe
 msgctxt "STRINGS.NAMES_PLURAL.cook_rotating_recipe"
 msgid "Limited Specials"
-msgstr ""
+msgstr "Обмежені пропозиції"
 
 #: STRINGS.NAMES_PLURAL.cosmetic
 msgctxt "STRINGS.NAMES_PLURAL.cosmetic"
@@ -44291,7 +44316,7 @@ msgstr "Скасувати"
 #: STRINGS.UI.ACTIONS.CHITCHAT
 msgctxt "STRINGS.UI.ACTIONS.CHITCHAT"
 msgid "Chit Chat"
-msgstr ""
+msgstr "Побалакати"
 
 #: STRINGS.UI.ACTIONS.DRINK_POTION_ITEM
 msgctxt "STRINGS.UI.ACTIONS.DRINK_POTION_ITEM"
@@ -44341,7 +44366,7 @@ msgstr "{Name.interact_tap} Встановити спорядження"
 #: STRINGS.UI.ACTIONS.MANNEQUIN_VIEW_LOADOUTS
 msgctxt "STRINGS.UI.ACTIONS.MANNEQUIN_VIEW_LOADOUTS"
 msgid "{name.interact_tap} View Loadouts"
-msgstr "{Name.interact_tap} Переглянути комплекти"
+msgstr "{Name.interact_tap} Оглянути комплекти"
 
 #: STRINGS.UI.ACTIONS.MANNEQUIN_WIPE_EQUIPMENT
 msgctxt "STRINGS.UI.ACTIONS.MANNEQUIN_WIPE_EQUIPMENT"
@@ -45256,7 +45281,8 @@ msgstr ""
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_ARMORSMITH_LEVEL.MAX_LEVEL"
 msgid "Fully upgraded!\n\n"
 "<#RED>{name.npc_armorsmith}</> can upgrade all armour to {dest_rarity} Quality!"
-msgstr ""
+msgstr "Повністю покращено!\n\n"
+"<#RED>{Name.npc_armorsmith}</> може покращити всі обладунки до якості: {dest_rarity}!"
 
 #: STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_ARMORSMITH_LEVEL.UPGRADE
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_ARMORSMITH_LEVEL.UPGRADE"
@@ -45267,7 +45293,8 @@ msgstr ""
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_BLACKSMITH_LEVEL.MAX_LEVEL"
 msgid "Fully upgraded!\n\n"
 "<#RED>{name.npc_blacksmith}</> can upgrade all weapons to {dest_rarity} Quality!"
-msgstr ""
+msgstr "Повністю покращено!\n\n"
+"<#RED>{Name.npc_armorsmith}</> може покращити всю зброю до якості: {dest_rarity}!"
 
 #: STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_BLACKSMITH_LEVEL.UPGRADE
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_BLACKSMITH_LEVEL.UPGRADE"
@@ -51510,22 +51537,22 @@ msgstr "ДЕТАЛІ"
 #: STRINGS.UI.TALENTSCREEN.TALENT_GROUP_TITLE
 msgctxt "STRINGS.UI.TALENTSCREEN.TALENT_GROUP_TITLE"
 msgid "PATH OF {source}"
-msgstr "ШЛЯХ {2:{source}}"
+msgstr "ШЛЯХ \"{source}\""
 
 #: STRINGS.UI.TALENTSCREEN.TALENT_HOTKEYS.ADD_POINT
 msgctxt "STRINGS.UI.TALENTSCREEN.TALENT_HOTKEYS.ADD_POINT"
 msgid "Add Point"
-msgstr ""
+msgstr "Збільшити"
 
 #: STRINGS.UI.TALENTSCREEN.TALENT_HOTKEYS.REMOVE_POINT
 msgctxt "STRINGS.UI.TALENTSCREEN.TALENT_HOTKEYS.REMOVE_POINT"
 msgid "Remove Point"
-msgstr ""
+msgstr "Зменшити"
 
 #: STRINGS.UI.TALENTSCREEN.TALENT_POINTS
 msgctxt "STRINGS.UI.TALENTSCREEN.TALENT_POINTS"
 msgid "INVESTED: {points}<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=0>/{total_points}<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=0>"
-msgstr ""
+msgstr "ІНВЕСТУВАНО: {points}<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=0>/{total_points}<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=0>"
 
 #: STRINGS.UI.TALENTSCREEN.TALENT_POINT_COUNT
 msgctxt "STRINGS.UI.TALENTSCREEN.TALENT_POINT_COUNT"
@@ -51555,12 +51582,12 @@ msgstr "Залишилось:"
 #: STRINGS.UI.TALENTSCREEN.UNSPENT_TALENT_POINT_WARNING_DESC
 msgctxt "STRINGS.UI.TALENTSCREEN.UNSPENT_TALENT_POINT_WARNING_DESC"
 msgid "{player_name} has unspent {name_multiple.konjur_heart_shard}!"
-msgstr ""
+msgstr "{player_name} має невитрачені {name_multiple.konjur_heart_shard}!"
 
 #: STRINGS.UI.TALENTSCREEN.UNSPENT_TALENT_POINT_WARNING_TITLE
 msgctxt "STRINGS.UI.TALENTSCREEN.UNSPENT_TALENT_POINT_WARNING_TITLE"
 msgid "Unspent {name_multiple.konjur_heart_shard}!"
-msgstr ""
+msgstr "Невитрачені {name_multiple.konjur_heart_shard}!"
 
 #: STRINGS.UI.TOOLTIPS.BOW_BULLSEYE.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.BOW_BULLSEYE.DESC"
