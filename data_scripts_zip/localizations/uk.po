@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-10 17:51\n"
+"PO-Revision-Date: 2025-08-10 18:00\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -40217,7 +40217,7 @@ msgstr "Печера Шипорульок|Печери Шипорульок|Пе
 #: STRINGS.NAMES.eggzy_tundra_r1
 msgctxt "STRINGS.NAMES.eggzy_tundra_r1"
 msgid "Passage of Echoes"
-msgstr ""
+msgstr "Проходження відлунь"
 
 #: STRINGS.NAMES.elite_prefix
 msgctxt "STRINGS.NAMES.elite_prefix"
@@ -40412,7 +40412,7 @@ msgstr "Дорога старого ринку"
 #: STRINGS.NAMES.grimhollow_volcano_r2
 msgctxt "STRINGS.NAMES.grimhollow_volcano_r2"
 msgid "Abandoned City Center"
-msgstr ""
+msgstr "Покинутий центр міста"
 
 #: STRINGS.NAMES.groak
 msgctxt "STRINGS.NAMES.groak"
@@ -40657,7 +40657,7 @@ msgstr ""
 #: STRINGS.NAMES.masteries_station
 msgctxt "STRINGS.NAMES.masteries_station"
 msgid "Mastery Board"
-msgstr ""
+msgstr "Дошка майстерностей"
 
 #: STRINGS.NAMES.material
 msgctxt "STRINGS.NAMES.material"
@@ -40827,17 +40827,17 @@ msgstr "Ноктюрний гай|Ноктюрного гаю"
 #: STRINGS.NAMES.owlitzer_forest_r1
 msgctxt "STRINGS.NAMES.owlitzer_forest_r1"
 msgid "Acrid Glade"
-msgstr ""
+msgstr "Гірка галявина"
 
 #: STRINGS.NAMES.owlitzer_forest_r2
 msgctxt "STRINGS.NAMES.owlitzer_forest_r2"
 msgid "Brambleside Footpath"
-msgstr ""
+msgstr "Стежка Брамблсайд"
 
 #: STRINGS.NAMES.owlitzer_forest_r3
 msgctxt "STRINGS.NAMES.owlitzer_forest_r3"
 msgid "Tangled Hollow"
-msgstr ""
+msgstr "Заплутана ущелина"
 
 #: STRINGS.NAMES.plumper
 msgctxt "STRINGS.NAMES.plumper"
@@ -40872,7 +40872,7 @@ msgstr "Зілля"
 #: STRINGS.NAMES.potion_charge
 msgctxt "STRINGS.NAMES.potion_charge"
 msgid "Potion Charge"
-msgstr ""
+msgstr "Заряд зілля"
 
 #: STRINGS.NAMES.powerdesc_critchance
 msgctxt "STRINGS.NAMES.powerdesc_critchance"
@@ -40932,12 +40932,12 @@ msgstr "Тривалість непереможності"
 #: STRINGS.NAMES.powerdesc_konjur_bonus
 msgctxt "STRINGS.NAMES.powerdesc_konjur_bonus"
 msgid "<p img='images/hud_images/hud_konjur_drops_currency.tex' rpad=1><#KONJUR>Teffra</> Bonus"
-msgstr ""
+msgstr "Бонусний <p img='images/hud_images/hud_konjur_drops_currency.tex' rpad=1><#KONJUR>конжур</>"
 
 #: STRINGS.NAMES.powerdesc_konjur_cost
 msgctxt "STRINGS.NAMES.powerdesc_konjur_cost"
 msgid "<p img='images/hud_images/hud_konjur_drops_currency.tex' rpad=1><#KONJUR>Teffra</> Cost"
-msgstr ""
+msgstr "Вартість <p img='images/hud_images/hud_konjur_drops_currency.tex' rpad=1><#KONJUR>конжуру</>"
 
 #: STRINGS.NAMES.powerdesc_maxhealth
 msgctxt "STRINGS.NAMES.powerdesc_maxhealth"
@@ -41012,7 +41012,7 @@ msgstr "Наповнений Кетцаль"
 #: STRINGS.NAMES.quetz_miniboss
 msgctxt "STRINGS.NAMES.quetz_miniboss"
 msgid "Ruin Warden"
-msgstr ""
+msgstr "Хранитель руїн"
 
 #: STRINGS.NAMES.rot
 msgctxt "STRINGS.NAMES.rot"
@@ -41042,12 +41042,12 @@ msgstr "Полювання"
 #: STRINGS.NAMES.run_ascension
 msgctxt "STRINGS.NAMES.run_ascension"
 msgid "Frenzied Hunt"
-msgstr ""
+msgstr "Божевільне полювання"
 
 #: STRINGS.NAMES.run_ascension_plus
 msgctxt "STRINGS.NAMES.run_ascension_plus"
 msgid "Super Frenzy Hunt"
-msgstr ""
+msgstr "Супер божевільне полювання"
 
 #: STRINGS.NAMES.sedament
 msgctxt "STRINGS.NAMES.sedament"
@@ -44958,12 +44958,12 @@ msgstr ""
 #: STRINGS.UI.DUNGEONSELECTIONSCREEN.LOCATION_MATERIALS_TITLE
 msgctxt "STRINGS.UI.DUNGEONSELECTIONSCREEN.LOCATION_MATERIALS_TITLE"
 msgid "RESOURCES"
-msgstr ""
+msgstr "РЕСУРСИ"
 
 #: STRINGS.UI.DUNGEONSELECTIONSCREEN.MATERIALS_POPUP.TITLE
 msgctxt "STRINGS.UI.DUNGEONSELECTIONSCREEN.MATERIALS_POPUP.TITLE"
 msgid "Resources Found Here"
-msgstr ""
+msgstr "Ресурси знайдені тут"
 
 #: STRINGS.UI.DUNGEONSELECTIONSCREEN.NO_ELITE_BOSS_MESSAGE
 msgctxt "STRINGS.UI.DUNGEONSELECTIONSCREEN.NO_ELITE_BOSS_MESSAGE"
@@ -48345,7 +48345,7 @@ msgstr "???"
 #: STRINGS.UI.MAPSCREEN.UNKNOWN_CREATURE
 msgctxt "STRINGS.UI.MAPSCREEN.UNKNOWN_CREATURE"
 msgid "Undiscovered {name.rot}"
-msgstr ""
+msgstr "Невідкритий {name.rot}"
 
 #: STRINGS.UI.MAP_ICONS.BIGTOKEN1
 msgctxt "STRINGS.UI.MAP_ICONS.BIGTOKEN1"
@@ -51577,7 +51577,7 @@ msgstr "{NAME.concept_talent_tree}"
 #: STRINGS.UI.TALENTSCREEN.UNSPENT_LABEL
 msgctxt "STRINGS.UI.TALENTSCREEN.UNSPENT_LABEL"
 msgid "Unspent:"
-msgstr "Залишилось:"
+msgstr "Лишилось:"
 
 #: STRINGS.UI.TALENTSCREEN.UNSPENT_TALENT_POINT_WARNING_DESC
 msgctxt "STRINGS.UI.TALENTSCREEN.UNSPENT_TALENT_POINT_WARNING_DESC"
