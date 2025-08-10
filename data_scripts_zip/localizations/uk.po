@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-10 18:28\n"
+"PO-Revision-Date: 2025-08-10 19:27\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -27803,7 +27803,8 @@ msgstr "{Name_multiple.konjur_heart} {2:{Name.sedament}} ({count})"
 msgctxt "STRINGS.ITEMS.MATERIALS.konjur_heart_shard.desc"
 msgid "Can be spent at the {name.town_grid_cryst}.\n\n"
 "Found by: <#RED>Progressing {name.concept_talent_tree}</>"
-msgstr ""
+msgstr "Можна витратити у {3:{name.town_grid_cryst}}.\n\n"
+"Знаходиться шляхом: <#RED>розвитку {2:{name.concept_talent_tree}}</>"
 
 #: STRINGS.ITEMS.MATERIALS.konjur_heart_shard.name
 msgctxt "STRINGS.ITEMS.MATERIALS.konjur_heart_shard.name"
@@ -27839,7 +27840,7 @@ msgid "Heavily condensed, solid <#KONJUR>{name.i_konjur}</>.\n\n"
 "Found in: <#RED>{name.rot_miniboss} Rooms</>"
 msgstr "Сильно конденсований, твердий <#KONJUR>{name.i_konjur}</>.\n\n"
 "Залишив після себе особливо страшний <#RED>{name.rot}</>.\n\n"
-"Знайдений на: <#RED>галявині з {name.rot_miniboss}ом</>"
+"Знайдений на: <#RED>галявині з {3:{name.rot_miniboss}}</>"
 
 #: STRINGS.ITEMS.MATERIALS.konjur_soul_greater.name
 msgctxt "STRINGS.ITEMS.MATERIALS.konjur_soul_greater.name"
@@ -27856,7 +27857,7 @@ msgctxt "STRINGS.ITEMS.MATERIALS.konjur_soul_lesser.desc"
 msgid "A hunk of pure, solidified <#KONJUR>{name.i_konjur}</>.\n\n"
 "Found in: <#RED>Special Rooms</>"
 msgstr "Шматок чистого затверділого <#KONJUR>{2:{name.i_konjur}}</>.\n\n"
-"Знайдений на: <#RED>особливій галявині</>"
+"Знайдено на: <#RED>особливій галявині</>"
 
 #: STRINGS.ITEMS.MATERIALS.konjur_soul_lesser.name
 msgctxt "STRINGS.ITEMS.MATERIALS.konjur_soul_lesser.name"
@@ -33491,7 +33492,7 @@ msgstr "Ваш <#RED>{name.weapon_shotput}</> повертається до ва
 #: STRINGS.ITEMS.POWERS.SKILL.shotput_recall.name
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.shotput_recall.name"
 msgid "Arcing Recall"
-msgstr "Дугове відкликання"
+msgstr "Дугове повернення"
 
 #: STRINGS.ITEMS.POWERS.SKILL.shotput_seek.desc
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.shotput_seek.desc"
@@ -33521,7 +33522,7 @@ msgstr "Ваш <#RED>{name.weapon_shotput}</> рухається до вас п�
 #: STRINGS.ITEMS.POWERS.SKILL.shotput_summon.name
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.shotput_summon.name"
 msgid "Direct Recall"
-msgstr "Пряме відкликання"
+msgstr "Пряме повернення"
 
 #: STRINGS.ITEMS.POWERS.SKILL.throwsnowball.desc
 msgctxt "STRINGS.ITEMS.POWERS.SKILL.throwsnowball.desc"
@@ -37497,7 +37498,7 @@ msgstr "Збалансовані {name_multiple.concept_hitstreak} {4:{name.weap
 #: STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_hitstreak_recall.desc
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_hitstreak_recall.desc"
 msgid "Get a <#RED>20+ {name.concept_hitstreak}</> during combat that includes at least 2 <#RED>Recall</> (<p bind='Controls.Digital.SKILL' color=0> or <p bind='Controls.Digital.ATTACK_HEAVY' color=0>) hits."
-msgstr "Отримайте <#RED>20+ {2:{name.concept_hitstreak}}</> під час бою, що включає принаймні 2 удари <#RED>відкликанням</> (<p bind='Controls.Digital.SKILL'> або <p bind='Controls.Digital.ATTACK_HEAVY'>)."
+msgstr "Отримайте <#RED>20+ {2:{name.concept_hitstreak}}</> під час бою, що включає принаймні 2 удари <#RED>поверненням</> (<p bind='Controls.Digital.SKILL'> або <p bind='Controls.Digital.ATTACK_HEAVY'>)."
 
 #: STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_hitstreak_recall.name
 msgctxt "STRINGS.ITEMS.WEAPON_MASTERY.SHOTPUT.shotput_hitstreak_recall.name"
@@ -40462,7 +40463,7 @@ msgstr "<p img='images/ui_ftf_shop/inventory_slot_common.tex'    scale=0.8 rpad=
 #: STRINGS.NAMES.i_item_rarity_epic
 msgctxt "STRINGS.NAMES.i_item_rarity_epic"
 msgid "<p img='images/ui_ftf_shop/inventory_slot_epic.tex'      scale=0.8 rpad=1><#EPIC>Impeccable</>"
-msgstr "<p img='images/ui_ftf_shop/inventory_slot_epic.tex'      scale=0.8 rpad=1><#EPIC>Бездоганна</>"
+msgstr "<p img='images/ui_ftf_shop/inventory_slot_epic.tex'      scale=0.8 rpad=1><#EPIC>Бездоганна</>|<p img='images/ui_ftf_shop/inventory_slot_epic.tex'      scale=0.8 rpad=1><#EPIC>Бездоганні</>|<p img='images/ui_ftf_shop/inventory_slot_epic.tex'      scale=0.8 rpad=1><#EPIC>Бездоганну</>"
 
 #: STRINGS.NAMES.i_item_rarity_legendary
 msgctxt "STRINGS.NAMES.i_item_rarity_legendary"
@@ -40472,7 +40473,7 @@ msgstr "<p img='images/ui_ftf_shop/inventory_slot_legendary.tex' scale=0.8 rpad=
 #: STRINGS.NAMES.i_item_rarity_rare
 msgctxt "STRINGS.NAMES.i_item_rarity_rare"
 msgid "<p img='images/ui_ftf_shop/inventory_slot_rare.tex'      scale=0.8 rpad=1><#RARE>Pristine</>"
-msgstr "<p img='images/ui_ftf_shop/inventory_slot_rare.tex'      scale=0.8 rpad=1><#RARE>Недоторканна</>"
+msgstr "<p img='images/ui_ftf_shop/inventory_slot_rare.tex'      scale=0.8 rpad=1><#RARE>Недоторканна</>|<p img='images/ui_ftf_shop/inventory_slot_rare.tex'      scale=0.8 rpad=1><#RARE>Недоторканні</>|<p img='images/ui_ftf_shop/inventory_slot_rare.tex'      scale=0.8 rpad=1><#RARE>Недоторканну</>"
 
 #: STRINGS.NAMES.i_item_rarity_set
 msgctxt "STRINGS.NAMES.i_item_rarity_set"
@@ -40487,7 +40488,7 @@ msgstr "<p img='images/ui_ftf_shop/inventory_slot_titan.tex'     scale=0.8 rpad=
 #: STRINGS.NAMES.i_item_rarity_uncommon
 msgctxt "STRINGS.NAMES.i_item_rarity_uncommon"
 msgid "<p img='images/ui_ftf_shop/inventory_slot_uncommon.tex'  scale=0.8 rpad=1><#UNCOMMON>Scuffed</>"
-msgstr "<p img='images/ui_ftf_shop/inventory_slot_uncommon.tex'  scale=0.8 rpad=1><#UNCOMMON>Подряпана</>"
+msgstr "<p img='images/ui_ftf_shop/inventory_slot_uncommon.tex'  scale=0.8 rpad=1><#UNCOMMON>Подряпана</>|<p img='images/ui_ftf_shop/inventory_slot_uncommon.tex'  scale=0.8 rpad=1><#UNCOMMON>Подряпані</>|<p img='images/ui_ftf_shop/inventory_slot_uncommon.tex'  scale=0.8 rpad=1><#UNCOMMON>Подряпану</>"
 
 #: STRINGS.NAMES.i_konjur
 msgctxt "STRINGS.NAMES.i_konjur"
@@ -40732,7 +40733,7 @@ msgstr "Мати-виводка"
 #: STRINGS.NAMES.npc_apothecary
 msgctxt "STRINGS.NAMES.npc_apothecary"
 msgid "Kuma"
-msgstr "Кума"
+msgstr "Кума|Кумі|Куми"
 
 #: STRINGS.NAMES.npc_armorsmith
 msgctxt "STRINGS.NAMES.npc_armorsmith"
@@ -41027,7 +41028,7 @@ msgstr "Гниль бос|Гниль боса"
 #: STRINGS.NAMES.rot_miniboss
 msgctxt "STRINGS.NAMES.rot_miniboss"
 msgid "Rot Miniboss"
-msgstr "Гниль Мінібос"
+msgstr "Гниль мінібос|Гниль мінібоса|Гниль мінібосом"
 
 #: STRINGS.NAMES.rotwood
 msgctxt "STRINGS.NAMES.rotwood"
@@ -41722,7 +41723,7 @@ msgstr "Шляхи мисливця"
 #: STRINGS.NAMES_PLURAL.cook_rotating_recipe
 msgctxt "STRINGS.NAMES_PLURAL.cook_rotating_recipe"
 msgid "Limited Specials"
-msgstr "Обмежені пропозиції"
+msgstr "Обмежені пропозиції|Обмежених пропозицій"
 
 #: STRINGS.NAMES_PLURAL.cosmetic
 msgctxt "STRINGS.NAMES_PLURAL.cosmetic"
@@ -42122,7 +42123,7 @@ msgstr "Гниль боси|Гниль босів|Гниль босами"
 #: STRINGS.NAMES_PLURAL.rot_miniboss
 msgctxt "STRINGS.NAMES_PLURAL.rot_miniboss"
 msgid "Rot Minibosses"
-msgstr "Гниль Мінібоси|Гниль Мінібосів"
+msgstr "Гниль мінібоси|Гниль мінібосів"
 
 #: STRINGS.NAMES_PLURAL.run
 msgctxt "STRINGS.NAMES_PLURAL.run"
@@ -42312,7 +42313,7 @@ msgstr "<#RED>Легкі атаки</> (<p bind='Controls.Digital.ATTACK_LIGHT' 
 #: STRINGS.NAMES_PLURAL.upgrade_ingot
 msgctxt "STRINGS.NAMES_PLURAL.upgrade_ingot"
 msgid "Fortifying Ingots"
-msgstr "Зміцнювальні злитки"
+msgstr "Зміцнювальні злитки|Зміцнювальних злитків"
 
 #: STRINGS.NAMES_PLURAL.weapon_bow
 msgctxt "STRINGS.NAMES_PLURAL.weapon_bow"
@@ -46030,47 +46031,47 @@ msgstr "Перегляд дружніх відносин"
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_epic_armor.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_epic_armor.desc"
 msgid "Chat with <#RED>{name.npc_armorsmith}</> while sporting some {name.i_item_rarity_epic} armour to spark some competitive spirit."
-msgstr ""
+msgstr "Поспілкуйтеся з <#RED>{5:{Name.npc_armorsmith}}</>, вдягнувши {2:{name.i_item_rarity_epic}} обладунки, щоб пробудити дух змагання."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_epic_weapon.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_epic_weapon.desc"
 msgid "Let <#RED>{name.npc_blacksmith}</> examine an {name.i_item_rarity_epic} weapon to inspire him."
-msgstr ""
+msgstr "Дозвольте <#RED>{3:{Name.npc_blacksmith}}</> оглянути {3:{name.i_item_rarity_epic}} зброю, щоб надихнути його."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_rare_armor.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_rare_armor.desc"
 msgid "Show off some {name.i_item_rarity_rare} armour to <#RED>{name.npc_armorsmith}</> to help her remember someone from her past."
-msgstr ""
+msgstr "Покажіть {2:{name.i_item_rarity_rare}} обладунки <#RED>{3:{name.npc_armorsmith}}</>, щоб допомогти їй згадати когось із минулого."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_rare_weapon.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_rare_weapon.desc"
 msgid "Talk to <#RED>{name.npc_blacksmith}</> while wielding a {name.i_item_rarity_rare} weapon to pique his curiosity."
-msgstr ""
+msgstr "Поговоріть з <#RED>{4:{Name.npc_blacksmith}}</>, тримаючи {3:{name.i_item_rarity_rare}} зброю, щоб зацікавити його."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_gave_cookingtools.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_gave_cookingtools.desc"
 msgid "Give <#RED>{name.npc_cook}</> her {name.cookingtools} before she's ready to be friends."
-msgstr ""
+msgstr "Віддайте <#RED>{Name.npc_cook}</> її {2:{name.cookingtools}}, перш ніж вона буде готова стати вашим другом."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_gave_farmtools.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_gave_farmtools.desc"
 msgid "<#RED>{name.npc_apothecary}</> needs her {name.farmtools} before she'll start trusting you."
-msgstr ""
+msgstr "<#RED>{Name.npc_apothecary}</> потрібні її {name.farmtools}, перш ніж вона почне вам довіряти."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_town_crafting_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_town_crafting_unlocked.desc"
 msgid "<#RED>{name.npc_armorsmith}</> won't share more gossip until you unlock <#RED>{name.npc_scout}</>'s Town Crafting."
-msgstr ""
+msgstr "<#RED>{Name.npc_armorsmith}</> не розповість більше пліток, доки ви не розблокуєте будівництво міста у <#RED>{3:{Name.npc_scout}}</>."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_unimplemented_friend_gift.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_unimplemented_friend_gift.desc"
 msgid "Further progress isn't implemented at this point in <#PENALTY_TEXT_LIGHT>Early Access</>."
-msgstr ""
+msgstr "Подальший прогрес наразі не реалізований у версії <#PENALTY_TEXT_LIGHT>раннього доступу</>."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_armour_fortification_1_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_armour_fortification_1_unlocked.desc"
 msgid "<#RED>{name.npc_armorsmith}</> can create an <#RED>{name.armourtools1}</> from {name_multiple.upgrade_ingot} so she can upgrade {name.i_item_rarity_uncommon} armour to higher levels."
-msgstr ""
+msgstr "<#RED>{Name.npc_armorsmith}</> може створити <#RED>{name.armourtools1}</> зі {2:{name_multiple.upgrade_ingot}}, щоб покращувати {2:{name.i_item_rarity_uncommon}} обладунки до вищих рівнів."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_armour_fortification_1_unlocked.name
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_armour_fortification_1_unlocked.name"
@@ -46080,7 +46081,7 @@ msgstr "Дослідження обладунків"
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_armour_fortification_2_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_armour_fortification_2_unlocked.desc"
 msgid "<#RED>{name.npc_armorsmith}</> can create an <#RED>{name.armourtools2}</> from {name_multiple.upgrade_ingot} so she can upgrade {name.i_item_rarity_rare} armour to higher levels."
-msgstr ""
+msgstr "<#RED>{Name.npc_armorsmith}</> може створити <#RED>{name.armourtools2}</> зі {2:{name_multiple.upgrade_ingot}}, щоб покращувати {2:{name.i_item_rarity_rare}} обладунки до вищих рівнів."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_armour_fortification_2_unlocked.name
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_armour_fortification_2_unlocked.name"
@@ -46090,17 +46091,17 @@ msgstr "Дослідження обладунків"
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_cook_rotatingmenu_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_cook_rotatingmenu_unlocked.desc"
 msgid "Cook fancier meals from <#RED>{name.npc_cook}</>'s menu and consume them during a Hunt for more potent {name_multiple.concept_relic}."
-msgstr ""
+msgstr "Готуйте вишуканіші страви з меню <#RED>{Name.npc_cook}</> та споживайте їх під час полювання, щоб отримати потужніші {name_multiple.concept_relic}."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_cook_rotatingmenu_unlocked.name
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_cook_rotatingmenu_unlocked.name"
 msgid "{name_multiple.cook_rotating_recipe} Menu"
-msgstr ""
+msgstr "Меню {2:{name_multiple.cook_rotating_recipe}}"
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_farm_seedgrind_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_farm_seedgrind_unlocked.desc"
 msgid "<#RED>{name.npc_apothecary}</>'s <#RED>{name.seed_grinder}</> transforms seeds and materials into more seeds."
-msgstr ""
+msgstr "<#RED>{Name.seed_grinder}</> <#RED>{3:{Name.npc_apothecary}}</> перетворює насіння та матеріали на ще більше насіння."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_farm_seedgrind_unlocked.name
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_farm_seedgrind_unlocked.name"
@@ -46110,17 +46111,17 @@ msgstr "{Name.seed_grinder}"
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_town_crafting_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_town_crafting_unlocked.desc"
 msgid "Craft decor and place it in town."
-msgstr ""
+msgstr "Зробіть декор і розмістіть його в місті."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_town_crafting_unlocked.name
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_town_crafting_unlocked.name"
 msgid "Town Crafting"
-msgstr ""
+msgstr "Розбудова міста"
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_weapon_fortification_1_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_weapon_fortification_1_unlocked.desc"
 msgid "<#RED>{name.npc_blacksmith}</> can create an <#RED>{name.weapontools1}</> from {name_multiple.upgrade_ingot} so he can upgrade {name.i_item_rarity_uncommon} weapons to higher levels."
-msgstr ""
+msgstr "<#RED>{Name.npc_blacksmith}</> може створити <#RED>{name.weapontools1}</> зі {2:{name_multiple.upgrade_ingot}}, щоб покращувати {3:{name.i_item_rarity_uncommon}} зброю до вищих рівнів."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_weapon_fortification_1_unlocked.name
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_weapon_fortification_1_unlocked.name"
@@ -46130,7 +46131,7 @@ msgstr "Дослідження зброї"
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_weapon_fortification_2_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_weapon_fortification_2_unlocked.desc"
 msgid "<#RED>{name.npc_blacksmith}</> can create an <#RED>{name.weapontools2}</> from {name_multiple.upgrade_ingot} so he can upgrade {name.i_item_rarity_rare} weapons to higher levels."
-msgstr ""
+msgstr "<#RED>{Name.npc_blacksmith}</> може створити <#RED>{name.weapontools2}</> зі {2:{name_multiple.upgrade_ingot}}, щоб покращувати {3:{name.i_item_rarity_rare}} зброю до вищих рівнів."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_weapon_fortification_2_unlocked.name
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_weapon_fortification_2_unlocked.name"
@@ -46140,7 +46141,7 @@ msgstr "Дослідження зброї"
 #: STRINGS.UI.FRIENDSHIPSCREEN.TAG_CHECK_DIARY
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.TAG_CHECK_DIARY"
 msgid "Check your <#RED>{name.i_station_diary}</#RED> for details."
-msgstr ""
+msgstr "Перевірте свій <#RED>{name.i_station_diary}</#RED> для отримання деталей."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.TITLE
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.TITLE"
