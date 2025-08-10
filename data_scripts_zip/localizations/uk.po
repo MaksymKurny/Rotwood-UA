@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-10 18:00\n"
+"PO-Revision-Date: 2025-08-10 18:28\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -19738,22 +19738,22 @@ msgstr "Знайдено в: %s"
 #: STRINGS.CRAFT_WIDGET.FOUND_IN_BOSS
 msgctxt "STRINGS.CRAFT_WIDGET.FOUND_IN_BOSS"
 msgid "Looted from regular {name_multiple.rot_boss}."
-msgstr ""
+msgstr "Випало зі звичайних {2:{name_multiple.rot_boss}}."
 
 #: STRINGS.CRAFT_WIDGET.FOUND_IN_ELITE
 msgctxt "STRINGS.CRAFT_WIDGET.FOUND_IN_ELITE"
 msgid "Looted from {name.elite_prefix} {name_multiple.rot}."
-msgstr ""
+msgstr "Випало з {4:{name.elite_prefix}} {2:{name.rot}}."
 
 #: STRINGS.CRAFT_WIDGET.FOUND_IN_ELITEBOSS
 msgctxt "STRINGS.CRAFT_WIDGET.FOUND_IN_ELITEBOSS"
 msgid "Looted from {name.elite_prefix} {name_multiple.rot_boss}."
-msgstr ""
+msgstr "Випало з {4:{name.elite_prefix}} {2:{name.rot_boss}}."
 
 #: STRINGS.CRAFT_WIDGET.FOUND_IN_NORMAL
 msgctxt "STRINGS.CRAFT_WIDGET.FOUND_IN_NORMAL"
 msgid "Looted from regular {name_multiple.rot}."
-msgstr ""
+msgstr "Випало зі звичайних {2:{name_multiple.rot}}."
 
 #: STRINGS.CRAFT_WIDGET.FOUND_IN_UPGRADE
 msgctxt "STRINGS.CRAFT_WIDGET.FOUND_IN_UPGRADE"
@@ -23121,7 +23121,7 @@ msgstr ""
 #: STRINGS.ITEMS.EQUIPMENT_RARITY.equipment_epic.name
 msgctxt "STRINGS.ITEMS.EQUIPMENT_RARITY.equipment_epic.name"
 msgid "{name.item_rarity_epic} Equipment"
-msgstr ""
+msgstr "{Name.item_rarity_epic} спорядження"
 
 #: STRINGS.ITEMS.EQUIPMENT_RARITY.equipment_legendary.desc
 msgctxt "STRINGS.ITEMS.EQUIPMENT_RARITY.equipment_legendary.desc"
@@ -23131,7 +23131,7 @@ msgstr ""
 #: STRINGS.ITEMS.EQUIPMENT_RARITY.equipment_legendary.name
 msgctxt "STRINGS.ITEMS.EQUIPMENT_RARITY.equipment_legendary.name"
 msgid "{name.item_rarity_legendary} Equipment"
-msgstr ""
+msgstr "{Name.item_rarity_legendary} спорядження"
 
 #: STRINGS.ITEMS.EQUIPMENT_RARITY.equipment_rare.desc
 msgctxt "STRINGS.ITEMS.EQUIPMENT_RARITY.equipment_rare.desc"
@@ -23141,7 +23141,7 @@ msgstr ""
 #: STRINGS.ITEMS.EQUIPMENT_RARITY.equipment_rare.name
 msgctxt "STRINGS.ITEMS.EQUIPMENT_RARITY.equipment_rare.name"
 msgid "{name.item_rarity_rare} Equipment"
-msgstr ""
+msgstr "{Name.item_rarity_rare} спорядження"
 
 #: STRINGS.ITEMS.EQUIPMENT_RARITY.equipment_uncommon.desc
 msgctxt "STRINGS.ITEMS.EQUIPMENT_RARITY.equipment_uncommon.desc"
@@ -23151,7 +23151,7 @@ msgstr ""
 #: STRINGS.ITEMS.EQUIPMENT_RARITY.equipment_uncommon.name
 msgctxt "STRINGS.ITEMS.EQUIPMENT_RARITY.equipment_uncommon.name"
 msgid "{name.item_rarity_uncommon} Equipment"
-msgstr ""
+msgstr "{Name.item_rarity_uncommon} спорядження"
 
 #: STRINGS.ITEMS.GEMS.ILVL_TO_NAME.1
 msgctxt "STRINGS.ITEMS.GEMS.ILVL_TO_NAME.1"
@@ -26425,7 +26425,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools0.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools0.desc"
 msgid "Allows the holder to upgrade all armour to <#RED>Level 5</>."
-msgstr ""
+msgstr "Дозволяє власнику покращити всі обладунки до <#RED>5 рівня</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools0.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools0.name"
@@ -26435,7 +26435,7 @@ msgstr "{Name.armourtools0}"
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools1.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools1.desc"
 msgid "Allows the holder to upgrade all armour to <#RED>Level 9</>."
-msgstr ""
+msgstr "Дозволяє власнику покращити всі обладунки до <#RED>9 рівня</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools1.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools1.name"
@@ -26445,7 +26445,7 @@ msgstr "{Name.armourtools1}"
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools2.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools2.desc"
 msgid "Allows the holder to upgrade all armour to <#RED>Level 10</>."
-msgstr ""
+msgstr "Дозволяє власнику покращити всі обладунки до <#RED>10 рівня</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools2.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools2.name"
@@ -26495,7 +26495,7 @@ msgstr "{Name.teffrometer}"
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools0.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools0.desc"
 msgid "Allows the holder to upgrade all weapons to <#RED>Level 5</>."
-msgstr ""
+msgstr "Дозволяє власнику покращити всю зброю до <#RED>5 рівня</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools0.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools0.name"
@@ -26505,7 +26505,7 @@ msgstr "{Name.weapontools0}"
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools1.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools1.desc"
 msgid "Allows the holder to upgrade all weapons to <#RED>Level 9</>."
-msgstr ""
+msgstr "Дозволяє власнику покращити всю зброю до <#RED>9 рівня</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools1.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools1.name"
@@ -26515,7 +26515,7 @@ msgstr "{Name.weapontools1}"
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools2.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools2.desc"
 msgid "Allows the holder to upgrade all weapons to <#RED>Level 10</>."
-msgstr ""
+msgstr "Дозволяє власнику покращити всю зброю до <#RED>10 рівня</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools2.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools2.name"
@@ -27988,7 +27988,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.normal_owlitzer_forest.name
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_owlitzer_forest.name"
 msgid "{name.owlitzer_forest} Bark"
-msgstr "{name.owlitzer_forest} Кора"
+msgstr "Кора {2:{Name.owlitzer_forest}}"
 
 #: STRINGS.ITEMS.MATERIALS.normal_sedament_tundra.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_sedament_tundra.desc"
@@ -40512,7 +40512,7 @@ msgstr "<p img='images/hud_images/hud_konjur_soul_lesser_drops_currency.tex' rpa
 #: STRINGS.NAMES.i_station_diary
 msgctxt "STRINGS.NAMES.i_station_diary"
 msgid "<p img='images/hud_images/hud_friend_diary.tex' rpad=1>Diary"
-msgstr "<p img='images/hud_images/hud_friend_diary.tex' rpad=1>Щоденник"
+msgstr "<p img='images/hud_images/hud_friend_diary.tex' rpad=1>Щоденник|<p img='images/hud_images/hud_friend_diary.tex' rpad=1>Щоденника|<p img='images/hud_images/hud_friend_diary.tex' rpad=1>Щоденником"
 
 #: STRINGS.NAMES.immorel
 msgctxt "STRINGS.NAMES.immorel"
@@ -40652,7 +40652,7 @@ msgstr "Магмаділло"
 #: STRINGS.NAMES.main_run
 msgctxt "STRINGS.NAMES.main_run"
 msgid "Boss Rot Lair"
-msgstr ""
+msgstr "Лігво гниль боса"
 
 #: STRINGS.NAMES.masteries_station
 msgctxt "STRINGS.NAMES.masteries_station"
@@ -40727,7 +40727,7 @@ msgstr "Наповнена велика Клубкова міль"
 #: STRINGS.NAMES.mothball_teen_miniboss
 msgctxt "STRINGS.NAMES.mothball_teen_miniboss"
 msgid "Brood Mother"
-msgstr ""
+msgstr "Мати-виводка"
 
 #: STRINGS.NAMES.npc_apothecary
 msgctxt "STRINGS.NAMES.npc_apothecary"
@@ -41067,12 +41067,12 @@ msgstr "Кар'єр Льодокосту|Кар'єру Льодокосту"
 #: STRINGS.NAMES.sedament_tundra_r1
 msgctxt "STRINGS.NAMES.sedament_tundra_r1"
 msgid "Stone's Throw Basin"
-msgstr ""
+msgstr "Кам’яний басейн"
 
 #: STRINGS.NAMES.sedament_tundra_r2
 msgctxt "STRINGS.NAMES.sedament_tundra_r2"
 msgid "Ragged Bluff"
-msgstr ""
+msgstr "Грубий обрив"
 
 #: STRINGS.NAMES.seed_grinder
 msgctxt "STRINGS.NAMES.seed_grinder"
@@ -41167,7 +41167,7 @@ msgstr "Наповнений Горохостріл"
 #: STRINGS.NAMES.sporemon_miniboss
 msgctxt "STRINGS.NAMES.sporemon_miniboss"
 msgid "Overgrown Peashooter"
-msgstr ""
+msgstr "Перерослий горохостріл"
 
 #: STRINGS.NAMES.station_apothecary
 msgctxt "STRINGS.NAMES.station_apothecary"
@@ -41192,7 +41192,7 @@ msgstr "Кухня кухаря"
 #: STRINGS.NAMES.station_diary
 msgctxt "STRINGS.NAMES.station_diary"
 msgid "Diary"
-msgstr ""
+msgstr "Щоденник"
 
 #: STRINGS.NAMES.station_dojo
 msgctxt "STRINGS.NAMES.station_dojo"
@@ -41232,7 +41232,7 @@ msgstr "Наповнений Арктичний скунс"
 #: STRINGS.NAMES.stunk_miniboss
 msgctxt "STRINGS.NAMES.stunk_miniboss"
 msgid "Southpaw"
-msgstr ""
+msgstr "Південна лапа"
 
 #: STRINGS.NAMES.swamp
 msgctxt "STRINGS.NAMES.swamp"
@@ -41252,7 +41252,7 @@ msgstr "Наповнений Слизун"
 #: STRINGS.NAMES.swarmy_miniboss
 msgctxt "STRINGS.NAMES.swarmy_miniboss"
 msgid "Noxin"
-msgstr ""
+msgstr "Ноксин"
 
 #: STRINGS.NAMES.teffrometer
 msgctxt "STRINGS.NAMES.teffrometer"
@@ -41277,12 +41277,12 @@ msgstr "Запліснявіла могила|Запліснявілої мог�
 #: STRINGS.NAMES.thatcher_swamp_r1
 msgctxt "STRINGS.NAMES.thatcher_swamp_r1"
 msgid "Oozing Estuary"
-msgstr ""
+msgstr "Витікаюча дельта"
 
 #: STRINGS.NAMES.thatcher_swamp_r2
 msgctxt "STRINGS.NAMES.thatcher_swamp_r2"
 msgid "Stilted Marsh"
-msgstr ""
+msgstr "Стильне болото"
 
 #: STRINGS.NAMES.tonic
 msgctxt "STRINGS.NAMES.tonic"
@@ -41362,17 +41362,17 @@ msgstr "Великий Ротвудський ліс|Великого Ротву
 #: STRINGS.NAMES.treemon_forest_r1
 msgctxt "STRINGS.NAMES.treemon_forest_r1"
 msgid "Wilted Leaf Thicket"
-msgstr ""
+msgstr "Зарості зів'ялого листя"
 
 #: STRINGS.NAMES.treemon_forest_r2
 msgctxt "STRINGS.NAMES.treemon_forest_r2"
 msgid "Ironwood Trail"
-msgstr ""
+msgstr "Стежка залізного лісу"
 
 #: STRINGS.NAMES.treemon_forest_r3
 msgctxt "STRINGS.NAMES.treemon_forest_r3"
 msgid "Knobbled Glen"
-msgstr ""
+msgstr "Вузлувата долина"
 
 #: STRINGS.NAMES.tundra
 msgctxt "STRINGS.NAMES.tundra"
@@ -41512,7 +41512,7 @@ msgstr "Наповнений Яммо|Наповненого Яммо"
 #: STRINGS.NAMES.yammo_miniboss
 msgctxt "STRINGS.NAMES.yammo_miniboss"
 msgid "Whammo"
-msgstr ""
+msgstr "Ваммо"
 
 #: STRINGS.NAMES.zucco
 msgctxt "STRINGS.NAMES.zucco"
@@ -41527,7 +41527,7 @@ msgstr "Наповнений Зукко"
 #: STRINGS.NAMES.zucco_miniboss
 msgctxt "STRINGS.NAMES.zucco_miniboss"
 msgid "Zephyr"
-msgstr ""
+msgstr "Зефір"
 
 #: STRINGS.NAMES_PLURAL.antleer
 msgctxt "STRINGS.NAMES_PLURAL.antleer"
@@ -42097,7 +42097,7 @@ msgstr "Зілля"
 #: STRINGS.NAMES_PLURAL.potion_charge
 msgctxt "STRINGS.NAMES_PLURAL.potion_charge"
 msgid "Potion Charges"
-msgstr ""
+msgstr "Заряди зілля"
 
 #: STRINGS.NAMES_PLURAL.quetz
 msgctxt "STRINGS.NAMES_PLURAL.quetz"
@@ -42352,7 +42352,7 @@ msgstr "Страйкери|страйкерів"
 #: STRINGS.NAMES_PLURAL.weather
 msgctxt "STRINGS.NAMES_PLURAL.weather"
 msgid "Teffra Anomalies"
-msgstr ""
+msgstr "Конжурові аномалії"
 
 #: STRINGS.NAMES_PLURAL.windmon
 msgctxt "STRINGS.NAMES_PLURAL.windmon"
@@ -45482,7 +45482,7 @@ msgstr "Якість елемента."
 #: STRINGS.UI.EQUIPMENT_STATS.RARITY.name
 msgctxt "STRINGS.UI.EQUIPMENT_STATS.RARITY.name"
 msgid "QUALITY"
-msgstr ""
+msgstr "ЯКІСТЬ"
 
 #: STRINGS.UI.EQUIPMENT_STATS.SOURCE.desc
 msgctxt "STRINGS.UI.EQUIPMENT_STATS.SOURCE.desc"
@@ -46015,17 +46015,17 @@ msgstr ""
 #: STRINGS.UI.FRIENDSHIPSCREEN.EMPTY_REWARD_LIST
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.EMPTY_REWARD_LIST"
 msgid "Keep exploring to find this crew member!"
-msgstr ""
+msgstr "Продовжуйте пошуки, щоб знайти цього члена екіпажу!"
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.HOW_TO_OPEN.DESC
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.HOW_TO_OPEN.DESC"
 msgid "Interact with your <#RED>{name.i_station_diary}</> in town."
-msgstr ""
+msgstr "Взаємодійте з вашим <#RED>{3:{name.i_station_diary}}</> у місті."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.HOW_TO_OPEN.TITLE
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.HOW_TO_OPEN.TITLE"
 msgid "View Friendships"
-msgstr ""
+msgstr "Перегляд дружніх відносин"
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_epic_armor.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_epic_armor.desc"
@@ -46145,7 +46145,7 @@ msgstr ""
 #: STRINGS.UI.FRIENDSHIPSCREEN.TITLE
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.TITLE"
 msgid "Friendships"
-msgstr ""
+msgstr "Дружба"
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.TO_FRIEND_LIST
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.TO_FRIEND_LIST"
@@ -46155,12 +46155,12 @@ msgstr "Назад"
 #: STRINGS.UI.FRIENDSHIPSCREEN.UNKNOWN_JOB
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.UNKNOWN_JOB"
 msgid "??????????"
-msgstr ""
+msgstr "??????????"
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.UNKNOWN_NAME
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.UNKNOWN_NAME"
 msgid "???"
-msgstr ""
+msgstr "???"
 
 #: STRINGS.UI.GEMSCREEN.DESC
 msgctxt "STRINGS.UI.GEMSCREEN.DESC"
@@ -47023,7 +47023,7 @@ msgstr "Здобич"
 #: STRINGS.UI.INVENTORYCHESTSCREEN.TAB_CROPS
 msgctxt "STRINGS.UI.INVENTORYCHESTSCREEN.TAB_CROPS"
 msgid "Gardening"
-msgstr ""
+msgstr "Садівництво"
 
 #: STRINGS.UI.INVENTORYCHESTSCREEN.TAB_CURRENCY
 msgctxt "STRINGS.UI.INVENTORYCHESTSCREEN.TAB_CURRENCY"
@@ -52360,7 +52360,8 @@ msgstr "Відхилити"
 msgctxt "STRINGS.VERSION_NOTES.EQUIPMENT.DESCRIPTION"
 msgid "We changed the way Armour and Attack numbers are shown to be easier to read and compare different equipment.\n\n"
 "It may look like your equipment has lower stats, but rest assured, your equipment remains the same, we have only changed how it's displayed."
-msgstr ""
+msgstr "Ми змінили спосіб відображення характеристик броні та атаки, щоб було легше читати та порівнювати різне обладнання.\n\n"
+"Може здатися, що ваше спорядження має нижчі характеристики, але будьте впевнені, ваше спорядження залишилося тим самим, ми лише змінили спосіб його відображення."
 
 #: STRINGS.VERSION_NOTES.EQUIPMENT.TITLE
 msgctxt "STRINGS.VERSION_NOTES.EQUIPMENT.TITLE"
