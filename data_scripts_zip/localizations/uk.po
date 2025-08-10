@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-07 22:10\n"
+"PO-Revision-Date: 2025-08-10 17:51\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -40237,7 +40237,7 @@ msgstr "Наповнений Бикоріг"
 #: STRINGS.NAMES.embison_miniboss
 msgctxt "STRINGS.NAMES.embison_miniboss"
 msgid "Prizefighter Bullrog"
-msgstr ""
+msgstr "Бикоріг-чемпіон|Бикорога-чемпіона"
 
 #: STRINGS.NAMES.eyev
 msgctxt "STRINGS.NAMES.eyev"
@@ -40252,7 +40252,7 @@ msgstr "Наповнений Ірисс"
 #: STRINGS.NAMES.eyev_miniboss
 msgctxt "STRINGS.NAMES.eyev_miniboss"
 msgid "The Overseer"
-msgstr ""
+msgstr "Наглядач"
 
 #: STRINGS.NAMES.farmtools
 msgctxt "STRINGS.NAMES.farmtools"
@@ -40277,7 +40277,7 @@ msgstr "Наповнений Флоравель"
 #: STRINGS.NAMES.floracrane_miniboss
 msgctxt "STRINGS.NAMES.floracrane_miniboss"
 msgid "Prima Floracrane"
-msgstr ""
+msgstr "Прима Флоравель|Прима Флоравля"
 
 #: STRINGS.NAMES.forest
 msgctxt "STRINGS.NAMES.forest"
@@ -40362,7 +40362,7 @@ msgstr "Наповнений Часниріг|Наповненого Часни�
 #: STRINGS.NAMES.gnarlic_miniboss
 msgctxt "STRINGS.NAMES.gnarlic_miniboss"
 msgid "Metechi the Elder"
-msgstr ""
+msgstr "Старий Метечі"
 
 #: STRINGS.NAMES.gooseberry
 msgctxt "STRINGS.NAMES.gooseberry"
@@ -40387,7 +40387,7 @@ msgstr "Наповнений Гурдо"
 #: STRINGS.NAMES.gourdo_miniboss
 msgctxt "STRINGS.NAMES.gourdo_miniboss"
 msgid "Gourdo Twins"
-msgstr ""
+msgstr "Близнюки Гурдо"
 
 #: STRINGS.NAMES.grimhollow
 msgctxt "STRINGS.NAMES.grimhollow"
@@ -40407,7 +40407,7 @@ msgstr "Зруйнована столиця|Зруйнованої столиц�
 #: STRINGS.NAMES.grimhollow_volcano_r1
 msgctxt "STRINGS.NAMES.grimhollow_volcano_r1"
 msgid "Old Market Road"
-msgstr ""
+msgstr "Дорога старого ринку"
 
 #: STRINGS.NAMES.grimhollow_volcano_r2
 msgctxt "STRINGS.NAMES.grimhollow_volcano_r2"
@@ -40427,7 +40427,7 @@ msgstr "Наповнений Гроак"
 #: STRINGS.NAMES.groak_miniboss
 msgctxt "STRINGS.NAMES.groak_miniboss"
 msgid "Belcher"
-msgstr ""
+msgstr "Ревун"
 
 #: STRINGS.NAMES.heavy_weight
 msgctxt "STRINGS.NAMES.heavy_weight"
@@ -40457,37 +40457,37 @@ msgstr "<p img='images/hud_images/hud_gem_dust_drops_currency.tex' rpad=1>%s п�
 #: STRINGS.NAMES.i_item_rarity_common
 msgctxt "STRINGS.NAMES.i_item_rarity_common"
 msgid "<p img='images/ui_ftf_shop/inventory_slot_common.tex'    scale=0.8 rpad=1><#COMMON>Grimy</>"
-msgstr ""
+msgstr "<p img='images/ui_ftf_shop/inventory_slot_common.tex'    scale=0.8 rpad=1><#COMMON>Брудна</>"
 
 #: STRINGS.NAMES.i_item_rarity_epic
 msgctxt "STRINGS.NAMES.i_item_rarity_epic"
 msgid "<p img='images/ui_ftf_shop/inventory_slot_epic.tex'      scale=0.8 rpad=1><#EPIC>Impeccable</>"
-msgstr ""
+msgstr "<p img='images/ui_ftf_shop/inventory_slot_epic.tex'      scale=0.8 rpad=1><#EPIC>Бездоганна</>"
 
 #: STRINGS.NAMES.i_item_rarity_legendary
 msgctxt "STRINGS.NAMES.i_item_rarity_legendary"
 msgid "<p img='images/ui_ftf_shop/inventory_slot_legendary.tex' scale=0.8 rpad=1><#LEGENDARY>Masterwork</>"
-msgstr ""
+msgstr "<p img='images/ui_ftf_shop/inventory_slot_legendary.tex' scale=0.8 rpad=1><#LEGENDARY>Шедевр</>"
 
 #: STRINGS.NAMES.i_item_rarity_rare
 msgctxt "STRINGS.NAMES.i_item_rarity_rare"
 msgid "<p img='images/ui_ftf_shop/inventory_slot_rare.tex'      scale=0.8 rpad=1><#RARE>Pristine</>"
-msgstr ""
+msgstr "<p img='images/ui_ftf_shop/inventory_slot_rare.tex'      scale=0.8 rpad=1><#RARE>Недоторканна</>"
 
 #: STRINGS.NAMES.i_item_rarity_set
 msgctxt "STRINGS.NAMES.i_item_rarity_set"
 msgid "<p img='images/ui_ftf_shop/inventory_slot_set.tex'       scale=0.8 rpad=1><#SET>Set</>"
-msgstr ""
+msgstr "<p img='images/ui_ftf_shop/inventory_slot_set.tex'       scale=0.8 rpad=1><#SET>Набір</>"
 
 #: STRINGS.NAMES.i_item_rarity_titan
 msgctxt "STRINGS.NAMES.i_item_rarity_titan"
 msgid "<p img='images/ui_ftf_shop/inventory_slot_titan.tex'     scale=0.8 rpad=1><#TITAN>DEV_UNUSED</>"
-msgstr ""
+msgstr "<p img='images/ui_ftf_shop/inventory_slot_titan.tex'     scale=0.8 rpad=1><#TITAN>DEV_UNUSED</>"
 
 #: STRINGS.NAMES.i_item_rarity_uncommon
 msgctxt "STRINGS.NAMES.i_item_rarity_uncommon"
 msgid "<p img='images/ui_ftf_shop/inventory_slot_uncommon.tex'  scale=0.8 rpad=1><#UNCOMMON>Scuffed</>"
-msgstr ""
+msgstr "<p img='images/ui_ftf_shop/inventory_slot_uncommon.tex'  scale=0.8 rpad=1><#UNCOMMON>Подряпана</>"
 
 #: STRINGS.NAMES.i_konjur
 msgctxt "STRINGS.NAMES.i_konjur"
@@ -40512,7 +40512,7 @@ msgstr "<p img='images/hud_images/hud_konjur_soul_lesser_drops_currency.tex' rpa
 #: STRINGS.NAMES.i_station_diary
 msgctxt "STRINGS.NAMES.i_station_diary"
 msgid "<p img='images/hud_images/hud_friend_diary.tex' rpad=1>Diary"
-msgstr ""
+msgstr "<p img='images/hud_images/hud_friend_diary.tex' rpad=1>Щоденник"
 
 #: STRINGS.NAMES.immorel
 msgctxt "STRINGS.NAMES.immorel"
@@ -40537,12 +40537,12 @@ msgstr "<p bind='Controls.Digital.ACTION' color=0>"
 #: STRINGS.NAMES.item_rarity_common
 msgctxt "STRINGS.NAMES.item_rarity_common"
 msgid "Grimy"
-msgstr ""
+msgstr "Брудна"
 
 #: STRINGS.NAMES.item_rarity_epic
 msgctxt "STRINGS.NAMES.item_rarity_epic"
 msgid "Impeccable"
-msgstr ""
+msgstr "Бездоганна"
 
 #: STRINGS.NAMES.item_rarity_legendary
 msgctxt "STRINGS.NAMES.item_rarity_legendary"
@@ -48710,7 +48710,7 @@ msgstr ""
 #: STRINGS.UI.MECHANIC_TUTORIALS.FARMTOOLS_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.FARMTOOLS_UNLOCKED.TITLE"
 msgid "{name.farmtools} Unlocked!"
-msgstr "{name.farmtools} розблоковано!"
+msgstr "{Name.farmtools} розблоковано!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.FIRST_HUNTERS_PATH.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.FIRST_HUNTERS_PATH.DESC"
@@ -48811,7 +48811,7 @@ msgstr ""
 #: STRINGS.UI.MECHANIC_TUTORIALS.SEEDGRINDER_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.SEEDGRINDER_UNLOCKED.TITLE"
 msgid "{name.seed_grinder} Unlocked!"
-msgstr "{name.seed_grinder} розблоковано!"
+msgstr "{Name.seed_grinder} розблоковано!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.SUPERFRENZY_UNLOCKED.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.SUPERFRENZY_UNLOCKED.DESC"
@@ -48822,7 +48822,7 @@ msgstr ""
 #: STRINGS.UI.MECHANIC_TUTORIALS.SUPERFRENZY_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.SUPERFRENZY_UNLOCKED.TITLE"
 msgid "{name.ascension_plus} Unlocked!"
-msgstr "{name.ascension_plus} розблоковано!"
+msgstr "{Name.ascension_plus} розблоковано!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.TEFFROMETER_UNLOCKED.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.TEFFROMETER_UNLOCKED.DESC"
