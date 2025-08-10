@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-10 19:27\n"
+"PO-Revision-Date: 2025-08-10 19:50\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -8105,7 +8105,7 @@ msgid "!greet\n"
 msgstr "!greet\n"
 " Я вас шукав!\n"
 " !point\n"
-" Чи можете ви сказати <#BLUE>{2:{Name.npc_scout}}</>, що {Name.damselfly} повинен бути спільним засобом пересування?"
+" Чи можете ви сказати <#BLUE>{3:{Name.npc_scout}}</>, що {Name.damselfly} повинен бути спільним засобом пересування?"
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[abandoned_last_run,in_quest_chat_fluff_fallback,in_town,role_armorsmith].2
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[abandoned_last_run,in_quest_chat_fluff_fallback,in_town,role_armorsmith].2"
@@ -11508,7 +11508,7 @@ msgid "!shocked\n"
 " !shrug\n"
 " Or maybe it was \"good fighter.\" Lip-reading is hard."
 msgstr "!shocked\n"
-" <#BLUE>{Name.npc_dojo_master}</> сказав <#BLUE>{2:{Name.npc_scout}}</>, що ви кусаєтеся!\n"
+" <#BLUE>{Name.npc_dojo_master}</> сказав <#BLUE>{3:{Name.npc_scout}}</>, що ви кусаєтеся!\n"
 " !think\n"
 " !shrug\n"
 " Або, можливо, він сказав \"хороший боєць.\" Читати по губах важко."
@@ -17316,7 +17316,7 @@ msgstr "Я знав, що ти пам'ятаєш мене!"
 #: Quest.wrld_intro_meeting_blacksmith.OPT_2B
 msgctxt "Quest.wrld_intro_meeting_blacksmith.OPT_2B"
 msgid "Definitely not. You must be thinking of {name.npc_scout}."
-msgstr "Однозначно ні. Ти, мабуть, маєш на увазі {3:{Name.npc_scout}}."
+msgstr "Однозначно ні. Ти, мабуть, маєш на увазі {2:{Name.npc_scout}}."
 
 #: Quest.wrld_intro_meeting_blacksmith.OPT_3
 msgctxt "Quest.wrld_intro_meeting_blacksmith.OPT_3"
@@ -19303,7 +19303,7 @@ msgstr "Мисливець"
 #: STRINGS.COSMETICS.TITLES.DEFAULT_TITLE2
 msgctxt "STRINGS.COSMETICS.TITLES.DEFAULT_TITLE2"
 msgid "Sidekick"
-msgstr ""
+msgstr "Напарник"
 
 #: STRINGS.COSMETICS.TITLES.DPS
 msgctxt "STRINGS.COSMETICS.TITLES.DPS"
@@ -19348,32 +19348,32 @@ msgstr "Друг"
 #: STRINGS.COSMETICS.TITLES.FRIEND_NPC_APOTHECARY
 msgctxt "STRINGS.COSMETICS.TITLES.FRIEND_NPC_APOTHECARY"
 msgid "Socializer"
-msgstr ""
+msgstr "Товариський"
 
 #: STRINGS.COSMETICS.TITLES.FRIEND_NPC_ARMORSMITH
 msgctxt "STRINGS.COSMETICS.TITLES.FRIEND_NPC_ARMORSMITH"
 msgid "Steadfast"
-msgstr ""
+msgstr "Непохитний"
 
 #: STRINGS.COSMETICS.TITLES.FRIEND_NPC_BLACKSMITH
 msgctxt "STRINGS.COSMETICS.TITLES.FRIEND_NPC_BLACKSMITH"
 msgid "Silence Sharer"
-msgstr ""
+msgstr "Поширювач тиші"
 
 #: STRINGS.COSMETICS.TITLES.FRIEND_NPC_COOK
 msgctxt "STRINGS.COSMETICS.TITLES.FRIEND_NPC_COOK"
 msgid "Lenient One"
-msgstr ""
+msgstr "Поблажливий"
 
 #: STRINGS.COSMETICS.TITLES.FRIEND_NPC_DOJO_MASTER
 msgctxt "STRINGS.COSMETICS.TITLES.FRIEND_NPC_DOJO_MASTER"
 msgid "Apprentice"
-msgstr ""
+msgstr "Учень"
 
 #: STRINGS.COSMETICS.TITLES.FRIEND_NPC_REFINER
 msgctxt "STRINGS.COSMETICS.TITLES.FRIEND_NPC_REFINER"
 msgid "Expeditioner"
-msgstr ""
+msgstr "Дослідник"
 
 #: STRINGS.COSMETICS.TITLES.FRIEND_NPC_SCOUT
 msgctxt "STRINGS.COSMETICS.TITLES.FRIEND_NPC_SCOUT"
@@ -19693,7 +19693,7 @@ msgstr "Маленький Слайм"
 #: STRINGS.COSMETICS.TITLE_COMMON.LABEL_FMT
 msgctxt "STRINGS.COSMETICS.TITLE_COMMON.LABEL_FMT"
 msgid "Title: {title}"
-msgstr ""
+msgstr "Кличка: %{title}"
 
 #: STRINGS.CRAFT_WIDGET.CANCEL
 msgctxt "STRINGS.CRAFT_WIDGET.CANCEL"
@@ -34251,7 +34251,7 @@ msgstr ""
 #: STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_apothecary.name
 msgctxt "STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_apothecary.name"
 msgid "Besties with {name.npc_apothecary}"
-msgstr ""
+msgstr "Найкращі друзі з {4:{Name.npc_apothecary}}"
 
 #: STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_armorsmith.desc
 msgctxt "STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_armorsmith.desc"
@@ -34261,7 +34261,7 @@ msgstr ""
 #: STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_armorsmith.name
 msgctxt "STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_armorsmith.name"
 msgid "Besties with {name.npc_armorsmith}"
-msgstr ""
+msgstr "Найкращі друзі з {5:{Name.npc_armorsmith}}"
 
 #: STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_blacksmith.desc
 msgctxt "STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_blacksmith.desc"
@@ -34271,7 +34271,7 @@ msgstr ""
 #: STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_blacksmith.name
 msgctxt "STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_blacksmith.name"
 msgid "Besties with {name.npc_blacksmith}"
-msgstr ""
+msgstr "Найкращі друзі з {4:{Name.npc_blacksmith}}"
 
 #: STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_cook.desc
 msgctxt "STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_cook.desc"
@@ -34281,7 +34281,7 @@ msgstr ""
 #: STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_cook.name
 msgctxt "STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_cook.name"
 msgid "Besties with {name.npc_cook}"
-msgstr ""
+msgstr "Найкращі друзі з {Name.npc_cook}"
 
 #: STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_dojo_master.desc
 msgctxt "STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_dojo_master.desc"
@@ -34291,7 +34291,7 @@ msgstr ""
 #: STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_dojo_master.name
 msgctxt "STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_dojo_master.name"
 msgid "Besties with {name.npc_dojo_master}"
-msgstr ""
+msgstr "Найкращі друзі з {4:{Name.npc_dojo_master}}"
 
 #: STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_scout.desc
 msgctxt "STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_scout.desc"
@@ -34301,7 +34301,7 @@ msgstr ""
 #: STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_scout.name
 msgctxt "STRINGS.ITEMS.REWARDGROUPS.max_friendship_npc_scout.name"
 msgid "Besties with {name.npc_scout}"
-msgstr ""
+msgstr "Найкращі друзі з {4:{Name.npc_scout}}"
 
 #: STRINGS.ITEMS.REWARDGROUPS.onheal_powers.desc
 msgctxt "STRINGS.ITEMS.REWARDGROUPS.onheal_powers.desc"
@@ -40733,7 +40733,7 @@ msgstr "Мати-виводка"
 #: STRINGS.NAMES.npc_apothecary
 msgctxt "STRINGS.NAMES.npc_apothecary"
 msgid "Kuma"
-msgstr "Кума|Кумі|Куми"
+msgstr "Кума|Кумі|Куми|Кумою"
 
 #: STRINGS.NAMES.npc_armorsmith
 msgctxt "STRINGS.NAMES.npc_armorsmith"
@@ -40763,7 +40763,7 @@ msgstr "Гоґґінс"
 #: STRINGS.NAMES.npc_dojo_master
 msgctxt "STRINGS.NAMES.npc_dojo_master"
 msgid "Toot"
-msgstr "Тут"
+msgstr "Тут|Тута|Туту|Тутом"
 
 #: STRINGS.NAMES.npc_grandpa
 msgctxt "STRINGS.NAMES.npc_grandpa"
@@ -40803,7 +40803,7 @@ msgstr "Лотті"
 #: STRINGS.NAMES.npc_scout
 msgctxt "STRINGS.NAMES.npc_scout"
 msgid "Flitt"
-msgstr "Флітт"
+msgstr "Флітт|Флітта|Флітту|Фліттом"
 
 #: STRINGS.NAMES.npc_specialeventhost
 msgctxt "STRINGS.NAMES.npc_specialeventhost"
@@ -46006,12 +46006,12 @@ msgstr "МЕНЮ ЇЖІ"
 #: STRINGS.UI.FRIENDSHIPSCREEN.DESC
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.DESC"
 msgid "Diary of meeting the {name_multiple.foxtails}"
-msgstr ""
+msgstr "Щоденник зустрічі з {2:{Name_multiple.foxtails}}"
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.EMPTY_FRIEND_LIST
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.EMPTY_FRIEND_LIST"
 msgid "Go make friends!"
-msgstr ""
+msgstr "Йдіть, знайдіть друзів!"
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.EMPTY_REWARD_LIST
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.EMPTY_REWARD_LIST"
@@ -46041,7 +46041,7 @@ msgstr "Дозвольте <#RED>{3:{Name.npc_blacksmith}}</> оглянути {
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_rare_armor.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_rare_armor.desc"
 msgid "Show off some {name.i_item_rarity_rare} armour to <#RED>{name.npc_armorsmith}</> to help her remember someone from her past."
-msgstr "Покажіть {2:{name.i_item_rarity_rare}} обладунки <#RED>{3:{name.npc_armorsmith}}</>, щоб допомогти їй згадати когось із минулого."
+msgstr "Покажіть {2:{name.i_item_rarity_rare}} обладунки <#RED>{3:{Name.npc_armorsmith}}</>, щоб допомогти їй згадати когось із минулого."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_rare_weapon.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_rare_weapon.desc"
@@ -46061,7 +46061,7 @@ msgstr "<#RED>{Name.npc_apothecary}</> потрібні її {name.farmtools}, �
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_town_crafting_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_town_crafting_unlocked.desc"
 msgid "<#RED>{name.npc_armorsmith}</> won't share more gossip until you unlock <#RED>{name.npc_scout}</>'s Town Crafting."
-msgstr "<#RED>{Name.npc_armorsmith}</> не розповість більше пліток, доки ви не розблокуєте будівництво міста у <#RED>{3:{Name.npc_scout}}</>."
+msgstr "<#RED>{Name.npc_armorsmith}</> не розповість більше пліток, доки ви не розблокуєте будівництво міста у <#RED>{2:{Name.npc_scout}}</>."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_unimplemented_friend_gift.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_unimplemented_friend_gift.desc"
@@ -46101,7 +46101,7 @@ msgstr "Меню {2:{name_multiple.cook_rotating_recipe}}"
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_farm_seedgrind_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_farm_seedgrind_unlocked.desc"
 msgid "<#RED>{name.npc_apothecary}</>'s <#RED>{name.seed_grinder}</> transforms seeds and materials into more seeds."
-msgstr "<#RED>{Name.seed_grinder}</> <#RED>{3:{Name.npc_apothecary}}</> перетворює насіння та матеріали на ще більше насіння."
+msgstr "<#RED>{Name.seed_grinder}</> <#RED>{2:{Name.npc_apothecary}}</> перетворює насіння та матеріали на ще більше насіння."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_farm_seedgrind_unlocked.name
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_farm_seedgrind_unlocked.name"
@@ -48844,7 +48844,7 @@ msgstr ""
 #: STRINGS.UI.MECHANIC_TUTORIALS.TOWN_DECORATION_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.TOWN_DECORATION_UNLOCKED.TITLE"
 msgid "Town Crafting"
-msgstr ""
+msgstr "Розбудова міста"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_0.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_0.DESC"
@@ -49211,7 +49211,7 @@ msgstr "{item_name}"
 #: STRINGS.UI.NOTIFICATION.FLAGS.pf_town_crafting_unlocked.DESC
 msgctxt "STRINGS.UI.NOTIFICATION.FLAGS.pf_town_crafting_unlocked.DESC"
 msgid "{player_name} can now craft decor and place it in their town."
-msgstr ""
+msgstr "{player_name} тепер може створювати декор та розміщувати його у своєму місті."
 
 #: STRINGS.UI.NOTIFICATION.FLAGS.pf_town_crafting_unlocked.TITLE
 msgctxt "STRINGS.UI.NOTIFICATION.FLAGS.pf_town_crafting_unlocked.TITLE"
@@ -49960,25 +49960,25 @@ msgstr "Відображення імені гравця"
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_ALL.DESC"
 msgid "Use selected Title as player name for all local players.\n"
 "Change your Title with the 'Customize Character' mirror in Town."
-msgstr "Використовує вибраний титул як ім'я гравця для всіх локальних гравців.\n"
-"Змініть свій титул за допомогою дзеркала 'Налаштувати персонажа' в місті."
+msgstr "Використовує вибрану кличку як ім'я гравця для всіх локальних гравців.\n"
+"Змініть свою кличку за допомогою дзеркала 'Налаштувати персонажа' в місті."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_ALL.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_ALL.NAME"
 msgid "Title For All Local Players"
-msgstr "Титул для всіх локальних гравців"
+msgstr "Кличка для всіх локальних гравців"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_SECONDARY.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_SECONDARY.DESC"
 msgid "Use selected Title as player name for all local players, except first player.\n"
 "Change your Title with the 'Customize Character' mirror in Town."
-msgstr "Використовує вибраний титул як ім'я гравця для всіх локальних гравців, окрім першого.\n"
-"Змініть свій титул за допомогою дзеркала 'Налаштувати персонажа' в місті."
+msgstr "Використовує вибрану кличку як ім'я гравця для всіх локальних гравців, окрім вас.\n"
+"Змініть свою кличку за допомогою дзеркала 'Налаштувати персонажа' в місті."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_SECONDARY.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_SECONDARY.NAME"
 msgid "Title For Local Secondary"
-msgstr "Титул для наступних локальних гравців"
+msgstr "Кличка для всіх окрім вас"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PROFANITY_FILTER.NONE.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PROFANITY_FILTER.NONE.DESC"
