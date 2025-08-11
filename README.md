@@ -9,12 +9,13 @@
 
 ## Встановлення
 1. Завантажте архів з перекладом:
-![image](https://github.com/user-attachments/assets/1d64338b-7c91-4d25-8799-01f8f3c5a6b8)
-2. папку з папки `data_scripts_zip` перетягніть в архів `data_scripts.zip` в файлах гри
-![image](https://github.com/user-attachments/assets/474ab883-873d-4b31-856a-66b54e31224f)
-3. Відкрийте `%appdata%\Klei\` виберіть або `Rotwood` або `Rotwood_preview` залежно від того бета чи ні.
-4. Відкрийте steam-IDАкаунту і створіть якщо немає папку `mods` а в ній `uklocale`
-5. перенесіть всі інші файли з архіву в цю папку
+![image]([https://github.com/user-attachments/assets/1d64338b-7c91-4d25-8799-01f8f3c5a6b8](https://github.com/user-attachments/assets/6491c365-829b-4b97-89fd-04d7b8a05ffb))
+3. папку з папки `data_scripts_zip` перетягніть в архів `data_scripts.zip` в файлах гри
+![image](https://github.com/user-attachments/assets/3d676304-2568-4081-a17f-d463286ce771)
+4. Відкрийте `%appdata%\Klei\` виберіть або `Rotwood` або `Rotwood_preview` залежно від того бета чи ні.
+5. Відкрийте steam-IDАкаунту і створіть якщо немає папку `mods` а в ній `uklocale`
+6. перенесіть всі інші файли з архіву в цю папку
+![image](https://github.com/user-attachments/assets/7cc5f73c-41ae-41eb-8d1f-04a6b8235f07)
 
 ## Оновлення
 Модифікація підтримує автоматичні оновлення. Під час оновлення гра автоматично перезавантажить гру або локацію, щоб активувати нову версію перекладу.
