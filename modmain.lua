@@ -1,20 +1,14 @@
 _G = GLOBAL
 require "util.kstring"
-local select = _G.select
-local assert = _G.assert
-local next = _G.next
-local TheGameContent = _G.TheGameContent
 local TheSim = _G.TheSim
 local Sim = _G.Sim
 local ModManager = _G.ModManager
 local STRINGS = _G.STRINGS
 local FONTFACE = _G.FONTFACE
 local UICOLORS = _G.UICOLORS
-local FONTSIZE = _G.FONTSIZE
 local lume = require "util.lume"
 local strict = require "util.strict"
 local kassert = require "util.kassert"
-local tostring = _G.tostring
 local Text = require "widgets.text"
 local LANGUAGE = require "languages.langs"
 local loc = require "questral.util.loc"
@@ -23,23 +17,25 @@ local contentloader = require "content.contentloader"
 LANGUAGE.UKRAINIAN = "uk"
 
 Assets = {
-  Asset("FONT", "fonts/blockhead_sdf_uk.zip"),
+	Asset("FONT", "fonts/blockhead_sdf_uk.zip"),
 }
 
-local fallback_font = "fallback_font"
-local DEFAULT_FALLBACK_TABLE = {
-	fallback_font,
-}
 local font_posfix = "_uk"
-local uk_font = { filename = "fonts/blockhead_sdf"..font_posfix..".zip", alias = "blockhead", fallback = DEFAULT_FALLBACK_TABLE, sdfthreshold = 0.44, sdfboldthreshold = 0.2 }
+local uk_font = {
+	filename = "fonts/blockhead_sdf" .. font_posfix .. ".zip",
+	alias = "blockhead",
+	fallback = { "fallback_font" },
+	sdfthreshold = 0.44,
+	sdfboldthreshold = 0.2
+}
 
 local function ApplyLocalizedFonts()
 	TheSim:UnloadFont(uk_font.alias)
-	TheSim:UnloadPrefabs({"uk_fonts"})
+	TheSim:UnloadPrefabs({ "uk_fonts" })
 
 	local FontsPrefab = _G.Prefab("uk_fonts", function() return _G.CreateEntity() end, Assets)
 	_G.RegisterPrefabs(FontsPrefab)
-	TheSim:LoadPrefabs({"uk_fonts"})
+	TheSim:LoadPrefabs({ "uk_fonts" })
 
 	TheSim:LoadFont(
 		_G.resolvefilepath(uk_font.filename),
@@ -65,7 +61,7 @@ ModManager.RegisterPrefabs = function(self, ...)
 end
 
 local _Start = Start
-function Start(...) 
+function Start(...)
 	ApplyLocalizedFonts()
 	return _Start(...)
 end
@@ -83,45 +79,44 @@ end
 --	loose_match = '["пізда", "член", "єба", "блядь", "довбойоб", "підор"]',
 --})
 
-if GetModConfigData("auto_update") then
-	LocUpdate = require "loc_update"
-	LocUpdate.BRANCH = _G.RELEASE_CHANNEL == "dev" and "main_beta" or "main"
-	LocUpdate.PATH = MODROOT.."localizations/"
-	LocUpdate:CheckUpdate()
-end
+--if GetModConfigData("auto_update") then
+LocUpdate = require "loc_update"
+LocUpdate.PATH = _G.MODS_ROOT .. modname .. "/localizations/"
+LocUpdate:CheckUpdate()
+--end
 
-AddClassPostConstruct("screens/mainscreen", function(self, profile, skip_start)
+env.AddClassPostConstruct("screens/mainscreen", function(self, profile, skip_start)
 	local bottom_pad = 60
-	local ver_f = _G.io.open(MODROOT.."localizations/version.txt", "r")
-	if ver_f then
-		local year, month, day = ver_f:read("*all"):match("(%d+)%-(%d+)%-(%d+)")
-		local rev = string.format("ПЕРЕКЛАД ВІД: %02d.%02d", day, month)
-		ver_f:close()
-		
-		self.translatename = self:AddChild(Text(FONTFACE.DEFAULT, 42))
-			:SetGlyphColor(UICOLORS.WHITE)
-			:SetHAlign(_G.ANCHOR_RIGHT)
-			:SetText(rev)
-			:LayoutBounds("right", "top", self)
-			:Offset(-bottom_pad, -bottom_pad)
-			
-		self.updatename
-			:LayoutBounds("right", "top", self)
-			:Offset(-bottom_pad, -bottom_pad * 1.7)
-	end
+	TheSim:GetPersistentString("uk_tranlsate_version.txt", function(success, curr_date)
+		if success and curr_date ~= nil and #curr_date > 0 then
+			local year, month, day = curr_date:match("(%d+)%-(%d+)%-(%d+)")
+			local rev = string.format("ПЕРЕКЛАД ВІД: %02d.%02d", day, month)
+
+			self.translatename = self:AddChild(Text(FONTFACE.DEFAULT, 42))
+					:SetGlyphColor(UICOLORS.WHITE)
+					:SetHAlign(_G.ANCHOR_RIGHT)
+					:SetText(rev)
+					:LayoutBounds("right", "top", self)
+					:Offset(-bottom_pad, -bottom_pad)
+
+			self.updatename
+					:LayoutBounds("right", "top", self)
+					:Offset(-bottom_pad, -bottom_pad * 1.7)
+		end
+	end)
 end)
 
 local function ReplaceNameInString(str, fns, clear_names)
 	if str:find("{", nil, true) and clear_names == false then -- TODO(PERF): Does skipping gsub for plain strings help load perf?
 		-- Prefabs names are limited to lowercase letters, numbers, and
 		-- underscore.
-		
+
 		str = str:gsub('([?:#*%%]){name.([_a-z0-9]-)}', fns.lower_singular)
 		str = str:gsub('{name.([_a-z0-9]-)}', fns.lower_singular)
 		str = str:gsub('([?:#*%%]){name_multiple.([_a-z0-9]-)}', fns.lower_plural)
 		str = str:gsub('{name_multiple.([_a-z0-9]-)}', fns.lower_plural)
 		str = str:gsub('{name_plurality.([_a-z0-9]-)}', fns.lower_plurality)
-		
+
 		str = str:gsub('([?:#*%%]){Name.([_a-z0-9]-)}', fns.singular)
 		str = str:gsub('{Name.([_a-z0-9]-)}', fns.singular)
 		str = str:gsub('([?:#*%%]){Name_multiple.([_a-z0-9]-)}', fns.plural)
@@ -142,7 +137,7 @@ local function ReplaceNameInString(str, fns, clear_names)
 end
 
 local function ReplaceNameInTable(string_table, fns, clear_names)
-	for k,v in pairs(string_table) do
+	for k, v in pairs(string_table) do
 		if loc.IsValidStringKey(k) then
 			if type(v) == "string" then
 				string_table[k] = loc.format(ReplaceNameInString(v, fns, clear_names), 1, 2, 3, 4, 5)
@@ -153,8 +148,48 @@ local function ReplaceNameInTable(string_table, fns, clear_names)
 	end
 end
 
+env.AddClassPostConstruct("motdmanager", function(self)
+	local translateExact = {
+		["A Delicious Update!"] = "Смачне оновлення!",
+		["<#686971>A new power family, farming, cooking, Frenzied Swarm and The Molded Grave!</>"] =
+		"<#686971>Нова категорія сил, сільське господарство, кулінарія, Божевільне болото та Запліснявіла могила!</>",
+		["<#1C214E>Looking for people to play with?</>"] = "<#1C214E>Шукаєте людей для гри?</>",
+		["<#505E42>Check out the Latest Hotfix</>"] = "<#505E42>Перегляньте останній хотфікс</>",
+	}
+	local translatePattern = {
+		["members"] = "підписників",
+		["Hotfix"] = "Хотфікс",
+		["days\nago"] = "днів\nназад",
+	}
+
+	local function translateField(field)
+		if not field then return nil end
+
+		if translateExact[field] then
+			return translateExact[field]
+		end
+		for pattern, replacement in pairs(translatePattern) do
+			field = field:gsub(pattern, replacement)
+		end
+		return field
+	end
+
+	local _SetMotdInfo = self.SetMotdInfo
+	function self:SetMotdInfo(info, ...)
+		for _, cell in pairs(info) do
+			if cell.data then
+				cell.data.title = translateField(cell.data.title)
+				cell.data.text = translateField(cell.data.text)
+				cell.data.corner_text = translateField(cell.data.corner_text)
+			end
+		end
+
+		_SetMotdInfo(self, info, ...)
+	end
+end)
+
 function loc.ReplaceNames(string_table, name_table_singular, name_table_plural, name_table_plurality, clear_names)
-    local fns = {}
+	local fns = {}
 	local clear_names = clear_names or false
 
 	fns.singular = function(operand, _key)
@@ -166,7 +201,7 @@ function loc.ReplaceNames(string_table, name_table_singular, name_table_plural, 
 			tokens = name:split_pattern("|")
 			return #tokens > 0 and tokens[1] or name_table_singular[key] or key
 		else
-			return operand..name_table_singular[key] or key
+			return operand .. name_table_singular[key] or key
 		end
 	end
 	fns.plural = function(operand, _key)
@@ -178,7 +213,7 @@ function loc.ReplaceNames(string_table, name_table_singular, name_table_plural, 
 			tokens = name:split_pattern("|")
 			return #tokens > 0 and tokens[1] or name_table_plural[key] or key
 		else
-			return operand..name_table_plural[key] or key
+			return operand .. name_table_plural[key] or key
 		end
 	end
 	fns.plural_alt = function(key)
@@ -194,24 +229,28 @@ function loc.ReplaceNames(string_table, name_table_singular, name_table_plural, 
 		return name_table_plurality[key] or key
 	end
 
-    for _,k in ipairs(lume.keys(fns)) do
-        fns["lower_".. k] = function(operand, _key)
-            local name = fns[k](operand, _key)
-            -- TODO: no longer safe to lower because transforms translated strings.
-            return name:lower()
-        end
-    end
+	for _, k in ipairs(lume.keys(fns)) do
+		fns["lower_" .. k] = function(operand, _key)
+			local name = fns[k](operand, _key)
+			name = name:lower()
 
-    for _,k in ipairs(lume.keys(fns)) do
-        fns["upper_".. k] = function(operand, _key)
-            local name = fns[k](operand, _key)
-            -- TODO: no longer safe to upper because transforms translated strings.
-            return name:upper()
-        end
-    end
+			name = name:gsub("<#(.-)>", function(color)
+				return "<#" .. color:upper() .. ">"
+			end)
+			return name
+		end
+	end
 
-    strict.strictify(fns)
-    ReplaceNameInTable(string_table, fns, clear_names)
+	for _, k in ipairs(lume.keys(fns)) do
+		fns["upper_" .. k] = function(operand, _key)
+			local name = fns[k](operand, _key)
+			-- TODO: no longer safe to upper because transforms translated strings.
+			return name:upper()
+		end
+	end
+
+	strict.strictify(fns)
+	ReplaceNameInTable(string_table, fns, clear_names)
 end
 
 local _PostLoadStrings = contentloader.PostLoadStrings
@@ -219,13 +258,3 @@ function contentloader.PostLoadStrings(...)
 	_PostLoadStrings(...)
 	loc.ReplaceNames(STRINGS.NAMES, {}, {}, {}, true)
 end
-
-TheGameContent:GetContentDB():LoadScript("scripts/localizations/ukrainian.lua")
-TheGameContent:SetLanguage()
-TheGameContent:LoadLanguageDisplayElements()
-
-STRINGS.PRETRANSLATED.LANGUAGES[LANGUAGE.UKRAINIAN] = "Українська (Ukrainian)"
-STRINGS.PRETRANSLATED.LANGUAGES_TITLE[LANGUAGE.UKRAINIAN] = "Варіант перекладу"
-STRINGS.PRETRANSLATED.LANGUAGES_BODY[LANGUAGE.UKRAINIAN] = "В якості мови інтерфейсу вибрана українська. Вам потрібен переклад на вашу мову?"
-STRINGS.PRETRANSLATED.LANGUAGES_YES[LANGUAGE.UKRAINIAN] = "Так"
-STRINGS.PRETRANSLATED.LANGUAGES_NO[LANGUAGE.UKRAINIAN] = "Ні"
