@@ -1,3 +1,6 @@
 files:
   - source: /localizations/strings.pot
     translation: /localizations/%two_letters_code%.po
+bundles:
+  - 2
+
