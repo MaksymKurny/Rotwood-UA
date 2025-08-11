@@ -9,7 +9,7 @@
 
 ## Встановлення
 1. Завантажте архів з перекладом:
-![image]([https://github.com/user-attachments/assets/1d64338b-7c91-4d25-8799-01f8f3c5a6b8](https://github.com/user-attachments/assets/6491c365-829b-4b97-89fd-04d7b8a05ffb))
+![image](https://github.com/user-attachments/assets/6491c365-829b-4b97-89fd-04d7b8a05ffb)
 3. папку з папки `data_scripts_zip` перетягніть в архів `data_scripts.zip` в файлах гри
 ![image](https://github.com/user-attachments/assets/3d676304-2568-4081-a17f-d463286ce771)
 4. Відкрийте `%appdata%\Klei\` виберіть або `Rotwood` або `Rotwood_preview` залежно від того бета чи ні.
