@@ -149,13 +149,17 @@ function loc.ReplaceNames(string_table, name_table_singular, name_table_plural, 
 		return name_table_plurality[key] or key
 	end
 
-    for _,k in ipairs(lume.keys(fns)) do
-        fns["lower_".. k] = function(operand, _key)
-            local name = fns[k](operand, _key)
-            -- TODO: no longer safe to lower because transforms translated strings.
-            return name:lower()
-        end
-    end
+    for _, k in ipairs(lume.keys(fns)) do
+		fns["lower_" .. k] = function(operand, _key)
+			local name = fns[k](operand, _key)
+			name = name:lower()
+
+			name = name:gsub("<#(.-)>", function(color)
+				return "<#" .. color:upper() .. ">"
+			end)
+			return name
+		end
+	end
 	
     for _,k in ipairs(lume.keys(fns)) do
         fns["upper_".. k] = function(key)
@@ -368,4 +372,5 @@ function loc.resolve( t )
 end
 
 return loc
+
 
