@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-13 18:52\n"
+"PO-Revision-Date: 2025-08-13 21:12\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -28127,12 +28127,13 @@ msgstr "Ноги Флоравля"
 msgctxt "STRINGS.ITEMS.MATERIALS.friend_gift.desc"
 msgid "A memento from your {name.run} to give to a member of the {name_multiple.foxtails}.\n\n"
 "Found in: <#RED>Special Rooms</>"
-msgstr ""
+msgstr "Пам'ятний предмет з вашого {name.run}, який можна подарувати члену {3:{name_multiple.foxtails}}.\n\n"
+"Знаходиться в: <#RED>спеціальних кімнатах</>"
 
 #: STRINGS.ITEMS.MATERIALS.friend_gift.name
 msgctxt "STRINGS.ITEMS.MATERIALS.friend_gift.name"
 msgid "Gift-Wrapped Souvenir"
-msgstr ""
+msgstr "Сувенір у подарунковій обгортці"
 
 #: STRINGS.ITEMS.MATERIALS.gem_dust.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.gem_dust.desc"
@@ -29628,197 +29629,197 @@ msgstr "Болючі легкі удари"
 #: STRINGS.ITEMS.POWERS.CHALLENGE.stolen_body.desc
 msgctxt "STRINGS.ITEMS.POWERS.CHALLENGE.stolen_body.desc"
 msgid "Your body armour was stolen. After clearing {rooms} {name_multiple.dungeon_room}, the thief will appear."
-msgstr ""
+msgstr "Ваш обладунок на тіло було вкрадено. Після зачищення {rooms} {2:{name_multiple.dungeon_room}} злодій з’явиться."
 
 #: STRINGS.ITEMS.POWERS.CHALLENGE.stolen_body.name
 msgctxt "STRINGS.ITEMS.POWERS.CHALLENGE.stolen_body.name"
 msgid "Stolen Armour"
-msgstr ""
+msgstr "Вкрадений обладунок на тіло"
 
 #: STRINGS.ITEMS.POWERS.CHALLENGE.stolen_head.desc
 msgctxt "STRINGS.ITEMS.POWERS.CHALLENGE.stolen_head.desc"
 msgid "Your helmet was stolen. After clearing {rooms} {name_multiple.dungeon_room}, the thief will appear."
-msgstr ""
+msgstr "Ваш шолом було вкрадено. Після зачищення {rooms} {2:{name_multiple.dungeon_room}} злодій з’явиться."
 
 #: STRINGS.ITEMS.POWERS.CHALLENGE.stolen_head.name
 msgctxt "STRINGS.ITEMS.POWERS.CHALLENGE.stolen_head.name"
 msgid "Stolen Helmet"
-msgstr ""
+msgstr "Вкрадений шолом"
 
 #: STRINGS.ITEMS.POWERS.CHALLENGE.stolen_waist.desc
 msgctxt "STRINGS.ITEMS.POWERS.CHALLENGE.stolen_waist.desc"
 msgid "Your leg armour was stolen. After clearing {rooms} {name_multiple.dungeon_room}, the thief will appear."
-msgstr ""
+msgstr "Ваш обладунок на ноги було вкрадено. Після зачищення {rooms} {2:{name_multiple.dungeon_room}} злодій з’явиться."
 
 #: STRINGS.ITEMS.POWERS.CHALLENGE.stolen_waist.name
 msgctxt "STRINGS.ITEMS.POWERS.CHALLENGE.stolen_waist.name"
 msgid "Stolen Legs"
-msgstr ""
+msgstr "Вкрадений обладунок на ноги"
 
 #: STRINGS.ITEMS.POWERS.CHALLENGE.stolen_weapon.desc
 msgctxt "STRINGS.ITEMS.POWERS.CHALLENGE.stolen_weapon.desc"
 msgid "Your weapon was stolen. After clearing {rooms} {name_multiple.dungeon_room}, the thief will appear"
-msgstr ""
+msgstr "Вашу зброю було вкрадено. Після зачищення {rooms} {2:{name_multiple.dungeon_room}} злодій з’явиться"
 
 #: STRINGS.ITEMS.POWERS.CHALLENGE.stolen_weapon.name
 msgctxt "STRINGS.ITEMS.POWERS.CHALLENGE.stolen_weapon.name"
 msgid "Stolen Weapon"
-msgstr ""
+msgstr "Викрадена зброя"
 
 #: STRINGS.ITEMS.POWERS.CURSE.abstinence.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.abstinence.desc"
 msgid "You cannot drink your <#RED>{name.potion}</>."
-msgstr ""
+msgstr "Ви не можете випити своє <#RED>{name.potion}</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.abstinence.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.abstinence.name"
 msgid "abstinence"
-msgstr ""
+msgstr "Утримання"
 
 #: STRINGS.ITEMS.POWERS.CURSE.allergic_to_power.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.allergic_to_power.desc"
 msgid "Lose <#RED>{damage} {name.concept_health}</> every time you pick up a <#RED>{name.concept_relic}</>."
-msgstr ""
+msgstr "Втрачаєте <#RED>{damage} {name.concept_health}</> кожного разу, коли підіймаєте <#RED>{2:{name.concept_relic}}</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.allergic_to_power.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.allergic_to_power.name"
 msgid "{name.concept_relic} Allergy"
-msgstr ""
+msgstr "Алергія на {3:{name.concept_relic}}"
 
 #: STRINGS.ITEMS.POWERS.CURSE.allergic_to_teffra.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.allergic_to_teffra.desc"
 msgid "Lose <#RED>{name.concept_health}</> equal to <#RED>{multiplier}</> time(s) the amount of <#KONJUR>{name.i_konjur}</> you gain."
-msgstr ""
+msgstr "Втрачаєте <#RED>{name.concept_health}</>, що дорівнює <#RED>{multiplier}</> раз(и) кількості <#KONJUR>{2:{name.i_konjur}}</>, яку ви отримуєте."
 
 #: STRINGS.ITEMS.POWERS.CURSE.allergic_to_teffra.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.allergic_to_teffra.name"
 msgid "Teffra Allergy"
-msgstr ""
+msgstr "Алергія на конжур"
 
 #: STRINGS.ITEMS.POWERS.CURSE.damage_on_land.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.damage_on_land.desc"
 msgid "Take <#RED>{damage} {name.concept_damage}</> when landing on the ground."
-msgstr ""
+msgstr "Отримуєте <#RED>{damage} {2:{name.concept_damage}}</> при приземленні."
 
 #: STRINGS.ITEMS.POWERS.CURSE.damage_on_land.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.damage_on_land.name"
 msgid "Ankle Sprain"
-msgstr ""
+msgstr "Вивих щиколотки"
 
 #: STRINGS.ITEMS.POWERS.CURSE.damage_on_move.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.damage_on_move.desc"
 msgid "Lose <#RED>{damage_per_second} {name.concept_health}</> per second after moving continuously for <#RED>{walk_threshold} second(s).</>."
-msgstr ""
+msgstr "Втрачаєте <#RED>{damage_per_second} {name.concept_health}</> щосекунди після безперервного руху протягом <#RED>{walk_threshold} сек.</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.damage_on_move.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.damage_on_move.name"
 msgid "Muscle Strain"
-msgstr ""
+msgstr "Перенапруга м’язів"
 
 #: STRINGS.ITEMS.POWERS.CURSE.diluted_medicine.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.diluted_medicine.desc"
 msgid "Healing effects are reduced by <#RED>{heal_mod}%</>."
-msgstr ""
+msgstr "Ефективність лікування зменшена на <#RED>{heal_mod}%</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.diluted_medicine.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.diluted_medicine.name"
 msgid "Diluted Medicine"
-msgstr ""
+msgstr "Розбавлені ліки"
 
 #: STRINGS.ITEMS.POWERS.CURSE.explosive_diarrhea.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.explosive_diarrhea.desc"
 msgid "Periodically spawn <#RED>exploding bombs</>."
-msgstr ""
+msgstr "Час від часу з’являються <#RED>вибухові бомби</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.explosive_diarrhea.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.explosive_diarrhea.name"
 msgid "Explosive Diarrhea"
-msgstr ""
+msgstr "Вибухова діарея"
 
 #: STRINGS.ITEMS.POWERS.CURSE.feeble.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.feeble.desc"
 msgid "The less <#RED>{name.concept_health}</> you have, the less <#RED>{name.concept_damage}</RED> you do."
-msgstr ""
+msgstr "Чим менше у вас <#RED>{name.concept_health}</>, тим менше ви завдаєте <#RED>{2:{name.concept_damage}}</RED>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.feeble.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.feeble.name"
 msgid "Feeble"
-msgstr ""
+msgstr "Слабкість"
 
 #: STRINGS.ITEMS.POWERS.CURSE.forebidden_drink.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.forebidden_drink.desc"
 msgid "When you drink your <#RED>{name.potion}</>, gain a random <#RED>Curse {name.concept_relic}</>."
-msgstr ""
+msgstr "Коли ви п’єте <#RED>{name.potion}</>, отримуєте випадкове <#RED>прокляття {3:{name.concept_relic}}</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.forebidden_drink.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.forebidden_drink.name"
 msgid "forebidden_drink"
-msgstr ""
+msgstr "forebidden_drink"
 
 #: STRINGS.ITEMS.POWERS.CURSE.income_tax.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.income_tax.desc"
 msgid "<#KONJUR>{name.i_konjur}</> gained is reduced by <#RED>{tax_rate}%</>."
-msgstr ""
+msgstr "<#KONJUR>{Name.i_konjur}</>, який ви отримуєте, зменшується на <#RED>{tax_rate}%</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.income_tax.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.income_tax.name"
 msgid "Income Tax"
-msgstr ""
+msgstr "Податок на прибуток"
 
 #: STRINGS.ITEMS.POWERS.CURSE.lead_shoes.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lead_shoes.desc"
 msgid "Lose <#RED>+{speed}% {name.concept_runspeed}</>."
-msgstr ""
+msgstr "Втрачаєте <#RED>+{speed}% {2:{name.concept_runspeed}}</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.lead_shoes.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lead_shoes.name"
 msgid "Lead Shoes"
-msgstr ""
+msgstr "Свинцеві чоботи"
 
 #: STRINGS.ITEMS.POWERS.CURSE.less_crit_chance.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.less_crit_chance.desc"
 msgid "Reduce <#RED>Critical Hit</> chance by <#RED>{crit_percent}%</>."
-msgstr ""
+msgstr "Шанс <#RED>критичного удару</> зменшено на <#RED>{crit_percent}%</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.less_crit_chance.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.less_crit_chance.name"
 msgid "Unspectacular"
-msgstr ""
+msgstr "Невиразний"
 
 #: STRINGS.ITEMS.POWERS.CURSE.less_power_choice.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.less_power_choice.desc"
 msgid "When you activate a <#RED>{name.concept_relic}</>, choose from <#RED>{count}</> less option."
-msgstr ""
+msgstr "Коли ви активуєте <#RED>{2:{name.concept_relic}}</>, вибір скорочується на <#RED>{count}</> варіант(и)."
 
 #: STRINGS.ITEMS.POWERS.CURSE.less_power_choice.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.less_power_choice.name"
 msgid "Forced Decision"
-msgstr ""
+msgstr "Вимушене рішення"
 
 #: STRINGS.ITEMS.POWERS.CURSE.loose_pockets.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.loose_pockets.desc"
 msgid "Lose <#KONJUR>{amount} {name.i_konjur}</> every time you perform a <#RED>Dodge</>."
-msgstr ""
+msgstr "Втрачаєте <#KONJUR>{amount} {2:{name.i_konjur}}</> кожного разу, коли робите <#RED>ухилення</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.loose_pockets.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.loose_pockets.name"
 msgid "Loose Pockets"
-msgstr ""
+msgstr "Діряві кишені"
 
 #: STRINGS.ITEMS.POWERS.CURSE.lose_max_health_marketplace.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lose_max_health_marketplace.desc"
 msgid "Reduce Maximum Health by <#RED>{health_percent}%</RED> when entering a <#RED>Marketplace Room</>."
-msgstr ""
+msgstr "Максимальне здоров’я зменшується на <#RED>{health_percent}%</RED> при вході на <#RED>ринок</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.lose_max_health_marketplace.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lose_max_health_marketplace.name"
 msgid "Agoraphobia"
-msgstr ""
+msgstr "Агорофобія"
 
 #: STRINGS.ITEMS.POWERS.CURSE.lose_max_health_potion_room.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lose_max_health_potion_room.desc"
 msgid "Reduce Maximum Health by <#RED>{health_percent}%</RED> when entering a <#RED>{name.potion} Room</>."
-msgstr ""
+msgstr "Максимальне здоров’я зменшується на <#RED>{health_percent}%</RED> при вході на <#RED>локацію з {name.potion}м</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.lose_max_health_potion_room.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lose_max_health_potion_room.name"
@@ -29828,7 +29829,7 @@ msgstr "{Name.potion}-фобія"
 #: STRINGS.ITEMS.POWERS.CURSE.lose_max_health_power_room.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lose_max_health_power_room.desc"
 msgid "Reduce Maximum Health by <#RED>{health_percent}%</RED> when entering a <#RED>{name.concept_relic} Room</>."
-msgstr ""
+msgstr "Максимальне здоров’я зменшується на <#RED>{health_percent}%</RED> при вході на <#RED>локацію з {4:{name.concept_relic}}</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.lose_max_health_power_room.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lose_max_health_power_room.name"
@@ -29838,7 +29839,7 @@ msgstr "{Name.concept_relic}-фобія"
 #: STRINGS.ITEMS.POWERS.CURSE.lose_max_health_teffra_room.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lose_max_health_teffra_room.desc"
 msgid "Reduce Maximum Health by <#RED>{health_percent}%</RED> when entering a <#RED>{name.konjur} Room</>."
-msgstr ""
+msgstr "Максимальне здоров’я зменшується на <#RED>{health_percent}%</RED> при вході на <#RED>локацію з {3:{name.konjur}}</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.lose_max_health_teffra_room.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lose_max_health_teffra_room.name"
@@ -29848,17 +29849,17 @@ msgstr "{Name.konjur}-фобія"
 #: STRINGS.ITEMS.POWERS.CURSE.lose_max_health_upgrade_room.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lose_max_health_upgrade_room.desc"
 msgid "Reduce Maximum Health by <#RED>{health_percent}%</RED> when entering a <#RED>{name.concept_relic} Upgrade Room</>."
-msgstr ""
+msgstr "Максимальне здоров’я зменшується на <#RED>{health_percent}%</RED> при вході на <#RED>локацію з покращенням {3:{name.concept_relic}}</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.lose_max_health_upgrade_room.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lose_max_health_upgrade_room.name"
 msgid "Upgradephobia"
-msgstr ""
+msgstr "Покращенофобія"
 
 #: STRINGS.ITEMS.POWERS.CURSE.lose_max_health_wanderer_room.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lose_max_health_wanderer_room.desc"
 msgid "Reduce Maximum Health by <#RED>{health_percent}%</RED> when entering a <#RED>{name.npc_specialeventhost} Room</>."
-msgstr ""
+msgstr "Максимальне здоров’я зменшується на <#RED>{health_percent}%</RED> при вході на <#RED>{name.npc_specialeventhost} локацію</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.lose_max_health_wanderer_room.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.lose_max_health_wanderer_room.name"
@@ -29868,152 +29869,152 @@ msgstr "{name.npc_specialeventhost}-фобія"
 #: STRINGS.ITEMS.POWERS.CURSE.max_health_curse_and_do_damage.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.max_health_curse_and_do_damage.desc"
 msgid "Lose <#RED>{health} Maximum Health</> and take <#RED>{damage_percent}% {name.concept_damage}</>."
-msgstr ""
+msgstr "Втрачаєте <#RED>{health} максимального здоров'я</> і отримуєте <#RED>{damage_percent}% {2:{name.concept_damage}}</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.max_health_curse_and_do_damage.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.max_health_curse_and_do_damage.name"
 msgid "Evil Waffle"
-msgstr ""
+msgstr "Зла вафля"
 
 #: STRINGS.ITEMS.POWERS.CURSE.no_body.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.no_body.desc"
 msgid "Your equipped body armour's effects are <#RED>Disabled</>."
-msgstr ""
+msgstr "Ефект від вашого обладунку на тіло <#RED>вимкнено</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.no_body.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.no_body.name"
 msgid "Missing Body"
-msgstr ""
+msgstr "Відсутня броня"
 
 #: STRINGS.ITEMS.POWERS.CURSE.no_head.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.no_head.desc"
 msgid "Your equipped helmet's effects are <#RED>Disabled</>."
-msgstr ""
+msgstr "Ефект від вашого шолому <#RED>вимкнено</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.no_head.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.no_head.name"
 msgid "Missing Helmet"
-msgstr ""
+msgstr "Відсутній шолом"
 
 #: STRINGS.ITEMS.POWERS.CURSE.no_waist.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.no_waist.desc"
 msgid "Your equipped leg armour's effects are <#RED>Disabled</>."
-msgstr ""
+msgstr "Ефект від вашого обладунку на ноги <#RED>вимкнено</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.no_waist.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.no_waist.name"
 msgid "Missing Legs"
-msgstr ""
+msgstr "Відсутні наголінники"
 
 #: STRINGS.ITEMS.POWERS.CURSE.no_weapon.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.no_weapon.desc"
 msgid "Your equipped weapon has been replaced with its basic version..."
-msgstr ""
+msgstr "Ваша зброя замінена на базову версію..."
 
 #: STRINGS.ITEMS.POWERS.CURSE.no_weapon.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.no_weapon.name"
 msgid "Missing Weapon"
-msgstr ""
+msgstr "Відсутня зброя"
 
 #: STRINGS.ITEMS.POWERS.CURSE.playing_with_fire.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.playing_with_fire.desc"
 msgid "When you perform a <#RED>Critical Hit</>, reduce your current {name.concept_health} by <#RED>{damage_percent}%</>."
-msgstr ""
+msgstr "<#RED>Критичні удари</> зменшують ваше поточне {name.concept_health} на <#RED>{damage_percent}%</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.playing_with_fire.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.playing_with_fire.name"
 msgid "Playing with Fire"
-msgstr ""
+msgstr "Гра з вогнем"
 
 #: STRINGS.ITEMS.POWERS.CURSE.power_sickness.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.power_sickness.desc"
 msgid "Lose <#RED>{health} Maximum Health</> every time you pick up a <#RED>{name.concept_relic}</>."
-msgstr ""
+msgstr "Втрачаєте <#RED>{health} максимального здоров'я</> кожного разу, коли підіймаєте <#RED>{2:{name.concept_relic}}</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.power_sickness.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.power_sickness.name"
 msgid "{name.concept_relic} Sickness"
-msgstr ""
+msgstr "Хвороба на {3:{name.concept_relic}}"
 
 #: STRINGS.ITEMS.POWERS.CURSE.restless.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.restless.desc"
 msgid "Lose <#RED>{damage_per_second} {name.concept_health}</> per second while standing still."
-msgstr ""
+msgstr "Втрачаєте <#RED>{damage_per_second} {name.concept_health}</> щосекунди, поки стоїте на місці."
 
 #: STRINGS.ITEMS.POWERS.CURSE.restless.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.restless.name"
 msgid "Restless"
-msgstr ""
+msgstr "Невгамовний"
 
 #: STRINGS.ITEMS.POWERS.CURSE.rusty_armour.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.rusty_armour.desc"
 msgid "{name.concept_damage} received is increased by <#RED>{damage_increase}%</>."
-msgstr ""
+msgstr "Отримувана {3:{name.concept_damage}} збільшується на <#RED>{damage_increase}%</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.rusty_armour.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.rusty_armour.name"
 msgid "Rusty Armour"
-msgstr ""
+msgstr "Іржаві обладунки"
 
 #: STRINGS.ITEMS.POWERS.CURSE.shockingly_attractive.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.shockingly_attractive.desc"
 msgid "Periodically spawn a <#RED>Lightning strike</> over your head..."
-msgstr ""
+msgstr "Час від часу над вами з’являтиметься <#RED>блискавка</>..."
 
 #: STRINGS.ITEMS.POWERS.CURSE.shockingly_attractive.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.shockingly_attractive.name"
 msgid "Shockingly Attractive"
-msgstr ""
+msgstr "Шокуюче привабливий"
 
 #: STRINGS.ITEMS.POWERS.CURSE.sticky_roll.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.sticky_roll.desc"
 msgid "Your <#RED>Dodge</> distance and speed is reduced by <#RED>{roll_speed_bonus}%</>."
-msgstr ""
+msgstr "Відстань і швидкість вашого <#RED>ухиляння</> зменшується на <#RED>{roll_speed_bonus}%</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.sticky_roll.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.sticky_roll.name"
 msgid "Sticky Roll"
-msgstr ""
+msgstr "Липке перекочування"
 
 #: STRINGS.ITEMS.POWERS.CURSE.stun_locked.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.stun_locked.desc"
 msgid "Increase the amount of <#RED>Hitstun</> you receive when hit with attacks."
-msgstr ""
+msgstr "Збільшується кількість <#RED>оглушення</>, яке ви отримуєте після удару."
 
 #: STRINGS.ITEMS.POWERS.CURSE.stun_locked.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.stun_locked.name"
 msgid "Stun Locked"
-msgstr ""
+msgstr "В ступорі"
 
 #: STRINGS.ITEMS.POWERS.CURSE.teffra_sickness.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.teffra_sickness.desc"
 msgid "Lose <#RED>Maximum Health</> equal to <#RED>{multiplier}</> time(s) the amount of <#KONJUR>{name.i_konjur}</> you gain."
-msgstr ""
+msgstr "Втрачаєте <#RED>максимальне здоров'я</>, що дорівнює <#RED>{multiplier}</> раз(и) кількості <#KONJUR>{2:{name.i_konjur}}</>, яку ви отримуєте."
 
 #: STRINGS.ITEMS.POWERS.CURSE.teffra_sickness.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.teffra_sickness.name"
 msgid "Teffra Sickness"
-msgstr ""
+msgstr "Хвороба на конжур"
 
 #: STRINGS.ITEMS.POWERS.CURSE.unfocused.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.unfocused.desc"
 msgid "Your <#RED>Focus Attacks</> deal <#RED>{bonus}%</> less damage."
-msgstr ""
+msgstr "Ваші <#RED>фокусні атаки</> завдають на <#RED>{bonus}%</> менше шкоди."
 
 #: STRINGS.ITEMS.POWERS.CURSE.unfocused.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.unfocused.name"
 msgid "Unfocused"
-msgstr ""
+msgstr "Розфокус"
 
 #: STRINGS.ITEMS.POWERS.CURSE.unlucky.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.unlucky.desc"
 msgid "Your <#RED>Luck</> is decreased."
-msgstr ""
+msgstr "Ваш <#RED>удача</> зменшена."
 
 #: STRINGS.ITEMS.POWERS.CURSE.unlucky.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.unlucky.name"
 msgid "Unlucky"
-msgstr ""
+msgstr "Невдаха"
 
 #: STRINGS.ITEMS.POWERS.CURSE.unlucky.variables.luck
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.unlucky.variables.luck"
@@ -30023,42 +30024,42 @@ msgstr "Удача"
 #: STRINGS.ITEMS.POWERS.CURSE.upset_stomach.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.upset_stomach.desc"
 msgid "Periodically create an <#RED>{name.concept_toxic} Pool</> that can harm you."
-msgstr ""
+msgstr "Час від часу створює <#RED>калюжу {3:{name.concept_toxic}}</>, яка може вам зашкодити."
 
 #: STRINGS.ITEMS.POWERS.CURSE.upset_stomach.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.upset_stomach.name"
 msgid "Upset Stomach"
-msgstr ""
+msgstr "Розлад шлунка"
 
 #: STRINGS.ITEMS.POWERS.CURSE.vertically_challenged.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.vertically_challenged.desc"
 msgid "You are permanently <#RED>Tiny</>. Reduce Maximum Health by <#RED>{percent}%</RED>"
-msgstr ""
+msgstr "Ви постійно <#RED>маленький</>. Максимальне здоров’я зменшено на <#RED>{percent}%</RED>"
 
 #: STRINGS.ITEMS.POWERS.CURSE.vertically_challenged.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.vertically_challenged.name"
 msgid "Vertically Challenged"
-msgstr ""
+msgstr "Вертикально обмежений"
 
 #: STRINGS.ITEMS.POWERS.CURSE.weakened.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.weakened.desc"
 msgid "Your {name.concept_damage} is reduced by <#RED>{damage_reduction}%</>."
-msgstr ""
+msgstr "Ваша {3:{name.concept_damage}} зменшена на <#RED>{damage_reduction}%</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.weakened.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.weakened.name"
 msgid "Weakened"
-msgstr ""
+msgstr "Ослаблений"
 
 #: STRINGS.ITEMS.POWERS.CURSE.whiff_enthusiast.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.whiff_enthusiast.desc"
 msgid "Attacks have a <#RED>{whiff_chance}%</> chance to do <#RED>Zero {name.concept_damage}</>."
-msgstr ""
+msgstr "Атаки мають <#RED>{whiff_chance}%</> шанс завдати <#RED>нуль {2:{name.concept_damage}}</>."
 
 #: STRINGS.ITEMS.POWERS.CURSE.whiff_enthusiast.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.whiff_enthusiast.name"
 msgid "Whiff Enthusiast"
-msgstr ""
+msgstr "Прихильник промахів"
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.bonus_crit_against_charged.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.bonus_crit_against_charged.desc"
@@ -33196,7 +33197,8 @@ msgstr "Інтроверт"
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.iron_brew.desc"
 msgid "{rarity_text} all <#RED>{name.potion}</> charges.\n\n"
 "Each time you <#RED>Drink</>, <#RED>Heal</> an additional <#RED>+{bonus_heal}%</> and gain <#BLUE>Shield</>."
-msgstr ""
+msgstr "{rarity_text} всі заряди <#RED>{name.potion}</>.\n\n"
+"Кожного разу, коли ви <#RED>п'єте</>, додатково <#RED>зцілюєтесь</> на <#RED>+{bonus_heal}%</> і отримуйте <#BLUE>щит</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.iron_brew.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.iron_brew.name"
@@ -33441,12 +33443,12 @@ msgstr "Понг!"
 #: STRINGS.ITEMS.POWERS.PLAYER.potion_aoe_bonus.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.potion_aoe_bonus.desc"
 msgid "Your <#RED>{name.potion}</> will <#RED>Heal {name_multiple.concept_ally}</> an additional <#RED>+{bonus_heal}% Health</>"
-msgstr ""
+msgstr "Ваше <#RED>{name.potion}</> додатково <#RED>зцілить {2:{name_multiple.concept_ally}}</> на <#RED>+{bonus_heal}% здоров'я</>"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.potion_aoe_bonus.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.potion_aoe_bonus.name"
 msgid "{name.potion} AoE Bonus"
-msgstr ""
+msgstr "Бонус {name.potion} по площі"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.precision_weaponry.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.precision_weaponry.desc"
@@ -33807,7 +33809,7 @@ msgstr "Нестабільна зброя"
 #: STRINGS.ITEMS.POWERS.PLAYER.weighted_weaponry.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.weighted_weaponry.desc"
 msgid "<#RED>Critical Hits</> increase damage by <#RED>+{percent}%</>."
-msgstr ""
+msgstr "<#RED>Критичні удари</> збільшують шкоду на <#RED>+{percent}%</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.weighted_weaponry.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.weighted_weaponry.name"
@@ -38717,17 +38719,17 @@ msgstr "Привиди"
 #: STRINGS.ITEMS.WEATHERS.ghost.rarity_text_COMMON
 msgctxt "STRINGS.ITEMS.WEATHERS.ghost.rarity_text_COMMON"
 msgid "A ghost {name.rot} periodically appears to attack you."
-msgstr ""
+msgstr "Привид {2:{name.rot}} періодично з'являється, щоб атакувати вас."
 
 #: STRINGS.ITEMS.WEATHERS.ghost.rarity_text_EPIC
 msgctxt "STRINGS.ITEMS.WEATHERS.ghost.rarity_text_EPIC"
 msgid "A ghost {name.rot} often appears to attack you."
-msgstr ""
+msgstr "Привид {2:{name.rot}} часто з'являється, щоб атакувати вас."
 
 #: STRINGS.ITEMS.WEATHERS.ghost.rarity_text_LEGENDARY
 msgctxt "STRINGS.ITEMS.WEATHERS.ghost.rarity_text_LEGENDARY"
 msgid "A ghost {name.rot} constantly appears to attack you."
-msgstr ""
+msgstr "Привид {2:{name.rot}} постійно з'являється, щоб атакувати вас."
 
 #: STRINGS.ITEMS.WEATHERS.gooseberries.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.gooseberries.desc"
@@ -38842,27 +38844,27 @@ msgstr "Крижані хмари постійно"
 #: STRINGS.ITEMS.WEATHERS.icicle_prison.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.icicle_prison.desc"
 msgid "{rarity_text} wall of icicles spawns at a player's position."
-msgstr ""
+msgstr "На позиції гравця з'являється {rarity_text}стіна з бурульок."
 
 #: STRINGS.ITEMS.WEATHERS.icicle_prison.name
 msgctxt "STRINGS.ITEMS.WEATHERS.icicle_prison.name"
 msgid "Icicles"
-msgstr ""
+msgstr "Бурульки"
 
 #: STRINGS.ITEMS.WEATHERS.icicle_prison.rarity_text_COMMON
 msgctxt "STRINGS.ITEMS.WEATHERS.icicle_prison.rarity_text_COMMON"
 msgid "A"
-msgstr ""
+msgstr " "
 
 #: STRINGS.ITEMS.WEATHERS.icicle_prison.rarity_text_EPIC
 msgctxt "STRINGS.ITEMS.WEATHERS.icicle_prison.rarity_text_EPIC"
 msgid "A longer"
-msgstr ""
+msgstr "довша "
 
 #: STRINGS.ITEMS.WEATHERS.icicle_prison.rarity_text_LEGENDARY
 msgctxt "STRINGS.ITEMS.WEATHERS.icicle_prison.rarity_text_LEGENDARY"
 msgid "An even longer"
-msgstr ""
+msgstr "ще довше "
 
 #: STRINGS.ITEMS.WEATHERS.increased_critchance.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.increased_critchance.desc"
@@ -41017,7 +41019,7 @@ msgstr "Мульти удар"
 #: STRINGS.NAMES.concept_relic
 msgctxt "STRINGS.NAMES.concept_relic"
 msgid "Power"
-msgstr "Сила|Силу|Сили"
+msgstr "Сила|Силу|Сили|Силою"
 
 #: STRINGS.NAMES.concept_reroll
 msgctxt "STRINGS.NAMES.concept_reroll"
