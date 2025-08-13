@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-13 17:27\n"
+"PO-Revision-Date: 2025-08-13 17:53\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -27371,8 +27371,8 @@ msgstr "{Name.concept_talent_tree} 3"
 
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools0.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools0.desc"
-msgid "Allows the holder to upgrade all armour to <#RED>Level 5</>."
-msgstr "Дозволяє власнику покращити всі обладунки до <#RED>5 рівня</>."
+msgid "Allows the holder to upgrade all armour to <#RED>Level 5</>."
+msgstr "Дозволяє власнику покращити всі обладунки до <#RED>5 рівня</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools0.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools0.name"
@@ -27381,8 +27381,8 @@ msgstr "{Name.armourtools0}"
 
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools1.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools1.desc"
-msgid "Allows the holder to upgrade all armour to <#RED>Level 9</>."
-msgstr "Дозволяє власнику покращити всі обладунки до <#RED>9 рівня</>."
+msgid "Allows the holder to upgrade all armour to <#RED>Level 9</>."
+msgstr "Дозволяє власнику покращити всі обладунки до <#RED>9 рівня</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools1.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools1.name"
@@ -27391,8 +27391,8 @@ msgstr "{Name.armourtools1}"
 
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools2.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools2.desc"
-msgid "Allows the holder to upgrade all armour to <#RED>Level 10</>."
-msgstr "Дозволяє власнику покращити всі обладунки до <#RED>10 рівня</>."
+msgid "Allows the holder to upgrade all armour to <#RED>Level 10</>."
+msgstr "Дозволяє власнику покращити всі обладунки до <#RED>10 рівня</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.armourtools2.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.armourtools2.name"
@@ -27441,8 +27441,8 @@ msgstr "{Name.teffrometer}"
 
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools0.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools0.desc"
-msgid "Allows the holder to upgrade all weapons to <#RED>Level 5</>."
-msgstr "Дозволяє власнику покращити всю зброю до <#RED>5 рівня</>."
+msgid "Allows the holder to upgrade all weapons to <#RED>Level 5</>."
+msgstr "Дозволяє власнику покращити всю зброю до <#RED>5 рівня</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools0.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools0.name"
@@ -27451,8 +27451,8 @@ msgstr "{Name.weapontools0}"
 
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools1.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools1.desc"
-msgid "Allows the holder to upgrade all weapons to <#RED>Level 9</>."
-msgstr "Дозволяє власнику покращити всю зброю до <#RED>9 рівня</>."
+msgid "Allows the holder to upgrade all weapons to <#RED>Level 9</>."
+msgstr "Дозволяє власнику покращити всю зброю до <#RED>9 рівня</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools1.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools1.name"
@@ -27461,8 +27461,8 @@ msgstr "{Name.weapontools1}"
 
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools2.desc
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools2.desc"
-msgid "Allows the holder to upgrade all weapons to <#RED>Level 10</>."
-msgstr "Дозволяє власнику покращити всю зброю до <#RED>10 рівня</>."
+msgid "Allows the holder to upgrade all weapons to <#RED>Level 10</>."
+msgstr "Дозволяє власнику покращити всю зброю до <#RED>10 рівня</>."
 
 #: STRINGS.ITEMS.KEY_ITEMS.weapontools2.name
 msgctxt "STRINGS.ITEMS.KEY_ITEMS.weapontools2.name"
@@ -33634,7 +33634,7 @@ msgstr "Шрапнель"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.snowball_effect.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.snowball_effect.desc"
-msgid "When you <#RED>Kill</> an <#RED>Enemy</>, gain <#RED>{stacks} Stacks</> of <#RED>On a Roll</>."
+msgid "When you <#RED>Kill</> an <#RED>Enemy</>, gain <#RED>{stacks} Stacks</> of <#RED>On a Roll</>."
 msgstr "Коли ви <#RED>вбиваєте</> <#RED>ворога</>, ви отримуєте <#RED>{stacks} стеки</> <#RED>за кидок</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.snowball_effect.name
@@ -40761,7 +40761,7 @@ msgstr "Божевілля"
 #: STRINGS.NAMES.ascension_plus
 msgctxt "STRINGS.NAMES.ascension_plus"
 msgid "Super Frenzy"
-msgstr "Супер божевілля"
+msgstr "Супер божевілля|Супер божевільне"
 
 #: STRINGS.NAMES.bandi_swamp
 msgctxt "STRINGS.NAMES.bandi_swamp"
@@ -40926,7 +40926,7 @@ msgstr "<#UNCOMMON>Подряпана</>"
 #: STRINGS.NAMES.c_konjur
 msgctxt "STRINGS.NAMES.c_konjur"
 msgid "<#KONJUR>Teffra</>"
-msgstr "<#KONJUR>Конжур</>"
+msgstr "<#KONJUR>Конжур</>|<#KONJUR>Конжуру</>|<#KONJUR>Конжуром</>"
 
 #: STRINGS.NAMES.c_konjur_heart_shard
 msgctxt "STRINGS.NAMES.c_konjur_heart_shard"
@@ -41171,7 +41171,7 @@ msgstr "Проходження відлунь"
 #: STRINGS.NAMES.elite_prefix
 msgctxt "STRINGS.NAMES.elite_prefix"
 msgid "Imbued"
-msgstr "Наповнені|Наповнене|Наповнений|Наповненого"
+msgstr "Наповнені|Наповнене|Наповнений|Наповненого|Наповнених"
 
 #: STRINGS.NAMES.embison
 msgctxt "STRINGS.NAMES.embison"
@@ -42206,7 +42206,7 @@ msgstr "Ноксин"
 #: STRINGS.NAMES.teffrometer
 msgctxt "STRINGS.NAMES.teffrometer"
 msgid "Mysterious Device"
-msgstr "Таємничий пристрій"
+msgstr "Таємничий пристрій|Таємничого пристрою"
 
 #: STRINGS.NAMES.thatcher
 msgctxt "STRINGS.NAMES.thatcher"
@@ -42426,7 +42426,7 @@ msgstr "Майстерні інструменти коваля"
 #: STRINGS.NAMES.weather
 msgctxt "STRINGS.NAMES.weather"
 msgid "Teffra Anomaly"
-msgstr "Конжурова аномалія"
+msgstr "Конжурова аномалія|Конжурової аномалії"
 
 #: STRINGS.NAMES.windmon
 msgctxt "STRINGS.NAMES.windmon"
@@ -45445,7 +45445,7 @@ msgstr "Наповніть <#RED>{Name.weapon_crystal_prefix}{weapon_type}</> с
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_ARMOR
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_ARMOR"
 msgid "Maybe <#BLUE>{name.npc_armorsmith}</> knows something?"
-msgstr ""
+msgstr "Можливо, <#BLUE>{Name.npc_armorsmith}</> щось знає?"
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_WEAPON
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_WEAPON"
@@ -47104,12 +47104,12 @@ msgstr "Назад"
 #: STRINGS.UI.FRIENDSHIPSCREEN.UNKNOWN_JOB
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.UNKNOWN_JOB"
 msgid "??????????"
-msgstr ""
+msgstr "??????????"
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.UNKNOWN_NAME
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.UNKNOWN_NAME"
 msgid "???"
-msgstr ""
+msgstr "???"
 
 #: STRINGS.UI.GEMSCREEN.DESC
 msgctxt "STRINGS.UI.GEMSCREEN.DESC"
@@ -48639,7 +48639,7 @@ msgstr "<p img='images/ui_ftf_character/BtnHidingArmor.tex' color=0 scale=2.5>\n
 #: STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_BASE_COLOUR_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_BASE_COLOUR_TITLE"
 msgid "<p img='images/icons_ftf/emotes.tex' color=0 scale=1> Select Body Colour"
-msgstr ""
+msgstr "<p img='images/icons_ftf/emotes.tex' color=0 scale=1> Виберіть колір тіла"
 
 #: STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_BASE_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_BASE_TITLE"
@@ -49285,7 +49285,7 @@ msgstr "ЛЕТИ СЮДИ!"
 #: STRINGS.UI.MAPSCREEN.TRAVEL_BUTTON_DISABLED
 msgctxt "STRINGS.UI.MAPSCREEN.TRAVEL_BUTTON_DISABLED"
 msgid "NO {name.elite_prefix} {name.rot_boss}"
-msgstr ""
+msgstr "НЕМАЄ {4:{name.elite_prefix}} {2:{name.rot_boss}}"
 
 #: STRINGS.UI.MAPSCREEN.UNKNOWN
 msgctxt "STRINGS.UI.MAPSCREEN.UNKNOWN"
@@ -49364,7 +49364,7 @@ msgstr "Заповніть шлунок!"
 #: STRINGS.UI.MAP_ICONS.MARKET
 msgctxt "STRINGS.UI.MAP_ICONS.MARKET"
 msgid "Buy armour, new weapons, and resources!"
-msgstr ""
+msgstr "Купуйте обладунки, нову зброю та ресурси!"
 
 #: STRINGS.UI.MAP_ICONS.MATERIAL1
 msgctxt "STRINGS.UI.MAP_ICONS.MATERIAL1"
@@ -49656,7 +49656,7 @@ msgstr "{name.cookingtools} розблокована!"
 #: STRINGS.UI.MECHANIC_TUTORIALS.FARMTOOLS_UNLOCKED.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.FARMTOOLS_UNLOCKED.DESC"
 msgid "Equip {name.farmtools} to plant, uproot, harvest, and water your plants!"
-msgstr ""
+msgstr "Візьміть {name.farmtools}, щоб садити, викопувати, збирати врожай і поливати свої рослини!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.FARMTOOLS_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.FARMTOOLS_UNLOCKED.TITLE"
@@ -49714,7 +49714,8 @@ msgstr "Шлях мисливця!"
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_1.DESC"
 msgid "Using the <#RED>Mannequin</>, you can save and access your <#RED>Loadouts</>!\n\n"
 "Loadouts save your Equipment, {name_multiple.gem}, and {name.concept_talent_tree} talent choices."
-msgstr ""
+msgstr "За допомогою <#RED>манекена</> ви можете зберігати та відкривати свої <#RED>комплекти</>!\n\n"
+"Комплекти зберігають ваше спорядження, {name_multiple.gem} та вибрані таланти {2:{name.concept_talent_tree}}."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_1.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_1.TITLE"
@@ -49736,7 +49737,7 @@ msgstr "Комплекти спорядження!"
 #: STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_3.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_3.DESC"
 msgid "You can also display your favorite Loadouts on any <#RED>Mannequin</> that you own and quickly equip the displayed loadout at that Mannequin."
-msgstr ""
+msgstr "Ви також можете показувати улюблені комплекти спорядження на будь-якому <#RED>манекені</>, який ви маєте, і швидко екіпірувати показаний комплект біля цього манекена."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_3.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_3.TITLE"
@@ -49756,7 +49757,7 @@ msgstr "Наповнені!|Наповнене!|Наповнений!|Напов
 #: STRINGS.UI.MECHANIC_TUTORIALS.SEEDGRINDER_UNLOCKED.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.SEEDGRINDER_UNLOCKED.DESC"
 msgid "Use the <#RED>{name.seed_grinder}</> to transform seeds and materials into more seeds!"
-msgstr ""
+msgstr "Використовуйте <#RED>{2:{name.seed_grinder}}</> для перетворення насіння та матеріалів у більше насіння!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.SEEDGRINDER_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.SEEDGRINDER_UNLOCKED.TITLE"
@@ -49767,7 +49768,8 @@ msgstr "{Name.seed_grinder} розблоковано!"
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.SUPERFRENZY_UNLOCKED.DESC"
 msgid "You've unlocked <#RED>{name.ascension_plus}</> hunts.\n\n"
 "The {name.c_konjur} is dense in these areas, causing <#RED>{name.elite_prefix} {name_multiple.rot_boss}</> to manifest inside."
-msgstr ""
+msgstr "Ви розблокували <#RED>{2:{name.ascension_plus}}</> полювання.\n\n"
+"Рівень {2:{name.c_konjur}} у цих місцях високий, що спричиняє появу <#RED>{name.elite_prefix} {2:{name_multiple.rot_boss}}</>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.SUPERFRENZY_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.SUPERFRENZY_UNLOCKED.TITLE"
@@ -49777,7 +49779,7 @@ msgstr "{Name.ascension_plus} розблоковано!"
 #: STRINGS.UI.MECHANIC_TUTORIALS.TEFFROMETER_UNLOCKED.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.TEFFROMETER_UNLOCKED.DESC"
 msgid "Locations under the effect of a <#RED>{name.weather}</> can be harvested using the <#RED>{name.teffrometer}</> to earn valuable rewards."
-msgstr ""
+msgstr "Місця, що знаходяться під впливом <#RED>{2:{name.weather}}</>, можна зібрати за допомогою <#RED>{2:{name.teffrometer}}</>, щоб отримати цінні винагороди."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.TEFFROMETER_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.TEFFROMETER_UNLOCKED.TITLE"
@@ -49788,7 +49790,8 @@ msgstr "{Name.teffrometer} розблокований!"
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.TOWN_DECORATION_UNLOCKED.DESC"
 msgid "<#RED>Place</> decorations in your town with <p bind='Controls.Digital.OPEN_CRAFTING' color=0> and <#RED>remove</> them with <p bind='Controls.Digital.PICKUP_MODE' color=0>.\n\n"
 "In online multiplayer, the host can control crafting permissions in the <#BLUE>Players</> menu."
-msgstr ""
+msgstr "<#RED>Розміщуйте</> декорації у своєму місті за допомогою <p bind='Controls.Digital.OPEN_CRAFTING' color=0> та <#RED>видаляйте</> їх за допомогою <p bind='Controls.Digital.PICKUP_MODE' color=0>.\n\n"
+"В онлайн-грі власник може керувати дозволами на будівництво в меню <#BLUE>гравців</>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.TOWN_DECORATION_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.TOWN_DECORATION_UNLOCKED.TITLE"
@@ -52184,7 +52187,7 @@ msgstr "Відкрити щоденник"
 #: STRINGS.UI.SCREENOPENER_PROP.seed_grinder
 msgctxt "STRINGS.UI.SCREENOPENER_PROP.seed_grinder"
 msgid "Transmute Seeds"
-msgstr "Трансмутація насіння"
+msgstr "Трансмутація насіння|Трансмутацію насіння"
 
 #: STRINGS.UI.SCRIPTERROR.HACKMOD.DESC
 msgctxt "STRINGS.UI.SCRIPTERROR.HACKMOD.DESC"
@@ -53609,3 +53612,4 @@ msgstr "{Name.teffrometer}"
 msgctxt "STRINGS.WEATHER.TOOLTIP_REWARDS_TITLE"
 msgid "Teffra Saturation"
 msgstr "Насиченість конжуру"
+
