@@ -1140,7 +1140,7 @@ STRINGS.UI =
 		TALENT_GROUP_TITLE = "PATH OF {source}",
 		TALENT_SOURCE_DEFAULT = "THE HUNTER",
 		TALENT_POINT_COUNT = "<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=1>{count}",
-		TALENT_RANK = "RANK: {rank}",
+		TALENT_RANK = "RANK: {current_rank}/{max_rank}",
 		TALENT_POINTS = "INVESTED: {points}<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=0>/{total_points}<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=0>",
 		TALENT_HOTKEYS =
 		{
@@ -1148,6 +1148,8 @@ STRINGS.UI =
 			REMOVE_POINT = "Remove",
 			RESET_TALENT = "Reset Talent",
 		},
+
+		TALENT_AT_MAX_RANK = "MAX",
 
 		UNSPENT_LABEL = "Unspent:",
 		UNSPENT_TALENT_POINT_WARNING_TITLE = "Unspent {name_multiple.konjur_heart_shard}!",
