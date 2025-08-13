@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-13 17:53\n"
+"PO-Revision-Date: 2025-08-13 18:52\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -19479,12 +19479,12 @@ msgstr "<p img='images/map_ftf/frenzy_6.tex' color=0> {name_multiple.rot_boss} �
 #: STRINGS.ASCENSIONS.CYBORG_SPAWN_1
 msgctxt "STRINGS.ASCENSIONS.CYBORG_SPAWN_1"
 msgid "<p img='images/map_ftf/frenzy_elite_spawn_1.tex' color=0 scale=1.4> {name.cyborg_prefix} {name_multiple.rot} appear"
-msgstr ""
+msgstr "<p img='images/map_ftf/frenzy_elite_spawn_1.tex' color=0 scale=1.4> З'являються {name.cyborg_prefix} {name_multiple.rot}"
 
 #: STRINGS.ASCENSIONS.CYBORG_SPAWN_2
 msgctxt "STRINGS.ASCENSIONS.CYBORG_SPAWN_2"
 msgid "<p img='images/map_ftf/frenzy_elite_spawn_2.tex' color=0 scale=1.4> Large {name.cyborg_prefix} {name_multiple.rot} appear"
-msgstr ""
+msgstr "<p img='images/map_ftf/frenzy_elite_spawn_2.tex' color=0 scale=1.4> З'являються великі {name.cyborg_prefix} {name_multiple.rot}"
 
 #: STRINGS.ASCENSIONS.ELITE_MINIBOSS
 msgctxt "STRINGS.ASCENSIONS.ELITE_MINIBOSS"
@@ -19676,7 +19676,7 @@ msgstr "Місто"
 #: STRINGS.BIOSPHERES.swamp.name
 msgctxt "STRINGS.BIOSPHERES.swamp.name"
 msgid "Swamp"
-msgstr ""
+msgstr "Болото"
 
 #: STRINGS.BIOSPHERES.town.name
 msgctxt "STRINGS.BIOSPHERES.town.name"
@@ -19864,7 +19864,7 @@ msgstr "Поверніться до стандартного вигляду ви
 #: STRINGS.CHARACTER_CREATOR.REVERT_HINT
 msgctxt "STRINGS.CHARACTER_CREATOR.REVERT_HINT"
 msgid "Revert All"
-msgstr ""
+msgstr "Скасувати все"
 
 #: STRINGS.CHARACTER_CREATOR.SHOWING_ARMOR_BUTTON
 msgctxt "STRINGS.CHARACTER_CREATOR.SHOWING_ARMOR_BUTTON"
@@ -19898,7 +19898,7 @@ msgstr "ЗМІНИТИ ВИД МИСЛИВЦЯ?"
 #: STRINGS.CHARACTER_CREATOR.TAB_ARMORDYE
 msgctxt "STRINGS.CHARACTER_CREATOR.TAB_ARMORDYE"
 msgid "<p img='images/icons_ftf/inventory_dye.tex' color=0 scale=0.9> ARMOUR DYE"
-msgstr ""
+msgstr "<p img='images/icons_ftf/inventory_dye.tex' color=0 scale=0.9> БАРВНИК ОБЛАДУНКІВ"
 
 #: STRINGS.CHARACTER_CREATOR.TAB_BODY
 msgctxt "STRINGS.CHARACTER_CREATOR.TAB_BODY"
@@ -19930,7 +19930,7 @@ msgstr "<b>Виберіть мисливця!</b>\n"
 #: STRINGS.CHARACTER_CREATOR.TOGGLE_ARMOR_HINT
 msgctxt "STRINGS.CHARACTER_CREATOR.TOGGLE_ARMOR_HINT"
 msgid "Toggle Armour"
-msgstr ""
+msgstr "Перемикнути обладунки"
 
 #: STRINGS.CHARACTER_CREATOR.UNSAVED_POPUP_DESC
 msgctxt "STRINGS.CHARACTER_CREATOR.UNSAVED_POPUP_DESC"
@@ -21674,7 +21674,7 @@ msgstr "{Name.interact_tap} Активувати"
 #: STRINGS.ENCOUNTERS.INTERACT_FOCUS.encounter_statue
 msgctxt "STRINGS.ENCOUNTERS.INTERACT_FOCUS.encounter_statue"
 msgid "(Should I break this...?)"
-msgstr ""
+msgstr "(Чи варто мені це зламати...?)"
 
 #: STRINGS.ENCOUNTERS.INTERACT_FOCUS.offer_power
 msgctxt "STRINGS.ENCOUNTERS.INTERACT_FOCUS.offer_power"
@@ -21699,7 +21699,7 @@ msgstr "Не розбуди {4:{Name.meowl}}!"
 #: STRINGS.ENCOUNTERS.blood_shop.text
 msgctxt "STRINGS.ENCOUNTERS.blood_shop.text"
 msgid "Donate some health to get great stuff!"
-msgstr ""
+msgstr "Пожертвуйте трохи здоров'я, щоб отримати чудові речі!"
 
 #: STRINGS.ENCOUNTERS.challengepower_shrine.text
 msgctxt "STRINGS.ENCOUNTERS.challengepower_shrine.text"
@@ -21719,22 +21719,22 @@ msgstr "Пийте на свій страх і ризик!"
 #: STRINGS.ENCOUNTERS.damage_power_circle.text
 msgctxt "STRINGS.ENCOUNTERS.damage_power_circle.text"
 msgid "Power comes to those who can endure the pain..."
-msgstr ""
+msgstr "Сила приходить до тих, хто здатний витримати біль..."
 
 #: STRINGS.ENCOUNTERS.exchangepower_shop.text
 msgctxt "STRINGS.ENCOUNTERS.exchangepower_shop.text"
 msgid "Only <#RED>{name.concept_relic}</> payments accepted here..."
-msgstr ""
+msgstr "Тут приймаються тільки платежі у вигляді <#RED>{3:{name.concept_relic}}</>..."
 
 #: STRINGS.ENCOUNTERS.exit_lock.text
 msgctxt "STRINGS.ENCOUNTERS.exit_lock.text"
 msgid "Pay the toll or you don't go!"
-msgstr ""
+msgstr "Сплатіть мито, інакше не пройдете!"
 
 #: STRINGS.ENCOUNTERS.exit_lock_all.text
 msgctxt "STRINGS.ENCOUNTERS.exit_lock_all.text"
 msgid "Choose how you want to pay to continue your way..."
-msgstr ""
+msgstr "Виберіть спосіб оплати, щоб продовжити шлях..."
 
 #: STRINGS.ENCOUNTERS.farm_plots.text
 msgctxt "STRINGS.ENCOUNTERS.farm_plots.text"
@@ -21745,7 +21745,8 @@ msgstr "Можете брати мій урожай..."
 msgctxt "STRINGS.ENCOUNTERS.loot_machine.text"
 msgid "Under repair!\n\n"
 "DO NOT BREAK!"
-msgstr ""
+msgstr "На ремонті.\n\n"
+"НЕ ЛАМАТИ!"
 
 #: STRINGS.ENCOUNTERS.statues.text
 msgctxt "STRINGS.ENCOUNTERS.statues.text"
@@ -21755,7 +21756,7 @@ msgstr "Ви отримали свою винагороду... Ризикнут�
 #: STRINGS.ENCOUNTERS.treasure_hunt.text
 msgctxt "STRINGS.ENCOUNTERS.treasure_hunt.text"
 msgid "Treasure awaits those who follow the shiny path..."
-msgstr ""
+msgstr "Скарб чекає на тих, хто йде блискучим шляхом..."
 
 #: STRINGS.FEEDBACK.BAD
 msgctxt "STRINGS.FEEDBACK.BAD"
@@ -22430,7 +22431,7 @@ msgstr ""
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_bandicoot.name
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_bandicoot.name"
 msgid "Solo Her [{name.bandicoot}]"
-msgstr ""
+msgstr "Перемога на самоті [{Name.bandicoot}]"
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_eggzy.desc
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_eggzy.desc"
@@ -22440,7 +22441,7 @@ msgstr ""
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_eggzy.name
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_eggzy.name"
 msgid "Solo Her [{name.eggzy}]"
-msgstr ""
+msgstr "Перемога на самоті [{Name.eggzy}]"
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_grimhollow.desc
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_grimhollow.desc"
@@ -22450,7 +22451,7 @@ msgstr ""
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_grimhollow.name
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_grimhollow.name"
 msgid "Solo Him [{name.grimhollow}]"
-msgstr ""
+msgstr "Перемога на самоті [{Name.grimhollow}]"
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_megatreemon.desc
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_megatreemon.desc"
@@ -22490,7 +22491,7 @@ msgstr ""
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_thatcher.name
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_thatcher.name"
 msgid "Solo Them [{name.thatcher}]"
-msgstr ""
+msgstr "Перемога на самоті [{Name.thatcher}]"
 
 #: STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_bandi_swamp.desc
 msgctxt "STRINGS.ITEMS.COOKED_FOOD.bandi_swamp_bandi_swamp.desc"
@@ -23495,7 +23496,7 @@ msgstr "Плюшева {Name.mothball_teen}"
 #: STRINGS.ITEMS.DECOR.npc_apothecary_plushies.desc
 msgctxt "STRINGS.ITEMS.DECOR.npc_apothecary_plushies.desc"
 msgid "This little stuffed <#BLUE>{name.job_apothecary}</> isn't made from her mother's hide."
-msgstr ""
+msgstr "Ця маленька м’яка іграшка <#BLUE>{2:{name.job_apothecary}}</> точно не зроблена зі шкіри її матері."
 
 #: STRINGS.ITEMS.DECOR.npc_apothecary_plushies.name
 msgctxt "STRINGS.ITEMS.DECOR.npc_apothecary_plushies.name"
@@ -23505,7 +23506,7 @@ msgstr "Плюшевий {name.npc_apothecary}"
 #: STRINGS.ITEMS.DECOR.npc_armorsmith_plushies.desc
 msgctxt "STRINGS.ITEMS.DECOR.npc_armorsmith_plushies.desc"
 msgid "A soft <#BLUE>{name.job_armorsmith}</> made from the finest cloth."
-msgstr ""
+msgstr "М’який <#BLUE>{name.job_armorsmith}</>, виготовлена з найкращої тканини."
 
 #: STRINGS.ITEMS.DECOR.npc_armorsmith_plushies.name
 msgctxt "STRINGS.ITEMS.DECOR.npc_armorsmith_plushies.name"
@@ -23515,7 +23516,7 @@ msgstr "Плюшевий {name.npc_armorsmith}"
 #: STRINGS.ITEMS.DECOR.npc_blacksmith_plushies.desc
 msgctxt "STRINGS.ITEMS.DECOR.npc_blacksmith_plushies.desc"
 msgid "A little <#BLUE>{name.job_blacksmith}</> to cuddle while you curl up with a good book."
-msgstr ""
+msgstr "Маленький <#BLUE>{name.job_blacksmith}</>, якого можна обіймати, поки ви затишно вмощуєтеся з гарною книжкою."
 
 #: STRINGS.ITEMS.DECOR.npc_blacksmith_plushies.name
 msgctxt "STRINGS.ITEMS.DECOR.npc_blacksmith_plushies.name"
@@ -23525,7 +23526,7 @@ msgstr "Плюшевий {name.npc_blacksmith}"
 #: STRINGS.ITEMS.DECOR.npc_cook_plushies.desc
 msgctxt "STRINGS.ITEMS.DECOR.npc_cook_plushies.desc"
 msgid "A soft, tiny <#BLUE>{name.job_cook}</> to keep you company by the fire."
-msgstr ""
+msgstr "М’який маленький <#BLUE>{name.job_cook}</>, щоб складати вам компанію біля вогню."
 
 #: STRINGS.ITEMS.DECOR.npc_cook_plushies.name
 msgctxt "STRINGS.ITEMS.DECOR.npc_cook_plushies.name"
@@ -23535,7 +23536,7 @@ msgstr "Плюшевий {name.npc_cook}"
 #: STRINGS.ITEMS.DECOR.npc_dojo_master_plushies.desc
 msgctxt "STRINGS.ITEMS.DECOR.npc_dojo_master_plushies.desc"
 msgid "A soft stuffie of that tough <#BLUE>{name.job_dojo}</>."
-msgstr ""
+msgstr "М’яка іграшка того жорсткого <#BLUE>{4:{name.job_dojo}}</>."
 
 #: STRINGS.ITEMS.DECOR.npc_dojo_master_plushies.name
 msgctxt "STRINGS.ITEMS.DECOR.npc_dojo_master_plushies.name"
@@ -23545,7 +23546,7 @@ msgstr "Плюшевий {name.npc_dojo_master}"
 #: STRINGS.ITEMS.DECOR.npc_refiner_plushies.desc
 msgctxt "STRINGS.ITEMS.DECOR.npc_refiner_plushies.desc"
 msgid "A mysterious little fluffy <#BLUE>{name.job_refiner}</>."
-msgstr ""
+msgstr "Таємничий маленький пухнастий <#BLUE>{name.job_refiner}</>."
 
 #: STRINGS.ITEMS.DECOR.npc_refiner_plushies.name
 msgctxt "STRINGS.ITEMS.DECOR.npc_refiner_plushies.name"
@@ -23555,7 +23556,7 @@ msgstr "Плюшевий {name.npc_refiner}"
 #: STRINGS.ITEMS.DECOR.npc_scout_plushies.desc
 msgctxt "STRINGS.ITEMS.DECOR.npc_scout_plushies.desc"
 msgid "A cuddly version of the <#BLUE>{name.job_scout}</> who always has your back."
-msgstr ""
+msgstr "Мила версія <#BLUE>{2:{name.job_scout}}</>, яка завжди вас підтримує."
 
 #: STRINGS.ITEMS.DECOR.npc_scout_plushies.name
 msgctxt "STRINGS.ITEMS.DECOR.npc_scout_plushies.name"
@@ -27482,7 +27483,7 @@ msgstr "Перетворення {name.konjur}у"
 #: STRINGS.ITEMS.LOCKED_ITEM_NAME
 msgctxt "STRINGS.ITEMS.LOCKED_ITEM_NAME"
 msgid "???"
-msgstr ""
+msgstr "???"
 
 #: STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.bandi_swamp_market_1.desc
 msgctxt "STRINGS.ITEMS.MARKET_CHALLENGE_MASTERY.MARKET_CHALLENGE.bandi_swamp_market_1.desc"
@@ -41101,7 +41102,7 @@ msgstr "Онікс"
 #: STRINGS.NAMES.current_beta
 msgctxt "STRINGS.NAMES.current_beta"
 msgid "Hunter's Path Beta"
-msgstr ""
+msgstr "Бета шляху мисливця"
 
 #: STRINGS.NAMES.cyborg_prefix
 msgctxt "STRINGS.NAMES.cyborg_prefix"
@@ -41521,7 +41522,7 @@ msgstr "Потерта|Потерте"
 #: STRINGS.NAMES.job_apothecary
 msgctxt "STRINGS.NAMES.job_apothecary"
 msgid "Apothecary"
-msgstr "Аптекар"
+msgstr "Аптекар|Аптекаря"
 
 #: STRINGS.NAMES.job_armorsmith
 msgctxt "STRINGS.NAMES.job_armorsmith"
@@ -41556,7 +41557,7 @@ msgstr "Дослідник"
 #: STRINGS.NAMES.job_scout
 msgctxt "STRINGS.NAMES.job_scout"
 msgid "Scout"
-msgstr "Розвідник"
+msgstr "Розвідник|Розвідника"
 
 #: STRINGS.NAMES.konjur
 msgctxt "STRINGS.NAMES.konjur"
