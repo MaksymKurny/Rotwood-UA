@@ -1,6 +1,6 @@
 local REPO = "MaksymKurny/Rotwood-UA/"
 local BRANCH = IS_BETA_TEST and "l10n_main" or "main"
-local LINK = "data_scripts_zip/localizations/uk.po"
+local LINK = "localizations/uk.po"
 
 local Image = require "widgets.image"
 local Text = require "widgets.text"
