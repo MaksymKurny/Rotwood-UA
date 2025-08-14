@@ -123,7 +123,7 @@ end
 
 
 -- forcelocal allows you to override the network_type of a prefab to NetworkType_None, which makes the prefab completely local.
-function SpawnPrefabFromSim(name, instantiatedByHost, forcelocal)	
+function SpawnPrefabFromSim(name, instantiatedByHost, forcelocal)
 	local prefab = Prefabs[name]
 
 	if prefab == nil then
@@ -139,8 +139,10 @@ function SpawnPrefabFromSim(name, instantiatedByHost, forcelocal)
 	local canBeSpawned = forcelocal or instantiatedByHost or prefab:CanBeSpawned()
 	if not canBeSpawned then
 		-- If it can't be spawned, it is ALWAYS on a client. The host can spawn all network types.
-		TheLog.ch.Networking:printf("Warning: Prefab '%s' with %s cannot be spawned by a client",
-			name, prefab:GetNetworkTypeString())
+		if DEV_MODE then
+			TheLog.ch.Networking:printf("Warning: Prefab '%s' with %s cannot be spawned by a client",
+				name, prefab:GetNetworkTypeString())
+		end
 		return
 	end
 
