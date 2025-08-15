@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-13 21:12\n"
+"PO-Revision-Date: 2025-08-15 09:32\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -6349,7 +6349,7 @@ msgid "agent:\n"
 " Just point out what you want and I'll get it packed up all nice for your Hunt!"
 msgstr "agent:\n"
 " !bliss\n"
-" А-а-а! Ще й як!\n"
+" А-а-а! Ще і як!\n"
 " !happy\n"
 " !point\n"
 " Якщо підійдете до того казана, я дістану меню! <z 0.7>Я <i>майже</> впевнена, що воно десь тут...</>\n"
@@ -6575,7 +6575,7 @@ msgid "agent:\n"
 msgstr "agent:\n"
 " !happy\n"
 " !clap\n"
-" Ооооо, це повиннен бути найкрасивіший <#RED>{name.armourtools1}</>, що я коли-небудь бачила!\n"
+" Ооооо, це повинен бути найкрасивіший <#RED>{name.armourtools1}</>, що я коли-небудь бачила!\n"
 " !neutral\n"
 " !think\n"
 " О, але... не могли б ви потримати їх у себе, поки я почну робити покращення?\n"
@@ -6605,7 +6605,7 @@ msgid "agent:\n"
 msgstr "agent:\n"
 " !happy\n"
 " !clap\n"
-" Ах!! Подивіться на цей <#RED>{name.armourtools2}</>— хіба це не <i>все</>?!\n"
+" Ах!! Подивіться на цей <#RED>{name.armourtools2}</> — хіба це не <i>все</>?!\n"
 " !think\n"
 " Але, ухх, ви не могли б тримати їх у себе між покращеннями?\n"
 " !wavelunn\n"
@@ -7185,10 +7185,10 @@ msgid "agent:\n"
 msgstr "agent:\n"
 " !happy\n"
 " !shocked\n"
-" За допомогою цього <#RED>злитка</> я можу зміцнити частину вашого <#RED>обладунка</> і підвищити її до наступного <#RED>рівня</>!\n"
+" За допомогою цього <#RED>злитка</> я можу зміцнити частину вашого <#RED>обладунку</> і підвищити її до наступного <#RED>рівня</>!\n"
 " !neutral\n"
 " !eyeroll\n"
-" Я <i>припускаю</i> <#BLUE>{Name.npc_blacksmith}</> також може ним покращити <#RED>зброю</> .\n"
+" Я <i>припускаю</i> <#BLUE>{Name.npc_blacksmith}</> також може ним покращити <#RED>зброю</>.\n"
 " !laugh\n"
 " Але навіщо вам зміцнювати <i><#RED>зброю</></i>, коли ви можете зміцнювати <#RED>обладунки</>??? Навіть думки про це - дурість!"
 
@@ -7448,7 +7448,7 @@ msgstr "agent:\n"
 "!gesture\n"
 "Будь-який <#RED>удар</> може нанести <#BLUE>{name.concept_focus_hit}</>, якщо влучити на відстані витягнутої руки.\n"
 "!point\n"
-"Ваше <#RED>Закручене свердло</> (<p bind='Controls.Digital.DODGE' color=BTNICON_DARK> <p img='images/ui_ftf/arrow_right.tex' color=BTNICON_DARK scale=0.4> <p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) теж ненесе <#BLUE>{name.concept_focus_hit}</>, якщо одночасно вдарити <#RED>2+ ворогів</>.\n"
+"Ваше <#RED>Закручене свердло</> (<p bind='Controls.Digital.DODGE' color=BTNICON_DARK> <p img='images/ui_ftf/arrow_right.tex' color=BTNICON_DARK scale=0.4> <p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) теж нанесе <#BLUE>{name.concept_focus_hit}</>, якщо одночасно вдарити <#RED>2+ ворогів</>.\n"
 "!point\n"
 "Практикуйтесь на наших <#RED>Тренувальних манекенах</>, якщо потрібно."
 
@@ -7463,7 +7463,7 @@ msgid "agent:\n"
 msgstr "agent:\n"
 " !neutral\n"
 " !point\n"
-" Ваше <#RED>Закручене свердло</> (<p bind='Controls.Digital.DODGE' color=BTNICON_DARK> <p img='images/ui_ftf/arrow_right.tex' color=BTNICON_DARK scale=0.4> <p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) теж ненесе <#BLUE>{name.concept_focus_hit}</>, якщо одночасно вдарити <#RED>2+ ворогів</>.\n"
+" Ваше <#RED>Закручене свердло</> (<p bind='Controls.Digital.DODGE' color=BTNICON_DARK> <p img='images/ui_ftf/arrow_right.tex' color=BTNICON_DARK scale=0.4> <p bind='Controls.Digital.ATTACK_LIGHT' color=BTNICON_DARK>) теж нанесе <#BLUE>{name.concept_focus_hit}</>, якщо одночасно вдарити <#RED>2+ ворогів</>.\n"
 " !gesture\n"
 " Ви також можете отримати <#BLUE>{name_multiple.concept_focus_hit}</> більшістю <#RED>атак</>, якщо вдарите лише кінчиком свого <#RED>{2:{name.weapon_polearm}}</>."
 
@@ -12897,7 +12897,7 @@ msgstr "!neutral\n"
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,role_blacksmith,wf_town_has_cook].4"
 msgid "!neutral\n"
 " !disagree\n"
-" Och. Yer <#BLUE>{name.job_cook}'s</? fried tatties'd kill a <#RED>{name.groak}</> faster'n a <#RED>{name.weapon_cannon}</>."
+" Och. Yer <#BLUE>{name.job_cook}'s</>? fried tatties'd kill a <#RED>{name.groak}</> faster'n a <#RED>{name.weapon_cannon}</>."
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,role_blacksmith,wf_town_has_dojo].1
@@ -47463,6 +47463,11 @@ msgctxt "STRINGS.UI.HEARTSCREEN.INTERACT.BTN_VIEW_TALENTS"
 msgid "{name.interact_tap} View {name_multiple.concept_talent}"
 msgstr "{Name.interact_tap} Оглянути {name_multiple.concept_talent}"
 
+#: STRINGS.UI.HEARTSCREEN.INTERACT.BTN_WELL_FULL
+msgctxt "STRINGS.UI.HEARTSCREEN.INTERACT.BTN_WELL_FULL"
+msgid "{name.town_grid_cryst} Is Fully Charged!"
+msgstr ""
+
 #: STRINGS.UI.HEARTSCREEN.INTERACT.PLACE_HEARTSHARDS
 msgctxt "STRINGS.UI.HEARTSCREEN.INTERACT.PLACE_HEARTSHARDS"
 msgid "<#KONJUR><p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=1>{item_name} (x{count})</>"
@@ -48363,6 +48368,16 @@ msgstr "Завантаження..."
 msgctxt "STRINGS.UI.LOADOUTSCREEN.DESC"
 msgid "Save your favourite hunting setups."
 msgstr "Зберігайте улюблені мисливські налаштування."
+
+#: STRINGS.UI.LOADOUTSCREEN.HOTKEY_EQUIP
+msgctxt "STRINGS.UI.LOADOUTSCREEN.HOTKEY_EQUIP"
+msgid "Equip Loadout"
+msgstr ""
+
+#: STRINGS.UI.LOADOUTSCREEN.HOTKEY_MANNEQUIN
+msgctxt "STRINGS.UI.LOADOUTSCREEN.HOTKEY_MANNEQUIN"
+msgid "Toggle Display Loadout"
+msgstr ""
 
 #: STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_BUTTON
 msgctxt "STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_BUTTON"
@@ -52528,8 +52543,13 @@ msgstr "<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpa
 
 #: STRINGS.UI.TALENTSCREEN.TALENT_RANK
 msgctxt "STRINGS.UI.TALENTSCREEN.TALENT_RANK"
+msgid "RANK: {current_rank}"
+msgstr ""
+
+#: STRINGS.UI.TALENTSCREEN.TALENT_RANK_CAPPED
+msgctxt "STRINGS.UI.TALENTSCREEN.TALENT_RANK_CAPPED"
 msgid "RANK: {current_rank}/{max_rank}"
-msgstr "РАНГ: {current_rank}/{max_rank}"
+msgstr ""
 
 #: STRINGS.UI.TALENTSCREEN.TALENT_SOURCE_DEFAULT
 msgctxt "STRINGS.UI.TALENTSCREEN.TALENT_SOURCE_DEFAULT"
