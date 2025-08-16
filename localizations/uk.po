@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-15 09:32\n"
+"PO-Revision-Date: 2025-08-16 09:38\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -46239,7 +46239,7 @@ msgstr "Повністю покращено!\n\n"
 #: STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_ARMORSMITH_LEVEL.UPGRADE
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_ARMORSMITH_LEVEL.UPGRADE"
 msgid "Unlocks the ability to upgrade armour from {source_rarity} Quality to {dest_rarity} Quality."
-msgstr ""
+msgstr "Відкриває можливість покращувати обладунки від якості {source_rarity} до якості {dest_rarity}."
 
 #: STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_BLACKSMITH_LEVEL.MAX_LEVEL
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_BLACKSMITH_LEVEL.MAX_LEVEL"
@@ -46251,7 +46251,7 @@ msgstr "Повністю покращено!\n\n"
 #: STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_BLACKSMITH_LEVEL.UPGRADE
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_BLACKSMITH_LEVEL.UPGRADE"
 msgid "Unlocks the ability to upgrade weapons from {source_rarity} Quality to {dest_rarity} Quality."
-msgstr ""
+msgstr "Відкриває можливість покращувати зброю від якості {source_rarity} до якості {dest_rarity}."
 
 #: STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_STATION_TITLE
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.UPGRADE_STATION_TITLE"
