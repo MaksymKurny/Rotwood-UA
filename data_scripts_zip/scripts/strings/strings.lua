@@ -2076,7 +2076,7 @@ STRINGS.UI.FRIENDSHIPSCREEN = {
 			},
 			pf_farm_seedgrind_unlocked = {
 				name = "{name.seed_grinder}",
-				desc = "<#RED>{name.npc_apothecary}</>'s <#RED>{name.seed_grinder}</> transforms seeds and materials into more seeds.",
+				desc = "<#RED>{name.npc_apothecary}</>'s <#RED>{name.i_seed_grinder}</> transforms seeds and materials into more seeds.",
 			},
 			pf_cook_rotatingmenu_unlocked = {
 				name = "{name_multiple.cook_rotating_recipe} Menu",
@@ -3388,7 +3388,7 @@ If you fail a run while holding a Proto-Weapon, it will <#RED>Break</> and need 
 
 	GEMTABLE_UNLOCKED =
 	{
-		TITLE = "{name.station_gems} Unlocked!",
+		TITLE = "{name.i_station_gems} Unlocked!",
 		DESC = "Use the <#RED>{name.gemtools}</> to cut <#RED>{name_multiple.gem}</> and set them in your <#RED>Weapons</>.",
 	},
 
@@ -3401,7 +3401,7 @@ If you fail a run while holding a Proto-Weapon, it will <#RED>Break</> and need 
 	SEEDGRINDER_UNLOCKED =
 	{
 		TITLE = "{name.seed_grinder} Unlocked!",
-		DESC = "Use the <#RED>{name.seed_grinder}</> to transform seeds and materials into more seeds!",
+		DESC = "Use the <#RED>{name.i_seed_grinder}</> to transform seeds and materials into more seeds!",
 	},
 
 	COOKINGTOOLS_UNLOCKED =
