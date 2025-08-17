@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-17 19:59\n"
+"PO-Revision-Date: 2025-08-17 21:27\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -26713,7 +26713,7 @@ msgstr "Захист для голови з {Name.zucco}"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_1.desc"
 msgid "Do <#RED>{max_progress} Damage</> within <#RED>1 second</>!"
-msgstr ""
+msgstr "Завдайте <#RED>{max_progress} шкоди</> протягом <#RED>1 секунди</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_1.name"
@@ -26723,7 +26723,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_2.desc"
 msgid "Do a full <#RED>{name.combat_room}</> with <#RED>Low Health</>!"
-msgstr ""
+msgstr "Повністю пройти кімнату <#RED>{name.combat_room}</> з <#RED>низьким рівнем здоров'я</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_2.name"
@@ -26743,7 +26743,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_1.desc"
 msgid "<#RED>Purchase</> a <#RED>Power</> Item from <#RED>{name.npc_market_magpie}</>!"
-msgstr ""
+msgstr "<#RED>Купіть </><#RED>силу</> в <#RED>{2:{Name.npc_market_magpie}}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_1.name"
@@ -26753,7 +26753,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_2.desc"
 msgid "<#RED>Kill {max_progress} {name_multiple.rot}</> within the same <#RED>{name.concept_hitstreak}</>!"
-msgstr ""
+msgstr "<#RED>Вбийте {max_progress} {2:{name_multiple.rot}}</>, поки триває <#RED>{name.concept_hitstreak}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r1_2.name"
@@ -26773,7 +26773,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_1.desc"
 msgid "<#RED>Kill {max_progress} {name_multiple.rot}</> with a <#RED>{name.weapon_bow}</>!"
-msgstr ""
+msgstr "<#RED>Вбийте {max_progress} {2:{name_multiple.rot}}</>, використовуючи <#RED>{name.weapon_bow}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_1.name"
@@ -26783,7 +26783,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_2.desc"
 msgid "<#RED>Upgrade</> a <#RED>Bronze {name.concept_relic}</> to <#RED>Gold</>!"
-msgstr ""
+msgstr "<#RED>Покращте</> <#RED>бронзову {2:{name.concept_relic}}</> до <#RED>золотої</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_r2_2.name"
@@ -26803,7 +26803,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_1.desc"
 msgid "Using a <#RED>{name.weapon_cannon}</>, deal <#RED>{max_progress} damage</> with <#RED>{name_multiple.concept_focus_hit}</>!"
-msgstr ""
+msgstr "Використовуючи <#RED>{2:{name.weapon_cannon}}</>, завдайте <#RED>{max_progress} одиниць шкоди</> за допомогою <#RED>{2:{name_multiple.concept_focus_hit}}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_1.name"
@@ -26813,7 +26813,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_2.desc"
 msgid "Using a <#RED>{name.weapon_cannon}</>, get a <#RED>{name.concept_hitstreak}</> of at least <#RED>{hitstreak_count}</>!"
-msgstr ""
+msgstr "Використовуючи <#RED>{2:{name.weapon_cannon}}</>, отримайте <#RED>{2:{name.concept_hitstreak}}</> не менше <#RED>{hitstreak_count}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_2.name"
@@ -26833,7 +26833,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_1.desc"
 msgid "<#RED>Kill {max_progress} {name_multiple.rot}</> with at least <#RED>{gem_count} {name.gem} equipped</>!"
-msgstr ""
+msgstr "<#RED>Вбийте {max_progress} {2:{name_multiple.rot}}</>, маючи щонайменше <#RED>{gem_count} споряджений {name.gem}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_1.name"
@@ -26843,7 +26843,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_2.desc"
 msgid "Get a <#RED>{name.concept_hitstreak}</> of at least <#RED>{hitstreak_count}</>!"
-msgstr ""
+msgstr "Отримайте <#RED>{2:{name.concept_hitstreak}}</> не менше <#RED>{hitstreak_count}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_eggzy_tundra_r1_2.name"
@@ -26863,7 +26863,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_1.desc"
 msgid "Using a <#RED>{name.weapon_shotput}</>, deal <#RED>{max_progress} damage</> with <#RED>{name_multiple.concept_focus_hit}</>!"
-msgstr ""
+msgstr "Використовуючи <#RED>{name.weapon_shotput}</>, завдайте <#RED>{max_progress} одиниць шкоди</> за допомогою <#RED>{2:{name_multiple.concept_focus_hit}}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_1.name"
@@ -26873,7 +26873,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_2.desc"
 msgid "Using a <#RED>{name.weapon_shotput}</>, get a <#RED>{name.concept_hitstreak}</> of at least <#RED>{hitstreak_count}</>!"
-msgstr ""
+msgstr "Використовуючи <#RED>{2:{name.weapon_shotput}}</>, отримайте <#RED>{2:{name.concept_hitstreak}}</> не менше <#RED>{hitstreak_count}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_2.name"
@@ -26893,7 +26893,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_1.desc"
 msgid "<#RED>Kill {max_progress} {name_multiple.rot}</> with the <#RED>{name.medium_weight} Class</>!"
-msgstr ""
+msgstr "<#RED>Вбийте {max_progress} {2:{name_multiple.rot}}</>, маючи <#RED>клас {name.medium_weight}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_1.name"
@@ -26903,7 +26903,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_2.desc"
 msgid "<#RED>Perfect {name.concept_dodge}</> the <#RED>{name.rot_boss}</> <#RED>{max_progress} times</>!"
-msgstr ""
+msgstr "Виконайте <#RED>ідеальне {2:{name.concept_dodge}}</> від <#RED>{2:{name.rot_boss}}</> <#RED>{max_progress} разів</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r1_2.name"
@@ -26923,7 +26923,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_1.desc"
 msgid "<#RED>Kill {max_progress} {name_multiple.rot}</> with the <#RED>{name.heavy_weight} Class</>!"
-msgstr ""
+msgstr "<#RED>Вбийте {max_progress} {2:{name_multiple.rot}}</>, маючи <#RED>клас {name.heavy_weight}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_1.name"
@@ -26933,7 +26933,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_2.desc"
 msgid "Complete an <#RED>{name.combat_room}</> within <#RED>{time_limit} seconds</>!"
-msgstr ""
+msgstr "Пройдіть галявину <#RED>{name.combat_room}</> за <#RED>{time_limit} секунд</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_grimhollow_volcano_r2_2.name"
@@ -26953,7 +26953,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_1.desc"
 msgid "Deal <#RED>{max_progress} {name.concept_damage}</> with <#RED>{name_multiple.concept_focus_hit}</>!"
-msgstr ""
+msgstr "Завдайте <#RED>{max_progress} {2:{name.concept_damage}}</> за допомогою <#RED> {2:{name_multiple.concept_focus_hit}}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_1.name"
@@ -26963,7 +26963,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_2.desc"
 msgid "Do <#RED>{max_progress} Perfect {name_multiple.concept_dodge}</> without taking <#RED>{name.concept_damage}</>!"
-msgstr ""
+msgstr "Виконайте <#RED>{max_progress} ідеальних {name_multiple.concept_dodge}</> без отримання <#RED>{2:{name.concept_damage}}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_2.name"
@@ -26983,7 +26983,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_1.desc"
 msgid "<#RED>Refill</> your <#RED>{name.potion}</> <#RED>{max_progress} times</>!"
-msgstr ""
+msgstr "<#RED>Поповніть</> ваше <#RED>{name.potion}</> <#RED>{max_progress} рази</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_1.name"
@@ -26993,7 +26993,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_2.desc"
 msgid "Deal <#RED>{damage_amount} {name.concept_damage}</> in a single hit!"
-msgstr ""
+msgstr "Завдайте <#RED>{damage_amount} {2:{name.concept_damage}}</> одним ударом!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r1_2.name"
@@ -27013,7 +27013,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_1.desc"
 msgid "Increase your <#RED>{name.concept_runspeed} Bonus</> to <#RED>{max_progress}%</>!"
-msgstr ""
+msgstr "Збільште свій <#RED>бонус {2:{name.concept_runspeed}}</> до <#RED>{max_progress}%</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_1.name"
@@ -27023,7 +27023,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_2.desc"
 msgid "<#RED>Perfect {name.concept_dodge}</> a <#RED>Lightning Strike</>!"
-msgstr ""
+msgstr "Виконайте <#RED>ідеальне {2:{name.concept_dodge}}</> від <#RED>удару блискавки</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r2_2.name"
@@ -27043,7 +27043,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_1.desc"
 msgid "<#RED>Kill {max_progress} {name_multiple.rot}</> with a <#RED>{name.weapon_hammer}</>!"
-msgstr ""
+msgstr "<#RED>Вбийте {max_progress} {2:{name_multiple.rot}}</>, використовуючи <#RED>{name.weapon_hammer}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_1.name"
@@ -27053,7 +27053,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_2.desc"
 msgid "Get <#RED>{max_progress} {name_multiple.concept_hitstreak}</> of at least <#RED>{hitstreak_threshold}</>!"
-msgstr ""
+msgstr "Отримайте <#RED>{max_progress} {name_multiple.concept_hitstreak}</> не менше <#RED>{hitstreak_threshold}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_owlitzer_forest_r3_2.name"
@@ -27073,7 +27073,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_1.desc"
 msgid "Using a <#RED>{name.weapon_hammer}</>, deal <#RED>{max_progress} damage</> with <#RED>{name_multiple.concept_focus_hit}</>!"
-msgstr ""
+msgstr "Використовуючи <#RED>{name.weapon_hammer}</>, завдайте <#RED>{max_progress} одиниць шкоди</> за допомогою <#RED>{2:{name_multiple.concept_focus_hit}}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_1.name"
@@ -27083,7 +27083,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_2.desc"
 msgid "Using a <#RED>{name.weapon_hammer}</>, get a <#RED>{name.concept_hitstreak}</> of at least <#RED>{hitstreak_count}</>!"
-msgstr ""
+msgstr "Використовуючи <#RED>{2:{name.weapon_hammer}}</>, отримайте <#RED>{2:{name.concept_hitstreak}}</> не менше <#RED>{hitstreak_count}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_2.name"
@@ -27103,7 +27103,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_1.desc"
 msgid "<#RED>Equip</> a piece of gear <#RED>above level {item_level}</> in the <#RED>Market Room</>!"
-msgstr ""
+msgstr "<#RED>Одягніть</> спорядження <#RED>вище {item_level} рівня</> на <#RED>ринку</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_1.name"
@@ -27113,7 +27113,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_2.desc"
 msgid "<#RED>Kill {max_progress} {name_multiple.rot}</> that are <#RED>Frozen</>!"
-msgstr ""
+msgstr "<#RED>Вбийте {max_progress} <#RED>заморожених</> {2:{name_multiple.rot}}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r1_2.name"
@@ -27133,7 +27133,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_1.desc"
 msgid "<#RED>Kill {max_progress} {name_multiple.rot}</> with a <#RED>{name.weapon_shotput}</>!"
-msgstr ""
+msgstr "<#RED>Вбийте {max_progress} {2:{name_multiple.rot}}</>, використовуючи <#RED>{name.weapon_shotput}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_1.name"
@@ -27143,7 +27143,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_2.desc"
 msgid "<#RED>Kill {max_progress} {name_multiple.rot}</> while you are <#RED>Warm</>!"
-msgstr ""
+msgstr "<#RED>Вбийте {max_progress} {2:{name_multiple.rot}}</> бувши в <#RED>теплі</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_sedament_tundra_r2_2.name"
@@ -27163,7 +27163,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_1.desc"
 msgid "Maintain one <#RED>{name.concept_hitstreak}</> for an entire <#RED>{name.combat_room}</>!"
-msgstr ""
+msgstr "Зберігайте одну <#RED>{2:{name.concept_hitstreak}}</> протягом всієї кімнати <#RED>{name.combat_room}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_1.name"
@@ -27173,7 +27173,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_2.desc"
 msgid "Stockpile <#RED>{max_progress} {name.i_konjur}</>!"
-msgstr ""
+msgstr "Запасіть <#RED>{max_progress} {2:{name.i_konjur}}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_2.name"
@@ -27193,7 +27193,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_1.desc"
 msgid "<#RED>Kill {max_progress} {name_multiple.rot}</> with the <#RED>{name.light_weight} Class</>!"
-msgstr ""
+msgstr "<#RED>Вбийте {max_progress} {2:{name_multiple.rot}}</>, маючи <#RED>клас {name.light_weight}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_1.name"
@@ -27203,7 +27203,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_2.desc"
 msgid "<#RED>Kill {max_progress} {name_multiple.rot}</>, each in a single <#RED>Hit</>."
-msgstr ""
+msgstr "<#RED>Вбийте {max_progress} {2:{name_multiple.rot}}</>, кожного одним <#RED>ударом</>."
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r1_2.name"
@@ -27223,7 +27223,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_1.desc"
 msgid "<#RED>Kill {max_progress} {name_multiple.rot}</> with a <#RED>{name.weapon_cannon}</>!"
-msgstr ""
+msgstr "<#RED>Вбийте {max_progress} {2:{name_multiple.rot}}</>, використовуючи <#RED>{2:{name.weapon_cannon}}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_1.name"
@@ -27233,7 +27233,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_2.desc"
 msgid "Increase your <#RED>{name.powerdesc_critchance} Bonus</> to <#RED>{max_progress}%</>!"
-msgstr ""
+msgstr "Збільште свій <#RED>бонус на {2:{name.powerdesc_critchance}}</> до <#RED>{max_progress}%</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_thatcher_swamp_r2_2.name"
@@ -27263,7 +27263,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_2.desc"
 msgid "<#RED>Kill {max_progress} {name_multiple.rot}</> without taking <#RED>{name.concept_damage}</>!"
-msgstr ""
+msgstr "<#RED>Вбийте {max_progress} {2:{name_multiple.rot}}</>, не отримавши <#RED>{4:{name.concept_damage}}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_2.name"
@@ -27283,7 +27283,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_1.desc"
 msgid "<#RED>Kill {max_progress} {name_multiple.rot}</>!"
-msgstr ""
+msgstr "<#RED>Вбийте {max_progress} {2:{name_multiple.rot}}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_1.name"
@@ -27293,7 +27293,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_2.desc"
 msgid "Take <#RED>{max_progress} {name_multiple.concept_relic}</>!"
-msgstr ""
+msgstr "Отримайте <#RED>{max_progress} {3:{name_multiple.concept_relic}}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r1_2.name"
@@ -27313,7 +27313,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_1.desc"
 msgid "Do <#RED>{max_progress} {name_multiple.concept_focus_hit}</>!"
-msgstr ""
+msgstr "Зробіть <#RED>{max_progress} {2:{name_multiple.concept_focus_hit}}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_1.name"
@@ -27323,7 +27323,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_2.desc"
 msgid "<#RED>Heal</> yourself or an ally for a total of <#RED>{max_progress}</>!"
-msgstr ""
+msgstr "<#RED>Зціліть</> себе або союзника загалом на <#RED>{max_progress}</> очок!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r2_2.name"
@@ -27343,7 +27343,7 @@ msgstr "{Name.concept_talent_tree} 3"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_1.desc"
 msgid "<#RED>Kill {max_progress} {name_multiple.rot}</> with a <#RED>{name.weapon_polearm}</>!"
-msgstr ""
+msgstr "<#RED>Вбийте {max_progress} {2:{name_multiple.rot}}</>, використовуючи <#RED>{name.weapon_polearm}</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_1.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_1.name"
@@ -27353,7 +27353,7 @@ msgstr "{Name.concept_talent_tree} 1"
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_2.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_2.desc"
 msgid "<#RED>Equip</> a piece of gear in the <#RED>Market Room</>!"
-msgstr ""
+msgstr "<#RED>Спорядіть</> предмет спорядження на <#RED>ринку</>!"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_2.name
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_treemon_forest_r3_2.name"
@@ -29333,7 +29333,7 @@ msgstr "Шкіра {Name.zucco}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill.desc"
 msgid "During a {name.run}, kill <#RED>{name.bandicoot}</> in <#BLUE>{name.bandi_swamp}</>."
-msgstr "Під час {name.run} вбийте <#RED>{2:{name.bandicoot}}</> вглибині <#BLUE>{2:{name.bandi_swamp}}</>."
+msgstr "Під час {name.run} вбийте <#RED>{2:{Name.bandicoot}}</> вглибині <#BLUE>{2:{Name.bandi_swamp}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill.name"
@@ -29343,7 +29343,7 @@ msgstr "Перемогти {2:{Name.bandicoot}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_5.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_5.desc"
 msgid "During a <#KONJUR>{name.run_ascension}</>, kill <#RED>{name.bandicoot}</> in <#BLUE>{name.bandi_swamp}</>."
-msgstr "Під час <#KONJUR>{2:{name.run_ascension}}</> вбийте <#RED>{2:{name.bandicoot}}</> вглибині <#BLUE>{2:{name.bandi_swamp}}</>."
+msgstr "Під час <#KONJUR>{2:{name.run_ascension}}</> вбийте <#RED>{2:{Name.bandicoot}}</> вглибині <#BLUE>{2:{Name.bandi_swamp}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_5.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_5.name"
@@ -29353,7 +29353,7 @@ msgstr "Перемогти {2:{Name.bandicoot}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_6.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_6.desc"
 msgid "During a <#KONJUR>{name.run_ascension_plus}</>, kill <#RED>{name.bandicoot}</> in <#BLUE>{name.bandi_swamp}</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension_plus}}</> вбийте <#RED>{2:{Name.bandicoot}}</> вглибині <#BLUE>{2:{Name.bandi_swamp}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_6.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_6.name"
@@ -29363,7 +29363,7 @@ msgstr "Перемогти {2:{Name.bandicoot}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill.desc"
 msgid "During a {name.run}, kill <#RED>{name.eggzy}</> in <#BLUE>{name.eggzy_tundra}</>."
-msgstr ""
+msgstr "Під час {name.run} вбийте <#RED>{2:{Name.eggzy}}</> вглибині <#BLUE>{2:{Name.eggzy_tundra}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill.name"
@@ -29373,7 +29373,7 @@ msgstr "Перемогти {2:{Name.eggzy}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_5.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_5.desc"
 msgid "During a <#KONJUR>{name.run_ascension}</>, kill <#RED>{name.eggzy}</> in <#BLUE>{name.eggzy_tundra}</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension}}</> вбийте <#RED>{2:{Name.eggzy}}</> вглибині <#BLUE>{2:{Name.eggzy_tundra}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_5.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_5.name"
@@ -29383,7 +29383,7 @@ msgstr "Перемогти {2:{Name.eggzy}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_6.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_6.desc"
 msgid "During a <#KONJUR>{name.run_ascension_plus}</>, kill <#RED>{name.eggzy}</> in <#BLUE>{name.eggzy_tundra}</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension_plus}}</> вбийте <#RED>{2:{Name.eggzy}}</> вглибині <#BLUE>{2:{Name.eggzy_tundra}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_6.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.eggzy_kill_ascension_6.name"
@@ -29393,7 +29393,7 @@ msgstr "Перемогти {2:{Name.eggzy}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.grimhollow_kill.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.grimhollow_kill.desc"
 msgid "During a {name.run}, kill <#RED>{name.grimhollow}</> in <#BLUE>{name.grimhollow_volcano}</>."
-msgstr ""
+msgstr "Під час {name.run} вбийте <#RED>{2:{Name.grimhollow}}</> вглибині <#BLUE>{2:{Name.grimhollow_volcano}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.grimhollow_kill.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.grimhollow_kill.name"
@@ -29403,7 +29403,7 @@ msgstr "Перемогти {3:{Name.grimhollow}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.grimhollow_kill_ascension_5.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.grimhollow_kill_ascension_5.desc"
 msgid "During a <#KONJUR>{name.run_ascension}</>, kill <#RED>{name.grimhollow}</> in <#BLUE>{name.grimhollow_volcano}</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension}}</> вбийте <#RED>{2:{Name.grimhollow}}</> вглибині <#BLUE>{2:{Name.grimhollow_volcano}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.grimhollow_kill_ascension_5.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.grimhollow_kill_ascension_5.name"
@@ -29413,7 +29413,7 @@ msgstr "Перемогти {3:{Name.grimhollow}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.grimhollow_kill_ascension_6.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.grimhollow_kill_ascension_6.desc"
 msgid "During a <#KONJUR>{name.run_ascension_plus}</>, kill <#RED>{name.grimhollow}</> in <#BLUE>{name.grimhollow_volcano}</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension_plus}}</> вбийте <#RED>{2:{Name.grimhollow}}</> вглибині <#BLUE>{2:{Name.grimhollow_volcano}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.grimhollow_kill_ascension_6.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.grimhollow_kill_ascension_6.name"
@@ -29423,7 +29423,7 @@ msgstr "Перемогти {3:{Name.grimhollow}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill.desc"
 msgid "During a {name.run}, kill <#RED>{name.megatreemon}</> in <#BLUE>{name.treemon_forest}</>."
-msgstr ""
+msgstr "Під час {name.run} вбийте <#RED>{2:{Name.megatreemon}}</> вглибині <#BLUE>{2:{Name.treemon_forest}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill.name"
@@ -29433,7 +29433,7 @@ msgstr "Перемогти {Name.megatreemon}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_5.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_5.desc"
 msgid "During a <#KONJUR>{name.run_ascension}</>, kill <#RED>{name.megatreemon}</> in <#BLUE>{name.treemon_forest}</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension}}</> вбийте <#RED>{2:{Name.megatreemon}}</> вглибині <#BLUE>{2:{Name.treemon_forest}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_5.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_5.name"
@@ -29443,7 +29443,7 @@ msgstr "Перемогти {Name.megatreemon}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_6.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_6.desc"
 msgid "During a <#KONJUR>{name.run_ascension_plus}</>, kill <#RED>{name.megatreemon}</> in <#BLUE>{name.treemon_forest}</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension_plus}}</> вбийте <#RED>{2:{Name.megatreemon}}</> вглибині <#BLUE>{2:{Name.treemon_forest}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_6.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.megatreemon_kill_ascension_6.name"
@@ -29453,7 +29453,7 @@ msgstr "Перемогти {Name.megatreemon}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill.desc"
 msgid "During a {name.run}, kill <#RED>{name.owlitzer}</> in <#BLUE>{name.owlitzer_forest}</>."
-msgstr ""
+msgstr "Під час {name.run} вбийте <#RED>{2:{Name.owlitzer}}</> вглибині <#BLUE>{2:{Name.owlitzer_forest}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill.name"
@@ -29463,7 +29463,7 @@ msgstr "Перемогти {2:{Name.owlitzer}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_5.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_5.desc"
 msgid "During a <#KONJUR>{name.run_ascension}</>, kill <#RED>{name.owlitzer}</> in <#BLUE>{name.owlitzer_forest}</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension}}</> вбийте <#RED>{2:{Name.owlitzer}}</> вглибині <#BLUE>{2:{Name.owlitzer_forest}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_5.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_5.name"
@@ -29473,7 +29473,7 @@ msgstr "Перемогти {2:{Name.owlitzer}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_6.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_6.desc"
 msgid "During a <#KONJUR>{name.run_ascension_plus}</>, kill <#RED>{name.owlitzer}</> in <#BLUE>{name.owlitzer_forest}</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension_plus}}</> вбийте <#RED>{2:{Name.owlitzer}}</> вглибині <#BLUE>{2:{Name.owlitzer_forest}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_6.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.owlitzer_kill_ascension_6.name"
@@ -29483,7 +29483,7 @@ msgstr "Перемогти {2:{Name.owlitzer}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill.desc"
 msgid "During a {name.run}, kill <#RED>{name.sedament}</> in <#BLUE>{name.sedament_tundra}</>."
-msgstr ""
+msgstr "Під час {name.run} вбийте <#RED>{2:{Name.sedament}}</> вглибині <#BLUE>{2:{Name.sedament_tundra}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill.name"
@@ -29493,7 +29493,7 @@ msgstr "Перемогти {2:{Name.sedament}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_5.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_5.desc"
 msgid "During a <#KONJUR>{name.run_ascension}</>, kill <#RED>{name.sedament}</> in <#BLUE>{name.sedament_tundra}</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension}}</> вбийте <#RED>{2:{Name.sedament}}</> вглибині <#BLUE>{2:{Name.sedament_tundra}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_5.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_5.name"
@@ -29503,7 +29503,7 @@ msgstr "Перемогти {2:{Name.sedament}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_6.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_6.desc"
 msgid "During a <#KONJUR>{name.run_ascension_plus}</>, kill <#RED>{name.sedament}</> in <#BLUE>{name.sedament_tundra}</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension_plus}}</> вбийте <#RED>{2:{Name.sedament}}</> вглибині <#BLUE>{2:{Name.sedament_tundra}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_6.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.sedament_kill_ascension_6.name"
@@ -29513,7 +29513,7 @@ msgstr "Перемогти {2:{Name.sedament}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill.desc"
 msgid "During a {name.run}, kill <#RED>{name.thatcher}</> in <#BLUE>{name.thatcher_swamp}</>."
-msgstr ""
+msgstr "Під час {name.run} вбийте <#RED>{2:{Name.thatcher}}</> вглибині <#BLUE>{2:{Name.thatcher_swamp}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill.name"
@@ -29523,7 +29523,7 @@ msgstr "Перемогти {2:{Name.thatcher}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_5.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_5.desc"
 msgid "During a <#KONJUR>{name.run_ascension}</>, kill <#RED>{name.thatcher}</> in <#BLUE>{name.thatcher_swamp}</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension}}</> вбийте <#RED>{2:{Name.thatcher}}</> вглибині <#BLUE>{2:{Name.thatcher_swamp}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_5.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_5.name"
@@ -29533,7 +29533,7 @@ msgstr "Перемогти {2:{Name.thatcher}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_6.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_6.desc"
 msgid "During a <#KONJUR>{name.run_ascension_plus}</>, kill <#RED>{name.thatcher}</> in <#BLUE>{name.thatcher_swamp}</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension_plus}}</> вбийте <#RED>{2:{Name.thatcher}}</> вглибині <#BLUE>{2:{Name.thatcher_swamp}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_6.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.thatcher_kill_ascension_6.name"
@@ -41999,7 +41999,7 @@ msgstr "Божевільне полювання"
 #: STRINGS.NAMES.run_ascension_plus
 msgctxt "STRINGS.NAMES.run_ascension_plus"
 msgid "Super Frenzy Hunt"
-msgstr "Супер божевільне полювання"
+msgstr "Супер божевільне полювання|Супер божевільного полювання"
 
 #: STRINGS.NAMES.sedament
 msgctxt "STRINGS.NAMES.sedament"
@@ -42634,7 +42634,7 @@ msgstr "Мульти удари"
 #: STRINGS.NAMES_PLURAL.concept_relic
 msgctxt "STRINGS.NAMES_PLURAL.concept_relic"
 msgid "Powers"
-msgstr "Сили|Силами"
+msgstr "Сили|Силами|Сил"
 
 #: STRINGS.NAMES_PLURAL.concept_reroll
 msgctxt "STRINGS.NAMES_PLURAL.concept_reroll"
@@ -49184,12 +49184,12 @@ msgstr "<p img='images/icons_ftf/stat_weapon.tex' color=0 scale=1>%d"
 #: STRINGS.UI.MAPSCREEN.AVERAGE_PLAYER_LEVEL_LABEL
 msgctxt "STRINGS.UI.MAPSCREEN.AVERAGE_PLAYER_LEVEL_LABEL"
 msgid "Party Gear Level"
-msgstr "Рівень екіпіровки команди"
+msgstr "Рівень спорядження команди"
 
 #: STRINGS.UI.MAPSCREEN.AVERAGE_PLAYER_LEVEL_LABEL_TT
 msgctxt "STRINGS.UI.MAPSCREEN.AVERAGE_PLAYER_LEVEL_LABEL_TT"
 msgid "The average level of all of your party's Gear Level."
-msgstr "Середній рівень всієї екіпіровки вашої команди."
+msgstr "Середній рівень всього спорядження вашої команди."
 
 #: STRINGS.UI.MAPSCREEN.CHANGE_WEAPON
 msgctxt "STRINGS.UI.MAPSCREEN.CHANGE_WEAPON"
