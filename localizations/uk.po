@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-16 09:38\n"
+"PO-Revision-Date: 2025-08-17 19:59\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -29333,7 +29333,7 @@ msgstr "Шкіра {Name.zucco}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill.desc"
 msgid "During a {name.run}, kill <#RED>{name.bandicoot}</> in <#BLUE>{name.bandi_swamp}</>."
-msgstr ""
+msgstr "Під час {name.run} вбийте <#RED>{2:{name.bandicoot}}</> вглибині <#BLUE>{2:{name.bandi_swamp}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill.name"
@@ -29343,7 +29343,7 @@ msgstr "Перемогти {2:{Name.bandicoot}}"
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_5.desc
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_5.desc"
 msgid "During a <#KONJUR>{name.run_ascension}</>, kill <#RED>{name.bandicoot}</> in <#BLUE>{name.bandi_swamp}</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension}}</> вбийте <#RED>{2:{name.bandicoot}}</> вглибині <#BLUE>{2:{name.bandi_swamp}}</>."
 
 #: STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_5.name
 msgctxt "STRINGS.ITEMS.MONSTER_MASTERY.OTHER.bandicoot_kill_ascension_5.name"
