@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-18 21:22\n"
+"PO-Revision-Date: 2025-08-22 11:34\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -45921,7 +45921,7 @@ msgstr "Ресурси знайдені тут"
 #: STRINGS.UI.DUNGEONSELECTIONSCREEN.NO_ELITE_BOSS_MESSAGE
 msgctxt "STRINGS.UI.DUNGEONSELECTIONSCREEN.NO_ELITE_BOSS_MESSAGE"
 msgid "The <#RED>{name.elite_prefix} {name.rot_boss}</> for this {name.run} has not been created yet."
-msgstr ""
+msgstr "<#RED>{3:{Name.elite_prefix}} {2:{name.rot_boss}}</> для цього {name.run} ще не створено."
 
 #: STRINGS.UI.DUNGEONSELECTIONSCREEN.SUPER_FRENZY_WIDGET.CORESTONE_REWARD
 msgctxt "STRINGS.UI.DUNGEONSELECTIONSCREEN.SUPER_FRENZY_WIDGET.CORESTONE_REWARD"
@@ -46480,7 +46480,7 @@ msgstr "ЗАГОРНУТИ"
 #: STRINGS.UI.FAILED_INITIALIZE.BODY
 msgctxt "STRINGS.UI.FAILED_INITIALIZE.BODY"
 msgid "Check if your system meets the required minimum specs and try to free up resources."
-msgstr ""
+msgstr "Перевірте, чи відповідає ваша система необхідним мінімальним характеристикам, і спробуйте звільнити ресурси."
 
 #: STRINGS.UI.FAILED_INITIALIZE.CLOSE
 msgctxt "STRINGS.UI.FAILED_INITIALIZE.CLOSE"
@@ -46490,12 +46490,12 @@ msgstr "Закрити гру"
 #: STRINGS.UI.FAILED_INITIALIZE.SUBTITLE
 msgctxt "STRINGS.UI.FAILED_INITIALIZE.SUBTITLE"
 msgid "The game can not run with the available resources"
-msgstr ""
+msgstr "Гра не може запуститися з доступними ресурсами"
 
 #: STRINGS.UI.FAILED_INITIALIZE.TITLE
 msgctxt "STRINGS.UI.FAILED_INITIALIZE.TITLE"
 msgid "Failed to initialize graphics"
-msgstr ""
+msgstr "Не вдалося ініціалізувати графіку"
 
 #: STRINGS.UI.FARMING.ALREADY_WATERED
 msgctxt "STRINGS.UI.FARMING.ALREADY_WATERED"
@@ -46908,7 +46908,7 @@ msgstr "%d в <p img='images/icons_ftf/inventory_equipment.tex' color=0>"
 #: STRINGS.UI.FOODSCREEN.NEED_FRIENDSHIP_TT
 msgctxt "STRINGS.UI.FOODSCREEN.NEED_FRIENDSHIP_TT"
 msgid "{name.npc_cook} doesn't know you well enough to share this recipe."
-msgstr ""
+msgstr "{Name.npc_cook} недостатньо добре вас знає, щоб поділитися цим рецептом."
 
 #: STRINGS.UI.FOODSCREEN.NEED_INGREDIENTS_TT
 msgctxt "STRINGS.UI.FOODSCREEN.NEED_INGREDIENTS_TT"
@@ -47467,7 +47467,7 @@ msgstr "{Name.interact_tap} Оглянути {name_multiple.concept_talent}"
 #: STRINGS.UI.HEARTSCREEN.INTERACT.BTN_WELL_FULL
 msgctxt "STRINGS.UI.HEARTSCREEN.INTERACT.BTN_WELL_FULL"
 msgid "{name.town_grid_cryst} Is Fully Charged!"
-msgstr ""
+msgstr "{Name.town_grid_cryst} повністю заряджений!"
 
 #: STRINGS.UI.HEARTSCREEN.INTERACT.PLACE_HEARTSHARDS
 msgctxt "STRINGS.UI.HEARTSCREEN.INTERACT.PLACE_HEARTSHARDS"
@@ -48373,12 +48373,12 @@ msgstr "Зберігайте улюблені мисливські налашт�
 #: STRINGS.UI.LOADOUTSCREEN.HOTKEY_EQUIP
 msgctxt "STRINGS.UI.LOADOUTSCREEN.HOTKEY_EQUIP"
 msgid "Equip Loadout"
-msgstr ""
+msgstr "Спорядити комплект"
 
 #: STRINGS.UI.LOADOUTSCREEN.HOTKEY_MANNEQUIN
 msgctxt "STRINGS.UI.LOADOUTSCREEN.HOTKEY_MANNEQUIN"
 msgid "Toggle Display Loadout"
-msgstr ""
+msgstr "Перемкнути відображення комплекту"
 
 #: STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_BUTTON
 msgctxt "STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_BUTTON"
@@ -49619,7 +49619,8 @@ msgstr "Дослідження обладунків"
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_1.DESC"
 msgid "<#RED>{name.npc_armorsmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_uncommon} armour to {name.i_item_rarity_rare} quality!\n\n"
 "Check <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at the <#RED>Armoury</#RED>."
-msgstr ""
+msgstr "<#RED>{Name.npc_armorsmith}</> потребує {name_multiple.upgrade_ingot}, щоб покращити вашу {2:{name.i_item_rarity_uncommon}} обладунки до якості '{name.i_item_rarity_rare}'!\n\n"
+"Перевірте <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>покращення станції на <#RED>манекені з обладунками</#RED>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_1.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_1.TITLE"
@@ -49630,7 +49631,8 @@ msgstr "Дослідження обладунків"
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_2.DESC"
 msgid "<#RED>{name.npc_armorsmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_rare} armour to {name.i_item_rarity_epic} quality!\n\n"
 "Check <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at the <#RED>Armoury</#RED>."
-msgstr ""
+msgstr "<#RED>{Name.npc_armorsmith}</> потребує {name_multiple.upgrade_ingot}, щоб покращити вашу {2:{name.i_item_rarity_rare}} обладунки до якості '{name.i_item_rarity_epic}'!\n\n"
+"Перевірте <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>покращення станції на <#RED>манекені з обладунками</#RED>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_2.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_2.TITLE"
@@ -49655,7 +49657,7 @@ msgstr "{Name_multiple.weapon_crystal}"
 #: STRINGS.UI.MECHANIC_TUTORIALS.COOKINGMENU_UNLOCKED.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.COOKINGMENU_UNLOCKED.DESC"
 msgid "Cook fancier meals from {name.npc_cook}'s {name_multiple.cook_rotating_recipe} menu and consume them during a Hunt for more potent {name_multiple.concept_relic}!"
-msgstr ""
+msgstr "Готуйте вишуканіші страви з меню {2:{name_multiple.cook_rotating_recipe}} від {Name.npc_cook} та споживайте їх під час полювання для отримання найпотужніший {3:{name_multiple.concept_relic}}!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.COOKINGMENU_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.COOKINGMENU_UNLOCKED.TITLE"
@@ -49665,7 +49667,7 @@ msgstr "Меню {2:{name_multiple.cook_rotating_recipe}} розблокован
 #: STRINGS.UI.MECHANIC_TUTORIALS.COOKINGTOOLS_UNLOCKED.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.COOKINGTOOLS_UNLOCKED.DESC"
 msgid "You can now use the cooking station to prepare Powerful meals for your Hunt!"
-msgstr ""
+msgstr "Тепер ви можете використовувати кухонну станцію, щоб готувати їжу для отримання сили під час полювання!"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.COOKINGTOOLS_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.COOKINGTOOLS_UNLOCKED.TITLE"
@@ -49855,7 +49857,8 @@ msgstr "Дослідження зброї"
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEATHER_UNLOCKED_1.DESC"
 msgid "Depositing <#KONJUR>{name_multiple.i_konjur_heart}</> has increased the ambient {name.c_konjur} levels around your camp!\n\n"
 "<#RED>{name_multiple.weather}</> have begun to manifest on locations near your camp."
-msgstr ""
+msgstr "Додавання <#KONJUR>{2:{name_multiple.i_konjur_heart}}</> підвищило рівень {2:{name.c_konjur}} навколо вашого табору! \n\n"
+"<#RED>{Name_multiple.weather}</> почали проявлятися на локаціях біля вашого табору."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEATHER_UNLOCKED_1.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEATHER_UNLOCKED_1.TITLE"
@@ -49865,7 +49868,7 @@ msgstr "{Name_multiple.weather}"
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEATHER_UNLOCKED_2.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEATHER_UNLOCKED_2.DESC"
 msgid "Locations under the effect of <#RED>{name.weather}</> can be harvested using the <#RED>{name.teffrometer}</> you recovered to earn valuable rewards."
-msgstr ""
+msgstr "Місця, що знаходяться під впливом <#RED>{2:{name.weather}}</>, можна зібрати за допомогою відремонтованого вами <#RED>{2:{name.teffrometer}}</>, щоб отримати цінні винагороди."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEATHER_UNLOCKED_2.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEATHER_UNLOCKED_2.TITLE"
@@ -52545,12 +52548,12 @@ msgstr "<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpa
 #: STRINGS.UI.TALENTSCREEN.TALENT_RANK
 msgctxt "STRINGS.UI.TALENTSCREEN.TALENT_RANK"
 msgid "RANK: {current_rank}"
-msgstr ""
+msgstr "РАНГ: {current_rank}"
 
 #: STRINGS.UI.TALENTSCREEN.TALENT_RANK_CAPPED
 msgctxt "STRINGS.UI.TALENTSCREEN.TALENT_RANK_CAPPED"
 msgid "RANK: {current_rank}/{max_rank}"
-msgstr ""
+msgstr "РАНГ: {current_rank}/{max_rank}"
 
 #: STRINGS.UI.TALENTSCREEN.TALENT_SOURCE_DEFAULT
 msgctxt "STRINGS.UI.TALENTSCREEN.TALENT_SOURCE_DEFAULT"
