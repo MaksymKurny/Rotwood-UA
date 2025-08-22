@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-22 11:34\n"
+"PO-Revision-Date: 2025-08-22 12:43\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -1402,7 +1402,7 @@ msgctxt "Convo.dgn_challenge_eggzy_magpie.HUB0.convo.giver.STATE_0.QUESTION_2A"
 msgid "<#RED>{condition_1}</> before I get to your Market?\n"
 "And ricocheted hits don't count... that's cold, {name.shop_magpie}."
 msgstr "<#RED>{condition_1}</> ще до того, як я дістанусь твого ринку? \n"
-"І відбиті удари не рахуються… отакої, {Name.shop_magpie}."
+"І відбиті удари не рахуються... отакої, {Name.shop_magpie}."
 
 #: Convo.dgn_challenge_eggzy_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B
 msgctxt "Convo.dgn_challenge_eggzy_magpie.HUB0.convo.giver.STATE_0.QUESTION_2B"
@@ -6007,7 +6007,7 @@ msgstr "Що?! Ні!!"
 #: Convo.twn_fn_unlocked_apothecary.ATTRACT2.convo.giver.STATE_0.QUESTION_3
 msgctxt "Convo.twn_fn_unlocked_apothecary.ATTRACT2.convo.giver.STATE_0.QUESTION_3"
 msgid "I might've taken a nibble once or twice..."
-msgstr "Можливо, я відкусив шматочок… пару разів..."
+msgstr "Можливо, я відкусив шматочок... пару разів..."
 
 #: Convo.twn_fn_unlocked_apothecary.ATTRACT2.convo.giver.STATE_0.QUESTION_4
 msgctxt "Convo.twn_fn_unlocked_apothecary.ATTRACT2.convo.giver.STATE_0.QUESTION_4"
@@ -18555,37 +18555,37 @@ msgstr "Ви бачили це? Вона насміхалася над вами!
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[blarmadillo,in_bossbattle,lost]confused.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[blarmadillo,in_bossbattle,lost]confused.1"
 msgid "Looks like it's not going to roll over that easily..."
-msgstr ""
+msgstr "Здається, так просто він не здасться..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[blarmadillo,in_bossbattle,lost]motivational.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[blarmadillo,in_bossbattle,lost]motivational.1"
 msgid "Don't lose hope, Hunter. We'll get it next time!"
-msgstr ""
+msgstr "Не втрачайте надію, Мисливцю. Наступного разу ми його здолаємо!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[blarmadillo,in_bossbattle,lost]motivational.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[blarmadillo,in_bossbattle,lost]motivational.2"
 msgid "Hang in there, Hunter! I've got your back!"
-msgstr ""
+msgstr "Тримайтеся, Мисливцю! Я підстрахую вас!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[blarmadillo,in_bossbattle,lost]motivational.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[blarmadillo,in_bossbattle,lost]motivational.3"
 msgid "Don't worry Hunter, you'll beat the snot out of that {name.blarmadillo_miniboss} next time!"
-msgstr ""
+msgstr "Не хвилюйтеся, Мисливцю, наступного разу ви виб’єте всі соплі з того {Name.blarmadillo_miniboss}!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[blarmadillo,in_bossbattle,lost]nervous.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[blarmadillo,in_bossbattle,lost]nervous.1"
 msgid "Oof. That {name.blarmadillo_miniboss} is nothing to sneeze at."
-msgstr ""
+msgstr "Уф. Той {Name.blarmadillo_miniboss} – це не жарти."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[blarmadillo,in_bossbattle,lost]nervous.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[blarmadillo,in_bossbattle,lost]nervous.2"
 msgid "I thought you were really on a roll there..."
-msgstr ""
+msgstr "Я думав, ви вже були на справжньому підйомі..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[blarmadillo,in_bossbattle,lost]skeptical.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[blarmadillo,in_bossbattle,lost]skeptical.1"
 msgid "I'm afraid this Hunt's been trunkated."
-msgstr ""
+msgstr "Боюся, це полювання завершилося передчасно."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[bonejaw,in_bossbattle,lost]frustrated.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[bonejaw,in_bossbattle,lost]frustrated.1"
@@ -18625,47 +18625,47 @@ msgstr "Вам точно не варто опинятися на шляху й�
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[cabbageroll,in_bossbattle,lost]confused.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[cabbageroll,in_bossbattle,lost]confused.1"
 msgid "Huh. Who knew the {name_multiple.cabbageroll} had a monarchy?"
-msgstr ""
+msgstr "Хм. Хто б міг подумати, що в {2:{Name_multiple.cabbageroll}} є монархія?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[cabbageroll,in_bossbattle,lost]confused.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[cabbageroll,in_bossbattle,lost]confused.2"
 msgid "Do you think there's a {name.cabbageroll} parliament, too?"
-msgstr ""
+msgstr "А ви думаєте, у {2:{Name.cabbageroll}} ще й парламент є?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[cabbageroll,in_bossbattle,lost]frustrated.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[cabbageroll,in_bossbattle,lost]frustrated.1"
 msgid "What a royal pain in the rump!"
-msgstr ""
+msgstr "От уже й справді королівський клопіт!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[cabbageroll,in_bossbattle,lost]frustrated.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[cabbageroll,in_bossbattle,lost]frustrated.2"
 msgid "Down with the King!"
-msgstr ""
+msgstr "Геть короля!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[cabbageroll,in_bossbattle,lost]frustrated.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[cabbageroll,in_bossbattle,lost]frustrated.3"
 msgid "That {name.cabbageroll_miniboss} needs to be overthrown!"
-msgstr ""
+msgstr "Того {2:{Name.cabbageroll_miniboss} треба скинути з трону!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[cabbageroll,in_bossbattle,lost]motivational.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[cabbageroll,in_bossbattle,lost]motivational.1"
 msgid "Don't worry, next time you'll give him some royal payback!"
-msgstr ""
+msgstr "Не переймайтеся, наступного разу ви влаштуєте йому королівську відплату!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[cabbageroll,in_bossbattle,lost]nervous.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[cabbageroll,in_bossbattle,lost]nervous.1"
 msgid "That {name.cabbageroll_miniboss} sure likes to throw his weight around, huh?"
-msgstr ""
+msgstr "Той {name.cabbageroll_miniboss} любить показати свою вагу, еге ж?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[cabbageroll,in_bossbattle,lost]sad.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[cabbageroll,in_bossbattle,lost]sad.1"
 msgid "<i>(sniffle)</> H-has someone been chopping onions...?"
-msgstr ""
+msgstr "<i>(шморгає)</> Х-хтось тут ріже цибулю...?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[cabbageroll,in_bossbattle,lost]skeptical.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[cabbageroll,in_bossbattle,lost]skeptical.1"
 msgid "Timing your dodges for just before he lands will be key here..."
-msgstr ""
+msgstr "Вчасно ухилятися, перед самим його ударом – ось що буде ключем..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[crystroll,in_bossbattle,lost]frustrated.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[crystroll,in_bossbattle,lost]frustrated.1"
@@ -18785,27 +18785,27 @@ msgstr "Спробуй виманити його на атаку перед уд
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[eyev,in_bossbattle,lost]confused.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[eyev,in_bossbattle,lost]confused.1"
 msgid "Someone once told me to always 'go for the eyes'!"
-msgstr ""
+msgstr "Хтось колись сказав мені: завжди бийте по очах!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[eyev,in_bossbattle,lost]motivational.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[eyev,in_bossbattle,lost]motivational.1"
 msgid "Chin up, Hunter! It'll take more than that to keep the {name_multiple.foxtails} down for long!"
-msgstr ""
+msgstr "Підніміть голову, Мисливцю! {Name_multiple.foxtails} так легко не приборкати!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[eyev,in_bossbattle,lost]nervous.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[eyev,in_bossbattle,lost]nervous.1"
 msgid "Yikes. If looks could kill..."
-msgstr ""
+msgstr "Ого. Якби погляд міг вбивати..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[eyev,in_bossbattle,lost]nervous.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[eyev,in_bossbattle,lost]nervous.2"
 msgid "Talk about an evil eye..."
-msgstr ""
+msgstr "Оце вже справжнє лихе око..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[eyev,in_bossbattle,lost]nervous.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[eyev,in_bossbattle,lost]nervous.3"
 msgid "Er... that was just a warm-up! Right?"
-msgstr ""
+msgstr "Е-е... це ж була тільки розминка, правда?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[floracrane,in_bossbattle,lost]confused.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[floracrane,in_bossbattle,lost]confused.1"
@@ -18855,7 +18855,7 @@ msgstr "Ми програли у цьому раунді, але головне,
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[general,in_end_boss,lost]frustrated.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[general,in_end_boss,lost]frustrated.2"
 msgid "You nearly had it!"
-msgstr ""
+msgstr "Ви майже це зробили!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[general,in_end_boss,lost]frustrated.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[general,in_end_boss,lost]frustrated.3"
@@ -18915,47 +18915,47 @@ msgstr "Т-ти наступного разу впораєшся з тією т�
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]confused.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]confused.1"
 msgid "Phew-- it's going to take weeks to air that smell out of the {name.damselfly}..."
-msgstr ""
+msgstr "Фух... Потрібно буде кілька тижнів, щоб вивітрити цей запах з {2:{Name.damselfly}}..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]confused.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]confused.2"
 msgid "He's surprisingly spry for his age, huh?"
-msgstr ""
+msgstr "Він на диво прудкий для свого віку, еге ж?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]frustrated.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]frustrated.1"
 msgid "Ugh, this guy really stinks!"
-msgstr ""
+msgstr "Уф, цей тип справді смердючий!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]frustrated.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]frustrated.2"
 msgid "That mean old coot!"
-msgstr ""
+msgstr "Який злющий старий дідуган!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]motivational.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]motivational.1"
 msgid "Whew-- looks like I grabbed you just in time!"
-msgstr ""
+msgstr "Уф... здається, я встиг вас вчасно схопити!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]motivational.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]motivational.2"
 msgid "We'll be back to fight another day!"
-msgstr ""
+msgstr "Ми ще повернемося, щоб битися знову!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]nervous.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]nervous.1"
 msgid "Cut it a little close there-- are you okay, Hunter?"
-msgstr ""
+msgstr "Було трохи небезпечно... ви в порядку, Мисливцю?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]sad.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]sad.1"
 msgid "Ooooh... that's gonna leave a bruise..."
-msgstr ""
+msgstr "Оооох... буде добрячий синець..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]skeptical.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]skeptical.1"
 msgid "He's got a strong charge attack, but it tires him out... that's the time to strike!"
-msgstr ""
+msgstr "У нього потужна атака ривком, але вона його виснажує... тоді й треба бити!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gourdo,in_bossbattle,lost]frustrated.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gourdo,in_bossbattle,lost]frustrated.1"
@@ -19089,42 +19089,42 @@ msgstr "Ви зможете це, Мисливцю! Не дозвольте йо
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,mothball_teen]confused.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,mothball_teen]confused.1"
 msgid "I guess {name_multiple.mothball} don't practice gentle parenting."
-msgstr ""
+msgstr "Схоже, {Name_multiple.mothball} не практикують лагідного батьківства."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,mothball_teen]motivational.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,mothball_teen]motivational.1"
 msgid "Rest easy, Hunter. We can always give it another shot!"
-msgstr ""
+msgstr "Відпочиньте, Мисливцю. Ми завжди можемо спробувати ще раз!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,mothball_teen]sad.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,mothball_teen]sad.1"
 msgid "Oof... that looked like it hurt..."
-msgstr ""
+msgstr "Уф... це виглядало боляче..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,mothball_teen]sad.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,mothball_teen]sad.2"
 msgid "Never underestimate a mother's love... for carnage."
-msgstr ""
+msgstr "Ніколи не недооцінюйте материнську любов... до різанини."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,swarmy]frustrated.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,swarmy]frustrated.1"
 msgid "That thing is just <i>foul!</>"
-msgstr ""
+msgstr "Ця потвора просто <i>огидна!</>"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,swarmy]motivational.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,swarmy]motivational.1"
 msgid "You fought bravely, Hunter!"
-msgstr ""
+msgstr "Ви билися хоробро, Мисливцю!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,swarmy]motivational.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,swarmy]motivational.2"
 msgid "Don't worry, we'll be back for some payback!"
-msgstr ""
+msgstr "Не хвилюйтеся, ми ще повернемося по відплату!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,swarmy]nervous.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,swarmy]nervous.1"
 msgid "My poor seat cushions... I sure hope that goo washes out..."
-msgstr ""
+msgstr "Мої бідні подушки... сподіваюся, ця гидота відмиється..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,yammo]frustrated.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,yammo]frustrated.1"
@@ -19166,27 +19166,27 @@ msgstr "Здається, в атаках того {Name.yammo} є \"сліпа 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,zucco]confused.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,zucco]confused.1"
 msgid "What has that thing been eating?!"
-msgstr ""
+msgstr "Чого він такого наївся?!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,zucco]motivational.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,zucco]motivational.1"
 msgid "Oooh... that looked like it stung..."
-msgstr ""
+msgstr "Оооох... виглядало, ніби боляче..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,zucco]motivational.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,zucco]motivational.2"
 msgid "You'll get him next time, Hunter!"
-msgstr ""
+msgstr "Наступного разу ви з ним точно впораєтесь, Мисливцю!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,zucco]nervous.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,zucco]nervous.1"
 msgid "Oooh... that looked like it stung..."
-msgstr ""
+msgstr "Оооох... виглядало, ніби боляче..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,zucco]nervous.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_bossbattle,lost,zucco]nervous.2"
 msgid "Looks like our Hunt's ending a little sooner than we hoped..."
-msgstr ""
+msgstr "Схоже, наше полювання закінчується трохи раніше, ніж ми сподівалися..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_early_hunt,lost]confused.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_early_hunt,lost]confused.1"
@@ -19540,7 +19540,7 @@ msgstr "<p img='images/map_ftf/frenzy_miniboss_spawn_1.tex' color=0 scale=1.4> �
 #: STRINGS.ASCENSIONS.MOBS_TITLE
 msgctxt "STRINGS.ASCENSIONS.MOBS_TITLE"
 msgid "Native {name_multiple.rot}"
-msgstr ""
+msgstr "Звичайні {name_multiple.rot}"
 
 #: STRINGS.ASCENSIONS.MORE_ELITES
 msgctxt "STRINGS.ASCENSIONS.MORE_ELITES"
@@ -20011,7 +20011,7 @@ msgstr "Слот {slot_number} (використовується)"
 #: STRINGS.CHARACTER_SELECTOR.SLOT_IN_USE_INGAME
 msgctxt "STRINGS.CHARACTER_SELECTOR.SLOT_IN_USE_INGAME"
 msgid "(In Use)"
-msgstr ""
+msgstr "(Вибрано)"
 
 #: STRINGS.CHARACTER_SELECTOR.SLOT_YOUR_SLOT
 msgctxt "STRINGS.CHARACTER_SELECTOR.SLOT_YOUR_SLOT"
@@ -22427,7 +22427,7 @@ msgstr "{Name.station_scout}"
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_bandicoot.desc
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_bandicoot.desc"
 msgid "During a <#KONJUR>{name.run_ascension}</>, kill <#RED>{name.bandicoot}</> in the <#BLUE>{name.bandi_swamp}</>, <#RED>alone</> while wearing no <#RED>Armour</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension}}</> вбийте <#RED>{2:{Name.bandicoot}}</> вглибині <#BLUE>{2:{Name.bandi_swamp}}</>, <#RED>на самоті</> без <#RED>обладунків</>."
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_bandicoot.name
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_bandicoot.name"
@@ -22437,7 +22437,7 @@ msgstr "Перемога на самоті [{Name.bandicoot}]"
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_eggzy.desc
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_eggzy.desc"
 msgid "During a <#KONJUR>{name.run_ascension}</>, kill <#RED>{name.eggzy}</> in the <#BLUE>{name.eggzy_tundra}</>, <#RED>alone</> while wearing no <#RED>Armour</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension}}</> вбийте <#RED>{2:{Name.eggzy}}</> вглибині <#BLUE>{2:{Name.eggzy_tundra}}</>, <#RED>на самоті</> без <#RED>обладунків</>."
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_eggzy.name
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_eggzy.name"
@@ -22447,7 +22447,7 @@ msgstr "Перемога на самоті [{Name.eggzy}]"
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_grimhollow.desc
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_grimhollow.desc"
 msgid "During a <#KONJUR>{name.run_ascension}</>, kill <#RED>{name.grimhollow}</> in the <#BLUE>{name.grimhollow_volcano}</>, <#RED>alone</> while wearing no <#RED>Armour</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension}}</> вбийте <#RED>{2:{Name.grimhollow}}</> вглибині <#BLUE>{2:{Name.grimhollow_volcano}}</>, <#RED>на самоті</> без <#RED>обладунків</>."
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_grimhollow.name
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_grimhollow.name"
@@ -22457,7 +22457,7 @@ msgstr "Перемога на самоті [{Name.grimhollow}]"
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_megatreemon.desc
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_megatreemon.desc"
 msgid "During a <#KONJUR>{name.run_ascension}</>, kill <#RED>{name.megatreemon}</> in the <#BLUE>{name.treemon_forest}</>, <#RED>alone</> while wearing no <#RED>Armour</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension}}</> вбийте <#RED>{2:{Name.megatreemon}}</> вглибині <#BLUE>{2:{Name.treemon_forest}}</>, <#RED>на самоті</> без <#RED>обладунків</>."
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_megatreemon.name
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_megatreemon.name"
@@ -22467,7 +22467,7 @@ msgstr "Перемога на самоті [{Name.megatreemon}]"
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_owlitzer.desc
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_owlitzer.desc"
 msgid "During a <#KONJUR>{name.run_ascension}</>, kill <#RED>{name.owlitzer}</> in the <#BLUE>{name.owlitzer_forest}</>, <#RED>alone</> while wearing no <#RED>Armour</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension}}</> вбийте <#RED>{2:{Name.owlitzer}}</> вглибині <#BLUE>{2:{Name.owlitzer_forest}}</>, <#RED>на самоті</> без <#RED>обладунків</>."
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_owlitzer.name
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_owlitzer.name"
@@ -22477,7 +22477,7 @@ msgstr "Перемога на самоті [{Name.owlitzer}]"
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_sedament.desc
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_sedament.desc"
 msgid "During a <#KONJUR>{name.run_ascension}</>, kill <#RED>{name.sedament}</> in the <#BLUE>{name.sedament_tundra}</>, <#RED>alone</> while wearing no <#RED>Armour</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension}}</> вбийте <#RED>{2:{Name.sedament}}</> вглибині <#BLUE>{2:{Name.sedament_tundra}}</>, <#RED>на самоті</> без <#RED>обладунків</>."
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_sedament.name
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_sedament.name"
@@ -22487,7 +22487,7 @@ msgstr "Перемога на самоті [{Name.sedament}]"
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_thatcher.desc
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_thatcher.desc"
 msgid "During a <#KONJUR>{name.run_ascension}</>, kill <#RED>{name.thatcher}</> in <#BLUE>{name.thatcher_swamp}</>, <#RED>alone</> while wearing no <#RED>Armour</>."
-msgstr ""
+msgstr "Під час <#KONJUR>{2:{name.run_ascension}}</> вбийте <#RED>{2:{Name.thatcher}}</> в глибині <#BLUE>{2:{Name.thatcher_swamp}}</>, <#RED>на самоті</> без <#RED>обладунків</>."
 
 #: STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_thatcher.name
 msgctxt "STRINGS.ITEMS.CHALLENGE_MASTERY.CHALLENGE.nakedsolo_thatcher.name"
@@ -39590,7 +39590,7 @@ msgstr "Культура"
 #: STRINGS.ITEM_CATEGORIES.CURSE
 msgctxt "STRINGS.ITEM_CATEGORIES.CURSE"
 msgid "Curse"
-msgstr ""
+msgstr "Прокляття"
 
 #: STRINGS.ITEM_CATEGORIES.DECOR
 msgctxt "STRINGS.ITEM_CATEGORIES.DECOR"
@@ -39985,7 +39985,7 @@ msgstr "{NAME.owlitzer_forest_r3}"
 #: STRINGS.LOCATIONS.restroom.name
 msgctxt "STRINGS.LOCATIONS.restroom.name"
 msgid "HELLOWRITER {name.brundle}"
-msgstr ""
+msgstr "HELLOWRITER {name.brundle}"
 
 #: STRINGS.LOCATIONS.sedament_tundra.name
 msgctxt "STRINGS.LOCATIONS.sedament_tundra.name"
@@ -40303,7 +40303,7 @@ msgstr "ОБЕРТАЮЧЕСЯ ЛЕЗО БОГОМОЛА!"
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SPINNING_ATTACK_2_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SPINNING_ATTACK_2_4"
 msgid "ACID HORNET SPIN!"
-msgstr ""
+msgstr "КРУЖЛЯННЯ КИСЛОТНОГО ШЕРШНЯ!"
 
 #: STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SWING_SMASH_1_3
 msgctxt "STRINGS.MONSTERTRANSLATOR.HUMAN.thatcher_elite.THATCHER_SWING_SMASH_1_3"
@@ -40656,7 +40656,7 @@ msgstr "ХУ'УззСС'УззСЛ Р-ЧРП- СИ'УззХ ГК-ЧРП-\n"
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SPINNING_ATTACK_2_4
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SPINNING_ATTACK_2_4"
 msgid "-CHRP- H'UzzI M'ScreeWS'BrrY XU'UzzS!"
-msgstr ""
+msgstr "-ЧІРП- Х'уззі м'Скріі'Вшбррри Кс'ууззс!"
 
 #: STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SWING_SMASH_1_3
 msgctxt "STRINGS.MONSTERTRANSLATOR.MONSTER.thatcher_elite.THATCHER_SWING_SMASH_1_3"
@@ -40950,7 +40950,7 @@ msgstr "Наповнений Цибулін"
 #: STRINGS.NAMES.cabbageroll_miniboss
 msgctxt "STRINGS.NAMES.cabbageroll_miniboss"
 msgid "Bulbin King"
-msgstr "Король цибулінів"
+msgstr "Король Цибулінів|короля Цибулінів"
 
 #: STRINGS.NAMES.cannon_ammo
 msgctxt "STRINGS.NAMES.cannon_ammo"
@@ -44790,7 +44790,7 @@ msgstr "Усі"
 #: STRINGS.POWERS.POWER_CATEGORY.CURSE
 msgctxt "STRINGS.POWERS.POWER_CATEGORY.CURSE"
 msgid "Curse"
-msgstr ""
+msgstr "Прокляття"
 
 #: STRINGS.POWERS.POWER_CATEGORY.DAMAGE
 msgctxt "STRINGS.POWERS.POWER_CATEGORY.DAMAGE"
@@ -45002,7 +45002,7 @@ msgstr "Повне зілля"
 #: STRINGS.TALK.POTION.TT_NO_POTION
 msgctxt "STRINGS.TALK.POTION.TT_NO_POTION"
 msgid "You can't carry a {name.potion}"
-msgstr ""
+msgstr "Ви не можете взяти {name.potion}"
 
 #: STRINGS.TALK.TALK_UNIMPORTANT
 msgctxt "STRINGS.TALK.TALK_UNIMPORTANT"
@@ -45044,7 +45044,7 @@ msgstr "Ілюзорний лис\n"
 #: STRINGS.TITLE_CARDS.blarmadillo_miniboss.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.blarmadillo_miniboss.LOWERTHIRD"
 msgid "Ready to rumble"
-msgstr ""
+msgstr "Готовий до бійки"
 
 #: STRINGS.TITLE_CARDS.bonejaw_miniboss.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.bonejaw_miniboss.LOWERTHIRD"
@@ -45054,12 +45054,12 @@ msgstr "Має за що зачепитися"
 #: STRINGS.TITLE_CARDS.bullrog_miniboss.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.bullrog_miniboss.LOWERTHIRD"
 msgid "The hot-headed one"
-msgstr ""
+msgstr "Запальний"
 
 #: STRINGS.TITLE_CARDS.cabbageroll_miniboss.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.cabbageroll_miniboss.LOWERTHIRD"
 msgid "Ruler of the {name_multiple.cabbageroll}"
-msgstr ""
+msgstr "Правитель {2:{Name_multiple.cabbageroll}}"
 
 #: STRINGS.TITLE_CARDS.crystroll_miniboss.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.crystroll_miniboss.LOWERTHIRD"
@@ -45079,7 +45079,7 @@ msgstr "Злий і впертий, як віл"
 #: STRINGS.TITLE_CARDS.eyev_miniboss.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.eyev_miniboss.LOWERTHIRD"
 msgid "Always watching"
-msgstr ""
+msgstr "Завжди стежить"
 
 #: STRINGS.TITLE_CARDS.floracrane_miniboss.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.floracrane_miniboss.LOWERTHIRD"
@@ -45089,7 +45089,7 @@ msgstr "Найвищий у списку"
 #: STRINGS.TITLE_CARDS.gnarlic_miniboss.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.gnarlic_miniboss.LOWERTHIRD"
 msgid "Aged to full pungency"
-msgstr ""
+msgstr "Витриманий до повної їдкості"
 
 #: STRINGS.TITLE_CARDS.gourdo_miniboss.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.gourdo_miniboss.LOWERTHIRD"
@@ -45121,7 +45121,7 @@ msgstr "Гниле серце лісу\n"
 #: STRINGS.TITLE_CARDS.mothball_teen_miniboss.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.mothball_teen_miniboss.LOWERTHIRD"
 msgid "Matriarch of the {name.mothball}"
-msgstr ""
+msgstr "Матріарх {2:{name.mothball}}"
 
 #: STRINGS.TITLE_CARDS.npc_apothecary.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.npc_apothecary.LOWERTHIRD"
@@ -45168,7 +45168,7 @@ msgstr "Мати Темряви,\n"
 #: STRINGS.TITLE_CARDS.quetz_miniboss.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.quetz_miniboss.LOWERTHIRD"
 msgid "Ruler of the {name.quetz}"
-msgstr ""
+msgstr "Правитель {name.quetz}"
 
 #: STRINGS.TITLE_CARDS.sedament.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.sedament.LOWERTHIRD"
@@ -45178,17 +45178,17 @@ msgstr "Голем з живого каменю"
 #: STRINGS.TITLE_CARDS.sporemon_miniboss.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.sporemon_miniboss.LOWERTHIRD"
 msgid "The immovable object"
-msgstr ""
+msgstr "Нерухомий об’єкт"
 
 #: STRINGS.TITLE_CARDS.stunk_miniboss.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.stunk_miniboss.LOWERTHIRD"
 msgid "Will make you smell"
-msgstr ""
+msgstr "Змусить вас смердіти"
 
 #: STRINGS.TITLE_CARDS.swarmy_miniboss.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.swarmy_miniboss.LOWERTHIRD"
 msgid "As toxic as its personality"
-msgstr ""
+msgstr "Токсичний, як і його характер"
 
 #: STRINGS.TITLE_CARDS.thatcher.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.thatcher.LOWERTHIRD"
@@ -45210,7 +45210,7 @@ msgstr "Лісова загроза"
 #: STRINGS.TITLE_CARDS.zucco_miniboss.LOWERTHIRD
 msgctxt "STRINGS.TITLE_CARDS.zucco_miniboss.LOWERTHIRD"
 msgid "Sharper than he looks"
-msgstr ""
+msgstr "Гостріший, ніж здається"
 
 #: STRINGS.TOWN.HUD.DAYS_OF_WEEK.1
 msgctxt "STRINGS.TOWN.HUD.DAYS_OF_WEEK.1"
@@ -49702,7 +49702,8 @@ msgstr "{Name.concept_talent_tree}"
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.FRENZY_UNLOCKED.DESC"
 msgid "Depositing more <#KONJUR>{name_multiple.i_konjur_heart}</> has further increased the ambient {name.c_konjur} levels around your camp!\n\n"
 "{name_multiple.run} with a {name.rot_boss} have become <#RED>Frenzied</>."
-msgstr ""
+msgstr "Внесення більшої кількості <#KONJUR>{2:{name_multiple.i_konjur_heart}}</> ще більше підвищило рівень {2:{name.c_konjur}} навколо вашого табору! \n\n"
+"{Name_multiple.run} на {2:{name.rot_boss}} стали <#RED>божевільними</>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.FRENZY_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.FRENZY_UNLOCKED.TITLE"
@@ -49835,7 +49836,8 @@ msgstr "Дослідження зброї"
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_1.DESC"
 msgid "<#RED>{name.npc_blacksmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_uncommon} weapons to {name.i_item_rarity_rare} quality!\n\n"
 "Check <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at a <#RED>Weapon Rack</#RED>."
-msgstr ""
+msgstr "<#RED>{Name.npc_blacksmith}</> потребує {name_multiple.upgrade_ingot}, щоб покращити вашу {3:{name.i_item_rarity_uncommon}} зброю до якості '{name.i_item_rarity_rare}'!\n\n"
+"Перевірте <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>покращення станції на <#RED>стійці для зброї</#RED>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_1.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_1.TITLE"
@@ -49846,7 +49848,8 @@ msgstr "Дослідження зброї"
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_2.DESC"
 msgid "<#RED>{name.npc_blacksmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_rare} weapons to {name.i_item_rarity_epic} quality!\n\n"
 "Check <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at a <#RED>Weapon Rack</#RED>."
-msgstr ""
+msgstr "<#RED>{Name.npc_blacksmith}</> потребує {name_multiple.upgrade_ingot}, щоб покращити вашу {3:{name.i_item_rarity_rare}} зброю до якості '{name.i_item_rarity_epic}'!\n\n"
+"Перевірте <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>покращення станції на <#RED>стійці для зброї</#RED>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_2.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_2.TITLE"
