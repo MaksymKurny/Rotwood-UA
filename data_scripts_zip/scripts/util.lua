@@ -823,12 +823,12 @@ end
 
 ------------------------------------------------------------- GL ----------------------------------------------------------------
 
-function SetFormattedText( textnode, str, player )
+function SetFormattedText( textnode, str, user )
 	str = tostring(str)
 	if textnode then
 		textnode:ClearMarkup()
 	end
-	str = ApplyFormatting( textnode, str, player )
+	str = ApplyFormatting( textnode, str, user )
 	if textnode then
 		textnode:SetString( str )
 	end
@@ -885,12 +885,10 @@ local function ParseFontScale( attr )
 	return scale
 end
 
-function ApplyFormatting( textnode, str, player )
+function ApplyFormatting( textnode, str, user )
 	local loc = LOC.GetActiveLocalization()
 	local can_italic = not loc or loc.can_display_italic
 	local can_bold   = not loc or loc.can_display_bold
-	-- TODO(ui): Pass user instead of player so it works in main menu (text.lua too).
-	local playercontroller = player and player.components.playercontroller
 	textnode:ClearMarkup()
 	local j, k, sel, attr
 	local spans = {}
@@ -961,9 +959,10 @@ function ApplyFormatting( textnode, str, player )
 				local bind = string.match(attr, [[bind=['’]([^'’]+)]]) -- case sensitive
 				if bind then
 					-- GetDeviceType never returns mouse: use keyboard, but mostly this is for gamepad.
-					local player_device = playercontroller and playercontroller:GetDeviceType()
+					local input_device = user and user:GetInputDevice()
+					local player_device = input_device and input_device.device_type
 					if not just_device or just_device == player_device then
-						img = playercontroller and playercontroller:GetTexForControlName(bind, player)
+						img = user and user:GetTexForControlName(bind)
 						img = img or TheInput:GetTexForControlName(bind)
 					else
 						-- Doesn't match required device, so show no button hint.
@@ -995,7 +994,7 @@ function ApplyFormatting( textnode, str, player )
 				-- <c> allows you to force a specific gamepad button.
 				-- replace <c img='r' scale=1.0>
 				local img, scale, color, rotation, rpad = ParseImageInformation( attr )
-				local img_path = playercontroller and playercontroller:GetInputImageAtlas()
+				local img_path = user and user:GetInputImageAtlas()
 				if not img_path then
 					local device_id = 1
 					img_path = TheInput:GetDeviceImageAtlas("gamepad", device_id)

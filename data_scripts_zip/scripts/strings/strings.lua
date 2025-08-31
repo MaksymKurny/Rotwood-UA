@@ -592,6 +592,7 @@ STRINGS.UI =
 		NO = "No",
 		BACK = "<p img='images/ui_ftf_dialog/ic_back.tex' color=0 scale=1.1> Back",
 		MULTIPLAYER_INFO = "Character progress is saved and transferred across game types.",
+		SLOTS_REMOVE_PLAYER = "Press <p bind='Controls.Digital.CANCEL' color=0> to remove",
 		SLOTS_INFO_START = "Select a character slot. ",
 		SLOTS_INFO_DEVICES = "For additional devices, press {button_icon} on your {device_name} or other connected controllers.",
 		SLOTS_INFO_DEVICES_EMPTY = "You can plug in extra controllers for additional local players.",
@@ -602,6 +603,9 @@ STRINGS.UI =
 		SLOT_SELECTION_SUBTITLE = "The game will start when every player has a unique character selected.",
 		SLOT_PLAYER_READY = "Ready!",
 		SLOT_REROLL_BUTTON = "<p img='images/ui_ftf_character/BtnReroll.tex' color=0 scale=2.5>\n\n\n<p bind='Controls.Digital.MENU_SUB_TAB_NEXT' color=0> REROLL ALL",
+		SLOT_CONTINUE_TO_GAME = "Start Game",
+		SLOT_CONTINUE_TO_ONLINE = "Continue",
+
 		OFFLINE_ERROR = "<p img='images/icons_ftf/ic_offline.tex' color=0 scale=1.3> You're offline.",
 		ONLINE_INFO = "Additional local players can be added in-game.",
 		WISHLIST_CTA = "<p img='images/ui_ftf_icons/steam.tex' color=0 scale=1.3> Add to Wishlist",
@@ -1211,7 +1215,7 @@ STRINGS.UI =
 		NO_EQUIPMENT = "No equipment",
 		DEFENSE_LVL = "DEFENCE LVL: %d",
 		EFFECT_LVL = "EFFECT LVL: %d",
-		LOCKED_FRENZY_LVL = "This item is only found in Frenzy Levels",
+		LOCKED_FRENZY_LVL = "This item is only found in {name_multiple.run_ascension}",
 		LOCKED_DESC = "Purchase in the <#RED>%s</> marketplace",
 		TT_EQUIPPED_LABEL = "EQUIPPED",
 		LOCKED_BOSS_WEAPON = "Imbue a <#RED>{name.weapon_crystal_prefix}{weapon_type}</> with the {name.konjur_heart} of an <#RED>{name.elite_prefix} {boss}</> to have <#BLUE>{name.npc_blacksmith}</> craft this for you.",
@@ -2704,7 +2708,7 @@ STRINGS.UI.OPTIONSSCREEN =
 				TITLE = "Player Name Display",
 				PROFILE_NAME = {
 					NAME = "Account Name",
-					DESC = "Use the Account Name for as player name for all local players.",
+					DESC = "Use the Account Name as player name for all local players.",
 				},
 				TITLE_FOR_LOCAL_SECONDARY = {
 					NAME = "Title For Local Secondary",
@@ -3476,7 +3480,7 @@ If you fail a run while holding a Proto-Weapon, it will <#RED>Break</> and need 
 		DESC = "You can also display your favorite Loadouts on any <#RED>Mannequin</> that you own and quickly equip the displayed loadout at that Mannequin.",
 	},
 
-	-- 
+	--
 	HUNTERS_PATH_UNLOCKED =
 	{
 		TITLE = "Hunter's Path!",

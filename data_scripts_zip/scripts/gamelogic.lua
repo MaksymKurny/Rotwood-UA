@@ -151,9 +151,6 @@ local function LoadAssets(asset_set, savedata)
 		else
 			if settings.last_asset_set == "BACKEND" then
 				TheLog.ch.Load:print("\tUnload BE")
-				if not USE_SAVESLOT_DATA_FLOW then
-					TheSim:UnloadPrefabs(PLAYER_PREFABS)
-				end
 				if settings.last_back_end_prefabs ~= nil then
 					TheSim:UnloadPrefabs(settings.last_back_end_prefabs)
 				end
@@ -585,7 +582,12 @@ local function BeginRoom(savedata, profile, savetype)
 				WaitForLocalPlayersTask = TheGlobalInstance:DoPeriodicTask(0, function()
 					WaitForLocalPlayersTaskTimeout = WaitForLocalPlayersTaskTimeout - 1
 					raw_local_player_count = TheNet:GetNrLocalPlayers(true)
-					if raw_local_player_count > 0 and TheWorld then
+					if not raw_local_player_count then
+						ResetWaitForLocalPlayersTask()
+						TheLog.ch.Boot:printf("Error: SpawnLocalPlayers - Network session abruptly ended while waiting.")
+						return
+
+					elseif raw_local_player_count > 0 and TheWorld then
 						ResetWaitForLocalPlayersTask()
 
 						TheLog.ch.Boot:printf("SpawnLocalPlayers - Ready, task ticks waited: %d",
