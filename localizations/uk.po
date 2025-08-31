@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-31 21:47\n"
+"PO-Revision-Date: 2025-08-31 21:53\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -49516,7 +49516,7 @@ msgstr "Ресурси знайдені тут"
 #: STRINGS.UI.DUNGEONSELECTIONSCREEN.NO_ELITE_BOSS_MESSAGE
 msgctxt "STRINGS.UI.DUNGEONSELECTIONSCREEN.NO_ELITE_BOSS_MESSAGE"
 msgid "The <#RED>{name.elite_prefix} {name.rot_boss}</> for this {name.run} has not been created yet."
-msgstr "<#RED>{3:{Name.elite_prefix}} {2:{name.rot_boss}}</> для цього {name.run} ще не створено."
+msgstr "<#RED>{4:{Name.elite_prefix}} {2:{name.rot_boss}}</> для цього {name.run} ще не створено."
 
 #: STRINGS.UI.DUNGEONSELECTIONSCREEN.SUPER_FRENZY_WIDGET.CORESTONE_REWARD
 msgctxt "STRINGS.UI.DUNGEONSELECTIONSCREEN.SUPER_FRENZY_WIDGET.CORESTONE_REWARD"
@@ -53401,7 +53401,7 @@ msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.SUPERFRENZY_UNLOCKED.DESC"
 msgid "You've unlocked <#RED>{name.ascension_plus}</> hunts.\n\n"
 "The {name.c_konjur} is dense in these areas, causing <#RED>{name.elite_prefix} {name_multiple.rot_boss}</> to manifest inside."
 msgstr "Ви розблокували <#RED>{2:{name.ascension_plus}}</> полювання.\n\n"
-"Рівень {2:{name.c_konjur}} у цих місцях високий, що спричиняє появу <#RED>{name.elite_prefix} {2:{name_multiple.rot_boss}}</>."
+"Рівень {2:{name.c_konjur}} у цих місцях високий, що спричиняє появу <#RED>{5:{name.elite_prefix}}{2:{name_multiple.rot_boss}}</>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.SUPERFRENZY_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.SUPERFRENZY_UNLOCKED.TITLE"
