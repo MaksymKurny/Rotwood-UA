@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-31 18:16\n"
+"PO-Revision-Date: 2025-08-31 21:14\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -27709,9 +27709,9 @@ msgstr "{Name.gem} конжурової сутності"
 
 #: STRINGS.ITEMS.GEMS.boss_soul.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.boss_soul.slotted_desc"
-msgid "Kill an <#RED>{name.elite_prefix} {name.rot_boss}</> to consume this {name.gem} and <#RED>Imbue</> the equipped Item allowing <#RED>upgrading past Level 9</>.\n\n"
+msgid "Kill an <#RED>{name.elite_prefix} {name.rot_boss}</> to consume this {name.gem} and <#RED>Imbue</> the equipped Item allowing <#RED>upgrading past Level 10</>.\n\n"
 "Not valid in {name_multiple.weapon_crystal} or Boss Weapons."
-msgstr "Убийте <#RED>{4:{name.elite_prefix}} {2:{name.rot_boss}}</>, щоб поглинути цей {name.gem} і <#RED>наповнити</> екіпірований предмет, що дозволить <#RED>підвищувати рівень після 9-го</>.\n\n"
+msgstr "Убийте <#RED>{4:{name.elite_prefix}} {2:{name.rot_boss}}</>, щоб поглинути цей {name.gem} і <#RED>наповнити</> екіпірований предмет, що дозволить <#RED>підвищувати рівень після 10-го</>.\n\n"
 "Не діє на {2:{name_multiple.weapon_crystal}} або зброю з боса."
 
 #: STRINGS.ITEMS.GEMS.crit_chance.desc
@@ -52689,6 +52689,16 @@ msgctxt "STRINGS.UI.MAINSCREEN.SLOTS_REMOVE_PLAYER"
 msgid "Press <p bind='Controls.Digital.CANCEL' color=0> to remove"
 msgstr "Натисніть <p bind='Controls.Digital.CANCEL' color=0> щоб видалити"
 
+#: STRINGS.UI.MAINSCREEN.SLOT_CONTINUE_TO_GAME
+msgctxt "STRINGS.UI.MAINSCREEN.SLOT_CONTINUE_TO_GAME"
+msgid "Start Game"
+msgstr "Почати гру"
+
+#: STRINGS.UI.MAINSCREEN.SLOT_CONTINUE_TO_ONLINE
+msgctxt "STRINGS.UI.MAINSCREEN.SLOT_CONTINUE_TO_ONLINE"
+msgid "Continue"
+msgstr "Продовжити"
+
 #: STRINGS.UI.MAINSCREEN.SLOT_PLAYER_READY
 msgctxt "STRINGS.UI.MAINSCREEN.SLOT_PLAYER_READY"
 msgid "Ready!"
@@ -54521,7 +54531,7 @@ msgstr "Мова"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.PROFILE_NAME.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.PROFILE_NAME.DESC"
-msgid "Use the Account Name for as player name for all local players."
+msgid "Use the Account Name as player name for all local players."
 msgstr "Використовує ім'я акаунта як ім'я гравця для всіх локальних гравців."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.PROFILE_NAME.NAME
