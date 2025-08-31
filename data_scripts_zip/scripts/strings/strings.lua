@@ -887,6 +887,8 @@ STRINGS.UI =
 		DESC = "Save your favourite hunting setups.",
 		LOADOUT_EQUIP_BUTTON = "EQUIP",
 		MANNEQUIN_BUTTON = "DISPLAY\nLOADOUT",
+		HOTKEY_EQUIP = "Equip Loadout",
+		HOTKEY_MANNEQUIN = "Toggle Display Loadout",
 		TALENT_SUMMARY_BUTTON = "{name.concept_talent_tree}",
 
 		-- MANNEQUIN_SET_BUTTON = "DISPLAY",
@@ -1126,6 +1128,8 @@ STRINGS.UI =
 
 			BTN_VIEW_TALENTS = "{name.interact_tap} View {name_multiple.concept_talent}",
 
+			BTN_WELL_FULL = "{name.town_grid_cryst} Is Fully Charged!",
+
 			BTN_SWAP_HEARTSTONES = "{name.interact_tap} Swap Aspect",
 			BTN_ENABLE_HEARTSTONES = "{name.interact_hold} Enable Aspect",
 			BTN_DISABLE_HEARTSTONES = "{name.interact_hold} Disable Aspect",
@@ -1140,7 +1144,8 @@ STRINGS.UI =
 		TALENT_GROUP_TITLE = "PATH OF {source}",
 		TALENT_SOURCE_DEFAULT = "THE HUNTER",
 		TALENT_POINT_COUNT = "<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=1>{count}",
-		TALENT_RANK = "RANK: {current_rank}/{max_rank}",
+		TALENT_RANK = "RANK: {current_rank}",
+		TALENT_RANK_CAPPED = "RANK: {current_rank}/{max_rank}",
 		TALENT_POINTS = "INVESTED: {points}<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=0>/{total_points}<p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=0>",
 		TALENT_HOTKEYS =
 		{
@@ -2071,7 +2076,7 @@ STRINGS.UI.FRIENDSHIPSCREEN = {
 			},
 			pf_farm_seedgrind_unlocked = {
 				name = "{name.seed_grinder}",
-				desc = "<#RED>{name.npc_apothecary}</>'s <#RED>{name.seed_grinder}</> transforms seeds and materials into more seeds.",
+				desc = "<#RED>{name.npc_apothecary}</>'s <#RED>{name.i_seed_grinder}</> transforms seeds and materials into more seeds.",
 			},
 			pf_cook_rotatingmenu_unlocked = {
 				name = "{name_multiple.cook_rotating_recipe} Menu",
@@ -3383,7 +3388,7 @@ If you fail a run while holding a Proto-Weapon, it will <#RED>Break</> and need 
 
 	GEMTABLE_UNLOCKED =
 	{
-		TITLE = "{name.station_gems} Unlocked!",
+		TITLE = "{name.i_station_gems} Unlocked!",
 		DESC = "Use the <#RED>{name.gemtools}</> to cut <#RED>{name_multiple.gem}</> and set them in your <#RED>Weapons</>.",
 	},
 
@@ -3396,7 +3401,7 @@ If you fail a run while holding a Proto-Weapon, it will <#RED>Break</> and need 
 	SEEDGRINDER_UNLOCKED =
 	{
 		TITLE = "{name.seed_grinder} Unlocked!",
-		DESC = "Use the <#RED>{name.seed_grinder}</> to transform seeds and materials into more seeds!",
+		DESC = "Use the <#RED>{name.i_seed_grinder}</> to transform seeds and materials into more seeds!",
 	},
 
 	COOKINGTOOLS_UNLOCKED =

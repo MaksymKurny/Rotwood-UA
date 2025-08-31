@@ -6195,7 +6195,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,role_blacksmith,wf_town_has_cook].4
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,role_blacksmith,wf_town_has_cook].4"
-msgid "!neutral\n !disagree\n Och. Yer <#BLUE>{name.job_cook}'s</? fried tatties'd kill a <#RED>{name.groak}</> faster'n a <#RED>{name.weapon_cannon}</>."
+msgid "!neutral\n !disagree\n Och. Yer <#BLUE>{name.job_cook}'s</>? fried tatties'd kill a <#RED>{name.groak}</> faster'n a <#RED>{name.weapon_cannon}</>."
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,role_blacksmith,wf_town_has_dojo].1
@@ -37058,6 +37058,11 @@ msgctxt "STRINGS.UI.HEARTSCREEN.INTERACT.BTN_VIEW_TALENTS"
 msgid "{name.interact_tap} View {name_multiple.concept_talent}"
 msgstr ""
 
+#: STRINGS.UI.HEARTSCREEN.INTERACT.BTN_WELL_FULL
+msgctxt "STRINGS.UI.HEARTSCREEN.INTERACT.BTN_WELL_FULL"
+msgid "{name.town_grid_cryst} Is Fully Charged!"
+msgstr ""
+
 #: STRINGS.UI.HEARTSCREEN.INTERACT.PLACE_HEARTSHARDS
 msgctxt "STRINGS.UI.HEARTSCREEN.INTERACT.PLACE_HEARTSHARDS"
 msgid "<#KONJUR><p img='images/hud_images/hud_konjur_heart_shard_drops_currency.tex' rpad=1>{item_name} (x{count})</>"
@@ -37921,6 +37926,16 @@ msgstr ""
 #: STRINGS.UI.LOADOUTSCREEN.DESC
 msgctxt "STRINGS.UI.LOADOUTSCREEN.DESC"
 msgid "Save your favourite hunting setups."
+msgstr ""
+
+#: STRINGS.UI.LOADOUTSCREEN.HOTKEY_EQUIP
+msgctxt "STRINGS.UI.LOADOUTSCREEN.HOTKEY_EQUIP"
+msgid "Equip Loadout"
+msgstr ""
+
+#: STRINGS.UI.LOADOUTSCREEN.HOTKEY_MANNEQUIN
+msgctxt "STRINGS.UI.LOADOUTSCREEN.HOTKEY_MANNEQUIN"
+msgid "Toggle Display Loadout"
 msgstr ""
 
 #: STRINGS.UI.LOADOUTSCREEN.LOADOUT_DELETE_BUTTON
@@ -41955,6 +41970,11 @@ msgstr ""
 
 #: STRINGS.UI.TALENTSCREEN.TALENT_RANK
 msgctxt "STRINGS.UI.TALENTSCREEN.TALENT_RANK"
+msgid "RANK: {current_rank}"
+msgstr ""
+
+#: STRINGS.UI.TALENTSCREEN.TALENT_RANK_CAPPED
+msgctxt "STRINGS.UI.TALENTSCREEN.TALENT_RANK_CAPPED"
 msgid "RANK: {current_rank}/{max_rank}"
 msgstr ""
 
