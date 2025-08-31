@@ -70,7 +70,7 @@ msgstr ""
 
 #: Convo.after_insert_heart_scout_owl.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.after_insert_heart_scout_owl.HUB0.convo.giver.STATE_0.ANSWER_1"
-msgid "agent:\n !happy\n !nervous\n Oh, I don't know that much... well, not about {name.c_konjur} itself anyway. I was always fascinated by the tech, though.\n !happy\n !gesture\n My Grandpa was a genius with anything related to {name.c_konjur}. As a kit, I watched him work on all kinds of amazing things.\n player:\n Your Grandpa... wait a minute, he wasn't--?\n agent:\n !happy\n !shrug\n <#BLUE>{name.npc_grandpa} {name.flitt_lastname}</>, pioneer of {name.c_konjur} technology and inventor of the <#KONJUR>{name.town_grid_cryst}</> system? Yep. I guess it's hard to deny the family resemblance.\n !neutral\n !think\n Sorry Hunter, I didn't mean to keep it a <i>secret</> exactly, but, well... his name is a lot to live up to. He accomplished a lot in his lifetime, more than most folks dream of.\n !neutral\n !gesture\n The scientific community lost a great mind when he passed.\n player:\n Right... sorry. You must miss him a lot.\n agent:\n !neutral\n !agree\n Yeah... I just hope he'd be proud of what we're doing here. I wasn't much help to him while he was alive, but I can at least try to protect his legacy.\n !neutral\n !shocked\n A-anyways, I should stop rambling about the past. We have a bright future to push towards!\n !happy\n !point\n What do you say, Hunter? Ready to get back out there?"
+msgid "agent:\n !happy\n !nervous\n Oh, I don't know that much... well, not about {name.c_konjur} itself anyway. I was always fascinated by the tech, though.\n !happy\n !gesture\n My Grandpa was a genius with anything related to {name.c_konjur}. As a kit, I watched him work on all kinds of amazing things.\n player:\n Your Grandpa... wait a minute, he wasn't--?\n agent:\n !happy\n !shrug\n <#BLUE>{name.npc_grandpa} {name.flitt_lastname}</>, pioneer of {name.c_konjur} technology and inventor of the <#KONJUR>{name.i_town_grid_cryst}</> system? Yep. I guess it's hard to deny the family resemblance.\n !neutral\n !think\n Sorry Hunter, I didn't mean to keep it a <i>secret</> exactly, but, well... his name is a lot to live up to. He accomplished a lot in his lifetime, more than most folks dream of.\n !neutral\n !gesture\n The scientific community lost a great mind when he passed.\n player:\n Right... sorry. You must miss him a lot.\n agent:\n !neutral\n !agree\n Yeah... I just hope he'd be proud of what we're doing here. I wasn't much help to him while he was alive, but I can at least try to protect his legacy.\n !neutral\n !shocked\n A-anyways, I should stop rambling about the past. We have a bright future to push towards!\n !happy\n !point\n What do you say, Hunter? Ready to get back out there?"
 msgstr ""
 
 #: Convo.after_insert_heart_scout_owl.HUB0.convo.giver.STATE_0.END
@@ -85,7 +85,7 @@ msgstr ""
 
 #: Convo.defeated_boss_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.defeated_boss_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_1A"
-msgid "agent:\n !happy\n !agree\n I'll say. Lucky for us, our Hunter's too crafty to fall for its tricks!\n !gesture\n Now, don't forget to put that <#KONJUR>{name.i_konjur_heart}</> in the <#KONJUR>{name.town_grid_cryst}</> there at the center of camp."
+msgid "agent:\n !happy\n !agree\n I'll say. Lucky for us, our Hunter's too crafty to fall for its tricks!\n !gesture\n Now, don't forget to put that <#KONJUR>{name.i_konjur_heart}</> in the <#KONJUR>{name.i_town_grid_cryst}</> there at the center of camp."
 msgstr ""
 
 #: Convo.defeated_boss_scout_bnd.HUB0.convo.giver.STATE_0.QUESTION_1A
@@ -105,7 +105,7 @@ msgstr ""
 
 #: Convo.defeated_boss_scout_owl.HUB0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.defeated_boss_scout_owl.HUB0.convo.giver.STATE_0.ANSWER_1"
-msgid "agent:\n !happy\n !gesture\n Well, don't leave me in suspense-- pop that <#KONJUR>{name.konjur_heart}</> into the <#KONJUR>{name.town_grid_cryst}</> and let's see what happens!"
+msgid "agent:\n !happy\n !gesture\n Well, don't leave me in suspense-- pop that <#KONJUR>{name.konjur_heart}</> into the <#KONJUR>{name.i_town_grid_cryst}</> and let's see what happens!"
 msgstr ""
 
 #: Convo.defeated_boss_scout_owl.HUB0.convo.giver.STATE_0.END_OPT
@@ -125,7 +125,7 @@ msgstr ""
 
 #: Convo.defeated_boss_scout_thchr.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.defeated_boss_scout_thchr.HUB0.convo.giver.STATE_0.ANSWER_1A"
-msgid "agent:\n !happy\n !gruffnod\n Well, you rose to the challenge spectacularly. And now we have a <#KONJUR>{name.i_konjur_heart}</> to put in the <#KONJUR>{name.town_grid_cryst}</>!\n !gesture\n Wanna do the honours?"
+msgid "agent:\n !happy\n !gruffnod\n Well, you rose to the challenge spectacularly. And now we have a <#KONJUR>{name.i_konjur_heart}</> to put in the <#KONJUR>{name.i_town_grid_cryst}</>!\n !gesture\n Wanna do the honours?"
 msgstr ""
 
 #: Convo.defeated_boss_scout_thchr.HUB0.convo.giver.STATE_0.QUESTION_1A
@@ -2185,7 +2185,7 @@ msgstr ""
 
 #: Convo.dgn_whats_nimble_market.HUB0.convo.giver.STATE_0.ANSWER_3
 msgctxt "Convo.dgn_whats_nimble_market.HUB0.convo.giver.STATE_0.ANSWER_3"
-msgid "agent:\n !think\n I hath no clue.\n !happy\n !shrug\n But I'm thankful nonetheless. She is the most stalwart of squires an <#BLUE>{name.species_ogre}</> could ask for."
+msgid "agent:\n !think\n I hath no clue.\n !happy\n !shrug\n But I'm thankful nonetheless. She is the most stalwart of squires a <#BLUE>{name.species_ogre}</> could ask for."
 msgstr ""
 
 #: Convo.dgn_whats_nimble_market.HUB0.convo.giver.STATE_0.ANSWER_EXIT
@@ -2363,6 +2363,46 @@ msgctxt "Convo.first_dgn_visit_scout_grimhollow.HUB0.convo.giver.STATE_0.QUESTIO
 msgid "I'll watch out for them."
 msgstr ""
 
+#: Convo.first_dgn_visit_scout_owl.HUB0.convo.giver.STATE_0.ANSWER_WIND
+msgctxt "Convo.first_dgn_visit_scout_owl.HUB0.convo.giver.STATE_0.ANSWER_WIND"
+msgid "agent:\n !neutral\n !nervous\n Oh, did I forget to mention?\n !agree\n <#RED>{name.owlitzer_forest}'s</> full of <#RED>{name_multiple.rot}</> with <#RED>Wind</> abilities.\n !point\n If you've got <#RED>{name.heavy_weight} Class</> gear it won't bother you much, but anything lighter and you might find it hard to keep your footing."
+msgstr ""
+
+#: Convo.first_dgn_visit_scout_owl.HUB0.convo.giver.STATE_0.FINISH
+msgctxt "Convo.first_dgn_visit_scout_owl.HUB0.convo.giver.STATE_0.FINISH"
+msgid "agent:\n Good luck out there, Hunter."
+msgstr ""
+
+#: Convo.first_dgn_visit_scout_owl.HUB0.convo.giver.STATE_0.QUESTION_WIND
+msgctxt "Convo.first_dgn_visit_scout_owl.HUB0.convo.giver.STATE_0.QUESTION_WIND"
+msgid "Uh, what was that about wind?"
+msgstr ""
+
+#: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.CLOTHED
+msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.CLOTHED"
+msgid "agent:\n !neutral\n !think\n Hmm... The <#RED>{name_multiple.rot}</> here are adapted to the cold. Be wary of them using it against you!"
+msgstr ""
+
+#: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.END_QUICK
+msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.END_QUICK"
+msgid "I'm ready to go!"
+msgstr ""
+
+#: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.FINISH
+msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.FINISH"
+msgid "!neutral\n !nervous\n The temperature's so low that it won't take much to <#RED>Freeze</> you solid!\n Keep moving, Hunter!"
+msgstr ""
+
+#: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.NUDE
+msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.NUDE"
+msgid "agent:\n !neutral\n !dubious\n Maybe you should have worn more armour. The <#RED>{name_multiple.rot}</> will be ready for the cold... and might use it against you!"
+msgstr ""
+
+#: Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.OPT_SCARF
+msgctxt "Convo.first_dgn_visit_scout_sdmnt.HUB0.convo.giver.STATE_0.OPT_SCARF"
+msgid "Your scarf looks so cozy right now."
+msgstr ""
+
 #: Convo.first_dgn_visit_scout_thchr.HUB0.convo.giver.STATE_0.ANSWER_HEARMUSIC
 msgctxt "Convo.first_dgn_visit_scout_thchr.HUB0.convo.giver.STATE_0.ANSWER_HEARMUSIC"
 msgid "agent:\n !neutral\n !think\n Strange...\n !happy\n !gesture\n Anyways, as I was saying-- I couldn't spot a <#RED>{name.rot_boss}</>, but I did see a gigantic bug carcass. It could be that <i>was</> the <#RED>{name.rot_boss}</> and nature's already done your job for you.\n !point\n Either way, we should check it out. There might be a <#KONJUR>{name.i_konjur_heart}</> ripe for the picking."
@@ -2385,12 +2425,12 @@ msgstr ""
 
 #: Convo.first_heart_shard_scout.ATTRACT0.holding_shard.giver.STATE_0.ANSWER_CAUTIOUS
 msgctxt "Convo.first_heart_shard_scout.ATTRACT0.holding_shard.giver.STATE_0.ANSWER_CAUTIOUS"
-msgid "agent:\n !neutral\n !angry\n Of course not!\n !think\n Well... I don't <i>think</> so. I suppose the whole point of an experiment is that you're not one hundred percent sure what will happen...\n !point\n But I am <i>reasonably certain</> you will be in no danger, Hunter.\n !gesture\n All you need to do is put that {name.c_konjur_heart_shard} into the <#KONJUR>{name.town_grid_cryst}</> over there."
+msgid "agent:\n !neutral\n !angry\n Of course not!\n !think\n Well... I don't <i>think</> so. I suppose the whole point of an experiment is that you're not one hundred percent sure what will happen...\n !point\n But I am <i>reasonably certain</> you will be in no danger, Hunter.\n !gesture\n All you need to do is put that {name.c_konjur_heart_shard} into the <#KONJUR>{name.i_town_grid_cryst}</> over there."
 msgstr ""
 
 #: Convo.first_heart_shard_scout.ATTRACT0.holding_shard.giver.STATE_0.ANSWER_OK
 msgctxt "Convo.first_heart_shard_scout.ATTRACT0.holding_shard.giver.STATE_0.ANSWER_OK"
-msgid "agent:\n !happy\n !clap\n Wonderful! Alright, all you need to do is put that {name.c_konjur_heart_shard} into the <#KONJUR>{name.town_grid_cryst}</> over there."
+msgid "agent:\n !happy\n !clap\n Wonderful! Alright, all you need to do is put that {name.c_konjur_heart_shard} into the <#KONJUR>{name.i_town_grid_cryst}</> over there."
 msgstr ""
 
 #: Convo.first_heart_shard_scout.ATTRACT0.holding_shard.giver.STATE_0.JOIN
@@ -2415,17 +2455,17 @@ msgstr ""
 
 #: Convo.first_heart_shard_scout.ATTRACT1.deposited_shard.giver.STATE_0.JOIN
 msgctxt "Convo.first_heart_shard_scout.ATTRACT1.deposited_shard.giver.STATE_0.JOIN"
-msgid "agent:\n !happy\n !clap\n I knew it! The <#KONJUR>{name.town_grid_cryst}</> still works!\n !neutral\n !think\n But the {name.c_konjur_heart_shard} wasn't quite enough. We'll need a more concentrated power source...\n player:\n Where will we get that?\n agent:\n !happy\n !notebook\n Well... someone very knowledgeable in this area once told me that over time, the {name.c_konjur} in <#RED>Rots'</> bodies starts to crystallize, forming {name_multiple.c_konjur_heart_shard} like the one you found.\n !think\n Now, if a <#RED>Rot</> grew large and powerful enough, it stands to reason that the crystallized {name.c_konjur} in their body would be extremely potent.\n !shrug\n <#RED>{name_multiple.rot_boss}</> like that are pretty rare, but lucky for us, we already know where one is. Right here in the <#BLUE>{name.treemon_forest}</>...\n player:\n Wait... you don't mean the {name.megatreemon} that knocked down the {name.damselfly}?\n agent:\n !happy\n !point\n Bingo! In retrospect, I guess it was sort of lucky that she revealed her location so quickly.\n !neutral\n !nervous\n Err-- well, not so lucky considering it meant we crash-landed and lost everyone...\n !dejected\n Actually, just forget I said anything. L-let's just focus on finding the rest of the crew, then we'll worry about the <#RED>{name.megatreemon}</>."
+msgid "agent:\n !happy\n !clap\n I knew it! The <#KONJUR>{name.i_town_grid_cryst}</> still works!\n !neutral\n !think\n But the {name.c_konjur_heart_shard} wasn't quite enough. We'll need a more concentrated power source...\n player:\n Where will we get that?\n agent:\n !happy\n !notebook\n Well... someone very knowledgeable in this area once told me that over time, the {name.c_konjur} in <#RED>Rots'</> bodies starts to crystallize, forming {name_multiple.c_konjur_heart_shard} like the one you found.\n !think\n Now, if a <#RED>Rot</> grew large and powerful enough, it stands to reason that the crystallized {name.c_konjur} in their body would be extremely potent.\n !shrug\n <#RED>{name_multiple.rot_boss}</> like that are pretty rare, but lucky for us, we already know where one is. Right here in the <#BLUE>{name.treemon_forest}</>...\n player:\n Wait... you don't mean the {name.megatreemon} that knocked down the {name.i_damselfly}?\n agent:\n !happy\n !point\n Bingo! In retrospect, I guess it was sort of lucky that she revealed her location so quickly.\n !neutral\n !nervous\n Err-- well, not so lucky considering it meant we crash-landed and lost everyone...\n !dejected\n Actually, just forget I said anything. L-let's just focus on finding the rest of the crew, then we'll worry about the <#RED>{name.megatreemon}</>."
 msgstr ""
 
 #: Convo.first_heart_shard_scout.ATTRACT1.deposited_shard.giver.STATE_0.TALK_CONTEXT
 msgctxt "Convo.first_heart_shard_scout.ATTRACT1.deposited_shard.giver.STATE_0.TALK_CONTEXT"
-msgid "agent:\n !happy\n !dubious\n So? What happened when you put the {name.c_konjur_heart_shard} into the <#KONJUR>{name.town_grid_cryst}</>? Spare no detail!\n player:\n It reacted to the {name.konjur_heart_shard}. I think it powered up a little?"
+msgid "agent:\n !happy\n !dubious\n So? What happened when you put the {name.c_konjur_heart_shard} into the <#KONJUR>{name.i_town_grid_cryst}</>? Spare no detail!\n player:\n It reacted to the {name.konjur_heart_shard}. I think it powered up a little?"
 msgstr ""
 
 #: Convo.first_heart_shard_scout.ATTRACT1.deposited_shard.giver.STATE_0.TALK_NOCONTEXT
 msgctxt "Convo.first_heart_shard_scout.ATTRACT1.deposited_shard.giver.STATE_0.TALK_NOCONTEXT"
-msgid "agent:\n !happy\n !dubious\n So? What happened? Spare no detail!\n player:\n The {name.town_grid_cryst} reacted to the {name.konjur_heart_shard}. I think it powered up a little?"
+msgid "agent:\n !happy\n !dubious\n So? What happened? Spare no detail!\n player:\n The {name.i_town_grid_cryst} reacted to the {name.konjur_heart_shard}. I think it powered up a little?"
 msgstr ""
 
 #: Convo.pop_quiz_dodge.HUB0.convo.giver.STATE_0.ADDEND
@@ -2755,7 +2795,7 @@ msgstr ""
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_READY
 msgctxt "Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.ANSWER_READY"
-msgid "agent:\n !happy\n !clap\n The <#RED>{name.damselfly}</> awaits!"
+msgid "agent:\n !happy\n !clap\n The <#RED>{name.i_damselfly}</> awaits!"
 msgstr ""
 
 #: Convo.twn_berna_and_hamish_scout.HUB0.convo.giver.STATE_0.QUESTION_FOXTAILS
@@ -3025,7 +3065,7 @@ msgstr ""
 
 #: Convo.twn_first_alphonse_armor.HUB0.convo.giver.STATE_0.QUESTION_MERCHANT_DESC
 msgctxt "Convo.twn_first_alphonse_armor.HUB0.convo.giver.STATE_0.QUESTION_MERCHANT_DESC"
-msgid "A pink-haired ogre with a serious attitude problem."
+msgid "A pink-haired {name.species_ogre} with a serious attitude problem."
 msgstr ""
 
 #: Convo.twn_first_alphonse_armor.HUB0.convo.giver.STATE_0.QUESTION_MERCHANT_SWOON
@@ -3080,7 +3120,7 @@ msgstr ""
 
 #: Convo.twn_first_death_scout.HUB0.convo.giver.STATE_0.ANSWER_DEAD
 msgctxt "Convo.twn_first_death_scout.HUB0.convo.giver.STATE_0.ANSWER_DEAD"
-msgid "agent:\n !neutral\n !angry\n Of course not! I'm better at rescues than that.\n !shrug\n ...You did get a teensy bit knocked out though. Luckily, I was able to snag you with the <#RED>{name.damselfly}'s</> rope claw before things got <i>too</> dire."
+msgid "agent:\n !neutral\n !angry\n Of course not! I'm better at rescues than that.\n !shrug\n ...You did get a teensy bit knocked out though. Luckily, I was able to snag you with the <#RED>{name.i_damselfly}'s</> rope claw before things got <i>too</> dire."
 msgstr ""
 
 #: Convo.twn_first_death_scout.HUB0.convo.giver.STATE_0.ANSWER_FASTER
@@ -3200,7 +3240,7 @@ msgstr ""
 
 #: Convo.twn_fn_unlocked_armorsmith.ATTRACT0.convo.giver.STATE_0.ANSWER_1
 msgctxt "Convo.twn_fn_unlocked_armorsmith.ATTRACT0.convo.giver.STATE_0.ANSWER_1"
-msgid "agent:\n !neutral\n !dubious\n And I'm glad to see you're in one piece.\n !happy\n !gesture\n <#BLUE>{name.npc_lunn}</> and I really wanna make sure you stay that way.\n So now that we're back, we'll try to figure out some <#RED>Armour Upgrades</> for you.\n !point\n [face:dummy] In the meantime, change up your equipment with the <#RED>Armoury Dummy</> over there!"
+msgid "agent:\n !neutral\n !dubious\n And I'm glad to see you're in one piece.\n !happy\n !gesture\n <#BLUE>{name.npc_lunn}</> and I really wanna make sure you stay that way.\n So now that we're back, we'll try to figure out some <#RED>Armour Upgrades</> for you.\n !point\n [face:dummy] In the meantime, change up your equipment with the <#RED>{name.i_station_armorsmith}</> over there!"
 msgstr ""
 
 #: Convo.twn_fn_unlocked_armorsmith.ATTRACT0.convo.giver.STATE_0.ANSWER_2A
@@ -3530,7 +3570,7 @@ msgstr ""
 
 #: Convo.twn_fourth_heart_handin_scout.HUB0.convo.giver.STATE_0.ANSWER_2
 msgctxt "Convo.twn_fourth_heart_handin_scout.HUB0.convo.giver.STATE_0.ANSWER_2"
-msgid "agent:\n !happy\n !disagree\n Ha. You really are one-of-a-kind.\n !point\n Well, we've all waited long enough! Go put that last <#KONJUR>{name.i_konjur_heart}</> in the <#KONJUR>{name.town_grid_cryst}</>!"
+msgid "agent:\n !happy\n !disagree\n Ha. You really are one-of-a-kind.\n !point\n Well, we've all waited long enough! Go put that last <#KONJUR>{name.i_konjur_heart}</> in the <#KONJUR>{name.i_town_grid_cryst}</>!"
 msgstr ""
 
 #: Convo.twn_fourth_heart_handin_scout.HUB0.convo.giver.STATE_0.OPT_2A
@@ -3560,7 +3600,237 @@ msgstr ""
 
 #: Convo.twn_friend_give_gift_apothecary.FRIEND_GIFT0.give_gift.giver.STATE_0.GIVE_GIFT
 msgctxt "Convo.twn_friend_give_gift_apothecary.FRIEND_GIFT0.give_gift.giver.STATE_0.GIVE_GIFT"
-msgid "agent:\n !neutral\n !dubious\n {name.apothecary_sniff} Smells like something from the wilds, but it doesn't <i>look</> like something from the wilds...\n player:\n It's a souvenir from my Hunt!\n agent:\n !neutral\n !nervous\n Souvenir...? O-oh... um, o-okay...\n player:\n I didn't mean to make you nervous. Should I take it back?\n agent:\n !angry\n {name.apothecary_hiss} No! It's mine!\n !think\n Um... but I guess since you did something nice, I can let you use the <#RED>{name.seed_grinder}</>. I just finished fixing it up. \n !neutral\n !closedeyes\n I'm done talking now. Bye."
+msgid "agent:\n !neutral\n !dubious\n {name.apothecary_sniff} Smells like something from the wilds, but it doesn't <i>look</> like something from the wilds...\n player:\n It's a souvenir from my Hunt!\n agent:\n !neutral\n !nervous\n Souvenir...? O-oh... um, o-okay...\n player:\n I didn't mean to make you nervous. Should I take it back?\n agent:\n !angry\n {name.apothecary_hiss} No! It's mine!\n !think\n Um... but I guess since you did something nice, I can let you use the <#RED>{name.i_seed_grinder}</>. I just finished fixing it up. \n !neutral\n !closedeyes\n I'm done talking now. Bye."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT0.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT0.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !happy\n !shocked\n A present? For <i>me?!</> It's even got wrapping paper, and a real bow and <i>everything!</>\n !happy\n !think\n I honestly can't even remember the last time someone gave me a present.\n player:\n Really? That's...\n agent:\n !happy\n !point\n Haha! Don't worry about it! Now I just wish I had something to give <i>you</>. Let me think... What if I could make your <#RED>armour</> even better than it is now?\n [notify:reward_def]\n player:\n Really? That'd be amazing.\n agent:\n !nervous\n Of course! I'm an {name.job_armorsmith}. <#BLUE>{name.npc_lunn}</> and I can put an extra sparkle on anything!"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT1.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT1.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !happy\n !dubious\n What are you hiding behind your back, Hunter? You <i>know</> you can't keep a secret from me!\n player:\n You caught me-- I brought you another souvenir from my Hunt!\n agent:\n !happy\n !bliss\n <i>Oooooooooh--</> a scarf pin! It looks <i>just</> like the one I lost fending off a <#RED>{name.groak}</> that tried to swallow me whole!\n !happy\n !shocked\n Actually, wait a minute... I think this <i>is</> the scarf pin I jabbed into that <#RED>{name.groak}'s</> gullet! Hilda! You've come back to me!\n player:\n Wait, it's <i>yours?!</> I guess this isn't much of a gift after all...\n agent:\n !happy\n !shocked\n Are you kidding?! Being reunited with an old friend is the best gift <i>ever!</>\n !think\n You know, I've actually been working on something for you too. Now seems like the perfect time to give it to you!\n [notify:reward_def]"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT2.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT2.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !happy\n !wavelunn\n Eeeeeeeee! A present!! What do you think it is, <#BLUE>{name.npc_lunn}</>?\n player:\n Funny you should mention {name.npc_lunn}-- it's kinda for him, too.\n agent:\n !happy\n !bliss\n A whetstone! Aww Hunter, you're so sweet! Look <#BLUE>{name.npc_lunn}</>, it's a whetstone just for you!\n !neutral\n !wavelunn\n ...Oh. Don't take it like that, I'm sure they weren't trying to imply anything about your sharpness.\n !dejected\n Err... sorry, Hunter. I think you're gonna be in <#BLUE>{name.npc_lunn}'s</> bad books for a while.\n player:\n Huh?! But I-- all I meant--!\n agent:\n !happy\n !dubious\n Don't worry, he'll come around. <i>I</> thought it was a lovely gift."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT3.give_gift.giver.STATE_0.FORTIFY
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT3.give_gift.giver.STATE_0.FORTIFY"
+msgid "agent:\n !happy\n !dubious\n You know, you've done so much for me, Hunter. For all of us, really. You deserve something special every once in a while too!\n !netural\n !dejected\n I had a look at that armour you're getting from {name.npc_market_merchant}. It's great. Too great.\n !dubious\n I can upgrade that new {name.i_item_rarity_rare} armour all the way to <#RED>Level {max_level_rare}</>, but I can't get your old {name.i_item_rarity_uncommon} stuff beyond <#RED>Level {max_level_uncommon}</>.\n player:\n What can we do?\n agent:\n !happy\n !nervous\n Weeelllll... I've got an idea! If you help me beef up my sewing kit, <#BLUE>{name.npc_lunn}</> and I could really give your armour some pizzazz!\n !think\n With an <#RED>{name.armourtools1}</>, I could upgrade your old armour to {name.i_item_rarity_rare}. I just need some materials.\n !happy\n !clap\n Lemme put together a list of stuff we'll need!"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT3.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT3.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !happy\n !clap\n Ohmygosh, a back-scratcher! I've always wanted one of these!\n !neutral\n !think\n <#BLUE>{name.npc_lunn}'s</> offered to help a few times, <z 0.7>but between you and me, I didn't think that would end well...</> Anyway, I'm gonna call him Balki!\n player:\n You're naming the back-scratcher, too?\n agent:\n !happy\n !dubious\n Of course! Why not?\n !neutral\n !shocked\n <i>(gasp)</> Does he already have a name? How totally inconsiderate of me not to ask!\n player:\n Nope, never mind. Balki's a great name.\n agent:\n !happy\n !laugh\n Whew-- I was worried for a second there. Thanks Hunter!"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT4.give_gift.giver.STATE_0.ANSWER_GIFT_A
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT4.give_gift.giver.STATE_0.ANSWER_GIFT_A"
+msgid "agent:\n !happy\n !point\n I suuuuuper recommend it!"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT4.give_gift.giver.STATE_0.ANSWER_GIFT_B
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT4.give_gift.giver.STATE_0.ANSWER_GIFT_B"
+msgid "agent:\n !happy\n !point\n Pretty great, right?"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT4.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT4.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !happy\n !bliss\n Ohmygosh, for me? How are you both a totally fearsome Hunter <i>and</> a super sweetie?\n player:\n What about you? You're always so cheerful and confident. How do you do it?\n agent:\n !happy\n !think\n Oh! Well, I just take every bad thing that's happened to me and pack it up into a little box in my brain.\n !happy\n !gesture\n Then I take that box, and hide it deep, deep, <i>deeeeep</> down, where I can't think about it anymore. It's like, super easy once you get the hang of it!"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT4.give_gift.giver.STATE_0.QUESTION_GIFT_A
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT4.give_gift.giver.STATE_0.QUESTION_GIFT_A"
+msgid "Neat trick! I'll give it a try!"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT4.give_gift.giver.STATE_0.QUESTION_GIFT_B
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT4.give_gift.giver.STATE_0.QUESTION_GIFT_B"
+msgid "That's... um..."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT5.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT5.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !happy\n !clap\n Oooooh, thanks Hunter! I'll have to open this later, I'm a little busy right now.\n player:\n What's going on?\n agent:\n !happy\n !wavelunn\n We're playing hide and seek! I found <#BLUE>{name.npc_lunn}</> here in a snap, but Balki's <i>really</> good at hiding.\n player:\n Balki?\n agent:\n !neutral\n !shocked\n The back-scratcher you gave me! You didn't forget, did you?\n !happy\n !gesture\n Anyways, he and <#BLUE>{name.npc_lunn}</> have really been getting along. I think it's safe to say you've been forgiven for the whetstone incident.\n player:\n Ha... glad to hear it!"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT6.give_gift.giver.STATE_0.ANSWER_GIFT_A
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT6.give_gift.giver.STATE_0.ANSWER_GIFT_A"
+msgid "agent:\n !neutral\n !angry\n I know! I'm really happy for them-- I <i>am!</> But... if <#BLUE>{name.npc_lunn}</> and Balki start spending all their time together...\n !neutral\n !shocked\n Will I become a <i>third wheel?!</>"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT6.give_gift.giver.STATE_0.ANSWER_GIFT_B
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT6.give_gift.giver.STATE_0.ANSWER_GIFT_B"
+msgid "agent:\n !neutral\n !angry\n Ugh, I can't believe I'm saying this, but now isn't the time for gossiping! This is serious!\n !neutral\n !nervous\n If <#BLUE>{name.npc_lunn}</> and Balki start spending all their time together... Where does that leave me? Will I become a <i>third wheel?!</>"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT6.give_gift.giver.STATE_0.FORTIFY
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT6.give_gift.giver.STATE_0.FORTIFY"
+msgid "agent:\n !dejected\n That {name.i_item_rarity_epic} armour you're getting from {name.npc_market_merchant} is impressive. Like, upgrade to <#RED>Level {max_level_epic}</> impressive.\n !dubious\n With this sewing kit I can only get your old {name.i_item_rarity_rare} stuff to <#RED>Level {max_level_rare}</>.\n !think\n What if I made a <#RED>{name.armourtools2}</>? With that, I could upgrade your old {name.i_item_rarity_rare} armour to {name.i_item_rarity_epic} <#RED>Level {max_level_epic}</> armour!\n !point\n I'll need a few things... But you can grab them for me!\n !clap\n Oooh! I'll write up a list in the <#RED>Armoury</>!"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT6.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT6.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !neutral\n !gesture\n Oh. Thanks Hunter.\n player:\n Is something wrong? You seem kinda down.\n agent:\n !neutral\n !nervous\n N-nothing, it's just... it's <#BLUE>{name.npc_lunn}</> and Balki... they've been getting <i>really</> close. Then just this morning, I saw them...\n !shocked\n <i>Canoodling!</>"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT6.give_gift.giver.STATE_0.JOIN
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT6.give_gift.giver.STATE_0.JOIN"
+msgid "player:\n {name.npc_armorsmith}... I don't think that's possible.\n agent:\n !neutral\n !angry\n How can you say that? You don't <i>know!</> What if they get tired of me, and go off on their own? Just like... just like...\n player:\n Just like who?\n agent:\n !neutral\n !disagree\n Oh-- ha ha. What was I saying? Umm, sorry Hunter, I should focus on your armour."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT6.give_gift.giver.STATE_0.QUESTION_GIFT_A
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT6.give_gift.giver.STATE_0.QUESTION_GIFT_A"
+msgid "Your leather cutter and the back-scratcher? Um... good for them?"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT6.give_gift.giver.STATE_0.QUESTION_GIFT_B
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT6.give_gift.giver.STATE_0.QUESTION_GIFT_B"
+msgid "Ooooh this is <i>juicy!</> Tell me more!"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT7.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT7.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !happy\n !gesture\n Thanks, Hunter. Sorry for acting toootally weird before, I don't know what got into me! But don't worry, I'm feeling all back to normal now!\n player:\n {name.npc_armorsmith}... did someone leave you all alone, once?\n agent:\n !neutral\n !shocked\n Wh-what do you mean? I've never been alone, I've <i>always</> had someone by my side.\n player:\n You mean {name.npc_lunn}?\n agent:\n !neutral\n !angry\n What's so wrong with that? I know people think it's weird-- I've heard the things some folks whisper about me. But you know what? My <i>things</> are always there for me when I need them.\n !neutral\n !point\n Even you-- it seems like we're friends now, but what happens when this expedition's over? You'll go off to your next adventure and you'll never think about me again.\n !shrug\n But all the souvenirs you gave me? <i>Those</> will stay with me. That's the way it always is.\n player:\n I wouldn't do that!\n agent:\n !neutral\n !point\n That's what <i>everyone</> says to your <i>face</>, but they never mean it.\n player:\n So {name.npc_lunn} and Hilda... were they from people who left you behind?\n agent:\n !neutral\n !shocked\n I... th-they... they said they'd be right back... what did I do wrong?\n !angry\n No, I don't wanna think about this stuff! La-la-la-la-- not thinking about it!\n player:\n {name.npc_armorsmith}--\n agent:\n !bliss\n La-la-la-- sorry, can't hear yooouuuu!"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT8.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT8.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !neutral\n !gesture\n <i>(sniffle)</> Hi Hunter. Thanks for the present.\n player:\n Hey. Last time we talked... I'm sorry I stirred up bad memories for you.\n agent:\n !neutral\n !disagree\n No, it's... it's okay. Well, I mean it's <i>not</>, but... maybe it's okay if I don't always pretend I'm okay. You know?\n player:\n I think so. Wanna talk about it?\n agent:\n !happy\n !shrug\n Ha. Not really. I think... I need to let myself have these feelings first, before I let them out to anyone else. Maybe one day I'll be ready to talk about it with someone, but... not today.\n player:\n If that day ever comes, I'll be there.\n agent:\n !happy\n !gesture\n Yeah... I actually think you will."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT9.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_armorsmith.FRIEND_GIFT9.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !happy\n !think\n I appreciate the thought Hunter, but you know... I've started to realize that maybe I don't need <i>things</> as much as I thought I did...\n !wavelunn\n Oh-- haha, don't worry <#BLUE>{name.npc_lunn}</>, of <i>course</> I wasn't talking about <i>you!</>\n player:\n Heh... I guess some things never change.\n agent:\n !happy\n !think\n Yeah. You know, I was thinking about it... even the best of friends can't be with each other <i>all</> the time. So I had a great idea-- I made a souvenir for <i>you!</>\n !bliss\n Your own loveable, huggable, travel-sized <#BLUE>mini-Berna</>!\n player:\n <i>(gasp!)</> What's that, mini-Berna? I'm the coolest, best-looking Hunter you've ever met?\n agent:\n !happy\n !shocked\n Ohmygosh mini-Berna, you can't just <i>say</> stuff like that! People are gonna <i>talk!</>"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT0.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT0.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !neutral\n !dubious\n Hmph. What's this? Some kinda bribe?\n player:\n Huh-- what? No! It's a souvenir from my Hunt!\n agent:\n !neutral\n !shrug\n A souvenir? What are ye givin' it ta me for?\n player:\n Um... kindness? Friendship?\n agent:\n !neutral\n !think\n Huh... I'll tell ye what. Since yer feelin' generous, how 'bout directing it someplace useful?\n !shrug\n Me <#RED>smithing tools</> and forge can give extra <i>oompf</i> to yer weapons.\n [notify:reward_def]\n !dubious\n All ye've gotta do is go out into the wilds an' get the goods I need.\n !point\n Got it?"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT1.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT1.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !neutral\n !dubious\n What's this s'posed ta be? Some wee scrap o' fabric?\n player:\n It's a bookmark! {name.npc_scout} tells me you're an avid reader.\n agent:\n !neutral\n !shocked\n Err... not sure where they got that from.\n player:\n Wasn't it your novel they found, with two hammers kissing on the cover--?\n agent:\n !neutral\n !closedeyes\n ...Let's stop talking. Aye?"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT2.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT2.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !neutral\n !closedeyes\n Hmph. Must've cleared all the <#RED>{name_multiple.rot}</> out o' the <#BLUE>Rotwood</> if ye've got time ta pester me with this.\n player:\n Aw c'mon! I think deep down you like when I bring you souvenirs.\n agent:\n !neutral\n !disagree\n Bah. Ye dinnae know a thing about me.\n player:\n I would if you opened up a little.\n agent:\n !neutral\n !point\n Now ye listen here. I dinnae care for ye always tryin' ta pry into me business.\n !gruffnod\n Keep ta yerself, and ye won't have any problems. That's what I always say."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT3.give_gift.giver.STATE_0.ANSWER_GIFT_A
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT3.give_gift.giver.STATE_0.ANSWER_GIFT_A"
+msgid "agent:\n !neutral\n !disagree\n {name.blacksmith_grunt} Sorry. If ye don't wanna talk, ye don't have ta.\n !gesture\n But if ye just need ta share the silence with someone... ye know where I am."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT3.give_gift.giver.STATE_0.ANSWER_GIFT_B
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT3.give_gift.giver.STATE_0.ANSWER_GIFT_B"
+msgid "agent:\n !neutral\n !dubious\n Hmph. Yer made of tougher stuff than I thought.\n !gesture\n Fair enough. But if ye just need ta share the silence with someone... ye know where I am."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT3.give_gift.giver.STATE_0.FORTIFY
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT3.give_gift.giver.STATE_0.FORTIFY"
+msgid "agent:\n ...Aye. There's work ta be done.\n !point\n Had a look at those {name.i_item_rarity_rare} weapons that you've brought back on your {name_multiple.run}.\n !gruffnod\n They're finer work than yer {name.i_item_rarity_uncommon} weapons and I can upgrade 'em further.\n !gesture\n I left a lot o' me <#RED>smithing tools</> behind when we set out for this expedition-- If ye help me make a new set of <#RED>{name.weapontools1}</>, I could reforge yer old {name.i_item_rarity_uncommon} weapons ta be stronger too.\n !dubious\n I'll need more materials to make 'em. Check the <#RED>Weapon Racks</> for a list.\n player:\n Tempting... but why did you leave those tools behind in the first place?\n agent:\n !neutral\n !think\n Had ta... leave in a bit of a hurry, ye see. Let's leave it at that."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT3.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT3.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !neutral\n !closedeyes\n {name.blacksmith_grunt} Fine. Give it here.\n !gesture\n ...Hey Hunter. Ye've been looking a little worse for wear lately. Me weapons haven't been lettin' ye down out there, have they?\n player:\n No, they're fine. Thanks for asking, {name.npc_blacksmith}.\n agent:\n !neutral\n !dubious\n ...So there's somethin' else botherin' ye? Out with it, then.\n player:\n <i>Now</> who's prying?\n agent:\n !neutral\n !shocked\n Err-- right. Yer business is yer business...\n !think\n I just figure ye must be under a lot of pressure, what with the whole <#BLUE>Rotwood</> dependin' on ye and all."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT3.give_gift.giver.STATE_0.QUESTION_GIFT_A
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT3.give_gift.giver.STATE_0.QUESTION_GIFT_A"
+msgid "Not exactly helping..."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT3.give_gift.giver.STATE_0.QUESTION_GIFT_B
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT3.give_gift.giver.STATE_0.QUESTION_GIFT_B"
+msgid "Pressure? What pressure? I'm totally fine!"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT4.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT4.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !neutral\n !gesture\n Hunter... why do ye keep doin' this?\n player:\n What, don't you like cool souvenirs?\n agent:\n !neutral\n !think\n What are ye hopin' ta get out of it? With the type I ran with back in <#BLUE>the Brinks</>, nothing came without strings attached.\n player:\n Err... what 'type' did you run with, exactly?\n agent:\n !neutral\n !think\n Before joinin' <i>this</> merry crew?  Hmph... I s'pose there's no harm in tellin' ye that much...\n !gesture\n I was a member o' the Blacksmith's Guild. If ye wanna set up shop in <#BLUE>the Brinks</>, 'tis all but required.\n !gruffnod\n The Guild looks out fer its own. If a member has a pesky 'problem', the Guild sees it... 'taken care of'.\n !point\n But ye always have ta pay yer dues. If ye don't, ye might find <i>yerself</> becoming a 'problem'.\n player:\n That sounds ominous...\n agent:\n !neutral\n !point\n They're a rough bunch, to be sure. But if ye've got wits enough ta keep yer head down and trust no one, ye can do alright for yerself.\n player:\n So what made you leave?\n agent:\n !neutral\n !closedeyes\n ...I s'pose I let me wits dull a bit over time. A mistake."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT5.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT5.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !neutral\n !disagree\n Hmph. Ye should be thinkin' less about bringin' me souvenirs, and more about keepin' yerself safe out there.\n !point\n Ye were lookin' a mite banged-up last time <#BLUE>{name.npc_scout}</> dragged ye back ta camp.\n player:\n Aww, have you been worrying about me?\n agent:\n !neutral\n !think\n {name.blacksmith_grunt}... No. Maybe. <z 0.7>A little...</>\n !angry\n Bring a good {name.i_item_rarity_epic} weapon when ye go out there, ye ken? And armour, too! Don't want ye bein' a meal for the worms.\n player:\n I knew you had a soft side under that grumpy exterior!\n agent:\n !neutral\n !point\n ...Don't ye go tellin' anyone. I mean it.\n player:\n I promise, your secret's safe with me!\n agent:\n !happy\n !dubious\n Hmph. It'd better be. Ye know I dinnae take givin' away me secrets lightly.\n !neutral\n !nervous\n Hunter... Somethin' you <i>could</i> fetch me...\n !gesture\n With some <#RED>{name.weapontools2}</>, I could upgrade yer old {name.i_item_rarity_rare} gear so it's not so laggard.\n !agree\n All I need from ye are a few raw materials. A win-win, aye?\n player:\n Thanks for thinking of me {name.npc_blacksmith}.\n agent:\n !neutral\n !dubious\n Aye, err... Doing what's best for the {name_multiple.foxtails}, is all."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT6.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT6.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !neutral\n !dubious\n Och, another-- wait... is this...?\n player:\n A new book! Well, not 'new' exactly, I found it on my Hunt.\n agent:\n !neutral\n !shocked\n <i>'A Royal Welding'</>, fourth book in the Forged Bonds Saga... this hasnae been in print since the eruption...!\n player:\n A-are you okay? Are you mad? If you don't like it--\n agent:\n !happy\n !nervous\n No! {name.blacksmith_grunt} Err, no. It's... actually... one o' me favourites...\n !happy\n !gesture\n Erm... Thanks, Hunter. This is... very thoughtful of ye.\n player:\n I gotta say, you have unexpected tastes in books.\n agent:\n !happy\n !think\n Hmph. Well. I wasn't the one reading 'em ta start with-- but she'd leave 'em around the shop, and one day I got curious...\n player:\n 'She'?\n agent:\n !neutral\n !shocked\n Ah! Slip o' the tongue. Just forget it, aye?\n !closedeyes\n ...I have work that needs doin'. See ye round, Hunter."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT7.give_gift.giver.STATE_0.ANSWER_GIFT_A
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT7.give_gift.giver.STATE_0.ANSWER_GIFT_A"
+msgid "agent:\n !neutral\n !angry\n Aren't ye?!"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT7.give_gift.giver.STATE_0.ANSWER_GIFT_B
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT7.give_gift.giver.STATE_0.ANSWER_GIFT_B"
+msgid "agent:\n !neutral\n !angry\n Do I?!"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT7.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT7.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !neutral\n !dubious\n What's this here-- an oil lamp? Haven't seen one o' these since the old days.\n player:\n I know you like to read at night. I thought this would help!\n agent:\n !happy\n !gesture\n ...Aye. It will. Thanks, Hunter.\n player:\n Hey {name.npc_blacksmith}... who is the 'she' you mentioned before?\n agent:\n !neutral\n !closedeyes\n ...I thought I told ye ta forget about that.\n player:\n I know, but--\n agent:\n !neutral\n !angry\n Ye just can't keep yerself from pryin' into me business, can ye?\n !neutral\n !point\n I know what yer tryin' ta do, Hunter. Butterin' me up, hopin' I'll let something slip-- somethin' ye can use against me..."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT7.give_gift.giver.STATE_0.JOIN
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT7.give_gift.giver.STATE_0.JOIN"
+msgid "agent:\n !neutral\n !disagree\n ...No. Yer right. Sorry, Hunter. Went a bit off me head there.\n player:\n It's okay. Maybe instead of talking, we could... share the silence?\n agent:\n !happy\n Heh. Aye. I'd like that."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT7.give_gift.giver.STATE_0.QUESTION_GIFT_A
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT7.give_gift.giver.STATE_0.QUESTION_GIFT_A"
+msgid "W-wait, that's not what I'm trying to do at all!"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT7.give_gift.giver.STATE_0.QUESTION_GIFT_B
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT7.give_gift.giver.STATE_0.QUESTION_GIFT_B"
+msgid "Come on, you know that's not true."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT8.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT8.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !neutral\n !gesture\n Thanks, Hunter. I've been thinkin', maybe it's time I fessed up.\n !think\n Ye know... ye remind me of her sometimes. My Billie. Brave as a lion, and stubborn as an ox.\n !shrug\n We weren't related by blood-- I took her on as an apprentice when I was settin' up me forge out in <#BLUE>the Brinks</>. But she was the closest thing ta family I ever had.\n player:\n What happened to her?\n agent:\n !neutral\n !point\n Och. Sold me out to the Blacksmith's Guild, the wee bampot!\n player:\n WHAT?!\n agent:\n !neutral\n !gruffnod\n Aye. Business had started ta pick up. She'd started showin' an interest in organizin' the ledgers. Fool that I am, I thought nothin' of it.\n !shrug\n Well, one day the Guild comes a-knockin'. Turns out <i>someone</> had been doctorin' the books, cheatin' the Guild out of their cut o' me forge's profits. And the paper trail all led back ta me.\n player:\n So what did you do?\n agent:\n !neutral\n !point\n I high-tailed it out o' there as fast as me legs would carry me!\n !gesture\n Lucky fer me, I found this little expedition plannin' on flying out ta <#BLUE>the Rotwood</>. <#BLUE>{name.npc_scout}</> was lookin' fer a blacksmith, and I figured it was the perfect way ta lie low while I waited for the heat ta die down.\n player:\n Wow... I'm starting to get why you don't open up easily.\n agent:\n !neutral\n !think\n Aye. 'Tis a funny thing, though... when I think about Billie, cheatin' the Guild, doctorin' the ledger right under me nose, takin' over the forge fer herself, I can't help but feel--\n player:\n Angry? Betrayed? Hungry for vengeance?\n agent:\n !happy\n !disagree\n ...Proud.\n player:\n Huh?!?\n agent:\n !happy\n !laugh\n Don't get me wrong, I'm also hoppin' mad about it! But at the end o' the day, my Billie knew what she wanted, and outsmarted the lot of us ta get it.\n !gesture\n T'was ruthless, aye-- but that's exactly what ye need ta survive in the Guild. She's gonna go far, that one.\n player:\n That's one way to look at it, I guess.\n agent:\n !happy\n !disagree\n Heh. I dinnae expect ye ta fully understand. It was good bein' able ta talk about her again, though. Thanks, Hunter."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT9.give_gift.giver.STATE_0.ANSWER_GIFT_A
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT9.give_gift.giver.STATE_0.ANSWER_GIFT_A"
+msgid "agent:\n !happy\n !disagree\n Aye. <i>Sure</> ye are. Careful as a bull in a china shop."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT9.give_gift.giver.STATE_0.ANSWER_GIFT_B
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT9.give_gift.giver.STATE_0.ANSWER_GIFT_B"
+msgid "agent:\n !neutral\n !disagree\n <i>(sigh)</> I'm gonna go gray at this rate, mark me words."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT9.give_gift.giver.STATE_0.GIVE_GIFT
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT9.give_gift.giver.STATE_0.GIVE_GIFT"
+msgid "agent:\n !happy\n !disagree\n Hunter... I know yer heart's in the right place, but I'm runnin' outta space ta put all these souvenirs.\n !point\n Just keep yer wits about ye while out on yer Hunts, and come back safe. That's the best gift ye could give me."
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT9.give_gift.giver.STATE_0.JOIN
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT9.give_gift.giver.STATE_0.JOIN"
+msgid "agent:\n !neutral\n !gesture\n Well, anyway... I'd best get back ta the forge--\n player:\n Wait a minute, what's that you're hiding behind your back?\n agent:\n !neutral\n !shocked\n Urk--! Ah. Well... 'tis a silly thing, really, pay no mind...\n !happy\n !nervous\n Och, <i>fine</>, take it! Just don't go showin' it around, ye ken?"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT9.give_gift.giver.STATE_0.QUESTION_GIFT_A
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT9.give_gift.giver.STATE_0.QUESTION_GIFT_A"
+msgid "Who me? I'm <i>always</> careful!"
+msgstr ""
+
+#: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT9.give_gift.giver.STATE_0.QUESTION_GIFT_B
+msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT9.give_gift.giver.STATE_0.QUESTION_GIFT_B"
+msgid "Aw, come on! Life-threatening danger makes Hunts fun!"
 msgstr ""
 
 #: Convo.twn_friend_give_gift_cook.FRIEND_GIFT0.give_gift.giver.STATE_0.GIVE_GIFT
@@ -3650,12 +3920,12 @@ msgstr ""
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT2.gems_finish.giver.STATE_0.ANSWER_2
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT2.gems_finish.giver.STATE_0.ANSWER_2"
-msgid "agent:\n !happy\n !agree\n Aye.\n !point\n Go on. I'll meet ye at the <#RED>{name.station_gems}</> and show ye how it's done."
+msgid "agent:\n !happy\n !agree\n Aye.\n !point\n Go on. I'll meet ye at the <#RED>{name.i_station_gems}</> and show ye how it's done."
 msgstr ""
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT2.gems_finish.giver.STATE_0.END
 msgctxt "Convo.twn_gems_intro_blacksmith.ATTRACT2.gems_finish.giver.STATE_0.END"
-msgid "{name.station_gems}, got it!"
+msgid "{name.i_station_gems}, got it!"
 msgstr ""
 
 #: Convo.twn_gems_intro_blacksmith.ATTRACT2.gems_finish.giver.STATE_0.QUESTION_1
@@ -3720,7 +3990,7 @@ msgstr ""
 
 #: Convo.twn_ingot_armorsmith.HUB0.convo.giver.STATE_0.ANSWER_4B
 msgctxt "Convo.twn_ingot_armorsmith.HUB0.convo.giver.STATE_0.ANSWER_4B"
-msgid "agent:\n !happy\n !shrug\n Same as how you always alter gear, with that adorable little <#RED>Armoury Dummy</> over there.\n !neutral\n !think\n Oh, but you'll have to <#RED>Upgrade</> your gear a few times first.\n !happy\n !wavelunn\n Once the gear's good and sturdy from regular <#RED>Upgrading</>, then <#BLUE>{name.npc_lunn}</> and I can work an <#RED>Ingot</> into it and raise its <#RED>Level</>."
+msgid "agent:\n !happy\n !shrug\n Same as how you always alter gear, with that adorable little <#RED>{name.i_station_armorsmith}</> over there.\n !neutral\n !think\n Oh, but you'll have to <#RED>Upgrade</> your gear a few times first.\n !happy\n !wavelunn\n Once the gear's good and sturdy from regular <#RED>Upgrading</>, then <#BLUE>{name.npc_lunn}</> and I can work an <#RED>Ingot</> into it and raise its <#RED>Level</>."
 msgstr ""
 
 #: Convo.twn_ingot_armorsmith.HUB0.convo.giver.STATE_0.ANSWER_4C
@@ -3790,12 +4060,12 @@ msgstr ""
 
 #: Convo.twn_mastery_explainer.ATTRACT0.convo.giver.STATE_0.POINT_BEHIND_PLAYER
 msgctxt "Convo.twn_mastery_explainer.ATTRACT0.convo.giver.STATE_0.POINT_BEHIND_PLAYER"
-msgid "agent:\n !point\n [face:masteries_station] If you ever forget the assignment, check the <#RED>{name.masteries_station}</> over there behind you.\n !cough\n {name.dojo_cough}"
+msgid "agent:\n !point\n [face:masteries_station] If you ever forget the assignment, check the <#RED>{name.i_masteries_station}</> over there behind you.\n !cough\n {name.dojo_cough}"
 msgstr ""
 
 #: Convo.twn_mastery_explainer.ATTRACT0.convo.giver.STATE_0.POINT_BEHIND_TOOT
 msgctxt "Convo.twn_mastery_explainer.ATTRACT0.convo.giver.STATE_0.POINT_BEHIND_TOOT"
-msgid "agent:\n !point\n [face:masteries_station] If you ever forget the assignment, check the <#RED>{name.masteries_station}</> over there.\n !cough\n {name.dojo_cough}"
+msgid "agent:\n !point\n [face:masteries_station] If you ever forget the assignment, check the <#RED>{name.i_masteries_station}</> over there.\n !cough\n {name.dojo_cough}"
 msgstr ""
 
 #: Convo.twn_mastery_explainer.ATTRACT0.convo.giver.STATE_0.TALK
@@ -4540,7 +4810,7 @@ msgstr ""
 
 #: Convo.wrld_game_intro_sequence.CHAT_DUNGEON0.game_intro.giver.STATE_0.TALK_INTRO
 msgctxt "Convo.wrld_game_intro_sequence.CHAT_DUNGEON0.game_intro.giver.STATE_0.TALK_INTRO"
-msgid "agent:\n !neutral\n !greet\n Hunter! Thank goodness I found you.\n !nervous\n Ohhh, this is terrible-- our expedition has barely started, and I've already lost half our crew!\n player:\n It's gonna be okay, {name.npc_scout}. Who's missing?\n agent:\n !neutral\n !gesture\n ...<#BLUE>{name.npc_armorsmith}</> our <#RED>{name.job_armorsmith},</> and <#BLUE>{name.npc_blacksmith}</> our <#RED>{name.job_blacksmith}.</>\n !think\n <#BLUE>{name.npc_dojo_master}'s</> out there too-- I trust him to hold his own, but the other two don't stand a chance against the <#RED>{name_multiple.rot}</> in these woods!\n !point\n I need you to comb the forest and search for them. The <#RED>{name.damselfly}</> is still operational, so I'll be right behind you to scoop up anyone you find along the way.\n !happy\n !shrug\n L-let's just consider this an... impromptu team-building exercise.\n player:\n Alright, no time to waste.\n agent:\n !neutral\n !agree\n Hold on everyone, we're coming!"
+msgid "agent:\n !neutral\n !greet\n Hunter! Thank goodness I found you.\n !nervous\n Ohhh, this is terrible-- our expedition has barely started, and I've already lost half our crew!\n player:\n It's gonna be okay, {name.npc_scout}. Who's missing?\n agent:\n !neutral\n !gesture\n ...<#BLUE>{name.npc_armorsmith}</> our <#RED>{name.job_armorsmith},</> and <#BLUE>{name.npc_blacksmith}</> our <#RED>{name.job_blacksmith}.</>\n !think\n <#BLUE>{name.npc_dojo_master}'s</> out there too-- I trust him to hold his own, but the other two don't stand a chance against the <#RED>{name_multiple.rot}</> in these woods!\n !point\n I need you to comb the forest and search for them. The <#RED>{name.i_damselfly}</> is still operational, so I'll be right behind you to scoop up anyone you find along the way.\n !happy\n !shrug\n L-let's just consider this an... impromptu team-building exercise.\n player:\n Alright, no time to waste.\n agent:\n !neutral\n !agree\n Hold on everyone, we're coming!"
 msgstr ""
 
 #: Convo.wrld_game_intro_sequence.CHAT_DUNGEON1.hurry_up.giver.QUIP.game_start_hurry_up:[in_convo_wrld_game_intro_sequence.chat_dungeon1.hurry_up.giver].1
@@ -4570,7 +4840,7 @@ msgstr ""
 
 #: Quest.after_insert_heart_6_scout.QUIP.chitchat:[has_deposited_2_zone_2_hearts,has_deposited_4_zone_1_hearts,in_quest_after_insert_heart_6_scout,in_town,role_scout]NOT[has_deposited_3_zone_2_hearts].1
 msgctxt "Quest.after_insert_heart_6_scout.QUIP.chitchat:[has_deposited_2_zone_2_hearts,has_deposited_4_zone_1_hearts,in_quest_after_insert_heart_6_scout,in_town,role_scout]NOT[has_deposited_3_zone_2_hearts].1"
-msgid "agent:\n !neutral\n !think\n Alright, I've made up my mind.\n player:\n About what?\n agent:\n !neutral\n !gesture\n Where to go next. We can't keep chasing our tails like this.\n !point\n If we want to figure out what's wrong with the <#KONJUR>{name.town_grid_cryst}</>, we'll need more information... and I think I know where to find it.\n player:\n That's great! Where?\n agent:\n !neutral\n !gesture\n The old <#BLUE>{name.grimhollow_volcano}.</> Or what's left of it, anyway.\n !think\n My Grandpa had a small {name.c_konjur} laboratory in our home there. That's where he kept a lot of his research notes.\n !happy\n !point\n He knew the <#KONJUR>{name.town_grid_cryst}</> system better than anybody. If there's data we're missing, it'll be in those notes.\n !neutral\n !think\n Er... assuming any of them survived the fallout from the eruption."
+msgid "agent:\n !neutral\n !think\n Alright, I've made up my mind.\n player:\n About what?\n agent:\n !neutral\n !gesture\n Where to go next. We can't keep chasing our tails like this.\n !point\n If we want to figure out what's wrong with the <#KONJUR>{name.i_town_grid_cryst}</>, we'll need more information... and I think I know where to find it.\n player:\n That's great! Where?\n agent:\n !neutral\n !gesture\n The old <#BLUE>{name.grimhollow_volcano}.</> Or what's left of it, anyway.\n !think\n My Grandpa had a small {name.c_konjur} laboratory in our home there. That's where he kept a lot of his research notes.\n !happy\n !point\n He knew the <#KONJUR>{name.i_town_grid_cryst}</> system better than anybody. If there's data we're missing, it'll be in those notes.\n !neutral\n !think\n Er... assuming any of them survived the fallout from the eruption."
 msgstr ""
 
 #: Quest.after_insert_heart_scout_bnd.QUIP.chitchat:[has_deposited_3_zone_1_hearts,in_quest_after_insert_heart_scout_bnd,in_town,role_scout]NOT[has_deposited_4_zone_1_hearts].1
@@ -4580,7 +4850,7 @@ msgstr ""
 
 #: Quest.after_insert_heart_scout_mt.QUIP.chitchat:[has_deposited_1_zone_1_hearts,in_quest_after_insert_heart_scout_mt,in_town,role_scout]NOT[has_deposited_2_zone_1_hearts].1
 msgctxt "Quest.after_insert_heart_scout_mt.QUIP.chitchat:[has_deposited_1_zone_1_hearts,in_quest_after_insert_heart_scout_mt,in_town,role_scout]NOT[has_deposited_2_zone_1_hearts].1"
-msgid "agent:\n !happy\n !clap\n Yes!! It worked! Well done, Hunter!\n player:\n So... what did I do, exactly?\n agent:\n !happy\n !dubious\n You just helped us take the first big step towards getting our home back. Not just for us, but for everyone in <#BLUE>the Brinks.</>\n !think\n See, there's a whole energy grid running throughout <#BLUE>the Rotwood</>, and <#KONJUR>{name_multiple.town_grid_cryst}</> were used to supply it with {name.c_konjur} before the eruption.\n !notebook\n The grid's been dormant since the disaster, but if we get enough <#KONJUR>{name_multiple.i_konjur_heart}</> into the <#KONJUR>{name.town_grid_cryst}</> here, I hypothesize the concentrated {name.c_konjur} power should be enough to get the system working again.\n player:\n We're trying to get the power back on? Why?\n agent:\n !happy\n !shocked\n Ah, that's the <i>really</> exciting part-- and the crux of our whole expedition!\n !nervous\n I haven't talked about it much... I didn't want to get everyone's hopes up in case the <#KONJUR>{name_multiple.town_grid_cryst}</> didn't respond to the <#KONJUR>{name.i_konjur_heart}</>, but there was a piece of {name.c_konjur} tech in the works before the eruption.\n !point\n It was called the <#KONJUR>Bubble Shield.</> Not many folks knew it was even in development.\n player:\n So how did you know about it?\n agent:\n !happy\n !nervous\n I, um... had my sources.\n !think\n Anyway-- it wasn't completed in time to save us from the disaster, but I'm confident that if we can get it working we'll be able to use it to keep the <#RED>{name_multiple.rot}</> out for good.\n !gesture\n Then everyone will finally be able to come home!"
+msgid "agent:\n !happy\n !clap\n Yes!! It worked! Well done, Hunter!\n player:\n So... what did I do, exactly?\n agent:\n !happy\n !dubious\n You just helped us take the first big step towards getting our home back. Not just for us, but for everyone in <#BLUE>the Brinks.</>\n !think\n See, there's a whole energy grid running throughout <#BLUE>the Rotwood</>, and <#KONJUR>{name_multiple.town_grid_cryst}</> were used to supply it with {name.c_konjur} before the eruption.\n !notebook\n The grid's been dormant since the disaster, but if we get enough <#KONJUR>{name_multiple.i_konjur_heart}</> into the <#KONJUR>{name.i_town_grid_cryst}</> here, I hypothesize the concentrated {name.c_konjur} power should be enough to get the system working again.\n player:\n We're trying to get the power back on? Why?\n agent:\n !happy\n !shocked\n Ah, that's the <i>really</> exciting part-- and the crux of our whole expedition!\n !nervous\n I haven't talked about it much... I didn't want to get everyone's hopes up in case the <#KONJUR>{name_multiple.town_grid_cryst}</> didn't respond to the <#KONJUR>{name.i_konjur_heart}</>, but there was a piece of {name.c_konjur} tech in the works before the eruption.\n !point\n It was called the <#KONJUR>Bubble Shield.</> Not many folks knew it was even in development.\n player:\n So how did you know about it?\n agent:\n !happy\n !nervous\n I, um... had my sources.\n !think\n Anyway-- it wasn't completed in time to save us from the disaster, but I'm confident that if we can get it working we'll be able to use it to keep the <#RED>{name_multiple.rot}</> out for good.\n !gesture\n Then everyone will finally be able to come home!"
 msgstr ""
 
 #: Quest.after_insert_heart_scout_owl.QUIP.chitchat:[has_deposited_2_zone_1_hearts,in_quest_after_insert_heart_scout_owl,in_town,role_scout]NOT[has_deposited_3_zone_1_hearts].1
@@ -4600,7 +4870,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[abandoned_last_run,in_quest_chat_fluff_fallback,in_town,role_armorsmith].1
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[abandoned_last_run,in_quest_chat_fluff_fallback,in_town,role_armorsmith].1"
-msgid "!greet\n I've been looking for you!\n !point\n Can you tell <#BLUE>{name.npc_scout}</> the {name.damselfly} should be a community vehicle?"
+msgid "!greet\n I've been looking for you!\n !point\n Can you tell <#BLUE>{name.npc_scout}</> the {name.i_damselfly} should be a community vehicle?"
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[abandoned_last_run,in_quest_chat_fluff_fallback,in_town,role_armorsmith].2
@@ -4645,7 +4915,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[armour_fortification_level_0,in_quest_chat_fluff_fallback,in_town,role_armorsmith].1
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[armour_fortification_level_0,in_quest_chat_fluff_fallback,in_town,role_armorsmith].1"
-msgid "!happy\n !point\n Check out the <#RED>Armoury Dummy</> over there to see all the <#RED>Armour Upgrades</> we can do for you!\n !gesture\n I mean, we do need some <#RED>{name.rot} {name_multiple.material}</> to work with, but that shouldn't be too hard for you to get, right?"
+msgid "!happy\n !point\n Check out the <#RED>{name.i_station_armorsmith}</> over there to see all the <#RED>Armour Upgrades</> we can do for you!\n !gesture\n I mean, we do need some <#RED>{name.rot} {name_multiple.material}</> to work with, but that shouldn't be too hard for you to get, right?"
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[armour_fortification_level_1,has_deposited_2_zone_2_hearts,in_quest_chat_fluff_fallback,in_town,role_armorsmith].1
@@ -4870,7 +5140,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[chitchat,in_quest_chat_fluff_fallback,in_town,role_scout]NOT[is_wearing_body,is_wearing_head,is_wearing_waist].2
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[chitchat,in_quest_chat_fluff_fallback,in_town,role_scout]NOT[is_wearing_body,is_wearing_head,is_wearing_waist].2"
-msgid "!neutral\n !point\n I don't think you're going to enjoy the <#RED>{name.damselfly}</> ride dressed like that.\n !dubious\n There's a lot of wind up there..."
+msgid "!neutral\n !point\n I don't think you're going to enjoy the <#RED>{name.i_damselfly}</> ride dressed like that.\n !dubious\n There's a lot of wind up there..."
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[chitchat,in_quest_chat_fluff_fallback,in_town,role_scout]NOT[is_wearing_body,is_wearing_head,is_wearing_waist].3
@@ -4895,7 +5165,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[chitchat,in_quest_chat_fluff_fallback,in_town,role_scout]NOT[wf_town_has_armorsmith,wf_town_has_blacksmith]bath.1
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[chitchat,in_quest_chat_fluff_fallback,in_town,role_scout]NOT[wf_town_has_armorsmith,wf_town_has_blacksmith]bath.1"
-msgid "!neutral\n !shocked\n It just occured to me <#BLUE>{name.npc_blacksmith}</> and <#BLUE>{name.npc_armorsmith}</> haven't bathed since we last saw them...\n !think\n Hmm... <z 0.7>Maybe I'll add an air freshener to the <#RED>{name.damselfly}'s</> dash.</z>\n !nervous\n Oh! I didn't mean to say that out loud!"
+msgid "!neutral\n !shocked\n It just occured to me <#BLUE>{name.npc_blacksmith}</> and <#BLUE>{name.npc_armorsmith}</> haven't bathed since we last saw them...\n !think\n Hmm... <z 0.7>Maybe I'll add an air freshener to the <#RED>{name.i_damselfly}'s</> dash.</z>\n !nervous\n Oh! I didn't mean to say that out loud!"
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[chitchat,in_quest_chat_fluff_fallback,in_town,role_travelling_salesman]NOT[can_craft_potion,is_wearing_body,is_wearing_head,is_wearing_waist].1
@@ -5040,7 +5310,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[chitchat,in_quest_chat_fluff_fallback,location_treemon_forest,role_scout]NOT[has_killed_megatreemon,in_town].2
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[chitchat,in_quest_chat_fluff_fallback,location_treemon_forest,role_scout]NOT[has_killed_megatreemon,in_town].2"
-msgid "!happy\n !nervous\n I'm trusting you to avenge my <#RED>{name.damselfly}</>, Hunter.\n !neutral\n !angry\n <#RED>{name.megatreemon}</> can't get away with this."
+msgid "!happy\n !nervous\n I'm trusting you to avenge my <#RED>{name.i_damselfly}</>, Hunter.\n !neutral\n !angry\n <#RED>{name.megatreemon}</> can't get away with this."
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[chitchat,in_quest_chat_fluff_fallback,location_treemon_forest,role_scout]NOT[in_town,wf_town_has_armorsmith].1
@@ -5090,7 +5360,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[chitchat,in_quest_chat_fluff_fallback,location_treemon_forest,role_scout]NOT[in_town,wf_town_has_blacksmith].3
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[chitchat,in_quest_chat_fluff_fallback,location_treemon_forest,role_scout]NOT[in_town,wf_town_has_blacksmith].3"
-msgid "!nervous\n I think I spotted some of <#BLUE>{name.npc_blacksmith}'s</> tools from up in the <#RED>{name.damselfly}</>...\n !dejected\n But... no <#BLUE>{name.npc_blacksmith}</>."
+msgid "!nervous\n I think I spotted some of <#BLUE>{name.npc_blacksmith}'s</> tools from up in the <#RED>{name.i_damselfly}</>...\n !dejected\n But... no <#BLUE>{name.npc_blacksmith}</>."
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[chitchat,in_quest_chat_fluff_fallback,location_treemon_forest,role_scout]NOT[in_town,wf_town_has_blacksmith].4
@@ -5470,12 +5740,12 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[friend_npc_scout_at_least_level_5,in_quest_chat_fluff_fallback,in_town,role_scout].2
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[friend_npc_scout_at_least_level_5,in_quest_chat_fluff_fallback,in_town,role_scout].2"
-msgid "!happy\n !think\n I've been thinking about giving the <#RED>{name.damselfly}</> a new coat of paint, but there's so many colours to choose from! Should I paint it a sky blue? Burnt orange? Forest green?\n !neutral\n !shocked\n And then there's the trim to consider! Should it match or contrast?!\n !angry\n C'mon, <#BLUE>{name.npc_scout}</>! A leader needs to be ready to make these kinds of important decisions!"
+msgid "!happy\n !think\n I've been thinking about giving the <#RED>{name.i_damselfly}</> a new coat of paint, but there's so many colours to choose from! Should I paint it a sky blue? Burnt orange? Forest green?\n !neutral\n !shocked\n And then there's the trim to consider! Should it match or contrast?!\n !angry\n C'mon, <#BLUE>{name.npc_scout}</>! A leader needs to be ready to make these kinds of important decisions!"
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[friend_npc_scout_is_level_10,in_quest_chat_fluff_fallback,in_town,role_scout].1
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[friend_npc_scout_is_level_10,in_quest_chat_fluff_fallback,in_town,role_scout].1"
-msgid "!happy\n !gesture\n Hunter, when all this is over... let's take the <#RED>{name.damselfly}</> up above the smog-cover and see the stars.\n !happy\n !dubious\n What do you think?"
+msgid "!happy\n !gesture\n Hunter, when all this is over... let's take the <#RED>{name.i_damselfly}</> up above the smog-cover and see the stars.\n !happy\n !dubious\n What do you think?"
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[has_deposited_1_zone_2_hearts,in_quest_chat_fluff_fallback,in_town,role_blacksmith,weapon_fortification_level_1].1
@@ -5530,7 +5800,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[holding_any_heart,in_quest_chat_fluff_fallback,in_town,role_scout].2
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[holding_any_heart,in_quest_chat_fluff_fallback,in_town,role_scout].2"
-msgid "!happy\n !dubious\n Oh hey, don't forget about that <#KONJUR>{name.i_konjur_heart}</> in your bag.\n !point\n Go pop it in the <#KONJUR>{name.town_grid_cryst}</> when you get a chance, okay?"
+msgid "!happy\n !dubious\n Oh hey, don't forget about that <#KONJUR>{name.i_konjur_heart}</> in your bag.\n !point\n Go pop it in the <#KONJUR>{name.i_town_grid_cryst}</> when you get a chance, okay?"
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[holding_any_heart,in_quest_chat_fluff_fallback,in_town,role_scout].3
@@ -5545,7 +5815,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[holding_any_heart,in_quest_chat_fluff_fallback,in_town,role_scout].5
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[holding_any_heart,in_quest_chat_fluff_fallback,in_town,role_scout].5"
-msgid "!neutral\n !dubious\n Hey. You planning to put that <#KONJUR>{name.i_konjur_heart}</> in the <#KONJUR>{name.town_grid_cryst}</> or--\n !shrug\n We could use the power, y'know."
+msgid "!neutral\n !dubious\n Hey. You planning to put that <#KONJUR>{name.i_konjur_heart}</> in the <#KONJUR>{name.i_town_grid_cryst}</> or--\n !shrug\n We could use the power, y'know."
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,last_killed_by_blarmadillo_miniboss,lost_last_run,role_scout].1
@@ -5620,7 +5890,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,last_killed_by_gnarlic_miniboss,lost_last_run,role_scout].1
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,last_killed_by_gnarlic_miniboss,lost_last_run,role_scout].1"
-msgid "!neutral\n !disagree\n I can still smell that old <#RED>Gnarlic's</> stench...\n !nervous\n Um, Hunter? Maybe you could wash off a bit before we get back in the <#RED>{name.damselfly}</>...?"
+msgid "!neutral\n !disagree\n I can still smell that old <#RED>Gnarlic's</> stench...\n !nervous\n Um, Hunter? Maybe you could wash off a bit before we get back in the <#RED>{name.i_damselfly}</>...?"
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,last_killed_by_gourdo,lost_last_run,role_scout].1
@@ -5645,7 +5915,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,last_killed_by_mothball_teen_miniboss,lost_last_run,role_scout].1
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,last_killed_by_mothball_teen_miniboss,lost_last_run,role_scout].1"
-msgid "!neutral\n !dubious\n That <#RED>{name.mothball_teen_miniboss}</> fight was brutal...\n !gesture\n Don't worry if you need time to rest and recover. The <#RED>{name.damselfly}</> will be here whenever you're ready."
+msgid "!neutral\n !dubious\n That <#RED>{name.mothball_teen_miniboss}</> fight was brutal...\n !gesture\n Don't worry if you need time to rest and recover. The <#RED>{name.i_damselfly}</> will be here whenever you're ready."
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,last_killed_by_sedament,lost_last_run,role_scout].1
@@ -5655,7 +5925,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,last_killed_by_swarmy_miniboss,lost_last_run,role_scout].1
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,last_killed_by_swarmy_miniboss,lost_last_run,role_scout].1"
-msgid "!neutral\n !shrug\n That <#RED>{name.swarmy}</> gunk is impossible to wash out...\n !think\n I might need to replace the <#RED>{name.damselfly}'s</> seat cushions after this is all over."
+msgid "!neutral\n !shrug\n That <#RED>{name.swarmy}</> gunk is impossible to wash out...\n !think\n I might need to replace the <#RED>{name.i_damselfly}'s</> seat cushions after this is all over."
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,last_killed_by_yammo,lost_last_run,role_scout].1
@@ -6085,7 +6355,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,role_armorsmith].12
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,role_armorsmith].12"
-msgid "!happy\n !think\n D'you think <#BLUE>{name.npc_scout}</> would let me borrow the <#RED>{name.damselfly}</>?"
+msgid "!happy\n !think\n D'you think <#BLUE>{name.npc_scout}</> would let me borrow the <#RED>{name.i_damselfly}</>?"
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,role_armorsmith].13
@@ -6610,7 +6880,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,role_scout].11
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,role_scout].11"
-msgid "!happy\n !gesture\n Ready for another {name.run}?\n !point\n Just hop in the ol'<#RED>{name.damselfly}</>."
+msgid "!happy\n !gesture\n Ready for another {name.run}?\n !point\n Just hop in the ol'<#RED>{name.i_damselfly}</>."
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,role_scout].12
@@ -6730,7 +7000,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,role_scout]smushed_rations.1
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,role_scout]smushed_rations.1"
-msgid "!neutral\n !think\n Hm... our food got pretty smushed in the <#RED>{name.damselfly}</> crash.\n !happy\n !shrug\n I hope no one's picky."
+msgid "!neutral\n !think\n Hm... our food got pretty smushed in the <#RED>{name.i_damselfly}</> crash.\n !happy\n !shrug\n I hope no one's picky."
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,konjur_rich,role_konjurist,upgradable_powers].1
@@ -6760,7 +7030,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,location_bandi_swamp,role_scout]NOT[in_town].2
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,location_bandi_swamp,role_scout]NOT[in_town].2"
-msgid "!neutral\n !think\n Hmmmm..... Yeah.\n !dejected\n I'll <i>definitely</i> need to hose down the <#RED>{name.damselfly}'s</> floor mats when we get home."
+msgid "!neutral\n !think\n Hmmmm..... Yeah.\n !dejected\n I'll <i>definitely</i> need to hose down the <#RED>{name.i_damselfly}'s</> floor mats when we get home."
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,location_bandi_swamp,role_scout]NOT[in_town].3
@@ -6805,7 +7075,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,location_eggzy_tundra,role_scout]NOT[in_town].1
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,location_eggzy_tundra,role_scout]NOT[in_town].1"
-msgid "!happy\n !gesture\n Lucky for us, this cavern is wide enough for me to fly the <#RED>{name.damselfly}</> through.\n !neutral\n !dejected\n <z 0.7>(sigh)</z> I'll be missing the open sky, though."
+msgid "!happy\n !gesture\n Lucky for us, this cavern is wide enough for me to fly the <#RED>{name.i_damselfly}</> through.\n !neutral\n !dejected\n <z 0.7>(sigh)</z> I'll be missing the open sky, though."
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,location_eggzy_tundra,role_scout]NOT[in_town].2
@@ -6880,7 +7150,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,location_owlitzer_forest,role_scout]NOT[in_town].8
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,location_owlitzer_forest,role_scout]NOT[in_town].8"
-msgid "!happy\n !gesture\n The <#RED>Wind</> here presents a fun challenge flying the <#RED>{name.damselfly}</> overhead.\n !neutral\n !shocked\n Oh, don't worry though! It won't affect my ability to come to your rescue in an emergency!"
+msgid "!happy\n !gesture\n The <#RED>Wind</> here presents a fun challenge flying the <#RED>{name.i_damselfly}</> overhead.\n !neutral\n !shocked\n Oh, don't worry though! It won't affect my ability to come to your rescue in an emergency!"
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,location_owlitzer_forest,role_scout]NOT[upgradable_powers].1
@@ -6920,7 +7190,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,location_sedament_tundra,role_scout]NOT[in_town].12
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,location_sedament_tundra,role_scout]NOT[in_town].12"
-msgid "!neutral\n !scared\n Brrr... boy, am I glad I installed a seat warmer in the <#RED>{name.damselfly}</>..."
+msgid "!neutral\n !scared\n Brrr... boy, am I glad I installed a seat warmer in the <#RED>{name.i_damselfly}</>..."
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,location_sedament_tundra,role_scout]NOT[in_town].2
@@ -7510,22 +7780,22 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.nothingtosay:[in_quest_chat_fluff_fallback,in_town,role_scout].1
 msgctxt "Quest.chat_fluff_fallback.QUIP.nothingtosay:[in_quest_chat_fluff_fallback,in_town,role_scout].1"
-msgid "!happy\n !gesture\n Hop in the <#RED>{name.damselfly}</> when you're ready to Hunt."
+msgid "!happy\n !gesture\n Hop in the <#RED>{name.i_damselfly}</> when you're ready to Hunt."
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.nothingtosay:[in_quest_chat_fluff_fallback,in_town,role_scout].2
 msgctxt "Quest.chat_fluff_fallback.QUIP.nothingtosay:[in_quest_chat_fluff_fallback,in_town,role_scout].2"
-msgid "!happy\n !gesture\n The <#RED>{name.damselfly}'s</> waiting when you're ready."
+msgid "!happy\n !gesture\n The <#RED>{name.i_damselfly}'s</> waiting when you're ready."
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.nothingtosay:[in_quest_chat_fluff_fallback,in_town,role_scout].3
 msgctxt "Quest.chat_fluff_fallback.QUIP.nothingtosay:[in_quest_chat_fluff_fallback,in_town,role_scout].3"
-msgid "!happy\n !gesture\n The <#RED>{name.damselfly}'s</> ready when you are."
+msgid "!happy\n !gesture\n The <#RED>{name.i_damselfly}'s</> ready when you are."
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.nothingtosay:[in_quest_chat_fluff_fallback,in_town,role_scout].4
 msgctxt "Quest.chat_fluff_fallback.QUIP.nothingtosay:[in_quest_chat_fluff_fallback,in_town,role_scout].4"
-msgid "!happy\n !gesture\n Just click the <#RED>{name.damselfly}</> when you're ready for another {name.run}."
+msgid "!happy\n !gesture\n Just click the <#RED>{name.i_damselfly}</> when you're ready for another {name.run}."
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.nothingtosay:[in_quest_chat_fluff_fallback,role_apothecary].1
@@ -7630,7 +7900,7 @@ msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.nothingtosay:[in_quest_chat_fluff_fallback,role_scout].2
 msgctxt "Quest.chat_fluff_fallback.QUIP.nothingtosay:[in_quest_chat_fluff_fallback,role_scout].2"
-msgid "!happy\n !think\n Sorry-- I'm trying to solve an engineering issue on the {name.damselfly} at the moment."
+msgid "!happy\n !think\n Sorry-- I'm trying to solve an engineering issue on the {name.i_damselfly} at the moment."
 msgstr ""
 
 #: Quest.chat_fluff_fallback.QUIP.nothingtosay:[in_quest_chat_fluff_fallback,role_scout].3
@@ -7670,22 +7940,22 @@ msgstr ""
 
 #: Quest.defeated_boss_scout_bnd.QUIP.chitchat:[has_bandicoot_heart,has_killed_bandicoot,in_quest_defeated_boss_scout_bnd,in_town,role_scout]NOT[has_deposited_3_zone_1_hearts,has_deposited_bandicoot_heart].1
 msgctxt "Quest.defeated_boss_scout_bnd.QUIP.chitchat:[has_bandicoot_heart,has_killed_bandicoot,in_quest_defeated_boss_scout_bnd,in_town,role_scout]NOT[has_deposited_3_zone_1_hearts,has_deposited_bandicoot_heart].1"
-msgid "agent:\n !happy\n !agree\n That's one <#RED>{name.bandicoot}</> neutralized, and one <#KONJUR>{name.i_konjur_heart}</> for us!\n !neutral\n !dejected\n Though honestly, I'm just glad it's over. That was a tough fight to watch... I mean, literally.\n !shocked\n I swear I was seeing double through half of it. Not exactly ideal when I'm trying to keep the <#RED>{name.damselfly}</> flying straight."
+msgid "agent:\n !happy\n !agree\n That's one <#RED>{name.bandicoot}</> neutralized, and one <#KONJUR>{name.i_konjur_heart}</> for us!\n !neutral\n !dejected\n Though honestly, I'm just glad it's over. That was a tough fight to watch... I mean, literally.\n !shocked\n I swear I was seeing double through half of it. Not exactly ideal when I'm trying to keep the <#RED>{name.i_damselfly}</> flying straight."
 msgstr ""
 
 #: Quest.defeated_boss_scout_eggzy.QUIP.chitchat:[has_eggzy_heart,has_killed_eggzy,in_quest_defeated_boss_scout_eggzy,in_town,role_scout]NOT[has_deposited_eggzy_heart].1
 msgctxt "Quest.defeated_boss_scout_eggzy.QUIP.chitchat:[has_eggzy_heart,has_killed_eggzy,in_quest_defeated_boss_scout_eggzy,in_town,role_scout]NOT[has_deposited_eggzy_heart].1"
-msgid "agent:\n !neutral\n !notebook\n Hmm...\n !shocked\n Oh! Sorry about that, Hunter. I was just thinking...\n !happy\n !gesture\n Great job on the hunt, as always. That <#RED>{name.eggzy}</> never stood a chance!\n !point\n Don't forget to put that <#KONJUR>{name.i_konjur_heart}</> in the <#KONJUR>{name.town_grid_cryst}</>."
+msgid "agent:\n !neutral\n !notebook\n Hmm...\n !shocked\n Oh! Sorry about that, Hunter. I was just thinking...\n !happy\n !gesture\n Great job on the hunt, as always. That <#RED>{name.eggzy}</> never stood a chance!\n !point\n Don't forget to put that <#KONJUR>{name.i_konjur_heart}</> in the <#KONJUR>{name.i_town_grid_cryst}</>."
 msgstr ""
 
 #: Quest.defeated_boss_scout_grimhollow.QUIP.chitchat:[has_grimhollow_heart,has_killed_grimhollow,in_quest_defeated_boss_scout_grimhollow,in_town,role_scout]NOT[has_deposited_grimhollow_heart].1
 msgctxt "Quest.defeated_boss_scout_grimhollow.QUIP.chitchat:[has_grimhollow_heart,has_killed_grimhollow,in_quest_defeated_boss_scout_grimhollow,in_town,role_scout]NOT[has_deposited_grimhollow_heart].1"
-msgid "agent:\n !neutral\n !shrug\n Well, that was one heck of a bumpy ride down memory lane. But we got what we came for! \n !point\n Don't forget to put that <#KONJUR>{name.i_konjur_heart}</> in the <#KONJUR>{name.town_grid_cryst}</>."
+msgid "agent:\n !neutral\n !shrug\n Well, that was one heck of a bumpy ride down memory lane. But we got what we came for! \n !point\n Don't forget to put that <#KONJUR>{name.i_konjur_heart}</> in the <#KONJUR>{name.i_town_grid_cryst}</>."
 msgstr ""
 
 #: Quest.defeated_boss_scout_mt.QUIP.chitchat:[has_killed_megatreemon,has_megatreemon_heart,in_quest_defeated_boss_scout_mt,in_town,role_scout]NOT[first_run_in_treemon_region,has_deposited_3_zone_1_hearts,has_deposited_megatreemon_heart].1
 msgctxt "Quest.defeated_boss_scout_mt.QUIP.chitchat:[has_killed_megatreemon,has_megatreemon_heart,in_quest_defeated_boss_scout_mt,in_town,role_scout]NOT[first_run_in_treemon_region,has_deposited_3_zone_1_hearts,has_deposited_megatreemon_heart].1"
-msgid "agent:\n !happy\n !shocked\n You really did it! You took down the <#RED>{name.megatreemon}</> that swatted the <#RED>{name.damselfly}</> out of the sky!\n !happy\n !dejected\n What a relief. Maybe now I'll be able to unclench my jaw when I'm flying over the forest.\n player:\n The {name.megatreemon} dropped this when she fell. <z 0.7><i>(Show them the Heart-Shaped {name.konjur} Crystal.)</><z/>\n agent:\n !happy\n !shocked\n Ah! You found it! A <#KONJUR>{name.i_konjur_heart}</>!\n !point\n Hunter... would you please place it in the <#KONJUR>{name.town_grid_cryst}</>?\n !happy\n !nervous\n Let's hope this works..."
+msgid "agent:\n !happy\n !shocked\n You really did it! You took down the <#RED>{name.megatreemon}</> that swatted the <#RED>{name.i_damselfly}</> out of the sky!\n !happy\n !dejected\n What a relief. Maybe now I'll be able to unclench my jaw when I'm flying over the forest.\n player:\n The {name.megatreemon} dropped this when she fell. <z 0.7><i>(Show them the Heart-Shaped {name.konjur} Crystal.)</><z/>\n agent:\n !happy\n !shocked\n Ah! You found it! A <#KONJUR>{name.i_konjur_heart}</>!\n !point\n Hunter... would you please place it in the <#KONJUR>{name.i_town_grid_cryst}</>?\n !happy\n !nervous\n Let's hope this works..."
 msgstr ""
 
 #: Quest.defeated_boss_scout_owl.QUIP.chitchat:[has_killed_owlitzer,has_owlitzer_heart,in_quest_defeated_boss_scout_owl,in_town,role_scout]NOT[has_deposited_3_zone_1_hearts,has_deposited_owlitzer_heart].1
@@ -7695,7 +7965,7 @@ msgstr ""
 
 #: Quest.defeated_boss_scout_sdmnt.QUIP.chitchat:[has_killed_sedament,has_sedament_heart,in_quest_defeated_boss_scout_sdmnt,in_town,role_scout]NOT[has_deposited_sedament_heart].1
 msgctxt "Quest.defeated_boss_scout_sdmnt.QUIP.chitchat:[has_killed_sedament,has_sedament_heart,in_quest_defeated_boss_scout_sdmnt,in_town,role_scout]NOT[has_deposited_sedament_heart].1"
-msgid "agent:\n !happy\n !clap\n Nice work taking down <#RED>{name.sedament}</>!	I hope that poor crow finds a safer place to roost.\n !happy\n !point\n Anyway, why don't you go pop that <#KONJUR>{name.i_konjur_heart}</> in the <#KONJUR>{name.town_grid_cryst}</>?"
+msgid "agent:\n !happy\n !clap\n Nice work taking down <#RED>{name.sedament}</>!	I hope that poor crow finds a safer place to roost.\n !happy\n !point\n Anyway, why don't you go pop that <#KONJUR>{name.i_konjur_heart}</> in the <#KONJUR>{name.i_town_grid_cryst}</>?"
 msgstr ""
 
 #: Quest.defeated_boss_scout_thchr.QUIP.chitchat:[has_killed_thatcher,has_thatcher_heart,in_quest_defeated_boss_scout_thchr,in_town,role_scout]NOT[has_deposited_3_zone_1_hearts,has_deposited_thatcher_heart].1
@@ -7873,6 +8143,11 @@ msgctxt "Quest.dgn_no_custom_orders_market.QUIP.chitchat:[chitchat,in_quest_dgn_
 msgid "agent:\n !neutral\n !dubious\n Something on your mind, culver?"
 msgstr ""
 
+#: Quest.dgn_sdmnt_blizzard_scout.QUIP.chitchat:[in_quest_dgn_sdmnt_blizzard_scout,location_sedament_tundra_r2,role_scout]NOT[has_killed_sedament,in_town].1
+msgctxt "Quest.dgn_sdmnt_blizzard_scout.QUIP.chitchat:[in_quest_dgn_sdmnt_blizzard_scout,location_sedament_tundra_r2,role_scout]NOT[has_killed_sedament,in_town].1"
+msgid "agent:\n !happy\n !gesture\n Welcome to <#BLUE>{name.sedament_tundra_r2}</>! I sure hope you're wearing your long underwear under that armour.\n player:\n Brrr... this place wins the award for chilliest reception.\n agent:\n !neutral\n !think\n That's an understatement. The snowy winds out here are cold enough to <#RED>Freeze</> you solid if you stray too far from a heat source.\n !happy\n !gesture\n Lucky for us, there's an old network of <#RED>Braziers</> that were built for the workers back when this place was still an operational stone quarry.\n !point\n And luckier still, they're still burning strong. Stick close to those, and you should be just fine-- though you might need to whack the ice off some of them to get them burning again.\n !neutral\n !scared\n Now if you don't mind, I'll be hurrying back to the <#RED>Damselfly</> before my fingers get too numb to work the controls. Good luck, Hunter!"
+msgstr ""
+
 #: Quest.dgn_secondmeeting_potion.QUIP.chitchat:[in_quest_dgn_secondmeeting_potion,never_bought_potion,role_travelling_salesman,seen_second_time].1
 msgctxt "Quest.dgn_secondmeeting_potion.QUIP.chitchat:[in_quest_dgn_secondmeeting_potion,never_bought_potion,role_travelling_salesman,seen_second_time].1"
 msgid "agent:\n !shocked\n Ah, my friend! You've returned!"
@@ -7968,33 +8243,43 @@ msgctxt "Quest.died_to_miniboss_scout_mt.QUIP.chitchat:[in_quest_died_to_minibos
 msgid "agent:\n !happy\n !clap\n You did great out there!"
 msgstr ""
 
-#: Quest.first_dgn_visit_scout_bnd.QUIP.chitchat:[in_quest_first_dgn_visit_scout_bnd,location_bandi_swamp,role_scout]NOT[has_killed_bandicoot,in_town].1
-msgctxt "Quest.first_dgn_visit_scout_bnd.QUIP.chitchat:[in_quest_first_dgn_visit_scout_bnd,location_bandi_swamp,role_scout]NOT[has_killed_bandicoot,in_town].1"
+#: Quest.first_dgn_visit_scout_bnd.QUIP.chitchat:[bandicoot_region,in_quest_first_dgn_visit_scout_bnd,role_scout]NOT[has_killed_bandicoot,in_town].1
+msgctxt "Quest.first_dgn_visit_scout_bnd.QUIP.chitchat:[bandicoot_region,in_quest_first_dgn_visit_scout_bnd,role_scout]NOT[has_killed_bandicoot,in_town].1"
 msgid "agent:\n !neutral\n !shocked\n Whew! It's been a while since I set foot in <#BLUE>{name.bandi_swamp}</>. I forgot how much it stinks!\n !happy\n !dubious\n Have you ever been here before?"
 msgstr ""
 
-#: Quest.first_dgn_visit_scout_eggzy.QUIP.chitchat:[in_quest_first_dgn_visit_scout_eggzy,location_eggzy_tundra,role_scout]NOT[has_killed_eggzy,in_town].1
-msgctxt "Quest.first_dgn_visit_scout_eggzy.QUIP.chitchat:[in_quest_first_dgn_visit_scout_eggzy,location_eggzy_tundra,role_scout]NOT[has_killed_eggzy,in_town].1"
-msgid "agent:\n !happy\n !wave\n Welcome to <#BLUE>{name.eggzy_tundra}</>!\n !neutral\n !disagree\n I'm sorry to say my intel for this place is a bit limited... this is the first time I've been able to bring the <#RED>{name.damselfly}</> this far down into the cavern itself.\n !think\n That said, from the recon I <i>was</> able to do, there are signs that something big had a nest here... but abandoned it."
+#: Quest.first_dgn_visit_scout_eggzy.QUIP.chitchat:[eggzy_region,in_quest_first_dgn_visit_scout_eggzy,role_scout]NOT[has_killed_eggzy,in_town].1
+msgctxt "Quest.first_dgn_visit_scout_eggzy.QUIP.chitchat:[eggzy_region,in_quest_first_dgn_visit_scout_eggzy,role_scout]NOT[has_killed_eggzy,in_town].1"
+msgid "agent:\n !happy\n !wave\n Welcome to <#BLUE>{name.eggzy_tundra}</>!\n !neutral\n !disagree\n I'm sorry to say my intel for this place is a bit limited... this is the first time I've been able to bring the <#RED>{name.i_damselfly}</> this far down into the cavern itself.\n !think\n That said, from the recon I <i>was</> able to do, there are signs that something big had a nest here... but abandoned it."
 msgstr ""
 
-#: Quest.first_dgn_visit_scout_grimhollow.QUIP.chitchat:[in_quest_first_dgn_visit_scout_grimhollow,location_grimhollow_volcano,role_scout]NOT[has_killed_grimhollow,in_town].1
-msgctxt "Quest.first_dgn_visit_scout_grimhollow.QUIP.chitchat:[in_quest_first_dgn_visit_scout_grimhollow,location_grimhollow_volcano,role_scout]NOT[has_killed_grimhollow,in_town].1"
+#: Quest.first_dgn_visit_scout_grimhollow.QUIP.chitchat:[grimhollow_region,in_quest_first_dgn_visit_scout_grimhollow,role_scout]NOT[has_killed_grimhollow,in_town].1
+msgctxt "Quest.first_dgn_visit_scout_grimhollow.QUIP.chitchat:[grimhollow_region,in_quest_first_dgn_visit_scout_grimhollow,role_scout]NOT[has_killed_grimhollow,in_town].1"
 msgid "agent:\n !neutral\n !gesture\n Welcome to the <#BLUE>{name.grimhollow_volcano}</>. What's left of it, anyway.\n !neutral\n !closedeyes\n It feels so strange to be back..."
 msgstr ""
 
-#: Quest.first_dgn_visit_scout_owl.QUIP.chitchat:[in_quest_first_dgn_visit_scout_owl,location_owlitzer_forest,role_scout]NOT[has_killed_owlitzer,in_town].1
-msgctxt "Quest.first_dgn_visit_scout_owl.QUIP.chitchat:[in_quest_first_dgn_visit_scout_owl,location_owlitzer_forest,role_scout]NOT[has_killed_owlitzer,in_town].1"
+#: Quest.first_dgn_visit_scout_owl.QUIP.chitchat:[in_quest_first_dgn_visit_scout_owl,owlitzer_region,role_scout]NOT[has_killed_owlitzer,in_town].1
+msgctxt "Quest.first_dgn_visit_scout_owl.QUIP.chitchat:[in_quest_first_dgn_visit_scout_owl,owlitzer_region,role_scout]NOT[has_killed_owlitzer,in_town].1"
+msgid "agent:\n !neutral\n !think\n I hope you're warm enough in that.\n !dubious\n It gets <#RED>Windy</> in there."
+msgstr ""
+
+#: Quest.first_dgn_visit_scout_owl_has_hamish.QUIP.chitchat:[in_quest_first_dgn_visit_scout_owl_has_hamish,location_owlitzer_forest_r1,role_scout,wf_town_has_blacksmith]NOT[has_killed_owlitzer,in_town].1
+msgctxt "Quest.first_dgn_visit_scout_owl_has_hamish.QUIP.chitchat:[in_quest_first_dgn_visit_scout_owl_has_hamish,location_owlitzer_forest_r1,role_scout,wf_town_has_blacksmith]NOT[has_killed_owlitzer,in_town].1"
+msgid "agent:\n !neutral\n !think\n I recognized the same trail of debris I saw before. This is where <#BLUE>{name.npc_blacksmith}</> was stranded.\n !happy\n !bliss\n I'm glad he's safe now.\n !happy\n !gesture\n Good luck, Hunter-- and watch your footing, it's <#RED>Windy</> out there."
+msgstr ""
+
+#: Quest.first_dgn_visit_scout_owl_mention_hamish.QUIP.chitchat:[in_quest_first_dgn_visit_scout_owl_mention_hamish,location_owlitzer_forest_r1,role_scout]NOT[has_killed_owlitzer,in_town,wf_town_has_blacksmith].1
+msgctxt "Quest.first_dgn_visit_scout_owl_mention_hamish.QUIP.chitchat:[in_quest_first_dgn_visit_scout_owl_mention_hamish,location_owlitzer_forest_r1,role_scout]NOT[has_killed_owlitzer,in_town,wf_town_has_blacksmith].1"
 msgid "agent:\n !neutral\n !think\n Based on the disturbed trees and the trail of debris I saw, I'm hopeful that <#BLUE>{name.npc_blacksmith}</> is in these woods.\n !point\n I wasn't able to spot him from the air, but you might have more luck gathering clues on the ground.\n !happy\n !gesture\n Good luck, Hunter-- and watch your footing, it's <#RED>Windy</> out there."
 msgstr ""
 
-#: Quest.first_dgn_visit_scout_sdmnt.QUIP.chitchat:[in_quest_first_dgn_visit_scout_sdmnt,location_sedament_tundra,role_scout]NOT[has_killed_sedament,in_town].1
-msgctxt "Quest.first_dgn_visit_scout_sdmnt.QUIP.chitchat:[in_quest_first_dgn_visit_scout_sdmnt,location_sedament_tundra,role_scout]NOT[has_killed_sedament,in_town].1"
-msgid "agent:\n !happy\n !gesture\n Welcome to <#BLUE>{name.sedament_tundra}</>! I sure hope you're wearing your long underwear under that armour.\n player:\n Brrr... this place wins the award for chilliest reception.\n agent:\n !neutral\n !think\n That's an understatement. The temperature out here is low enough to <#RED>Freeze</> you solid if you stray too far from a heat source.\n !happy\n !gesture\n Lucky for us, there's an old network of <#RED>Braziers</> that were built for the workers back when this place was still an operational stone quarry.\n !point\n And luckier still, they're still burning strong. Stick close to those, and you should be just fine-- though you might need to whack the ice off some of them to get them burning again.\n !neutral\n !scared\n Now if you don't mind, I'll be hurrying back to the <#RED>Damselfly</> before my fingers get too numb to work the controls. Good luck, Hunter!"
+#: Quest.first_dgn_visit_scout_sdmnt.QUIP.chitchat:[in_quest_first_dgn_visit_scout_sdmnt,role_scout,sedament_region]NOT[has_killed_sedament,in_town].1
+msgctxt "Quest.first_dgn_visit_scout_sdmnt.QUIP.chitchat:[in_quest_first_dgn_visit_scout_sdmnt,role_scout,sedament_region]NOT[has_killed_sedament,in_town].1"
+msgid "agent:\n !happy\n !bliss\n Ah, that crisp <#BLUE>{name.sedament_tundra}</> air! It's chilly here at the foot of the mountains, so watch out for ice."
 msgstr ""
 
-#: Quest.first_dgn_visit_scout_thchr.QUIP.chitchat:[in_quest_first_dgn_visit_scout_thchr,location_thatcher_swamp,role_scout]NOT[has_killed_thatcher,in_town].1
-msgctxt "Quest.first_dgn_visit_scout_thchr.QUIP.chitchat:[in_quest_first_dgn_visit_scout_thchr,location_thatcher_swamp,role_scout]NOT[has_killed_thatcher,in_town].1"
+#: Quest.first_dgn_visit_scout_thchr.QUIP.chitchat:[in_quest_first_dgn_visit_scout_thchr,role_scout,thatcher_region]NOT[has_killed_thatcher,in_town].1
+msgctxt "Quest.first_dgn_visit_scout_thchr.QUIP.chitchat:[in_quest_first_dgn_visit_scout_thchr,role_scout,thatcher_region]NOT[has_killed_thatcher,in_town].1"
 msgid "agent:\n !neutral\n !think\n Hmm... it seems we're in a bit of a predicament.\n !shrug\n [sound:Event.MX_Thatcher_DistantGuitar] 1\n I've scouted all over, but I haven't been able to locate <#BLUE>{name.thatcher_swamp}'s</> <#RED>{name.rot_boss}</>. All I've seen is a--\n !shocked\n ...! Um... did you hear music just now?"
 msgstr ""
 
@@ -8350,7 +8635,7 @@ msgstr ""
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.FRENZIED_HUNTS
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.FRENZIED_HUNTS"
-msgid "agent:\n !neutral\n !point\n <#RED>Frenzied</> Hunts are tougher than regular Hunts, but you need them for progression-- they're the only way to get those precious <#KONJUR>{name_multiple.i_konjur_heart}</>.\n !dubious\n Be mindful, though. <#RED>Reviving</> allies is free on regular Hunts, but on <#RED>Frenzy Level 2</> and above, it'll cost you some <#RED>Health</> to pick up a friend.\n !happy\n !gruffnod\n If you're worried, don't be. <#RED>Frenzy Levels</> might be challenging, but you'll never be given access to one that's beyond your ability."
+msgid "agent:\n !neutral\n !point\n <#RED>Frenzied</> Hunts are tougher than regular Hunts, but you need them for progression-- they're the only way to get those precious <#KONJUR>{name_multiple.i_konjur_heart}</>.\n !dubious\n Be mindful, though. <#RED>Reviving</> allies is free on regular Hunts, but on <#RED>Frenzied</> Hunts, it'll cost you some <#RED>Health</> to pick up a friend.\n !happy\n !gruffnod\n If you're worried, don't be. <#RED>Frenzies</> might be challenging, but you'll never be given access to one that's beyond your ability."
 msgstr ""
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.FRENZIED_HUNTS_BTN
@@ -8380,7 +8665,7 @@ msgstr ""
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.REVIVE_MECHANICS
 msgctxt "Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.REVIVE_MECHANICS"
-msgid "agent:\n !neutral\n !point\n If one of yer fellow Hunters gets knocked out on a Hunt, you can get them back on their feet by approaching them and holding <p bind='Controls.Digital.ACTION' color=BTNICON_DARK>.\n !disagree\n You're vulnerable while you're reviving, and your friend will only come back with <#RED>33% Health</>... so watch yer backs.\n !gruffnod\n If you're hunting on <#RED>Frenzy Level 2</> or higher, you'll also lose some <#RED>Health</> as it transfers to your revived friend."
+msgid "agent:\n !neutral\n !point\n If one of yer fellow Hunters gets knocked out on a Hunt, you can get them back on their feet by approaching them and holding <p bind='Controls.Digital.ACTION' color=BTNICON_DARK>.\n !disagree\n You're vulnerable while you're reviving, and your friend will only come back with <#RED>33% Health</>... so watch yer backs.\n !gruffnod\n If you're hunting in a <#RED>Frenzied</> area, you'll also lose some <#RED>Health</> as it transfers to your revived friend."
 msgstr ""
 
 #: Quest.twn_repeatable_tutorials_dojo.TUTORIALS.GENERAL.REVIVE_MECHANICS_BTN
@@ -9140,7 +9425,7 @@ msgstr ""
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]confused.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]confused.1"
-msgid "Phew-- it's going to take weeks to air that smell out of the {name.damselfly}..."
+msgid "Phew-- it's going to take weeks to air that smell out of the {name.i_damselfly}..."
 msgstr ""
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]confused.2
@@ -9430,7 +9715,7 @@ msgstr ""
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_early_hunt,lost]motivational.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_early_hunt,lost]motivational.3"
-msgid "Ready for a little {name.damselfly} ride?"
+msgid "Ready for a little {name.i_damselfly} ride?"
 msgstr ""
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_early_hunt,lost]nervous.1
@@ -9465,7 +9750,7 @@ msgstr ""
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,megatreemon]frustrated.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,megatreemon]frustrated.1"
-msgid "First she slaps my {name.damselfly}, and now this?!"
+msgid "First she slaps my {name.i_damselfly}, and now this?!"
 msgstr ""
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,megatreemon]motivational.1
@@ -11336,6 +11621,11 @@ msgstr ""
 #: STRINGS.CREDITS.KLEI.61
 msgctxt "STRINGS.CREDITS.KLEI.61"
 msgid "Thomas Mathews"
+msgstr ""
+
+#: STRINGS.CREDITS.KLEI.62
+msgctxt "STRINGS.CREDITS.KLEI.62"
+msgid "Kevin Lee"
 msgstr ""
 
 #: STRINGS.CREDITS.KLEI.7
@@ -14320,7 +14610,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.GEMS.PROTOTYPE_DESC_TUTORIAL
 msgctxt "STRINGS.ITEMS.GEMS.PROTOTYPE_DESC_TUTORIAL"
-msgid "Slot into a <#RED>Weapon</> at the <#RED>{name.station_gems}</>, located by {name.npc_blacksmith}."
+msgid "Slot into a <#RED>Weapon</> at the <#RED>{name.i_station_gems}</>, located by {name.npc_blacksmith}."
 msgstr ""
 
 #: STRINGS.ITEMS.GEMS.boss_soul.desc
@@ -14335,7 +14625,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.GEMS.boss_soul.slotted_desc
 msgctxt "STRINGS.ITEMS.GEMS.boss_soul.slotted_desc"
-msgid "Kill an <#RED>{name.elite_prefix} {name.rot_boss}</> to consume this {name.gem} and <#RED>Imbue</> the equipped Item allowing <#RED>upgrading past Level 9</>.\n\nNot valid in {name_multiple.weapon_crystal} or Boss Weapons."
+msgid "Kill an <#RED>{name.elite_prefix} {name.rot_boss}</> to consume this {name.gem} and <#RED>Imbue</> the equipped Item allowing <#RED>upgrading past Level 10</>.\n\nNot valid in {name_multiple.weapon_crystal} or Boss Weapons."
 msgstr ""
 
 #: STRINGS.ITEMS.GEMS.crit_chance.desc
@@ -18825,7 +19115,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.MATERIALS.konjur_heart_shard.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.konjur_heart_shard.desc"
-msgid "Can be spent at the {name.town_grid_cryst}.\n\nFound by: <#RED>Progressing {name.concept_talent_tree}</>"
+msgid "Can be spent at the {name.i_town_grid_cryst}.\n\nFound by: <#RED>Progressing {name.concept_talent_tree}</>"
 msgstr ""
 
 #: STRINGS.ITEMS.MATERIALS.konjur_heart_shard.name
@@ -20230,7 +20520,7 @@ msgstr ""
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_antleer_body.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_antleer_body.desc"
-msgid "Take less <#RED>{name.concept_damage}</> for each <#RED>Environmental Object</> you've destroyed this {name.run}."
+msgid "Increase your <#RED>{name.powerdesc_maxhealth}</> for each <#RED>Environmental Object</> you destroy."
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_antleer_body.name
@@ -20238,14 +20528,14 @@ msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_antleer_body.name"
 msgid "equipment_antleer_body"
 msgstr ""
 
-#: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_antleer_body.variables.damage_reduction_per
-msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_antleer_body.variables.damage_reduction_per"
-msgid "{name.powerdesc_damage_reduction} per"
+#: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_antleer_body.variables.maxhealth_per
+msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_antleer_body.variables.maxhealth_per"
+msgid "{name.powerdesc_maxhealth} per"
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_antleer_head.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_antleer_head.desc"
-msgid "Deal bonus <#RED>{name.concept_damage}</> for each <#RED>Environmental Object</> you've destroyed this {name.run}."
+msgid "Increase <#RED>{name.powerdesc_healing_received_bonus}</> for every {health_per} <#RED>{name.concept_health}</> you are missing."
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_antleer_head.name
@@ -20253,14 +20543,14 @@ msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_antleer_head.name"
 msgid "equipment_antleer_head"
 msgstr ""
 
-#: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_antleer_head.variables.damage_bonus_per
-msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_antleer_head.variables.damage_bonus_per"
-msgid "{name.powerdesc_damage_bonus} per"
+#: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_antleer_head.variables.healing_bonus_per
+msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_antleer_head.variables.healing_bonus_per"
+msgid "{name.powerdesc_healing_received_bonus} per"
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_antleer_waist.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_antleer_waist.desc"
-msgid "Gain <#RED>{name.concept_runspeed}</> for each <#RED>Environmental Object</> you've destroyed this {name.run}."
+msgid "Increase your <#RED>{name.powerdesc_speed_bonus}</> for every {health_per} <#RED>{name.concept_health}</> you have."
 msgstr ""
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_antleer_waist.name
@@ -31078,6 +31368,11 @@ msgctxt "STRINGS.NAMES.hunter"
 msgid "Hunter"
 msgstr ""
 
+#: STRINGS.NAMES.i_damselfly
+msgctxt "STRINGS.NAMES.i_damselfly"
+msgid "<p img='images/hud_images/hud_station_damselfly.tex' rpad=1>Damselfly"
+msgstr ""
+
 #: STRINGS.NAMES.i_gem_dust
 msgctxt "STRINGS.NAMES.i_gem_dust"
 msgid "<p img='images/hud_images/hud_gem_dust_drops_currency.tex' rpad=1>Gem Dust"
@@ -31143,9 +31438,34 @@ msgctxt "STRINGS.NAMES.i_konjur_soul_lesser"
 msgid "<p img='images/hud_images/hud_konjur_soul_lesser_drops_currency.tex' rpad=1><#KONJUR>Corestone</>"
 msgstr ""
 
+#: STRINGS.NAMES.i_masteries_station
+msgctxt "STRINGS.NAMES.i_masteries_station"
+msgid "<p img='images/hud_images/hud_station_mastery_table.tex' rpad=1>Mastery Board"
+msgstr ""
+
+#: STRINGS.NAMES.i_seed_grinder
+msgctxt "STRINGS.NAMES.i_seed_grinder"
+msgid "<p img='images/hud_images/hud_station_seed_grinder.tex' rpad=1>Seed Exchange"
+msgstr ""
+
+#: STRINGS.NAMES.i_station_armorsmith
+msgctxt "STRINGS.NAMES.i_station_armorsmith"
+msgid "<p img='images/hud_images/hud_station_armory.tex' rpad=1>Armoury Dummy"
+msgstr ""
+
 #: STRINGS.NAMES.i_station_diary
 msgctxt "STRINGS.NAMES.i_station_diary"
 msgid "<p img='images/hud_images/hud_friend_diary.tex' rpad=1>Diary"
+msgstr ""
+
+#: STRINGS.NAMES.i_station_gems
+msgctxt "STRINGS.NAMES.i_station_gems"
+msgid "<p img='images/hud_images/hud_station_gem_station.tex' rpad=1>Gemcutter's Table"
+msgstr ""
+
+#: STRINGS.NAMES.i_town_grid_cryst
+msgctxt "STRINGS.NAMES.i_town_grid_cryst"
+msgid "<p img='images/hud_images/hud_station_heartwell.tex' rpad=1>Wellspring"
 msgstr ""
 
 #: STRINGS.NAMES.immorel
@@ -31548,6 +31868,11 @@ msgctxt "STRINGS.NAMES.powerdesc_heal_on_enter"
 msgid "Heal on Enter"
 msgstr ""
 
+#: STRINGS.NAMES.powerdesc_healing_received_bonus
+msgctxt "STRINGS.NAMES.powerdesc_healing_received_bonus"
+msgid "Healing Received"
+msgstr ""
+
 #: STRINGS.NAMES.powerdesc_healingprocbonus
 msgctxt "STRINGS.NAMES.powerdesc_healingprocbonus"
 msgid "Bonus Heal Chance"
@@ -31785,7 +32110,7 @@ msgstr ""
 
 #: STRINGS.NAMES.species_ogre
 msgctxt "STRINGS.NAMES.species_ogre"
-msgid "Ogre"
+msgid "Neander"
 msgstr ""
 
 #: STRINGS.NAMES.sporemon
@@ -31810,7 +32135,7 @@ msgstr ""
 
 #: STRINGS.NAMES.station_armorsmith
 msgctxt "STRINGS.NAMES.station_armorsmith"
-msgid "Armourer's Workshop"
+msgid "Armoury Dummy"
 msgstr ""
 
 #: STRINGS.NAMES.station_blacksmith
@@ -32825,7 +33150,7 @@ msgstr ""
 
 #: STRINGS.NAMES_PLURAL.species_ogre
 msgctxt "STRINGS.NAMES_PLURAL.species_ogre"
-msgid "Ogres"
+msgid "Neanders"
 msgstr ""
 
 #: STRINGS.NAMES_PLURAL.sporemon
@@ -33690,7 +34015,7 @@ msgstr ""
 
 #: STRINGS.NAMES_PLURALITY.species_ogre
 msgctxt "STRINGS.NAMES_PLURALITY.species_ogre"
-msgid "Ogre|Ogres"
+msgid "Neander|Neanders"
 msgstr ""
 
 #: STRINGS.NAMES_PLURALITY.sporemon
@@ -35120,7 +35445,7 @@ msgstr ""
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_FRENZY_LVL
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_FRENZY_LVL"
-msgid "This item is only found in Frenzy Levels"
+msgid "This item is only found in {name_multiple.run_ascension}"
 msgstr ""
 
 #: STRINGS.UI.ARMORYSCREEN.MAX_LEVEL
@@ -36665,7 +36990,7 @@ msgstr ""
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_farm_seedgrind_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_farm_seedgrind_unlocked.desc"
-msgid "<#RED>{name.npc_apothecary}</>'s <#RED>{name.seed_grinder}</> transforms seeds and materials into more seeds."
+msgid "<#RED>{name.npc_apothecary}</>'s <#RED>{name.i_seed_grinder}</> transforms seeds and materials into more seeds."
 msgstr ""
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_farm_seedgrind_unlocked.name
@@ -38623,6 +38948,21 @@ msgctxt "STRINGS.UI.MAINSCREEN.SLOTS_INFO_START"
 msgid "Select a character slot. "
 msgstr ""
 
+#: STRINGS.UI.MAINSCREEN.SLOTS_REMOVE_PLAYER
+msgctxt "STRINGS.UI.MAINSCREEN.SLOTS_REMOVE_PLAYER"
+msgid "Press <p bind='Controls.Digital.CANCEL' color=0> to remove"
+msgstr ""
+
+#: STRINGS.UI.MAINSCREEN.SLOT_CONTINUE_TO_GAME
+msgctxt "STRINGS.UI.MAINSCREEN.SLOT_CONTINUE_TO_GAME"
+msgid "Start Game"
+msgstr ""
+
+#: STRINGS.UI.MAINSCREEN.SLOT_CONTINUE_TO_ONLINE
+msgctxt "STRINGS.UI.MAINSCREEN.SLOT_CONTINUE_TO_ONLINE"
+msgid "Continue"
+msgstr ""
+
 #: STRINGS.UI.MAINSCREEN.SLOT_PLAYER_READY
 msgctxt "STRINGS.UI.MAINSCREEN.SLOT_PLAYER_READY"
 msgid "Ready!"
@@ -39215,7 +39555,7 @@ msgstr ""
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.GEMTABLE_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.GEMTABLE_UNLOCKED.TITLE"
-msgid "{name.station_gems} Unlocked!"
+msgid "{name.i_station_gems} Unlocked!"
 msgstr ""
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.HUNTERS_PATH_UNLOCKED.DESC
@@ -39270,7 +39610,7 @@ msgstr ""
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.SEEDGRINDER_UNLOCKED.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.SEEDGRINDER_UNLOCKED.DESC"
-msgid "Use the <#RED>{name.seed_grinder}</> to transform seeds and materials into more seeds!"
+msgid "Use the <#RED>{name.i_seed_grinder}</> to transform seeds and materials into more seeds!"
 msgstr ""
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.SEEDGRINDER_UNLOCKED.TITLE
@@ -40385,7 +40725,7 @@ msgstr ""
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.PROFILE_NAME.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.PROFILE_NAME.DESC"
-msgid "Use the Account Name for as player name for all local players."
+msgid "Use the Account Name as player name for all local players."
 msgstr ""
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.PROFILE_NAME.NAME
