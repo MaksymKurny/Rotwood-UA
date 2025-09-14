@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-08-31 21:32\n"
+"PO-Revision-Date: 2025-08-31 21:53\n"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.ANSWER_1A"
@@ -4738,7 +4738,7 @@ msgid "agent:\n"
 msgstr "agent:\n"
 " !happy\n"
 " !clap\n"
-" Чудово! Отже, все, що Вам треба зробити — це вставити {name.c_konjur_heart_shard} у <#KONJUR>{name.i_town_grid_cryst}</> он там."
+" Чудово! Отже, все, що вам треба зробити — це вставити {name.c_konjur_heart_shard} у <#KONJUR>{name.i_town_grid_cryst}</> он там."
 
 #: Convo.first_heart_shard_scout.ATTRACT0.holding_shard.giver.STATE_0.JOIN
 msgctxt "Convo.first_heart_shard_scout.ATTRACT0.holding_shard.giver.STATE_0.JOIN"
@@ -4885,7 +4885,7 @@ msgid "agent:\n"
 " So? What happened when you put the {name.c_konjur_heart_shard} into the <#KONJUR>{name.i_town_grid_cryst}</>? Spare no detail!\n"
 " player:\n"
 " It reacted to the {name.konjur_heart_shard}. I think it powered up a little?"
-msgstr "gent:\n"
+msgstr "agent:\n"
 " !happy\n"
 " !dubious\n"
 " Ну і що? Що сталося, коли ви вставили {name.c_konjur_heart_shard} у <#KONJUR>{name.i_town_grid_cryst}</>? Жодної деталі не приховуйте!\n"
@@ -24196,7 +24196,7 @@ msgstr "Маленький Слайм"
 #: STRINGS.COSMETICS.TITLE_COMMON.LABEL_FMT
 msgctxt "STRINGS.COSMETICS.TITLE_COMMON.LABEL_FMT"
 msgid "Title: {title}"
-msgstr "Кличка: %{title}"
+msgstr "Кличка: {title}"
 
 #: STRINGS.CRAFT_WIDGET.CANCEL
 msgctxt "STRINGS.CRAFT_WIDGET.CANCEL"
@@ -49516,7 +49516,7 @@ msgstr "Ресурси знайдені тут"
 #: STRINGS.UI.DUNGEONSELECTIONSCREEN.NO_ELITE_BOSS_MESSAGE
 msgctxt "STRINGS.UI.DUNGEONSELECTIONSCREEN.NO_ELITE_BOSS_MESSAGE"
 msgid "The <#RED>{name.elite_prefix} {name.rot_boss}</> for this {name.run} has not been created yet."
-msgstr "<#RED>{3:{Name.elite_prefix}} {2:{name.rot_boss}}</> для цього {name.run} ще не створено."
+msgstr "<#RED>{4:{Name.elite_prefix}} {2:{name.rot_boss}}</> для цього {name.run} ще не створено."
 
 #: STRINGS.UI.DUNGEONSELECTIONSCREEN.SUPER_FRENZY_WIDGET.CORESTONE_REWARD
 msgctxt "STRINGS.UI.DUNGEONSELECTIONSCREEN.SUPER_FRENZY_WIDGET.CORESTONE_REWARD"
@@ -50603,7 +50603,7 @@ msgstr "Віддайте <#RED>{Name.npc_cook}</> її {2:{name.cookingtools}}, 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_gave_farmtools.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_gave_farmtools.desc"
 msgid "<#RED>{name.npc_apothecary}</> needs her {name.farmtools} before she'll start trusting you."
-msgstr "<#RED>{Name.npc_apothecary}</> потрібні її {name.farmtools}, перш ніж вона почне вам довіряти."
+msgstr "<#RED>{2:{Name.npc_apothecary}}</> потрібні її {name.farmtools}, перш ніж вона почне вам довіряти."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_town_crafting_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_town_crafting_unlocked.desc"
@@ -50648,7 +50648,7 @@ msgstr "Меню {2:{name_multiple.cook_rotating_recipe}}"
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_farm_seedgrind_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_farm_seedgrind_unlocked.desc"
 msgid "<#RED>{name.npc_apothecary}</>'s <#RED>{name.i_seed_grinder}</> transforms seeds and materials into more seeds."
-msgstr "<#RED>{Name.i_seed_grinder}</> <#RED>{2:{Name.npc_apothecary}}</> перетворює насіння та матеріали на ще більше насіння."
+msgstr "<#RED>{Name.i_seed_grinder}</> <#RED>{3:{Name.npc_apothecary}}</> перетворює насіння та матеріали на ще більше насіння."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_farm_seedgrind_unlocked.name
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_farm_seedgrind_unlocked.name"
@@ -53401,7 +53401,7 @@ msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.SUPERFRENZY_UNLOCKED.DESC"
 msgid "You've unlocked <#RED>{name.ascension_plus}</> hunts.\n\n"
 "The {name.c_konjur} is dense in these areas, causing <#RED>{name.elite_prefix} {name_multiple.rot_boss}</> to manifest inside."
 msgstr "Ви розблокували <#RED>{2:{name.ascension_plus}}</> полювання.\n\n"
-"Рівень {2:{name.c_konjur}} у цих місцях високий, що спричиняє появу <#RED>{name.elite_prefix} {2:{name_multiple.rot_boss}}</>."
+"Рівень {2:{name.c_konjur}} у цих місцях високий, що спричиняє появу <#RED>{5:{name.elite_prefix}}{2:{name_multiple.rot_boss}}</>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.SUPERFRENZY_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.SUPERFRENZY_UNLOCKED.TITLE"
