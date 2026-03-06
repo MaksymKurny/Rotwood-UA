@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2026-03-04 18:00\n"
+"PO-Revision-Date: 2026-03-06 18:36\n"
 
 #: Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB
 msgctxt "Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB"
@@ -19823,7 +19823,11 @@ msgid "!happy\n"
 " If you're taking a <#RED>{name.i_lunchbox}</>, make sure it's packed before we leave.\n"
 " !shrug\n"
 " I don't wanna have to fly all the way back for a sandwich."
-msgstr ""
+msgstr "!happy\n"
+" !gesture\n"
+" Якщо ви берете <#RED>{name.i_lunchbox}</>, переконайтеся, що він запакований, перш ніж ми підемо.\n"
+" !shrug\n"
+" Я не хочу летіти назад заради бутерброда."
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,role_scout,wf_town_has_cook].3
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,role_scout,wf_town_has_cook].3"
@@ -53376,12 +53380,12 @@ msgstr "{Name.interact_hold} Випити {name.potion}"
 #: STRINGS.UI.ACTIONS.GIFT_PROGRESSION_LOCKED
 msgctxt "STRINGS.UI.ACTIONS.GIFT_PROGRESSION_LOCKED"
 msgid "<p img='images/ui_ftf_town/heart_locked.tex' color=0> Gift Progress Locked"
-msgstr ""
+msgstr "<p img='images/ui_ftf_town/heart_locked.tex' color=0> Прогрес дружби заблоковано"
 
 #: STRINGS.UI.ACTIONS.GIFT_PROGRESSION_MAXED
 msgctxt "STRINGS.UI.ACTIONS.GIFT_PROGRESSION_MAXED"
 msgid "<p img='images/ui_ftf_town/heart_unlocked.tex' color=0> Already Best Friends"
-msgstr ""
+msgstr "<p img='images/ui_ftf_town/heart_unlocked.tex' color=0> Вже найкращі друзі"
 
 #: STRINGS.UI.ACTIONS.GIVE_GIFT
 msgctxt "STRINGS.UI.ACTIONS.GIVE_GIFT"
@@ -53396,7 +53400,7 @@ msgstr "Забираємося?"
 #: STRINGS.UI.ACTIONS.INTERACT_FMT
 msgctxt "STRINGS.UI.ACTIONS.INTERACT_FMT"
 msgid "{button_icon} {label}"
-msgstr ""
+msgstr "{button_icon} {label}"
 
 #: STRINGS.UI.ACTIONS.MANNEQUIN_CHANGE_EQUIPMENT
 msgctxt "STRINGS.UI.ACTIONS.MANNEQUIN_CHANGE_EQUIPMENT"
