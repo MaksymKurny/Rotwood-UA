@@ -74,6 +74,7 @@ function ShowLoading()
 	if global_loading_widget then
 		global_loading_widget:SetEnabled(true)
 	end
+	TheSim:ShowOrHideLoading(true)
 end
 
 function HideLoading(force)
@@ -84,6 +85,7 @@ function HideLoading(force)
 			global_loading_widget:Hide()
 		end
 	end
+	TheSim:ShowOrHideLoading(false)
 end
 
 function ShowCancelTip()
@@ -98,7 +100,16 @@ function HideCancelTip()
 	end
 end
 
+local AllPrefabsRegistered = nil
+
 local function RegisterAllPrefabs(init_dlc, async_batch_validation)
+	if not async_batch_validation then
+		if AllPrefabsRegistered then
+			return
+		end
+		AllPrefabsRegistered = true
+	end
+	TracyZone("RegisterAllPrefabs")
 	RegisterAllDLC()
 	for i = 1, #PREFABFILES do -- required from prefablist.lua
 		LoadPrefabFile("prefabs/" .. PREFABFILES[i], async_batch_validation or false)
@@ -109,19 +120,34 @@ local function RegisterAllPrefabs(init_dlc, async_batch_validation)
 	ModManager:RegisterPrefabs()
 end
 
+local function UnregisterAllPrefabs()
+	TracyZone("UnregisterAllPrefabs")
+	TheSim:UnregisterAllPrefabs()
+	AllPrefabsRegistered = nil
+end
+
 local function LoadPlayerPrefabs()
 	TheLog.ch.Load:print("\tLOAD PLAYER_PREFABS")
 	TheSystemService:SetStalling(true)
+	TracyZone("LoadPlayerPrefabs")
 	TheSim:LoadPrefabs(PLAYER_PREFABS)
 	TheSystemService:SetStalling(false)
 	KeepAlive()
 	TheLog.ch.Load:print("\tLOAD PLAYER_PREFABS done")
 end
 
+local function CacheStateGraphs()
+	TracyZone("CacheStateGraphs")
+	TheLog.ch.Load:printf("\tCache StateGraphs")
+	local count = PreloadStateGraphs() -- see entityscript.lua
+	TheLog.ch.Load:printf("\tCache StateGraphs done (%d loaded)", count)
+end
+
 -- Decision logic here needs to match AssetLoader.PrepareAssetPrefetch
 -- TODO: reconcile both functions
 local function LoadAssets(asset_set, savedata)
 	ShowLoading()
+	CacheStateGraphs()
 
 	local settings = InstanceParams.settings
 
@@ -137,7 +163,7 @@ local function LoadAssets(asset_set, savedata)
 		if savedata.map.prefab then
 			table.insert(back_end_prefabs, savedata.map.prefab)
 		end
-		if savedata.map.scenegenprefab then
+		if savedata.map.scenegenprefab and settings.reset_action ~= RESET_ACTION.LOAD_TOWN_ROOM then
 			table.insert(back_end_prefabs, savedata.map.scenegenprefab)
 		end
 	end
@@ -159,7 +185,7 @@ local function LoadAssets(asset_set, savedata)
 			end
 
 			TheSystemService:SetStalling(true)
-			TheSim:UnregisterAllPrefabs()
+			UnregisterAllPrefabs()
 			local async_batch_validation = settings.last_asset_set == nil
 			RegisterAllPrefabs(false, async_batch_validation)
 			TheSystemService:SetStalling(false)
@@ -188,6 +214,7 @@ local function LoadAssets(asset_set, savedata)
 							:SetNoButton(STRINGS.UI.MAINSCREEN.QUIT, function()
 								TheSim:Quit(ExitCode.MissingAssets)
 							end, false)
+							:AllowInteractionFromUserlessDevice()
 							:CenterText()
 						TheFrontEnd:PushFatalErrorScreen(popup)
 						complete = true
@@ -221,6 +248,7 @@ local function LoadAssets(asset_set, savedata)
 				:result()
 
 			if next(unloadables) then
+				TracyZone("UnloadBE")
 				TheLog.ch.Load:print("\tUnload BE")
 				TheSim:UnloadPrefabs(unloadables)
 				KeepAlive()
@@ -233,6 +261,7 @@ local function LoadAssets(asset_set, savedata)
 			KeepAlive()
 
 			if next(loadables) then
+				TracyZone("LoadBE")
 				TheLog.ch.Load:print("\tLOAD BE")
 				TheSystemService:SetStalling(true)
 				TheSim:LoadPrefabs(loadables)
@@ -249,7 +278,7 @@ local function LoadAssets(asset_set, savedata)
 			end
 
 			TheSystemService:SetStalling(true)
-			TheSim:UnregisterAllPrefabs()
+			UnregisterAllPrefabs()
 			RegisterAllPrefabs(true)
 			TheSystemService:SetStalling(false)
 			KeepAlive()
@@ -258,6 +287,7 @@ local function LoadAssets(asset_set, savedata)
 
 			TheLog.ch.Load:print("\tLOAD BE")
 			if back_end_prefabs ~= nil then
+				TracyZone("LoadBackendPrefabs")
 				TheSystemService:SetStalling(true)
 				TheSim:LoadPrefabs(back_end_prefabs)
 				TheSystemService:SetStalling(false)
@@ -449,6 +479,46 @@ local OnAllPlayersReady = function(savedata, profile)
 		return
 	end
 
+	-- Create a string similar to that which is at the top of the screen, which will be squirreled away in the dying message if the game crashes.
+	-- (Shamelessly ripped from playerhud.lua)
+	local mapgen = require "defs.mapgen"
+	local scene_gen = TheSceneGen and TheSceneGen.components.scenegen
+	local tier = scene_gen and string.format("%1d", ResolveDungeonTier()) or "*"
+	local ascensionmanager = TheDungeon.progression.components.ascensionmanager
+	local worldmap = TheDungeon:GetDungeonMap()
+	local room_difficulty = worldmap:GetDifficultyForCurrentRoom()
+	local difficulty = mapgen.Difficulty:FromId(room_difficulty, "")
+	local roomtype = TheDungeon:GetRoomType()
+	local isTown = TheWorld:HasTag( "town" )
+	local encounter
+	if TheNet:IsHost() then
+		encounter = worldmap:GetForcedEncounterForCurrentRoom() or tostring(TheWorld.components.spawncoordinator.encounter_idx or "?")
+	else
+		-- only hosts run encounters
+		encounter = "Client " .. (TheNet:GetClientID() or "N/A")
+	end
+	local strLocation = "DUNGEON"
+	if isTown then
+		strLocation = "TOWN"
+	end
+	local myLocation = string.upper(
+		string.format(
+			"T:%s,A:%1d,P:%.0f,D:%s,R:%s,E:%s,L:%s",
+			tier,
+			ascensionmanager:GetCurrentLevel(),
+			TheDungeon:GetDungeonProgress() * 100,
+			difficulty,
+			roomtype,
+			encounter,
+			strLocation		-- used by cpp code to detect town vs dungeon room
+		)
+	)
+	TheSim:OnDungeonRoomChanged( myLocation )
+
+	-- NOTE - Town can also be detected (along with additional information) like this:
+	--		  TheDungeon:GetDungeonMap():GetBiomeLocation().location_type == biomes.location_type_names.TOWN
+	--		  most location types will be DUNGEON
+	
 	TheLog.ch.Boot:printf("OnAllPlayersReady: IsHost[%s] GetNrPlayersOnRoomChange[%s]",
 		TheNet:IsHost(), TheNet:GetNrPlayersOnRoomChange())
 
@@ -471,18 +541,50 @@ local OnAllPlayersReady = function(savedata, profile)
 		TheFrontEnd:SetFadeLevel(1)
 	end
 
+	TheFrontEnd:PlayRoomStartCutscene()
+
+	-- I think we wait a frame to ensure player's had time to start cine.
 	TheDungeon:DoTaskInTicks(1, function()
-		local in_cine = false
-		local local_players = playerutil.GetLocalPlayers()
-		for i,spawned_player in ipairs(local_players) do
-			-- Let the cine control the fade if possible.
-			in_cine = in_cine or (spawned_player and spawned_player.components.cineactor and spawned_player.components.cineactor:IsInCine())
-		end
-		if not in_cine then
+		-- There are three possibilities:
+		-- 1. The spawn cine hasn't started yet because we're a network client
+		--    waiting for host to send the cine entity.
+		-- 2. The spawn cine started but hasn't hit the FadeInFromBlack event.
+		--    The host always hits this case.
+		-- 2. The spawn cine started and already hit the FadeInFromBlack event.
+		--
+		-- We want the cine to control the fade if possible, so if we've never
+		-- tried to fade then we'll leave it to the cine. If there is no cine,
+		-- then we have a fallback to ensure we fade in.
+		--
+		-- If we've seen a fade, then we can't assume the cine will handle it
+		-- and must fade in immediately.
+		--
+		-- Cutscenes snap the fade away, so we always immediately fade in for them.
+		local in_cine = playerutil.GetFirstPlayerInCine()
+		local client_returning_to_town = not TheNet:IsHost()
+			and TheDungeon:IsInTown()
+		if TheFrontEnd:HasAnyCineEverFadedIn()
+			or TheFrontEnd:IsPlayingCutscene()
+			or not (in_cine or client_returning_to_town)
+		then
 			TheLog.ch.Boot:print("Fade in from black now")
 			TheFrontEnd:FadeInFromBlack()
+
 		else
 			TheLog.ch.Boot:print("Fade deferred to cine control")
+			if not in_cine then
+				-- Town should always have a cine, but it's spawned by the host
+				-- so could have delay before we receive it. For safety, clear
+				-- the black if cine hasn't started fast enough.
+				TheDungeon:DoTaskInTime(2, function()
+					if not TheFrontEnd:IsFading()
+						and not playerutil.GetFirstPlayerInCine()
+					then
+						TheLog.ch.Boot:print("Fade in from black now -- client gave up waiting for cine.")
+						TheFrontEnd:FadeInFromBlack()
+					end
+				end)
+			end
 		end
 		ForceInGamePlay() -- the normal transition to gameplay
 		TheCamera:Snap()
@@ -494,10 +596,36 @@ local function OnFinishedSpawnLocalPlayers()
 	TheNet:ConfirmRoomLoadReady()	-- Tell the host we're ready to go.
 	TheNet:StartingRoom() -- Signal the networking systems that the room is starting
 	HideLoading()
+	
+	--[[
+	-- TO RE-ENABLE DELAYED HIDING FOR NEW GAME INTRO FLOW:
+	-- If the loading widget snapshot needs to persist through C++ loading slides
+	-- until the cutscene starts, uncomment this code and comment out HideLoading() above.
+	--
+	-- Delay hiding loading widget if we're in new game intro flow
+	-- The loading widget snapshot should persist until the cutscene starts
+	local has_seen_intro = TheWorld and TheWorld:IsFlagUnlocked("wf_did_intro_sequence")
+	local should_delay_hide = false
+	if TheWorld and TheDungeon and TheDungeon:IsInTown() then
+		local player = GetDebugPlayer and GetDebugPlayer() or ThePlayer
+		if player and player.components.progresstracker then
+			local has_any_runs = player.components.progresstracker:GetTotalNumRuns() > 0
+			if not has_seen_intro and not has_any_runs then
+				should_delay_hide = true
+				TheLog.ch.Boot:printf("Delaying HideLoading() for new game intro flow - will hide when cutscene starts")
+			end
+		end
+	end
+	
+	if not should_delay_hide then
+		HideLoading()
+	end
+	--]]
 end
 
 local WaitForLocalPlayersTask = nil
-local WaitForLocalPlayersTaskTimeoutTicks <const> = 120
+local WaitForLocalPlayersLogInterval <const> = 2 * SECONDS
+local WaitForLocalPlayersTaskTimeoutTicks <const> = 30 * SECONDS
 local WaitForLocalPlayersTaskTimeout = WaitForLocalPlayersTaskTimeoutTicks
 
 local function ResetWaitForLocalPlayersTask()
@@ -520,6 +648,12 @@ local function BeginRoom(savedata, profile, savetype)
 
 		TheDungeon:SetPersistData({})
 
+		if NETFLIX_DEMO_BUILD or USE_CONTROL_MONKEY then
+			TheDungeon:ListenForEvent("playeractivated", function(world, player)
+				RefreshGodMode(player)
+			end)
+		end
+
 		Environment.AlignLightingLayerWeightsWithTheDungeon()
 
 		should_post_load_dungeon = true
@@ -531,8 +665,7 @@ local function BeginRoom(savedata, profile, savetype)
 
 	if TheDungeon.HUD then
 		pop_mastery_queue_data = TheDungeon.HUD:GetPopMasteryProgressQueueData()
-		TheFrontEnd:PopScreen(TheDungeon.HUD)
-		TheDungeon.HUD = nil
+		TheDungeon:DeactivateHUD()
 	end
 
 	-- Each room is a world.
@@ -574,6 +707,7 @@ local function BeginRoom(savedata, profile, savetype)
 		local raw_local_player_count = TheNet:GetNrLocalPlayers(true) -- nil: no network
 		if not raw_local_player_count then
 			TheLog.ch.Boot:printf("Error: SpawnLocalPlayers - Network session abruptly ended.")
+			OnNetworkDisconnect("DEFAULT", true)
 		elseif raw_local_player_count == 0 then
 			if not WaitForLocalPlayersTask then
 				TheLog.ch.Boot:printf("SpawnLocalPlayers - Waiting for host registration.")
@@ -599,10 +733,17 @@ local function BeginRoom(savedata, profile, savetype)
 					end
 
 					if WaitForLocalPlayersTaskTimeout <= 0 then
+						-- host never acknowledged player registration, so we can't proceed further
 						TheLog.ch.Boot:printf("Error: SpawnLocalPlayers - Task timed out. Ticks waited: %d",
-							WaitForLocalPlayersTaskTimeout)
+							WaitForLocalPlayersTaskTimeoutTicks - WaitForLocalPlayersTaskTimeout)
 						ResetWaitForLocalPlayersTask()
 						BeginRoomComplete()
+						OnNetworkDisconnect("ServerTimeout", true)
+					end
+
+					if WaitForLocalPlayersTaskTimeout % WaitForLocalPlayersLogInterval == 0 then
+						TheLog.ch.Boot:printf("SpawnLocalPlayers - Waiting for host to confirm local player registration.  Ticks waited: %d",
+							WaitForLocalPlayersTaskTimeoutTicks - WaitForLocalPlayersTaskTimeout)
 					end
 				end)
 			else
@@ -611,6 +752,10 @@ local function BeginRoom(savedata, profile, savetype)
 			end
 		else
 			TheLog.ch.Boot:printf("SpawnLocalPlayers - Ready")
+			if WaitForLocalPlayersTask then
+				TheLog.ch.Boot:printf("SpawnLocalPlayers - Previous wait task cancelled.")
+				ResetWaitForLocalPlayersTask()
+			end
 
 			TheNet:SpawnLocalPlayers()
 			OnFinishedSpawnLocalPlayers()
@@ -761,6 +906,7 @@ TheNetUtils.ProfanityFilter = ProfanityFilter()
 
 TheNetUtils.ProfanityFilter:AddDictionary("default", require("wordfilter"))
 
+TheLog.ch.Boot:print("DEV_MODE=", DEV_MODE)
 TheLog.ch.SaveLoad:print("[Loading profile and save index]")
 Profile:Load(OnFilesLoaded) -- this causes a chain of continuations in sequence that eventually result in DoResetAction being called
 

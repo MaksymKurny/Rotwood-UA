@@ -46,6 +46,7 @@ require "strings.strings_weapontips"
 require "strings.strings_credits"
 require "strings.strings_player_emotes"
 require "strings.strings_encounters"
+require "strings.strings_tefframech"
 if not POT_GENERATION then
 	-- Skip for .pot generation since it's already translated.
 	require "strings.strings_pretranslated"
@@ -59,6 +60,7 @@ STRINGS.GAME = {
 
 STRINGS.CRASHREPORTER = {
 	-- Translations must be manually applied to tools/CrashReporterWindows/source/CrashReporterWindows.rc
+	-- Use ../../../translation/run_gui.bat
 	IDS_APP_TITLE = "Rotwood Crash Reporter",
 	IDS_DLG_TITLE = "It appears Rotwood has crashed.\nPlease visit our support page for fixes to common problems: <a>http://klei.gg/rotwoodhelp</a>",
 	IDS_DLG_INSTRUCTIONS = "Can you describe what was going on in the game when the crash happened?",
@@ -72,12 +74,13 @@ STRINGS.CRASHREPORTER = {
 	IDS_SUCCESS = "Success",
 }
 
-STRINGS.FEEDBACK = {
-	VERY_BAD = "Very Bad",
-	BAD = "Bad",
-	NEUTRAL = "Neutral",
-	GOOD = "Good",
-	VERY_GOOD = "Very Good",
+
+STRINGS.RICH_PRESENCE = {
+	-- Not used directly in-game: Uploaded to first-party, but here to get
+	-- translated. Use ../../../translation/export_richpresence.bat
+	STATUS_MENU = "At the main menu",
+	STATUS_TOWN = "In Camp",
+	--~ PLAYER_COUNT = "(%player_count% of 4 players)",  -- Steam-style %variable%
 }
 
 STRINGS.ITEM_CATEGORIES =
@@ -112,7 +115,7 @@ STRINGS.ITEM_CATEGORIES =
 	BUFFING_ITEMS = "Consumables",
 
 	-- Powers
-	CHEAT = "Dirty Cheaters",
+	CHEAT = "Dirty [TEMP] Cheaters",  -- Never shown to players.
 	PLAYER = "Old Magics",
 	ELECTRIC = "Electric",
 	SUMMON = "Summon",
@@ -136,12 +139,13 @@ STRINGS.ITEM_CATEGORIES =
 	BUILDINGS = "Buildings",
 	STRUCTURES = "Structures",
 	DECOR = "Decor",
-	TOWN = "Town",
+	TOWN = "{name.town}",
 
 	CROP = "Crop",
 
 	GROAK = "Groak",
 	BOSS = "Boss",
+	ROT = "Rot",
 
 	-- Meta Progress
 
@@ -160,6 +164,7 @@ STRINGS.ITEM_CATEGORIES =
 	CHALLENGE_MASTERY = "Challenge Mastery",
 	EQUIPMENT_MASTERY = "Equipment Mastery",
 	HEART_SHARD_MASTERY = "{name.concept_talent_tree}",
+	ACHIEVEMENT_MASTERY = "Achievements",
 
 	SEASONAL = "Seasonal Rewards",
 }
@@ -194,7 +199,7 @@ STRINGS.WEAPONS =
 	},
 	FOCUS_HIT =
 	{
-		HAMMER = "<#BLUE>{name.concept_focus_hit}:</BLUE>\n• Hit multiple enemies with one swing\n• Fully charge a <#RED>Heavy Attack</RED> combo ender\n• Fully charge a <#RED>Golf Swing</>",
+		HAMMER = "<#BLUE>{name.concept_focus_hit}:</BLUE>\n• Hit multiple enemies with one swing\n• Fully charge a <#RED>Heavy Attack</> combo ender\n• Fully charge a <#RED>Golf Swing</>",
 		POLEARM = "<#BLUE>{name.concept_focus_hit}:</BLUE>\n• Hit an enemy with the tip of your <#RED>{name.weapon_polearm}</>\n• Hit multiple enemies with the <#RED>Spinning Drill</>",
 		SHOTPUT = "<#BLUE>{name.concept_focus_hit}:</BLUE>\n• Hit an airborne <#RED>{name.weapon_shotput}</>\n• Throw a <#RED>{name.weapon_shotput}</> immediately after catching it",
 		CANNON = "<#BLUE>{name.concept_focus_hit}:</BLUE>\n• Last three shots of your clip",
@@ -280,13 +285,14 @@ STRINGS.CHARACTER_CREATOR =
 	REROLL_BUTTON = "<p img='images/ui_ftf_character/BtnReroll.tex' color=0 scale=2.5>\n\n\nREROLL",
 	REROLL_HINT = "Reroll",
 	REROLL_BUTTON_TOOLTIP = "Randomize your look!",
+	COLOR_HINT = "Colour",
 	SHOWING_ARMOR_BUTTON = "<p img='images/ui_ftf_character/BtnShowingArmor.tex' color=0 scale=2.5>\n\n\nSHOWING\nARMOUR",
 	HIDE_ARMOR_BUTTON_TOOLTIP = "Click to toggle armour off",
 	SHOW_ARMOR_BUTTON_TOOLTIP = "Click to toggle armour on",
 	HIDING_ARMOR_BUTTON = "<p img='images/ui_ftf_character/BtnHidingArmor.tex' color=0 scale=2.5>\n\n\nHIDING\nARMOUR",
 	TOGGLE_ARMOR_HINT = "Toggle Armour",
 	CUSTOMIZE_BUTTON = "<p img='images/ui_ftf_character/BtnCustomize.tex' color=0 scale=0.9> CUSTOMIZE",
-	CONTINUE_BUTTON = "SAVE CHANGES",
+	CONTINUE_BUTTON = "Save Changes",
 	REVERT_BUTTON = "<p img='images/ui_ftf_character/BtnRevert.tex' color=0 scale=2.5>\n\n\nREVERT ALL",
 	REVERT_BUTTON_TOOLTIP = "Return to the default appearance of your chosen species",
 	REVERT_HINT = "Revert All",
@@ -370,6 +376,16 @@ STRINGS.TALK = {
 	TALK_UNIMPORTANT = "...",
 	TITLE_TEMPWRITING = "TEMP WRITING",
 	TITLE_PENDING_TRANSLATION = "Pending Translation",
+
+	PERSONALITY = {
+		-- These should match how it appears in dialogue.
+		APOTHECARY_HISS = "(hiss)",
+		APOTHECARY_SNIFF = "(sniff, sniff)",
+		BLACKSMITH_GRUNT = "(grunt)",
+		BLACKSMITH_HMPH = "(hmph)",
+		SNAKE_HISS = "sss",
+		WANDERER_LAUGH_ONCE = "He!",
+	},
 
 	POTION = {
 		TT_CANT_AFFORD = "Not enough <p img='images/hud_images/hud_konjur_drops_currency.tex'>",
@@ -467,15 +483,9 @@ STRINGS.CRAFT_WIDGET = {
 	CRAFT_HOTKEY = "BUILD",
 	PICKUP_HOTKEY = "PICK UP",
 	PICKUP_MODE = "<p bind='Controls.Digital.PICKUP_MODE' color=0 scale=1> Cancel",
-	LOCKED = "<#PENALTY>LOCKED</>",
 	NEW = "New decor available!",
-	SEARCH_PLACEHOLDER = "Search...",
 	ITEM_UNSEEN_BADGE_TT = "New item!",
-	CRAFT_BUTTON_UNSEEN_BADGE_TT = "There are new craftable items",
 
-	CRAFT_PLACE = "Craft & Place",
-	CRAFT_STORE = "<p bind='Controls.Digital.CLICK_SECONDARY' color=WHITE scale=1.3> Craft Item",
-	PLACE = "<p bind='Controls.Digital.CLICK_PRIMARY' color=WHITE scale=1.3> Place Item",
 	CANCEL = "Cancel",
 
 	NO_PERMISSION = "You need permission to build in this town!",
@@ -484,8 +494,6 @@ STRINGS.CRAFT_WIDGET = {
 	INGREDIENTS = "INGREDIENTS",
 
 	UNDISCOVERED_MATERIAL = "Undiscovered material",
-
-	FOUND_IN = "Found in %s",
 
 	FOUND_IN_NORMAL = "Looted from regular {name_multiple.rot}.",
 	FOUND_IN_ELITE = "Looted from {name.elite_prefix} {name_multiple.rot}.",
@@ -508,22 +516,17 @@ STRINGS.UI =
 	QUANTITY = "{name} (x{count})",        -- How we display named quantities.
 	QUANTITY_IMG = "{image} {count:%.0f}", -- How we display quantities with icon.
 
-	HOTKEY_ENABLED = "<p bind='{control}' color=0 scale=1> {label}",
-	HOTKEY_DISABLED = "<#DISABLED_HOTKEYS><p bind='{control}' color=0 scale=1> {label}</>",
-	HOTKEY_ENABLED_MODIFIER = "<p bind='Controls.Digital.MENU_MODIFIER' color=0 scale=1> + <p bind='{control}' color=0 scale=1> {label}",
-	HOTKEY_DISABLED_MODIFIER = "<#DISABLED_HOTKEYS><p bind='Controls.Digital.MENU_MODIFIER' color=0 scale=1> + <p bind='{control}' color=0 scale=1> {label}</>",
+	-- Lots of rpad and nbsp to ensure we only wrap *after* a hotkey and not between icon and label.
+	HOTKEY_ENABLED = "<p bind='{control}' color=0 scale=1 rpad=1>{label}",
+	HOTKEY_DISABLED = "<#DISABLED_HOTKEYS><p bind='{control}' color=0 scale=1 rpad=1>{label}</>",
+	HOTKEY_ENABLED_MODIFIER = "<p bind='Controls.Digital.MENU_MODIFIER' color=0 scale=1>{nbsp}+{nbsp}<p bind='{control}' color=0 scale=1 rpad=1>{label}",
+	HOTKEY_DISABLED_MODIFIER = "<#DISABLED_HOTKEYS><p bind='Controls.Digital.MENU_MODIFIER' color=0 scale=1>{nbsp}+{nbsp}<p bind='{control}' color=0 scale=1 rpad=1>{label}</>",
 
 	KEYBOARD = "Keyboard",
 	TOUCH = "Touch screen",
 
 	MAINSCREEN =
 	{
-		TITLE_GAMEFAIL = "Error in the Woods",
-		TITLE_MODFAIL = "Mods are Wreaking Havoc",
-		ISSUE = "Report an Issue",
-		-- TODO: add icon
-		GETHELP = "Get More Help",
-
 		ERROR_MISSING_FILE = {
 			TITLE = "Fatal Error",
 			DESC = "Detected Missing Files",
@@ -557,32 +560,6 @@ STRINGS.UI =
 			OK = "Ok",
 		},
 
-		SCRIPTERRORSUBTITLE = "An error occurred that the game can't recover from.",
-		SCRIPTERRORBACK = "<p img='images/ui_ftf/arrow_left.tex' scale=0.9 color=0>  Back",
-		SCRIPTERRORMORE = "More Options  <p img='images/ui_ftf/arrow_right.tex' scale=0.9 color=0>",
-		SCRIPTERRORQUIT = "<p img='images/ui_ftf_icons/exit.tex' scale=1.2 color=0>  Exit Game",
-		SCRIPTERROR_COPY_CLIPBOARD = "<p img='images/ui_ftf_icons/clipboard.tex' scale=1.2 color=0>  Copy Error",
-		SCRIPTERROR_RESTART = "<p img='images/ui_ftf_icons/restart.tex' scale=1.2 color=0>  Restart Level",
-		SCRIPTERROR_WIPE = "<p img='images/ui_ftf_icons/delete.tex' scale=1.2 color=0>  Delete All Saves",
-		SCRIPTERROR_DEBUG = "<p img='images/ui_ftf_icons/console.tex' scale=1.2 color=0>  Debug Console",
-		SCRIPTERROR_BUGTRACKER = "<p img='images/ui_ftf_icons/bug.tex' scale=1.2 color=0>  Bug Tracker",
-		SCRIPTERROR_SAVE_REPLAY = "Save Replay",
-		SCRIPTERROR_MOD = {
-			INSTALLED_MODS = "You had these mods:",
-			RESET_WITHOUT_MODS = "Disable Mods",
-			MODFORUMS = "Mod Forums",
-			BLAME_TARGET = "The following mod(s) have caused a failure:",
-			BLAME_RESOLVE = "The mod will be disabled, re-enable it from the mods menu.",
-		},
-		SCRIPTERROR_WIPESAVE =
-		{
-			TITLE = "Warning!",
-			BODY = "Deleting save data will erase all gameplay progress for all characters",
-			CONFIRM = "I am sure",
-			CANCEL = "Maybe not...",
-		},
-
-
 		PLAY = "Press Any Button",
 		ASKQUIT = "Quit Game?",
 		ASKQUITSUBTITLE = "Are you sure you want to quit?",
@@ -592,54 +569,66 @@ STRINGS.UI =
 		NO = "No",
 		BACK = "<p img='images/ui_ftf_dialog/ic_back.tex' color=0 scale=1.1> Back",
 		MULTIPLAYER_INFO = "Character progress is saved and transferred across game types.",
-		SLOTS_REMOVE_PLAYER = "Press <p bind='Controls.Digital.CANCEL' color=0> to remove",
-		SLOTS_INFO_START = "Select a character slot. ",
-		SLOTS_INFO_DEVICES = "For additional devices, press {button_icon} on your {device_name} or other connected controllers.",
-		SLOTS_INFO_DEVICES_EMPTY = "You can plug in extra controllers for additional local players.",
-		SLOTS_INFO_END = "\n\n<#77625E>Each match can have up to 4 players, locally or online. Players can be added while in game.</>",
+		SLOTS_PLAYER_REMOVE = "Press <p bind='Controls.Digital.CANCEL' color=0> to remove",
+		SLOTS_PLAYER_UNREADY = "Press <p bind='Controls.Digital.CANCEL' color=0> to unready",
+		SLOTS_PLAYER_BACK = "Press <p bind='Controls.Digital.CANCEL' color=0> to go back",
+		SLOTS_INFO_START = "Select a character slot.",
+		SLOTS_INFO_DEVICES = "To add another player, press{nbsp}{button_icon} on your {device_name} or other connected controllers.",
+		SLOTS_INFO_DEVICES_CONSOLE = "Press{nbsp}{button_icon} to join as another player.",
+		SLOTS_INFO_DEVICES_EMPTY = "Plug in extra controllers to add additional players.",
+		SLOTS_INFO_END = "<#77625E>Rotwood supports up to 4 total players. Players can be added during gameplay.</>",
 		SLOT_READY_BTN = "Ready? <p bind='Controls.Digital.ACCEPT' color=0>",
 		SLOT_READY_MOUSE_BTN = "Ready?",
 		SLOT_SELECTION_TITLE = "%d/%d players ready",
-		SLOT_SELECTION_SUBTITLE = "The game will start when every player has a unique character selected.",
 		SLOT_PLAYER_READY = "Ready!",
 		SLOT_REROLL_BUTTON = "<p img='images/ui_ftf_character/BtnReroll.tex' color=0 scale=2.5>\n\n\n<p bind='Controls.Digital.MENU_SUB_TAB_NEXT' color=0> REROLL ALL",
 		SLOT_CONTINUE_TO_GAME = "Start Game",
 		SLOT_CONTINUE_TO_ONLINE = "Continue",
 
-		OFFLINE_ERROR = "<p img='images/icons_ftf/ic_offline.tex' color=0 scale=1.3> You're offline.",
 		ONLINE_INFO = "Additional local players can be added in-game.",
 		WISHLIST_CTA = "<p img='images/ui_ftf_icons/steam.tex' color=0 scale=1.3> Add to Wishlist",
 
 		MODIFIED_DATA = "*** Warning - modifications to the game data were detected. The game may not behave correctly. ***",
 		PROFILE_SECONDS = "Profiling game (%d)",
 		PROFILE_PROCESSING = "Profiling game - processing data",
-		TRANSLATION_WIP = "This translation is a work-in-progress. It is incomplete and does not represent the final game's translation quality.",
+		TRANSLATION_WIP = "This translation is a work-in-progress. It is incomplete and does not represent the final game's translation quality.",  -- After 1.0 this is just for mods.
 		CMDLINE_ARGS = "Launch Options: {args}",  -- Steam calls them "Launch Options"
 
-		BTN_SINGLE_PLAYER_TITLE = "Local Play",
-		BTN_SINGLE_PLAYER_TEXT = "Set out on your own and explore the Rotwood at your own pace.",
+		BTN_SINGLE_PLAYER_TITLE = "Play",
+		--~ BTN_SINGLE_PLAYER_TEXT = "Set out on your own and explore the Rotwood at your own pace.",
 		BTN_MULTI_PLAYER_TITLE = "Online Play",
-		BTN_MULTI_PLAYER_TEXT = "Team up with local and online friends and face the Rotwood together.",
-		BTN_MULTI_PLAYER_TEXT_OFFLINE = "Team up with local and online friends and face the Rotwood together.\n<#D6FEFF><p img='images/icons_ftf/ic_offline.tex' color=0 scale=1.3> No online connection available</>",
-		BTN_JOIN_TITLE = "Join a Game",
+		--~ BTN_MULTI_PLAYER_TEXT = "Team up with local and online friends and face the Rotwood together.",
+		BTN_JOIN_TITLE = "Join via ShareCode",
 		BTN_JOIN_TEXT = "Join a friend's online game using their ShareCode.",
 		BTN_HOST_TITLE = "Host a Game",
 		BTN_HOST_TEXT = "Host a game and send invites with your ShareCode.",
+		BTN_FIND_TITLE = "Find a Game",
+		BTN_FIND_TEXT = "Find an existing game to join.",
+		BTN_WIRELESS_PLAY = "Wireless Play",
+		--~ BTN_WIRELESS_PLAY_TEXT = "Play with nearby friends using local wireless communication.",
+		BTN_GAMESHARE_PLAY = "GameShare <p img='images/icons_ftf/ic_gameshare.tex' color=0>",
+		BTN_GAMESHARE_START = "Start GameShare <p img='images/icons_ftf/ic_gameshare.tex' color=0>",
+		BTN_GAMESHARE_END = "End GameShare <p img='images/icons_ftf/ic_gameshare.tex' color=0>",
 
 		JOIN_DIALOG_TITLE = "Join Online Game",
 		JOIN_DIALOG_TEXT = "Enter your friend's ShareCode to join their game.",
 		JOIN_DIALOG_BTN = "Go!",
 
 		HOST_DIALOG_TITLE = "Host New Game",
-		HOST_DIALOG_TEXT_FRIENDSONLY = "Start a friends-only game.",
 		HOST_DIALOG_TEXT = "Press start to host your game online.",
 		HOST_DIALOG_SUBTEXT = "<#LIGHT_TEXT_DARKER><p img='images/ui_ftf_icons/sharecode.tex' color=0 scale=1.2>  You'll get a ShareCode to invite others.</>",
-		HOST_DIALOG_COPIED = "Copied to Clipboard",
-		HOST_DIALOG_FRIENDS_CHECKBOX = "Only Steam Friends may join",
 		HOST_DIALOG_BTN = "Start Game",
 		HOST_DIALOG_USERGROUP_JOIN = "Share with Steam Groups",
 		HOST_DIALOG_USERGROUP_JOIN_TOOLTIP = "When checked, players in that Steam Group can see and join your game.",
 		HOST_DIALOG_LOADING_TEXT = "<p img='images/ui_ftf_icons/loading.tex' color=0 scale=0.8> Starting",
+		HOST_DIALOG = {
+			SHOW_TO_FRIENDS = "Show to Friends",
+			PUBLIC_GAME = "Public Game",
+		},
+
+		-- Not hooked up, but already translated.
+		--~ HOST_DIALOG_TEXT_FRIENDSONLY = "Start a friends-only game.",
+		--~ HOST_DIALOG_FRIENDS_CHECKBOX = "Only Steam Friends may join",
 
 		HOST_DIALOG_SHARING_TITLE = "Confirm Group Sharing",
 		HOST_DIALOG_SHARING_START = "Let's go!",
@@ -670,7 +659,7 @@ STRINGS.UI =
 			SELECT_EYE_COLOUR_TITLE = "<p img='images/icons_ftf/emotes.tex' color=0 scale=1> Select Eye Colour",
 			SELECT_HAIR_COLOUR_TITLE = "<p img='images/icons_ftf/emotes.tex' color=0 scale=1> Select Hair Colour",
 
-			SELECT_BASE_TITLE = "<p img='images/icons_ftf/character_body.tex' color=0 scale=1> Select Base",
+			SELECT_BASE_TITLE = "<p img='images/icons_ftf/character_body.tex' color=0 scale=1> Select Template",
 
 			SELECT_BODY_TITLE = "<p img='images/icons_ftf/character_body.tex' color=0 scale=1> Select Body",
 
@@ -701,18 +690,38 @@ STRINGS.UI =
 
 	ADDPLAYERDIALOG = {
 		TITLE = "Add a local player",
-		SUBTITLE = "Press any key on the gamepad you'd like to use.",
+		SUBTITLE = "Press a button on the {name.input_gamepad} you'd like to use.",
 		CONFIRM_HINT = "<p bind='Controls.Digital.MENU_ACCEPT' color=0> Confirm",
 		CANCEL_HINT = "<p bind='Controls.Digital.CANCEL' color=0> Cancel",
 	},
 
-	STEAMFRIENDSWIDGET =
-	{
-		TITLE = "Online Steam Friends",
+	FRIENDSWIDGET = {
+		STEAM = {
+			TITLE = "Online Steam Friends",
+		},
+		SWITCH = {
+			TITLE = "Online Friends",
+		},
 		EMPTY_LABEL = "No friends currently playing Rotwood",
 		JOIN_FRIEND_BTN = "Join",
 		FRIEND_NOT_IN_LOBBY = "Not joinable",
 	},
+
+	WIRELESS_MENU_WIDGET = {
+		HOST_BTN_TITLE = "Host",
+		HOST_BTN_DESCRIPTION = "Host a multiplayer game using wireless communication.",
+		ROOMS_AVAILABLE = "Rooms Available",
+		JOIN_BTN_TITLE = "Join",
+		NO_ROOMS_NEARBY = "No rooms found nearby.",
+	},
+
+--	STEAMFRIENDSWIDGET =
+--	{
+--		TITLE = "Online Steam Friends",
+--		EMPTY_LABEL = "No friends currently playing Rotwood",
+--		JOIN_FRIEND_BTN = "Join",
+--		FRIEND_NOT_IN_LOBBY = "Not joinable",
+--	},
 
 	STEAMUSERGROUPSWIDGET =
 	{
@@ -742,7 +751,11 @@ STRINGS.UI =
 		ADDLOCALPLAYER_BUTTON = "<p img='images/ui_ftf_online/button_add_player.tex' color=0 scale=2.5>\n\nADD LOCAL\nPLAYER",
 		SHARECODE_LABEL = "<p img='images/ui_ftf_icons/sharecode.tex' color=0 scale=1.2>  Send this ShareCode to invite other players.",
 
-		ALLOW_TOWN_EDITING = "Allow Town Editing",
+		STARTGAMESHARE_BUTTON = "<p img='images/icons_ftf/ic_gameshare.tex' color=0 scale=2.0>\n\nStart GameShare",
+		STOPGAMESHARE_BUTTON  = "<p img='images/icons_ftf/ic_gameshare.tex' color=0 scale=2.0>\n\nStop GameShare",
+
+		ALLOW_TOWN_EDITING = "Allow {name.town} Editing",
+
 		TT_ALLOW_TOWN_EDITING = "Allow this client to add and remove decorations in town",
 
 		PLAYER_HOST = "Host",
@@ -755,7 +768,7 @@ STRINGS.UI =
 		REMOVE_BTN = "<p img='images/ui_ftf_online/ic_remove_player.tex' color=0 scale=2.5>\n\nRemove\nLocal Player",
 		UNBAN_BTN = "<p img='images/ui_ftf_online/ic_unban_player.tex' color=0 scale=2.5>\n\nAllow\nPlayer",
 
-		ERROR_NO_FREE_INPUT_DEVICE = "There is no connected gamepad\nfor another player.",
+		ERROR_NO_FREE_INPUT_DEVICE = "There is no connected {name.input_gamepad}\nfor another player.",
 		ERROR_NO_AVAILABLE_PLAYER_SLOTS = "There are 4 players already.",
 
 		BANNED_LIST_EMPTY = "No players currently on your ban list.",
@@ -785,6 +798,7 @@ STRINGS.UI =
 		MODE = "Steam Friends Mode",
 		CONNECT_FAILED = "Failed to connect to game.",
 		JOINCODE_LABEL = "ShareCode:\n{joincode}",
+		JOINCODE_PROMPT = "ShareCode",
 		JOINCODE_LABEL_TOOLTIP = "Click to copy",
 		JOINCODE_HOST = "Host Game",
 		JOINCODE_JOIN = "Connect to Game",
@@ -799,13 +813,18 @@ STRINGS.UI =
 
 		TITLE =
 		{
-			DEFAULT="Network Error",
+			DEFAULT = "Network Error",
+
+			InitializationFailed = "System Error",
+			LobbyNotAvailable = "Not Available",
+			LobbyFoundNone = "Try Again Later",
 		},
 
 		BODY =
 		{
 			DEFAULT = "Something went wrong.",
 			OK = "Everything is OK",
+			InitializationFailed = "Failed to initialize network game.",
 			InvalidGameType = "Invalid Game Type.",
 			InvalidJoinCode = "Invalid ShareCode.",
 			UnableToJoinLobby = "Unable to join Lobby.",
@@ -819,6 +838,8 @@ STRINGS.UI =
 			AuthorizationError = "Authorization Error.",
 			LobbyNotFound = "Lobby not found, already full, or of a different version.",
 			LobbyError = "Lobby encountered an error and kicked all players out.",
+			LobbyNotAvailable = "The lobby you tried to join is no longer available.",
+			LobbyFoundNone = "No available lobbies were found. Please try again later.",
 			Kicked = "The host kicked this client out of the game.",
 			ServerTimeout = "Server timeout.",
 			ServerInternalError = "Server Internal Error.",
@@ -832,7 +853,7 @@ STRINGS.UI =
 			PS4RoomDestroyed = "Room was destroyed.",
 			PS4UserLoggedOut = "User logged out.",
 			PS4SessionNotCreatedProperly = "Session not created properly.",
-			PS4UserControllerDisconnectedTimeout = "User's gamepad disconnected and remained disconnected for too long.",
+			PS4UserControllerDisconnectedTimeout = "User's {name.input_gamepad} disconnected and remained disconnected for too long.",
 			PS4UnableToReachAllMembers = "Can't reach one or more of the lobby members.",
 			ConnectionTimeout = "Connection timed out.",
 		},
@@ -856,6 +877,12 @@ STRINGS.UI =
 
 		PLAYER_LEFT = "Player left.",
 		PLAYER_LEFT_TEXT = "{player} left the game.",
+	},
+
+	GAMESHARE =
+	{
+		CONNECTING = "Connecting...",
+		DISCONNECTING = "Disconnecting...",
 	},
 
 	WAITINGFORPLAYERSSCREEN =
@@ -903,6 +930,7 @@ STRINGS.UI =
 		LOADOUT_SAVE_NEW_BUTTON = "Save As New Loadout",
 		LOADOUT_VIEW_CURRENT_BUTTON = "Go To Equipped Loadout",
 		LOADOUT_FILTER_BUTTON = "Filter and Sort Loadouts <p bind='Controls.Digital.MENU_SORT_GEMS' color=0 scale=1>",
+		HOTKEY_LOADOUT_FILTER = "Filter",
 
 		LOADOUT_DELETE_TITLE = "DELETE LOADOUT",
 		LOADOUT_DELETE_DESCRIPTION = "Are you sure you want to delete this loadout?",
@@ -941,7 +969,35 @@ STRINGS.UI =
 			SORT_CREATED_TITLE = "Created",
 			SORT_CREATED_TOOLTIP = "Sorts loadouts in the order they were created in.",
 		},
+	},
 
+	EQUIPMENTAPPEARANCESCREEN =
+	{
+		TITLE = "TEFFRA MIRAGE STATION",
+		DESC = "Swap appearances with other pieces of equipment that you own.",
+		CHANGE_APPEARANCE = "Change",
+		REVERT_APPEARANCE = "Revert",
+		NO_APPEARANCE_OPTIONS = "No appearance options are available.",
+		EMPTY_SLOT_TITLE = "Empty Slot",
+
+		ACTION_TITLE_CHANGE = "Change Appearance",
+		ACTION_TITLE_REVERT = "Revert Appearance",
+
+		HOTKEY_SET_APPEARANCE = "Change Appearance",
+		HOTKEY_REVERT_APPEARANCE = "Revert Appearance",
+
+		ACTION_NO_ITEM_SELECTED = "No item selected.",
+		ACTION_CHANGE_APPEARANCE_DIFFERENT = "<#RED>{item_name}</> will be modified to look like <#RED>{appearance_name}</>.",
+		ACTION_CHANGE_APPEARANCE_DEFAULT = "<#RED>{item_name}</> will use its default appearance.",
+
+		STATUS_APPEARANCE_ALREADY_SET = "<#RED>{item_name}</> is using the appearance of <#RED>{appearance_name}</>.",
+		STATUS_APPEARANCE_NOT_CHANGED = "<#RED>{item_name}</> is using the default appearance.",
+
+		LOCKED_DESC = "<#COSMETIC>{item_name}</>\nYou may discover this <#RED>Mirage Pattern</> when you kill any {name.rot_boss} in <#RED>{location_name}</>",
+		LOCKED_MINIBOSS_DESC = "<#COSMETIC>{item_name}</>\nYou may discover this <#RED>Mirage Pattern</> when you kill <#RED>{boss_name}</> in <#RED>{location_name}</>",
+		LOCKED_UNKNOWN_LOCATION_DESC = "You have not discovered this <#RED>Mirage Pattern</> yet",
+
+		-- LOCKED_CHANCE_HINT = "<#RED>Mirage Patterns</> have a higher chance to appear based on the Frenzy level of your {name.run}."
 	},
 
 	EQUIPMENTSCREEN =
@@ -974,6 +1030,7 @@ STRINGS.UI =
 		ITEM_UPGRADE_PREVIEW = "<p img='images/icons_ftf/upgrade.tex' color=0 scale=1.0> Lvl {upgrade_level:%.0f} upgrade details",
 		ITEM_UPGRADE_AVAILABLE = "<p img='images/icons_ftf/upgrade.tex' color=0 scale=1.0> Lvl {upgrade_level:%.0f} upgrade available!",
 
+		HOTKEYS_ITEM_HOME = "Equipment",  -- Match title. But "Loadout" or "All Equipment" might be clearer?
 		HOTKEYS_ITEM_BACK = "Back",
 		HOTKEYS_ITEM_EQUIP = "Equip",
 		HOTKEYS_ITEM_UNEQUIP = "Un-equip",
@@ -982,6 +1039,7 @@ STRINGS.UI =
 
 		UPGRADE_STATION_TITLE = "Upgrade to {item_name}",
 		UPGRADE_STATION_TITLE_MAX_LEVEL = "{item_name}",
+		UPGRADE_STATION_BUTTON = "Upgrade",
 
 		UPGRADE_ARMORSMITH_LEVEL = {
 			-- Level should match craftingutil.GetMaxILvlForFortificationLevel(2)?
@@ -1037,12 +1095,12 @@ STRINGS.UI =
 		},
 
 		SORTINFO_FILTERS = "Filter and Sort Gems <p bind='Controls.Digital.MENU_SORT_GEMS' color=0 scale=1>",
+		HOTKEY_SORTINFO_FILTERS = "Filter",
 		SORTINFO_FILTERS_ACTIVE = "<p img='images/icons_ftf/sort.tex' color=0 scale=0.7> Filters active <p bind='Controls.Digital.MENU_SORT_GEMS' color=0 scale=1>",
 
-		EQUIP_HOTKEY = "<p bind='Controls.Digital.MENU_ACCEPT' color=0 scale=1> Set gem",
-		DUST_HOTKEY = "<p bind='Controls.Digital.MENU_DUST_GEM' color=0 scale=1> Dust gem (+%d <p img='images/hud_images/hud_gem_dust_drops_currency.tex' scale=1>)",
-		DUST_DISABLED_HOTKEY = "<#DISABLED_HOTKEYS><p bind='Controls.Digital.MENU_DUST_GEM' color=0 scale=1> Dust gem (+%d <p img='images/hud_images/hud_gem_dust_drops_currency.tex' scale=1>)</>",
-		UNEQUIP_HOTKEY = "<p bind='Controls.Digital.MENU_UNSET_GEM' color=0 scale=1> Unset",
+		EQUIP_HOTKEY = "Set gem",
+		DUST_HOTKEY = "Dust gem{nbsp}(+%d{nbsp}<p img='images/hud_images/hud_gem_dust_drops_currency.tex' scale=1>)",
+		UNEQUIP_HOTKEY = "Unset",
 
 		UNLOCK_POPUP =
 		{
@@ -1091,7 +1149,7 @@ STRINGS.UI =
 		NO_GEM = "You don't have unidentified gems.",
 		LOCATION_LABEL = "Originally found in:",
 
-		RETRY_TITLE = "%.0f%% SUCCESS RATE",
+		RETRY_TITLE = "{success_percent:%.0f}% SUCCESS RATE",
 		RETRY_DESC = "You can retry polishing this {name.gem}, but there's a chance it'll break into {name.i_gem_dust_amt}.",
 
 		DUST_TITLE = "The gem crumbled",
@@ -1104,10 +1162,10 @@ STRINGS.UI =
 		ACCEPT_DUST_BTN = "Keep dust",
 
 		NOTIFICATION_GEM_TITLE = "%s",
-		NOTIFICATION_GEM_DESC = "Added to <#RED>%s</>'s Chest.",
+		NOTIFICATION_GEM_DESC = "Added to {player}'s Chest.",
 
 		NOTIFICATION_DUST_TITLE = "%s {name.gem_dust}",
-		NOTIFICATION_DUST_DESC = "Added to <#RED>%s</>'s Chest.",
+		NOTIFICATION_DUST_DESC = "Added to {player}'s Chest.",
 
 		RECIPE_COST = "{name.i_gem_dust_amt}",
 		CRAFT_BTN = "Craft",
@@ -1181,14 +1239,16 @@ STRINGS.UI =
 	MASTERYSCREEN =
 	{
 		TITLE = "MASTERIES",
-		CLAIM = "<p bind='Controls.Digital.MENU_ACCEPT' color=0> CLAIM!",
+		CLAIM = "<p bind='Controls.Digital.MENU_ACCEPT' color=0 just_device='gamepad'> Claim!",
 		DESC = "Complete Masteries to earn rewards!",
 		REWARDS = "Rewards",
 		REWARDS_CLAIMED = "<p img='images/ui_ftf_icons/completed.tex' color=0> Rewards earned",
+
 		GENERAL = "General",
-		OTHER = "{name_multiple.rot_boss}",
+		BOSS = "{name_multiple.rot_boss}",
 		CHALLENGE = "Challenges",
 		GEMS = "Gems",
+
 		LOCKED = "Locked",
 		NEW_MASTERY_TAB = "This tab has a new Mastery!",
 		NEW_MASTERY = "This Mastery is new!",
@@ -1203,26 +1263,25 @@ STRINGS.UI =
 		}
 	},
 
-	ARMORYSCREEN =
-	{
-		TITLE = "ARMOURY",
-		WEIGHT = "WEIGHT",
+	ARMORYSCREEN = {
+		-- Armour strings are generally in EQUIPMENTSCREEN instead of here. But
+		-- sometimes we put armour-specific strings here and weapon ones in
+		-- WEAPONSELECTIONSCREEN.
+
 		MAX_LEVEL = "MAX LEVEL",
-		EQUIP_TT = "Press <p bind='Controls.Digital.MENU_EQUIP' color=0> to Swap",
 		NO_ARMORSMITH_TT = "Rescue <#BLUE>{name.npc_armorsmith} the {name.job_armorsmith}</> in <#RED>{name.treemon_forest_r2}</> to unlock this function.",
 		ARMORSMITH_NO_TOOLS_TT = "Befriend <#BLUE>{name.npc_armorsmith} the {name.job_armorsmith}</> to unlock this function.",
 		UPGRADE_NPC_TT = "Become besties with <#BLUE>{name.npc_armorsmith} the {name.job_armorsmith}</> to discover new upgrades!",
-		NO_EQUIPMENT = "No equipment",
-		DEFENSE_LVL = "DEFENCE LVL: %d",
-		EFFECT_LVL = "EFFECT LVL: %d",
 		LOCKED_FRENZY_LVL = "This item is only found in {name_multiple.run_ascension}",
-		LOCKED_DESC = "Purchase in the <#RED>%s</> marketplace",
+		LOCKED_MINIBOSS_DESC = "For sale in the <#RED>{name.main_run}</> of <#RED>%s</>",
+		LOCKED_DESC = "For sale in all locations within <#RED>%s</>",
 		TT_EQUIPPED_LABEL = "EQUIPPED",
-		LOCKED_BOSS_WEAPON = "Imbue a <#RED>{name.weapon_crystal_prefix}{weapon_type}</> with the {name.konjur_heart} of an <#RED>{name.elite_prefix} {boss}</> to have <#BLUE>{name.npc_blacksmith}</> craft this for you.",
+		LOCKED_BOSS_WEAPON = "Imbue a <#RED>{name.weapon_crystal_prefix}{weapon_type}</> with the {name.konjur_heart} of an <#RED>{elite_boss}</> to have <#BLUE>{name.npc_blacksmith}</> craft this for you.",
 		LOCKED_CORESTONE_WEAPON = "Maybe <#BLUE>{name.npc_blacksmith}</> knows something?",
-		LOCKED_BOSS_ARMOR = "Imbue a <#RED>{name.weapon_crystal_prefix}{armor_piece}</> with the {name.konjur_heart} of an <#RED>{name.elite_prefix} {boss}</> to have <#BLUE>{name.npc_armorsmith}</> craft this for you.",
+		LOCKED_BOSS_ARMOR = "Imbue a <#RED>{name.weapon_crystal_prefix}{armor_piece}</> with the {name.konjur_heart} of an <#RED>{elite_boss}</> to have <#BLUE>{name.npc_armorsmith}</> craft this for you.",
 		LOCKED_CORESTONE_ARMOR = "Maybe <#BLUE>{name.npc_armorsmith}</> knows something?",
 		BACK = "<p img='images/ui_ftf/arrow_left.tex' color=0 scale=0.7> Back",
+		ITEM_APPEARANCE = "Item Appearance",
 	},
 
 	EMOTESCREEN =
@@ -1249,8 +1308,9 @@ STRINGS.UI =
 
 		PICKUP = "Pick Up Items",
 
-		LIST_HOTKEYS = "<p bind='Controls.Digital.MENU_CRAFT_ITEM' color=0 scale=1> Craft item    <p bind='Controls.Digital.MENU_PLACE_ITEM' color=0 scale=1> Place item",
-		LIST_HOTKEYS_GAMEPAD = "<p bind='Controls.Digital.MENU_CRAFT_ITEM' color=0 scale=1> Craft item    <p bind='Controls.Digital.MENU_PLACE_ITEM' color=0 scale=1> Place item    <p bind='Controls.Digital.MENU_ACCEPT' just_device='gamepad' color=0 scale=1> Info",
+		HOTKEY_CRAFT = "Craft item",
+		HOTKEY_PLACE = "Place item",
+		HOTKEY_INFO = "Info",
 		CRAFT_BTN = "Craft item",
 		PLACE_BTN = "Place item",
 
@@ -1288,21 +1348,30 @@ STRINGS.UI =
 			BUTTON = "<p bind='Controls.Digital.NON_MODAL_CLICK' color=0> Complete Expedition",
 		},
 		CONTINUE = "Continue",
-		TO_TOWN = "Return To Town",
+		TO_TOWN = "Return To {name.town}",
 		LOCATION_TITLE = "%s",
 		WAITING_FOR_HOST = "Waiting for Host...",
 		WAITING_FOR_ALL_PLAYERS = "%d of %d players ready",
 		WAITING_FOR_ALL_PLAYERS_NO_COUNT = "Waiting for all players",
 		START_RUN_COUNTDOWN = "<p img='images/map_ftf/waiting_icon.tex' color=0 scale=0.9> Taking off in %d...",
 
-		RUN_DATA = "%s", -- Location
-		RUN_DATA_FRENZY = "<#BONUS_LIGHT_BG>Frenzied!</>", -- <Frenzy icon> Frenzy Level 2
-		RUN_DATA_ANOMALY = "<#KONJUR>{name.weather} Active!</>",
-		RUN_DATA_SUPERFRENZY = "<#FOCUS_BOLD>{icon} Super Frenzy Level {level}</>", -- <Frenzy icon> Super Frenzy Level 2
+		RUN_DATA_COLOR = {
+			FRENZY = "<#BONUS_LIGHT_BG>Frenzied!</>",
+			ANOMALY = "<#KONJUR>{name.weather} Active!</>",
+			SUPERFRENZY = "<#FOCUS_BOLD>{icon} Super Frenzy Level {level}</>", -- <Frenzy icon> Super Frenzy Level 2
+		},
+
+		RUN_DATA_SIMPLE = {
+			-- No colours and simpler text.
+			FRENZY = "Frenzied",
+			ANOMALY = "{name.weather} Active",
+			SUPERFRENZY = "Super Frenzy {icon}", -- Super Frenzy <Frenzy icon>
+		},
 
 		CANNOT_INTERACT_DEAD = "Revive all players",
 		CANNOT_INTERACT_BUSY = "A player is in a menu",
 		CANNOT_INTERACT_WRONG_PLAYER = "Wrong player!",
+		CANNOT_INTERACT_ALREADY_PICKED_UP = "Already have item",
 
 		CANNOT_PLACE_PROP =
 		{
@@ -1311,8 +1380,8 @@ STRINGS.UI =
 			CRITICAL_PATH = "<#RED>Impedes Path</>",
 		},
 
-		PICKUP_INSTRUCTIONS = "<p bind='Controls.Digital.CLICK_PRIMARY' color=0> Pick up",
-		PLACE_INSTRUCTIONS = "<p bind='Controls.Digital.CLICK_PRIMARY' color=0> Place \n<p bind='Controls.Digital.FLIP_PLACER' color=0> Flip \n<p bind='Controls.Digital.CLICK_SECONDARY' color=0> Move to Inventory",
+		PICKUP_INSTRUCTIONS = "<p bind='Controls.Digital.MENU_PLACER_CONFIRM' color=0> Pick up",
+		PLACE_INSTRUCTIONS = "<p bind='Controls.Digital.MENU_PLACER_CONFIRM' color=0> Place \n<p bind='Controls.Digital.MENU_PLACER_FLIP' color=0> Flip \n<p bind='Controls.Digital.MENU_PLACER_INVENTORY' color=0> Move to Inventory",
 
 		HITCOUNTER = {
 			HIT_STREAK = "HITS",
@@ -1362,7 +1431,7 @@ STRINGS.UI =
 
 	LOADINGINDICATOR =
 	{
-		LOADING_TEXT = "Loading..."
+		LOADING_TEXT = "Loading..."		-- This is a red herring.  It looks like what the game (used to) display, but is not infact the string.  Instead, see STRINGS.UI.NOTIFICATION.LOADING
 	},
 
 	POWERICONWIDGET =
@@ -1416,20 +1485,17 @@ STRINGS.UI =
 		REMOVE_POWER = "Permanently remove this <#RED>{name.concept_relic}</>",
 	},
 
-	WEAPONSELECTIONSCREEN =
-	{
-		TITLE = "%s Rack",
-		DESC = "Upgrade and equip your weapons.",
-		ATTACK_LVL = "ATTACK LVL: %d",
-		SKILL_LVL = "EFFECT LVL: %d",
+	WEAPONSELECTIONSCREEN = {
+		-- Weapon strings are generally in EQUIPMENTSCREEN instead of here. But
+		-- sometimes we put weapon-specific strings here and armour ones in
+		-- ARMORYSCREEN.
+
 		NO_BLACKSMITH_TT = "Rescue <#BLUE>{name.npc_blacksmith} the {name.job_blacksmith}</> to unlock this function.",
 		NO_BLACKSMITH_HAS_LOCATION_TT = "Rescue <#BLUE>{name.npc_blacksmith} the {name.job_blacksmith}</> in <#RED>{name.owlitzer_forest_r1}</> to unlock this function.",
 		BLACKSMITH_NO_TOOLS_TT = "Break the ice with <#BLUE>{name.npc_blacksmith} the {name.job_blacksmith}</> to unlock this function.",
 		UPGRADE_NPC_TT = "Impress <#BLUE>{name.npc_blacksmith} the {name.job_blacksmith}</> to discover new upgrades!",
 		UPGRADE_STATION_TT = "Use <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades to unlock more upgrades!",
 		ITEM_LEVEL_CAPPED_TT = "This item is at the maximum level for its Quality.",
-		UPGRADE_BUTTON = "Upgrade", --using an ingot to upgrade a piece of gears level
-		LEVEL_INFO_MAX = "<p img='images/ui_ftf/ButtonUpgraded.tex'> Item at Max Level",
 	},
 
 	UNLOCKGRINDERPANEL =
@@ -1493,48 +1559,8 @@ STRINGS.UI =
 
 	INVENTORYSCREEN =
 	{
-		BUTTON_LABEL = "INVENTORY",
-		MENU_TITLE = "INVENTORY",
-		NO_ITEM_SELECTED = "No item selected",
 		TITLE_UNLOCKED = "NEW TITLE AVAILABLE:\n\"%s\"",
 		LOOT_PICKUP_POPTEXT = "+<p img='{icon_tex}'> {material_name}", --"%s" is the material icon, %s is the name
-
-		PRESETS = "Presets",
-		EMPTY_LIST_INFO = "You don't own any items in this category",
-		UNEQUIP_WEAPON_TT = "Can't unequip weapons.\nYou must have a weapon equipped at all times.",
-		DISCARD_TT = "Discard item permanently.",
-		DISCARD_EQUIPPED_ITEM_TT = "Can't discard equipped items.",
-		EQUIP = "EQUIP",
-		UNEQUIP = "UNEQUIP",
-		EQUIP_TT =   "<p bind='Controls.Digital.MENU_EQUIP' color=0> to Equip",
-		UNEQUIP_TT = "<p bind='Controls.Digital.MENU_EQUIP' color=0> to Unequip",
-		UNEQUIP_SLOT_TT = "<p bind='Controls.Digital.MENU_UNEQUIP' color=0> to Unequip",
-		DISCARD_ITEM = "DISCARD",
-		DISCARD_ONE = "DISCARD 1",
-		DISCARD_ALL = "DISCARD ALL (%d)",
-		DESCRIPTION_QUANTITY_SUFFIX = "%s\n<#B69655>Quantity: %d</>",
-		WRAP_SLOT_TITLE = "CUSTOM WRAP",
-		WRAP_SLOT_SUBTITLE_EMPTY = "NONE",
-		WRAP_EMPTY_TT = "This item doesn't have a wrap applied.\nA wrap can be fashioned to this item by an artisan.",
-		SLOTS_TITLE = "EQUIPMENT SLOTS",
-		NOSLOTS_TT = "This item doesn't have equipment slots.\nItems with equipment slots can have materials attached to them by an artisan for various beneficial effects.",
-		SLOT_EMPTY_TT = "This slot doesn't have any material applied.\nA material can be attached to this item by an artisan for various beneficial effects.",
-		DISCARD_DIALOG_TITLE = "Discard item?",
-		DISCARD_DIALOG_SUBTITLE = "%s",
-		DISCARD_DIALOG_TEXT = "Discarding this item will remove it permanently from your inventory.\nAre you sure you want to remove it?",
-		DISCARD_ALL_DIALOG_TITLE = "Discard %d items?",
-		DISCARD_ALL_DIALOG_SUBTITLE = "%s",
-		DISCARD_ALL_DIALOG_TEXT = "Discarding these items will remove them permanently from your inventory.\nAre you sure you want to remove all of this item?",
-		UPGRADE_WIDGET = "%d/%d Upgrades",
-		UPGRADE_WIDGET_TT = "Upgrades can be performed by skilled metalworkers.\nA whitesmith can apply upgrades up to each item's limit. These improve on the item's original performance.",
-		SAVECHANGES_DIALOG_TITLE = "Save changes?",
-		SAVECHANGES_DIALOG_SUBTITLE = "Equipment changed",
-		SAVECHANGES_DIALOG_TEXT = "You've changed your equipped gear.\nWant to save those changes, or go back to what you were carrying before?",
-		SAVECHANGES_DIALOG_YES_BUTTON = "SAVE",
-		SAVECHANGES_DIALOG_NO_BUTTON = "REVERT",
-		FILTER = "...",
-		FOOD_POWER_EXPLANATION = "WHEN CONSUMED, GAIN<#LIGHT_TEXT>%s</>:",
-		TONIC_POWER_EXPLANATION = "WHEN YOU DRINK, GAIN<#LIGHT_TEXT>%s</>:",
 
 		WEIGHT_LIGHT = "L",
 		WEIGHT_NORMAL = "M",
@@ -1584,20 +1610,15 @@ STRINGS.UI =
 		LOOT_EMPTY = "You didn't grab any loot this time.",
 		MASTERY_EMPTY = "You didn't progress any Masteries.",
 		POWER_EMPTY = "You didn't collect any {name_multiple.concept_relic}.",
-		DURATION_TITLE = "YOUR EXPEDITION TOOK",
-		TOTAL_KILLS = "KILLS",
-		ROOMS_LABEL = "CHAMBERS\nDISCOVERED",
-		ROOMS_LABEL_STAT = "CHAMBERS DISCOVERED",
-		DAMAGE_DONE = "DAMAGE DONE",
-		DAMAGE_TAKEN = "DAMAGE TAKEN",
-		DAMAGED_BY = "MOST DAMAGE DEALT BY",
-		DAMAGED_BY_EMPTY = "MOST DAMAGE DEALT BY",
-		DAMAGED_VALUE_EMPTY = "Environment",
-		DAMAGED_BY_NONE = "DAMAGE RECEIVED",
-		DAMAGED_VALUE_NONE = "None!",
-		DEATHS = "TIMES DIED",
-		KONJUR_CONVERSION_TT = "<#KONJUR>%s %s</> was converted into <#KONJUR>%s %s</>",
-		POWER_REWARD_UNLOCKED = "New potential {name.concept_relic} added to {name_multiple.concept_relic} pool!",
+
+		-- Stats shown on dungeon summary.
+		TIME_STAT = "Duration",
+		TOTAL_KILLS = "Kills",
+		ROOMS_LABEL_STAT = "{name_multiple.dungeon_room} Discovered",
+		DAMAGE_DONE = "Damage Done",
+		DAMAGE_TAKEN = "Damage Taken",
+		DEATHS = "Times Died",
+
 		LOADING_TEXT = "Loading details...",
 		MAX_META_LEVEL = "MAX",
 	},
@@ -1608,41 +1629,20 @@ STRINGS.UI =
 		REWARD_UNLOCKED = "Unlocked!",
 	},
 
-	MAPSCREEN =
-	{
-		START_DUNGEON_RUN = "Start Dungeon Run",
-		RESET_PATH = "Reset Path",
-		TOWN = "Town",
+	MAPSCREEN = {
+		-- These strings are now mostly in DUNGEONSELECTIONSCREEN.
+
 		UNKNOWN_CREATURE = "Undiscovered {name.rot}",
-		UNKNOWN = "???",
 
 		DUNGEON_TIER_LABEL = "Hunt Level",
-		DUNGEON_TIER_LABEL_TT = "The average difficulty of this dungeon. Don't be afraid to play one above your level!",
 		AVERAGE_PLAYER_LEVEL_LABEL = "Party Gear Level",
-		AVERAGE_PLAYER_LEVEL_LABEL_TT = "The average level of all of your party's Gear Level.",
 
-		RECOMMENDED_ATTACK_LABEL = "Recommended",
-		RECOMMENDED_ATTACK_TT = "Expect to defeat {name_multiple.rot} in this {name.run} if your team's current attack is near this level.",
-		ATTACK_VALUE = "<p img='images/icons_ftf/stat_weapon.tex' color=0 scale=1>%d",
-		CURRENT_ATTACK = "Current: <p img='images/icons_ftf/stat_weapon.tex' color=0 scale=1>%d",
-
-		RECOMMENDED_DEFENSE_LABEL = "Recommended",
-		RECOMMENDED_DEFENSE_TT = "{name.run} should be survivable if your team's current defence is near this level.",
-		DEFENSE_VALUE = "<p img='images/ui_ftf/ic_stat_defend.tex' color=0 scale=1>%d",
-		CURRENT_DEFENSE = "Current: <p img='images/ui_ftf/ic_stat_defend.tex' color=0 scale=1>%d",
-
-		RECOMMENDED_POWER = "RECOMMENDED POWER: %d",
-
-		LOCATION_BOSSES_GRID_TITLE = "{NAME_MULTIPLE.rot}",
-		LOCATION_MATERIALS_GRID_TITLE = "MATERIALS",
-		LOCATION_DROPS_GRID_TITLE = "ITEMS",
 		LOCATION_LOCKED_TITLE = "Location Locked",
 
 		LOCKED_INFO_LABEL = "<p img='images/map_ftf/lock_icon.tex' color=0 scale=4>\n\n\nDefeat the local Boss to unlock\nFrenzy Levels.",
 
 		TRAVEL_BUTTON = "FLY THERE!",
 		TRAVEL_BUTTON_DISABLED = "NO {name.elite_prefix} {name.rot_boss}",
-		CHANGE_WEAPON = "Change Weapon",
 
 		MAIN_HUNT_SUBTITLE = "{name.main_run}",
 	},
@@ -1659,64 +1659,54 @@ STRINGS.UI =
 		DMG =
 		{
 			name = "WEAPON DAMAGE",
-			desc = "The base number that all <#RED>Weapon {name.concept_damage}</> modifiers will be applied to.",
+			desc = "", -- "The base number that all <#RED>Weapon {name.concept_damage}</> modifiers will be applied to.",
 		},
 		DMG_MULT =
 		{
 			name = "ATTACK",
-			desc = "Multiplies <#RED>Weapon {name.concept_damage}</>.",
+			desc = "", -- "Multiplies <#RED>Weapon {name.concept_damage}</>.",
 		},
 		ARMOUR =
 		{
 			name = "DEFENSE",
-			desc = "Reduces the amount of <#RED>{name.concept_damage}</> you take when hit.", --\n\nIncoming <#RED>Damage</> reduced by <#RED>%.1f%%</>.",
-			desc_negative = "Reduces the amount of <#RED>{name.concept_damage}</> you take when hit.", --\n\n<#RED>Incoming Damage increased by <b>%.1f%%</>!</>",
+			desc = "", -- "Reduces the amount of <#RED>{name.concept_damage}</> you take when hit.", --\n\nIncoming <#RED>Damage</> reduced by <#RED>{amount_percent:%.1f}%</>.",
+			desc_negative = "", -- "Reduces the amount of <#RED>{name.concept_damage}</> you take when hit.", --\n\n<#RED>Incoming Damage increased by <b>{amount_percent:%.1f}%</>!</>",
 		},
 		HP =
 		{
 			name = "HEALTH",
-			desc = "All that ultimately stands between you and <#RED>Death</>.",
+			desc = "", -- "All that ultimately stands between you and <#RED>Death</>.",
 		},
 		CRIT =
 		{
 			name = "CRITICAL CHANCE",
-			desc = "Your chance to perform a <#RED>Critical Attack</>.",
+			desc = "", -- "Your chance to perform a <#RED>Critical Attack</>.",
 		},
 		CRIT_MULT =
 		{
 			name = "CRITICAL DAMAGE",
-			desc = "The amount by which a <#RED>Critical Hit</> multiples outgoing <#RED>{name.concept_damage}</>.\n\n<#RED>Critical Hits</> deal <#RED>%.1f%% {name.concept_damage}</>.",
+			desc = "", -- "The amount by which a <#RED>Critical Hit</> multiples outgoing <#RED>{name.concept_damage}</>.\n\n<#RED>Critical Hits</> deal <#RED>{amount_percent:%.1f}% {name.concept_damage}</>.",
 		},
 		FOCUS_MULT =
 		{
 			name = "FOCUS DAMAGE",
-			desc = "A <#RED>{name.concept_damage}</> multiplier specifically applied to your <#BLUE>{name.concept_focus_hit}</>.\n\n<#BLUE>{name.concept_focus_hit}</> will deal an additional <#RED>%.1f%% {name.concept_damage}</>.",
+			desc = "", -- "A <#RED>{name.concept_damage}</> multiplier specifically applied to your <#BLUE>{name.concept_focus_hit}</>.\n\n<#BLUE>{name.concept_focus_hit}</> will deal an additional <#RED>{amount_percent:%.1f}% {name.concept_damage}</>.",
 		},
 		LUCK =
 		{
 			name = "LUCK",
-			desc = "The chance of good things happening to you.",
+			desc = "", -- "The chance of good things happening to you.",
 		},
 		SPEED =
 		{
 			name = "{NAME.concept_runspeed}",
-			desc = "Modifies how quickly you move.",
+			desc = "", -- "Modifies how quickly you move.",
 		},
 
 
-		DURABILITY =
-		{
-			name = "DURABILITY",
-			desc = "",
-		},
 		WEIGHT =
 		{
 			name = "WEIGHT",
-			desc = "",
-		},
-		WRAP =
-		{
-			name = "WRAP",
 			desc = "",
 		},
 		QUANTITY =
@@ -1727,35 +1717,13 @@ STRINGS.UI =
 		RARITY =
 		{
 			name = "QUALITY",
-			desc = "The quality of the item.", -- unused?
+			desc = "", -- "The quality of the item.",
 		},
 		ILVL =
 		{
 			name = "ITEM LEVEL",
-			desc = "The item's level.",
+			desc = "", -- "The item's level.",
 		},
-		LIFETIME =
-		{
-			name = "LIFETIME",
-			desc = "The amount of time until this item is inedible.",
-			expires = "Expires in",
-			day = "day",
-			days = "days",
-		},
-		SOURCE =
-		{
-			name = "SOURCE",
-			desc = "Where this item came from",
-		}
-	},
-
-	CRAFTING =
-	{
-		REQUIRED_MATERIALS = "Required Materials",
-		OWNED = "OWNED",
-		DENSITY = "Density",
-		CAN_CRAFT = "Can Craft",
-		RECIPE_DESCRIPTION = "<p img='images/ui_ftf_crafting/RecipeDescriptionBefore.tex' color=C2AD9730 scale=1.2>%s<p img='images/ui_ftf_crafting/RecipeDescriptionAfter.tex' color=C2AD9730 scale=1.2>",
 	},
 
 	ITEMS =
@@ -1789,23 +1757,20 @@ STRINGS.UI =
 
 	ACTIONS =
 	{
+		INTERACT_FMT = "{button_icon} {label}",
 		TALK = "Talk",
 		CHITCHAT = "Chit Chat",
 		GIVE_GIFT = "{name.interact_hold} Give Gift",
+		GIFT_PROGRESSION_LOCKED = "<p img='images/ui_ftf_town/heart_locked.tex' color=0> Gift Progress Locked",
+		GIFT_PROGRESSION_MAXED = "<p img='images/ui_ftf_town/heart_unlocked.tex' color=0> Already Best Friends",
 
-		VIEW_MAP = "View Map",
-		HEAD_OUT = "Head Out?",
-		HEAD_OUT_CONFIRM = "Head Out",
+		HEAD_OUT = "Head Out?",  -- Start a run.
 		CANCEL = "Cancel",
 		PRACTICE_FIGHT = "Reminisce",
-		OPEN_ARMOR_SHOP = "Forge Armour",
-		OPEN_WEAPON_SHOP = "Forge Weapon",
-		MOVE_IN = "Move In",
 		REVIVE = "{name.interact_hold} Revive",
 		REVIVING = "{name.interact_tap} Reviving",
 		TAKE_POWERITEM = "{name.interact_tap} Take",
 		REROLL_POWERITEM = "{name.interact_hold} %s {name_multiple.concept_i_reroll} remaining",
-		OPEN_STORAGE = "{name.interact_tap} Open Inventory",
 
 		TAKE_POTION_ITEM = "{name.interact_tap} Gain {name.potion_charge}",
 		DRINK_POTION_ITEM = "{name.interact_hold} Drink {name.potion}",
@@ -1820,12 +1785,6 @@ STRINGS.UI =
 		MANNEQUIN_INVALID_INTERACTION = "Missing equipment pieces",
 
 		SIT = "{name.interact_tap} Sit",
-	},
-
-	MISC =
-	{
-		DONE = "Done!",
-		EMPTY = "[Empty]",
 	},
 
 	WARE_PURCHASE_POPUP = {
@@ -1877,13 +1836,13 @@ STRINGS.UI =
 		PAYMENT_COMPLETE = "Payment complete",
 
 		WEAPON_LOCKED = {
-			HAMMER = "{name_multiple.weapon_hammer} Locked\n(Unlock Weapon Types in Town)",
-			POLEARM = "{name_multiple.weapon_polearm} Locked\n(Unlock Weapon Types in Town)",
-			GREATSWORD = "{name_multiple.weapon_greatsword} Locked\n(Unlock Weapon Types in Town)",
-			CANNON = "{name_multiple.weapon_cannon} Locked\n(Unlock Weapon Types in Town)",
-			SHOTPUT = "{name_multiple.weapon_shotput} Locked\n(Unlock Weapon Types in Town)",
-			BOW = "{name_multiple.weapon_bow} Locked\n(Unlock Weapon Types in Town)",
-			PROTOTYPE = "{name_multiple.weapon_hammer} Locked\n(Unlock Weapon Types in Town)",
+			HAMMER = "{name_multiple.weapon_hammer} Locked\n(Unlock Weapon Types in {name.town})",
+			POLEARM = "{name_multiple.weapon_polearm} Locked\n(Unlock Weapon Types in {name.town})",
+			GREATSWORD = "{name_multiple.weapon_greatsword} Locked\n(Unlock Weapon Types in {name.town})",
+			CANNON = "{name_multiple.weapon_cannon} Locked\n(Unlock Weapon Types in {name.town})",
+			SHOTPUT = "{name_multiple.weapon_shotput} Locked\n(Unlock Weapon Types in {name.town})",
+			BOW = "{name_multiple.weapon_bow} Locked\n(Unlock Weapon Types in {name.town})",
+			PROTOTYPE = "{name_multiple.weapon_hammer} Locked\n(Unlock Weapon Types in {name.town})",
 		},
 
 		INSUFFICIENT_FUNDS = {
@@ -1909,7 +1868,7 @@ STRINGS.UI =
 		TAKE_REWARDS = "{name.interact_tap} Get Treasure Bundle!",
 		WEAPON_RACK = "{name.interact_tap} {weapon} Rack",
 		NO_CORESTONES = "No {name.konjur_soul_lesser}",
-		NOT_MINE = "Prohibited\n{name.dgn_resource_converter}",
+		NOT_MINE = "Wrong Hunter",  -- Could reference dgn_resource_converter for flavour, but don't use that name.
 		NOT_ENOUGH_XP = "Keep Hunting\nto Level Up",
 	},
 
@@ -1927,7 +1886,7 @@ STRINGS.UI =
 		POWER = {
 			NOT_MINE = "Wrong Hunter",
 			FULLY_UPGRADED = "{name.concept_relic} Maxed",
-			LIMIT_REACHED = "One Fabled {name.concept_relic}\nPer Hunter", --#pickups - fabled powers are dropped as a pool, all available for pickup by all players, but only one per
+			LIMIT_REACHED = "One {name.concept_relic}\nPer Hunter", --#pickups - fabled (and entrance) powers are dropped as a pool, all available for pickup by all players, but only one each.
 			NO_REROLLS = "No more rerolls", -- You're only allowed to reroll a finite amount of times
 			BAD_LOCATION = "Not rerollable", -- You can't reroll in the market or meta rooms
 		},
@@ -1942,37 +1901,6 @@ STRINGS.UI =
 		SHIELD = {
 			AT_MAXIMUM = "Shield Maxed",
 		},
-	},
-
-	MAP_ICONS =
-	{
-		MINIBOSS = "Something wicked this way comes",
-		FOOD = "Fill your stomach!",
-		QUEST = "Meet new friends and move the story forward",
-		POTION = "Quench your thirst and restore your health",
-		MARKET = "Buy armour, new weapons, and resources!",
-		METAUNLOCK = "New unlocks right ahead",
-		POWERUPGRADE = "Upgrade your powers",
-		SPECIALEVENT = "???",
-		BOSS_MEGATREEMON = "Something dangerous lies ahead",
-		BOSS_BANDICOOT = "Something dangerous lies ahead",
-		BOSS_THATCHER = "Something dangerous lies ahead",
-		BOSS_OWLITZER = "Something dangerous lies ahead",
-		BOSS_SEDAMENT = "Something dangerous lies ahead",
-		COIN1 = "{name.konjur} rewards for your shopping needs",
-		COIN2 = "Challenge ahead!\n{name.konjur} rewards for your shopping needs",
-		PLAIN1 = "Get a new power!",
-		PLAIN2 = "Challenge ahead!\nGet a new power!",
-		FABLED1 = "Get a special power!",
-		FABLED2 = "Challenge ahead!\nGet a special power!",
-		SKILL1 = "Get yourself a new skill!",
-		SKILL2 = "Challenge ahead!\nGet yourself a new skill!",
-		SMALLTOKEN1 = "Corestones for your shopping needs",
-		SMALLTOKEN2 = "Challenge ahead!\nCorestones for your shopping needs",
-		BIGTOKEN1 = "", -- Not used yet
-		BIGTOKEN2 = "", -- Not used yet
-		MATERIAL1 = "Loot and materials for your crafting needs",
-		MATERIAL2 = "Challenge ahead!\nLoot and materials for your crafting needs",
 	},
 
 	MAP_MARKERS =
@@ -2030,12 +1958,17 @@ STRINGS.UI =
 }
 
 
+STRINGS.UI.MULTIPANELSCREEN = {
+	READY = "Ready!",
+	BTN_UNDO_READY = "Back",
+}
+
 STRINGS.UI.FRIENDSHIPSCREEN = {
 	TITLE = "Friendships",
 	DESC = "Diary of meeting the {name_multiple.foxtails}",
 
 	-- Append this to "feature locked" text to point players to this screen.
-	TAG_CHECK_DIARY = "Check your <#RED>{name.i_station_diary}</#RED> for details.",
+	TAG_CHECK_DIARY = "Check your <#RED>{name.i_station_diary}</> for details.",
 
 	HOW_TO_OPEN = {
 		-- Hint to the player how to find this screen when we automatically open it.
@@ -2055,28 +1988,28 @@ STRINGS.UI.FRIENDSHIPSCREEN = {
 		FLAG = {
 			-- These strings are likely similar to STRINGS.UI.NOTIFICATION.FLAG
 			pf_town_crafting_unlocked = {
-				name = "Town Crafting", -- match STRINGS.CRAFT_WIDGET.CRAFT_STORE terminology
+				name = "{name.town} Crafting", -- match DECORSCREEN.CRAFT_BTN terminology
 				desc = "Craft decor and place it in town.",
 			},
 			pf_armour_fortification_1_unlocked = {
 				name = "Armour Research",
 				-- Rarity should match ITEM_LEVEL.TIER_TO_RARITY[1]
-				desc = "<#RED>{name.npc_armorsmith}</> can create an <#RED>{name.armourtools1}</> from {name_multiple.upgrade_ingot} so she can upgrade {name.i_item_rarity_uncommon} armour to higher levels.",
+				desc = "<#RED>{name.npc_armorsmith}</> can create <#RED>{name.armourtools1}</> from {name_multiple.upgrade_ingot} so she can upgrade {name.i_item_rarity_uncommon} armour to higher levels.",
 			},
 			pf_weapon_fortification_1_unlocked = {
 				name = "Weapon Research",
 				-- Rarity should match ITEM_LEVEL.TIER_TO_RARITY[1]
-				desc = "<#RED>{name.npc_blacksmith}</> can create an <#RED>{name.weapontools1}</> from {name_multiple.upgrade_ingot} so he can upgrade {name.i_item_rarity_uncommon} weapons to higher levels.",
+				desc = "<#RED>{name.npc_blacksmith}</> can create <#RED>{name.weapontools1}</> from {name_multiple.upgrade_ingot} so he can upgrade {name.i_item_rarity_uncommon} weapons to higher levels.",
 			},
 			pf_armour_fortification_2_unlocked = {
 				name = "Armour Research",
 				-- Rarity should match ITEM_LEVEL.TIER_TO_RARITY[2]
-				desc = "<#RED>{name.npc_armorsmith}</> can create an <#RED>{name.armourtools2}</> from {name_multiple.upgrade_ingot} so she can upgrade {name.i_item_rarity_rare} armour to higher levels.",
+				desc = "<#RED>{name.npc_armorsmith}</> can create a <#RED>{name.armourtools2}</> from {name_multiple.upgrade_ingot} so she can upgrade {name.i_item_rarity_rare} armour to higher levels.",
 			},
 			pf_weapon_fortification_2_unlocked = {
 				name = "Weapon Research",
 				-- Rarity should match ITEM_LEVEL.TIER_TO_RARITY[2]
-				desc = "<#RED>{name.npc_blacksmith}</> can create an <#RED>{name.weapontools2}</> from {name_multiple.upgrade_ingot} so he can upgrade {name.i_item_rarity_rare} weapons to higher levels.",
+				desc = "<#RED>{name.npc_blacksmith}</> can create <#RED>{name.weapontools2}</> from {name_multiple.upgrade_ingot} so he can upgrade {name.i_item_rarity_rare} weapons to higher levels.",
 			},
 			pf_farm_seedgrind_unlocked = {
 				name = "{name.seed_grinder}",
@@ -2086,21 +2019,28 @@ STRINGS.UI.FRIENDSHIPSCREEN = {
 				name = "{name_multiple.cook_rotating_recipe} Menu",
 				desc = "Cook fancier meals from <#RED>{name.npc_cook}</>'s menu and consume them during a Hunt for more potent {name_multiple.concept_relic}.",
 			},
+			pf_corestone_weapon_crafting_unlocked = {
+				name = "{name_multiple.weapon_crystal} Crafting",
+				desc = "Craft <#RED>{name_multiple.weapon_crystal}</> to absorb the essence of powerful {name_multiple.rot}.",
+			},
+			},
 		},
-	},
 	REQUIREMENT = {
 		FLAG = {
 			pf_unimplemented_friend_gift = {
-				desc = "Further progress isn't implemented at this point in <#PENALTY_TEXT_LIGHT>Early Access</>.",
+				desc = "This story is still unfolding.",
+			},
+			pf_unimplemented_lottie = {
+				desc = "{name.c_npc_refiner} is continuing her research.",
 			},
 			id_owns_any_rare_armor = {
-				desc = "Show off some {name.i_item_rarity_rare} armour to <#RED>{name.npc_armorsmith}</> to help her remember someone from her past.",
+				desc = "Show off some {name.i_item_rarity_rare} armour from <#BLUE>{name.npc_market_merchant}'s</> shop to <#RED>{name.npc_armorsmith}</> to help her remember someone from her past.",
 			},
 			id_owns_any_epic_armor = {
 				desc = "Chat with <#RED>{name.npc_armorsmith}</> while sporting some {name.i_item_rarity_epic} armour to spark some competitive spirit.",
 			},
 			id_owns_any_rare_weapon = {
-				desc = "Talk to <#RED>{name.npc_blacksmith}</> while wielding a {name.i_item_rarity_rare} weapon to pique his curiosity.",
+				desc = "Talk to <#RED>{name.npc_blacksmith}</> while wielding a {name.i_item_rarity_rare} weapon from <#BLUE>{name.npc_market_merchant}'s</> store to pique his curiosity.",
 			},
 			id_owns_any_epic_weapon = {
 				desc = "Let <#RED>{name.npc_blacksmith}</> examine an {name.i_item_rarity_epic} weapon to inspire him.",
@@ -2109,19 +2049,92 @@ STRINGS.UI.FRIENDSHIPSCREEN = {
 				desc = "<#RED>{name.npc_apothecary}</> needs her {name.farmtools} before she'll start trusting you.",
 			},
 			pf_town_crafting_unlocked = {
-				desc = "<#RED>{name.npc_armorsmith}</> won't share more gossip until you unlock <#RED>{name.npc_scout}</>'s Town Crafting.",
+				desc = "<#RED>{name.npc_armorsmith}</> won't share more gossip until you unlock <#RED>{name.npc_scout}</>'s {name.town} Crafting.",
 			},
 			pf_gave_cookingtools = {
 				desc = "Give <#RED>{name.npc_cook}</> her {name.cookingtools} before she's ready to be friends.",
 			},
+			id_won_any_frenzy = {
+				desc = "Triumph over an <#RED>{name.rot_sf_boss}</> in a <#RED>{name.run_ascension_plus}</>.",
+			},
+			id_super_frenzy_unlocked = {
+				desc = "Talk to <#RED>{name.npc_refiner}</> after discovering a <#RED>{name.run_ascension_plus}</>.",
+			},
+			id_has_gem_table_unlocked = {
+				desc = "Learn how to use the <#RED>{name.i_station_gems}</>.",
+			}
 		},
+	},
+}
+
+STRINGS.UI.NO_NETWORK = {
+	TITLE = "Network Error",
+	BODY_PREFIX = "Failed to connect to network.",
+	OFFLINE_REASON = {
+		STEAM = "Is Steam in Offline Mode?",
+		KLEI = "Can you connect to klei.com and Klei servers?",
+	},
+
+	CONTINUE = "Cancel",
+}
+
+STRINGS.UI.EULASCREEN = {
+	TITLE = "End User License Agreement",
+	AGREEMENT_UPDATED = "The EULA has been updated and needs your review.",
+	ALREADY_ACCEPTED = "You have previously accepted this version of the EULA.",
+
+	REQUIRED_FOR_ONLINE = {
+		TITLE = "End User License Agreement",
+		BODY = "You must accept the EULA to play online.",
+	},
+
+	ACCEPT = "Accept",
+	DECLINE = "Decline",
+	DECLINE_CONFIRMATION = {
+		TITLE = "Decline the EULA?",
+		BODY = "You will not be able to play online. Are you sure?",
+		DECLINE = "Play Offline",  -- Make them see the functionality they're choosing.
 	},
 }
 
 
 STRINGS.UI.SCRIPTERROR = {
-	-- TODO: move STRINGS.UI.MAINSCREEN error strings here.
+	TITLE_GAMEFAIL = "Error in the Woods",
+	TITLE_MODFAIL = "Mods are Wreaking Havoc",
+	SUBTITLE = "An error occurred that the game can't recover from.",
+
+	BTN_ISSUE = "Report an Issue",
+	-- TODO: add icon
+	BTN_GETHELP = "Get More Help",
+
+	BTN_SUBMENU_BACK = "<p img='images/ui_ftf/arrow_left.tex' scale=0.9 color=0>  Back",
+	BTN_MORE = "More Options  <p img='images/ui_ftf/arrow_right.tex' scale=0.9 color=0>",
+	BTN_QUIT = "<p img='images/ui_ftf_icons/exit.tex' scale=1.2 color=0>  Exit Game",
+	BTN_COPY_CLIPBOARD = "<p img='images/ui_ftf_icons/clipboard.tex' scale=1.2 color=0>  Copy Error",
+	BTN_RESTART = "<p img='images/ui_ftf_icons/restart.tex' scale=1.2 color=0>  Restart Level",
+	BTN_WIPE = "<p img='images/ui_ftf_icons/delete.tex' scale=1.2 color=0>  Delete All Saves",
+	BTN_DEBUG = "<p img='images/ui_ftf_icons/console.tex' scale=1.2 color=0>  Debug Console",
+	BTN_BUGTRACKER = "<p img='images/ui_ftf_icons/bug.tex' scale=1.2 color=0>  Bug Tracker",
+	BTN_SAVE_REPLAY = "Save Replay",
 	TROUBLESHOOTING = "<p img='images/ui_ftf_dialog/quirk_vip.tex' color=0> Troubleshooting",
+	BTN_QUIT_TO_MENU = "<p img='images/ui_ftf_icons/exit.tex' scale=1.2 color=0>  Return to Main Menu",
+
+	BTN_WIPESAVE =
+	{
+		TITLE = "Warning!",
+		BODY = "Deleting save data will erase all gameplay progress for all characters",
+		CONFIRM = "I am sure",
+		CANCEL = "Maybe not...",
+	},
+
+	MODCRASH = {
+		INSTALLED_MODS = "You had these mods:",
+		RESET_WITHOUT_MODS = "Disable Mods",
+		MODFORUMS = "Mod Forums",
+		BLAME_TARGET = "The following mod(s) have caused a failure:",
+		BLAME_RESOLVE = "The mod will be disabled, re-enable it from the mods menu.",
+	},
+
 	HACKMOD = {
 		-- "mods" from modifying game data directly instead of Workshop.
 		TITLE = "Modified Game Error",
@@ -2150,10 +2163,10 @@ STRINGS.UI.KNOWN_ERRORS = {
 
 STRINGS.BIOSPHERES = {
 	town = {
-		name = "Town",
+		name = "{name.town}",
 	},
 	rest = {
-		name = "Town",
+		name = "{name.town}",
 	},
 	forest = {
 		name = "Forest",
@@ -2179,18 +2192,13 @@ STRINGS.BIOSPHERES = {
 }
 
 STRINGS.LOCATIONS = {
-	LOCKED_LOCATION_DEFAULT = "The path ahead has been lost to time, though an inspired scout could find a way.",
-
-	LOCKED_LOCATION_NO_CLEARANCE = "Hunters without clearance:",
-
 	brundle = {
 		name = "{name.brundle}",
 		--desc = "Your encampment! Vestiges of past Folkling civilizations speckle the clearing to suggest an enigmatic history. Most importantly, it's a safe haven from {name_multiple.rot}. Best aim to keep it that way.",
 	},
 
 	restroom = {
-		name = "HELLOWRITER {name.brundle}",
-		--desc = "Your encampment! Vestiges of past Folkling civilizations speckle the clearing to suggest an enigmatic history. Most importantly, it's a safe haven from {name_multiple.rot}. Best aim to keep it that way.",
+		name = "", -- HELLOWRITER. Not sure yet where this name would show up.
 	},
 
 	bandi_swamp = {
@@ -2293,6 +2301,10 @@ STRINGS.LOCATIONS = {
 		name_upper = "{NAME.grimhollow_volcano_r2}",
 		--desc = "",
 	},
+	tefframech_volcano = {
+		name = "{name.tefframech_volcano}",
+		name_upper = "{NAME.tefframech_volcano}",
+	},
 }
 
 STRINGS.PSN = "PlayStation\226\132\162Network"
@@ -2335,8 +2347,8 @@ STRINGS.UI.HELP =
 
 STRINGS.CONTROL_BINDINGS = {
 	-- Correspond to controls.lua
-	OPEN_CRAFTING = "Crafting",
-	PICKUP_MODE = "Customize Town",
+	OPEN_CRAFTING = "Crafting", -- match DECORSCREEN.CRAFT_BTN terminology
+	PICKUP_MODE = "Customize {name.town}",
 	-- Extra strings for translation. Are these better labels?
 	PICKUP_MODE2 = "Collecting",
 	PICKUP_MODE3 = "Pick Up",
@@ -2372,9 +2384,10 @@ STRINGS.UI.OPTIONSSCREEN =
 	CONFIRM_TITLE = "Save Changes?",
 	CONFIRM_SUBTITLE = "Options changed",
 	CONFIRM_TEXT = "Save your changes or discard them?",
-	CONFIRM_OK = "Save",
-	CONFIRM_NO = "Discard",
-	CONFIRM_RESTART = "Restart",
+	CONFIRM_OK = "<p img='images/ui_ftf_options/ic_save.tex' color=0> Save",
+	CONFIRM_NO = "<p img='images/ui_ftf_dialog/convo_close.tex' color=0> Discard",
+	CONFIRM_RESTART = "<p img='images/ui_ftf_icons/restart.tex' color=0> Restart",
+	CONFIRM_QUIT = "<p img='images/ui_ftf_dialog/convo_close.tex' color=0> Quit",
 	CONFIRM_LANGUAGE_TITLE = "Save and Restart?",
 	CONFIRM_LANGUAGE_SUBTITLE = "Language changed",
 	CONFIRM_LANGUAGE_TEXT = "You must restart the game to switch languages.",
@@ -2386,21 +2399,22 @@ STRINGS.UI.OPTIONSSCREEN =
 	SAVED_OPTIONS_LABEL = "Options saved!",
 
 	REQUIRE_RESTART = "Changing this setting requires restarting the game.",
+	REQUIRE_MAINMENU = "Must be in Main Menu to use this setting.",
 
 	SETTINGS = {
 		CONTROLS = {
 			GAMEPLAY_EDIT_TOUCHCONTROLS = {
 				TITLE = "Edit Touch Controls",
-				DESC = "Change the layout and behaviour of the touch touch controls.",
+				DESC = "Change the layout and behaviour of the touch controls.",
 			},
 			GAMEPLAY_VIBRATION = {
 				ON = {
 					NAME = "ON",
-					DESC = "Allow gamepads to rumble and vibrate.",
+					DESC = "Allow {name_multiple.input_gamepad} to rumble and vibrate.",
 				},
 				OFF = {
 					NAME = "OFF",
-					DESC = "Gamepads will not rumble or vibrate.",
+					DESC = "{name_multiple.input_gamepad} will not rumble or vibrate.",
 				},
 			},
 			GAMEPLAY_MOUSE_AIMING = {
@@ -2445,7 +2459,9 @@ STRINGS.UI.OPTIONSSCREEN =
 
 			RESET_BINDINGS = {
 				TITLE = "Reset Bindings",
-				DESC = "Click to reset gamepad and keyboard input bindings to their default values. This will leave your other settings and progression intact.",
+				-- TODO(dbriscoe): Remove "Click to" when we have time for loc.
+				DESC = "Click to reset {name.input_gamepad} and keyboard input bindings to their default values. This will leave your other settings and progression intact.",
+				DESC_NX = "Reset {name.input_gamepad} bindings to their default values. This will leave your other settings and progression intact.",
 				CONFIRM = "Reset input bindings?",
 				YES = "Reset",
 				NO = "Cancel",
@@ -2616,13 +2632,17 @@ STRINGS.UI.OPTIONSSCREEN =
 					NAME = "SFX Volume",
 					DESC = "Adjust the volume of sound effects only.",
 				},
+				CUTSCENE = {
+					NAME = "Cutscene Volume",
+					DESC = "Adjust the volume of cutscenes (movies) only.",
+				},
 				VOICE = {
 					NAME = "Voice Volume",
 					DESC = "Adjust the volume of character voices and narration only.",
 				},
 				AMBIENCE = {
 					NAME = "Ambience Volume",
-					DESC = "Adjust the volume of ambient background sounds only (80% is default)",
+					DESC = "Adjust the volume of ambient background sounds only.",
 				},
 			},
 			ENVIRONMENT_TITLE = "Listening Environment",
@@ -2630,11 +2650,13 @@ STRINGS.UI.OPTIONSSCREEN =
 				speakers = "Speakers",
 				headphones = "Headphones",
 				steamdeck = "Steam Deck",
+				nx_handheld = "Nintendo Switch",
 			},
 			ENVIRONMENT_DESC = {
-				speakers = "Speakers. Sounds are panned more dramatically to account for sitting distance",
-				headphones = "For wearing headphones. Panning is less dramatic to account for speaker separation",
-				steamdeck = "Tuned for the built-in speakers on Valve's Steam Deck",
+				speakers = "For living room environments and large speakers. Higher dynamic range.",
+				headphones = "Recommended for headphones and streaming. Average dynamic range.",
+				steamdeck = "Small speakers like the Steam Deck. Low dynamic range, increased panning.",
+				nx_handheld = "Tuned for the built-in speakers of the Nintendo Switch",
 			},
 			FORCE_MONO_MIX =
 			{
@@ -2707,16 +2729,16 @@ STRINGS.UI.OPTIONSSCREEN =
 			PLAYER_NAME = {
 				TITLE = "Player Name Display",
 				PROFILE_NAME = {
-					NAME = "Account Name",
-					DESC = "Use the Account Name as player name for all local players.",
+					NAME = "{name.concept_username}",
+					DESC = "Use the {name.concept_username} as player name for all local players.",
 				},
 				TITLE_FOR_LOCAL_SECONDARY = {
 					NAME = "Title For Local Secondary",
-					DESC = "Use selected Title as player name for all local players, except first player.\nChange your Title with the 'Customize Character' mirror in Town.",
+					DESC = "Use selected Title as player name for all local players, except first player.\nChange your Title with the 'Customize Character' mirror in {name.town}.",
 				},
 				TITLE_FOR_LOCAL_ALL = {
 					NAME = "Title For All Local Players",
-					DESC = "Use selected Title as player name for all local players.\nChange your Title with the 'Customize Character' mirror in Town.",
+					DESC = "Use selected Title as player name for all local players.\nChange your Title with the 'Customize Character' mirror in {name.town}.",
 				},
 			},
 
@@ -2745,11 +2767,10 @@ STRINGS.UI.OPTIONSSCREEN =
 			PROFILE_CONFIRM = "Proceed with performance profile?",
 			PROFILE_YES = "Yes",
 			PROFILE_NO = "Cancel",
-			PROFILE_DISABLED_TITLE = "Profiling Unavailable",
 			PROFILE_DISABLED_BODY = "Performance captures are only available during gameplay.",
 
 			RESET_SETTINGS_TITLE = "Reset Options",
-			RESET_SETTINGS_DESC = "Click to reset user options to their default values. This will leave your progression and all unlocks intact.",
+			RESET_SETTINGS_DESC = "Reset user options to their default values. This will leave your progression and all unlocks intact.",
 			RESET_SETTINGS_CONFIRM = "Reset all configuration options?",
 			RESET_SETTINGS_YES = "Reset",
 			RESET_SETTINGS_NO = "Cancel",
@@ -2766,6 +2787,9 @@ STRINGS.UI.OPTIONSSCREEN =
 
 			VIEW_OPEN_SOURCE_CREDITS_TITLE = "Open Source Packages",
 			VIEW_OPEN_SOURCE_CREDITS_DESC = "Thanks to these Open Source projects used in the creation of Rotwood.",
+
+			VIEW_EULA_TITLE = "Review the EULA",
+			VIEW_EULA_DESC = "Read the current Rotwood End User License Agreement.",
 		},
 	},
 
@@ -2777,11 +2801,11 @@ STRINGS.UI.OPTIONSSCREEN =
 
 	BIND_SECTIONS = {
 		CONTROLS_BASIC = {
-			gamepad = "Gamepad - Basic controls",
+			gamepad = "{name.input_gamepad} - Basic controls",
 			keyboard = "Keyboard - Basic controls",
 		},
 		CONTROLS_COMBAT = {
-			gamepad = "Gamepad - Combat actions",
+			gamepad = "{name.input_gamepad} - Combat actions",
 			keyboard = "Keyboard - Combat actions",
 		},
 		ADMIN = "Troubleshooting",
@@ -2808,7 +2832,7 @@ STRINGS.UI.OPTIONSSCREEN =
 	MOBILE_CONTROLS_CORNER_4 = "Player 4",
 	MOBILE_CONTROLS_CORNER_4_TT = "If there's a fourth player, this area shows their details.",
 	MOBILE_CONTROLS_CLOSE_BUTTON = "<p img='images/ui_ftf_icons/back.tex' color=0>  Close",
-	MOBILE_CONTROLS_RESET_BUTTON = "<p img='images/ui_ftf_icons/restart.tex' scale=1.1 color=0> Reset",
+	MOBILE_CONTROLS_RESET_BUTTON = "<p img='images/ui_ftf_icons/restart.tex' scale=1.1 color=0> Reset",  -- TODO: change to BtnRevert
 	MOBILE_CONTROLS_SAVED = "<p img='images/ui_ftf_icons/completed.tex' scale=1 color=0> Changes saved!",
 }
 
@@ -2843,7 +2867,7 @@ STRINGS.UI.FEEDBACK_SCREEN =
 	SEND_STATS = "Send Runtime Statistics",
 	SEND_PERFORMANCE_REPORT = "Send Performance Report",
 	SEND_REPLAY_TT = "Check this if you want to include a replay of the last 5 seconds of gameplay!\n\nWill cause the report to take longer to submit.",
-	TEMPLATE_PERF_PROFILE = "Performance problem: ",
+	TEMPLATE_PERF_PROFILE = "Performance problem:",
 
 	CATEGORIES =
 	{
@@ -2882,17 +2906,23 @@ STRINGS.UI.PRESSED_START_IN_SINGLE_PLAYER =
 {
 	-- More likely to press a gamepad than keyboard, so don't bother with "key".
 	TITLE = "Button pressed on {device_icon}",
-	SUBTITLE = "Want to add a new player on that device,\nor switch to it yourself?",
+	SUBTITLE = "Want to add a new player on that {name.input_generic},\nor switch to it yourself?",
 	BTN_ADD_PLAYER = "<p img='images/ui_ftf_icons/addplayer.tex' color=0 scale=1.2> Add local player",
-	BTN_CHANGE_INPUT = "<p img='images/ui_ftf_icons/changecontroller.tex' color=0 scale=1.3> Switch to new device",
+	BTN_CHANGE_INPUT = "<p img='images/ui_ftf_icons/changecontroller.tex' color=0 scale=1.3> Switch to new {name.input_generic}",
 }
 
 STRINGS.UI.NOTIFICATION =
 {
-	LOADING = "Loading",
+	LOADING = "Loading",			-- This is the string the game USED to display (for one frame as loading started or ended)
 	SAVING = "Saving",
 	PRESS_TO_DISCONNECT = "Press {input} to Disconnect",
 	CONNECTING = "Connecting",
+
+	NPC_JOINED =
+	{
+		TITLE = "A New Friend!",
+		DESC = "{npc_name} has joined {player_name}'s {name.town}!",
+	},
 
 	TIME_PASSED =
 	{
@@ -2900,11 +2930,24 @@ STRINGS.UI.NOTIFICATION =
 		DESC = "The day has progressed.",
 	},
 
+	UNUSED_GIFTS =
+	{
+		TITLE = "Unused Gifts!",
+		DESC = "{player_name} has <#RED>{amount} Gifts</> to give out!",
+		DESC_SINGULAR = "{player_name} has a <#RED>Gift</> to give out!",
+	},
+
 	ITEM_OBTAINED =
 	{
 		TITLE = "{item_name}",
 		TITLE_MULTIPLE = "{item_name} x{count}",
-		DESC = "Added to {player_name}'s Chest."
+		DESC = "Added to {player_name}'s Chest.",
+	},
+
+	FOOD_COOKED = {
+		TITLE = "Added to {name.i_lunchbox}",
+		--~ TITLE_MULTIPLE = "Added to {name.i_lunchbox}",  -- Unnecessary. Fallback to TITLE.
+		DESC = "Eat your <#BLUE>{item_name}</> from the {name.lunchbox} at the start of a {name.run}.", -- Intentionally not i_lunchbox since it's in TITLE.
 	},
 
 	EMOTE_OBTAINED =
@@ -2914,7 +2957,7 @@ STRINGS.UI.NOTIFICATION =
 	},
 	FLAGS = {
 		pf_town_crafting_unlocked = {
-			TITLE = "Town Crafting Unlocked", -- match STRINGS.CRAFT_WIDGET.CRAFT_STORE terminology
+			TITLE = "{name.town} Crafting Unlocked", -- match DECORSCREEN.CRAFT_BTN terminology
 			DESC = "{player_name} can now craft decor and place it in their town."
 		},
 	},
@@ -2928,14 +2971,22 @@ STRINGS.UI.NOTIFICATION =
 		TITLE = "{name.concept_talent_tree} Adjusted",
 		DESC = "You may need to redistribute your {name.concept_talent_tree} points."
 	},
+
+	BROKEN_CORESTONE_WEAPON = {
+		TITLE = "Broken Weapon!",
+		DESC = "{player_name} has <#RED>{weapon_name}</> equipped!"
+	},
+
+	EQUIP_CUSTOMIZATION_UNLOCKED = { -- equipment cosmetics
+		TITLE = "Mirage Pattern Unlocked!",
+		DESC = "{player_name} unlocked a new <#RED>Mirage Pattern</>!"
+	},
 }
 
 STRINGS.UI.PAUSEMENU =
 {
 	HOST_PAUSE = "Host {player_name} paused the game",
-	SUBTITLE_TOWN = "TOWN",
-	SUBTITLE_DUNGEON = "LOCATION MAP",
-	SUBTITLE_TRAVEL = "TRAVELLING...",
+
 	SKIP_TRAVEL_BUTTON = "Skip  <p img='images/ui_ftf/arrow_ffwd.tex' scale=0.7 color=0>",
 	BACK_BUTTON = "Back",
 	CLOSE_BUTTON = "<p img='images/ui_ftf_dialog/convo_close.tex' color=0> Close",
@@ -2948,6 +2999,9 @@ STRINGS.UI.PAUSEMENU =
 	IMSTUCK_BUTTON = "<p img='images/icons_ftf/inventory_key_items.tex' color=0> I'm Stuck!",
 	IMSTUCK = {
 		TITLE = "I'm Stuck!",
+		BODY_SORRY = "Sorry about that, Hunter! Our team is currently working hard to fix these issues.",
+		BODY_FEEDBACK = "Please <#RED>Write Feedback</> to send us diagnostics that help us to eliminate similar bugs in the future.",
+		BODY_RELOAD = "To unstick your character, select <#RED>Reload</> below to restart this room and try again.\n\nThank you. Your help and patience is appreciated!",
 		BODY = "Sorry about that, Hunter! Our team is currently working hard to fix these issues.\n\nPlease <#RED>Write Feedback</> to send us diagnostics that help us to eliminate similar bugs in the future.\n\nTo unstick your character, select <#RED>Reload</> below to restart this room and try again.\n\nThank you. Your help and patience is appreciated!",
 		SEND_FEEDBACK = "Write Feedback",
 		RESTART_ROOM = "Reload",
@@ -2995,26 +3049,52 @@ STRINGS.UI.PAUSEMENU =
 	HOSTQUIT_TOOLTIP = "As Host, quitting will disconnect the server and boot your friends",
 	HOSTQUITBODY = "Are you sure you want to shut down the server? If you do, all current players will be disconnected.",
 
-	RETURN_TO_TOWN_BUTTON = "<p img='images/ui_ftf_dialog/convo_dismiss.tex' color=0> Return to Town",
+	RETURN_TO_TOWN_BUTTON = "<p img='images/ui_ftf_dialog/convo_dismiss.tex' color=0> Return to {name.town}",
 	CANCEL_QUIT = "Cancel",
 
 	AFK = "Go AFK",
 	SERVER_ADMIN = "Server Admin",
-	ISSUE = "Report an Issue",
 	JOINCODE_COPIED = "Copied to clipboard!",
 
 
 	CONNECT_SIDEBAR = {
-		TITLE = "Gamepad disconnected",
-		INSTRUCTIONS = "Activate a device to use for {player_name}:",
+		TITLE = "{name.input_gamepad} disconnected",
+		INSTRUCTIONS = "Activate a {name.input_generic} to use for {player_name}:",
+		-- No period for GAMEPAD_LIST strings because they're in a list.
 		GAMEPAD_LIST = "Press {button_icon} on {device_icon} {device_name}",
+		GAMEPAD_LIST_CONSOLE = "Press {button_icon} on {device_icon}",
 		GAMEPAD_LIST_EMPTY = "No unused devices detected.",
+		GAMEPAD_LIST_EMPTY_CONSOLE = "No unused {name_multiple.input_generic} detected.",
 		FOUND_AVAILABLE = "Assigning detected input on {device_icon}.",
 		FOUND_IN_USE = "Detected input on {device_icon} assigned to another player.",
 		RECONNECT_BTN = "Reconnect",
 		ALREADY_USED_TT = "{device_icon} already controls {player_name}",
 	},
 
+}
+
+STRINGS.UI.DIALOG_GAMESHARE = {
+	TITLE = "Start GameShare",
+	TITLE_CLOSE = "End GameShare?",
+	BODY = "How would you like to play GameShare?",
+	BODY_CLOSE = "Are you sure you want to end the GameShare session?",
+	CHOICE_LOCAL = "<p img='images/icons_ftf/ic_gameshare_local_users.tex' color=0 scale=1.0> Nearby",
+	CHOICE_INTERNET = "<p img='images/icons_ftf/ic_gameshare_via_gamechat.tex' color=0 scale=1.0> GameChat",
+	CHOICE_CANCEL = "Cancel",
+	CHOICE_CLOSE = "End Session",
+}
+
+STRINGS.UI.DIALOG_CHECK_INTERNET = {
+	TITLE = "Connecting...",
+	BODY = "Checking internet connection and authorization...",
+	CHOICE_CANCEL = "Cancel",
+}
+
+STRINGS.UI.DIALOG_UGC = {
+	TITLE = "Important Notice",
+	BODY = "When playing a networked game you will share your customized town with other players and you will see other player towns.\n\nDo you want to continue?",
+	CHOICE_OK = "Continue",
+	CHOICE_NOTOK = "Back",
 }
 
 STRINGS.UI.FAILED_INITIALIZE = {
@@ -3055,9 +3135,12 @@ STRINGS.UI.DATACOLLECTION = {
 	},
 
 	LOGIN = {
-		TITLE = "Offline Mode",
+		TITLE = "You are in Offline Mode",
 		SEE_OPTIONS = "Data Collection settings can be modified in the Options menu.",
 		CONTINUE = "Continue",
+
+		OPTIONS_BTN = "<p img='images/ui_ftf/ic_options.tex' color=0> Options",
+		BACK = "Cancel",
 	},
 
 	FEEDBACK_DISCLAIMER = "Report includes platform information for diagnostic purposes.",
@@ -3076,14 +3159,13 @@ STRINGS.UI.CONTROLSCHEMEPOPUP =
 	DESC = "Your control scheme is an important part of the hunt. We suggest using Mouse Aiming for more accurate and fluid control, however practice may be required.\n\nDon't worry, you can always change this in the Options menu.",
 	MOUSE_AIMING_ON = "Keep Mouse Aiming",
 	MOUSE_AIMING_ON_TT = "<#RED>Recommended</>\nAttack in the direction of the mouse.\n\nThis allows greater use of directional combat in the game, making it easier to do combos.",
-	MOUSE_AIMING_OFF = "<#RED>Disable</> Mouse Aiming",
+	MOUSE_AIMING_OFF = "<#LIGHT_TEXT_WARN>Disable</> Mouse Aiming",
 	MOUSE_AIMING_OFF_TT = "Attack in the direction that you are facing.\n\nThis is sometimes more intuitive, but makes quickly switching targets and direction more difficult.",
 }
 
-STRINGS.UI.MANAGEMP =
-{
+STRINGS.UI.MANAGEMP = {
 	PLAYERS_IN_GAME = "Players In-Game",
-	BLACK_LIST = "Blacklist",
+	BLACK_LIST = "Blocklist",
 	KICK = "Kick",
 	REMOVE = "Remove",
 }
@@ -3149,6 +3231,8 @@ STRINGS.UI.MARKETCHALLENGEPROP =
 	TT_NOT_PRESENT_AT_START = "<p img='%s' scale=1.4 color=0> INACTIVE",
 	TT_SHOULD_COMPLETE = "<p img='%s' scale=1.4 color=0> ACTIVE",
 	TT_FAILED = "<p img='%s' scale=1.4 color=0> FAILED",
+	TT_ALREADY_COMPLETED = "<p img='%s' scale=1.4 color=0> CLAIMED",
+	TT_CLAIMABLE = "<p img='%s' scale=1.4 color=0> SUCCESS",  -- Same as SUCCESS above.
 }
 
 STRINGS.UI.TOOLTIPS =
@@ -3296,6 +3380,24 @@ STRINGS.CINEMATICS =
 {
 	-- TODO: use quips instead like HUNTPROGRESSWIDGET to simplify customizing text to player state (weapons, progression, etc)
 	-- We need to convert showtext eventfunc to use quips too.
+	--HELLOPROGRAMMER: TEFFRAMECH_PHASE1_INTRO_3 will be the only intro line repeated when a player repeats this fight.
+
+	-- Tefframech intro.
+    TEFFRAMECH_PHASE1_INTRO_1 = "This Hunter has poisoned you against me, Flitt!",
+    TEFFRAMECH_PHASE1_INTRO_2 = "Don't you see? Primeval Teffra will fix you!",
+    TEFFRAMECH_PHASE1_INTRO_3 = "We will fix EVERYTHING!\nSTARTING WITH THIS HUNTER!",
+
+    -- Tefframech phase 1 end.
+    TEFFRAMECH_PHASE1_END_1 = "ARGH!! Fighting is useless, Hunter!",
+    TEFFRAMECH_PHASE1_END_2 = "Become one with US! BECOME ROTLESS!",
+
+    -- Tefframech phase 2 end.
+    TEFFRAMECH_PHASE2_END_1 = "YOU REJECT OUR ROTLESS PERFECTION.",
+    TEFFRAMECH_PHASE2_END_2 = "BUT YOU CANNOT REJECT THE ERUPTION.",
+
+	-- Tefframech phase 3 end.
+	TEFFRAMECH_PHASE3_END_1 = "B-BUT... WE... CANNOT... ROT...??",
+	TEFFRAMECH_PHASE3_END_2 = "NOOOOOOOOOOOOOOOOOO!!!",
 }
 
 -- TODO #weight - fix up these strings as you will
@@ -3333,10 +3435,15 @@ STRINGS.UI.TUTORIAL_POPUPS =
 STRINGS.UI.MECHANIC_TUTORIALS =
 {
 	-- Many of these strings are similar to strings in STRINGS.UI.FRIENDSHIPSCREEN.
+	CUSTOMIZATION_UNLOCKED =
+	{
+		TITLE = "Teffra Mirages",
+		DESC = "Using the <#RED>{name.i_vanity_screen}</>, you can use {name.i_gem_dust} to change the appearance of your equipment.\n\nTo place decor in {name.town} you need to have unlocked <#RED>{name.town} Crafting</>.",
+	},
 
 	TOWN_DECORATION_UNLOCKED =
 	{
-		TITLE = "Town Crafting", -- match STRINGS.CRAFT_WIDGET.CRAFT_STORE terminology
+		TITLE = "{name.town} Crafting", -- match DECORSCREEN.CRAFT_BTN terminology
 		DESC = "<#RED>Place</> decorations in your town with <p bind='Controls.Digital.OPEN_CRAFTING' color=0> and <#RED>remove</> them with <p bind='Controls.Digital.PICKUP_MODE' color=0>.\n\nIn online multiplayer, the host can control crafting permissions in the <#BLUE>Players</> menu.",
 	},
 
@@ -3344,50 +3451,50 @@ STRINGS.UI.MECHANIC_TUTORIALS =
 	{
 		TITLE = "Armour Research",
 		-- Same icon and name as TAB_ITEM_UPGRADES in EquipmentScreenMulti.
-		DESC = "<#RED>{name.npc_armorsmith}</> will now upgrade your armour!\n\nCheck <p img='images/icons_ftf/upgrade.tex' color=0 rpad=1>Upgrades at the <#RED>Armoury</#RED>.",
+		DESC = "<#RED>{name.npc_armorsmith}</> will now upgrade your armour!\n\nCheck <p img='images/icons_ftf/upgrade.tex' color=0 rpad=1>Upgrades at the <#RED>Armoury</>.",
 	},
 
 	ARMOUR_FORTIFICATION_UNLOCKED_1 = {
 		TITLE = "Armour Research",
 		-- Same icon and name as TAB_UPGRADES in EquipmentScreenMulti.
-		DESC = "<#RED>{name.npc_armorsmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_uncommon} armour to {name.i_item_rarity_rare} quality!\n\nCheck <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at the <#RED>Armoury</#RED>.",
+		DESC = "<#RED>{name.npc_armorsmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_uncommon} armour to {name.i_item_rarity_rare} quality!\n\nCheck <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at the <#RED>Armoury</>.",
 	},
 
 	ARMOUR_FORTIFICATION_UNLOCKED_2 = {
 		TITLE = "Armour Research",
 		-- Same icon and name as TAB_UPGRADES in EquipmentScreenMulti.
-		DESC = "<#RED>{name.npc_armorsmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_rare} armour to {name.i_item_rarity_epic} quality!\n\nCheck <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at the <#RED>Armoury</#RED>.",
+		DESC = "<#RED>{name.npc_armorsmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_rare} armour to {name.i_item_rarity_epic} quality!\n\nCheck <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at the <#RED>Armoury</>.",
 	},
 
 	WEAPON_FORTIFICATION_UNLOCKED_0 =
 	{
 		TITLE = "Weapon Research",
 		-- Same icon and name as TAB_ITEM_UPGRADES in EquipmentScreenMulti.
-		DESC = "<#RED>{name.npc_blacksmith}</> will now upgrade your weapons!\n\nCheck <p img='images/icons_ftf/upgrade.tex' color=0 rpad=1>Upgrades at the <#RED>Weapon Rack</#RED>.",
+		DESC = "<#RED>{name.npc_blacksmith}</> will now upgrade your weapons!\n\nCheck <p img='images/icons_ftf/upgrade.tex' color=0 rpad=1>Upgrades at the <#RED>Weapon Rack</>.",
 	},
 
 	WEAPON_FORTIFICATION_UNLOCKED_1 = {
 		TITLE = "Weapon Research",
 		-- Same icon and name as TAB_UPGRADES in EquipmentScreenMulti.
-		DESC = "<#RED>{name.npc_blacksmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_uncommon} weapons to {name.i_item_rarity_rare} quality!\n\nCheck <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at a <#RED>Weapon Rack</#RED>.",
+		DESC = "<#RED>{name.npc_blacksmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_uncommon} weapons to {name.i_item_rarity_rare} quality!\n\nCheck <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at a <#RED>Weapon Rack</>.",
 	},
 
 	WEAPON_FORTIFICATION_UNLOCKED_2 = {
 		TITLE = "Weapon Research",
 		-- Same icon and name as TAB_UPGRADES in EquipmentScreenMulti.
-		DESC = "<#RED>{name.npc_blacksmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_rare} weapons to {name.i_item_rarity_epic} quality!\n\nCheck <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at a <#RED>Weapon Rack</#RED>.",
+		DESC = "<#RED>{name.npc_blacksmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_rare} weapons to {name.i_item_rarity_epic} quality!\n\nCheck <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at a <#RED>Weapon Rack</>.",
 	},
 
 	BOSS_WEAPON_CRAFTING =
 	{
 		TITLE = "{name_multiple.weapon_crystal}",
 		DESC = [[
-<#RED>{name.npc_blacksmith}</> can now craft <#RED>{name_multiple.weapon_crystal}</>.
+{name.c_npc_refiner}'s breakthrough allows {name.c_npc_blacksmith} to craft <#RED>{name_multiple.weapon_crystal}</>.
 
-{name_multiple.weapon_crystal} absorb the essence of a <#RED>{name.elite_prefix} {name.rot_boss}</> if it is used to complete a <#RED>{name.ascension_plus} {name.run}</>.
+On a <#RED>{name.run_ascension_plus}</>, your equipped {name_multiple.weapon_crystal} will absorb the essence of the defeated <#RED>{name.rot_sf_boss}</>.
 
-If you fail a run while holding a Proto-Weapon, it will <#RED>Break</> and need to be repaired by {name.npc_blacksmith}.
-		]],
+If you fail any run while holding a {name.weapon_crystal}, it will <#RED>Break</> and need to be repaired by {name.c_npc_blacksmith}.
+]],
 	},
 
 	GEMTABLE_UNLOCKED =
@@ -3414,6 +3521,18 @@ If you fail a run while holding a Proto-Weapon, it will <#RED>Break</> and need 
 		DESC = "You can now use the cooking station to prepare Powerful meals for your Hunt!",
 	},
 
+	COOKING_UNLOCKED_P1 = {
+		TITLE = "Cooking Meals",
+		-- Show cooking pot
+		DESC = "Cook <#RED>meals</> at <#BLUE>{name.i_cooking_pot}</> with ingredients grown on your <#RED>{name.i_farm_plot}</>.\n\n<#BLUE>{name.npc_cook}</> packs your <#BLUE>{name.i_lunchbox}</> with your prepared meals before you leave on a {name.run}.",
+	},
+
+	COOKING_UNLOCKED_P2 = {
+		TITLE = "Eating Meals",
+		-- Show lunchbox
+		DESC = "Find your <#RED>meals</> at the start of a {name.run} in your <#BLUE>{name.i_lunchbox}</> next to the {name.i_damselfly}.\n\nEach {name.run}, you can eat <#RED>one meal</> to gain a <#RED>{name.concept_relic}</>.",
+	},
+
 	COOKINGMENU_UNLOCKED = {
 		-- Use same terminology as FOODSCREEN.TEMPORARY_MENU_TITLE
 		TITLE = "{name_multiple.cook_rotating_recipe} Menu Unlocked!",
@@ -3429,7 +3548,7 @@ If you fail a run while holding a Proto-Weapon, it will <#RED>Break</> and need 
 	FIRST_HUNTERS_PATH =
 	{
 		TITLE = "{name.concept_talent_tree}",
-		DESC = "You progressed the <#RED>{name.concept_talent_tree}</>, earning a <#RED>{name.i_konjur_heart_shard}</>!\n\n{name_multiple.konjur_heart_shard} are used to increase your Hunter's Power.\n\nYou can view each {name.run}'s challenges in {name.tutorial_playerstatus}. ",
+		DESC = "You progressed the <#RED>{name.concept_talent_tree}</>, earning a <#RED>{name.i_konjur_heart_shard}</>!\n\n{name_multiple.konjur_heart_shard} are used to increase your Hunter's Power.\n\nYou can view each {name.run}'s challenges in {name.tutorial_playerstatus}.",
 	},
 
 	TEFFROMETER_UNLOCKED =
@@ -3508,6 +3627,7 @@ STRINGS.VERSION_NOTES =
 		DESCRIPTION = "This update has changed many parts of the game and your settings had to be reset.\n\nCheck the update notes below for more information.",
 	},
 }
+
 STRINGS.UI.MAINSCREEN.MODTITLE = "Mods Installed!"
 STRINGS.UI.MAINSCREEN.NEWMODDETAIL = "Newly installed mods: "
 STRINGS.UI.MAINSCREEN.MODDETAIL = "Installed mods: "
@@ -3521,4 +3641,3 @@ STRINGS.UI.MAINSCREEN.MODSBADLOAD = "The game did not start correctly last time.
 STRINGS.UI.MAINSCREEN.MODQUIT = "Disable Mods"
 STRINGS.UI.MAINSCREEN.MODFAILDETAIL = "The following mod(s) have caused a failure:"
 STRINGS.UI.MAINSCREEN.MODFAILDETAIL2 = "The mod will be disabled, re-enable it from the mods menu."
-

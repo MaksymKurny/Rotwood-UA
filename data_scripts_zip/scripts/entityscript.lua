@@ -1,7 +1,9 @@
+local iterator = require "util.iterator"
 local lume = require "util.lume"
 local playerutil = require "util.playerutil"
 local soundutil = require "util.soundutil"
 require "netcomponents"
+
 
 local Brains = {}
 local StateGraphs = {}
@@ -29,7 +31,7 @@ local function LoadBrain(name)
 end
 
 local function LoadStateGraph(name, prefab)
-	local key = name..":"..prefab
+	local key = prefab and name..":"..prefab or name
 	local key_sg = StateGraphs[key]
 	if key_sg == nil then
 		local sg = StateGraphs[name]
@@ -38,8 +40,10 @@ local function LoadStateGraph(name, prefab)
 			assert(sg ~= nil, "could not load stategraph "..name)
 			StateGraphs[name] = sg
 		end
-		key_sg = deepcopy(sg)
-		StateGraphs[key] = key_sg
+		if prefab then
+			key_sg = deepcopy(sg)
+			StateGraphs[key] = key_sg
+		end
 	end
 	return key_sg
 end
@@ -88,6 +92,37 @@ function GenerateStateGraph(name)
 	return sg
 end
 
+local LIST_FILES = require "util.listfilesenum"
+function PreloadStateGraphs()
+	local base_dir = "scripts/stategraphs"
+
+	local function recurse( folder )
+		local files = TheSim:ListFiles( folder, "*.lua", LIST_FILES.FILES)
+		table.sort( files )
+		local directories = TheSim:ListFiles( folder, "*", LIST_FILES.DIRS)
+		table.sort( directories )
+
+		for _,filename in ipairs(files) do
+			local sg_name = string.sub(filename, 1, string.find(filename, ".lua") - 1)
+			LoadStateGraph(sg_name) -- no prefab
+		end
+		local count = #files
+
+		for _,subfolder in ipairs(directories) do
+			local filename = folder.."."..subfolder
+			count = count + recurse( filename )
+		end
+
+		return count
+	end
+
+	local count = recurse( base_dir )
+	return count
+end
+
+function GetCachedStateGraphs()
+	return StateGraphs
+end
 
 --- @class Entity: Class
 --- @field name string
@@ -104,7 +139,6 @@ end
 --- @field Transform table?
 --- @field GetHunterId function?
 --- @field OnLoad function?
---- @field OnLongUpdate function?
 --- @field OnPostLoadWorld function?
 --- @field OnPostSpawn function?
 --- @field OnPreLoad function?
@@ -192,10 +226,11 @@ function EntityScript:IsVisible()
 	return self.entity:IsVisible()
 end
 
--- Neither in process of being removed nor already removed.
+-- Neither in process of being removed nor already removed. Use this when
+-- responding to a onremove callback.
 function EntityScript:IsValid()
 	return not self._entity_remove_state
-		or self.entity:IsValid()
+		and self.entity:IsValid()
 end
 
 function EntityScript:IsAsleep()
@@ -601,8 +636,6 @@ function EntityScript:AddComponent(name, ...)
 	then
 		self.netcomponents[smallhash(name)] = cmp
 		self.nrnetcomponents = self.nrnetcomponents + 1
-
-		NetworkUpdatingEnts[self] = true
 	end
 
 	--~ if DEV_MODE then
@@ -610,12 +643,26 @@ function EntityScript:AddComponent(name, ...)
 --	 	cmp.__zone_wall_update_component = string.format("%s:OnWallUpdate", name)
 --	 	cmp.__zone_serialize_netcomponent = string.format("%s:NetSerialize", name)
 	--~ end
+
 	local postinitfns = ModManager:GetPostInitFns("ComponentPostInit", name)
 
 	for _, fn in ipairs(postinitfns) do
 		fn(cmp, self)
 	end
 	return cmp
+end
+
+-- Only called when an entity with prefab and network capability is created
+function EntityScript:PostNetworkInit()
+	dbassert(self.Network and self.prefab)
+	
+	-- only store non-minimal network entities here
+	-- noop-iterating through dozens of minimal entities has a noticeable cost on lower-spec platforms
+	local network_type = Prefabs[self.prefab].network_type
+	if (network_type & (NetworkTypeFlags_Enabled + NetworkTypeFlags_Minimal)) == NetworkTypeFlags_Enabled then
+		-- TheLog.ch.Networking:printf("NetworkUpdatingEnts adding %s (network_type=%d)", self, network_type)
+		NetworkUpdatingEnts[self] = true
+	end
 end
 
 function EntityScript:RemoveComponent(name)
@@ -628,6 +675,7 @@ function EntityScript:RemoveComponent(name)
 
 			if self.nrnetcomponents == 0 then
 				NetworkUpdatingEnts[self] = nil
+				MobEnts[self] = nil
 			end
 		end
 
@@ -940,6 +988,7 @@ function EntityScript:RemoveAllEventCallbacks()
 end
 
 function EntityScript:PushEvent(event, data)
+	TracyZone("EntityScript:PushEvent/"..event)
 	if self.eventlisteners ~= nil then
 		local listeners = self.eventlisteners[event]
 		if listeners ~= nil then
@@ -967,6 +1016,7 @@ function EntityScript:PushEvent(event, data)
 	end
 
 	if self.brain ~= nil then
+		TracyZone("brain-pushevent")
 		self.brain:PushEvent(event, data)
 	end
 end
@@ -1106,6 +1156,7 @@ function EntityScript:IsNearPlayer(range, isalive)
 	return playerutil.IsAnyPlayerInRange(x, z, range, isalive)
 end
 
+--- @param isalive boolean?  The required alive state. Ignored if nil.
 --- @return Entity? player, number? distsq -- The closest player and their squared distance from x,z.
 function EntityScript:GetClosestPlayer(isalive)
 	local x, z = self.Transform:GetWorldXZ()
@@ -1116,6 +1167,12 @@ end
 function EntityScript:GetClosestPlayerInRange(range, isalive)
 	local x, z = self.Transform:GetWorldXZ()
 	return playerutil.FindClosestPlayerInRange(x, z, range, isalive)
+end
+
+--- @return Entity? player, number? distsq -- The closest local (not remote) player and their squared distance from x,z.
+function EntityScript:GetClosestLocalPlayerInRange(range, isalive)
+	local x, z = self.Transform:GetWorldXZ()
+	return playerutil.FindClosestPlayerInRange(x, z, range, isalive, true)
 end
 
 --- @param tags string[]?  Matches any of these tags (doesn't require all).
@@ -1373,6 +1430,7 @@ function EntityScript:Remove(forceremove)
 	PhysicsCollisionCallbacks[self.GUID] = nil
 
 	NetworkUpdatingEnts[self] = nil
+	MobEnts[self] = nil
 
 	self.persists = false
 	self.entity:Retire()
@@ -1432,7 +1490,8 @@ end
 -- We always call OnPostLoadWorld so both new and saved objects can do post
 -- spawn fixup.
 function EntityScript:PostLoadWorld(data)
-	for cmp_name, cmp in pairs(self.components) do
+	-- It should now be safe to touch other components, so make the order consistent.
+	for cmp_name, cmp in iterator.sorted_pairs(self.components) do
 		if cmp and cmp.OnPostLoadWorld then
 			local savedata = data and data[cmp_name] or nil -- nil for new spawns
 			cmp:OnPostLoadWorld(savedata)
@@ -1480,19 +1539,6 @@ end
 function EntityScript:UncacheStateGraph()
 	if self.sg and self.sg.sg then
 		UncacheStateGraph(self.sg.sg.name, self.prefab)
-	end
-end
-
---#V2C: deprecate this?
-function EntityScript:LongUpdate(dt)
-	if self.OnLongUpdate ~= nil then
-		self:OnLongUpdate(dt)
-	end
-
-	for k, v in pairs(self.components) do
-		if v.LongUpdate ~= nil then
-			v:LongUpdate(dt)
-		end
 	end
 end
 
@@ -1548,25 +1594,23 @@ function EntityScript:NetSerialize()
 
 		-- Serialize the stategraph if it exists:
 		if self.sg then
-			--~ TheSim:ProfilerPush("networkserialize.sg")
+			--~ TracyZone("networkserialize.sg")
 			self.entity:PushSerializationMarker("sg");
 			self.sg:OnNetSerialize()
 			self.entity:PopSerializationMarker()
-			--~ TheSim:ProfilerPop()
 		end
 
 		if self.boss_coro and self.boss_coro.OnNetSerialize then
-			--~ TheSim:ProfilerPush("networkserialize.boss_coro")
+			--~ TracyZone("networkserialize.boss_coro")
 			self.entity:PushSerializationMarker("boss_coro");
 			self.boss_coro:OnNetSerialize()
 			self.entity:PopSerializationMarker()
-			--~ TheSim:ProfilerPop()
 		end
 
 		self.entity:SerializeUInt(self.nrnetcomponents, MaxNrComponentsBits)
 
 		for k, v in pairs(self.netcomponents) do
-			--~ TheSim:ProfilerPush(v.__zone_serialize_netcomponent or "Component:NetSerialize")
+			--~ TracyZone(v.__zone_serialize_netcomponent or "Component:NetSerialize")
 
 			-- save the hash of the name of the netcomponent:
 			self.entity:AlignToByte();
@@ -1583,8 +1627,6 @@ function EntityScript:NetSerialize()
 			if compname then
 				self.entity:PopSerializationMarker();
 			end
-
-			--~ TheSim:ProfilerPop()
 		end
 
 		self.entity:EndSerialization()

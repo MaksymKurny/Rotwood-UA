@@ -1116,51 +1116,47 @@ function ModIndex:ActivateModsOfType(mod_type, loader_fn)
 end
 
 function ModIndex:UpdateModSettings()
-
-    self.modsettings = {
-        forceenable = {},
-        disablemods = true,
-        localmodwarning = true
-    }
-
-    local function ForceEnableMod(modname)
-        print("WARNING: Force-enabling mod '"..modname.."' from modsettings.lua! If you are not developing a mod, please use the in-game menu instead.")
-        self.modsettings.forceenable[modname] = true
+  self.modsettings = {
+    forceenable = {},
+  	disablemods = true,
+    localmodwarning = true
+  }
+  local function ForceEnableMod(modname)
+    print("WARNING: Force-enabling mod '"..modname.."' from modsettings.lua! If you are not developing a mod, please use the in-game menu instead.")
+    self.modsettings.forceenable[modname] = true
+  end
+  local function EnableModDebugPrint()
+    self.modsettings.initdebugprint = true
+  end
+  local function EnableModError()
+    self.modsettings.moderror = true
+  end
+  local function DisableModDisabling()
+    self.modsettings.disablemods = false
+  end
+  local function DisableLocalModWarning()
+    self.modsettings.localmodwarning = false
+  end
+  local env = {
+    ForceEnableMod = ForceEnableMod,
+    EnableModDebugPrint = EnableModDebugPrint,
+    EnableModError = EnableModError,
+    DisableModDisabling = DisableModDisabling,
+    DisableLocalModWarning = DisableLocalModWarning,
+    print = print,
+  }
+  local filename = MODS_ROOT.."modsettings.lua"
+  local fn = kleiloadlua( filename )
+  if fn == nil then
+    print("could not load modsettings: "..filename)
+    print("Warning: You may want to try reinstalling the game if you need access to forcing mods on.")
+  else
+    if type(fn)=="string" then
+      error("Error loading modsettings:\n"..fn)
     end
-    local function EnableModDebugPrint()
-        self.modsettings.initdebugprint = true
-    end
-    local function EnableModError()
-        self.modsettings.moderror = true
-    end
-    local function DisableModDisabling()
-        self.modsettings.disablemods = false
-    end
-    local function DisableLocalModWarning()
-        self.modsettings.localmodwarning = false
-    end
-
-    local env = {
-        ForceEnableMod = ForceEnableMod,
-        EnableModDebugPrint = EnableModDebugPrint,
-        EnableModError = EnableModError,
-        DisableModDisabling = DisableModDisabling,
-        DisableLocalModWarning = DisableLocalModWarning,
-        print = print,
-    }
-
-    local filename = MODS_ROOT.."modsettings.lua"
-    local fn = kleiloadlua( filename )
-    if fn == nil then
-        print("could not load modsettings: "..filename)
-        print("Warning: You may want to try reinstalling the game if you need access to forcing mods on.")
-    else
-        if type(fn)=="string" then
-            error("Error loading modsettings:\n"..fn)
-        end
-        setfenv(fn, env)
-        fn()
-    end
+    setfenv(fn, env)
+    fn()
+  end
 end
 
 ModIndex.ModType = ModType

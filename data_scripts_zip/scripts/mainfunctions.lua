@@ -1,5 +1,4 @@
 local ConfirmDialog = require "screens.dialogs.confirmdialog"
-local Stats = require "stats"
 local URLS = require "urls"
 local DebugNodes = require "dbui.debug_nodes"
 local monsterutil = require "util.monsterutil"
@@ -71,6 +70,7 @@ function RegisterPrefabsImpl(prefab, resolve_fn)
 end
 
 function RegisterPrefabsResolveAssets(prefab, asset)
+	assert(asset.file, "Corrupt game data. Verify Integrity to recover game data files.")  -- Too early in boot to use known_assert.
 	--print(" - - RegisterPrefabsResolveAssets: " .. asset.file, debugstack())
 	local resolvedpath = resolvefilepath(asset.file, prefab.force_path_search)
 	assert(resolvedpath, "Could not find " .. asset.file .. " required by " .. prefab.name)
@@ -152,6 +152,9 @@ function SpawnPrefabFromSim(name, instantiatedByHost, forcelocal)
 		return
 	end
 
+	if inst.prefab == nil then
+		inst:SetPrefabName(name)
+	end
 
 	if not forcelocal and prefab.network_type ~= NetworkType_None and not inst.Network then
 --		print("Adding network to "..name.." because it has network type ".. prefab.network_type)
@@ -176,6 +179,7 @@ function SpawnPrefabFromSim(name, instantiatedByHost, forcelocal)
 		if inst.serializeHistory then
 			inst.Network:SetSerializeHistory(true)	-- Tell it to precisely sync animations
 		end
+		inst:PostNetworkInit()
 	end
 	inst.serializeHistory = nil -- remove the temp variable
 
@@ -189,10 +193,6 @@ function SpawnPrefabFromSim(name, instantiatedByHost, forcelocal)
 		if def and not inst.prefab then
 			-- You might hit this on a correctly-setup prefab if it's not yet loaded.
 			assert(false, "Prefab (" .. name .. ") has an embellishment but doesn't have it's prefabname initialized. Embellishable things must SetPrefabName.")
-		end
-
-		if inst.prefab == nil then
-			inst:SetPrefabName(name)
 		end
 
 		inst:Embellish()
@@ -215,6 +215,7 @@ function SpawnPrefabFromSim(name, instantiatedByHost, forcelocal)
 		for k,prefabpostinitany in pairs(ModManager:GetPostInitFns("PrefabPostInitAny")) do
 			prefabpostinitany(inst)
 		end
+
 		TheGlobalInstance:PushEvent("entity_spawned", inst)
 	end
 
@@ -616,11 +617,16 @@ function SetGameplayPause(should_pause, reason)
 		-- Do nothing for no change.
 		return
 	end
-	-- TODO: Allow host to pause in net games and show STRINGS.UI.PAUSEMENU.HOST_PAUSE_FMT to clients
-	local is_net_bootstrap = (reason == "InitGame") and TheNet:IsHost()
 
-	if not is_net_bootstrap and not TheNet:IsGameTypeLocal() then
-		-- Cannot pause in a non-local network game
+	-- TODO: Allow host to pause in net games and show STRINGS.UI.PAUSEMENU.HOST_PAUSE_FMT to clients.
+	-- For now, we only allow host to pause while waiting for clients so we
+	-- don't run spawning until everyone's connected.
+	local is_net_bootstrap = (reason == "InitGame") and TheNet:IsHost()
+	if should_pause
+		and not is_net_bootstrap
+		and not TheNet:IsGameTypeLocal()
+	then
+		-- Cannot pause in a non-local network game.
 		return
 	end
 	is_gameplay_paused = should_pause
@@ -718,15 +724,27 @@ local function CheckControllers()
 end
 
 function Start()
+	TracyZone("Start")
 	if SOUNDDEBUG_ENABLED then
 		require "debugsounds"
 	end
 
 	---The screen manager
 	-- It's too early during init to require it at the top, so do it here.
-	local FrontEnd = require "frontend"
-	TheFrontEnd = FrontEnd()
-	require "gamelogic"
+	local FrontEnd
+	do
+		TracyZone("frontend1")
+		FrontEnd = require "frontend"
+	end
+	do
+		TracyZone("frontend2")
+		TheFrontEnd = FrontEnd()
+	end
+	do
+		TracyZone("gamelogic")		-- RM - This is the vast majority of time during lua's Start().
+		require "gamelogic"
+	end
+	TheGameContent:HandleBadMod()
 
 	known_assert(TheSim:CanWriteConfigurationDirectory(), "CONFIG_DIR_WRITE_PERMISSION")
 	known_assert(TheSim:CanReadConfigurationDirectory(), "CONFIG_DIR_READ_PERMISSION")
@@ -735,15 +753,18 @@ function Start()
 
 	if InGamePlay() and IS_QA_BUILD then
 		print("Running c_qa_build()")
+		TracyZone("c_qa_build")
 		c_qa_build()
 	end
 	
-	if NETFLIX_DEMO_BUILD then
+	if NETFLIX_DEMO_BUILD or USE_CONTROL_MONKEY then
+		TracyZone("RefreshGodMode")
 		RefreshGodMode()
 	end
 
 	--load the user's custom commands into the game
 	if CUSTOMCOMMANDS_ENABLED then
+		TracyZone("customcommands")
 		TheSim:GetPersistentString("../customcommands.lua",
 			function(load_success, str)
 				if load_success then
@@ -757,6 +778,7 @@ function Start()
 	if TheSim:FileExists("scripts/localexec_no_package/localexec.lua") then
 		print("Loading Localexec...")
 		local result, val = pcall(function()
+			TracyZone("Localexec")
 			return require("localexec_no_package.localexec")
 		end)
 		if result == false then
@@ -767,12 +789,16 @@ function Start()
 
 	if AUTOMATION_SCRIPT then
 		print("Loading automation script: "..AUTOMATION_SCRIPT)
+		TracyZone("automation")
 		require("automation_no_package/"..AUTOMATION_SCRIPT)
 		print("...done loading automation script: "..AUTOMATION_SCRIPT)
 	end
 
-	CheckControllers()
-
+	do
+		TracyZone("CheckControllers")
+		CheckControllers()
+	end
+	
 	if InstanceParams.dbg ~= nil then
 		-- Cache so below can reinit it if necessary.
 		local dbg = InstanceParams.dbg
@@ -783,6 +809,7 @@ function Start()
 			for node_class_name in pairs(open_nodes) do
 				local PanelClass = DebugNodes[node_class_name]
 				if PanelClass.CanBeOpened() then
+					TracyZone("CreateDebugPanel")
 					TheFrontEnd:CreateDebugPanel(PanelClass())
 				end
 			end
@@ -791,7 +818,9 @@ function Start()
 
 		if dbg.load_replay then
 			if TheWorld then
+				TracyZone("CreateDebugPanelTask-REQUEST")
 				TheWorld:DoTaskInTime(0.1, function()
+					TracyZone("CreateDebugPanelTask-RUN")
 					local panel = TheFrontEnd:CreateDebugPanel(DebugNodes.DebugHistory())
 					local editor = panel:GetNode()
 					editor:Load()
@@ -819,43 +848,6 @@ function GlobalInit()
 	TheSim:SendHardwareStats()
 end
 
-function DoLoadingPortal(cb)
-	local values = {}
-	local screen = TheFrontEnd:GetActiveScreen()
-	values.join_screen = screen ~= nil and screen._widgetname or "other"
-	Stats.PushMetricsEvent("joinfromscreen", TheNet:GetUserID(), values)
-
-	--No portal anymore, just fade to "white". Maybe we want to swipe fade to the loading screen?
-	TheFrontEnd:Fade(FADE_OUT, SCREEN_FADE_TIME, cb, nil, nil, "white")
-	return
-end
-
--- This is for joining a game: once we're done downloading the map, we load it and simreset
-function LoadMapFile(map_name)
-	local function do_load_file()
-		DisableAllDLC()
-		StartNextInstance({
-			reset_action = RESET_ACTION.LOAD_FILE,
-			save_name = map_name,
-		})
-	end
-
-	if InGamePlay() then
-		-- Must be a synchronous load if we're in any game play state (including lobby screen)
-		do_load_file()
-	else
-		DoLoadingPortal(do_load_file)
-	end
-end
-
-function JapaneseOnPS4()
-	if Platform.IsPS4() and APP_REGION == "SCEJ" then
-		return true
-	end
-	return false
-end
-
-
 local function WantsLoadFrontEnd(settings)
 	return settings.reset_action == nil or settings.reset_action == RESET_ACTION.LOAD_FRONTEND
 end
@@ -865,6 +857,10 @@ local __startedNextInstance
 function StartNextInstance(settings)
 	if not __startedNextInstance then
 		__startedNextInstance = true
+
+		-- Don't get stuck rumbling during loading screen.
+		TheInput:KillAllRumbleImmediately()
+
 		ShowLoading()
 		AssetLoader.PrefetchPrefabAssets(settings)
 		Updaters.TriggerSimReset(settings)
@@ -962,66 +958,90 @@ function DisplayError(error_msg)
 
 	local have_submenu = not DEV_MODE
 
-	local debug_btn = {
-		submenu = have_submenu,
-		text = STRINGS.UI.MAINSCREEN.SCRIPTERROR_DEBUG,
-		cb = function()
-			if not TheFrontEnd:FindOpenDebugPanel(DebugNodes.DebugConsole) then
-				DebugNodes.ShowDebugPanel(DebugNodes.DebugConsole, false)
-			end
-		end,
-	}
+	local debugconsole_btn = nil
+	if Platform.SupportsImGUI() then
+		debugconsole_btn = {
+			submenu = have_submenu,
+			text = STRINGS.UI.SCRIPTERROR.BTN_DEBUG,
+			cb = function()
+				if not TheFrontEnd:FindOpenDebugPanel(DebugNodes.DebugConsole) then
+					DebugNodes.ShowDebugPanel(DebugNodes.DebugConsole, false)
+				end
+			end,
+		}
+	end
 	-- local save_replay_btn = {
 	-- 	submenu = have_submenu,
-	-- 	text = STRINGS.UI.MAINSCREEN.SCRIPTERROR_SAVE_REPLAY,
+	-- 	text = STRINGS.UI.SCRIPTERROR.BTN_SAVE_REPLAY,
 	-- 	cb = function()
 	-- 		TheFrontEnd.debugMenu.history:Save()
 	-- 		TheSim:OpenGameSaveFolder()
 	-- 	end,
 	-- }
 	local restart_btn = {
-		text = STRINGS.UI.MAINSCREEN.SCRIPTERROR_RESTART,
+		text = STRINGS.UI.SCRIPTERROR.BTN_RESTART,
 		cb = function()
 			c_reset()
 		end,
 	}
-	local clipboard_btn = {
+	local clipboard_btn = nil
+	if Platform.SupportsClipboard() then
+		clipboard_btn = {
+			submenu = have_submenu,
+			text = STRINGS.UI.SCRIPTERROR.BTN_COPY_CLIPBOARD,
+			cb = function()
+				local ui = require "dbui.imgui"
+				ui:SetClipboardText(error_msg)
+			end,
+		}
+	end
+	local submenu_back_btn = {
 		submenu = have_submenu,
-		text = STRINGS.UI.MAINSCREEN.SCRIPTERROR_COPY_CLIPBOARD,
-		cb = function()
-			local ui = require "dbui.imgui"
-			ui:SetClipboardText(error_msg)
-		end,
-	}
-	local back_btn = {
-		submenu = have_submenu,
-		text = STRINGS.UI.MAINSCREEN.SCRIPTERRORBACK,
+		text = STRINGS.UI.SCRIPTERROR.BTN_SUBMENU_BACK,
 		cb = function()
 			-- the menu is automatically closed
 		end,
 	}
 	local more_btn = {
-		text = STRINGS.UI.MAINSCREEN.SCRIPTERRORMORE,
+		text = STRINGS.UI.SCRIPTERROR.BTN_MORE,
 		cb = function()
 			TheFrontEnd.error_widget:ShowMoreMenu()
 		end,
 	}
 
-	local quit_btn = {
-		submenu = have_submenu,
-		text = STRINGS.UI.MAINSCREEN.SCRIPTERRORQUIT,
-		style = "NEGATIVE_BUTTON_STYLE",
-		cb = function()
-			TheSim:ForceAbort(ExitCode.ScriptError)
-		end,
-	}
+	local quit_btn = nil
+	if Platform.SupportsNativeExit() then
+		quit_btn = {
+			submenu = have_submenu,
+			text = STRINGS.UI.SCRIPTERROR.BTN_QUIT,
+			style = "NEGATIVE_BUTTON_STYLE",
+			cb = function()
+				TheSim:ForceAbort(ExitCode.ScriptError)
+			end,
+		}
+	elseif InGamePlay() then
+		quit_btn = {
+			submenu = have_submenu,
+			text = STRINGS.UI.SCRIPTERROR.BTN_QUIT_TO_MENU,
+			style = "NEGATIVE_BUTTON_STYLE",
+			cb = function()
+				local save = false  -- Don't want to save what caused this crash.
+				RestartToMainMenu(save)
+			end,
+		}
+	end
+	-- else: no where to quit to, so no button.
 
-	local troubleshoot_btn = {
-		text = STRINGS.UI.SCRIPTERROR.TROUBLESHOOTING,
-		cb = function()
-			VisitURL(URLS.troubleshooting)
-		end,
-	}
+	local troubleshoot_btn = nil
+	if Platform.SupportsVisitingURL() then
+		dbassert(Platform.IsNotConsole(), "Setup a platform-specific troubleshooting link below and remove this assert.")
+		troubleshoot_btn = {
+			text = STRINGS.UI.SCRIPTERROR.TROUBLESHOOTING,
+			cb = function()
+				VisitURL(URLS.troubleshooting)
+			end,
+		}
+	end
 
 	-- Default formatting for showing callstacks.
 	local anchor = ANCHOR_LEFT
@@ -1034,6 +1054,7 @@ function DisplayError(error_msg)
 	-- Check hackmods first since they're least obvious to players and we can
 	-- do nothing to make them behave.
 	if TheSim:IsGameDataModified() then
+		-- Has hack mod installed.
 		local buttons = {
 			{
 				text = STRINGS.UI.SCRIPTERROR.HACKMOD.REMOVE_MODS,
@@ -1042,7 +1063,7 @@ function DisplayError(error_msg)
 				end,
 			},
 			restart_btn,
-			quit_btn,
+			quit_btn,  -- may be nil
 		}
 		SetGlobalErrorWidget(
 			STRINGS.UI.SCRIPTERROR.HACKMOD.TITLE,
@@ -1056,18 +1077,21 @@ function DisplayError(error_msg)
 		)
 
 	elseif #modnames > 0 then
+		-- Has workshop mod installed.
 		local modnamesstr = ""
 		for k, modname in ipairs(modnames) do
 			modnamesstr = modnamesstr.."\""..KnownModIndex:GetModFancyName(modname).."\" "
 		end
 
-		local buttons = nil
+		local buttons = {
+			restart_btn,
+			troubleshoot_btn,  -- may be nil
+		}
 		if Platform.IsNotConsole() then
-			buttons = {
-				restart_btn,
-				troubleshoot_btn,
+			table.insert(
+				buttons,
 				{
-					text = "<p img='images/ui_ftf_icons/discord_off.tex' scale=1.2 color=0>  ".. STRINGS.UI.MAINSCREEN.SCRIPTERROR_MOD.RESET_WITHOUT_MODS,
+					text = "<p img='images/ui_ftf_icons/discord_off.tex' scale=1.2 color=0>  ".. STRINGS.UI.MAINSCREEN.MODCRASH.RESET_WITHOUT_MODS,
 					submenu = false,
 					cb = function()
 						KnownModIndex:DisableAllModsBecauseBad()
@@ -1076,30 +1100,41 @@ function DisplayError(error_msg)
 							SimReset()
 						end)
 					end,
-				},
+				}
+			)
+			table.insert(
+				buttons,
 				{
-					text = icon_forums .. STRINGS.UI.MAINSCREEN.SCRIPTERROR_MOD.MODFORUMS,
+					text = icon_forums .. STRINGS.UI.MAINSCREEN.MODCRASH.MODFORUMS,
 					submenu = false,
 					cb = function()
 						VisitURL(URLS.mod_forum)
 					end,
-				},
-				quit_btn,
-			}
+				}
+			)
 		end
+		table.insert(buttons, quit_btn)  -- may be noop if nil
+
 		SetGlobalErrorWidget(
-			STRINGS.UI.MAINSCREEN.TITLE_MODFAIL,
+			STRINGS.UI.SCRIPTERROR.TITLE_MODFAIL,
 			error_msg,
 			buttons,
 			anchor,
-			STRINGS.UI.MAINSCREEN.SCRIPTERROR_MOD.INSTALLED_MODS .."\n".. modnamesstr,
+			STRINGS.UI.MAINSCREEN.MODCRASH.INSTALLED_MODS .."\n".. modnamesstr,
 			font_size,
 			nil,
 			mod_icon
 		)
 
 	else
-		local buttons = nil
+		-- The normal case: an unmodified game.
+		local buttons = {
+			restart_btn,
+			troubleshoot_btn,  -- may be nil
+		}
+		if clipboard_btn then
+			table.insert(buttons, 1, clipboard_btn)
+		end
 
 		-- If we know what happened, display a better message for the user
 		local known_error = GetCurrentKnownError()
@@ -1116,23 +1151,18 @@ function DisplayError(error_msg)
 		end
 
 		if Platform.IsNotConsole() then
-			buttons = {
-				clipboard_btn,
-				restart_btn,
-				troubleshoot_btn,
-				-- save_replay_btn,
-			}
-			if DEV_MODE then
-				table.insert(buttons, 1, debug_btn)
-				-- table.insert(buttons, save_replay_btn)
+			-- table.insert(buttons, save_replay_btn)
+
+			if DEV_MODE and debugconsole_btn then
+				table.insert(buttons, 1, debugconsole_btn)
 			end
 			if have_submenu then
 				table.insert(buttons, more_btn)
-				table.insert(buttons, 1, back_btn)
- 			end
+				table.insert(buttons, 1, submenu_back_btn)
+			end
 			if known_error and known_error.url then
 				table.insert(buttons, {
-					text = STRINGS.UI.MAINSCREEN.GETHELP,
+					text = STRINGS.UI.SCRIPTERROR.BTN_GETHELP,
 					nopop = true,
 					cb = function()
 						VisitURL(known_error.url)
@@ -1140,22 +1170,22 @@ function DisplayError(error_msg)
 				})
 			else
 				-- TODO: Get error status from backend, if we get KNOWN_ISSUE
-				-- then rename this to SCRIPTERROR_BUGTRACKER, and display
+				-- then rename this to BTN_BUGTRACKER, and display
 				-- the right string from STRINGS.UI.CRASH_STATUS.
 				--~ table.insert(buttons, {
-				--~ 		text = icon_forums .. STRINGS.UI.MAINSCREEN.ISSUE, nopop=true,
+				--~ 		text = icon_forums .. STRINGS.UI.SCRIPTERROR.BTN_ISSUE, nopop=true,
 				--~ 		cb = function()
 				--~ 			VisitURL(URLS.klei_bug_tracker)
 				--~ 		end
 				--~ 	})
 			end
-
-			-- Quit should always be last.
-			table.insert(buttons, quit_btn)
 		end
 
+		-- Quit should always be last.
+		table.insert(buttons, quit_btn)  -- may be noop if nil
+
 		SetGlobalErrorWidget(
-			STRINGS.UI.MAINSCREEN.TITLE_GAMEFAIL,
+			STRINGS.UI.SCRIPTERROR.TITLE_GAMEFAIL,
 			error_msg,
 			buttons,
 			anchor,
@@ -1225,12 +1255,20 @@ function RestartToMainMenu(save)
 
 	if not PerformingRestart then
 		PerformingRestart = true
+
+		-- Main menu load is a black screen.
+		TheSim:SetLoadingBanner(nil)
+
 		ShowLoading()
-		TheFrontEnd:Fade(FADE_OUT, 1, save and savefn or postsavefn)
+
+		local OnDone = save and savefn or postsavefn
+		if TheFrontEnd:IsFadingUpdateAllowed() then
+			TheFrontEnd:Fade(FADE_OUT, 0, OnDone)
+		else
+			OnDone()
+		end
 	end
 end
-
-local screen_fade_time = 0.25
 
 function OnPlayerLeave(player_guid, expected)
 	if player_guid ~= nil then
@@ -1249,6 +1287,47 @@ function OnDemoTimeout()
 	RestartToMainMenu()
 end
 
+function PopScreenUntil(name)
+	-- XXX we should first validate that screen with name exists on the stack
+	repeat
+		local popup = TheFrontEnd:GetActiveScreen()
+		if popup:GetName() == name then
+			break
+		else
+			print("Popping screen: ", popup:GetName())
+			TheFrontEnd:PopScreen(popup)
+		end
+	until not popup
+end
+
+function OnNetworkFailure()
+	if not IsInFrontEnd() then
+		printf("NetworkFailure occured during in game. Reseting and going to main menu.")
+		local dialog = ConfirmDialog(nil, nil, true,
+			STRINGS.UI.NETWORKDISCONNECT.TITLE.DEFAULT,
+			nil,
+			STRINGS.UI.NETWORKDISCONNECT.BODY.DEFAULT
+		)
+		:AllowInteractionFromUserlessDevice()
+		:FollowTextScaling()
+		:SetYesButton(STRINGS.UI.NETWORKDISCONNECT.CONFIRM_OK,
+			function() RestartToMainMenu("save") end, true)
+		:HideNoButton()
+		:HideArrow()
+		:SetMinWidth(600)
+		:CenterText()
+		:CenterButtons()
+		TheFrontEnd:PushScreen(dialog)
+		dialog:AnimateIn()
+		return
+	end
+	printf("Let's exit any networking menus and go back to home.")
+	PopScreenUntil("MainScreen")
+	local screen = TheFrontEnd:GetActiveScreen()
+	if screen.OnNetworkFailure ~= nil then
+		screen:OnNetworkFailure()
+	end
+end
 
 -- Receive a disconnect notification
 function OnNetworkDisconnect(message, should_reset, force_immediate_reset, details)
@@ -1290,7 +1369,7 @@ function OnNetworkDisconnect(message, should_reset, force_immediate_reset, detai
 		end
 	end
 
-	TheFrontEnd:SetFadeLevel(0)	-- Disable all fading.
+	TheFrontEnd:ForceEndFade_NoCallbacks()
 	HideLoading(true)	-- Also hide the loading screen
 
 	local dialog = ConfirmDialog(nil, nil, true,
@@ -1300,6 +1379,7 @@ function OnNetworkDisconnect(message, should_reset, force_immediate_reset, detai
 			function()
 			end
 		)
+		:AllowInteractionFromUserlessDevice()
 		:FollowTextScaling()
 		:SetYesButton(yes_msg, doquit, true)
 		:HideNoButton()
@@ -1333,24 +1413,37 @@ function OnNetworkInviteDisabled()
 		OFFLINE_DIALOG = nil
 	end
 
-	local body = table.concat({
-			STRINGS.UI.DATACOLLECTION.REQUIREMENT,
-			STRINGS.UI.DATACOLLECTION.EXPLAIN_POPUP.SEE_PRIVACY,
-		},
-		"\n\n")
-	local dialog = ConfirmDialog(nil, nil, true, STRINGS.UI.NETWORKINVITEDISABLED.TITLE, nil, body)
-	dialog
-		:FollowTextScaling()
-		:SetYesButton(STRINGS.UI.NETWORKINVITEDISABLED.CLOSE, 
+	local EulaScreen = require "screens.eulascreen"
+	if Platform.RequiresInGameEula()
+		and not EulaScreen.HasAcceptedCurrentEula()
+	then
+		-- No network because haven't accepted eula.
+		EulaScreen.ShowEulaRequiredNotice(function()
+			-- No action on complete.
+		end)
+
+	else
+		-- Assume no network because haven't accepted data collection.
+
+		local body = table.concat({
+				STRINGS.UI.DATACOLLECTION.REQUIREMENT,
+				STRINGS.UI.DATACOLLECTION.EXPLAIN_POPUP.SEE_PRIVACY,
+			},
+			"\n\n")
+		local dialog = ConfirmDialog(nil, nil, true, STRINGS.UI.NETWORKINVITEDISABLED.TITLE, nil, body)
+		dialog
+			:FollowTextScaling()
+			:SetYesButton(STRINGS.UI.NETWORKINVITEDISABLED.CLOSE,
 			function()
-					dialog:Close()
+				dialog:Close()
 			end)
-		:HideArrow() 
-		:HideNoButton()
-		:SetMinWidth(1000)
-		:CenterButtons()
-	TheFrontEnd:PushScreen(dialog)
-	dialog:AnimateIn()
+			:HideArrow()
+			:HideNoButton()
+			:SetMinWidth(1000)
+			:CenterButtons()
+		TheFrontEnd:PushScreen(dialog)
+		dialog:AnimateIn()
+	end
 end
 
 OnAccountEventListeners = {}
@@ -1419,7 +1512,7 @@ end
 
 
 local function PrintPcall(status, ...)
-	TheSim:ProfilerPush("PrintPcall")
+	TracyZone("PrintPcall")
 	if status then
 		local result = "\n"
 		local sep = ""
@@ -1435,13 +1528,12 @@ local function PrintPcall(status, ...)
 	else
 		nolineprint(...)
 	end
-	TheSim:ProfilerPop()
 	return status
 end
 
 -- Execute arbitrary lua
 function ExecuteConsoleCommand(fnstr)
-	TheSim:ProfilerPush("ConsoleCommand")
+	TracyZone("ConsoleCommand")
 
 	local fn, err = load("return " .. fnstr)
 	if not fn then
@@ -1456,35 +1548,7 @@ function ExecuteConsoleCommand(fnstr)
 		nolineprint(err)
 	end
 
-	TheSim:ProfilerPop()
 	return success
-end
-
--- TODO: unused? remove.
-function BuildTagsStringCommon(tagsTable)
-	-- Vote command tags (controlled by master server only)
-
-	-- Mods tags
-	for i, mod_tag in ipairs(KnownModIndex:GetEnabledModTags()) do
-		table.insert(tagsTable, mod_tag)
-	end
-
-	-- Language tag (forced to front of list, don't put anything else at slot 1, or language detection will fail!)
-	table.insert(tagsTable, 1, STRINGS.PRETRANSLATED.LANGUAGES[LOC.GetCurrentLanguageId()] or "")
-
-	-- Concat unique tags
-	local tagged = {}
-	local tagsString = ""
-	for i, v in ipairs(tagsTable) do
-		--trim whitespace
-		v = v:lower():match("^%s*(.-%S)%s*$") or ""
-		if v:len() > 0 and not tagged[v] then
-			tagged[v] = true
-			tagsString = tagsString:len() > 0 and (tagsString .. "," .. v) or v
-		end
-	end
-
-	return tagsString
 end
 
 function SaveAndShutdown()
@@ -1509,6 +1573,13 @@ function EnableDebugFacilities()
 	require "debugcommands"
 	require "debugkeys"
 	TheFrontEnd:EnableDebugFacilities()
+end
+
+function TryYield()
+	local running, is_main = coroutine.running()
+	if running and not is_main then
+		coroutine.yield()
+	end
 end
 
 require "dlcsupport"

@@ -1,3 +1,6 @@
+-- TODO(mods): This is an old DST mod file and might not be used by Rotwood.
+
+
 local Screen = require "widgets/screen"
 local Menu = require "widgets/menu"
 local Text = require "widgets/text"
@@ -53,7 +56,7 @@ local ModWarningScreen = Class(Screen, function(self, title, text, buttons, text
 	if Platform.IsRail() then
 		-- disable the mod forum button if it exists
 		if self.menu and self.menu.items then
-			for _,v in pairs(self.menu.items) do
+			for i,v in pairs(self.menu.items) do
 				if v:GetText() == STRINGS.UI.MAINSCREEN.MODFORUMS then
 					v:Select()
 					v:SetToolTip(STRINGS.UI.MAINSCREEN.MODFORUMS_NOT_AVAILABLE_YET)

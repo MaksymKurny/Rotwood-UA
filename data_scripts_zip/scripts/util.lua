@@ -145,8 +145,10 @@ end
 function softresolvefilepath(filepath, force_path_search)
 	force_path_search = force_path_search or false
 
-	if Platform.IsConsole() and not force_path_search then
-		return filepath -- it's already absolute, so just send it back
+	if not Platform.IsNX() then
+		if Platform.IsConsole() and not force_path_search then
+			return filepath -- it's already absolute, so just send it back
+		end
 	end
 
 	-- on PC platforms, search all the possible paths
@@ -712,6 +714,8 @@ function checkbit(x, b)
 	return x % (b + b) >= b
 end
 
+-- TODO: Remove? Lua has a built-in module for utf8: https://www.lua.org/manual/5.4/manual.html#6.5
+--
 --utf8substr(str, start, end)
 --start: 1-based start position (can be negative to count from end)
 --end: 1-based end position (optional, can be negative to count from end)
@@ -721,71 +725,6 @@ string.utf8sub = utf8substr
 string.utf8len = utf8strlen
 string.utf8upper = utf8strtoupper
 string.utf8lower = utf8strtolower
-
---Zachary: add a lua 5.2 feature, metatables for pairs ipairs and next
-function metanext(t, k, ...)
-	local m = debug.getmetatable(t)
-	local n = m and m.__next or next
-	return n(t, k, ...)
-end
-
-function metapairs(t, ...)
-	local m = debug.getmetatable(t)
-	local p = m and m.__pairs or pairs
-	return p(t, ...)
-end
-
-function metaipairs(t, ...)
-	local m = debug.getmetatable(t)
-	local i = m and m.__ipairs or ipairs
-	return i(t, ...)
-end
-
-function MetaClass(entries, ctor, classtable)
-	local classtable = classtable or {}
-	classtable._ = entries or {}
-	local defaulttableops = {
-		_ctor = function(self)
-			if ctor then
-				ctor(classtable._)
-			end
-		end,
-		--replaces index behavior obj[key] or obj.key
-		__index = function(t, k)
-			return classtable._[k] or classtable[k]
-		end,
-		--replaces setting behavior obj[key] = value
-		__newindex = function(t, k, v)
-			classtable._[k] = v
-		end,
-		--replaces #obj behavior (length of table)
-		__len = function(t)
-			return #classtable._
-		end,
-		--replaces next
-		__next = function(t, k)
-			return next(classtable._, k)
-		end,
-		--replaces pairs
-		__pairs = function(t)
-			return pairs(classtable._)
-		end,
-		--replaces ipairs
-		__ipairs = function(t)
-			return ipairs(classtable._)
-		end,
-	}
-	--newproxy is the only way to use the __len and __gc(garbage collection) meta methods
-	local mtclass = newproxy(true)
-	debug.setmetatable(mtclass, classtable)
-	for k, v in pairs(defaulttableops) do
-		if not classtable[k] then
-			classtable[k] = v
-		end
-	end
-	mtclass:_ctor()
-	return mtclass
-end
 
 -- setfenv and getfenv for lua 5.2 and up
 -- taken from https://leafo.net/guides/setfenv-in-lua52-and-above.html
@@ -845,7 +784,7 @@ local function ParseFormattingColour( attr )
 		elseif tonumber( clrattr, 16 ) then
 			while #clrattr < 8 do clrattr = clrattr .. "f" end
 			return tonumber( clrattr, 16 )
-		elseif UICOLORS[ clrattr ] then
+		elseif rawget(UICOLORS, clrattr) then
 			return RGBToHex(UICOLORS[clrattr])
 		end
 	end
@@ -894,7 +833,7 @@ function ApplyFormatting( textnode, str, user )
 	local spans = {}
 	local findstartpos = 1
 	repeat
-		-- find colourization.
+		-- Find colourization and other markup.
 		j, k, sel, attr = str:find( "<([#!bBcCsSiIuUpPzZ/]?)([^>]*)>", findstartpos )
 		if j then
 			local validmarkup = false

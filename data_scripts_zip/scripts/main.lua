@@ -26,6 +26,9 @@ math.random()
 
 Platform = require "util.platform"
 
+METAPROGRESS_CORO = true				-- whether to use the coroutine version for meta progress stations
+VENDINGMACHINE_CORO = true				-- whether to use the coroutine version for vending machines
+
 --defines
 GAMEPLAY_MODS_ENABLED = true
 MAIN = 1
@@ -33,13 +36,13 @@ IS_QA_BUILD = not not TheSim:GetCurrentBetaBranch():find("huwiz")
 DEV_MODE = RELEASE_CHANNEL == "dev" or IS_QA_BUILD -- For now, QA gets debug tools everywhere.
 IS_BUILD_STRIPPED = not kleifileexists("scripts/prefabs/__readme.txt")
 ENCODE_SAVES = RELEASE_CHANNEL ~= "dev"
-CHEATS_ENABLED = DEV_MODE or (Platform.IsConsole() and CONFIGURATION ~= "PRODUCTION")
+CHEATS_ENABLED = DEV_MODE
 IS_BETA_TEST = RELEASE_CHANNEL == "preview"
 SOUNDDEBUG_ENABLED = false
 SOUNDDEBUGUI_ENABLED = false
 HITSTUN_VISUALIZER_ENABLED = false
 --DEBUG_MENU_ENABLED = true
-DEBUG_MENU_ENABLED = DEV_MODE or (Platform.IsConsole() and CONFIGURATION ~= "PRODUCTION") or (Platform.IsMobile() and not NETFLIX_DEMO_BUILD)
+DEBUG_MENU_ENABLED = DEV_MODE
 METRICS_ENABLED = true
 TESTING_NETWORK = 1
 AUTOSPAWN_MASTER_SECONDARY = false
@@ -50,7 +53,7 @@ IS_EXPORT_PREFABS = false
 
 -- Networking related configuration
 DEFAULT_JOIN_IP				= "127.0.0.1"
-DISABLE_MOD_WARNING			= false
+DISABLE_MOD_WARNING			= true
 DEFAULT_SERVER_SAVE_FILE    = "/server_save"
 
 RELOADING = false
@@ -65,8 +68,6 @@ SHOW_OBSOLETE = false
 SAVE_DATA_VERSION_UPDATE_ENABLED = not DEV_MODE or IS_USING_MOUNTED_SAVE
 -- You can temporarily set to true to test your version update code.
 -- SAVE_DATA_VERSION_UPDATE_ENABLED = true
-
-ExecutingLongUpdate = false
 
 local DEBUGGER_ENABLED = TheSim:ShouldInitDebugger() and Platform.IsNotConsole() and CONFIGURATION ~= "PRODUCTION"
 if DEBUGGER_ENABLED then
@@ -197,7 +198,6 @@ require "components.soundemitter"
 require "hitstopmanager"
 require "input.inputconstants"
 require "input.input"
-require("stats")
 require("commonassets")
 
 --Now let's setup debugging!!!
@@ -248,7 +248,6 @@ TheDebugSource = CreateEntity("TheDebugSource")
 TheDebugSource.entity:AddTransform()
 
 global("TheCamera")
-TheCamera = nil
 global("PostProcessor")
 PostProcessor = nil
 
@@ -275,9 +274,15 @@ global("SERVER_TERMINATION_TIMER")
 SERVER_TERMINATION_TIMER = -1
 global("TheSceneGen")
 TheSceneGen = nil
-global("UseMapGen2") -- TODO(mg2): remove this eventually
-UseMapGen2 = not IS_USING_MOUNTED_SAVE or TheSim:GetMapGenVersion() ~= 1
 
+global("USE_CONTROL_MONKEY")
+-- See ControlMonkeyManager.cpp for how to use monkey.
+print("[MONKEY|GAMELUA] USE_CONTROL_MONKEY:", USE_CONTROL_MONKEY or false)
+if USE_CONTROL_MONKEY then
+	print( "[MONKEY|GAMELUA] Starting IControlMonkey" )
+	IControlMonkey = require("icontrolmonkey/icontrolmonkey")
+	IControlMonkey.Boot()
+end
 
 function GetDebugPlayer()
 	local playerID = TheNet:GetLocalDebugPlayer()
@@ -369,49 +374,65 @@ function Render()
 end
 
 local function key_down_callback(keyid, modifiers)
-	TheInput:OnKeyDown(keyid, modifiers);
+	if Platform.SupportsKeyboard() then 
+		TheInput:OnKeyDown(keyid, modifiers);
+	end
 end
 
 local function key_repeat_callback(keyid, modifiers)
-	TheInput:OnKeyRepeat(keyid);
+	if Platform.SupportsKeyboard() then
+		TheInput:OnKeyRepeat(keyid);
+	end
 end
 
 local function key_up_callback(keyid, modifiers)
-	TheInput:OnKeyUp(keyid, modifiers);
+	if Platform.SupportsKeyboard() then
+		TheInput:OnKeyUp(keyid, modifiers);
+	end
 end
 
 local function text_input_callback(text)
-	TheInput:OnTextInput(text)
+	if Platform.SupportsKeyboard() then
+		TheInput:OnTextInput(text)
+	end
 end
 
 --local function text_edit_callback(text)
---    TheGame:GetInput():OnTextEdit(text);
+--	if Platform.SupportsKeyboard() then
+--		TheGame:GetInput():OnTextEdit(text);
+--	end
 --end
 
 -- Mouse:
 local function mouse_move_callback(x, y)
-	if not Platform.ShouldIgnoreMouse() then
+	if Platform.SupportsMouse() then
 		TheInput:OnMouseMove(x,y)
 	end
 end
 
 local function mouse_wheel_callback(wheeldelta)
-	TheInput:OnMouseWheel(wheeldelta)
+	if Platform.SupportsMouse() then
+		TheInput:OnMouseWheel(wheeldelta)
+	end
 end
 
 local function mouse_button_down_callback(x, y, button)
-	if not Platform.ShouldIgnoreMouse() then
+	if Platform.SupportsMouse() then
 		TheInput:OnMouseButtonDown(x,y,button)
 	end
 end
 
 local function mouse_button_up_callback(x, y, button)
-	if not Platform.ShouldIgnoreMouse() then
+	if Platform.SupportsMouse() then
 		TheInput:OnMouseButtonUp(x,y,button)
 	end
 end
 
 local function GetHoveredWidget(touch_x,touch_y)
+	if not Platform.SupportsTouch() then
+		return nil
+	end
+
 	-- Based on FrontEnd:FocusHoveredWidget()
 	local x = touch_x
 	local y = (TheInput.h or RES_Y) - touch_y
@@ -448,11 +469,19 @@ local function IsButton(widget)
 end
 
 local function IsTouchOnButton(touch_x, touch_y)
+	if not Platform.SupportsTouch() then 
+		return false
+	end
+
 	local hover = GetHoveredWidget(touch_x, touch_y)
 	return hover and IsButton(hover)
 end
 
 local function VirtualTouchPadWouldConsume(touch_x, touch_y)
+	if not Platform.SupportsTouch() then 
+		return false
+	end
+
 	-- otherwise, only it the virtual joystick wouldn't consume it
 	local x = touch_x 
 	local y = (TheInput.h or RES_Y) - touch_y 
@@ -482,6 +511,10 @@ function DeactivateTouchRegion(region)
 end
 
 local function ScrollRegionWouldConsumeTouchDown(touch_x, touch_y)
+	if not Platform.SupportsTouch() then 
+		return false
+	end
+
 	local x = touch_x
 	local y = (TheInput.h or RES_Y) - touch_y
 	x,y = TheFrontEnd:WindowToUI(x,y)
@@ -493,6 +526,10 @@ local function ScrollRegionWouldConsumeTouchDown(touch_x, touch_y)
 end
 
 local function ScrollRegionWouldConsumeTouchUp(touch_x, touch_y)
+	if not Platform.SupportsTouch() then 
+		return false
+	end
+
 	for i,_ in pairs(activeScrollRegions) do
 		if i:IsScrolling() then
 			return true
@@ -502,6 +539,10 @@ end
 
 
 local function touch_began_callback(id,x, y)
+	if not Platform.SupportsTouch() then
+		return
+	end
+
 	if NETFLIX_DEMO_BUILD then 
 		local virtualJoyPad = GetVirtualJoyPad()
 		if not virtualJoyPad then
@@ -530,6 +571,10 @@ end
 
 -- touch move and end will be sent even if over a button, so that the joypad can't get stuck
 local function touch_move_callback(id, x, y)
+	if not Platform.SupportsTouch() then 
+		return
+	end
+
 	if NETFLIX_DEMO_BUILD then 
 		TheInput:OnTouchMove(x,y,id)
 	end
@@ -537,6 +582,10 @@ local function touch_move_callback(id, x, y)
 end
 
 local function touch_ended_callback(id,x, y)
+	if not Platform.SupportsTouch() then 
+		return
+	end
+
 	if NETFLIX_DEMO_BUILD then 
 		TheInput:OnTouchUp(x,y,id)
 		if ScrollRegionWouldConsumeTouchUp(x,y) then
@@ -634,6 +683,20 @@ local function filedrop(dropped_file)
 	end
 end
 
+local function OnGameShareConnectionOpenedCallback()
+	-- When this is called, it means a GameShare connection has been started.
+	for i,screen in ipairs(TheFrontEnd.screenstack) do
+		if screen.UpdateGameShareButtonState then
+			screen:UpdateGameShareButtonState()
+			break
+		end
+	end
+end
+
+local function OnGameShareConnectionClosedCallback()
+	OnGameShareConnectionOpenedCallback()
+end
+
 TheFeedbackScreen = nil
 
 function SubmitFeedbackResult(response_code, response)
@@ -685,7 +748,6 @@ TheSim:SetGamepadAnalogInputFn(gamepad_analog_input_callback);
 
 TheSim:SetDropFileFn(filedrop);
 
-
 TheSaveSystem = require("savedata.savesystem")()
 LoadGameSettings()
 
@@ -719,7 +781,7 @@ if Platform.IsMobile() then
 end
 
 
-if NETFLIX_DEMO_BUILD then
+if NETFLIX_DEMO_BUILD or USE_CONTROL_MONKEY then
 
 	local GODMODE_IMAGE
 
@@ -757,16 +819,23 @@ if NETFLIX_DEMO_BUILD then
 		end
 	end
 
+	function SetGodMode( bEnable )
+		local godmode = TheSaveSystem.cheats:GetValue("godmode")
+		if bEnable ~= godmode then
+			print("godmode was",godmode)
+			if not godmode then
+				TheSaveSystem.cheats:SetValue("godmode", true)
+			else
+				TheSaveSystem.cheats:SetValue("godmode", nil)
+			end
+			TheSaveSystem.cheats:Save()
+			RefreshGodMode(ThePlayer)
+		end
+	end
+
 	function ToggleGodMode()
 		local godmode = TheSaveSystem.cheats:GetValue("godmode")
-		print("godmode was",godmode)
-		if not godmode then
-			TheSaveSystem.cheats:SetValue("godmode", true)				
-		else
-			TheSaveSystem.cheats:SetValue("godmode", nil)				
-		end
-		TheSaveSystem.cheats:Save()
-		RefreshGodMode(ThePlayer)
+		SetGodMode( not godmode )
 	end
 
 end
