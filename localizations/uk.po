@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2026-03-06 18:36\n"
+"PO-Revision-Date: 2026-03-07 09:12\n"
 
 #: Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB
 msgctxt "Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB"
@@ -11905,7 +11905,10 @@ msgid "agent:\n"
 " !neutral [keep-for-room]\n"
 " !gruffnod\n"
 " To the <#BLUE>{name.treemon_forest_r1}</>!"
-msgstr ""
+msgstr "agent:\n"
+" !neutral [keep-for-room]\n"
+" !gruffnod\n"
+" До <#BLUE>{2:{Name.treemon_forest_r1}}</>!"
 
 #: Convo.twn_weather_intro_scout.ATTRACT1.town_weather_intro_after_cutscene.giver.STATE_0.TALK
 msgctxt "Convo.twn_weather_intro_scout.ATTRACT1.town_weather_intro_after_cutscene.giver.STATE_0.TALK"
@@ -18374,7 +18377,11 @@ msgid "!neutral\n"
 " {name.town}'s gettin' crowded.\n"
 " !gruffnod\n"
 " <i>(hmph)</>"
-msgstr ""
+msgstr "!neutral\n"
+" !closedeyes\n"
+" {Name.town} стає переповненим.\n"
+" !gruffnod\n"
+" <i>(хмпф)</>"
 
 #: Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,role_blacksmith,wf_town_has_cook].1
 msgctxt "Quest.chat_fluff_fallback.QUIP.chitchat:[in_quest_chat_fluff_fallback,in_town,role_blacksmith,wf_town_has_cook].1"
@@ -26274,7 +26281,7 @@ msgstr "Ліс"
 #: STRINGS.BIOSPHERES.rest.name
 msgctxt "STRINGS.BIOSPHERES.rest.name"
 msgid "{name.town}"
-msgstr ""
+msgstr "{Name.town}"
 
 #: STRINGS.BIOSPHERES.swamp.name
 msgctxt "STRINGS.BIOSPHERES.swamp.name"
@@ -26284,7 +26291,7 @@ msgstr "Болото"
 #: STRINGS.BIOSPHERES.town.name
 msgctxt "STRINGS.BIOSPHERES.town.name"
 msgid "{name.town}"
-msgstr ""
+msgstr "{Name.town}"
 
 #: STRINGS.BIOSPHERES.tundra.name
 msgctxt "STRINGS.BIOSPHERES.tundra.name"
@@ -26734,7 +26741,7 @@ msgstr "Крафт"
 #: STRINGS.CONTROL_BINDINGS.PICKUP_MODE
 msgctxt "STRINGS.CONTROL_BINDINGS.PICKUP_MODE"
 msgid "Customize {name.town}"
-msgstr ""
+msgstr "Налаштувати {name.town}"
 
 #: STRINGS.CONTROL_BINDINGS.PICKUP_MODE2
 msgctxt "STRINGS.CONTROL_BINDINGS.PICKUP_MODE2"
@@ -28537,27 +28544,27 @@ msgstr "Псевдоніми"
 #: STRINGS.FIRSTPARTY_NAMES.PLURAL.input_gamepad
 msgctxt "STRINGS.FIRSTPARTY_NAMES.PLURAL.input_gamepad"
 msgid "Controllers"
-msgstr ""
+msgstr "Контролери"
 
 #: STRINGS.FIRSTPARTY_NAMES.PLURAL.input_generic
 msgctxt "STRINGS.FIRSTPARTY_NAMES.PLURAL.input_generic"
 msgid "controllers"
-msgstr ""
+msgstr "Контролери"
 
 #: STRINGS.FIRSTPARTY_NAMES.SINGLE.concept_username
 msgctxt "STRINGS.FIRSTPARTY_NAMES.SINGLE.concept_username"
 msgid "Nickname"
-msgstr ""
+msgstr "Псевдонім"
 
 #: STRINGS.FIRSTPARTY_NAMES.SINGLE.input_gamepad
 msgctxt "STRINGS.FIRSTPARTY_NAMES.SINGLE.input_gamepad"
 msgid "Controller"
-msgstr ""
+msgstr "Контролер|Контролері"
 
 #: STRINGS.FIRSTPARTY_NAMES.SINGLE.input_generic
 msgctxt "STRINGS.FIRSTPARTY_NAMES.SINGLE.input_generic"
 msgid "controller"
-msgstr ""
+msgstr "Контролер|Контролері"
 
 #: STRINGS.GAME.NAME
 msgctxt "STRINGS.GAME.NAME"
@@ -48259,7 +48266,7 @@ msgstr "{Name_multiple.tonic}"
 #: STRINGS.ITEM_CATEGORIES.TOWN
 msgctxt "STRINGS.ITEM_CATEGORIES.TOWN"
 msgid "{name.town}"
-msgstr ""
+msgstr "{Name.town}"
 
 #: STRINGS.ITEM_CATEGORIES.WAIST
 msgctxt "STRINGS.ITEM_CATEGORIES.WAIST"
@@ -49459,7 +49466,7 @@ msgstr ""
 #: STRINGS.NAMES.c_npc_blacksmith
 msgctxt "STRINGS.NAMES.c_npc_blacksmith"
 msgid "<#BLUE>Hamish</>"
-msgstr ""
+msgstr "<#BLUE>Гаміш</>|<#BLUE>Гаміша</>|<#BLUE>Гамішу</>|<#BLUE>Гамішом</>"
 
 #: STRINGS.NAMES.c_npc_cook
 msgctxt "STRINGS.NAMES.c_npc_cook"
@@ -49479,7 +49486,7 @@ msgstr ""
 #: STRINGS.NAMES.c_npc_refiner
 msgctxt "STRINGS.NAMES.c_npc_refiner"
 msgid "<#BLUE>Lottie</>"
-msgstr ""
+msgstr "<#BLUE>Лотті</>"
 
 #: STRINGS.NAMES.c_npc_scout
 msgctxt "STRINGS.NAMES.c_npc_scout"
@@ -49629,7 +49636,7 @@ msgstr "Кислота|Кислоту|Кислоти|Кислотою|Кисло
 #: STRINGS.NAMES.concept_username
 msgctxt "STRINGS.NAMES.concept_username"
 msgid "Username"
-msgstr ""
+msgstr "Ім'я користувача"
 
 #: STRINGS.NAMES.concept_weapon_damage
 msgctxt "STRINGS.NAMES.concept_weapon_damage"
@@ -49989,7 +49996,7 @@ msgstr "Мисливець"
 #: STRINGS.NAMES.i_cooking_pot
 msgctxt "STRINGS.NAMES.i_cooking_pot"
 msgid "<p img='images/hud_images/hud_station_cooking_station.tex' rpad=1>Cooking Pot"
-msgstr ""
+msgstr "<p img='images/hud_images/hud_station_cooking_station.tex' rpad=1>Казанок|<p img='images/hud_images/hud_station_cooking_station.tex' rpad=1>Казанку"
 
 #: STRINGS.NAMES.i_damselfly
 msgctxt "STRINGS.NAMES.i_damselfly"
@@ -49999,7 +50006,7 @@ msgstr "<p img='images/hud_images/hud_station_damselfly.tex' rpad=1>Рівнок
 #: STRINGS.NAMES.i_farm_plot
 msgctxt "STRINGS.NAMES.i_farm_plot"
 msgid "<p img='images/hud_images/hud_farm_plot_sign.tex' rpad=1>Farm"
-msgstr ""
+msgstr "<p img='images/hud_images/hud_farm_plot_sign.tex' rpad=1>Ферма|<p img='images/hud_images/hud_farm_plot_sign.tex' rpad=1>Фермі"
 
 #: STRINGS.NAMES.i_gem_dust
 msgctxt "STRINGS.NAMES.i_gem_dust"
@@ -50074,7 +50081,7 @@ msgstr "<p img='images/hud_images/hud_konjur_soul_lesser_drops_currency.tex' rpa
 #: STRINGS.NAMES.i_lunchbox
 msgctxt "STRINGS.NAMES.i_lunchbox"
 msgid "<p img='images/hud_images/hud_station_lunchbox.tex' rpad=1>Lunchbox"
-msgstr ""
+msgstr "<p img='images/hud_images/hud_station_lunchbox.tex' rpad=1>Ланч-бокс|<p img='images/hud_images/hud_station_lunchbox.tex' rpad=1>Ланч-боксі|<p img='images/hud_images/hud_station_lunchbox.tex' rpad=1>Ланч-бокса"
 
 #: STRINGS.NAMES.i_masteries_station
 msgctxt "STRINGS.NAMES.i_masteries_station"
@@ -50124,12 +50131,12 @@ msgstr "Наповнений Змор-шок"
 #: STRINGS.NAMES.input_gamepad
 msgctxt "STRINGS.NAMES.input_gamepad"
 msgid "Gamepad"
-msgstr ""
+msgstr "Геймпад|Геймпаді|Геймпада"
 
 #: STRINGS.NAMES.input_generic
 msgctxt "STRINGS.NAMES.input_generic"
 msgid "device"
-msgstr ""
+msgstr "Пристрій|Пристрої"
 
 #: STRINGS.NAMES.interact_hold
 msgctxt "STRINGS.NAMES.interact_hold"
@@ -50664,7 +50671,7 @@ msgstr "Гниль мінібос|Гниль мінібоса|Гниль мін�
 #: STRINGS.NAMES.rot_sf_boss
 msgctxt "STRINGS.NAMES.rot_sf_boss"
 msgid "Imbued Boss"
-msgstr ""
+msgstr "Наповнений бос|Наповненого боса"
 
 #: STRINGS.NAMES.rotwood
 msgctxt "STRINGS.NAMES.rotwood"
@@ -50974,7 +50981,7 @@ msgstr "Наповнений Тотоліллі"
 #: STRINGS.NAMES.town
 msgctxt "STRINGS.NAMES.town"
 msgid "Camp"
-msgstr "Табір"
+msgstr "Табір|Табору|Таборі|Табором"
 
 #: STRINGS.NAMES.town_grid_cryst
 msgctxt "STRINGS.NAMES.town_grid_cryst"
@@ -51414,7 +51421,7 @@ msgstr "Шляхи мисливця"
 #: STRINGS.NAMES_PLURAL.concept_username
 msgctxt "STRINGS.NAMES_PLURAL.concept_username"
 msgid "Usernames"
-msgstr ""
+msgstr "Імена користувачів"
 
 #: STRINGS.NAMES_PLURAL.cook_rotating_recipe
 msgctxt "STRINGS.NAMES_PLURAL.cook_rotating_recipe"
@@ -51639,12 +51646,12 @@ msgstr "Наповнені Змор-шоки"
 #: STRINGS.NAMES_PLURAL.input_gamepad
 msgctxt "STRINGS.NAMES_PLURAL.input_gamepad"
 msgid "Gamepads"
-msgstr ""
+msgstr "Геймпади|Геймпадам"
 
 #: STRINGS.NAMES_PLURAL.input_generic
 msgctxt "STRINGS.NAMES_PLURAL.input_generic"
 msgid "devices"
-msgstr ""
+msgstr "Пристрої|Пристроїв"
 
 #: STRINGS.NAMES_PLURAL.job_apothecary
 msgctxt "STRINGS.NAMES_PLURAL.job_apothecary"
@@ -52039,7 +52046,7 @@ msgstr "Гармати"
 #: STRINGS.NAMES_PLURAL.weapon_crystal
 msgctxt "STRINGS.NAMES_PLURAL.weapon_crystal"
 msgid "Proto-Weapons"
-msgstr "Протозброї|Протозброю"
+msgstr "Протозброї|Протозброю|Протозброя"
 
 #: STRINGS.NAMES_PLURAL.weapon_greatsword
 msgctxt "STRINGS.NAMES_PLURAL.weapon_greatsword"
@@ -53490,7 +53497,7 @@ msgstr "<p bind='Controls.Digital.MENU_ACCEPT' color=0> Підтвердити"
 #: STRINGS.UI.ADDPLAYERDIALOG.SUBTITLE
 msgctxt "STRINGS.UI.ADDPLAYERDIALOG.SUBTITLE"
 msgid "Press a button on the {name.input_gamepad} you'd like to use."
-msgstr ""
+msgstr "Натисніть кнопку на {2:{name.input_gamepad}}, яку ви хочете використати."
 
 #: STRINGS.UI.ADDPLAYERDIALOG.TITLE
 msgctxt "STRINGS.UI.ADDPLAYERDIALOG.TITLE"
@@ -53510,17 +53517,17 @@ msgstr "<p img='images/ui_ftf/arrow_left.tex' scale=0.9 color=0> Назад"
 #: STRINGS.UI.ARMORYSCREEN.ITEM_APPEARANCE
 msgctxt "STRINGS.UI.ARMORYSCREEN.ITEM_APPEARANCE"
 msgid "Item Appearance"
-msgstr ""
+msgstr "Вигляд предмету"
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_ARMOR
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_ARMOR"
 msgid "Imbue a <#RED>{name.weapon_crystal_prefix}{armor_piece}</> with the {name.konjur_heart} of an <#RED>{elite_boss}</> to have <#BLUE>{name.npc_armorsmith}</> craft this for you."
-msgstr ""
+msgstr "Наповніть <#RED>{Name.weapon_crystal_prefix}{armor_piece}</> силою {2:{name.konjur_heart}} (<#RED>{elite_boss}</>) для виготовлення цього обладунку у <#BLUE>{4:{Name.npc_armorsmith}}</>."
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_WEAPON
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_BOSS_WEAPON"
 msgid "Imbue a <#RED>{name.weapon_crystal_prefix}{weapon_type}</> with the {name.konjur_heart} of an <#RED>{elite_boss}</> to have <#BLUE>{name.npc_blacksmith}</> craft this for you."
-msgstr ""
+msgstr "Наповніть <#RED>{Name.weapon_crystal_prefix}{weapon_type}</> силою {2:{name.konjur_heart}} (<#RED>{elite_boss}</>) для виготовлення цієї зброї у <#BLUE>{2:{Name.npc_blacksmith}}</>."
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_ARMOR
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_ARMOR"
@@ -53667,7 +53674,7 @@ msgstr "Ваша схема контролю є важливою частино�
 #: STRINGS.UI.CONTROLSCHEMEPOPUP.MOUSE_AIMING_OFF
 msgctxt "STRINGS.UI.CONTROLSCHEMEPOPUP.MOUSE_AIMING_OFF"
 msgid "<#LIGHT_TEXT_WARN>Disable</> Mouse Aiming"
-msgstr ""
+msgstr "<#LIGHT_TEXT_WARN>Вимкнути</> наведення мишкою"
 
 #: STRINGS.UI.CONTROLSCHEMEPOPUP.MOUSE_AIMING_OFF_TT
 msgctxt "STRINGS.UI.CONTROLSCHEMEPOPUP.MOUSE_AIMING_OFF_TT"
@@ -53793,7 +53800,7 @@ msgstr "Параметри збору даних можна змінити в м
 #: STRINGS.UI.DATACOLLECTION.LOGIN.TITLE
 msgctxt "STRINGS.UI.DATACOLLECTION.LOGIN.TITLE"
 msgid "You are in Offline Mode"
-msgstr ""
+msgstr "Ви в офлайн режимі"
 
 #: STRINGS.UI.DATACOLLECTION.QUIT_POPUP.CONFIRM
 msgctxt "STRINGS.UI.DATACOLLECTION.QUIT_POPUP.CONFIRM"
@@ -53851,7 +53858,7 @@ msgstr "Створити"
 #: STRINGS.UI.DECORSCREEN.HOTKEY_INFO
 msgctxt "STRINGS.UI.DECORSCREEN.HOTKEY_INFO"
 msgid "Info"
-msgstr ""
+msgstr "Інформація"
 
 #: STRINGS.UI.DECORSCREEN.HOTKEY_PLACE
 msgctxt "STRINGS.UI.DECORSCREEN.HOTKEY_PLACE"
@@ -53881,7 +53888,7 @@ msgstr "ДЕКОР"
 #: STRINGS.UI.DIALOG_CHECK_INTERNET.BODY
 msgctxt "STRINGS.UI.DIALOG_CHECK_INTERNET.BODY"
 msgid "Checking internet connection and authorization..."
-msgstr ""
+msgstr "Перевірка підключення до інтернету та авторизація..."
 
 #: STRINGS.UI.DIALOG_CHECK_INTERNET.CHOICE_CANCEL
 msgctxt "STRINGS.UI.DIALOG_CHECK_INTERNET.CHOICE_CANCEL"
@@ -53896,12 +53903,12 @@ msgstr "Підключення..."
 #: STRINGS.UI.DIALOG_GAMESHARE.BODY
 msgctxt "STRINGS.UI.DIALOG_GAMESHARE.BODY"
 msgid "How would you like to play GameShare?"
-msgstr ""
+msgstr "Як би ви хотіли грати в GameShare?"
 
 #: STRINGS.UI.DIALOG_GAMESHARE.BODY_CLOSE
 msgctxt "STRINGS.UI.DIALOG_GAMESHARE.BODY_CLOSE"
 msgid "Are you sure you want to end the GameShare session?"
-msgstr ""
+msgstr "Ви впевнені, що хочете завершити сеанс GameShare?"
 
 #: STRINGS.UI.DIALOG_GAMESHARE.CHOICE_CANCEL
 msgctxt "STRINGS.UI.DIALOG_GAMESHARE.CHOICE_CANCEL"
@@ -53911,33 +53918,34 @@ msgstr "Скасувати"
 #: STRINGS.UI.DIALOG_GAMESHARE.CHOICE_CLOSE
 msgctxt "STRINGS.UI.DIALOG_GAMESHARE.CHOICE_CLOSE"
 msgid "End Session"
-msgstr ""
+msgstr "Завершити сеанс"
 
 #: STRINGS.UI.DIALOG_GAMESHARE.CHOICE_INTERNET
 msgctxt "STRINGS.UI.DIALOG_GAMESHARE.CHOICE_INTERNET"
 msgid "<p img='images/icons_ftf/ic_gameshare_via_gamechat.tex' color=0 scale=1.0> GameChat"
-msgstr ""
+msgstr "<p img='images/icons_ftf/ic_gameshare_via_gamechat.tex' color=0 scale=1.0> GameChat"
 
 #: STRINGS.UI.DIALOG_GAMESHARE.CHOICE_LOCAL
 msgctxt "STRINGS.UI.DIALOG_GAMESHARE.CHOICE_LOCAL"
 msgid "<p img='images/icons_ftf/ic_gameshare_local_users.tex' color=0 scale=1.0> Nearby"
-msgstr ""
+msgstr "<p img='images/icons_ftf/ic_gameshare_local_users.tex' color=0 scale=1.0> Поруч"
 
 #: STRINGS.UI.DIALOG_GAMESHARE.TITLE
 msgctxt "STRINGS.UI.DIALOG_GAMESHARE.TITLE"
 msgid "Start GameShare"
-msgstr ""
+msgstr "Почати GameShare"
 
 #: STRINGS.UI.DIALOG_GAMESHARE.TITLE_CLOSE
 msgctxt "STRINGS.UI.DIALOG_GAMESHARE.TITLE_CLOSE"
 msgid "End GameShare?"
-msgstr ""
+msgstr "Кінець GameShare?"
 
 #: STRINGS.UI.DIALOG_UGC.BODY
 msgctxt "STRINGS.UI.DIALOG_UGC.BODY"
 msgid "When playing a networked game you will share your customized town with other players and you will see other player towns.\n\n"
 "Do you want to continue?"
-msgstr ""
+msgstr "Під час онлайн гри ви будете ділитися своїм налаштованим містом з іншими гравцями і бачити міста інших гравців.\n\n"
+"Ви хочете продовжити?"
 
 #: STRINGS.UI.DIALOG_UGC.CHOICE_NOTOK
 msgctxt "STRINGS.UI.DIALOG_UGC.CHOICE_NOTOK"
@@ -53952,7 +53960,7 @@ msgstr "Продовжити"
 #: STRINGS.UI.DIALOG_UGC.TITLE
 msgctxt "STRINGS.UI.DIALOG_UGC.TITLE"
 msgid "Important Notice"
-msgstr ""
+msgstr "Важливе оголошення"
 
 #: STRINGS.UI.DISKSPACE.CONTINUE
 msgctxt "STRINGS.UI.DISKSPACE.CONTINUE"
@@ -54073,17 +54081,17 @@ msgstr "{Name.ascension_plus}"
 #: STRINGS.UI.DUNGEONSUMMARYSCREEN.DAMAGE_DONE
 msgctxt "STRINGS.UI.DUNGEONSUMMARYSCREEN.DAMAGE_DONE"
 msgid "Damage Done"
-msgstr ""
+msgstr "Завдана шкода"
 
 #: STRINGS.UI.DUNGEONSUMMARYSCREEN.DAMAGE_TAKEN
 msgctxt "STRINGS.UI.DUNGEONSUMMARYSCREEN.DAMAGE_TAKEN"
 msgid "Damage Taken"
-msgstr ""
+msgstr "Отримана шкода"
 
 #: STRINGS.UI.DUNGEONSUMMARYSCREEN.DEATHS
 msgctxt "STRINGS.UI.DUNGEONSUMMARYSCREEN.DEATHS"
 msgid "Times Died"
-msgstr ""
+msgstr "Загинув"
 
 #: STRINGS.UI.DUNGEONSUMMARYSCREEN.LOADING_TEXT
 msgctxt "STRINGS.UI.DUNGEONSUMMARYSCREEN.LOADING_TEXT"
@@ -54128,7 +54136,7 @@ msgstr "Ви не зібрали жодної {name_multiple.concept_relic}."
 #: STRINGS.UI.DUNGEONSUMMARYSCREEN.ROOMS_LABEL_STAT
 msgctxt "STRINGS.UI.DUNGEONSUMMARYSCREEN.ROOMS_LABEL_STAT"
 msgid "{name_multiple.dungeon_room} Discovered"
-msgstr ""
+msgstr "{2:{Name_multiple.dungeon_room}} відкрито"
 
 #: STRINGS.UI.DUNGEONSUMMARYSCREEN.STATS_TITLE
 msgctxt "STRINGS.UI.DUNGEONSUMMARYSCREEN.STATS_TITLE"
@@ -54138,12 +54146,12 @@ msgstr "СТАТИСТИКА"
 #: STRINGS.UI.DUNGEONSUMMARYSCREEN.TIME_STAT
 msgctxt "STRINGS.UI.DUNGEONSUMMARYSCREEN.TIME_STAT"
 msgid "Duration"
-msgstr ""
+msgstr "Тривалість"
 
 #: STRINGS.UI.DUNGEONSUMMARYSCREEN.TOTAL_KILLS
 msgctxt "STRINGS.UI.DUNGEONSUMMARYSCREEN.TOTAL_KILLS"
 msgid "Kills"
-msgstr ""
+msgstr "Вбивств"
 
 #: STRINGS.UI.DYE_PURCHASE_POPUP.NO_OPTION
 msgctxt "STRINGS.UI.DYE_PURCHASE_POPUP.NO_OPTION"
@@ -54208,12 +54216,12 @@ msgstr "<p img='images/ui_ftf/ic_warning.tex' color=0 scale=1.1> Емоції з
 #: STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.ACTION_CHANGE_APPEARANCE_DEFAULT
 msgctxt "STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.ACTION_CHANGE_APPEARANCE_DEFAULT"
 msgid "<#RED>{item_name}</> will use its default appearance."
-msgstr ""
+msgstr "<#RED>{item_name}</> буде використовувати свій стандартний вигляд."
 
 #: STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.ACTION_CHANGE_APPEARANCE_DIFFERENT
 msgctxt "STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.ACTION_CHANGE_APPEARANCE_DIFFERENT"
 msgid "<#RED>{item_name}</> will be modified to look like <#RED>{appearance_name}</>."
-msgstr ""
+msgstr "<#RED>{item_name}</> буде змінено на <#RED>{appearance_name}</>."
 
 #: STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.ACTION_NO_ITEM_SELECTED
 msgctxt "STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.ACTION_NO_ITEM_SELECTED"
@@ -54223,79 +54231,81 @@ msgstr "Не вибрано жодного елемента."
 #: STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.ACTION_TITLE_CHANGE
 msgctxt "STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.ACTION_TITLE_CHANGE"
 msgid "Change Appearance"
-msgstr ""
+msgstr "Змінити вигляд"
 
 #: STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.ACTION_TITLE_REVERT
 msgctxt "STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.ACTION_TITLE_REVERT"
 msgid "Revert Appearance"
-msgstr ""
+msgstr "Повернути вигляд"
 
 #: STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.CHANGE_APPEARANCE
 msgctxt "STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.CHANGE_APPEARANCE"
 msgid "Change"
-msgstr ""
+msgstr "Змінити"
 
 #: STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.DESC
 msgctxt "STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.DESC"
 msgid "Swap appearances with other pieces of equipment that you own."
-msgstr ""
+msgstr "Обмінюйтеся зовнішнім виглядом з іншим спорядженням, яке ви маєте."
 
 #: STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.EMPTY_SLOT_TITLE
 msgctxt "STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.EMPTY_SLOT_TITLE"
 msgid "Empty Slot"
-msgstr ""
+msgstr "Пустий слот"
 
 #: STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.HOTKEY_REVERT_APPEARANCE
 msgctxt "STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.HOTKEY_REVERT_APPEARANCE"
 msgid "Revert Appearance"
-msgstr ""
+msgstr "Повернути вигляд"
 
 #: STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.HOTKEY_SET_APPEARANCE
 msgctxt "STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.HOTKEY_SET_APPEARANCE"
 msgid "Change Appearance"
-msgstr ""
+msgstr "Змінити вигляд"
 
 #: STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.LOCKED_DESC
 msgctxt "STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.LOCKED_DESC"
 msgid "<#COSMETIC>{item_name}</>\n"
 "You may discover this <#RED>Mirage Pattern</> when you kill any {name.rot_boss} in <#RED>{location_name}</>"
-msgstr ""
+msgstr "<#COSMETIC>{item_name}</>\n"
+"Ви можете виявити цей <#RED>візерунок міражу</> після вбивства будь-якого {2:{name.rot_boss}} в <#RED>{location_name}</>"
 
 #: STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.LOCKED_MINIBOSS_DESC
 msgctxt "STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.LOCKED_MINIBOSS_DESC"
 msgid "<#COSMETIC>{item_name}</>\n"
 "You may discover this <#RED>Mirage Pattern</> when you kill <#RED>{boss_name}</> in <#RED>{location_name}</>"
-msgstr ""
+msgstr "<#COSMETIC>{item_name}</>\n"
+"Ви можете виявити цей <#RED>візерунок міражу</> якщо переможете <#RED>{boss_name}</> в <#RED>{location_name}</>"
 
 #: STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.LOCKED_UNKNOWN_LOCATION_DESC
 msgctxt "STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.LOCKED_UNKNOWN_LOCATION_DESC"
 msgid "You have not discovered this <#RED>Mirage Pattern</> yet"
-msgstr ""
+msgstr "Ви ще не відкрили цей <#RED>візерунок міражу</>"
 
 #: STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.NO_APPEARANCE_OPTIONS
 msgctxt "STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.NO_APPEARANCE_OPTIONS"
 msgid "No appearance options are available."
-msgstr ""
+msgstr "Немає доступних опцій зовнішнього вигляду."
 
 #: STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.REVERT_APPEARANCE
 msgctxt "STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.REVERT_APPEARANCE"
 msgid "Revert"
-msgstr ""
+msgstr "Скасувати"
 
 #: STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.STATUS_APPEARANCE_ALREADY_SET
 msgctxt "STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.STATUS_APPEARANCE_ALREADY_SET"
 msgid "<#RED>{item_name}</> is using the appearance of <#RED>{appearance_name}</>."
-msgstr ""
+msgstr "<#RED>{item_name}</> використовує зовнішній вигляд <#RED>{appearance_name}</>."
 
 #: STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.STATUS_APPEARANCE_NOT_CHANGED
 msgctxt "STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.STATUS_APPEARANCE_NOT_CHANGED"
 msgid "<#RED>{item_name}</> is using the default appearance."
-msgstr ""
+msgstr "<#RED>{item_name}</> використовує стандартний вигляд."
 
 #: STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.TITLE
 msgctxt "STRINGS.UI.EQUIPMENTAPPEARANCESCREEN.TITLE"
 msgid "TEFFRA MIRAGE STATION"
-msgstr ""
+msgstr "СТАНЦІЯ КОНЖУРОВОГО МІРАЖУ"
 
 #: STRINGS.UI.EQUIPMENTSCREEN.BACK_BUTTON
 msgctxt "STRINGS.UI.EQUIPMENTSCREEN.BACK_BUTTON"
@@ -54618,47 +54628,47 @@ msgstr "Прийняти"
 #: STRINGS.UI.EULASCREEN.AGREEMENT_UPDATED
 msgctxt "STRINGS.UI.EULASCREEN.AGREEMENT_UPDATED"
 msgid "The EULA has been updated and needs your review."
-msgstr ""
+msgstr "EULA була оновлена і потребує вашого перегляду."
 
 #: STRINGS.UI.EULASCREEN.ALREADY_ACCEPTED
 msgctxt "STRINGS.UI.EULASCREEN.ALREADY_ACCEPTED"
 msgid "You have previously accepted this version of the EULA."
-msgstr ""
+msgstr "Ви раніше прийняли цю версію EULA."
 
 #: STRINGS.UI.EULASCREEN.DECLINE
 msgctxt "STRINGS.UI.EULASCREEN.DECLINE"
 msgid "Decline"
-msgstr ""
+msgstr "Відхилити"
 
 #: STRINGS.UI.EULASCREEN.DECLINE_CONFIRMATION.BODY
 msgctxt "STRINGS.UI.EULASCREEN.DECLINE_CONFIRMATION.BODY"
 msgid "You will not be able to play online. Are you sure?"
-msgstr ""
+msgstr "Ви не зможете грати в онлайн. Ви впевнені?"
 
 #: STRINGS.UI.EULASCREEN.DECLINE_CONFIRMATION.DECLINE
 msgctxt "STRINGS.UI.EULASCREEN.DECLINE_CONFIRMATION.DECLINE"
 msgid "Play Offline"
-msgstr ""
+msgstr "Грати офлайн"
 
 #: STRINGS.UI.EULASCREEN.DECLINE_CONFIRMATION.TITLE
 msgctxt "STRINGS.UI.EULASCREEN.DECLINE_CONFIRMATION.TITLE"
 msgid "Decline the EULA?"
-msgstr ""
+msgstr "Відхилити EULA?"
 
 #: STRINGS.UI.EULASCREEN.REQUIRED_FOR_ONLINE.BODY
 msgctxt "STRINGS.UI.EULASCREEN.REQUIRED_FOR_ONLINE.BODY"
 msgid "You must accept the EULA to play online."
-msgstr ""
+msgstr "Щоб грати в онлайн, ви повинні прийняти EULA."
 
 #: STRINGS.UI.EULASCREEN.REQUIRED_FOR_ONLINE.TITLE
 msgctxt "STRINGS.UI.EULASCREEN.REQUIRED_FOR_ONLINE.TITLE"
 msgid "End User License Agreement"
-msgstr ""
+msgstr "Ліцензійна угода з кінцевим користувачем"
 
 #: STRINGS.UI.EULASCREEN.TITLE
 msgctxt "STRINGS.UI.EULASCREEN.TITLE"
 msgid "End User License Agreement"
-msgstr ""
+msgstr "Ліцензійна угода з кінцевим користувачем"
 
 #: STRINGS.UI.FAILED_INITIALIZE.BODY
 msgctxt "STRINGS.UI.FAILED_INITIALIZE.BODY"
@@ -55166,7 +55176,7 @@ msgstr "Перегляд дружніх відносин"
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_has_gem_table_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_has_gem_table_unlocked.desc"
 msgid "Learn how to use the <#RED>{name.i_station_gems}</>."
-msgstr ""
+msgstr "Дізнайтеся, як використовувати <#RED>{name.i_station_gems}</>."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_epic_armor.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_epic_armor.desc"
@@ -55181,12 +55191,12 @@ msgstr "Дозвольте <#RED>{3:{Name.npc_blacksmith}}</> оглянути {
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_rare_armor.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_rare_armor.desc"
 msgid "Show off some {name.i_item_rarity_rare} armour from <#BLUE>{name.npc_market_merchant}'s</> shop to <#RED>{name.npc_armorsmith}</> to help her remember someone from her past."
-msgstr ""
+msgstr "Покажіть {2:{name.i_item_rarity_rare}} обладунки з ринку <#BLUE>{2:{Name.npc_market_merchant}}</> <#RED>{3:{Name.npc_armorsmith}}</>, щоб допомогти їй згадати когось із минулого."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_rare_weapon.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_owns_any_rare_weapon.desc"
 msgid "Talk to <#RED>{name.npc_blacksmith}</> while wielding a {name.i_item_rarity_rare} weapon from <#BLUE>{name.npc_market_merchant}'s</> store to pique his curiosity."
-msgstr ""
+msgstr "Поговоріть з <#RED>{4:{Name.npc_blacksmith}}</>, тримаючи {3:{name.i_item_rarity_rare}} зброю з ринку <#BLUE>{2:{Name.npc_market_merchant}}</>, щоб зацікавити його."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_super_frenzy_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.id_super_frenzy_unlocked.desc"
@@ -55211,17 +55221,17 @@ msgstr "<#RED>{2:{Name.npc_apothecary}}</> потрібні її {name.farmtools
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_town_crafting_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_town_crafting_unlocked.desc"
 msgid "<#RED>{name.npc_armorsmith}</> won't share more gossip until you unlock <#RED>{name.npc_scout}</>'s {name.town} Crafting."
-msgstr ""
+msgstr "<#RED>{Name.npc_armorsmith}</> не розповість більше пліток, доки ви не розблокуєте розбудову {2:{name.town}} в <#RED>{2:{Name.npc_scout}}</>."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_unimplemented_friend_gift.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_unimplemented_friend_gift.desc"
 msgid "This story is still unfolding."
-msgstr ""
+msgstr "Ця історія ще не завершилася."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_unimplemented_lottie.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REQUIREMENT.FLAG.pf_unimplemented_lottie.desc"
 msgid "{name.c_npc_refiner} is continuing her research."
-msgstr ""
+msgstr "{Name.c_npc_refiner} продовжує свої дослідження."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_armour_fortification_1_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_armour_fortification_1_unlocked.desc"
@@ -55281,12 +55291,12 @@ msgstr "Зробіть декор і розмістіть його в місті
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_town_crafting_unlocked.name
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_town_crafting_unlocked.name"
 msgid "{name.town} Crafting"
-msgstr ""
+msgstr "Розбудова {2:{name.town}}"
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_weapon_fortification_1_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_weapon_fortification_1_unlocked.desc"
 msgid "<#RED>{name.npc_blacksmith}</> can create <#RED>{name.weapontools1}</> from {name_multiple.upgrade_ingot} so he can upgrade {name.i_item_rarity_uncommon} weapons to higher levels."
-msgstr ""
+msgstr "<#RED>{Name.npc_blacksmith}</> може створити <#RED>{name.weapontools1}</> зі {2:{name_multiple.upgrade_ingot}}, щоб покращувати {3:{name.i_item_rarity_uncommon}} зброю до вищих рівнів."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_weapon_fortification_1_unlocked.name
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_weapon_fortification_1_unlocked.name"
@@ -55296,7 +55306,7 @@ msgstr "Дослідження зброї"
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_weapon_fortification_2_unlocked.desc
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_weapon_fortification_2_unlocked.desc"
 msgid "<#RED>{name.npc_blacksmith}</> can create <#RED>{name.weapontools2}</> from {name_multiple.upgrade_ingot} so he can upgrade {name.i_item_rarity_rare} weapons to higher levels."
-msgstr ""
+msgstr "<#RED>{Name.npc_blacksmith}</> може створити <#RED>{name.weapontools2}</> зі {2:{name_multiple.upgrade_ingot}}, щоб покращувати {3:{name.i_item_rarity_rare}} зброю до вищих рівнів."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_weapon_fortification_2_unlocked.name
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.REWARD.FLAG.pf_weapon_fortification_2_unlocked.name"
@@ -55306,7 +55316,7 @@ msgstr "Дослідження зброї"
 #: STRINGS.UI.FRIENDSHIPSCREEN.TAG_CHECK_DIARY
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.TAG_CHECK_DIARY"
 msgid "Check your <#RED>{name.i_station_diary}</> for details."
-msgstr ""
+msgstr "Перевірте свій <#RED>{name.i_station_diary}</> для отримання деталей."
 
 #: STRINGS.UI.FRIENDSHIPSCREEN.TITLE
 msgctxt "STRINGS.UI.FRIENDSHIPSCREEN.TITLE"
@@ -55351,7 +55361,7 @@ msgstr "Онлайн-друзі Steam"
 #: STRINGS.UI.FRIENDSWIDGET.SWITCH.TITLE
 msgctxt "STRINGS.UI.FRIENDSWIDGET.SWITCH.TITLE"
 msgid "Online Friends"
-msgstr ""
+msgstr "Онлайн-друзі"
 
 #: STRINGS.UI.GAMESHARE.CONNECTING
 msgctxt "STRINGS.UI.GAMESHARE.CONNECTING"
@@ -55361,7 +55371,7 @@ msgstr "Підключення..."
 #: STRINGS.UI.GAMESHARE.DISCONNECTING
 msgctxt "STRINGS.UI.GAMESHARE.DISCONNECTING"
 msgid "Disconnecting..."
-msgstr ""
+msgstr "Від'єднання..."
 
 #: STRINGS.UI.GEMSCREEN.DESC
 msgctxt "STRINGS.UI.GEMSCREEN.DESC"
@@ -55486,7 +55496,7 @@ msgstr "%s"
 #: STRINGS.UI.GEMSCREEN.HOTKEY_SORTINFO_FILTERS
 msgctxt "STRINGS.UI.GEMSCREEN.HOTKEY_SORTINFO_FILTERS"
 msgid "Filter"
-msgstr ""
+msgstr "Фільтр"
 
 #: STRINGS.UI.GEMSCREEN.INFO_LABEL
 msgctxt "STRINGS.UI.GEMSCREEN.INFO_LABEL"
@@ -55930,27 +55940,27 @@ msgstr "Зменшити"
 #: STRINGS.UI.HOTKEY_DISABLED
 msgctxt "STRINGS.UI.HOTKEY_DISABLED"
 msgid "<#DISABLED_HOTKEYS><p bind='{control}' color=0 scale=1 rpad=1>{label}</>"
-msgstr ""
+msgstr "<#DISABLED_HOTKEYS><p bind='{control}' color=0 scale=1 rpad=1>{label}</>"
 
 #: STRINGS.UI.HOTKEY_DISABLED_MODIFIER
 msgctxt "STRINGS.UI.HOTKEY_DISABLED_MODIFIER"
 msgid "<#DISABLED_HOTKEYS><p bind='Controls.Digital.MENU_MODIFIER' color=0 scale=1>{nbsp}+{nbsp}<p bind='{control}' color=0 scale=1 rpad=1>{label}</>"
-msgstr ""
+msgstr "<#DISABLED_HOTKEYS><p bind='Controls.Digital.MENU_MODIFIER' color=0 scale=1>{nbsp}+{nbsp}<p bind='{control}' color=0 scale=1 rpad=1>{label}</>"
 
 #: STRINGS.UI.HOTKEY_ENABLED
 msgctxt "STRINGS.UI.HOTKEY_ENABLED"
 msgid "<p bind='{control}' color=0 scale=1 rpad=1>{label}"
-msgstr ""
+msgstr "<p bind='{control}' color=0 scale=1 rpad=1>{label}"
 
 #: STRINGS.UI.HOTKEY_ENABLED_MODIFIER
 msgctxt "STRINGS.UI.HOTKEY_ENABLED_MODIFIER"
 msgid "<p bind='Controls.Digital.MENU_MODIFIER' color=0 scale=1>{nbsp}+{nbsp}<p bind='{control}' color=0 scale=1 rpad=1>{label}"
-msgstr ""
+msgstr "<p bind='Controls.Digital.MENU_MODIFIER' color=0 scale=1>{nbsp}+{nbsp}<p bind='{control}' color=0 scale=1 rpad=1>{label}"
 
 #: STRINGS.UI.HUD.CANNOT_INTERACT_ALREADY_PICKED_UP
 msgctxt "STRINGS.UI.HUD.CANNOT_INTERACT_ALREADY_PICKED_UP"
 msgid "Already have item"
-msgstr ""
+msgstr "Вже маєте"
 
 #: STRINGS.UI.HUD.CANNOT_INTERACT_BUSY
 msgctxt "STRINGS.UI.HUD.CANNOT_INTERACT_BUSY"
@@ -56020,7 +56030,7 @@ msgstr "%s"
 #: STRINGS.UI.HUD.PICKUP_INSTRUCTIONS
 msgctxt "STRINGS.UI.HUD.PICKUP_INSTRUCTIONS"
 msgid "<p bind='Controls.Digital.MENU_PLACER_CONFIRM' color=0> Pick up"
-msgstr ""
+msgstr "<p bind='Controls.Digital.MENU_PLACER_CONFIRM' color=0> Підняти"
 
 #: STRINGS.UI.HUD.PLACE_INSTRUCTIONS
 msgctxt "STRINGS.UI.HUD.PLACE_INSTRUCTIONS"
@@ -56049,17 +56059,17 @@ msgstr "<#FOCUS_BOLD>{icon} Супер божевілля {level} рівня</>"
 #: STRINGS.UI.HUD.RUN_DATA_SIMPLE.ANOMALY
 msgctxt "STRINGS.UI.HUD.RUN_DATA_SIMPLE.ANOMALY"
 msgid "{name.weather} Active"
-msgstr ""
+msgstr "{name.weather} активна"
 
 #: STRINGS.UI.HUD.RUN_DATA_SIMPLE.FRENZY
 msgctxt "STRINGS.UI.HUD.RUN_DATA_SIMPLE.FRENZY"
 msgid "Frenzied"
-msgstr ""
+msgstr "Божевілля"
 
 #: STRINGS.UI.HUD.RUN_DATA_SIMPLE.SUPERFRENZY
 msgctxt "STRINGS.UI.HUD.RUN_DATA_SIMPLE.SUPERFRENZY"
 msgid "Super Frenzy {icon}"
-msgstr ""
+msgstr "Супер божевілля {icon}"
 
 #: STRINGS.UI.HUD.START
 msgctxt "STRINGS.UI.HUD.START"
@@ -56079,7 +56089,7 @@ msgstr "<p bind='Controls.Digital.SHOW_PLAYER_STATUS' color=0> Закрити"
 #: STRINGS.UI.HUD.TO_TOWN
 msgctxt "STRINGS.UI.HUD.TO_TOWN"
 msgid "Return To {name.town}"
-msgstr ""
+msgstr "Піти до {2:{name.town}}"
 
 #: STRINGS.UI.HUD.VICTORY.BUTTON
 msgctxt "STRINGS.UI.HUD.VICTORY.BUTTON"
@@ -56209,7 +56219,7 @@ msgstr "Ви можете ще раз спробувати відшліфува�
 #: STRINGS.UI.IDENTIFYGEMSCREEN.RETRY_TITLE
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.RETRY_TITLE"
 msgid "{success_percent:%.0f}% SUCCESS RATE"
-msgstr ""
+msgstr "{success_percent:%.0f}% РІВЕНЬ УСПІХУ"
 
 #: STRINGS.UI.IDENTIFYGEMSCREEN.STORED
 msgctxt "STRINGS.UI.IDENTIFYGEMSCREEN.STORED"
@@ -56428,7 +56438,7 @@ msgstr "Спорядити комплект"
 #: STRINGS.UI.LOADOUTSCREEN.HOTKEY_LOADOUT_FILTER
 msgctxt "STRINGS.UI.LOADOUTSCREEN.HOTKEY_LOADOUT_FILTER"
 msgid "Filter"
-msgstr ""
+msgstr "Фільтр"
 
 #: STRINGS.UI.LOADOUTSCREEN.HOTKEY_MANNEQUIN
 msgctxt "STRINGS.UI.LOADOUTSCREEN.HOTKEY_MANNEQUIN"
@@ -56647,27 +56657,27 @@ msgstr "Ласкаво просимо до \"<#DARK_TEXT_SELECTED>{2:{Name.curre
 #: STRINGS.UI.MAINSCREEN.BTN_FIND_TEXT
 msgctxt "STRINGS.UI.MAINSCREEN.BTN_FIND_TEXT"
 msgid "Find an existing game to join."
-msgstr ""
+msgstr "Знайти наявну гру, до якої можна приєднатися."
 
 #: STRINGS.UI.MAINSCREEN.BTN_FIND_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.BTN_FIND_TITLE"
 msgid "Find a Game"
-msgstr ""
+msgstr "Знайти гру"
 
 #: STRINGS.UI.MAINSCREEN.BTN_GAMESHARE_END
 msgctxt "STRINGS.UI.MAINSCREEN.BTN_GAMESHARE_END"
 msgid "End GameShare <p img='images/icons_ftf/ic_gameshare.tex' color=0>"
-msgstr ""
+msgstr "Закінчить GameShare <p img='images/icons_ftf/ic_gameshare.tex' color=0>"
 
 #: STRINGS.UI.MAINSCREEN.BTN_GAMESHARE_PLAY
 msgctxt "STRINGS.UI.MAINSCREEN.BTN_GAMESHARE_PLAY"
 msgid "GameShare <p img='images/icons_ftf/ic_gameshare.tex' color=0>"
-msgstr ""
+msgstr "GameShare <p img='images/icons_ftf/ic_gameshare.tex' color=0>"
 
 #: STRINGS.UI.MAINSCREEN.BTN_GAMESHARE_START
 msgctxt "STRINGS.UI.MAINSCREEN.BTN_GAMESHARE_START"
 msgid "Start GameShare <p img='images/icons_ftf/ic_gameshare.tex' color=0>"
-msgstr ""
+msgstr "Почати GameShare <p img='images/icons_ftf/ic_gameshare.tex' color=0>"
 
 #: STRINGS.UI.MAINSCREEN.BTN_HOST_TEXT
 msgctxt "STRINGS.UI.MAINSCREEN.BTN_HOST_TEXT"
@@ -56687,7 +56697,7 @@ msgstr "Приєднайтеся до онлайн-гри друзів, вико
 #: STRINGS.UI.MAINSCREEN.BTN_JOIN_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.BTN_JOIN_TITLE"
 msgid "Join via ShareCode"
-msgstr ""
+msgstr "Приєднатися черезШвидКод"
 
 #: STRINGS.UI.MAINSCREEN.BTN_MULTI_PLAYER_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.BTN_MULTI_PLAYER_TITLE"
@@ -56697,12 +56707,12 @@ msgstr "Онлайн гра"
 #: STRINGS.UI.MAINSCREEN.BTN_SINGLE_PLAYER_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.BTN_SINGLE_PLAYER_TITLE"
 msgid "Play"
-msgstr ""
+msgstr "Грати"
 
 #: STRINGS.UI.MAINSCREEN.BTN_WIRELESS_PLAY
 msgctxt "STRINGS.UI.MAINSCREEN.BTN_WIRELESS_PLAY"
 msgid "Wireless Play"
-msgstr ""
+msgstr "Бездротова гра"
 
 #: STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.DELETE_CHARACTER_TOOLTIP
 msgctxt "STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.DELETE_CHARACTER_TOOLTIP"
@@ -56731,7 +56741,7 @@ msgstr "<p img='images/icons_ftf/emotes.tex' color=0 scale=1> Виберіть �
 #: STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_BASE_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_BASE_TITLE"
 msgid "<p img='images/icons_ftf/character_body.tex' color=0 scale=1> Select Template"
-msgstr ""
+msgstr "<p img='images/icons_ftf/character_body.tex' color=0 scale=1> Виберіть шаблон"
 
 #: STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_BODY_TITLE
 msgctxt "STRINGS.UI.MAINSCREEN.CHARACTER_CREATION.SELECT_BODY_TITLE"
@@ -56837,12 +56847,12 @@ msgstr "Фатальна помилка"
 #: STRINGS.UI.MAINSCREEN.HOST_DIALOG.PUBLIC_GAME
 msgctxt "STRINGS.UI.MAINSCREEN.HOST_DIALOG.PUBLIC_GAME"
 msgid "Public Game"
-msgstr ""
+msgstr "Публічна гра"
 
 #: STRINGS.UI.MAINSCREEN.HOST_DIALOG.SHOW_TO_FRIENDS
 msgctxt "STRINGS.UI.MAINSCREEN.HOST_DIALOG.SHOW_TO_FRIENDS"
 msgid "Show to Friends"
-msgstr ""
+msgstr "Показати друзям"
 
 #: STRINGS.UI.MAINSCREEN.HOST_DIALOG_BTN
 msgctxt "STRINGS.UI.MAINSCREEN.HOST_DIALOG_BTN"
@@ -57023,22 +57033,22 @@ msgstr "<p img='images/ui_ftf_icons/quit.tex' color=0 scale=1> Вийти"
 #: STRINGS.UI.MAINSCREEN.SLOTS_INFO_DEVICES
 msgctxt "STRINGS.UI.MAINSCREEN.SLOTS_INFO_DEVICES"
 msgid "To add another player, press{nbsp}{button_icon} on your {device_name} or other connected controllers."
-msgstr ""
+msgstr "Щоб додати іншого гравця натисніть {nbsp}{button_icon} на вашому {device_name} або інших підключених контролерах."
 
 #: STRINGS.UI.MAINSCREEN.SLOTS_INFO_DEVICES_CONSOLE
 msgctxt "STRINGS.UI.MAINSCREEN.SLOTS_INFO_DEVICES_CONSOLE"
 msgid "Press{nbsp}{button_icon} to join as another player."
-msgstr ""
+msgstr "Натисніть {nbsp}{button_icon}, щоб приєднатися як інший гравець."
 
 #: STRINGS.UI.MAINSCREEN.SLOTS_INFO_DEVICES_EMPTY
 msgctxt "STRINGS.UI.MAINSCREEN.SLOTS_INFO_DEVICES_EMPTY"
 msgid "Plug in extra controllers to add additional players."
-msgstr ""
+msgstr "Під'єднайте додаткові контролери, щоб додати інших гравців."
 
 #: STRINGS.UI.MAINSCREEN.SLOTS_INFO_END
 msgctxt "STRINGS.UI.MAINSCREEN.SLOTS_INFO_END"
 msgid "<#77625E>Rotwood supports up to 4 total players. Players can be added during gameplay.</>"
-msgstr ""
+msgstr "<#77625E>Rotwood підтримує до 4 гравців. Гравців можна додавати під час гри.</>"
 
 #: STRINGS.UI.MAINSCREEN.SLOTS_INFO_START
 msgctxt "STRINGS.UI.MAINSCREEN.SLOTS_INFO_START"
@@ -57048,7 +57058,7 @@ msgstr "Виберіть слот персонажа."
 #: STRINGS.UI.MAINSCREEN.SLOTS_PLAYER_BACK
 msgctxt "STRINGS.UI.MAINSCREEN.SLOTS_PLAYER_BACK"
 msgid "Press <p bind='Controls.Digital.CANCEL' color=0> to go back"
-msgstr ""
+msgstr "Натисніть <p bind='Controls.Digital.ATTACK_HEAVY' color=0>, щоб повернутись"
 
 #: STRINGS.UI.MAINSCREEN.SLOTS_PLAYER_REMOVE
 msgctxt "STRINGS.UI.MAINSCREEN.SLOTS_PLAYER_REMOVE"
@@ -57058,7 +57068,7 @@ msgstr "Натисніть <p bind='Controls.Digital.CANCEL' color=0> щоб в�
 #: STRINGS.UI.MAINSCREEN.SLOTS_PLAYER_UNREADY
 msgctxt "STRINGS.UI.MAINSCREEN.SLOTS_PLAYER_UNREADY"
 msgid "Press <p bind='Controls.Digital.CANCEL' color=0> to unready"
-msgstr ""
+msgstr "Натисніть <p bind=“Controls.Digital.CANCEL” color=0>, щоб скасувати готовність"
 
 #: STRINGS.UI.MAINSCREEN.SLOT_CONTINUE_TO_GAME
 msgctxt "STRINGS.UI.MAINSCREEN.SLOT_CONTINUE_TO_GAME"
@@ -57126,7 +57136,7 @@ msgstr "Так"
 #: STRINGS.UI.MANAGEMP.BLACK_LIST
 msgctxt "STRINGS.UI.MANAGEMP.BLACK_LIST"
 msgid "Blocklist"
-msgstr ""
+msgstr "Чорний список"
 
 #: STRINGS.UI.MANAGEMP.KICK
 msgctxt "STRINGS.UI.MANAGEMP.KICK"
@@ -57225,12 +57235,12 @@ msgstr "Випробування {2:{Name.shop_magpie}}"
 #: STRINGS.UI.MARKETCHALLENGEPROP.TT_ALREADY_COMPLETED
 msgctxt "STRINGS.UI.MARKETCHALLENGEPROP.TT_ALREADY_COMPLETED"
 msgid "<p img='%s' scale=1.4 color=0> CLAIMED"
-msgstr ""
+msgstr "<p img='%s' scale=1.4 color=0> ЗАБРАНО"
 
 #: STRINGS.UI.MARKETCHALLENGEPROP.TT_CLAIMABLE
 msgctxt "STRINGS.UI.MARKETCHALLENGEPROP.TT_CLAIMABLE"
 msgid "<p img='%s' scale=1.4 color=0> SUCCESS"
-msgstr ""
+msgstr "<p img='%s' scale=1.4 color=0> УСПІХ"
 
 #: STRINGS.UI.MARKETCHALLENGEPROP.TT_FAILED
 msgctxt "STRINGS.UI.MARKETCHALLENGEPROP.TT_FAILED"
@@ -57265,7 +57275,7 @@ msgstr "Випробування"
 #: STRINGS.UI.MASTERYSCREEN.CLAIM
 msgctxt "STRINGS.UI.MASTERYSCREEN.CLAIM"
 msgid "<p bind='Controls.Digital.MENU_ACCEPT' color=0 just_device='gamepad'> Claim!"
-msgstr ""
+msgstr "<p bind='Controls.Digital.MENU_ACCEPT' color=0 just_device='gamepad'> Забрати!"
 
 #: STRINGS.UI.MASTERYSCREEN.DESC
 msgctxt "STRINGS.UI.MASTERYSCREEN.DESC"
@@ -57341,7 +57351,8 @@ msgstr "<p img='images/icons_ftf/character_title.tex' color=0> Нова клич
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_0.DESC"
 msgid "<#RED>{name.npc_armorsmith}</> will now upgrade your armour!\n\n"
 "Check <p img='images/icons_ftf/upgrade.tex' color=0 rpad=1>Upgrades at the <#RED>Armoury</>."
-msgstr ""
+msgstr "<#RED>{Name.npc_armorsmith}</> тепер зможе покращувати ваші обладунки!\n\n"
+"Перевірте <p img='images/icons_ftf/upgrade.tex' color=0 rpad=1>покращення в <#RED>обладунках</>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_0.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_0.TITLE"
@@ -57352,7 +57363,8 @@ msgstr "Дослідження обладунків"
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_1.DESC"
 msgid "<#RED>{name.npc_armorsmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_uncommon} armour to {name.i_item_rarity_rare} quality!\n\n"
 "Check <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at the <#RED>Armoury</>."
-msgstr ""
+msgstr "<#RED>{Name.npc_armorsmith}</> потребує {name_multiple.upgrade_ingot}, щоб покращити вашу {2:{name.i_item_rarity_uncommon}} обладунки до якості '{name.i_item_rarity_rare}'!\n\n"
+"Перевірте <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>покращення станції на <#RED>манекені з обладунками</>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_1.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_1.TITLE"
@@ -57363,7 +57375,8 @@ msgstr "Дослідження обладунків"
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_2.DESC"
 msgid "<#RED>{name.npc_armorsmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_rare} armour to {name.i_item_rarity_epic} quality!\n\n"
 "Check <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at the <#RED>Armoury</>."
-msgstr ""
+msgstr "<#RED>{Name.npc_armorsmith}</> потребує {name_multiple.upgrade_ingot}, щоб покращити вашу {2:{name.i_item_rarity_rare}} обладунки до якості '{name.i_item_rarity_epic}'!\n\n"
+"Перевірте <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>покращення станції на <#RED>манекені з обладунками</>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_2.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.ARMOUR_FORTIFICATION_UNLOCKED_2.TITLE"
@@ -57375,7 +57388,9 @@ msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.BOSS_WEAPON_CRAFTING.DESC"
 msgid "{name.c_npc_refiner}'s breakthrough allows {name.c_npc_blacksmith} to craft <#RED>{name_multiple.weapon_crystal}</>.\n\n"
 "On a <#RED>{name.run_ascension_plus}</>, your equipped {name_multiple.weapon_crystal} will absorb the essence of the defeated <#RED>{name.rot_sf_boss}</>.\n\n"
 "If you fail any run while holding a {name.weapon_crystal}, it will <#RED>Break</> and need to be repaired by {name.c_npc_blacksmith}.\n"
-msgstr ""
+msgstr "Прорив {Name.c_npc_refiner} дозволяє {3:{Name.c_npc_blacksmith}} виготовляти <#RED>{2:{name_multiple.weapon_crystal}}</>.\n\n"
+"Під час <#RED>{2:{name.run_ascension_plus}}</> ваша {3:{name_multiple.weapon_crystal}} поглине суть переможеного <#RED>{2:{name.rot_sf_boss}}</>.\n\n"
+"Якщо ви провалите будь-який пробіг, тримаючи {2:{name.weapon_crystal}}, вона <#RED>зламається</> і її потрібно буде відремонтувати у {2:{Name.c_npc_blacksmith}}.\n"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.BOSS_WEAPON_CRAFTING.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.BOSS_WEAPON_CRAFTING.TITLE"
@@ -57406,23 +57421,25 @@ msgstr "{name.cookingtools} розблокована!"
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.COOKING_UNLOCKED_P1.DESC"
 msgid "Cook <#RED>meals</> at <#BLUE>{name.i_cooking_pot}</> with ingredients grown on your <#RED>{name.i_farm_plot}</>.\n\n"
 "<#BLUE>{name.npc_cook}</> packs your <#BLUE>{name.i_lunchbox}</> with your prepared meals before you leave on a {name.run}."
-msgstr ""
+msgstr "Готуйте <#RED>страви</> в <#BLUE>{2:{name.i_cooking_pot}}</> з інгредієнтів, вирощених на вашій <#RED>{2:{name.i_farm_plot}}</>.\n\n"
+"<#BLUE>{Name.npc_cook}</> запакує приготовані страви в <#BLUE>{name.i_lunchbox}</> перед тим, як ви вирушаєте на {name.run}."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.COOKING_UNLOCKED_P1.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.COOKING_UNLOCKED_P1.TITLE"
 msgid "Cooking Meals"
-msgstr ""
+msgstr "Приготування їжі"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.COOKING_UNLOCKED_P2.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.COOKING_UNLOCKED_P2.DESC"
 msgid "Find your <#RED>meals</> at the start of a {name.run} in your <#BLUE>{name.i_lunchbox}</> next to the {name.i_damselfly}.\n\n"
 "Each {name.run}, you can eat <#RED>one meal</> to gain a <#RED>{name.concept_relic}</>."
-msgstr ""
+msgstr "Знайдіть свої <#RED>страви</> на початку {name.run} у вашому <#BLUE>{2:{name.i_lunchbox}}</> біля {2:{Name.i_damselfly}}.\n\n"
+"Кожне {name.run} ви можете з'їсти <#RED>одну страву</>, щоб отримати <#RED>{2:{name.concept_relic}}</>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.COOKING_UNLOCKED_P2.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.COOKING_UNLOCKED_P2.TITLE"
 msgid "Eating Meals"
-msgstr ""
+msgstr "Прийом їжі"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.CUSTOMIZATION_UNLOCKED.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.CUSTOMIZATION_UNLOCKED.DESC"
@@ -57433,7 +57450,7 @@ msgstr ""
 #: STRINGS.UI.MECHANIC_TUTORIALS.CUSTOMIZATION_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.CUSTOMIZATION_UNLOCKED.TITLE"
 msgid "Teffra Mirages"
-msgstr ""
+msgstr "Конжурові міражі"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.FARMTOOLS_UNLOCKED.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.FARMTOOLS_UNLOCKED.DESC"
@@ -57579,13 +57596,14 @@ msgstr "<#RED>Розміщуйте</> декорації у своєму міс�
 #: STRINGS.UI.MECHANIC_TUTORIALS.TOWN_DECORATION_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.TOWN_DECORATION_UNLOCKED.TITLE"
 msgid "{name.town} Crafting"
-msgstr ""
+msgstr "Розбудова {2:{name.town}}"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_0.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_0.DESC"
 msgid "<#RED>{name.npc_blacksmith}</> will now upgrade your weapons!\n\n"
 "Check <p img='images/icons_ftf/upgrade.tex' color=0 rpad=1>Upgrades at the <#RED>Weapon Rack</>."
-msgstr ""
+msgstr "<#RED>{Name.npc_blacksmith}</> тепер зможе покращувати вашу зброю!\n\n"
+"Перевірте <p img='images/icons_ftf/upgrade.tex' color=0 rpad=1>покращення на <#RED>стійці для зброї</>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_0.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_0.TITLE"
@@ -57596,7 +57614,8 @@ msgstr "Дослідження зброї"
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_1.DESC"
 msgid "<#RED>{name.npc_blacksmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_uncommon} weapons to {name.i_item_rarity_rare} quality!\n\n"
 "Check <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at a <#RED>Weapon Rack</>."
-msgstr ""
+msgstr "<#RED>{Name.npc_blacksmith}</> потребує {name_multiple.upgrade_ingot}, щоб покращити вашу {3:{name.i_item_rarity_uncommon}} зброю до якості '{name.i_item_rarity_rare}'!\n\n"
+"Перевірте <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>покращення станції на <#RED>стійці для зброї</>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_1.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_1.TITLE"
@@ -57607,7 +57626,8 @@ msgstr "Дослідження зброї"
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_2.DESC"
 msgid "<#RED>{name.npc_blacksmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_rare} weapons to {name.i_item_rarity_epic} quality!\n\n"
 "Check <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at a <#RED>Weapon Rack</>."
-msgstr ""
+msgstr "<#RED>{Name.npc_blacksmith}</> потребує {name_multiple.upgrade_ingot}, щоб покращити вашу {3:{name.i_item_rarity_rare}} зброю до якості '{name.i_item_rarity_epic}'!\n\n"
+"Перевірте <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>покращення станції на <#RED>стійці для зброї</>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_2.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.WEAPON_FORTIFICATION_UNLOCKED_2.TITLE"
@@ -57770,7 +57790,7 @@ msgstr "Відключено від хосту."
 #: STRINGS.UI.NETWORKDISCONNECT.BODY.InitializationFailed
 msgctxt "STRINGS.UI.NETWORKDISCONNECT.BODY.InitializationFailed"
 msgid "Failed to initialize network game."
-msgstr ""
+msgstr "Не вдалося ініціалізувати онлайн гру."
 
 #: STRINGS.UI.NETWORKDISCONNECT.BODY.InvalidGameType
 msgctxt "STRINGS.UI.NETWORKDISCONNECT.BODY.InvalidGameType"
@@ -57800,7 +57820,7 @@ msgstr "Лобі виявило помилку та вигнало всіх гр
 #: STRINGS.UI.NETWORKDISCONNECT.BODY.LobbyFoundNone
 msgctxt "STRINGS.UI.NETWORKDISCONNECT.BODY.LobbyFoundNone"
 msgid "No available lobbies were found. Please try again later."
-msgstr ""
+msgstr "Не знайдено доступних лобі. Спробуйте пізніше."
 
 #: STRINGS.UI.NETWORKDISCONNECT.BODY.LobbyHasInvalidHost
 msgctxt "STRINGS.UI.NETWORKDISCONNECT.BODY.LobbyHasInvalidHost"
@@ -57810,7 +57830,7 @@ msgstr "Виявлено недійсний хост."
 #: STRINGS.UI.NETWORKDISCONNECT.BODY.LobbyNotAvailable
 msgctxt "STRINGS.UI.NETWORKDISCONNECT.BODY.LobbyNotAvailable"
 msgid "The lobby you tried to join is no longer available."
-msgstr ""
+msgstr "Лобі, до якого ви намагалися приєднатися, більше не доступне."
 
 #: STRINGS.UI.NETWORKDISCONNECT.BODY.LobbyNotFound
 msgctxt "STRINGS.UI.NETWORKDISCONNECT.BODY.LobbyNotFound"
@@ -57860,7 +57880,7 @@ msgstr "Неможливо зв'язатися з одним або кілько
 #: STRINGS.UI.NETWORKDISCONNECT.BODY.PS4UserControllerDisconnectedTimeout
 msgctxt "STRINGS.UI.NETWORKDISCONNECT.BODY.PS4UserControllerDisconnectedTimeout"
 msgid "User's {name.input_gamepad} disconnected and remained disconnected for too long."
-msgstr ""
+msgstr "{Name.input_gamepad} користувача відключено та залишався відключеним надто довго."
 
 #: STRINGS.UI.NETWORKDISCONNECT.BODY.PS4UserLoggedOut
 msgctxt "STRINGS.UI.NETWORKDISCONNECT.BODY.PS4UserLoggedOut"
@@ -57935,17 +57955,17 @@ msgstr "Помилка мережі"
 #: STRINGS.UI.NETWORKDISCONNECT.TITLE.InitializationFailed
 msgctxt "STRINGS.UI.NETWORKDISCONNECT.TITLE.InitializationFailed"
 msgid "System Error"
-msgstr ""
+msgstr "Системна помилка"
 
 #: STRINGS.UI.NETWORKDISCONNECT.TITLE.LobbyFoundNone
 msgctxt "STRINGS.UI.NETWORKDISCONNECT.TITLE.LobbyFoundNone"
 msgid "Try Again Later"
-msgstr ""
+msgstr "Спробуйте пізніше"
 
 #: STRINGS.UI.NETWORKDISCONNECT.TITLE.LobbyNotAvailable
 msgctxt "STRINGS.UI.NETWORKDISCONNECT.TITLE.LobbyNotAvailable"
 msgid "Not Available"
-msgstr ""
+msgstr "Не доступно"
 
 #: STRINGS.UI.NETWORKINVITEDISABLED.CLOSE
 msgctxt "STRINGS.UI.NETWORKINVITEDISABLED.CLOSE"
@@ -57960,12 +57980,12 @@ msgstr "Неможливо приєднатися до онлайн гри"
 #: STRINGS.UI.NOTIFICATION.BROKEN_CORESTONE_WEAPON.DESC
 msgctxt "STRINGS.UI.NOTIFICATION.BROKEN_CORESTONE_WEAPON.DESC"
 msgid "{player_name} has <#RED>{weapon_name}</> equipped!"
-msgstr ""
+msgstr "{player_name} має <#RED>{weapon_name}</>!"
 
 #: STRINGS.UI.NOTIFICATION.BROKEN_CORESTONE_WEAPON.TITLE
 msgctxt "STRINGS.UI.NOTIFICATION.BROKEN_CORESTONE_WEAPON.TITLE"
 msgid "Broken Weapon!"
-msgstr ""
+msgstr "Зламана зброя!"
 
 #: STRINGS.UI.NOTIFICATION.CONNECTING
 msgctxt "STRINGS.UI.NOTIFICATION.CONNECTING"
@@ -57985,12 +58005,12 @@ msgstr "{item_name}"
 #: STRINGS.UI.NOTIFICATION.EQUIP_CUSTOMIZATION_UNLOCKED.DESC
 msgctxt "STRINGS.UI.NOTIFICATION.EQUIP_CUSTOMIZATION_UNLOCKED.DESC"
 msgid "{player_name} unlocked a new <#RED>Mirage Pattern</>!"
-msgstr ""
+msgstr "{player_name} розблокував новий <#RED>візерунок міражу</>!"
 
 #: STRINGS.UI.NOTIFICATION.EQUIP_CUSTOMIZATION_UNLOCKED.TITLE
 msgctxt "STRINGS.UI.NOTIFICATION.EQUIP_CUSTOMIZATION_UNLOCKED.TITLE"
 msgid "Mirage Pattern Unlocked!"
-msgstr ""
+msgstr "Візерунок міражу розблоковано!"
 
 #: STRINGS.UI.NOTIFICATION.FLAGS.pf_town_crafting_unlocked.DESC
 msgctxt "STRINGS.UI.NOTIFICATION.FLAGS.pf_town_crafting_unlocked.DESC"
@@ -58000,17 +58020,17 @@ msgstr "{player_name} тепер може створювати декор та �
 #: STRINGS.UI.NOTIFICATION.FLAGS.pf_town_crafting_unlocked.TITLE
 msgctxt "STRINGS.UI.NOTIFICATION.FLAGS.pf_town_crafting_unlocked.TITLE"
 msgid "{name.town} Crafting Unlocked"
-msgstr ""
+msgstr "Розбудову {2:{name.town}} розблоковано"
 
 #: STRINGS.UI.NOTIFICATION.FOOD_COOKED.DESC
 msgctxt "STRINGS.UI.NOTIFICATION.FOOD_COOKED.DESC"
 msgid "Eat your <#BLUE>{item_name}</> from the {name.lunchbox} at the start of a {name.run}."
-msgstr ""
+msgstr "Їжте <#BLUE>{item_name}</> з {3:{name.lunchbox}} на початку {name.run}."
 
 #: STRINGS.UI.NOTIFICATION.FOOD_COOKED.TITLE
 msgctxt "STRINGS.UI.NOTIFICATION.FOOD_COOKED.TITLE"
 msgid "Added to {name.i_lunchbox}"
-msgstr ""
+msgstr "Додано до {3:{name.i_lunchbox}}"
 
 #: STRINGS.UI.NOTIFICATION.ITEM_OBTAINED.DESC
 msgctxt "STRINGS.UI.NOTIFICATION.ITEM_OBTAINED.DESC"
@@ -58035,12 +58055,12 @@ msgstr "Завантаження"
 #: STRINGS.UI.NOTIFICATION.NPC_JOINED.DESC
 msgctxt "STRINGS.UI.NOTIFICATION.NPC_JOINED.DESC"
 msgid "{npc_name} has joined {player_name}'s {name.town}!"
-msgstr ""
+msgstr "{npc_name} приєднався до {2:{name.town}} {player_name}!"
 
 #: STRINGS.UI.NOTIFICATION.NPC_JOINED.TITLE
 msgctxt "STRINGS.UI.NOTIFICATION.NPC_JOINED.TITLE"
 msgid "A New Friend!"
-msgstr ""
+msgstr "Новий друг!"
 
 #: STRINGS.UI.NOTIFICATION.POWER_UNLOCKED.DESC
 msgctxt "STRINGS.UI.NOTIFICATION.POWER_UNLOCKED.DESC"
@@ -58085,22 +58105,22 @@ msgstr "Новий день!"
 #: STRINGS.UI.NOTIFICATION.UNUSED_GIFTS.DESC
 msgctxt "STRINGS.UI.NOTIFICATION.UNUSED_GIFTS.DESC"
 msgid "{player_name} has <#RED>{amount} Gifts</> to give out!"
-msgstr ""
+msgstr "{player_name} має <#RED>{amount} подарунків</>!"
 
 #: STRINGS.UI.NOTIFICATION.UNUSED_GIFTS.DESC_SINGULAR
 msgctxt "STRINGS.UI.NOTIFICATION.UNUSED_GIFTS.DESC_SINGULAR"
 msgid "{player_name} has a <#RED>Gift</> to give out!"
-msgstr ""
+msgstr "{player_name} має <#RED>подарунок</>!"
 
 #: STRINGS.UI.NOTIFICATION.UNUSED_GIFTS.TITLE
 msgctxt "STRINGS.UI.NOTIFICATION.UNUSED_GIFTS.TITLE"
 msgid "Unused Gifts!"
-msgstr ""
+msgstr "Невикористані подарунки!"
 
 #: STRINGS.UI.NO_NETWORK.BODY_PREFIX
 msgctxt "STRINGS.UI.NO_NETWORK.BODY_PREFIX"
 msgid "Failed to connect to network."
-msgstr ""
+msgstr "Не вдалося приєднатися до мережі."
 
 #: STRINGS.UI.NO_NETWORK.CONTINUE
 msgctxt "STRINGS.UI.NO_NETWORK.CONTINUE"
@@ -58110,12 +58130,12 @@ msgstr "Скасувати"
 #: STRINGS.UI.NO_NETWORK.OFFLINE_REASON.KLEI
 msgctxt "STRINGS.UI.NO_NETWORK.OFFLINE_REASON.KLEI"
 msgid "Can you connect to klei.com and Klei servers?"
-msgstr ""
+msgstr "Чи можете ви під'єднатися до klei.com і серверів Klei?"
 
 #: STRINGS.UI.NO_NETWORK.OFFLINE_REASON.STEAM
 msgctxt "STRINGS.UI.NO_NETWORK.OFFLINE_REASON.STEAM"
 msgid "Is Steam in Offline Mode?"
-msgstr ""
+msgstr "Steam працює в офлайн режимі?"
 
 #: STRINGS.UI.NO_NETWORK.TITLE
 msgctxt "STRINGS.UI.NO_NETWORK.TITLE"
@@ -58192,7 +58212,7 @@ msgstr "Натисніть, щоб скопіювати"
 #: STRINGS.UI.ONLINESCREEN.JOINCODE_PROMPT
 msgctxt "STRINGS.UI.ONLINESCREEN.JOINCODE_PROMPT"
 msgid "ShareCode"
-msgstr ""
+msgstr "ШвидКод"
 
 #: STRINGS.UI.ONLINESCREEN.JOIN_FRIEND_GAME
 msgctxt "STRINGS.UI.ONLINESCREEN.JOIN_FRIEND_GAME"
@@ -58222,7 +58242,7 @@ msgstr "Усунення несправностей"
 #: STRINGS.UI.OPTIONSSCREEN.BIND_SECTIONS.CONTROLS_BASIC.gamepad
 msgctxt "STRINGS.UI.OPTIONSSCREEN.BIND_SECTIONS.CONTROLS_BASIC.gamepad"
 msgid "{name.input_gamepad} - Basic controls"
-msgstr ""
+msgstr "{Name.input_gamepad} - Базове управління"
 
 #: STRINGS.UI.OPTIONSSCREEN.BIND_SECTIONS.CONTROLS_BASIC.keyboard
 msgctxt "STRINGS.UI.OPTIONSSCREEN.BIND_SECTIONS.CONTROLS_BASIC.keyboard"
@@ -58232,7 +58252,7 @@ msgstr "Клавіатура - Основні елементи керуванн�
 #: STRINGS.UI.OPTIONSSCREEN.BIND_SECTIONS.CONTROLS_COMBAT.gamepad
 msgctxt "STRINGS.UI.OPTIONSSCREEN.BIND_SECTIONS.CONTROLS_COMBAT.gamepad"
 msgid "{name.input_gamepad} - Combat actions"
-msgstr ""
+msgstr "{Name.input_gamepad} - Бойові дії"
 
 #: STRINGS.UI.OPTIONSSCREEN.BIND_SECTIONS.CONTROLS_COMBAT.keyboard
 msgctxt "STRINGS.UI.OPTIONSSCREEN.BIND_SECTIONS.CONTROLS_COMBAT.keyboard"
@@ -58262,12 +58282,12 @@ msgstr "Зберегти та перезапустити?"
 #: STRINGS.UI.OPTIONSSCREEN.CONFIRM_NO
 msgctxt "STRINGS.UI.OPTIONSSCREEN.CONFIRM_NO"
 msgid "<p img='images/ui_ftf_dialog/convo_close.tex' color=0> Discard"
-msgstr ""
+msgstr "<p img='images/ui_ftf_dialog/convo_close.tex' color=0> Відхилити"
 
 #: STRINGS.UI.OPTIONSSCREEN.CONFIRM_OK
 msgctxt "STRINGS.UI.OPTIONSSCREEN.CONFIRM_OK"
 msgid "<p img='images/ui_ftf_options/ic_save.tex' color=0> Save"
-msgstr ""
+msgstr "<p img='images/ui_ftf_options/ic_save.tex' color=0> Зберегти"
 
 #: STRINGS.UI.OPTIONSSCREEN.CONFIRM_QUIT
 msgctxt "STRINGS.UI.OPTIONSSCREEN.CONFIRM_QUIT"
@@ -58277,7 +58297,7 @@ msgstr "<p img='images/ui_ftf_dialog/convo_close.tex' color=0> Вийти"
 #: STRINGS.UI.OPTIONSSCREEN.CONFIRM_RESTART
 msgctxt "STRINGS.UI.OPTIONSSCREEN.CONFIRM_RESTART"
 msgid "<p img='images/ui_ftf_icons/restart.tex' color=0> Restart"
-msgstr ""
+msgstr "<p img='images/ui_ftf_icons/restart.tex' color=0> Перезапустити"
 
 #: STRINGS.UI.OPTIONSSCREEN.CONFIRM_SUBTITLE
 msgctxt "STRINGS.UI.OPTIONSSCREEN.CONFIRM_SUBTITLE"
@@ -58466,7 +58486,7 @@ msgstr "Інше"
 #: STRINGS.UI.OPTIONSSCREEN.REQUIRE_MAINMENU
 msgctxt "STRINGS.UI.OPTIONSSCREEN.REQUIRE_MAINMENU"
 msgid "Must be in Main Menu to use this setting."
-msgstr ""
+msgstr "Для зміни цього налаштування потрібно бути в головному меню."
 
 #: STRINGS.UI.OPTIONSSCREEN.REQUIRE_RESTART
 msgctxt "STRINGS.UI.OPTIONSSCREEN.REQUIRE_RESTART"
@@ -58486,22 +58506,22 @@ msgstr "Зберегти"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.ENVIRONMENT_DESC.headphones
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.ENVIRONMENT_DESC.headphones"
 msgid "Recommended for headphones and streaming. Average dynamic range."
-msgstr ""
+msgstr "Рекомендується для навушників і потокового відтворення. Середній динамічний діапазон."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.ENVIRONMENT_DESC.nx_handheld
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.ENVIRONMENT_DESC.nx_handheld"
 msgid "Tuned for the built-in speakers of the Nintendo Switch"
-msgstr ""
+msgstr "Налаштовано на вбудовані динаміки Nintendo Switch"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.ENVIRONMENT_DESC.speakers
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.ENVIRONMENT_DESC.speakers"
 msgid "For living room environments and large speakers. Higher dynamic range."
-msgstr ""
+msgstr "Для віталень та великих колонок. Більший динамічний діапазон."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.ENVIRONMENT_DESC.steamdeck
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.ENVIRONMENT_DESC.steamdeck"
 msgid "Small speakers like the Steam Deck. Low dynamic range, increased panning."
-msgstr ""
+msgstr "Невеликі динаміки, як у Steam Deck. Низький динамічний діапазон, підвищена панорама."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.ENVIRONMENT_NAME.headphones
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.ENVIRONMENT_NAME.headphones"
@@ -58591,7 +58611,7 @@ msgstr "Пристрій виведення"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.VOLUME.AMBIENCE.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.VOLUME.AMBIENCE.DESC"
 msgid "Adjust the volume of ambient background sounds only."
-msgstr ""
+msgstr "Налаштувати гучність фонових звуків навколишнього середовища."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.VOLUME.AMBIENCE.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.VOLUME.AMBIENCE.NAME"
@@ -58601,12 +58621,12 @@ msgstr "Гучність атмосфери"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.VOLUME.CUTSCENE.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.VOLUME.CUTSCENE.DESC"
 msgid "Adjust the volume of cutscenes (movies) only."
-msgstr ""
+msgstr "Налаштувати гучність заставок (відео)."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.VOLUME.CUTSCENE.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.VOLUME.CUTSCENE.NAME"
 msgid "Cutscene Volume"
-msgstr ""
+msgstr "Гучність заставок"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.VOLUME.MASTER.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.AUDIO.VOLUME.MASTER.DESC"
@@ -58651,7 +58671,7 @@ msgstr "Гучність голосу"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_EDIT_TOUCHCONTROLS.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_EDIT_TOUCHCONTROLS.DESC"
 msgid "Change the layout and behaviour of the touch controls."
-msgstr ""
+msgstr "Зміна розташування та поведінки сенсорних елементів керування."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_EDIT_TOUCHCONTROLS.TITLE
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_EDIT_TOUCHCONTROLS.TITLE"
@@ -58701,7 +58721,7 @@ msgstr "УВІМК"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_VIBRATION.OFF.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_VIBRATION.OFF.DESC"
 msgid "{name_multiple.input_gamepad} will not rumble or vibrate."
-msgstr ""
+msgstr "{Name_multiple.input_gamepad} не гуркочуть і не вібрують."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_VIBRATION.OFF.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_VIBRATION.OFF.NAME"
@@ -58711,7 +58731,7 @@ msgstr "ВИМКНЕНО"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_VIBRATION.ON.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_VIBRATION.ON.DESC"
 msgid "Allow {name_multiple.input_gamepad} to rumble and vibrate."
-msgstr ""
+msgstr "Дозволити {2:{name_multiple.input_gamepad}} гуркотіти та вібрувати."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_VIBRATION.ON.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_VIBRATION.ON.NAME"
@@ -58761,12 +58781,12 @@ msgstr "Скинути налаштування кнопок?"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.RESET_BINDINGS.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.RESET_BINDINGS.DESC"
 msgid "Click to reset {name.input_gamepad} and keyboard input bindings to their default values. This will leave your other settings and progression intact."
-msgstr ""
+msgstr "Натисніть, щоб скинути всі зміни керування {3:{name.input_gamepad}} та клавіатури до стандартних значень. Це залишить ваші інші налаштування та прогрес без змін."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.RESET_BINDINGS.DESC_NX
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.RESET_BINDINGS.DESC_NX"
 msgid "Reset {name.input_gamepad} bindings to their default values. This will leave your other settings and progression intact."
-msgstr ""
+msgstr "Скинути всі зміни керування {3:{name.input_gamepad}} до стандартних значень. Це залишить ваші інші налаштування та прогрес без змін."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.RESET_BINDINGS.NO
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.RESET_BINDINGS.NO"
@@ -58828,12 +58848,12 @@ msgstr "Мова"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.PROFILE_NAME.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.PROFILE_NAME.DESC"
 msgid "Use the {name.concept_username} as player name for all local players."
-msgstr ""
+msgstr "Використовує {name.concept_username} як ім'я гравця для всіх локальних гравців."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.PROFILE_NAME.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.PROFILE_NAME.NAME"
 msgid "{name.concept_username}"
-msgstr ""
+msgstr "{Name.concept_username}"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE"
@@ -58844,7 +58864,8 @@ msgstr "Відображення імені гравця"
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_ALL.DESC"
 msgid "Use selected Title as player name for all local players.\n"
 "Change your Title with the 'Customize Character' mirror in {name.town}."
-msgstr ""
+msgstr "Використовує вибрану кличку як ім'я гравця для всіх локальних гравців.\n"
+"Змініть свою кличку в {3:{name.town}} за допомогою дзеркала 'Налаштувати персонажа'."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_ALL.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_ALL.NAME"
@@ -58855,7 +58876,8 @@ msgstr "Кличка для всіх локальних гравців"
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_SECONDARY.DESC"
 msgid "Use selected Title as player name for all local players, except first player.\n"
 "Change your Title with the 'Customize Character' mirror in {name.town}."
-msgstr ""
+msgstr "Використовує вибрану кличку як ім'я гравця для всіх локальних гравців, окрім вас.\n"
+"Змініть свою кличку в {3:{name.town}} за допомогою дзеркала 'Налаштувати персонажа'."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_SECONDARY.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.PLAYER_NAME.TITLE_FOR_LOCAL_SECONDARY.NAME"
@@ -58974,7 +58996,7 @@ msgstr "Скинути всі налаштування?"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.RESET_SETTINGS_DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.RESET_SETTINGS_DESC"
 msgid "Reset user options to their default values. This will leave your progression and all unlocks intact."
-msgstr ""
+msgstr "Скинути параметри користувача до стандартних значень. Це залишить ваш прогрес і всі розблокування недоторканими."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.RESET_SETTINGS_NO
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.RESET_SETTINGS_NO"
@@ -59044,12 +59066,12 @@ msgstr "Показати авторів"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.VIEW_EULA_DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.VIEW_EULA_DESC"
 msgid "Read the current Rotwood End User License Agreement."
-msgstr ""
+msgstr "Ознайомтеся з чинною ліцензійною угодою з кінцевим користувачем в Rotwood."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.VIEW_EULA_TITLE
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.VIEW_EULA_TITLE"
 msgid "Review the EULA"
-msgstr ""
+msgstr "Переглянути EULA"
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.VIEW_OPEN_SOURCE_CREDITS_DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.OTHER.VIEW_OPEN_SOURCE_CREDITS_DESC"
@@ -59489,12 +59511,12 @@ msgstr "Вільних пристроїв не виявлено."
 #: STRINGS.UI.PAUSEMENU.CONNECT_SIDEBAR.GAMEPAD_LIST_EMPTY_CONSOLE
 msgctxt "STRINGS.UI.PAUSEMENU.CONNECT_SIDEBAR.GAMEPAD_LIST_EMPTY_CONSOLE"
 msgid "No unused {name_multiple.input_generic} detected."
-msgstr ""
+msgstr "Не виявлено невикористаних {2:{name_multiple.input_generic}}."
 
 #: STRINGS.UI.PAUSEMENU.CONNECT_SIDEBAR.INSTRUCTIONS
 msgctxt "STRINGS.UI.PAUSEMENU.CONNECT_SIDEBAR.INSTRUCTIONS"
 msgid "Activate a {name.input_generic} to use for {player_name}:"
-msgstr ""
+msgstr "Активуйте {name.input_generic} для {player_name}:"
 
 #: STRINGS.UI.PAUSEMENU.CONNECT_SIDEBAR.RECONNECT_BTN
 msgctxt "STRINGS.UI.PAUSEMENU.CONNECT_SIDEBAR.RECONNECT_BTN"
@@ -59582,18 +59604,19 @@ msgstr "Вибачте, Мисливцю! Зараз наша команда н�
 #: STRINGS.UI.PAUSEMENU.IMSTUCK.BODY_FEEDBACK
 msgctxt "STRINGS.UI.PAUSEMENU.IMSTUCK.BODY_FEEDBACK"
 msgid "Please <#RED>Write Feedback</> to send us diagnostics that help us to eliminate similar bugs in the future."
-msgstr ""
+msgstr "Будь ласка, <#RED>напишіть відгук</>, щоб надіслати нам діагностичні дані, які допоможуть нам усунути подібні помилки в майбутньому."
 
 #: STRINGS.UI.PAUSEMENU.IMSTUCK.BODY_RELOAD
 msgctxt "STRINGS.UI.PAUSEMENU.IMSTUCK.BODY_RELOAD"
 msgid "To unstick your character, select <#RED>Reload</> below to restart this room and try again.\n\n"
 "Thank you. Your help and patience is appreciated!"
-msgstr ""
+msgstr "Щоб звільнити свого персонажа, виберіть <#RED>перезавантажити</> нижче, щоб перезапустити цю кімнату і спробувати ще раз.\n\n"
+"Дякуємо. Ми цінуємо вашу допомогу і терпіння!"
 
 #: STRINGS.UI.PAUSEMENU.IMSTUCK.BODY_SORRY
 msgctxt "STRINGS.UI.PAUSEMENU.IMSTUCK.BODY_SORRY"
 msgid "Sorry about that, Hunter! Our team is currently working hard to fix these issues."
-msgstr ""
+msgstr "Вибачте, Мисливцю! Наша команда зараз наполегливо працює над розв'язання цих проблем."
 
 #: STRINGS.UI.PAUSEMENU.IMSTUCK.CANCEL
 msgctxt "STRINGS.UI.PAUSEMENU.IMSTUCK.CANCEL"
@@ -59688,7 +59711,7 @@ msgstr "<p img='images/ui_ftf_dialog/convo_close.tex' color=0> Вийти в м�
 #: STRINGS.UI.PAUSEMENU.RETURN_TO_TOWN_BUTTON
 msgctxt "STRINGS.UI.PAUSEMENU.RETURN_TO_TOWN_BUTTON"
 msgid "<p img='images/ui_ftf_dialog/convo_dismiss.tex' color=0> Return to {name.town}"
-msgstr ""
+msgstr "<p img='images/ui_ftf_dialog/convo_dismiss.tex' color=0> Назад до {2:{name.town}}"
 
 #: STRINGS.UI.PAUSEMENU.SAVEANDQUIT
 msgctxt "STRINGS.UI.PAUSEMENU.SAVEANDQUIT"
@@ -59742,7 +59765,7 @@ msgstr "<p img='images/ui_ftf_online/button_add_player.tex' color=0 scale=2.5>\n
 #: STRINGS.UI.PLAYERSSCREEN.ALLOW_TOWN_EDITING
 msgctxt "STRINGS.UI.PLAYERSSCREEN.ALLOW_TOWN_EDITING"
 msgid "Allow {name.town} Editing"
-msgstr ""
+msgstr "Дозволити редагування {2:{name.town}}"
 
 #: STRINGS.UI.PLAYERSSCREEN.BANNED_LIST_EMPTY
 msgctxt "STRINGS.UI.PLAYERSSCREEN.BANNED_LIST_EMPTY"
@@ -59776,7 +59799,8 @@ msgstr "Вже є 4 гравці."
 msgctxt "STRINGS.UI.PLAYERSSCREEN.ERROR_NO_FREE_INPUT_DEVICE"
 msgid "There is no connected {name.input_gamepad}\n"
 "for another player."
-msgstr ""
+msgstr "Немає підключеного {3:{name.input_gamepad}}\n"
+"для іншого гравця."
 
 #: STRINGS.UI.PLAYERSSCREEN.NOTIFICATION_CODE_COPIED_TEXT
 msgctxt "STRINGS.UI.PLAYERSSCREEN.NOTIFICATION_CODE_COPIED_TEXT"
@@ -59856,13 +59880,15 @@ msgstr "<p img='images/ui_ftf_icons/sharecode.tex' color=0 scale=1.2>  Відп�
 msgctxt "STRINGS.UI.PLAYERSSCREEN.STARTGAMESHARE_BUTTON"
 msgid "<p img='images/icons_ftf/ic_gameshare.tex' color=0 scale=2.0>\n\n"
 "Start GameShare"
-msgstr ""
+msgstr "<p img='images/icons_ftf/ic_gameshare.tex' color=0 scale=2.0>\n\n"
+"Почати GameShare"
 
 #: STRINGS.UI.PLAYERSSCREEN.STOPGAMESHARE_BUTTON
 msgctxt "STRINGS.UI.PLAYERSSCREEN.STOPGAMESHARE_BUTTON"
 msgid "<p img='images/icons_ftf/ic_gameshare.tex' color=0 scale=2.0>\n\n"
 "Stop GameShare"
-msgstr ""
+msgstr "<p img='images/icons_ftf/ic_gameshare.tex' color=0 scale=2.0>\n\n"
+"Закінчить GameShare"
 
 #: STRINGS.UI.PLAYERSSCREEN.TAB_BANNED
 msgctxt "STRINGS.UI.PLAYERSSCREEN.TAB_BANNED"
@@ -60031,13 +60057,14 @@ msgstr "<p img='images/ui_ftf_icons/addplayer.tex' color=0 scale=1.2> Додат
 #: STRINGS.UI.PRESSED_START_IN_SINGLE_PLAYER.BTN_CHANGE_INPUT
 msgctxt "STRINGS.UI.PRESSED_START_IN_SINGLE_PLAYER.BTN_CHANGE_INPUT"
 msgid "<p img='images/ui_ftf_icons/changecontroller.tex' color=0 scale=1.3> Switch to new {name.input_generic}"
-msgstr ""
+msgstr "<p img='images/ui_ftf_icons/changecontroller.tex' color=0 scale=1.3> Перейти на новий {name.input_generic}"
 
 #: STRINGS.UI.PRESSED_START_IN_SINGLE_PLAYER.SUBTITLE
 msgctxt "STRINGS.UI.PRESSED_START_IN_SINGLE_PLAYER.SUBTITLE"
 msgid "Want to add a new player on that {name.input_generic},\n"
 "or switch to it yourself?"
-msgstr ""
+msgstr "Бажаєте додати нового гравця на цьому {2:{name.input_generic}},\n"
+"або перемикнутися на нього самостійно?"
 
 #: STRINGS.UI.PRESSED_START_IN_SINGLE_PLAYER.TITLE
 msgctxt "STRINGS.UI.PRESSED_START_IN_SINGLE_PLAYER.TITLE"
@@ -60177,7 +60204,7 @@ msgstr "<p img='images/ui_ftf_icons/exit.tex' scale=1.2 color=0>  Вийти з 
 #: STRINGS.UI.SCRIPTERROR.BTN_QUIT_TO_MENU
 msgctxt "STRINGS.UI.SCRIPTERROR.BTN_QUIT_TO_MENU"
 msgid "<p img='images/ui_ftf_icons/exit.tex' scale=1.2 color=0>  Return to Main Menu"
-msgstr ""
+msgstr "<p img='images/ui_ftf_icons/exit.tex' scale=1.2 color=0>  До головного меню"
 
 #: STRINGS.UI.SCRIPTERROR.BTN_RESTART
 msgctxt "STRINGS.UI.SCRIPTERROR.BTN_RESTART"
@@ -60433,7 +60460,8 @@ msgstr "{Name.concept_relic} максимальна"
 msgctxt "STRINGS.UI.SHOP_ITEM.POWER.LIMIT_REACHED"
 msgid "One {name.concept_relic}\n"
 "Per Hunter"
-msgstr ""
+msgstr "Одна {name.concept_relic}\n"
+"На мисливця"
 
 #: STRINGS.UI.SHOP_ITEM.POWER.NOT_MINE
 msgctxt "STRINGS.UI.SHOP_ITEM.POWER.NOT_MINE"
@@ -61154,43 +61182,50 @@ msgstr "{Name.interact_hold} Скасувати - зняти {item_name}"
 msgctxt "STRINGS.UI.VENDING_MACHINE.WEAPON_LOCKED.BOW"
 msgid "{name_multiple.weapon_bow} Locked\n"
 "(Unlock Weapon Types in {name.town})"
-msgstr ""
+msgstr "{Name_multiple.weapon_bow} заблоковані\n"
+"(Відкрийте цей тип зброї в {3:{name.town}})"
 
 #: STRINGS.UI.VENDING_MACHINE.WEAPON_LOCKED.CANNON
 msgctxt "STRINGS.UI.VENDING_MACHINE.WEAPON_LOCKED.CANNON"
 msgid "{name_multiple.weapon_cannon} Locked\n"
 "(Unlock Weapon Types in {name.town})"
-msgstr ""
+msgstr "{Name_multiple.weapon_cannon} заблоковані\n"
+"(Відкрийте цей тип зброї в {3:{name.town}})"
 
 #: STRINGS.UI.VENDING_MACHINE.WEAPON_LOCKED.GREATSWORD
 msgctxt "STRINGS.UI.VENDING_MACHINE.WEAPON_LOCKED.GREATSWORD"
 msgid "{name_multiple.weapon_greatsword} Locked\n"
 "(Unlock Weapon Types in {name.town})"
-msgstr ""
+msgstr "{Name_multiple.weapon_greatsword} заблоковані\n"
+"(Відкрийте цей тип зброї в {3:{name.town}})"
 
 #: STRINGS.UI.VENDING_MACHINE.WEAPON_LOCKED.HAMMER
 msgctxt "STRINGS.UI.VENDING_MACHINE.WEAPON_LOCKED.HAMMER"
 msgid "{name_multiple.weapon_hammer} Locked\n"
 "(Unlock Weapon Types in {name.town})"
-msgstr ""
+msgstr "{Name_multiple.weapon_hammer} заблоковані\n"
+"(Відкрийте цей тип зброї в {3:{name.town}})"
 
 #: STRINGS.UI.VENDING_MACHINE.WEAPON_LOCKED.POLEARM
 msgctxt "STRINGS.UI.VENDING_MACHINE.WEAPON_LOCKED.POLEARM"
 msgid "{name_multiple.weapon_polearm} Locked\n"
 "(Unlock Weapon Types in {name.town})"
-msgstr ""
+msgstr "{Name_multiple.weapon_polearm} заблоковані\n"
+"(Відкрийте цей тип зброї в {3:{name.town}})"
 
 #: STRINGS.UI.VENDING_MACHINE.WEAPON_LOCKED.PROTOTYPE
 msgctxt "STRINGS.UI.VENDING_MACHINE.WEAPON_LOCKED.PROTOTYPE"
 msgid "{name_multiple.weapon_hammer} Locked\n"
 "(Unlock Weapon Types in {name.town})"
-msgstr ""
+msgstr "{Name_multiple.weapon_hammer} заблоковані\n"
+"(Відкрийте цей тип зброї в {3:{name.town}})"
 
 #: STRINGS.UI.VENDING_MACHINE.WEAPON_LOCKED.SHOTPUT
 msgctxt "STRINGS.UI.VENDING_MACHINE.WEAPON_LOCKED.SHOTPUT"
 msgid "{name_multiple.weapon_shotput} Locked\n"
 "(Unlock Weapon Types in {name.town})"
-msgstr ""
+msgstr "{Name_multiple.weapon_shotput} заблоковані\n"
+"(Відкрийте цей тип зброї в {3:{name.town}})"
 
 #: STRINGS.UI.WAITINGFORPLAYERSSCREEN.WAITING_TEXT
 msgctxt "STRINGS.UI.WAITINGFORPLAYERSSCREEN.WAITING_TEXT"
@@ -61337,7 +61372,7 @@ msgstr "Вагова категорія змінена"
 #: STRINGS.UI.WIRELESS_MENU_WIDGET.HOST_BTN_DESCRIPTION
 msgctxt "STRINGS.UI.WIRELESS_MENU_WIDGET.HOST_BTN_DESCRIPTION"
 msgid "Host a multiplayer game using wireless communication."
-msgstr ""
+msgstr "Організуйте багатокористувацьку гру за допомогою бездротового зв'язку."
 
 #: STRINGS.UI.WIRELESS_MENU_WIDGET.HOST_BTN_TITLE
 msgctxt "STRINGS.UI.WIRELESS_MENU_WIDGET.HOST_BTN_TITLE"
@@ -61352,12 +61387,12 @@ msgstr "Зайти"
 #: STRINGS.UI.WIRELESS_MENU_WIDGET.NO_ROOMS_NEARBY
 msgctxt "STRINGS.UI.WIRELESS_MENU_WIDGET.NO_ROOMS_NEARBY"
 msgid "No rooms found nearby."
-msgstr ""
+msgstr "Кімнати поблизу не знайдено."
 
 #: STRINGS.UI.WIRELESS_MENU_WIDGET.ROOMS_AVAILABLE
 msgctxt "STRINGS.UI.WIRELESS_MENU_WIDGET.ROOMS_AVAILABLE"
 msgid "Rooms Available"
-msgstr ""
+msgstr "Доступні кімнати"
 
 #: STRINGS.UI.WORDPREDICTIONWIDET.DISMISS
 msgctxt "STRINGS.UI.WORDPREDICTIONWIDET.DISMISS"
