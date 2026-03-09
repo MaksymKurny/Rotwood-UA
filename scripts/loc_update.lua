@@ -88,7 +88,7 @@ function LocUpdate:GetLastCommitDate(fn)
 			local lastModified = commit_data[1].commit.author.date
 			fn(lastModified)
 		end
-	end, "HEAD")
+	end, "GET")
 end
 
 function LocUpdate:CheckUpdate()
@@ -108,3 +108,4 @@ function LocUpdate:CheckUpdate()
 end
 
 return LocUpdate
+
