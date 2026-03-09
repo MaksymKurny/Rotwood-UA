@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2026-03-08 08:07\n"
+"PO-Revision-Date: 2026-03-09 08:42\n"
 
 #: Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB
 msgctxt "Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB"
@@ -28610,7 +28610,7 @@ msgstr "Швидкий кухар"
 #: STRINGS.ITEMS.ACHIEVEMENT_MASTERY.ACHIEVEMENT.ach_craft_boss_weapon.desc
 msgctxt "STRINGS.ITEMS.ACHIEVEMENT_MASTERY.ACHIEVEMENT.ach_craft_boss_weapon.desc"
 msgid "Craft any Boss Weapon."
-msgstr "Створіть будь-яку зброю боса."
+msgstr "Створіть будь-яку зброю з боса."
 
 #: STRINGS.ITEMS.ACHIEVEMENT_MASTERY.ACHIEVEMENT.ach_craft_boss_weapon.name
 msgctxt "STRINGS.ITEMS.ACHIEVEMENT_MASTERY.ACHIEVEMENT.ach_craft_boss_weapon.name"
@@ -28720,7 +28720,7 @@ msgstr "Кам'яний фермер"
 #: STRINGS.ITEMS.ACHIEVEMENT_MASTERY.ACHIEVEMENT.ach_gem_max.desc
 msgctxt "STRINGS.ITEMS.ACHIEVEMENT_MASTERY.ACHIEVEMENT.ach_gem_max.desc"
 msgid "Get a gem to max level."
-msgstr "Досягніть максимального рівня самоцвіту."
+msgstr "Отримайте самоцвіт максимального рівня."
 
 #: STRINGS.ITEMS.ACHIEVEMENT_MASTERY.ACHIEVEMENT.ach_gem_max.name
 msgctxt "STRINGS.ITEMS.ACHIEVEMENT_MASTERY.ACHIEVEMENT.ach_gem_max.name"
@@ -28790,7 +28790,7 @@ msgstr "Куратор табору"
 #: STRINGS.ITEMS.ACHIEVEMENT_MASTERY.ACHIEVEMENT.ach_place_npc_plush.desc
 msgctxt "STRINGS.ITEMS.ACHIEVEMENT_MASTERY.ACHIEVEMENT.ach_place_npc_plush.desc"
 msgid "Place a Villager Plushie in Camp."
-msgstr "Поставте плюшеву іграшку селянина у таборі."
+msgstr "Поставте плюшеву іграшку жителя у таборі."
 
 #: STRINGS.ITEMS.ACHIEVEMENT_MASTERY.ACHIEVEMENT.ach_place_npc_plush.name
 msgctxt "STRINGS.ITEMS.ACHIEVEMENT_MASTERY.ACHIEVEMENT.ach_place_npc_plush.name"
@@ -34123,7 +34123,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.gourdo_2.name
 msgctxt "STRINGS.ITEMS.HEAD.gourdo_2.name"
 msgid "{name.gourdo}'s Noggin-Padder {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Пом'якшувач для голови з {Name.gourdo} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.grimhollow.desc
 msgctxt "STRINGS.ITEMS.HEAD.grimhollow.desc"
@@ -34143,7 +34143,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.grimhollow_2.name
 msgctxt "STRINGS.ITEMS.HEAD.grimhollow_2.name"
 msgid "{name.grimhollow} Helm {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Шолом зі {2:{Name.grimhollow}} {name.cosmetic_item_postfix}{name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.groak.desc
 msgctxt "STRINGS.ITEMS.HEAD.groak.desc"
@@ -34163,7 +34163,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.groak_2.name
 msgctxt "STRINGS.ITEMS.HEAD.groak_2.name"
 msgid "{name.groak}'s Best {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Найкраще від {Name.groak}а {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.immorel.desc
 msgctxt "STRINGS.ITEMS.HEAD.immorel.desc"
@@ -34183,7 +34183,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.immorel_2.name
 msgctxt "STRINGS.ITEMS.HEAD.immorel_2.name"
 msgid "{name.immorel} Diadem {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Діадема з {2:{Name.immorel}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.kuma.desc
 msgctxt "STRINGS.ITEMS.HEAD.kuma.desc"
@@ -34213,7 +34213,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.megatreemon_2.name
 msgctxt "STRINGS.ITEMS.HEAD.megatreemon_2.name"
 msgid "{name.megatreemon}'s Avid Circlet {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Обруч з {2:{Name.megatreemon}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.meowl.desc
 msgctxt "STRINGS.ITEMS.HEAD.meowl.desc"
@@ -34233,7 +34233,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.meowl_2.name
 msgctxt "STRINGS.ITEMS.HEAD.meowl_2.name"
 msgid "{name.meowl} Cowl {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Капюшон з {2:{Name.meowl}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.mothball.desc
 msgctxt "STRINGS.ITEMS.HEAD.mothball.desc"
@@ -34253,7 +34253,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.mothball_2.name
 msgctxt "STRINGS.ITEMS.HEAD.mothball_2.name"
 msgid "{name.mothball} Ushanka {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Ушанка з {2:{Name.mothball}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.owlitzer.desc
 msgctxt "STRINGS.ITEMS.HEAD.owlitzer.desc"
@@ -34273,7 +34273,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.owlitzer_2.name
 msgctxt "STRINGS.ITEMS.HEAD.owlitzer_2.name"
 msgid "The Cowlitzer {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Капюшон з Совулаки {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.plumper.desc
 msgctxt "STRINGS.ITEMS.HEAD.plumper.desc"
@@ -34293,7 +34293,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.plumper_2.name
 msgctxt "STRINGS.ITEMS.HEAD.plumper_2.name"
 msgid "{name.plumper} Hood {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Капюшон з {2:{Name.plumper}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.porkyspine.desc
 msgctxt "STRINGS.ITEMS.HEAD.porkyspine.desc"
@@ -34313,7 +34313,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.porkyspine_2.name
 msgctxt "STRINGS.ITEMS.HEAD.porkyspine_2.name"
 msgid "{name.porkyspine} Headband {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Пов'язка з {2:{Name.porkyspine}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.quetz.desc
 msgctxt "STRINGS.ITEMS.HEAD.quetz.desc"
@@ -34333,7 +34333,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.quetz_2.name
 msgctxt "STRINGS.ITEMS.HEAD.quetz_2.name"
 msgid "{name.quetz} Headpiece {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Головний убір з {2:{Name.quetz}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.seeker.desc
 msgctxt "STRINGS.ITEMS.HEAD.seeker.desc"
@@ -34353,7 +34353,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.seeker_2.name
 msgctxt "STRINGS.ITEMS.HEAD.seeker_2.name"
 msgid "{name.seeker} Helm {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Шолом з {Name.seeker}а {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.slowpoke.desc
 msgctxt "STRINGS.ITEMS.HEAD.slowpoke.desc"
@@ -34373,7 +34373,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.slowpoke_2.name
 msgctxt "STRINGS.ITEMS.HEAD.slowpoke_2.name"
 msgid "{name.slowpoke} Helmet {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Шолом з {2:{Name.slowpoke}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.snowfly.desc
 msgctxt "STRINGS.ITEMS.HEAD.snowfly.desc"
@@ -34393,7 +34393,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.snowfly_2.name
 msgctxt "STRINGS.ITEMS.HEAD.snowfly_2.name"
 msgid "{name.snowfly} Goggles {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Окуляри з {2:{Name.snowfly}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.stunk.desc
 msgctxt "STRINGS.ITEMS.HEAD.stunk.desc"
@@ -34413,7 +34413,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.stunk_2.name
 msgctxt "STRINGS.ITEMS.HEAD.stunk_2.name"
 msgid "{name.stunk} Ushanka {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Ушанка з {2:{Name.stunk}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.swarmy.desc
 msgctxt "STRINGS.ITEMS.HEAD.swarmy.desc"
@@ -34433,7 +34433,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.swarmy_2.name
 msgctxt "STRINGS.ITEMS.HEAD.swarmy_2.name"
 msgid "{name.swarmy} Laurels {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Лаври з {2:{Name.swarmy}}"
 
 #: STRINGS.ITEMS.HEAD.thatcher.desc
 msgctxt "STRINGS.ITEMS.HEAD.thatcher.desc"
@@ -34453,7 +34453,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.thatcher_2.name
 msgctxt "STRINGS.ITEMS.HEAD.thatcher_2.name"
 msgid "{name.thatcher}'s Vigilant Visor {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Пильне забрало з {2:{Name.thatcher}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.treemon.desc
 msgctxt "STRINGS.ITEMS.HEAD.treemon.desc"
@@ -34473,7 +34473,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.treemon_2.name
 msgctxt "STRINGS.ITEMS.HEAD.treemon_2.name"
 msgid "Treeara {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Деріара {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.windmon.desc
 msgctxt "STRINGS.ITEMS.HEAD.windmon.desc"
@@ -34493,7 +34493,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.windmon_2.name
 msgctxt "STRINGS.ITEMS.HEAD.windmon_2.name"
 msgid "{name.windmon} Helm {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Шолом з {2:{Name.windmon}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.woworm.desc
 msgctxt "STRINGS.ITEMS.HEAD.woworm.desc"
@@ -34513,7 +34513,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.woworm_2.name
 msgctxt "STRINGS.ITEMS.HEAD.woworm_2.name"
 msgid "{name.woworm} Helmet {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Шолом з {2:{Name.woworm}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.yammo.desc
 msgctxt "STRINGS.ITEMS.HEAD.yammo.desc"
@@ -34533,7 +34533,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.yammo_2.name
 msgctxt "STRINGS.ITEMS.HEAD.yammo_2.name"
 msgid "{name.yammo}'s Noggin-Padder {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Захист для голови з {Name.yammo} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.zucco.desc
 msgctxt "STRINGS.ITEMS.HEAD.zucco.desc"
@@ -34553,7 +34553,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.zucco_2.name
 msgctxt "STRINGS.ITEMS.HEAD.zucco_2.name"
 msgid "{name.zucco}'s Noggin-Padder {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Захист для голови з {Name.zucco} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_1.desc
 msgctxt "STRINGS.ITEMS.HEART_SHARD_MASTERY.HEART_SHARD.heart_shard_bandi_swamp_1.desc"
@@ -35638,7 +35638,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.bandicoot_tail.name
 msgctxt "STRINGS.ITEMS.MATERIALS.bandicoot_tail.name"
 msgid "{name.bandicoot} Tail"
-msgstr "Хвість {2:{Name.bandicoot}}"
+msgstr "Хвіст {2:{Name.bandicoot}}"
 
 #: STRINGS.ITEMS.MATERIALS.bandicoot_wing.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.bandicoot_wing.desc"
@@ -44269,7 +44269,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.antleer_2.name
 msgctxt "STRINGS.ITEMS.WAIST.antleer_2.name"
 msgid "{name.antleer} Hunting Boots {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Мисливські чоботи з {2:{Name.antleer}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.bandicoot.desc
 msgctxt "STRINGS.ITEMS.WAIST.bandicoot.desc"
@@ -44289,7 +44289,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.bandicoot_2.name
 msgctxt "STRINGS.ITEMS.WAIST.bandicoot_2.name"
 msgid "{name.bandicoot}'s Blue Suede Boots {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Сині замшеві чоботи {2:{Name.bandicoot}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.basic.desc
 msgctxt "STRINGS.ITEMS.WAIST.basic.desc"
@@ -44309,7 +44309,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.basic_2.name
 msgctxt "STRINGS.ITEMS.WAIST.basic_2.name"
 msgid "Basic Leggings {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Звичайні легінси {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.battoad.desc
 msgctxt "STRINGS.ITEMS.WAIST.battoad.desc"
@@ -44329,7 +44329,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.battoad_2.name
 msgctxt "STRINGS.ITEMS.WAIST.battoad_2.name"
 msgid "{name.battoad} Legs {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Штани з {2:{Name.battoad}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.blarmadillo.desc
 msgctxt "STRINGS.ITEMS.WAIST.blarmadillo.desc"
@@ -44349,7 +44349,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.blarmadillo_2.name
 msgctxt "STRINGS.ITEMS.WAIST.blarmadillo_2.name"
 msgid "{name.blarmadillo} Trunks {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Штани з {Name.blarmadillo} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.bonejaw.desc
 msgctxt "STRINGS.ITEMS.WAIST.bonejaw.desc"
@@ -44369,7 +44369,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.bonejaw_2.name
 msgctxt "STRINGS.ITEMS.WAIST.bonejaw_2.name"
 msgid "{name.bonejaw} Jawbelt {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Пояс з {2:{Name.bonejaw}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.bulbug.desc
 msgctxt "STRINGS.ITEMS.WAIST.bulbug.desc"
@@ -44389,7 +44389,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.bulbug_2.name
 msgctxt "STRINGS.ITEMS.WAIST.bulbug_2.name"
 msgid "{name.bulbug} Tarsi {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Поножи з {2:{Name.bulbug}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.cabbageroll.desc
 msgctxt "STRINGS.ITEMS.WAIST.cabbageroll.desc"
@@ -44409,7 +44409,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.cabbageroll_2.name
 msgctxt "STRINGS.ITEMS.WAIST.cabbageroll_2.name"
 msgid "{name.cabbageroll} Sash {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Саш з {2:{Name.cabbageroll}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.crystroll.desc
 msgctxt "STRINGS.ITEMS.WAIST.crystroll.desc"
@@ -44429,7 +44429,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.crystroll_2.name
 msgctxt "STRINGS.ITEMS.WAIST.crystroll_2.name"
 msgid "{name.crystroll} Greaves {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Наголінники з {2:{Name.crystroll}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.eggbert.desc
 msgctxt "STRINGS.ITEMS.WAIST.eggbert.desc"
@@ -44449,7 +44449,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.eggbert_2.name
 msgctxt "STRINGS.ITEMS.WAIST.eggbert_2.name"
 msgid "{name.eggbert} Briefs {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "{name.eggbert} Briefs {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.eggzy.desc
 msgctxt "STRINGS.ITEMS.WAIST.eggzy.desc"
@@ -44469,7 +44469,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.eggzy_2.name
 msgctxt "STRINGS.ITEMS.WAIST.eggzy_2.name"
 msgid "{name.eggzy}'s Birds-Eye Britches {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Пташине око {2:{Name.eggzy}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.embison.desc
 msgctxt "STRINGS.ITEMS.WAIST.embison.desc"
@@ -44489,7 +44489,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.embison_2.name
 msgctxt "STRINGS.ITEMS.WAIST.embison_2.name"
 msgid "{name.embison} Laced Boots {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Шнуровані черевики з {2:{Name.embison}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.empty.desc
 msgctxt "STRINGS.ITEMS.WAIST.empty.desc"
@@ -44519,7 +44519,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.eyev_2.name
 msgctxt "STRINGS.ITEMS.WAIST.eyev_2.name"
 msgid "{name.eyev} Twine Cinch {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Зав'язка бантиком з {Name.eyev}а {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.floracrane.desc
 msgctxt "STRINGS.ITEMS.WAIST.floracrane.desc"
@@ -44539,7 +44539,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.floracrane_2.name
 msgctxt "STRINGS.ITEMS.WAIST.floracrane_2.name"
 msgid "{name.floracrane} Skirt {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Спідниця з {2:{Name.floracrane}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.fungoons.desc
 msgctxt "STRINGS.ITEMS.WAIST.fungoons.desc"
@@ -44559,7 +44559,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.fungoons_2.name
 msgctxt "STRINGS.ITEMS.WAIST.fungoons_2.name"
 msgid "{name.fungoons_generic} Trousers {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Штани з {2:{Name.fungoons_generic}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.funguile.desc
 msgctxt "STRINGS.ITEMS.WAIST.funguile.desc"
@@ -44579,7 +44579,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.funguile_2.name
 msgctxt "STRINGS.ITEMS.WAIST.funguile_2.name"
 msgid "{name.funguile} Sailor Slacks {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Моряцькі штани з {2:{Name.funguile}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.glorabelle.desc
 msgctxt "STRINGS.ITEMS.WAIST.glorabelle.desc"
@@ -44609,7 +44609,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.gnarlic_2.name
 msgctxt "STRINGS.ITEMS.WAIST.gnarlic_2.name"
 msgid "{name.gnarlic} Bulb Shorts {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Шаровари з {2:{Name.gnarlic}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.gourdo.desc
 msgctxt "STRINGS.ITEMS.WAIST.gourdo.desc"
@@ -44629,7 +44629,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.gourdo_2.name
 msgctxt "STRINGS.ITEMS.WAIST.gourdo_2.name"
 msgid "{name.gourdo} Elasti-Shorts {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Еластичні шорти з {Name.gourdo}"
 
 #: STRINGS.ITEMS.WAIST.grimhollow.desc
 msgctxt "STRINGS.ITEMS.WAIST.grimhollow.desc"
@@ -44649,7 +44649,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.grimhollow_2.name
 msgctxt "STRINGS.ITEMS.WAIST.grimhollow_2.name"
 msgid "{name.grimhollow} Faulds {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Фолди зі {2:{Name.grimhollow}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.groak.desc
 msgctxt "STRINGS.ITEMS.WAIST.groak.desc"
@@ -44669,7 +44669,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.groak_2.name
 msgctxt "STRINGS.ITEMS.WAIST.groak_2.name"
 msgid "{name.groak} Drippings {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Залишки {Name.groak}а {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.immorel.desc
 msgctxt "STRINGS.ITEMS.WAIST.immorel.desc"
@@ -44689,7 +44689,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.immorel_2.name
 msgctxt "STRINGS.ITEMS.WAIST.immorel_2.name"
 msgid "{name.immorel} Trunk Hose {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Трубчаті штани з {2:{Name.immorel}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.kuma.desc
 msgctxt "STRINGS.ITEMS.WAIST.kuma.desc"
@@ -44709,7 +44709,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.megatreemon.name
 msgctxt "STRINGS.ITEMS.WAIST.megatreemon.name"
 msgid "{name.megatreemon}'s Bark-Kilt"
-msgstr "Барк-Кілт з {2:{Name.megatreemon}}"
+msgstr "Кілт з кори {2:{Name.megatreemon}}"
 
 #: STRINGS.ITEMS.WAIST.megatreemon_2.desc
 msgctxt "STRINGS.ITEMS.WAIST.megatreemon_2.desc"
@@ -44719,7 +44719,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.megatreemon_2.name
 msgctxt "STRINGS.ITEMS.WAIST.megatreemon_2.name"
 msgid "{name.megatreemon}'s Bark-Kilt {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Кілт з кори {2:{Name.megatreemon}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.meowl.desc
 msgctxt "STRINGS.ITEMS.WAIST.meowl.desc"
@@ -44739,7 +44739,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.meowl_2.name
 msgctxt "STRINGS.ITEMS.WAIST.meowl_2.name"
 msgid "{name.meowl} Booties {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Пінетки з {2:{Name.meowl}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.mothball.desc
 msgctxt "STRINGS.ITEMS.WAIST.mothball.desc"
@@ -44759,7 +44759,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.mothball_2.name
 msgctxt "STRINGS.ITEMS.WAIST.mothball_2.name"
 msgid "{name.mothball} Fur Leggings {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Хутряні легінси з {2:{Name.mothball}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.owlitzer.desc
 msgctxt "STRINGS.ITEMS.WAIST.owlitzer.desc"
@@ -44779,7 +44779,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.owlitzer_2.name
 msgctxt "STRINGS.ITEMS.WAIST.owlitzer_2.name"
 msgid "{name.owlitzer}'s Shearling Britches {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Штани з овечої шкури {3:{Name.owlitzer}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.plumper.desc
 msgctxt "STRINGS.ITEMS.WAIST.plumper.desc"
@@ -44799,7 +44799,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.plumper_2.name
 msgctxt "STRINGS.ITEMS.WAIST.plumper_2.name"
 msgid "{name.plumper} Puffy Skirt {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Пишна спідниця з {2:{Name.plumper}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.porkyspine.desc
 msgctxt "STRINGS.ITEMS.WAIST.porkyspine.desc"
@@ -44819,7 +44819,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.porkyspine_2.name
 msgctxt "STRINGS.ITEMS.WAIST.porkyspine_2.name"
 msgid "{name.porkyspine} Cloven Booties {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Чобітки з копит {2:{Name.porkyspine}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.quetz.desc
 msgctxt "STRINGS.ITEMS.WAIST.quetz.desc"
@@ -44839,7 +44839,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.quetz_2.name
 msgctxt "STRINGS.ITEMS.WAIST.quetz_2.name"
 msgid "{name.quetz} Waist Guard {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Захист на пояс з {2:{Name.quetz}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.seeker.desc
 msgctxt "STRINGS.ITEMS.WAIST.seeker.desc"
@@ -44859,7 +44859,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.seeker_2.name
 msgctxt "STRINGS.ITEMS.WAIST.seeker_2.name"
 msgid "{name.seeker} WAIST {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Пояс з {Name.seeker}а {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.slowpoke.desc
 msgctxt "STRINGS.ITEMS.WAIST.slowpoke.desc"
@@ -44879,7 +44879,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.slowpoke_2.name
 msgctxt "STRINGS.ITEMS.WAIST.slowpoke_2.name"
 msgid "{name.slowpoke} Boots {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "Черевики з {2:{Name.slowpoke}} {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.snowfly.desc
 msgctxt "STRINGS.ITEMS.WAIST.snowfly.desc"
