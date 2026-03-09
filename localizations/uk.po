@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2026-03-09 22:28\n"
+"PO-Revision-Date: 2026-03-09 22:55\n"
 
 #: Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB
 msgctxt "Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB"
@@ -8756,7 +8756,41 @@ msgid "agent:\n"
 " !closedeyes\n"
 " ...I s'pose I let me wits dull a bit over time. A mistake.\n"
 " Hmph. S'enough chat fer now."
-msgstr ""
+msgstr "agent:\n"
+"  !neutral\n"
+"  !gesture\n"
+"  Мисливцю... Чому ви все це робите?\n"
+"player:\n"
+"  Що, тобі не подобаються круті сувеніри з моїх пригод?\n"
+"agent:\n"
+"  !neutral\n"
+"  !think\n"
+"  А чого ви сподіваєтесь цим досягти? З тими, з ким я працював в <#BLUE>Брінкс</>, всі мали подвійне дно.\n"
+"player:\n"
+"  Е-е... з яким 'типом' ти водився?\n"
+"agent:\n"
+"  !neutral\n"
+"  !think\n"
+"  До того, як приєднався до <i>цієї</> веселої компанії? Хм... Думаю, не буде шкоди, якщо скажу...\n"
+"  !gesture\n"
+"  Я був у Гільдії ковалів. Якщо хочеш мати кузню в <#BLUE>Брінкс</>, це практично обов'язково.\n"
+"  !gruffnod\n"
+"  Гільдія піклується про своїх. Якщо в когось виникає 'проблема', Гільдія її... 'вирішує'.\n"
+"  !point\n"
+"  Але завжди треба платити внески. Якщо ні — можеш <i>сам</> стати 'проблемою'.\n"
+"player:\n"
+"  Звучить моторошно...\n"
+"agent:\n"
+"  !neutral\n"
+"  !point\n"
+"  Вони, звісно, груба компанія. Але якщо маєш розум, щоб тримати голову низько і нікому не довіряти — проживеш.\n"
+"player:\n"
+"  То чому ти пішов?\n"
+"agent:\n"
+"  !neutral\n"
+"  !closedeyes\n"
+"  ...Гадаю, з часом я розслабився й втратив пильність. Помилка.\n"
+"  Гмпф. Досить балачок на сьогодні."
 
 #: Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT5.give_gift.giver.STATE_0.GIVE_GIFT
 msgctxt "Convo.twn_friend_give_gift_blacksmith.FRIEND_GIFT5.give_gift.giver.STATE_0.GIVE_GIFT"
@@ -24747,118 +24781,119 @@ msgstr ""
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]confused.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]confused.1"
 msgid "Oh, do you think you need more Heartstones? Sure, I suppose..."
-msgstr ""
+msgstr "О, думаєте, вам потрібно більше кам'яних сердець? Гаразд, мабуть..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]confused.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]confused.2"
 msgid "You aren't scared, are you?"
-msgstr ""
+msgstr "Ви ж не боїтеся, правда?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]confused.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]confused.3"
 msgid "He's not making it easy on you, is he? Is it 'he' or 'they'?"
-msgstr ""
+msgstr "Він не полегшує вам завдання, чи не так? Це 'він' чи 'вони'?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]motivational.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]motivational.1"
 msgid "It's okay, Hunter. It's good to know when to step back and regroup."
-msgstr ""
+msgstr "Усе гаразд, Мисливцю. Добре знати, коли варто відступити й перегрупуватися."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]motivational.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]motivational.2"
 msgid "It's a tough fight so I get it. We'll come back stronger!"
-msgstr ""
+msgstr "Бій непростий, тож я розумію. Ми повернемося сильнішими!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]motivational.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]motivational.3"
 msgid "It's okay. We've got time, Hunter. Though not much..."
-msgstr ""
+msgstr "Усе гаразд. У нас ще є час, Мисливцю. Хоч і небагато..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]sad.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]sad.1"
 msgid "I... I need a minute too, Hunter."
-msgstr ""
+msgstr "Мені... мені теж потрібна хвилина, Мисливцю."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]sad.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]sad.2"
 msgid "I can't stand seeing him like that either..."
-msgstr ""
+msgstr "Я теж не можу дивитися на нього таким..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]sad.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]sad.3"
 msgid "Let's pull ourselves together back at camp, hm? (sniffle)"
-msgstr ""
+msgstr "Зберімось з думками в таборі, га? (шморгає)"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]skeptical.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]skeptical.1"
 msgid "Okay, recharge at camp but we have to stop him and the Second Eruption."
-msgstr ""
+msgstr "Добре, відновіться в таборі, але нам потрібно зупинити його і Друге Виверження."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]skeptical.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]skeptical.2"
 msgid "I think you could've clinched it, Hunter, but... okay. Let's go."
-msgstr ""
+msgstr "Думаю, ви могли б дотиснути, Мисливцю, але... гаразд. Ходімо."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]skeptical.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,in_end_boss,tefframech]skeptical.3"
 msgid "We're leaving? Um, okay. We'll regroup, but so will he--er, they."
-msgstr ""
+msgstr "Ми йдемо? Гаразд. Ми перегрупуємося, але він... вони теж."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,tefframech]NOT[any_super_frenzy,in_end_boss]confused.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,tefframech]NOT[any_super_frenzy,in_end_boss]confused.1"
 msgid "Are you feeling okay? You weren't mowing enemies down like usual..."
-msgstr ""
+msgstr "Ви добре почуваєтесь? Ви не косили ворогів, як зазвичай..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,tefframech]NOT[any_super_frenzy,in_end_boss]confused.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,tefframech]NOT[any_super_frenzy,in_end_boss]confused.2"
 msgid "Have Hamish do an equipment check. Something felt off, there."
-msgstr ""
+msgstr "Нехай Гаміш перевірить спорядження. Там щось було не так."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,tefframech]NOT[any_super_frenzy,in_end_boss]confused.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,tefframech]NOT[any_super_frenzy,in_end_boss]confused.3"
 msgid "You felt that too, Hunter? That things weren't going quite right?"
-msgstr ""
+msgstr "Ви теж це відчули, Мисливцю? Наче щось пішло не так?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,tefframech]NOT[any_super_frenzy,in_end_boss]motivational.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,tefframech]NOT[any_super_frenzy,in_end_boss]motivational.1"
 msgid "No problem, Hunter. I'll book it back to Camp."
-msgstr ""
+msgstr "Без проблем, Мисливцю. Я миттю повернуся до табору."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,tefframech]NOT[any_super_frenzy,in_end_boss]motivational.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,tefframech]NOT[any_super_frenzy,in_end_boss]motivational.2"
 msgid "I'm sure abandoning this run is all part of your master plan, huh?"
-msgstr ""
+msgstr "Я впевнений, що покинути цей забіг - частина вашого геніального плану, так?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,tefframech]NOT[any_super_frenzy,in_end_boss]motivational.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,tefframech]NOT[any_super_frenzy,in_end_boss]motivational.3"
 msgid "A tactical retreat! Grandpa never saw THIS coming! (Neither did I...)"
-msgstr ""
+msgstr "Тактичний відступ! Дідусь такого ТОЧНО не очікував! (Як і я...)"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,tefframech]NOT[any_super_frenzy,in_end_boss]skeptical.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,tefframech]NOT[any_super_frenzy,in_end_boss]skeptical.1"
 msgid "Oh, you want to leave now? Like, now-now? Um, okay, Hunter."
-msgstr ""
+msgstr "О, ви хочете піти просто зараз? Тобто прямо зараз-зараз? Ем, гаразд, Мисливцю."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,tefframech]NOT[any_super_frenzy,in_end_boss]skeptical.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,tefframech]NOT[any_super_frenzy,in_end_boss]skeptical.2"
 msgid "Leaving mid-saving-the-world? I guess we can come back."
-msgstr ""
+msgstr "Йти посеред порятунку світу? Гадаю, ми можемо повернутися пізніше."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,tefframech]NOT[any_super_frenzy,in_end_boss]skeptical.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned,tefframech]NOT[any_super_frenzy,in_end_boss]skeptical.3"
 msgid "The Second Eruption feels imminent, but okay, let's circle back."
-msgstr ""
+msgstr "Друге Виверження вже майже почалося, але гаразд, повернімося."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned]confused.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned]confused.1"
 msgid "Did you forget something at camp?"
-msgstr ""
+msgstr "Ви щось забули в таборі?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned]confused.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned]confused.2"
 msgid "Did you leave the iron on? \n"
 "...Do we even have an iron?"
-msgstr ""
+msgstr "Ви залишили праску увімкненою?\n"
+"...У нас хоч праска є?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned]confused.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned]confused.3"
@@ -24868,7 +24903,7 @@ msgstr "Здали нерви?"
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned]confused.4
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned]confused.4"
 msgid "Let's get you back to camp."
-msgstr ""
+msgstr "Повернімо вас до табору."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned]motivational.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned]motivational.1"
@@ -24900,7 +24935,7 @@ msgstr "Ви дуже хоробро підібрали хвоста, Мисли
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned]motivational.6
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned]motivational.6"
 msgid "Next stop--home!"
-msgstr ""
+msgstr "Наступна зупинка... дім!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned]motivational.7
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[abandoned]motivational.7"
@@ -24930,17 +24965,17 @@ msgstr "Не падайте духом. Ви пройшли половину п�
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[any_frenzy,got_loot_volcanokey1,won]motivational.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[any_frenzy,got_loot_volcanokey1,won]motivational.1"
 msgid "Lab Key Fragment number one, in the bag--literally!"
-msgstr ""
+msgstr "Фрагмент ключа від лабораторії номер один, у сумці... буквально!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[any_frenzy,got_loot_volcanokey2,won]motivational.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[any_frenzy,got_loot_volcanokey2,won]motivational.1"
 msgid "That's two Key Fragments down. Just one left. We can do this."
-msgstr ""
+msgstr "Уже два фрагменти ключа. Залишився ще один. Ми впораємося."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[any_frenzy,got_loot_volcanokey3,won]motivational.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[any_frenzy,got_loot_volcanokey3,won]motivational.1"
 msgid "That's all three Key Fragments! Let's regroup at Camp before facing Grandpa..."
-msgstr ""
+msgstr "Усі три фрагменти ключа! Перегрупуймось в таборі перед тим, як зустрітися з Дідусем..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[bandicoot,in_end_boss,lost]confused.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[bandicoot,in_end_boss,lost]confused.1"
@@ -25366,7 +25401,7 @@ msgstr "Т-ти наступного разу впораєшся з тією т�
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]confused.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]confused.1"
 msgid "Phew--it's going to take weeks to air that smell out of the {name.i_damselfly}..."
-msgstr ""
+msgstr "Фух... Потрібно буде кілька тижнів, щоб вивітрити цей запах з {2:{Name.i_damselfly}}..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]confused.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]confused.2"
@@ -25386,7 +25421,7 @@ msgstr "Який злющий старий дідуган!"
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]motivational.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]motivational.1"
 msgid "Whew--looks like I grabbed you just in time!"
-msgstr ""
+msgstr "Уф... здається, я встиг вас вчасно схопити!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]motivational.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]motivational.2"
@@ -25396,7 +25431,7 @@ msgstr "Ми ще повернемося, щоб битися знову!"
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]nervous.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]nervous.1"
 msgid "Cut it a little close there--are you okay, Hunter?"
-msgstr ""
+msgstr "Було трохи небезпечно... ви в порядку, Мисливцю?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]sad.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[gnarlic,in_bossbattle,lost]sad.1"
@@ -25491,7 +25526,7 @@ msgstr "Слідкуйте за корінням – вони можуть пі�
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[grimhollow,won]NOT[pf_met_npc_refiner,wf_town_has_refiner]confusedhuntprogress_found_lottie.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[grimhollow,won]NOT[pf_met_npc_refiner,wf_town_has_refiner]confusedhuntprogress_found_lottie.1"
 msgid "Th-that's not Grandpa! Who is <i>she?</>"
-msgstr ""
+msgstr "Ц-це не Дідусь! Хто <i>вона?</>"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[groak,in_bossbattle,lost]nervous.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[groak,in_bossbattle,lost]nervous.1"
@@ -25647,7 +25682,7 @@ msgstr "Схоже, наше полювання закінчується тро�
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_early_hunt,lost]confused.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_early_hunt,lost]confused.1"
 msgid "H-Hunter? You okay? Do you know where you are?"
-msgstr ""
+msgstr "М-Мисливцю? Ви в порядку? Ви знаєте, де ви?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_early_hunt,lost]frustrated.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_early_hunt,lost]frustrated.1"
@@ -25856,95 +25891,98 @@ msgstr "Він сильний, але рухається повільно. Я з
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]confused.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]confused.1"
 msgid "H-How can it move that fast?"
-msgstr ""
+msgstr "Я-як воно може рухатися так швидко?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]confused.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]confused.2"
 msgid "I-I thought there'd be some piece of Grandpa still in there...\n"
 "Could I have been wrong?"
-msgstr ""
+msgstr "Я... я думав, що там залишилася хоч якась частинка Дідуся...\n"
+" Невже я помилявся?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]confused.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]confused.3"
 msgid "Primeval Teffra's power shouldn't even be <i>theoretically</> possible!"
-msgstr ""
+msgstr "Сила Первісного Конжуру навіть <i>теоретично</> не повинна бути можливою!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]frustrated.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]frustrated.1"
 msgid "Dang it! It just won't let up!"
-msgstr ""
+msgstr "Чорт! Воно просто не зупиняється!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]frustrated.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]frustrated.2"
 msgid "This Primeval Teffra being is relentless!"
-msgstr ""
+msgstr "Це створіння Первісного Конжуру невпинне!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]frustrated.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]frustrated.3"
 msgid "It's not holding back, Hunter. You can't either!\n"
 "Even for my Grandpa's sake..."
-msgstr ""
+msgstr "Воно не стримується, Мисливцю. І ви теж не можете!\n"
+"Навіть заради мого Дідуся..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]motivational.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]motivational.1"
 msgid "Let's get out of here! There's time yet to recoup and then stop the Second Eruption."
-msgstr ""
+msgstr "Забираймося звідси! Ще є час оговтатися, а тоді зупинити Друге Виверження."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]motivational.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]motivational.2"
 msgid "Stay with me, Hunter! We've seen his moves. We'll beat him yet."
-msgstr ""
+msgstr "Тримайтеся, Мисливцю! Ми вже бачили його прийоми. Ми ще переможемо."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]motivational.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]motivational.3"
 msgid "Whatever's got a hold of Grandpa, we'll send it packing. I just know it."
-msgstr ""
+msgstr "Що б не захопило мого Дідуся, ми це проженемо. Я впевнений."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]nervous.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]nervous.1"
 msgid "Careful, Hunter! We can't risk losing you to him, er--it. Whatever it is."
-msgstr ""
+msgstr "Обережно, Мисливцю! Ми не можемо ризикувати втратити вас через нього... е-е... це. Що б це не було."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]nervous.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]nervous.2"
 msgid "THAT'S Primeval Teffra?? I-it's terrifying..."
-msgstr ""
+msgstr "ЦЕ і є Первісний Конжур?? В-воно жахає..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]nervous.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]nervous.3"
 msgid "Got you--barely! If it wins, it's the end of everything..."
-msgstr ""
+msgstr "Ухопив вас... ледве! Якщо воно переможе, це буде кінець усьому..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]sad.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]sad.1"
 msgid "I know that's not my Grandpa in there...\n"
 "It <i>can't</> be."
-msgstr ""
+msgstr "Я знаю, що це не мій Дідусь...\n"
+"Це <i>не може</> бути він."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]sad.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]sad.2"
 msgid "I-I'm sure he wouldn't kill you... All the same, I'm glad I got you out of there."
-msgstr ""
+msgstr "Я... я впевнений, що він би не вбив вас... У будь-якому разі, я радий, що витягнув вас звідти."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]sad.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]sad.3"
 msgid "It's so hard to see him like that--taken over by that... that <i>THING.</>"
-msgstr ""
+msgstr "Так важко бачити його таким... захопленим тією... тією <i>РІЧЧЮ.</>"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]skeptical.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]skeptical.1"
 msgid "I can't believe the Source of Teffra is alive--and that it's so mean!"
-msgstr ""
+msgstr "Не можу повірити, що джерело конжуру живе — і що воно таке зле!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]skeptical.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]skeptical.2"
 msgid "The Source of Teffra should be more powerful. Could Grandpa be holding it back, somehow...?"
-msgstr ""
+msgstr "Джерело конжуру мало б бути сильнішим. Може, Дідусь якось його стримує...?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]skeptical.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,tefframech]skeptical.3"
 msgid "I think our 'impurities' weakened the Primeval Teffra... I think we can beat it!"
-msgstr ""
+msgstr "Думаю, наші 'домішки' послабили Первісний Конжур... Думаю, ми можемо його перемогти!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,thatcher]motivational.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[in_end_boss,lost,thatcher]motivational.1"
@@ -25969,62 +26007,62 @@ msgstr "Ця істота... намагалася з вами поговорит
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[lost,tefframech]NOT[any_super_frenzy,in_end_boss]frustrated.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[lost,tefframech]NOT[any_super_frenzy,in_end_boss]frustrated.1"
 msgid "Darn it! How has Grandpa made them so tough?"
-msgstr ""
+msgstr "Чорт! Як Дідусь зробив їх такими міцними?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[lost,tefframech]NOT[any_super_frenzy,in_end_boss]frustrated.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[lost,tefframech]NOT[any_super_frenzy,in_end_boss]frustrated.2"
 msgid "Grandpa upgraded the Rot? He should be on our side..."
-msgstr ""
+msgstr "Дідусь покращив гнильців? Він же мав бути на нашому боці..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[lost,tefframech]NOT[any_super_frenzy,in_end_boss]frustrated.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[lost,tefframech]NOT[any_super_frenzy,in_end_boss]frustrated.3"
 msgid "These Rot-Bots are so strong!"
-msgstr ""
+msgstr "Ці гнильботи такі сильні!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[lost,tefframech]NOT[any_super_frenzy,in_end_boss]sad.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[lost,tefframech]NOT[any_super_frenzy,in_end_boss]sad.1"
 msgid "Hang on, Hunter! We'll be back at camp in no time!"
-msgstr ""
+msgstr "Тримайтеся, Мисливцю! Ми вже скоро будемо в таборі!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[lost,tefframech]NOT[any_super_frenzy,in_end_boss]sad.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[lost,tefframech]NOT[any_super_frenzy,in_end_boss]sad.2"
 msgid "I've got you! Don't quit on me now, Hunter!"
-msgstr ""
+msgstr "Я вас тримаю! Не здавайтеся зараз, Мисливцю!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[lost,tefframech]NOT[any_super_frenzy,in_end_boss]sad.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[lost,tefframech]NOT[any_super_frenzy,in_end_boss]sad.3"
 msgid "We won't lose you, Hunter! Not like this!"
-msgstr ""
+msgstr "Ми вас не втратимо, Мисливцю! Не так!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[lost,tefframech]NOT[any_super_frenzy,in_end_boss]skeptical.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[lost,tefframech]NOT[any_super_frenzy,in_end_boss]skeptical.1"
 msgid "You might need a just bit more power... Let's go find some Heartstones!"
-msgstr ""
+msgstr "Можливо, вам потрібно ще трохи сили... Ходімо пошукаємо кам'яні серця!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[lost,tefframech]NOT[any_super_frenzy,in_end_boss]skeptical.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[lost,tefframech]NOT[any_super_frenzy,in_end_boss]skeptical.2"
 msgid "Did you see? More Rot that are part-machine like Grimhollow..."
-msgstr ""
+msgstr "Бачили? Ще більше гнилі, частково машинної, як Зловісна порожнеча..."
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[lost,tefframech]NOT[any_super_frenzy,in_end_boss]skeptical.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[lost,tefframech]NOT[any_super_frenzy,in_end_boss]skeptical.3"
 msgid "How did they beat you?? We need to get you more power!"
-msgstr ""
+msgstr "Як вони змогли вас перемогти?? Нам треба зробити вас сильнішим!"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[tefframech,won]skeptical.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[tefframech,won]skeptical.1"
 msgid "You're a hero, Hunter! I just wish my Grandpa hadn't fled. Where did he go?"
-msgstr ""
+msgstr "Ви герой, Мисливцю! Шкода лише, що мій Дідусь утік. Куди він подівся?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[tefframech,won]skeptical.2
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[tefframech,won]skeptical.2"
 msgid "You saved us from the Second Eruption! But... <i>was</> my Grandpa too far gone?"
-msgstr ""
+msgstr "Ви врятували нас від Другого Виверження! Але... <i>чи</> мій Дідусь уже був безповоротно втрачений?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[tefframech,won]skeptical.3
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[tefframech,won]skeptical.3"
 msgid "Hunter! You saved the Rotwood! My Grandpa, though... didn't he want to be saved, too?"
-msgstr ""
+msgstr "Мисливцю! Ви врятували Ротвуд! Але мій Дідусь... хіба він теж не хотів, щоб його врятували?"
 
 #: Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[won]motivational.1
 msgctxt "Quip.dgn_huntprogress_quips.QUIP.huntprogressscreen:[won]motivational.1"
