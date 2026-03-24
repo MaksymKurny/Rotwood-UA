@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2026-03-20 18:30\n"
+"PO-Revision-Date: 2026-03-24 19:05\n"
 
 #: Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB
 msgctxt "Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB"
@@ -12684,7 +12684,7 @@ msgstr ""
 #: Convo.wrld_game_intro_sequence.CHAT_DUNGEON0.game_intro.giver.STATE_0.QUESTION_FOXTAILS
 msgctxt "Convo.wrld_game_intro_sequence.CHAT_DUNGEON0.game_intro.giver.STATE_0.QUESTION_FOXTAILS"
 msgid "{name_multiple.foxtails}!"
-msgstr ""
+msgstr "{Name_multiple.foxtails}!"
 
 #: Convo.wrld_game_intro_sequence.CHAT_DUNGEON0.game_intro.giver.STATE_0.QUESTION_ONTHREE
 msgctxt "Convo.wrld_game_intro_sequence.CHAT_DUNGEON0.game_intro.giver.STATE_0.QUESTION_ONTHREE"
@@ -25216,7 +25216,11 @@ msgid "!neutral\n"
 " <i>Am</> I here? Or have I just <i>dreamt</> of being here? He. He. He.\n"
 " !gesture\n"
 " <i>*(She holds out her hand. It is emptiness)*</>"
-msgstr ""
+msgstr "!neutral\n"
+" !shrug\n"
+" Я <i>тут?</> Чи це мені просто <i>приснилося</>, що я тут? Хе. Хе. Хе.\n"
+" !gesture\n"
+" <i>*(Вона простягає руку. Там - порожньо)*</>"
 
 #: Quest.twn_welcome_to_town_refiner.QUIP.unrescued_nonsense:[in_quest_twn_welcome_to_town_refiner,role_refiner].2
 msgctxt "Quest.twn_welcome_to_town_refiner.QUIP.unrescued_nonsense:[in_quest_twn_welcome_to_town_refiner,role_refiner].2"
