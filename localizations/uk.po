@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2026-03-25 19:04\n"
+"PO-Revision-Date: 2026-04-08 12:52\n"
 
 #: Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB
 msgctxt "Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB"
@@ -545,17 +545,20 @@ msgid "agent:\n"
 " !neutral [keep-for-room]\n"
 " !point\n"
 " To <#BLUE>{name.grimhollow_volcano}</>, then! Hold on, <#BLUE>Grandpa</>!"
-msgstr ""
+msgstr "agent:\n"
+" !neutral [keep-for-room]\n"
+" !point\n"
+" Тоді - до <#BLUE>{2:{Name.grimhollow_volcano}}</>! Тримайся, <#BLUE>дідусю</>!"
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.QUESTION_JOURNAL
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.QUESTION_JOURNAL"
 msgid "<#RED>[Give {name.npc_scout} the Diary Page]</> That {name.rot_boss} dropped another of your Grandpa's Diary Pages."
-msgstr ""
+msgstr "<#RED>[Дати {2:{Name.npc_scout}} сторінку щоденника]</> Той {name.rot_boss} впустив ще одну сторінку щоденника вашого дідуся."
 
 #: Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.QUESTION_SAVEGRANDPA
 msgctxt "Convo.after_insert_heart_6_scout.HUB0.convo.giver.STATE_0.QUESTION_SAVEGRANDPA"
 msgid "Enough jaw-flappin'. Let's go get us a Grandpa."
-msgstr ""
+msgstr "Досить базікати. Ходімо рятувати дідуся."
 
 #: Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_HUNTER
 msgctxt "Convo.after_insert_heart_scout_bnd.HUB0.convo.giver.STATE_0.ANSWER_HUNTER"
