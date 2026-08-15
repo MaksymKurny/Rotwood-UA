@@ -38,6 +38,7 @@ STRING_METADATA = {} -- Don't reference from non-localization code!
 -- Do not add quest strings here!!!!
 require "strings.strings_cosmetics"
 require "strings.strings_items"
+require "strings.strings_keyboard"
 require "strings.strings_monstertranslator"
 require "strings.strings_names"
 require "strings.strings_player_attacks"
@@ -58,29 +59,46 @@ STRINGS.GAME = {
 }
 
 
-STRINGS.CRASHREPORTER = {
-	-- Translations must be manually applied to tools/CrashReporterWindows/source/CrashReporterWindows.rc
-	-- Use ../../../translation/run_gui.bat
-	IDS_APP_TITLE = "Rotwood Crash Reporter",
-	IDS_DLG_TITLE = "It appears Rotwood has crashed.\nPlease visit our support page for fixes to common problems: <a>http://klei.gg/rotwoodhelp</a>",
-	IDS_DLG_INSTRUCTIONS = "Can you describe what was going on in the game when the crash happened?",
-	IDS_DLG_FILES = "Files to include:",
-	IDS_FORCE_SEND = "Force send of crash report.",
-	IDS_FAILED_TO_SEND = "Crash report failed to sendout",
-	IDS_SEND = "Send",
-	IDS_ERROR = "Error",
-	IDS_CANCEL = "Cancel",
-	IDS_SEND_SUCCESS = "Crash report sent. Thank you!",
-	IDS_SUCCESS = "Success",
-}
+-- EXTERNAL strings are not used directly in-game: They're here to get
+-- translated and then either uploaded to first-party or exported to another
+-- tool.
+STRINGS.EXTERNAL = {
 
+	CRASHREPORTER = {
+		-- Translations must be manually applied to tools/CrashReporterWindows/source/CrashReporterWindows.rc
+		-- Use ../../../translation/run_gui.bat
+		IDS_APP_TITLE = "Rotwood Crash Reporter",
+		IDS_DLG_TITLE = "It appears Rotwood has crashed.\nPlease visit our support page for fixes to common problems: <a>http://klei.gg/rotwoodhelp</a>",
+		IDS_DLG_INSTRUCTIONS = "Can you describe what was going on in the game when the crash happened?",
+		IDS_DLG_FILES = "Files to include:",
+		IDS_FORCE_SEND = "Force send of crash report.",
+		IDS_FAILED_TO_SEND = "Crash report failed to sendout",
+		IDS_SEND = "Send",
+		IDS_ERROR = "Error",
+		IDS_CANCEL = "Cancel",
+		IDS_SEND_SUCCESS = "Crash report sent. Thank you!",
+		IDS_SUCCESS = "Success",
+		IDS_PRIVACY_DISCLAIMER = "Report includes platform information for diagnostic purposes.",
+	},
 
-STRINGS.RICH_PRESENCE = {
-	-- Not used directly in-game: Uploaded to first-party, but here to get
-	-- translated. Use ../../../translation/export_richpresence.bat
-	STATUS_MENU = "At the main menu",
-	STATUS_TOWN = "In Camp",
-	--~ PLAYER_COUNT = "(%player_count% of 4 players)",  -- Steam-style %variable%
+	-- Use ../../../translation/export_richpresence.bat
+	RICH_PRESENCE = {
+		STATUS_MENU = "At the main menu",
+		STATUS_TOWN = "In Camp",
+		--~ PLAYER_COUNT = "(%player_count% of 4 players)",  -- Steam-style %variable%
+	},
+
+	-- Use ../../../translation/export_json.bat with Steam Points Shop items
+	-- json.
+	POINT_SHOP = {
+		"Bushes",
+		"{name.npc_scout} and Grandpa",
+		"Floral",
+		"Pipes",
+		"Raw {name.konjur}",
+		"Vine",
+		"Window",
+	},
 }
 
 STRINGS.ITEM_CATEGORIES =
@@ -131,6 +149,7 @@ STRINGS.ITEM_CATEGORIES =
 	EQUIPMENT_RARITY = "Equipment",
 	GEMS = "{name_multiple.gem}",
 	WEIGHT = "Weight",
+	WEAPONPOWER = "Weapon Power",
 	CHALLENGE = "Challenge",
 	CURSE = "Curse",
 	FROST = "Frost",
@@ -202,7 +221,7 @@ STRINGS.WEAPONS =
 		HAMMER = "<#BLUE>{name.concept_focus_hit}:</BLUE>\n• Hit multiple enemies with one swing\n• Fully charge a <#RED>Heavy Attack</> combo ender\n• Fully charge a <#RED>Golf Swing</>",
 		POLEARM = "<#BLUE>{name.concept_focus_hit}:</BLUE>\n• Hit an enemy with the tip of your <#RED>{name.weapon_polearm}</>\n• Hit multiple enemies with the <#RED>Spinning Drill</>",
 		SHOTPUT = "<#BLUE>{name.concept_focus_hit}:</BLUE>\n• Hit an airborne <#RED>{name.weapon_shotput}</>\n• Throw a <#RED>{name.weapon_shotput}</> immediately after catching it",
-		CANNON = "<#BLUE>{name.concept_focus_hit}:</BLUE>\n• Last three shots of your clip",
+		CANNON = "<#BLUE>{name.concept_focus_hit}:</>\n• Last half of your clip",
 		BOW = "<#BLUE>{name.concept_focus_hit}:</BLUE>\n• Release your arrow just as your bowstring is fully extended",
 	},
 	-- used in power tooltips with the "focus_hit" contextual tooltip
@@ -211,7 +230,7 @@ STRINGS.WEAPONS =
 		HAMMER = "Hit multiple enemies with one swing",
 		POLEARM = "Hit an enemy with the tip of your <#RED>{name.weapon_polearm}</>",
 		SHOTPUT = "Throw a <#RED>{name.weapon_shotput}</> immediately after catching it",
-		CANNON = "Last three shots of your clip",
+		CANNON = "Hits from the last half of your clip",
 		BOW = "Release your arrow just as your bowstring is fully extended",
 	}
 }
@@ -227,6 +246,8 @@ STRINGS.POWERS = {
 		HEART = "{name.konjur_heart}",
 		WEIGHT = "Weight",
 		TALENT = "{name.concept_talent}",
+		WEAPON_POWER = "Weapon Power",
+		CHEAT = "Assist",
 	},
 	POWER_CATEGORY = {
 		ALL = "All",
@@ -262,18 +283,13 @@ STRINGS.WEATHER = {
 
 STRINGS.CHARACTER_SELECTOR =
 {
-	TITLE_SELECT = "Select Character Slot",
-	START_BUTTON = "<p bind='Controls.Digital.MENU_SCREEN_ADVANCE' color=0> START!",
-	NEW_CHARACTER = "Make New Character",
-	SLOT = "Slot {slot_number}",
-	SLOT_IN_USE = "Slot {slot_number} (In Use)",
 	SLOT_IN_USE_INGAME = "(In Use)",
-	SLOT_YOUR_SLOT = "Slot {slot_number} (Current Selection)",
-	INFO_LABEL = "<p bind='Controls.Digital.ATTACK_HEAVY' color=0> Remove a character",
+
 	DELETE_TITLE = "Delete Character",
-	DELETE_CONFIRMATION_TITLE = "Are you sure?",
+	DELETE_CONFIRMATION_TITLE = "Delete this <{level_fmt}>Level {level}</> {name.hunter}?",
 	DELETE_SUBTITLE = "Cannot be undone!",
 	DELETE = "Do you really want to delete Slot {slot_number}?",
+	DELETE_VERBOSE = 'To delete your <i>{name.town}</> (and the entire save file), use "Reset Gameplay Progress" in Options.',
 	DELETE_CONFIRM = "Delete",
 	DELETE_CONFIRM_COUNTDOWN = "Delete ({wait_time_remaining})",
 	DELETE_CANCEL = "Cancel",
@@ -281,7 +297,6 @@ STRINGS.CHARACTER_SELECTOR =
 
 STRINGS.CHARACTER_CREATOR =
 {
-	TITLE_SELECT = "<b>Select a Hunter!</b>\nSpecies selection will not affect Hunter stats.",
 	REROLL_BUTTON = "<p img='images/ui_ftf_character/BtnReroll.tex' color=0 scale=2.5>\n\n\nREROLL",
 	REROLL_HINT = "Reroll",
 	REROLL_BUTTON_TOOLTIP = "Randomize your look!",
@@ -296,7 +311,6 @@ STRINGS.CHARACTER_CREATOR =
 	REVERT_BUTTON = "<p img='images/ui_ftf_character/BtnRevert.tex' color=0 scale=2.5>\n\n\nREVERT ALL",
 	REVERT_BUTTON_TOOLTIP = "Return to the default appearance of your chosen species",
 	REVERT_HINT = "Revert All",
-	START_BUTTON = "<p bind='Controls.Digital.MENU_SCREEN_ADVANCE' color=0> START!",
 	CHARACTER_DESC = "<p img='images/ui_ftf_character/QuotesLeft.tex' color=0 scale=0.9>{species_desc}<p img='images/ui_ftf_character/QuotesRight.tex' color=0 scale=0.9>",
 
 	TAB_TITLE = "<p img='images/icons_ftf/character_title.tex' color=0 scale=0.9> TITLE",
@@ -349,6 +363,7 @@ STRINGS.SPECIES_NAME =
 	canine = "{name_multiple.species_canine}",
 	mer = "{name_multiple.species_mer}",
 	ogre =  "{name_multiple.species_ogre}",
+	dragon = "{name_multiple.species_dragon}",
 }
 
 STRINGS.SPECIES_DESCRIPTIONS =
@@ -356,6 +371,7 @@ STRINGS.SPECIES_DESCRIPTIONS =
 	canine = "An invitation to pet a {name.species_canine}'s belly is always a trap.",
 	mer = "The anemone of my anemone is my friend.",
 	ogre = "A bit rough around the edges. And the middle.",
+	dragon = "Cold blooded but warm hearted. Figure that one out.",
 }
 
 STRINGS.NPC_DIALOG =
@@ -378,11 +394,12 @@ STRINGS.TALK = {
 	TITLE_PENDING_TRANSLATION = "Pending Translation",
 
 	PERSONALITY = {
-		-- These should match how it appears in dialogue.
+		-- These must match how it appears in dialogue.
 		APOTHECARY_HISS = "(hiss)",
 		APOTHECARY_SNIFF = "(sniff, sniff)",
 		BLACKSMITH_GRUNT = "(grunt)",
 		BLACKSMITH_HMPH = "(hmph)",
+		--~ DOJO_COUGH = "(cough cough)",
 		SNAKE_HISS = "sss",
 		WANDERER_LAUGH_ONCE = "He!",
 	},
@@ -511,6 +528,7 @@ STRINGS.CRAFT_WIDGET = {
 
 STRINGS.UI =
 {
+	LONG_CHAT_MESSAGE_TRUNCATE = "{truncated_msg} [...]",
 	BULLET_POINT = "<p img='images/ui_ftf/point.tex' color=0 scale=0.3>",
 	BULLET_DASH = "<p img='images/ui_ftf/dash.tex' color=0 scale=0.4>",
 	QUANTITY = "{name} (x{count})",        -- How we display named quantities.
@@ -785,25 +803,11 @@ STRINGS.UI =
 
 	},
 
-	ONLINESCREEN =
-	{
-		BACK = "Back",
-		CONNECTING = "Connecting",
-		END_GAME = "End Game",
-		FIND_PUBLIC_GAME = "Find Public Game",
-		FRIENDS_PLAYING = "Friends Playing Rotwood:",
-		HOST_FRIENDS_ONLY_GAME = "Host Friends-Only Game",
-		JOIN_FRIEND_GAME = "Join",
-		REFRESH_FRIENDS = "Refresh Friends List",
-		MODE = "Steam Friends Mode",
-		CONNECT_FAILED = "Failed to connect to game.",
+	ONLINESCREEN = {
+		-- TODO: Move online strings out of MAINSCREEN and into here.
 		JOINCODE_LABEL = "ShareCode:\n{joincode}",
 		JOINCODE_PROMPT = "ShareCode",
 		JOINCODE_LABEL_TOOLTIP = "Click to copy",
-		JOINCODE_HOST = "Host Game",
-		JOINCODE_JOIN = "Connect to Game",
-		JOINCODE_FAILED = "Failed to find game with provided ShareCode.",
-		JOINCODE_COPIED = "Copied to clipboard!" -- this is the same as the one in PAUSEMENU
 	},
 
 	NETWORKDISCONNECT =
@@ -1256,6 +1260,7 @@ STRINGS.UI =
 		PROGRESS = "Progress: %d / %d",
 		PROGRESS_COMPLETE = "Completed!",
 		UNLOCK_NEW_TITLE = "<p img='images/icons_ftf/character_title.tex' color=0> New Title: %s",
+		UNLOCK_EMOTE = "<p img='{icon}' color=0> New Emote: {emote_name}",
 
 		POPUP = {
 			MASTERY_ACTIVATED = "{mastery_name} Activated!",
@@ -1277,7 +1282,8 @@ STRINGS.UI =
 		LOCKED_DESC = "For sale in all locations within <#RED>%s</>",
 		TT_EQUIPPED_LABEL = "EQUIPPED",
 		LOCKED_BOSS_WEAPON = "Imbue a <#RED>{name.weapon_crystal_prefix}{weapon_type}</> with the {name.konjur_heart} of an <#RED>{elite_boss}</> to have <#BLUE>{name.npc_blacksmith}</> craft this for you.",
-		LOCKED_CORESTONE_WEAPON = "Maybe <#BLUE>{name.npc_blacksmith}</> knows something?",
+		LOCKED_CORESTONE_WEAPON = "<#BLUE>{name.npc_refiner}</> might trust you with the powerful secrets of her research if she knew you better...",
+		UNLOCKED_CORESTONE_WEAPON = "Talk to <#BLUE>{name.npc_blacksmith}</> to craft and repair <#RED>{name_multiple.weapon_crystal}</>.",
 		LOCKED_BOSS_ARMOR = "Imbue a <#RED>{name.weapon_crystal_prefix}{armor_piece}</> with the {name.konjur_heart} of an <#RED>{elite_boss}</> to have <#BLUE>{name.npc_armorsmith}</> craft this for you.",
 		LOCKED_CORESTONE_ARMOR = "Maybe <#BLUE>{name.npc_armorsmith}</> knows something?",
 		BACK = "<p img='images/ui_ftf/arrow_left.tex' color=0 scale=0.7> Back",
@@ -1400,7 +1406,8 @@ STRINGS.UI =
 	SURVIVECOUNTER =
 	{
 		GETREADY = "Get Ready <#RED>%s</>",
-		COUNTDOWN = "Survive! <#RED><p img='images/ui_ftf_icons/loading.tex' color=0 scale=0.8>%s</>",
+		COUNTDOWN = "Survive!",
+		TIME = "<#RED><p img='images/ui_ftf_icons/loading.tex' color=0 scale=0.8>%s</>"
 	},
 
 	CONSOLESCREEN =
@@ -1431,7 +1438,7 @@ STRINGS.UI =
 
 	LOADINGINDICATOR =
 	{
-		LOADING_TEXT = "Loading..."		-- This is a red herring.  It looks like what the game (used to) display, but is not infact the string.  Instead, see STRINGS.UI.NOTIFICATION.LOADING
+		LOADING_TEXT = "Loading...",  -- The default label for LoadingIndicator (not the loading screen).  See also STRINGS.UI.NOTIFICATION.LOADING
 	},
 
 	POWERICONWIDGET =
@@ -1560,7 +1567,9 @@ STRINGS.UI =
 	INVENTORYSCREEN =
 	{
 		TITLE_UNLOCKED = "NEW TITLE AVAILABLE:\n\"%s\"",
-		LOOT_PICKUP_POPTEXT = "+<p img='{icon_tex}'> {material_name}", --"%s" is the material icon, %s is the name
+		LOOT_PICKUP_POPTEXT = "+<p img='{icon_tex}' scale=1.2> {material_name}",
+
+		--~ LOOT_SOURCE_COSMETIC = "<p img='{mysterybox_icon}'> <#COSMETIC>Mirage Cube</> contained:\n{item_name}",
 
 		WEIGHT_LIGHT = "L",
 		WEIGHT_NORMAL = "M",
@@ -1593,6 +1602,7 @@ STRINGS.UI =
 			CORESTONE_REWARD = "{name_multiple.konjur_soul_lesser}",
 			HEARTSTONE_REWARD = "{name.elite_prefix} {name.konjur_heart}",
 		},
+		-- Using Resources instead of {NAME_MULTIPLE.material} because it includes armour, but not certain that's a good idea.
 		LOCATION_MATERIALS_TITLE = "RESOURCES",
 		HOTKEY_MATERIALS = "Resource details",
 		MATERIALS_POPUP = {
@@ -1656,6 +1666,13 @@ STRINGS.UI =
 	EQUIPMENT_STATS =
 	{
 
+		COMMON = {
+			-- Some languages (de) put a space before the %
+			PERCENT = "{percent}%",  -- Expect percent to be a string because we use string.format to show with or without the sign.
+			PERCENT_INT = "{percent:%.0f}%",          -- Display as int.
+			PERCENT_INT_SIGNED = "{percent:%+.0f}%",  -- Display as int and show sign even if positive.
+		},
+
 		DMG =
 		{
 			name = "WEAPON DAMAGE",
@@ -1685,7 +1702,7 @@ STRINGS.UI =
 		CRIT_MULT =
 		{
 			name = "CRITICAL DAMAGE",
-			desc = "", -- "The amount by which a <#RED>Critical Hit</> multiples outgoing <#RED>{name.concept_damage}</>.\n\n<#RED>Critical Hits</> deal <#RED>{amount_percent:%.1f}% {name.concept_damage}</>.",
+			desc = "", -- "The amount by which a <#RED>Critical Hit</> multiplies outgoing <#RED>{name.concept_damage}</>.\n\n<#RED>Critical Hits</> deal <#RED>{amount_percent:%.1f}% {name.concept_damage}</>.",
 		},
 		FOCUS_MULT =
 		{
@@ -1731,6 +1748,7 @@ STRINGS.UI =
 		TOOLTIP =
 		{
 			MAX_USES = "Charges: <#RED>%s</>",
+			MAX_POTION = "<#RED>Max Charges</>: {count}",  -- Matches name.potion_charge
 		},
 	},
 
@@ -1893,7 +1911,7 @@ STRINGS.UI =
 		POTION = {
 			ALREADY_OWNED = "Potion Full",
 			NO_POTION = "Can't Carry {name_multiple.potion}",
-			HEALTH_FULL = "Already Full Health",
+			-- HEALTH_FULL = "Already Full Health", -- Disabled: players can now drink potions at full health to heal allies.
 		},
 		UPGRADE = {
 			NO_UPGRADEABLE_POWERS = "No Upgradeable Power",
@@ -2023,8 +2041,8 @@ STRINGS.UI.FRIENDSHIPSCREEN = {
 				name = "{name_multiple.weapon_crystal} Crafting",
 				desc = "Craft <#RED>{name_multiple.weapon_crystal}</> to absorb the essence of powerful {name_multiple.rot}.",
 			},
-			},
 		},
+	},
 	REQUIREMENT = {
 		FLAG = {
 			pf_unimplemented_friend_gift = {
@@ -2064,6 +2082,26 @@ STRINGS.UI.FRIENDSHIPSCREEN = {
 				desc = "Learn how to use the <#RED>{name.i_station_gems}</>.",
 			}
 		},
+	},
+}
+
+STRINGS.UI.CODEXSCREEN = {
+	TITLE = "Codex",
+	DESC = "Encyclopedia of {name_multiple.rot}, {name_multiple.concept_relic}, and {name_multiple.material}.",
+	BACK_TO_LIST = "Back",
+
+	REGION = {
+		TAB_TITLE = "Regions",
+		SECTION_ROT = "{name_multiple.rot}",
+		SECTION_MINIBOSS = "{name_multiple.rot_miniboss}",
+		SECTION_BOSS = "{name.rot_boss}",
+		SECTION_MATERIALS = "{name_multiple.material}",
+		SECTION_UNLOCKABLES = "Unlockables",
+	},
+
+	POWER = {
+		TAB_TITLE = "{name_multiple.concept_relic}",
+		LOCKED = "Locked",
 	},
 }
 
@@ -2166,7 +2204,7 @@ STRINGS.BIOSPHERES = {
 		name = "{name.town}",
 	},
 	rest = {
-		name = "{name.town}",
+		name = "[TEMP] Rest",  -- HELLOWRITER something that matches STRINGS.NAMES.restroom?
 	},
 	forest = {
 		name = "Forest",
@@ -2198,6 +2236,10 @@ STRINGS.LOCATIONS = {
 	},
 
 	restroom = {
+		name = "", -- HELLOWRITER. Not sure yet where this name would show up.
+	},
+
+	restroom2 = {
 		name = "", -- HELLOWRITER. Not sure yet where this name would show up.
 	},
 
@@ -2436,6 +2478,22 @@ STRINGS.UI.OPTIONSSCREEN =
 					NAME = "OFF",
 					DESC = "Boss health bar will use visuals only.",
 				},
+			},
+			GAMEPLAY_HUNTER_ASSIST = {
+				ON = {
+					NAME = "ON",
+					-- Can't use "<#RED>Die</>" like mulligan, because the text colour blends with DARK_BACKGROUNDS_MID (because of TintTo) and capitalization looks strange.
+					DESC = "Death boosts the toughness of {name_multiple.hunter}. Victory reduces this boost.",
+					DESC_RESTRICTION = "Does not apply to Online Games.",
+				},
+				OFF = {
+					NAME = "OFF",
+					DESC = "Failure is part of the journey through Rotwood, but you can turn on this <i>Assist Mode</> to become tougher with each death.",
+				},
+			},
+			GAMEPLAY_HUNTER_ASSIST_MAX = {
+				DESC = "Repeated deaths increase Hunter's Assist to resist up to {percent}% of incoming damage.",
+				DESC_DEFAULT = "Hunter's Assist {name.powerdesc_damage_reduction} won't increase above {percent}% (default).",
 			},
 			MOUSE_CONSTRAIN_MODE =
 			{
@@ -2796,6 +2854,8 @@ STRINGS.UI.OPTIONSSCREEN =
 	GAMEPLAY_VIBRATION = "Vibration",
 	GAMEPLAY_MOUSE_AIMING = "Mouse Aiming",
 	GAMEPLAY_SHOW_BOSS_HEALTH_PERCENT = "Boss Health Percentage",
+	GAMEPLAY_HUNTER_ASSIST = "Hunter's Assist",
+	GAMEPLAY_HUNTER_ASSIST_MAX = "Hunter's Assist: Max {name.powerdesc_damage_reduction}",
 
 	AUDIO_SYSTEM_DEFAULT = "Use System Default",
 
@@ -3070,7 +3130,6 @@ STRINGS.UI.PAUSEMENU =
 		RECONNECT_BTN = "Reconnect",
 		ALREADY_USED_TT = "{device_icon} already controls {player_name}",
 	},
-
 }
 
 STRINGS.UI.DIALOG_GAMESHARE = {
@@ -3224,7 +3283,6 @@ STRINGS.UI.MARKETCHALLENGEPROP =
 	CLAIM_REWARD = "{name.interact_tap} Claim {name.npc_market_magpie}'s Cache",
 	SUCCESS = "Success!",
 	FAILED = "Challenge Failed",
-	EMOTE = "Emote",
 	COMPLETED = "Cache claimed",
 	TITLE = "{name.shop_magpie}'s Challenges",
 
@@ -3264,6 +3322,11 @@ STRINGS.UI.TOOLTIPS =
 		NAME = "{name.concept_skill}",
 		DESC = "<p bind='Controls.Digital.SKILL' color=BTNICON_DARK> <#RED>{name.concept_skill}</>.",
 	},
+	EMOTE =
+	{
+		NAME = "Emote",
+		DESC = "<p bind='Controls.Digital.SHOW_EMOTE_RING' color=BTNICON_DARK> <#RED>Emote</>.",
+	},
 	HIT_STREAK =
 	{
 		NAME = "Hit Streak",
@@ -3278,12 +3341,16 @@ STRINGS.UI.TOOLTIPS =
 	CRITICAL_HIT =
 	{
 		NAME = "Critical Hit",
-		DESC = "Increases <#RED>{name.concept_damage}</> by 25%.",
+		DESC = "Increases <#RED>{name.concept_damage}</> by 25%.",  -- Base value.
+		DESC_CONTEXTUAL = "Increases <#RED>{name.concept_damage}</> by 25%.",
+		EACH_PLAYER = "{player_name}'s bonus is boosted to <#RED>{crit_mult}%</>.",
 	},
 	CRIT_CHANCE =
 	{
 		NAME = "Critical Chance",
-		DESC = "Odds of getting a <#RED>Critical Hit</> any time you deal <#RED>{name.concept_damage}</>.",
+		DESC            = "Odds of getting a <#RED>Critical Hit</> any time you deal <#RED>{name.concept_damage}</>.",
+		DESC_CONTEXTUAL = "Odds of getting a <#RED>Critical Hit</> any time you deal <#RED>{name.concept_damage}</>.",
+		EACH_PLAYER = "{player_name}'s {name.powerdesc_critchance} is <#RED>{crit_chance}%</>.",
 	},
 	CRIT_DAMAGE =
 	{
@@ -3310,10 +3377,25 @@ STRINGS.UI.TOOLTIPS =
 		NAME = "Shield Segment",
 		DESC = "Collect <#RED>4 Shield Segments</> to gain <#RED>Shield</>.",
 	},
+	COLD =
+	{
+		NAME = "Cold",
+		DESC = "Reduces <#RED>{name.concept_runspeed}</>. <#RED>Cold</> fades over time, but become <#RED>Frozen</> when too much accumulates.",
+	},
+	FROZEN =
+	{
+		NAME = "Frozen",
+		DESC = "Unable to move. Being hit breaks out of <#RED>Frozen</> earlier.\n\n{name_multiple.concept_relic} that affect <#RED>Cold</> also affect <#RED>Frozen</>.",
+	},
 	IFRAME_DODGE =
 	{
 		NAME = "Perfect Dodge",
 		DESC = "Narrowly <#RED>Dodge</> an attack at the last second, leaving a cloud of dust.",
+	},
+	PARRY =
+	{
+		NAME = "Parry",
+		DESC = "Briefly enter a stance. Take <#RED>0 Damage</> from the first <#RED>Hit</> you take in this stance.",
 	},
 	QUICK_RISE =
 	{
@@ -3344,7 +3426,65 @@ STRINGS.UI.TOOLTIPS =
 	BOW_BULLSEYE =
 	{
 		NAME = "Bullseye",
-		DESC = "Hit an enemy with a <#BLUE>Focus</> <#RED>Heavy Attack</> right as the arrow is hitting the ground."
+		DESC = "Fire a <#BLUE>Focus</> <#RED>Heavy Attack</> that hits an <#RED>Enemy</> just as the arrow hits the ground."
+	},
+
+	WEAPONPOWER_HAMMER = {
+		-- Uses POWER_LEGENDARY since this replaces the rarity tooltip.
+		NAME = "<#POWER_LEGENDARY>{name.weapon_hammer} {name.concept_relic}</>",
+		DESC = "A {name.concept_relic} tailored to this weapon.",
+		-- Useful/possible to have a weapon-specific blurb?
+		--~ DESC = "Empower a specific combo to change how you battle with your {name.weapon_hammer}.",
+	},
+
+	COMBO_HAMMER_LARIAT = {
+		NAME = "{name.attack_hammer_lariat}",
+		DESC = "<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> Back + <p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT>",
+	},
+
+	COMBO_HAMMER_HEAVY_AIR_SPIN = {
+		NAME = "{name.attack_hammer_heavy_air_spin}",
+		DESC = "<p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT>",
+	},
+
+	WEAPONPOWER_POLEARM = {
+		NAME = "<#POWER_LEGENDARY>{name.weapon_polearm} {name.concept_relic}</>",
+		DESC = "A {name.concept_relic} tailored to this weapon.",
+	},
+
+	COMBO_POLEARM_MULTITHRUST = {
+		NAME = "{name.attack_polearm_multithrust}",
+		DESC = "<p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT>",
+	},
+
+	COMBO_POLEARM_VAULT_STRIKE = {
+		NAME = "{name.attack_polearm_vault_strike}",
+		DESC = "<p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT>",
+	},
+
+	WEAPONPOWER_BOW = {
+		NAME = "<#POWER_LEGENDARY>{name.weapon_bow} {name.concept_relic}</>",
+		DESC = "A {name.concept_relic} tailored to this weapon.",
+	},
+
+	WEAPONPOWER_CANNON = {
+		NAME = "<#POWER_LEGENDARY>{name.weapon_cannon} {name.concept_relic}</>",
+		DESC = "A {name.concept_relic} tailored to this weapon.",
+	},
+
+	WEAPONPOWER_SHOTPUT = {
+		NAME = "<#POWER_LEGENDARY>{name.weapon_shotput} {name.concept_relic}</>",
+		DESC = "A {name.concept_relic} tailored to this weapon.",
+	},
+
+	MECHANIC_PIERCING_SPIKE = {
+		NAME = "Piercing Spike",
+		DESC = "The <#RED>{name.weapon_shotput}</> travels in a straight line and <#RED>Pierces</> through <#RED>Enemies</>."
+	},
+
+	WEAPONPOWER_CLEAVER = {
+		NAME = "<#POWER_LEGENDARY>{name.weapon_greatsword} {name.concept_relic}</>",
+		DESC = "A {name.concept_relic} tailored to this weapon.",
 	},
 
 	WEAPON_DAMAGE =
@@ -3361,17 +3501,24 @@ STRINGS.UI.TOOLTIPS =
 		DESC = "The chances of good things happening to you, like finding more <#RED>{name_multiple.material}</>, <#KONJUR>{name.konjur}</>, or even being <#RED>Lucky Revived</>.",
 	},
 
+	HUNTER_ASSIST = {
+		NAME = "Assist Mode",
+		DESC = "[TEMP] Makes you tougher each time you run out of health.",  -- Not sure if this will ever show.
+		DESC_CONTEXTUAL = "Currently {percent:%.0f}% <#RED>{name.powerdesc_damage_reduction}</>.",
+		DESC_MAXIMUM = "Currently {percent:%.0f}% <#RED>{name.powerdesc_damage_reduction}</>, which is the maximum.",  -- "...set in the Options menu" might be helpful, but seems too wordy during combat.
+	},
+
 	-- Charge related tooltips
 
 	CHARGE =
 	{
 		NAME = "Charge",
-		DESC = "Triggers a <#RED>Chain Reaction</> when the afflicted target <#RED>Dies</>.",
+		DESC = "Triggers a <#RED>Chain Reaction</> when the afflicted target reaches <#RED>7 Charge</> or <#RED>Dies</>.",
 	},
 	CHAIN_REACTION =
 	{
 		NAME = "Chain Reaction",
-		DESC = "Consume <#RED>1 Charge</> from all <#RED>Charged Enemies</>, dealing <#RED>{name.concept_damage}</>.",
+		DESC = "Consume <#RED>Charge</> from all <#RED>Charged Enemies</>, dealing <#RED>{name.concept_damage}</>.",
 	},
 }
 
@@ -3451,19 +3598,19 @@ STRINGS.UI.MECHANIC_TUTORIALS =
 	{
 		TITLE = "Armour Research",
 		-- Same icon and name as TAB_ITEM_UPGRADES in EquipmentScreenMulti.
-		DESC = "<#RED>{name.npc_armorsmith}</> will now upgrade your armour!\n\nCheck <p img='images/icons_ftf/upgrade.tex' color=0 rpad=1>Upgrades at the <#RED>Armoury</>.",
+		DESC = "<#RED>{name.npc_armorsmith}</> will now upgrade your armour!\n\nCheck <p img='images/icons_ftf/upgrade.tex' color=0 rpad=1>Upgrades at the <#RED>{name.i_station_armorsmith}</>.",
 	},
 
 	ARMOUR_FORTIFICATION_UNLOCKED_1 = {
 		TITLE = "Armour Research",
 		-- Same icon and name as TAB_UPGRADES in EquipmentScreenMulti.
-		DESC = "<#RED>{name.npc_armorsmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_uncommon} armour to {name.i_item_rarity_rare} quality!\n\nCheck <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at the <#RED>Armoury</>.",
+		DESC = "<#RED>{name.npc_armorsmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_uncommon} armour to {name.i_item_rarity_rare} quality!\n\nCheck <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at the <#RED>{name.i_station_armorsmith}</>.",
 	},
 
 	ARMOUR_FORTIFICATION_UNLOCKED_2 = {
 		TITLE = "Armour Research",
 		-- Same icon and name as TAB_UPGRADES in EquipmentScreenMulti.
-		DESC = "<#RED>{name.npc_armorsmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_rare} armour to {name.i_item_rarity_epic} quality!\n\nCheck <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at the <#RED>Armoury</>.",
+		DESC = "<#RED>{name.npc_armorsmith}</> needs {name_multiple.upgrade_ingot} to upgrade your {name.i_item_rarity_rare} armour to {name.i_item_rarity_epic} quality!\n\nCheck <p img='images/icons_ftf/station_upgrade.tex' color=0 rpad=1>Station Upgrades at the <#RED>{name.i_station_armorsmith}</>.",
 	},
 
 	WEAPON_FORTIFICATION_UNLOCKED_0 =
@@ -3518,7 +3665,7 @@ If you fail any run while holding a {name.weapon_crystal}, it will <#RED>Break</
 	COOKINGTOOLS_UNLOCKED =
 	{
 		TITLE = "{name.cookingtools} Unlocked!",
-		DESC = "You can now use the cooking station to prepare Powerful meals for your Hunt!",
+		DESC = "You can now use the <#RED>{name.i_cooking_pot}</> to prepare Powerful meals for your Hunt!",
 	},
 
 	COOKING_UNLOCKED_P1 = {
@@ -3604,6 +3751,11 @@ If you fail any run while holding a {name.weapon_crystal}, it will <#RED>Break</
 	{
 		TITLE = "Hunter's Path!",
 		DESC = "The <#RED>{name.concept_talent_tree}</> allows you to earn and spend {name_multiple.i_konjur_heart_shard} by completing challenges in each hunt.\n\n{name_multiple.konjur_heart_shard} can be redistributed freely, so experiment with different builds to see what works best with various weapons and armour pieces!",
+	},
+
+	LEGACY_BOSSWEAPON_QUEST = {
+		TITLE = "New {name.weapon_crystal} Crafting Quest",
+		DESC = "In the 1.0 release of Rotwood, you unlock {name_multiple.weapon_crystal} crafting by rescuing <#BLUE>{name.npc_refiner}</>. You must complete this rescue and her quest before you can craft more <#RED>{name_multiple.weapon_crystal}</> or <#RED>{name_multiple.weapon_boss}</>.\n\nCheck the <#RED>{name.i_damselfly}</> and your <#RED>{name.i_station_diary}</> for details.",
 	},
 }
 

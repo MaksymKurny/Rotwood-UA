@@ -1,4 +1,5 @@
 local iterator = require "util.iterator"
+local kassert = require "util.kassert"
 local lume = require "util.lume"
 local playerutil = require "util.playerutil"
 local soundutil = require "util.soundutil"
@@ -14,7 +15,7 @@ local function LoadComponent(name)
 	local cmp = Components[name]
 	if cmp == nil then
 		cmp = require("components."..name)
-		assert(cmp ~= nil, "could not load component "..name)
+		kassert.assert_fmt(cmp ~= nil, "could not load component %s.", name)
 		Components[name] = cmp
 	end
 	return cmp
@@ -24,7 +25,7 @@ local function LoadBrain(name)
 	local brain = Brains[name]
 	if brain == nil then
 		brain = require("brains."..name)
-		assert(brain ~= nil, "could not load brain "..name)
+		kassert.assert_fmt(brain ~= nil, "could not load brain %s.", name)
 		Brains[name] = brain
 	end
 	return brain
@@ -37,7 +38,7 @@ local function LoadStateGraph(name, prefab)
 		local sg = StateGraphs[name]
 		if sg == nil then
 			sg = require("stategraphs."..name)
-			assert(sg ~= nil, "could not load stategraph "..name)
+			kassert.assert_fmt(sg ~= nil, "could not load stategraph %s.", name)
 			StateGraphs[name] = sg
 		end
 		if prefab then
@@ -52,7 +53,7 @@ local function LoadBossCoro(name)
 	local bc = BossCoroutines[name]
 	if bc == nil then
 		bc = require("bosscoroutines."..name)
-		assert(bc ~= nil, "could not load boss coroutine "..name)
+		kassert.assert_fmt(bc ~= nil, "could not load boss coroutine %s.", name)
 		BossCoroutines[name] = bc
 	end
 	return bc
@@ -268,7 +269,7 @@ function EntityScript:IsAncestorsLocal()
 end
 
 function EntityScript:ShouldSendNetEvents()
-	dbassert(self:IsValid(), "Discover why self is invalid")
+	dbassert(self:IsValid(), "Discover why self is invalid")  -- Maybe attack cached enemies that died before attack finished.
 	return self:IsValid() and self:IsLocal() and self:IsNetworked() and not self:IsMinimal()
 end
 
@@ -625,7 +626,7 @@ function EntityScript:AddComponent(name, ...)
 		already_exists = true
 	else
 		cmp = LoadComponent(name)
-		assert(cmp, "component "..name.." does not exist!")
+		kassert.assert_fmt(cmp, "component %s does not exist!", name)
 		cmp = cmp(self, ...)
 		self.components[name] = cmp
 	end
@@ -655,7 +656,7 @@ end
 -- Only called when an entity with prefab and network capability is created
 function EntityScript:PostNetworkInit()
 	dbassert(self.Network and self.prefab)
-	
+
 	-- only store non-minimal network entities here
 	-- noop-iterating through dozens of minimal entities has a noticeable cost on lower-spec platforms
 	local network_type = Prefabs[self.prefab].network_type
@@ -864,6 +865,10 @@ function EntityScript:SetStateGraph(name, opt_table)
 			self.sg:Pause("remote")
 		end
 
+		if self.sg.sg.fns.OnInstanceInit then
+			self.sg.sg.fns.OnInstanceInit(self.sg)
+		end
+
 		self.sg:Start()
 	end
 end
@@ -988,7 +993,7 @@ function EntityScript:RemoveAllEventCallbacks()
 end
 
 function EntityScript:PushEvent(event, data)
-	TracyZone("EntityScript:PushEvent/"..event)
+	TracyZone("EntityScript:PushEvent/"..tostring(event))
 	if self.eventlisteners ~= nil then
 		local listeners = self.eventlisteners[event]
 		if listeners ~= nil then
@@ -1206,7 +1211,7 @@ end
 function EntityScript:GetClosestEntityByTagInRange(range, tags, isalive, iscombattarget, checkinvisible)
 	local x, z = self.Transform:GetWorldXZ()
 	local required_tags = nil
-	local forbid_tags = {"INLIMBO"}
+	local forbid_tags = {"INLIMBO", "dont_target"}
 	local ents = TheSim:FindEntitiesXZ(x, z, range, required_tags, forbid_tags, tags)
 	local closest
 	local closest_sqdist
@@ -1356,7 +1361,7 @@ function EntityScript:CancelDelayedRemove()
 end
 
 function EntityScript:Remove(forceremove)
-	assert(self.entity and self.entity:IsValid(), "Trying to remove invalid entity: " .. tostring(self))
+	kassert.assert_fmt(self.entity and self.entity:IsValid(), "Trying to remove invalid entity: %s.", self)
 
 	-- used to allow native calls to forcibly remove entities and preserve dev/editor behaviour
 	forceremove = forceremove or IsLocalGame
@@ -1666,7 +1671,9 @@ function EntityScript:NetDeserialize()
 			self.entity:AlignToByte();
 			local hash = self.entity:DeserializeUInt(32)		-- 32 bit hash
 
-			assert(hash ~= nil, "Error: " .. self.entity:GetPrefabName() .. " could not load component hash. Last component loaded:" .. (lastComponentDeserialized or "none"))
+			kassert.assert_fmt(hash ~= nil, "Error: %s could not load component hash. Last component loaded: %s",
+				self.entity:GetPrefabName(),
+				lastComponentDeserialized or "none")
 
 			if hash == nil then
 				break;	-- Stop reading any more component data
@@ -1682,7 +1689,10 @@ function EntityScript:NetDeserialize()
 				cmp = self:AddComponent(lastComponentDeserialized)
 			end
 
-			assert(cmp, "Error: " .. self.entity:GetPrefabName() .. "could not find or create component with hash "..hash .. " (".. (lastComponentDeserialized or "none") .. ")")
+			kassert.assert_fmt(cmp, "Error: %s could not find or create component with hash %s (%s)",
+				self.entity:GetPrefabName(),
+				hash,
+				lastComponentDeserialized or "none")
 			if not cmp then
 				break;	-- Stop reading any more component data
 			end

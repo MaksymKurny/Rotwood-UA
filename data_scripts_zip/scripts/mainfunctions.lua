@@ -13,6 +13,8 @@ SimTearingDown = false
 SimShuttingDown = false
 PerformingRestart = false
 
+shouldAutoUnpauseOnFocusGained = false
+
 function SecondsToTimeString(total_seconds)
 	local minutes = math.floor(total_seconds / 60)
 	local seconds = math.floor(total_seconds - minutes * 60)
@@ -756,7 +758,7 @@ function Start()
 		TracyZone("c_qa_build")
 		c_qa_build()
 	end
-	
+
 	if NETFLIX_DEMO_BUILD or USE_CONTROL_MONKEY then
 		TracyZone("RefreshGodMode")
 		RefreshGodMode()
@@ -798,7 +800,7 @@ function Start()
 		TracyZone("CheckControllers")
 		CheckControllers()
 	end
-	
+
 	if InstanceParams.dbg ~= nil then
 		-- Cache so below can reinit it if necessary.
 		local dbg = InstanceParams.dbg
@@ -906,6 +908,7 @@ function SimReset(settings)
 	}
 	params = json.encode(params)
 
+	TheSim:RequestPreTransitionFlushIfSafe()
 	HostLoadRoom(settings)
 
 	TheSim:SetInstanceParameters(params)
@@ -940,7 +943,7 @@ function RequestShutdown(requested_exit_code)
 	-- as a bonus, the fonts are unloaded, so no asserting...
 	--TheSim:UnloadAllPrefabs()
 	--ModManager:UnloadPrefabs()
-	
+
 	-- When shutdown is initiated from C++ (i.e. execution is being aborted due to a critical error) it will still
 	-- depend on this call to shut the app down *IF* the Lua sim is still running and valid.
 	TheSim:Quit(exit_code)
@@ -1091,7 +1094,7 @@ function DisplayError(error_msg)
 			table.insert(
 				buttons,
 				{
-					text = "<p img='images/ui_ftf_icons/discord_off.tex' scale=1.2 color=0>  ".. STRINGS.UI.MAINSCREEN.MODCRASH.RESET_WITHOUT_MODS,
+					text = "<p img='images/ui_ftf_icons/discord_off.tex' scale=1.2 color=0>  ".. STRINGS.UI.SCRIPTERROR.MODCRASH.RESET_WITHOUT_MODS,
 					submenu = false,
 					cb = function()
 						KnownModIndex:DisableAllModsBecauseBad()
@@ -1105,7 +1108,7 @@ function DisplayError(error_msg)
 			table.insert(
 				buttons,
 				{
-					text = icon_forums .. STRINGS.UI.MAINSCREEN.MODCRASH.MODFORUMS,
+					text = icon_forums .. STRINGS.UI.SCRIPTERROR.MODCRASH.MODFORUMS,
 					submenu = false,
 					cb = function()
 						VisitURL(URLS.mod_forum)
@@ -1120,7 +1123,7 @@ function DisplayError(error_msg)
 			error_msg,
 			buttons,
 			anchor,
-			STRINGS.UI.MAINSCREEN.MODCRASH.INSTALLED_MODS .."\n".. modnamesstr,
+			STRINGS.UI.SCRIPTERROR.MODCRASH.INSTALLED_MODS .."\n".. modnamesstr,
 			font_size,
 			nil,
 			mod_icon
@@ -1235,7 +1238,7 @@ local function postsavefn()
 
 	StartNextInstance()
 	in_game_play = false
---	PerformingRestart = false	-- DON'T set this back to false, or the networking.lua IsReadyForInvite will fail to return the proper value. 
+--	PerformingRestart = false	-- DON'T set this back to false, or the networking.lua IsReadyForInvite will fail to return the proper value.
 end
 local function savefn()
 	if TheWorld == nil then
@@ -1489,10 +1492,12 @@ function OnFocusLost()
 		TheAudio:StartFMODSnapshot(fmodtable.Snapshot.Mute_Everything_LoseFocus)
 	end
 
-	if Platform.IsAndroid() and InGamePlay() then
+	if (Platform.IsAndroid() or Platform.IsNX()) and InGamePlay() then
+		shouldAutoUnpauseOnFocusGained = not IsGameplayPaused()
+
 		-- Common to lose focus on Android, so save game and pause.
 		-- TODO: Save()
-		SetPause(true)
+		SetGameplayPause(true, "OnFocusLost" )
 	end
 end
 
@@ -1504,9 +1509,12 @@ function OnFocusGained()
 
 	last_focus_gain_tick = GetTick()
 
-	if Platform.IsAndroid() and InGamePlay() then
+	if (Platform.IsAndroid() or Platform.IsNX()) and InGamePlay() then
 		-- See OnFocusLost.
-		SetPause(false)
+		if shouldAutoUnpauseOnFocusGained then
+			SetGameplayPause(false,"OnFocusGained")
+			shouldAutoUnpauseOnFocusGained = false
+		end
 	end
 end
 

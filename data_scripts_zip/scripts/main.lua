@@ -174,10 +174,15 @@ require "constants"
 
 -- For dev, configure your channels from customcommands.lua.
 if CONFIGURATION == "PRODUCTION" then
-	-- TODO: Should we disable anything in prod? Maybe default is fine.
-	--~ TheLog:disable_all()
-	--~ TheLog:enable_channel("WorldMap")
+	-- Currently don't disable anything in prod so bug reports have useful
+	-- info. Anything too spammy is commented out or on a Spam channel.
 	--~ TheLog:disable_channel("FrontEnd")
+end
+
+if not Platform.SupportsLogging() then
+	-- Prevent string building since it will be ignored by native. If you use
+	-- tostring() or .. to pass to TheLog, we still pay those costs!
+	TheLog:disable_all_permanently()
 end
 
 
@@ -374,7 +379,7 @@ function Render()
 end
 
 local function key_down_callback(keyid, modifiers)
-	if Platform.SupportsKeyboard() then 
+	if Platform.SupportsKeyboard() then
 		TheInput:OnKeyDown(keyid, modifiers);
 	end
 end
@@ -469,7 +474,7 @@ local function IsButton(widget)
 end
 
 local function IsTouchOnButton(touch_x, touch_y)
-	if not Platform.SupportsTouch() then 
+	if not Platform.SupportsTouch() then
 		return false
 	end
 
@@ -478,13 +483,13 @@ local function IsTouchOnButton(touch_x, touch_y)
 end
 
 local function VirtualTouchPadWouldConsume(touch_x, touch_y)
-	if not Platform.SupportsTouch() then 
+	if not Platform.SupportsTouch() then
 		return false
 	end
 
 	-- otherwise, only it the virtual joystick wouldn't consume it
-	local x = touch_x 
-	local y = (TheInput.h or RES_Y) - touch_y 
+	local x = touch_x
+	local y = (TheInput.h or RES_Y) - touch_y
 	local x,y = TheFrontEnd:WindowToUI(x,y)
 	local wouldConsumeClick = TheDungeon.HUD.player_touch_hud:WouldConsumeClick(x,y)
 	return wouldConsumeClick
@@ -511,7 +516,7 @@ function DeactivateTouchRegion(region)
 end
 
 local function ScrollRegionWouldConsumeTouchDown(touch_x, touch_y)
-	if not Platform.SupportsTouch() then 
+	if not Platform.SupportsTouch() then
 		return false
 	end
 
@@ -526,7 +531,7 @@ local function ScrollRegionWouldConsumeTouchDown(touch_x, touch_y)
 end
 
 local function ScrollRegionWouldConsumeTouchUp(touch_x, touch_y)
-	if not Platform.SupportsTouch() then 
+	if not Platform.SupportsTouch() then
 		return false
 	end
 
@@ -543,7 +548,7 @@ local function touch_began_callback(id,x, y)
 		return
 	end
 
-	if NETFLIX_DEMO_BUILD then 
+	if NETFLIX_DEMO_BUILD then
 		local virtualJoyPad = GetVirtualJoyPad()
 		if not virtualJoyPad then
 			-- does an active touch region need this? If not don't send the touch down, cuz future frames mayu have the virtual pad and it'll promptly
@@ -571,22 +576,22 @@ end
 
 -- touch move and end will be sent even if over a button, so that the joypad can't get stuck
 local function touch_move_callback(id, x, y)
-	if not Platform.SupportsTouch() then 
+	if not Platform.SupportsTouch() then
 		return
 	end
 
-	if NETFLIX_DEMO_BUILD then 
+	if NETFLIX_DEMO_BUILD then
 		TheInput:OnTouchMove(x,y,id)
 	end
 	TheInput:OnMouseMove(x,y)
 end
 
 local function touch_ended_callback(id,x, y)
-	if not Platform.SupportsTouch() then 
+	if not Platform.SupportsTouch() then
 		return
 	end
 
-	if NETFLIX_DEMO_BUILD then 
+	if NETFLIX_DEMO_BUILD then
 		TheInput:OnTouchUp(x,y,id)
 		if ScrollRegionWouldConsumeTouchUp(x,y) then
 			TheInput:OnMouseButtonUp(10000,10000,0)
@@ -815,7 +820,7 @@ if NETFLIX_DEMO_BUILD or USE_CONTROL_MONKEY then
 				player.components.combat:SetDamageReceivedMult("cheat", 0)
 			else
 				player.components.combat:RemoveAllDamageMult("cheat")
-			end	
+			end
 		end
 	end
 

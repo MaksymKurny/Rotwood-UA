@@ -557,7 +557,7 @@ function ModWrangler:DisplayBadMods()
 		for k, badmod in ipairs(self.failedmods) do
 			SetGlobalErrorWidget(
 				STRINGS.UI.SCRIPTERROR.TITLE_MODFAIL,
-				STRINGS.UI.MAINSCREEN.MODCRASH.BLAME_TARGET
+				STRINGS.UI.SCRIPTERROR.MODCRASH.BLAME_TARGET
 					.. "\n"
 					.. KnownModIndex:GetModFancyName(badmod.name)
 					.. "\n"
@@ -571,7 +571,7 @@ function ModWrangler:DisplayBadMods()
 						end,
 					},
 					{
-						text = STRINGS.UI.MAINSCREEN.MODCRASH.RESET_WITHOUT_MODS:subfmt({
+						text = STRINGS.UI.SCRIPTERROR.MODCRASH.RESET_WITHOUT_MODS:subfmt({
 								icon = "<p img='images/ui_ftf_icons/discord_off.tex' scale=1.2 color=0>  ",
 							}),
 						cb = function()
@@ -582,10 +582,10 @@ function ModWrangler:DisplayBadMods()
 							end)
 						end,
 					},
-					{ text = STRINGS.UI.MAINSCREEN.MODFORUMS, nopop = true, cb = VisitModForums },
+					{ text = STRINGS.UI.SCRIPTERROR.MODCRASH.MODFORUMS, nopop = true, cb = VisitModForums },
 				},
 				ANCHOR_LEFT,
-				STRINGS.UI.MAINSCREEN.MODCRASH.BLAME_RESOLVE,
+				STRINGS.UI.SCRIPTERROR.MODCRASH.BLAME_RESOLVE,
 				20
 			)
 		end
