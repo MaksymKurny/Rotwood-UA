@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2026-08-15 17:23\n"
+"PO-Revision-Date: 2026-08-15 20:57\n"
 
 #: Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB
 msgctxt "Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB"
@@ -27391,7 +27391,7 @@ msgstr "Ліс"
 #: STRINGS.BIOSPHERES.rest.name
 msgctxt "STRINGS.BIOSPHERES.rest.name"
 msgid "[TEMP] Rest"
-msgstr ""
+msgstr "[TEMP] Rest"
 
 #: STRINGS.BIOSPHERES.swamp.name
 msgctxt "STRINGS.BIOSPHERES.swamp.name"
@@ -27683,7 +27683,7 @@ msgstr "Видалити"
 #: STRINGS.CHARACTER_SELECTOR.DELETE_CONFIRMATION_TITLE
 msgctxt "STRINGS.CHARACTER_SELECTOR.DELETE_CONFIRMATION_TITLE"
 msgid "Delete this <{level_fmt}>Level {level}</> {name.hunter}?"
-msgstr ""
+msgstr "Видалити цього {2:{name.hunter}} <{level_fmt}>{level} рівня</>?"
 
 #: STRINGS.CHARACTER_SELECTOR.DELETE_CONFIRM_COUNTDOWN
 msgctxt "STRINGS.CHARACTER_SELECTOR.DELETE_CONFIRM_COUNTDOWN"
@@ -27703,7 +27703,7 @@ msgstr "Видалити персонажа"
 #: STRINGS.CHARACTER_SELECTOR.DELETE_VERBOSE
 msgctxt "STRINGS.CHARACTER_SELECTOR.DELETE_VERBOSE"
 msgid "To delete your <i>{name.town}</> (and the entire save file), use \"Reset Gameplay Progress\" in Options."
-msgstr ""
+msgstr "Щоб видалити свій <i>{name.town}</> (разом з усім файлом збереження), скористайтеся опцією \"Скинути прогрес гри\" в налаштуваннях."
 
 #: STRINGS.CHARACTER_SELECTOR.SLOT_IN_USE_INGAME
 msgctxt "STRINGS.CHARACTER_SELECTOR.SLOT_IN_USE_INGAME"
@@ -29617,37 +29617,37 @@ msgstr "Успіх"
 #: STRINGS.EXTERNAL.POINT_SHOP.1
 msgctxt "STRINGS.EXTERNAL.POINT_SHOP.1"
 msgid "Bushes"
-msgstr ""
+msgstr "Кущі"
 
 #: STRINGS.EXTERNAL.POINT_SHOP.2
 msgctxt "STRINGS.EXTERNAL.POINT_SHOP.2"
 msgid "Flitt and Grandpa"
-msgstr ""
+msgstr "Флітт і дідусь"
 
 #: STRINGS.EXTERNAL.POINT_SHOP.3
 msgctxt "STRINGS.EXTERNAL.POINT_SHOP.3"
 msgid "Floral"
-msgstr ""
+msgstr "Рослини"
 
 #: STRINGS.EXTERNAL.POINT_SHOP.4
 msgctxt "STRINGS.EXTERNAL.POINT_SHOP.4"
 msgid "Pipes"
-msgstr ""
+msgstr "Труби"
 
 #: STRINGS.EXTERNAL.POINT_SHOP.5
 msgctxt "STRINGS.EXTERNAL.POINT_SHOP.5"
 msgid "Raw Teffra"
-msgstr ""
+msgstr "Сирий конжур"
 
 #: STRINGS.EXTERNAL.POINT_SHOP.6
 msgctxt "STRINGS.EXTERNAL.POINT_SHOP.6"
 msgid "Vine"
-msgstr ""
+msgstr "Лоза"
 
 #: STRINGS.EXTERNAL.POINT_SHOP.7
 msgctxt "STRINGS.EXTERNAL.POINT_SHOP.7"
 msgid "Window"
-msgstr ""
+msgstr "Вікно"
 
 #: STRINGS.EXTERNAL.RICH_PRESENCE.STATUS_MENU
 msgctxt "STRINGS.EXTERNAL.RICH_PRESENCE.STATUS_MENU"
@@ -30617,7 +30617,7 @@ msgstr ""
 #: STRINGS.ITEMS.BODY.seeker.name
 msgctxt "STRINGS.ITEMS.BODY.seeker.name"
 msgid "[TEMP] {name.seeker} Coat"
-msgstr ""
+msgstr "[TEMP] {name.seeker} Coat"
 
 #: STRINGS.ITEMS.BODY.seeker_2.desc
 msgctxt "STRINGS.ITEMS.BODY.seeker_2.desc"
@@ -30627,7 +30627,7 @@ msgstr ""
 #: STRINGS.ITEMS.BODY.seeker_2.name
 msgctxt "STRINGS.ITEMS.BODY.seeker_2.name"
 msgid "[TEMP] {name.seeker} Coat {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "[TEMP] {name.seeker} Coat {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.BODY.slowpoke.desc
 msgctxt "STRINGS.ITEMS.BODY.slowpoke.desc"
@@ -31542,32 +31542,32 @@ msgstr "Соте з гарбузів"
 #: STRINGS.ITEMS.CROP.bandi_swamp_crop.crop
 msgctxt "STRINGS.ITEMS.CROP.bandi_swamp_crop.crop"
 msgid "{name.adjective_bandi_swamp} Crop"
-msgstr ""
+msgstr "{2:{Name.adjective_bandi_swamp}} саджанець"
 
 #: STRINGS.ITEMS.CROP.bandi_swamp_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.bandi_swamp_crop.desc"
 msgid "{name.adjective_bandi_swamp} Seed"
-msgstr ""
+msgstr "{3:{Name.adjective_bandi_swamp}} насіння"
 
 #: STRINGS.ITEMS.CROP.bandi_swamp_crop.name
 msgctxt "STRINGS.ITEMS.CROP.bandi_swamp_crop.name"
 msgid "{name.adjective_bandi_swamp} Seed"
-msgstr ""
+msgstr "{3:{Name.adjective_bandi_swamp}} насіння"
 
 #: STRINGS.ITEMS.CROP.eggzy_tundra_crop.crop
 msgctxt "STRINGS.ITEMS.CROP.eggzy_tundra_crop.crop"
 msgid "{name.adjective_eggzy_tundra} Crop"
-msgstr ""
+msgstr "{2:{Name.adjective_eggzy_tundra}} саджанець"
 
 #: STRINGS.ITEMS.CROP.eggzy_tundra_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.eggzy_tundra_crop.desc"
 msgid "{name.adjective_eggzy_tundra} Seed"
-msgstr ""
+msgstr "{3:{Name.adjective_eggzy_tundra}} насіння"
 
 #: STRINGS.ITEMS.CROP.eggzy_tundra_crop.name
 msgctxt "STRINGS.ITEMS.CROP.eggzy_tundra_crop.name"
 msgid "{name.adjective_eggzy_tundra} Seed"
-msgstr ""
+msgstr "{3:{Name.adjective_eggzy_tundra}} насіння"
 
 #: STRINGS.ITEMS.CROP.gem_unidentified_crop.crop
 msgctxt "STRINGS.ITEMS.CROP.gem_unidentified_crop.crop"
@@ -31587,92 +31587,92 @@ msgstr "Кристалізоване насіння"
 #: STRINGS.ITEMS.CROP.grimhollow_volcano_crop.crop
 msgctxt "STRINGS.ITEMS.CROP.grimhollow_volcano_crop.crop"
 msgid "{name.adjective_grimhollow_volcano} Crop"
-msgstr ""
+msgstr "Саджанець {2:{name.adjective_grimhollow_volcano}}"
 
 #: STRINGS.ITEMS.CROP.grimhollow_volcano_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.grimhollow_volcano_crop.desc"
 msgid "{name.adjective_grimhollow_volcano} Seed"
-msgstr ""
+msgstr "Насіння {2:{name.adjective_grimhollow_volcano}}"
 
 #: STRINGS.ITEMS.CROP.grimhollow_volcano_crop.name
 msgctxt "STRINGS.ITEMS.CROP.grimhollow_volcano_crop.name"
 msgid "{name.adjective_grimhollow_volcano} Seed"
-msgstr ""
+msgstr "Насіння {2:{name.adjective_grimhollow_volcano}}"
 
 #: STRINGS.ITEMS.CROP.owlitzer_forest_crop.crop
 msgctxt "STRINGS.ITEMS.CROP.owlitzer_forest_crop.crop"
 msgid "{name.adjective_owlitzer_forest} Crop"
-msgstr ""
+msgstr "Саджанець {2:{name.adjective_owlitzer_forest}}"
 
 #: STRINGS.ITEMS.CROP.owlitzer_forest_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.owlitzer_forest_crop.desc"
 msgid "{name.adjective_owlitzer_forest} Seed"
-msgstr ""
+msgstr "Насіння {2:{name.adjective_owlitzer_forest}}"
 
 #: STRINGS.ITEMS.CROP.owlitzer_forest_crop.name
 msgctxt "STRINGS.ITEMS.CROP.owlitzer_forest_crop.name"
 msgid "{name.adjective_owlitzer_forest} Seed"
-msgstr ""
+msgstr "Насіння {2:{name.adjective_owlitzer_forest}}"
 
 #: STRINGS.ITEMS.CROP.sedament_tundra_crop.crop
 msgctxt "STRINGS.ITEMS.CROP.sedament_tundra_crop.crop"
 msgid "{name.adjective_sedament_tundra} Crop"
-msgstr ""
+msgstr "{2:{Name.adjective_sedament_tundra}} саджанець"
 
 #: STRINGS.ITEMS.CROP.sedament_tundra_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.sedament_tundra_crop.desc"
 msgid "{name.adjective_sedament_tundra} Seed"
-msgstr ""
+msgstr "{3:{Name.adjective_sedament_tundra}} насіння"
 
 #: STRINGS.ITEMS.CROP.sedament_tundra_crop.name
 msgctxt "STRINGS.ITEMS.CROP.sedament_tundra_crop.name"
 msgid "{name.adjective_sedament_tundra} Seed"
-msgstr ""
+msgstr "{3:{Name.adjective_sedament_tundra}} насіння"
 
 #: STRINGS.ITEMS.CROP.tefframech_volcano_crop.crop
 msgctxt "STRINGS.ITEMS.CROP.tefframech_volcano_crop.crop"
 msgid "{name.adjective_tefframech_volcano} Crop"
-msgstr ""
+msgstr "Саджанець {2:{name.adjective_tefframech_volcano}}"
 
 #: STRINGS.ITEMS.CROP.tefframech_volcano_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.tefframech_volcano_crop.desc"
 msgid "[TEMP] {name.adjective_tefframech_volcano} Seed"
-msgstr ""
+msgstr "Насіння {2:{name.adjective_tefframech_volcano}}"
 
 #: STRINGS.ITEMS.CROP.tefframech_volcano_crop.name
 msgctxt "STRINGS.ITEMS.CROP.tefframech_volcano_crop.name"
 msgid "{name.adjective_tefframech_volcano} Seed"
-msgstr ""
+msgstr "Насіння {2:{name.adjective_tefframech_volcano}}"
 
 #: STRINGS.ITEMS.CROP.thatcher_swamp_crop.crop
 msgctxt "STRINGS.ITEMS.CROP.thatcher_swamp_crop.crop"
 msgid "{name.adjective_thatcher_swamp} Crop"
-msgstr ""
+msgstr "{2:{Name.adjective_thatcher_swamp}} саджанець"
 
 #: STRINGS.ITEMS.CROP.thatcher_swamp_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.thatcher_swamp_crop.desc"
 msgid "{name.adjective_thatcher_swamp} Seed"
-msgstr ""
+msgstr "{3:{Name.adjective_thatcher_swamp}} насіння"
 
 #: STRINGS.ITEMS.CROP.thatcher_swamp_crop.name
 msgctxt "STRINGS.ITEMS.CROP.thatcher_swamp_crop.name"
 msgid "{name.adjective_thatcher_swamp} Seed"
-msgstr ""
+msgstr "{3:{Name.adjective_thatcher_swamp}} насіння"
 
 #: STRINGS.ITEMS.CROP.treemon_forest_crop.crop
 msgctxt "STRINGS.ITEMS.CROP.treemon_forest_crop.crop"
 msgid "{name.adjective_treemon_forest} Crop"
-msgstr ""
+msgstr "{2:{Name.adjective_treemon_forest}} саджанець"
 
 #: STRINGS.ITEMS.CROP.treemon_forest_crop.desc
 msgctxt "STRINGS.ITEMS.CROP.treemon_forest_crop.desc"
 msgid "{name.adjective_treemon_forest} Seed"
-msgstr ""
+msgstr "{3:{Name.adjective_treemon_forest}} насіння"
 
 #: STRINGS.ITEMS.CROP.treemon_forest_crop.name
 msgctxt "STRINGS.ITEMS.CROP.treemon_forest_crop.name"
 msgid "{name.adjective_treemon_forest} Seed"
-msgstr ""
+msgstr "{3:{Name.adjective_treemon_forest}} насіння"
 
 #: STRINGS.ITEMS.DECOR.antleer_mid_plushies.desc
 msgctxt "STRINGS.ITEMS.DECOR.antleer_mid_plushies.desc"
@@ -35466,7 +35466,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.seeker.name
 msgctxt "STRINGS.ITEMS.HEAD.seeker.name"
 msgid "[TEMP] {name.seeker} Helm"
-msgstr ""
+msgstr "[TEMP] {name.seeker} Helm"
 
 #: STRINGS.ITEMS.HEAD.seeker_2.desc
 msgctxt "STRINGS.ITEMS.HEAD.seeker_2.desc"
@@ -35476,7 +35476,7 @@ msgstr ""
 #: STRINGS.ITEMS.HEAD.seeker_2.name
 msgctxt "STRINGS.ITEMS.HEAD.seeker_2.name"
 msgid "[TEMP] {name.seeker} Helm {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "[TEMP] {name.seeker} Helm {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.HEAD.slowpoke.desc
 msgctxt "STRINGS.ITEMS.HEAD.slowpoke.desc"
@@ -37295,7 +37295,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.imbued_bandi_swamp.name
 msgctxt "STRINGS.ITEMS.MATERIALS.imbued_bandi_swamp.name"
 msgid "{name.adjective_bandi_swamp} Spore"
-msgstr ""
+msgstr "{4:{Name.adjective_bandi_swamp}} спора"
 
 #: STRINGS.ITEMS.MATERIALS.imbued_eggzy_tundra.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.imbued_eggzy_tundra.desc"
@@ -37305,7 +37305,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.imbued_eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.MATERIALS.imbued_eggzy_tundra.name"
 msgid "{name.adjective_eggzy_tundra} Egg"
-msgstr ""
+msgstr "{2:{Name.adjective_eggzy_tundra}} яйце"
 
 #: STRINGS.ITEMS.MATERIALS.imbued_grimhollow_volcano.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.imbued_grimhollow_volcano.desc"
@@ -37315,7 +37315,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.imbued_grimhollow_volcano.name
 msgctxt "STRINGS.ITEMS.MATERIALS.imbued_grimhollow_volcano.name"
 msgid "{name.adjective_grimhollow_volcano} Fungus"
-msgstr ""
+msgstr "Грибок {2:{name.adjective_grimhollow_volcano}}"
 
 #: STRINGS.ITEMS.MATERIALS.imbued_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.imbued_owlitzer_forest.desc"
@@ -37325,7 +37325,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.imbued_owlitzer_forest.name
 msgctxt "STRINGS.ITEMS.MATERIALS.imbued_owlitzer_forest.name"
 msgid "{name.adjective_owlitzer_forest} Grass"
-msgstr ""
+msgstr "Трава {2:{Name.adjective_owlitzer_forest}}"
 
 #: STRINGS.ITEMS.MATERIALS.imbued_sedament_tundra.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.imbued_sedament_tundra.desc"
@@ -37335,7 +37335,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.imbued_sedament_tundra.name
 msgctxt "STRINGS.ITEMS.MATERIALS.imbued_sedament_tundra.name"
 msgid "{name.adjective_sedament_tundra} Brick"
-msgstr ""
+msgstr "{4:{Name.adjective_sedament_tundra}} цегла"
 
 #: STRINGS.ITEMS.MATERIALS.imbued_thatcher_swamp.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.imbued_thatcher_swamp.desc"
@@ -37345,7 +37345,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.imbued_thatcher_swamp.name
 msgctxt "STRINGS.ITEMS.MATERIALS.imbued_thatcher_swamp.name"
 msgid "{name.adjective_thatcher_swamp} Slime"
-msgstr ""
+msgstr "{2:{Name.adjective_thatcher_swamp}}} слиз"
 
 #: STRINGS.ITEMS.MATERIALS.imbued_treemon_forest.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.imbued_treemon_forest.desc"
@@ -37355,7 +37355,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.imbued_treemon_forest.name
 msgctxt "STRINGS.ITEMS.MATERIALS.imbued_treemon_forest.name"
 msgid "{name.adjective_treemon_forest} Leaf"
-msgstr ""
+msgstr "{2:{Name.adjective_treemon_forest}} листок"
 
 #: STRINGS.ITEMS.MATERIALS.ingot_bandi_swamp.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.ingot_bandi_swamp.desc"
@@ -37832,7 +37832,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.normal_bandi_swamp.name
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_bandi_swamp.name"
 msgid "{name.adjective_bandi_swamp} Moss"
-msgstr ""
+msgstr "{2:{Name.adjective_bandi_swamp}} мох"
 
 #: STRINGS.ITEMS.MATERIALS.normal_eggzy_tundra.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_eggzy_tundra.desc"
@@ -37842,7 +37842,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.normal_eggzy_tundra.name
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_eggzy_tundra.name"
 msgid "{name.adjective_eggzy_tundra} Chip"
-msgstr ""
+msgstr "{2:{Name.adjective_eggzy_tundra}} шматок"
 
 #: STRINGS.ITEMS.MATERIALS.normal_grimhollow_volcano.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_grimhollow_volcano.desc"
@@ -37852,7 +37852,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.normal_grimhollow_volcano.name
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_grimhollow_volcano.name"
 msgid "{name.adjective_grimhollow_volcano} Cobblestone"
-msgstr ""
+msgstr "Бруківка {2:{name.adjective_grimhollow_volcano}}"
 
 #: STRINGS.ITEMS.MATERIALS.normal_owlitzer_forest.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_owlitzer_forest.desc"
@@ -37862,7 +37862,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.normal_owlitzer_forest.name
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_owlitzer_forest.name"
 msgid "{name.adjective_owlitzer_forest} Bark"
-msgstr ""
+msgstr "Кора {2:{name.adjective_owlitzer_forest}}"
 
 #: STRINGS.ITEMS.MATERIALS.normal_sedament_tundra.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_sedament_tundra.desc"
@@ -37872,7 +37872,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.normal_sedament_tundra.name
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_sedament_tundra.name"
 msgid "{name.adjective_sedament_tundra} Snow"
-msgstr ""
+msgstr "{2:{Name.adjective_sedament_tundra}} сніг"
 
 #: STRINGS.ITEMS.MATERIALS.normal_thatcher_swamp.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_thatcher_swamp.desc"
@@ -37892,7 +37892,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.normal_treemon_forest.name
 msgctxt "STRINGS.ITEMS.MATERIALS.normal_treemon_forest.name"
 msgid "{name.adjective_treemon_forest} Twigs"
-msgstr ""
+msgstr "{3:{Name.adjective_treemon_forest}} гілля"
 
 #: STRINGS.ITEMS.MATERIALS.owlitzer_claw.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.owlitzer_claw.desc"
@@ -37932,7 +37932,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.seeker_beard.name
 msgctxt "STRINGS.ITEMS.MATERIALS.seeker_beard.name"
 msgid "[TEMP] {name.seeker_elite} Beard"
-msgstr ""
+msgstr "[TEMP] {name.seeker_elite} Beard"
 
 #: STRINGS.ITEMS.MATERIALS.seeker_boquet.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.seeker_boquet.desc"
@@ -37942,7 +37942,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.seeker_boquet.name
 msgctxt "STRINGS.ITEMS.MATERIALS.seeker_boquet.name"
 msgid "[TEMP] {name.seeker} Bouquet"
-msgstr ""
+msgstr "[TEMP] {name.seeker} Bouquet"
 
 #: STRINGS.ITEMS.MATERIALS.seeker_leaf.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.seeker_leaf.desc"
@@ -37952,7 +37952,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.seeker_leaf.name
 msgctxt "STRINGS.ITEMS.MATERIALS.seeker_leaf.name"
 msgid "[TEMP] {name.seeker} Leaf"
-msgstr ""
+msgstr "[TEMP] {name.seeker} Leaf"
 
 #: STRINGS.ITEMS.MATERIALS.seeker_wood_plank.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.seeker_wood_plank.desc"
@@ -37962,7 +37962,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.seeker_wood_plank.name
 msgctxt "STRINGS.ITEMS.MATERIALS.seeker_wood_plank.name"
 msgid "[TEMP] {name.seeker} Wood Plank"
-msgstr ""
+msgstr "[TEMP] {name.seeker} Wood Plank"
 
 #: STRINGS.ITEMS.MATERIALS.seeker_wood_stick.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.seeker_wood_stick.desc"
@@ -37972,7 +37972,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.seeker_wood_stick.name
 msgctxt "STRINGS.ITEMS.MATERIALS.seeker_wood_stick.name"
 msgid "[TEMP] {name.seeker} Wood Stick"
-msgstr ""
+msgstr "[TEMP] {name.seeker} Wood Stick"
 
 #: STRINGS.ITEMS.MATERIALS.slowpoke_eye.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.slowpoke_eye.desc"
@@ -39141,7 +39141,7 @@ msgstr "Куля СТАТИКИ!"
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charged.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charged.desc"
 msgid "[TEMP] When you <#RED>Die</>, trigger a <#RED>Chain Reaction</> which causes an additional <#RED>{damage_mod}% {name.concept_weapon_damage}</> to all other <#RED>Enemies</> that have <#RED>Charge</>, consuming all stacks of <#RED>Charge</>."
-msgstr ""
+msgstr "[TEMP] When you <#RED>Die</>, trigger a <#RED>Chain Reaction</> which causes an additional <#RED>{damage_mod}% {name.concept_weapon_damage}</> to all other <#RED>Enemies</> that have <#RED>Charge</>, consuming all stacks of <#RED>Charge</>."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charged.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charged.name"
@@ -43274,12 +43274,12 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.SHIELD.shield_knockback_on_break.desc
 msgctxt "STRINGS.ITEMS.POWERS.SHIELD.shield_knockback_on_break.desc"
 msgid "[TEMP] When your <#BLUE>Shield</> breaks, all <#RED>Enemies</> in a <#RED>{radius}-unit radius</> get <#RED>Knocked Down</>."
-msgstr ""
+msgstr "[TEMP] When your <#BLUE>Shield</> breaks, all <#RED>Enemies</> in a <#RED>{radius}-unit radius</> get <#RED>Knocked Down</>."
 
 #: STRINGS.ITEMS.POWERS.SHIELD.shield_knockback_on_break.name
 msgctxt "STRINGS.ITEMS.POWERS.SHIELD.shield_knockback_on_break.name"
 msgid "[TEMP] Aftershock"
-msgstr ""
+msgstr "[TEMP] Aftershock"
 
 #: STRINGS.ITEMS.POWERS.SHIELD.shield_minion_full_shield.desc
 msgctxt "STRINGS.ITEMS.POWERS.SHIELD.shield_minion_full_shield.desc"
@@ -44520,62 +44520,62 @@ msgstr "<p img='images/hud_images/hud_konjur_drops_currency.tex' rpad=1>"
 #: STRINGS.ITEMS.POWERS.TONIC.tonic_explode.desc
 msgctxt "STRINGS.ITEMS.POWERS.TONIC.tonic_explode.desc"
 msgid "[TEMP] Explode, dealing <#RED>{damage} {name.concept_damage}</> to all <#RED>Enemies</> within {radius}-unit radius every <#RED>{tick_time}</> second for <#RED>{duration}</> seconds."
-msgstr ""
+msgstr "[TEMP] Explode, dealing <#RED>{damage} {name.concept_damage}</> to all <#RED>Enemies</> within {radius}-unit radius every <#RED>{tick_time}</> second for <#RED>{duration}</> seconds."
 
 #: STRINGS.ITEMS.POWERS.TONIC.tonic_explode.name
 msgctxt "STRINGS.ITEMS.POWERS.TONIC.tonic_explode.name"
 msgid "[TEMP] Explosive"
-msgstr ""
+msgstr "[TEMP] Explosive"
 
 #: STRINGS.ITEMS.POWERS.TONIC.tonic_freeze.desc
 msgctxt "STRINGS.ITEMS.POWERS.TONIC.tonic_freeze.desc"
 msgid "[TEMP] Freeze all <#RED>Enemies</> in the encounter."
-msgstr ""
+msgstr "[TEMP] Freeze all <#RED>Enemies</> in the encounter."
 
 #: STRINGS.ITEMS.POWERS.TONIC.tonic_freeze.name
 msgctxt "STRINGS.ITEMS.POWERS.TONIC.tonic_freeze.name"
 msgid "[TEMP] Freeze"
-msgstr ""
+msgstr "[TEMP] Freeze"
 
 #: STRINGS.ITEMS.POWERS.TONIC.tonic_projectile.desc
 msgctxt "STRINGS.ITEMS.POWERS.TONIC.tonic_projectile.desc"
 msgid "[TEMP] Shoot <#RED>{projectiles} Projectiles</> that deal <#RED>{damage} {name.concept_damage}</> each."
-msgstr ""
+msgstr "[TEMP] Shoot <#RED>{projectiles} Projectiles</> that deal <#RED>{damage} {name.concept_damage}</> each."
 
 #: STRINGS.ITEMS.POWERS.TONIC.tonic_projectile.name
 msgctxt "STRINGS.ITEMS.POWERS.TONIC.tonic_projectile.name"
 msgid "[TEMP] Mud Spray"
-msgstr ""
+msgstr "[TEMP] Mud Spray"
 
 #: STRINGS.ITEMS.POWERS.TONIC.tonic_projectile_repeat.desc
 msgctxt "STRINGS.ITEMS.POWERS.TONIC.tonic_projectile_repeat.desc"
 msgid "[TEMP] Shoot <#RED>{projectiles} Projectiles</> that deal <#RED>{damage} {name.concept_damage}</> every <#RED>{tick_time}</> second for <#RED>{duration}</> seconds."
-msgstr ""
+msgstr "[TEMP] Shoot <#RED>{projectiles} Projectiles</> that deal <#RED>{damage} {name.concept_damage}</> every <#RED>{tick_time}</> second for <#RED>{duration}</> seconds."
 
 #: STRINGS.ITEMS.POWERS.TONIC.tonic_projectile_repeat.name
 msgctxt "STRINGS.ITEMS.POWERS.TONIC.tonic_projectile_repeat.name"
 msgid "[TEMP] Sustained Spray"
-msgstr ""
+msgstr "[TEMP] Sustained Spray"
 
 #: STRINGS.ITEMS.POWERS.TONIC.tonic_rage.desc
 msgctxt "STRINGS.ITEMS.POWERS.TONIC.tonic_rage.desc"
 msgid "[TEMP] Increase your <#RED>{name.concept_damage}</> by <#RED>+{damage}%</> for <#RED>{time}</> seconds."
-msgstr ""
+msgstr "[TEMP] Increase your <#RED>{name.concept_damage}</> by <#RED>+{damage}%</> for <#RED>{time}</> seconds."
 
 #: STRINGS.ITEMS.POWERS.TONIC.tonic_rage.name
 msgctxt "STRINGS.ITEMS.POWERS.TONIC.tonic_rage.name"
 msgid "[TEMP] Yammo Rage"
-msgstr ""
+msgstr "[TEMP] Yammo Rage"
 
 #: STRINGS.ITEMS.POWERS.TONIC.tonic_speed.desc
 msgctxt "STRINGS.ITEMS.POWERS.TONIC.tonic_speed.desc"
 msgid "[TEMP] Increase your <#RED>{name.concept_runspeed}</> by <#RED>+{speed}%</> for the rest of the encounter."
-msgstr ""
+msgstr "[TEMP] Increase your <#RED>{name.concept_runspeed}</> by <#RED>+{speed}%</> for the rest of the encounter."
 
 #: STRINGS.ITEMS.POWERS.TONIC.tonic_speed.name
 msgctxt "STRINGS.ITEMS.POWERS.TONIC.tonic_speed.name"
 msgid "[TEMP] Zucco Speed"
-msgstr ""
+msgstr "[TEMP] Zucco Speed"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_bullseye_light_arrows.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_bullseye_light_arrows.desc"
@@ -46841,7 +46841,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.seeker.name
 msgctxt "STRINGS.ITEMS.WAIST.seeker.name"
 msgid "[TEMP] {name.seeker} WAIST"
-msgstr ""
+msgstr "[TEMP] {name.seeker} WAIST"
 
 #: STRINGS.ITEMS.WAIST.seeker_2.desc
 msgctxt "STRINGS.ITEMS.WAIST.seeker_2.desc"
@@ -46851,7 +46851,7 @@ msgstr ""
 #: STRINGS.ITEMS.WAIST.seeker_2.name
 msgctxt "STRINGS.ITEMS.WAIST.seeker_2.name"
 msgid "[TEMP] {name.seeker} WAIST {name.cosmetic_item_postfix}"
-msgstr ""
+msgstr "[TEMP] {name.seeker} WAIST {name.cosmetic_item_postfix}"
 
 #: STRINGS.ITEMS.WAIST.slowpoke.desc
 msgctxt "STRINGS.ITEMS.WAIST.slowpoke.desc"
@@ -47331,7 +47331,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.cannon_bunisnowflyballs.name
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_bunisnowflyballs.name"
 msgid "[TEMP] Bunbun Bomber"
-msgstr ""
+msgstr "[TEMP] Bunbun Bomber"
 
 #: STRINGS.ITEMS.WEAPON.cannon_corestone.desc
 msgctxt "STRINGS.ITEMS.WEAPON.cannon_corestone.desc"
@@ -48241,7 +48241,7 @@ msgstr ""
 #: STRINGS.ITEMS.WEAPON.shotput_treemon_forest.name
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_treemon_forest.name"
 msgid "[TEMP] The Doodlebug Special"
-msgstr ""
+msgstr "[TEMP] The Doodlebug Special"
 
 #: STRINGS.ITEMS.WEAPON.shotput_yammo.desc
 msgctxt "STRINGS.ITEMS.WEAPON.shotput_yammo.desc"
@@ -50337,17 +50337,17 @@ msgstr "{Name_multiple.weapon_shotput}"
 #: STRINGS.KEYBOARD.KEYS.ALT
 msgctxt "STRINGS.KEYBOARD.KEYS.ALT"
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #: STRINGS.KEYBOARD.KEYS.BACKSPACE
 msgctxt "STRINGS.KEYBOARD.KEYS.BACKSPACE"
 msgid "Backspace"
-msgstr ""
+msgstr "Backspace"
 
 #: STRINGS.KEYBOARD.KEYS.CAPSLOCK
 msgctxt "STRINGS.KEYBOARD.KEYS.CAPSLOCK"
 msgid "Caps Lock"
-msgstr ""
+msgstr "Caps Lock"
 
 #: STRINGS.KEYBOARD.KEYS.CLEAR
 msgctxt "STRINGS.KEYBOARD.KEYS.CLEAR"
@@ -50357,12 +50357,12 @@ msgstr "Очистити"
 #: STRINGS.KEYBOARD.KEYS.COMPOSE
 msgctxt "STRINGS.KEYBOARD.KEYS.COMPOSE"
 msgid "Compose"
-msgstr ""
+msgstr "Compose"
 
 #: STRINGS.KEYBOARD.KEYS.CTRL
 msgctxt "STRINGS.KEYBOARD.KEYS.CTRL"
 msgid "Control"
-msgstr ""
+msgstr "Ctrl"
 
 #: STRINGS.KEYBOARD.KEYS.DELETE
 msgctxt "STRINGS.KEYBOARD.KEYS.DELETE"
@@ -50372,102 +50372,102 @@ msgstr "Видалити"
 #: STRINGS.KEYBOARD.KEYS.DOWN
 msgctxt "STRINGS.KEYBOARD.KEYS.DOWN"
 msgid "Down"
-msgstr ""
+msgstr "Вниз"
 
 #: STRINGS.KEYBOARD.KEYS.END
 msgctxt "STRINGS.KEYBOARD.KEYS.END"
 msgid "End"
-msgstr ""
+msgstr "End"
 
 #: STRINGS.KEYBOARD.KEYS.ENTER
 msgctxt "STRINGS.KEYBOARD.KEYS.ENTER"
 msgid "Enter"
-msgstr ""
+msgstr "Enter"
 
 #: STRINGS.KEYBOARD.KEYS.ESCAPE
 msgctxt "STRINGS.KEYBOARD.KEYS.ESCAPE"
 msgid "Esc"
-msgstr ""
+msgstr "Esc"
 
 #: STRINGS.KEYBOARD.KEYS.EURO
 msgctxt "STRINGS.KEYBOARD.KEYS.EURO"
 msgid "Euro"
-msgstr ""
+msgstr "Euro"
 
 #: STRINGS.KEYBOARD.KEYS.HELP
 msgctxt "STRINGS.KEYBOARD.KEYS.HELP"
 msgid "Help"
-msgstr ""
+msgstr "Help"
 
 #: STRINGS.KEYBOARD.KEYS.HOME
 msgctxt "STRINGS.KEYBOARD.KEYS.HOME"
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #: STRINGS.KEYBOARD.KEYS.INSERT
 msgctxt "STRINGS.KEYBOARD.KEYS.INSERT"
 msgid "Insert"
-msgstr ""
+msgstr "Insert"
 
 #: STRINGS.KEYBOARD.KEYS.LALT
 msgctxt "STRINGS.KEYBOARD.KEYS.LALT"
 msgid "Left Alt"
-msgstr ""
+msgstr "Лівий Alt"
 
 #: STRINGS.KEYBOARD.KEYS.LCTRL
 msgctxt "STRINGS.KEYBOARD.KEYS.LCTRL"
 msgid "Left Control"
-msgstr ""
+msgstr "Лівий Ctrl"
 
 #: STRINGS.KEYBOARD.KEYS.LEFT
 msgctxt "STRINGS.KEYBOARD.KEYS.LEFT"
 msgid "Left"
-msgstr ""
+msgstr "Ліворуч"
 
 #: STRINGS.KEYBOARD.KEYS.LMETA
 msgctxt "STRINGS.KEYBOARD.KEYS.LMETA"
 msgid "Left Meta"
-msgstr ""
+msgstr "Ліва Meta"
 
 #: STRINGS.KEYBOARD.KEYS.LSHIFT
 msgctxt "STRINGS.KEYBOARD.KEYS.LSHIFT"
 msgid "Left Shift"
-msgstr ""
+msgstr "Лівий Shift"
 
 #: STRINGS.KEYBOARD.KEYS.LSUPER
 msgctxt "STRINGS.KEYBOARD.KEYS.LSUPER"
 msgid "Left Windows"
-msgstr ""
+msgstr "Лівий Windows"
 
 #: STRINGS.KEYBOARD.KEYS.MENU
 msgctxt "STRINGS.KEYBOARD.KEYS.MENU"
 msgid "Menu"
-msgstr ""
+msgstr "Меню"
 
 #: STRINGS.KEYBOARD.KEYS.MODE
 msgctxt "STRINGS.KEYBOARD.KEYS.MODE"
 msgid "Mode"
-msgstr ""
+msgstr "Режим"
 
 #: STRINGS.KEYBOARD.KEYS.NUMLOCK
 msgctxt "STRINGS.KEYBOARD.KEYS.NUMLOCK"
 msgid "Num Lock"
-msgstr ""
+msgstr "Num Lock"
 
 #: STRINGS.KEYBOARD.KEYS.PAGEDOWN
 msgctxt "STRINGS.KEYBOARD.KEYS.PAGEDOWN"
 msgid "Page Down"
-msgstr ""
+msgstr "Page Down"
 
 #: STRINGS.KEYBOARD.KEYS.PAGEUP
 msgctxt "STRINGS.KEYBOARD.KEYS.PAGEUP"
 msgid "Page Up"
-msgstr ""
+msgstr "Page Up"
 
 #: STRINGS.KEYBOARD.KEYS.PAUSE
 msgctxt "STRINGS.KEYBOARD.KEYS.PAUSE"
 msgid "Pause"
-msgstr ""
+msgstr "Pause"
 
 #: STRINGS.KEYBOARD.KEYS.POWER
 msgctxt "STRINGS.KEYBOARD.KEYS.POWER"
@@ -50477,67 +50477,67 @@ msgstr "Сила|Силу|Сили|Силою"
 #: STRINGS.KEYBOARD.KEYS.PRINT
 msgctxt "STRINGS.KEYBOARD.KEYS.PRINT"
 msgid "Print Screen"
-msgstr ""
+msgstr "Print Screen"
 
 #: STRINGS.KEYBOARD.KEYS.RALT
 msgctxt "STRINGS.KEYBOARD.KEYS.RALT"
 msgid "Right Alt"
-msgstr ""
+msgstr "Правий Alt"
 
 #: STRINGS.KEYBOARD.KEYS.RCTRL
 msgctxt "STRINGS.KEYBOARD.KEYS.RCTRL"
 msgid "Right Control"
-msgstr ""
+msgstr "Правий Ctrl"
 
 #: STRINGS.KEYBOARD.KEYS.RIGHT
 msgctxt "STRINGS.KEYBOARD.KEYS.RIGHT"
 msgid "Right"
-msgstr ""
+msgstr "Праворуч"
 
 #: STRINGS.KEYBOARD.KEYS.RMETA
 msgctxt "STRINGS.KEYBOARD.KEYS.RMETA"
 msgid "Right Meta"
-msgstr ""
+msgstr "Права Meta"
 
 #: STRINGS.KEYBOARD.KEYS.RSHIFT
 msgctxt "STRINGS.KEYBOARD.KEYS.RSHIFT"
 msgid "Right Shift"
-msgstr ""
+msgstr "Правий Shift"
 
 #: STRINGS.KEYBOARD.KEYS.RSUPER
 msgctxt "STRINGS.KEYBOARD.KEYS.RSUPER"
 msgid "Right Windows"
-msgstr ""
+msgstr "Правий Windows"
 
 #: STRINGS.KEYBOARD.KEYS.SCROLLLOCK
 msgctxt "STRINGS.KEYBOARD.KEYS.SCROLLLOCK"
 msgid "Scroll Lock"
-msgstr ""
+msgstr "Scroll Lock"
 
 #: STRINGS.KEYBOARD.KEYS.SHIFT
 msgctxt "STRINGS.KEYBOARD.KEYS.SHIFT"
 msgid "Shift"
-msgstr ""
+msgstr "Shift"
 
 #: STRINGS.KEYBOARD.KEYS.SPACE
 msgctxt "STRINGS.KEYBOARD.KEYS.SPACE"
 msgid "Space"
-msgstr ""
+msgstr "Пробіл"
 
 #: STRINGS.KEYBOARD.KEYS.TAB
 msgctxt "STRINGS.KEYBOARD.KEYS.TAB"
 msgid "Tab"
-msgstr ""
+msgstr "Tab"
 
 #: STRINGS.KEYBOARD.KEYS.UNDO
 msgctxt "STRINGS.KEYBOARD.KEYS.UNDO"
 msgid "Undo"
-msgstr ""
+msgstr "Undo"
 
 #: STRINGS.KEYBOARD.KEYS.UP
 msgctxt "STRINGS.KEYBOARD.KEYS.UP"
 msgid "Up"
-msgstr ""
+msgstr "Вгору"
 
 #: STRINGS.LOCATIONS.bandi_swamp.name
 msgctxt "STRINGS.LOCATIONS.bandi_swamp.name"
@@ -51417,42 +51417,42 @@ msgstr "'чіт'Скрі'ічітч б'Уззкк р'Брр'Брри \n"
 #: STRINGS.NAMES.adjective_bandi_swamp
 msgctxt "STRINGS.NAMES.adjective_bandi_swamp"
 msgid "Bog"
-msgstr ""
+msgstr "Болото|Болотяний|Болотяне|Болотяна"
 
 #: STRINGS.NAMES.adjective_eggzy_tundra
 msgctxt "STRINGS.NAMES.adjective_eggzy_tundra"
 msgid "Cavern"
-msgstr ""
+msgstr "Печера|Печерний|Печерне|Печерна"
 
 #: STRINGS.NAMES.adjective_grimhollow_volcano
 msgctxt "STRINGS.NAMES.adjective_grimhollow_volcano"
 msgid "Ruined"
-msgstr ""
+msgstr "Руїни|Руїн"
 
 #: STRINGS.NAMES.adjective_owlitzer_forest
 msgctxt "STRINGS.NAMES.adjective_owlitzer_forest"
 msgid "Grove"
-msgstr ""
+msgstr "Гай|Гаю"
 
 #: STRINGS.NAMES.adjective_sedament_tundra
 msgctxt "STRINGS.NAMES.adjective_sedament_tundra"
 msgid "Quarry"
-msgstr ""
+msgstr "Кар'єр|Кар'єрний|Кар'єрне|Кар'єрна"
 
 #: STRINGS.NAMES.adjective_tefframech_volcano
 msgctxt "STRINGS.NAMES.adjective_tefframech_volcano"
 msgid "Cauldron"
-msgstr ""
+msgstr "Котел|Котла"
 
 #: STRINGS.NAMES.adjective_thatcher_swamp
 msgctxt "STRINGS.NAMES.adjective_thatcher_swamp"
 msgid "Grave"
-msgstr ""
+msgstr "Могила|Могильний|Могильне|Могильна"
 
 #: STRINGS.NAMES.adjective_treemon_forest
 msgctxt "STRINGS.NAMES.adjective_treemon_forest"
 msgid "Forest"
-msgstr "Ліс"
+msgstr "Ліс|Лісовий|Лісове|Лісова"
 
 #: STRINGS.NAMES.antleer
 msgctxt "STRINGS.NAMES.antleer"
@@ -51932,7 +51932,7 @@ msgstr "<#KONJUR>Уламок серця</>|<#KONJUR>Уламка серця</>"
 #: STRINGS.NAMES.c_konjur_pure
 msgctxt "STRINGS.NAMES.c_konjur_pure"
 msgid "<#KONJUR>Primeval Teffra</>"
-msgstr ""
+msgstr "<#KONJUR>Первісний конжур</>|<#KONJUR>Первісного конжуру</>"
 
 #: STRINGS.NAMES.c_konjur_soul_lesser
 msgctxt "STRINGS.NAMES.c_konjur_soul_lesser"
@@ -52172,7 +52172,7 @@ msgstr "Онікс"
 #: STRINGS.NAMES.current_beta
 msgctxt "STRINGS.NAMES.current_beta"
 msgid "Powers-A-Plenty Beta"
-msgstr ""
+msgstr "Powers-A-Plenty Beta"
 
 #: STRINGS.NAMES.cyborg_prefix
 msgctxt "STRINGS.NAMES.cyborg_prefix"
@@ -52727,7 +52727,7 @@ msgstr "Уламок серця"
 #: STRINGS.NAMES.konjur_pure
 msgctxt "STRINGS.NAMES.konjur_pure"
 msgid "Primeval Teffra"
-msgstr ""
+msgstr "Первісний конжур|Первісного конжуру"
 
 #: STRINGS.NAMES.konjur_soul_greater
 msgctxt "STRINGS.NAMES.konjur_soul_greater"
@@ -53142,12 +53142,12 @@ msgstr "Хранитель руїн"
 #: STRINGS.NAMES.restroom
 msgctxt "STRINGS.NAMES.restroom"
 msgid "[TEMP] Restroom"
-msgstr ""
+msgstr "[TEMP] Restroom"
 
 #: STRINGS.NAMES.restroom2
 msgctxt "STRINGS.NAMES.restroom2"
 msgid "[TEMP] Restroom 2"
-msgstr ""
+msgstr "[TEMP] Restroom 2"
 
 #: STRINGS.NAMES.rot
 msgctxt "STRINGS.NAMES.rot"
@@ -53287,7 +53287,7 @@ msgstr "Ссаварин|Ссаварина"
 #: STRINGS.NAMES.species_dragon
 msgctxt "STRINGS.NAMES.species_dragon"
 msgid "Drakin"
-msgstr ""
+msgstr "Дракін|Дракіна"
 
 #: STRINGS.NAMES.species_mer
 msgctxt "STRINGS.NAMES.species_mer"
@@ -53562,7 +53562,7 @@ msgstr "Вузлувата долина"
 #: STRINGS.NAMES.trek
 msgctxt "STRINGS.NAMES.trek"
 msgid "[TEMP] Expedition"
-msgstr ""
+msgstr "[TEMP] Expedition"
 
 #: STRINGS.NAMES.tundra
 msgctxt "STRINGS.NAMES.tundra"
@@ -54422,7 +54422,7 @@ msgstr "Ссаварини"
 #: STRINGS.NAMES_PLURAL.species_dragon
 msgctxt "STRINGS.NAMES_PLURAL.species_dragon"
 msgid "Drakeen"
-msgstr ""
+msgstr "Drakeen"
 
 #: STRINGS.NAMES_PLURAL.species_mer
 msgctxt "STRINGS.NAMES_PLURAL.species_mer"
@@ -54542,7 +54542,7 @@ msgstr "Наповнені Дерева"
 #: STRINGS.NAMES_PLURAL.trek
 msgctxt "STRINGS.NAMES_PLURAL.trek"
 msgid "[TEMP] Expeditions"
-msgstr ""
+msgstr "[TEMP] Expeditions"
 
 #: STRINGS.NAMES_PLURAL.tutorial_attack_heavy
 msgctxt "STRINGS.NAMES_PLURAL.tutorial_attack_heavy"
@@ -56087,7 +56087,7 @@ msgstr "Можливо, <#BLUE>{Name.npc_armorsmith}</> щось знає?"
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_WEAPON
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_CORESTONE_WEAPON"
 msgid "<#BLUE>{name.npc_refiner}</> might trust you with the powerful secrets of her research if she knew you better..."
-msgstr ""
+msgstr "<#BLUE>{Name.npc_refiner}</> могла б довірити вам найпотаємніші секрети своїх досліджень, якби знала вас краще..."
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_DESC
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_DESC"
@@ -56122,7 +56122,7 @@ msgstr "СПОРЯДЖЕНО"
 #: STRINGS.UI.ARMORYSCREEN.UNLOCKED_CORESTONE_WEAPON
 msgctxt "STRINGS.UI.ARMORYSCREEN.UNLOCKED_CORESTONE_WEAPON"
 msgid "Talk to <#BLUE>{name.npc_blacksmith}</> to craft and repair <#RED>{name_multiple.weapon_crystal}</>."
-msgstr ""
+msgstr "Поговоріть з <#BLUE>{4:{Name.npc_blacksmith}}</> для виготовлення та ремонту <#RED>{name_multiple.weapon_crystal}</>."
 
 #: STRINGS.UI.ARMORYSCREEN.UPGRADE_NPC_TT
 msgctxt "STRINGS.UI.ARMORYSCREEN.UPGRADE_NPC_TT"
@@ -56217,7 +56217,7 @@ msgstr "Назад"
 #: STRINGS.UI.CODEXSCREEN.DESC
 msgctxt "STRINGS.UI.CODEXSCREEN.DESC"
 msgid "Encyclopedia of {name_multiple.rot}, {name_multiple.concept_relic}, and {name_multiple.material}."
-msgstr ""
+msgstr "Енциклопедія {2:{name_multiple.rot}}, {3:{name_multiple.concept_relic}} та {2:{name_multiple.material}}."
 
 #: STRINGS.UI.CODEXSCREEN.POWER.LOCKED
 msgctxt "STRINGS.UI.CODEXSCREEN.POWER.LOCKED"
@@ -56252,7 +56252,7 @@ msgstr "Гнильці|Гнильців"
 #: STRINGS.UI.CODEXSCREEN.REGION.SECTION_UNLOCKABLES
 msgctxt "STRINGS.UI.CODEXSCREEN.REGION.SECTION_UNLOCKABLES"
 msgid "Unlockables"
-msgstr ""
+msgstr "Можна розблокувати"
 
 #: STRINGS.UI.CODEXSCREEN.REGION.TAB_TITLE
 msgctxt "STRINGS.UI.CODEXSCREEN.REGION.TAB_TITLE"
@@ -60150,13 +60150,13 @@ msgstr "Шлях мисливця!"
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.LEGACY_BOSSWEAPON_QUEST.DESC"
 msgid "In the 1.0 release of Rotwood, you unlock {name_multiple.weapon_crystal} crafting by rescuing <#BLUE>{name.npc_refiner}</>. You must complete this rescue and her quest before you can craft more <#RED>{name_multiple.weapon_crystal}</> or <#RED>{name_multiple.weapon_boss}</>.\n\n"
 "Check the <#RED>{name.i_damselfly}</> and your <#RED>{name.i_station_diary}</> for details."
-msgstr "У релізі Rotwood 1.0 створення {name_multiple.weapon_crystal} стає доступним після порятунку <#BLUE>{Name.npc_refiner}</>. Ви маєте завершити це завдання та її квест, перш ніж зможете створювати більше <#RED>{name_multiple.weapon_crystal}</> або <#RED>{name_multiple.weapon_boss}</>. \n\n"
+msgstr "У релізі Ротвуда 1.0 створення {name_multiple.weapon_crystal} стає доступним після порятунку <#BLUE>{Name.npc_refiner}</>. Ви маєте завершити це завдання та її квест, перш ніж зможете створювати більше <#RED>{name_multiple.weapon_crystal}</> або <#RED>{name_multiple.weapon_boss}</>. \n\n"
 "Подробиці шукайте в <#RED>{3:{Name.i_damselfly}}</> та вашому <#RED>{4:{name.i_station_diary}}</>."
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.LEGACY_BOSSWEAPON_QUEST.TITLE
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.LEGACY_BOSSWEAPON_QUEST.TITLE"
 msgid "New {name.weapon_crystal} Crafting Quest"
-msgstr ""
+msgstr "Нове завдання зі створення {3:{name.weapon_crystal}}"
 
 #: STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_1.DESC
 msgctxt "STRINGS.UI.MECHANIC_TUTORIALS.LOADOUTS_UNLOCKED_1.DESC"
@@ -60910,12 +60910,12 @@ msgstr "Зберегти зміни?"
 #: STRINGS.UI.OPTIONSSCREEN.GAMEPLAY_HUNTER_ASSIST
 msgctxt "STRINGS.UI.OPTIONSSCREEN.GAMEPLAY_HUNTER_ASSIST"
 msgid "Hunter's Assist"
-msgstr ""
+msgstr "Помічник мисливця"
 
 #: STRINGS.UI.OPTIONSSCREEN.GAMEPLAY_HUNTER_ASSIST_MAX
 msgctxt "STRINGS.UI.OPTIONSSCREEN.GAMEPLAY_HUNTER_ASSIST_MAX"
 msgid "Hunter's Assist: Max {name.powerdesc_damage_reduction}"
-msgstr ""
+msgstr "Помічник мисливця: Макс. {name.powerdesc_damage_reduction}"
 
 #: STRINGS.UI.OPTIONSSCREEN.GAMEPLAY_MOUSE_AIMING
 msgctxt "STRINGS.UI.OPTIONSSCREEN.GAMEPLAY_MOUSE_AIMING"
@@ -61269,7 +61269,7 @@ msgstr "Редагування сенсорного керування"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_HUNTER_ASSIST.OFF.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_HUNTER_ASSIST.OFF.DESC"
 msgid "Failure is part of the journey through Rotwood, but you can turn on this <i>Assist Mode</> to become tougher with each death."
-msgstr ""
+msgstr "Невдачі — частина подорожі Ротвудом, але ви можете ввімкнути цей <i>режим допомоги</>, щоб ставати витривалішими з кожною смертю."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_HUNTER_ASSIST.OFF.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_HUNTER_ASSIST.OFF.NAME"
@@ -61279,12 +61279,12 @@ msgstr "ВИМК"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_HUNTER_ASSIST.ON.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_HUNTER_ASSIST.ON.DESC"
 msgid "Death boosts the toughness of {name_multiple.hunter}. Victory reduces this boost."
-msgstr ""
+msgstr "Смерть підвищує витривалість {3:{name_multiple.hunter}}. Перемога зменшує цей бонус."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_HUNTER_ASSIST.ON.DESC_RESTRICTION
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_HUNTER_ASSIST.ON.DESC_RESTRICTION"
 msgid "Does not apply to Online Games."
-msgstr ""
+msgstr "Не застосовується до онлайн-гри."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_HUNTER_ASSIST.ON.NAME
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_HUNTER_ASSIST.ON.NAME"
@@ -61294,12 +61294,12 @@ msgstr "УВІМК"
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_HUNTER_ASSIST_MAX.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_HUNTER_ASSIST_MAX.DESC"
 msgid "Repeated deaths increase Hunter's Assist to resist up to {percent}% of incoming damage."
-msgstr ""
+msgstr "Повторні смерті збільшують ефект помічника мисливця, що дозволяє протистояти до {percent}% отриманої шкоди."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_HUNTER_ASSIST_MAX.DESC_DEFAULT
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_HUNTER_ASSIST_MAX.DESC_DEFAULT"
 msgid "Hunter's Assist {name.powerdesc_damage_reduction} won't increase above {percent}% (default)."
-msgstr ""
+msgstr "{Name.powerdesc_damage_reduction} від ефекту помічника мисливця не перевищуватиме {percent}% (за замовчуванням)."
 
 #: STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_MOUSE_AIMING.OFF.DESC
 msgctxt "STRINGS.UI.OPTIONSSCREEN.SETTINGS.CONTROLS.GAMEPLAY_MOUSE_AIMING.OFF.DESC"
@@ -63161,7 +63161,7 @@ msgstr "Неможливо приєднатися"
 #: STRINGS.UI.SURVIVECOUNTER.COUNTDOWN
 msgctxt "STRINGS.UI.SURVIVECOUNTER.COUNTDOWN"
 msgid "Survive!"
-msgstr ""
+msgstr "Виживіть!"
 
 #: STRINGS.UI.SURVIVECOUNTER.GETREADY
 msgctxt "STRINGS.UI.SURVIVECOUNTER.GETREADY"
@@ -63171,7 +63171,7 @@ msgstr "Приготуйтеся <#RED>%s</>"
 #: STRINGS.UI.SURVIVECOUNTER.TIME
 msgctxt "STRINGS.UI.SURVIVECOUNTER.TIME"
 msgid "<#RED><p img='images/ui_ftf_icons/loading.tex' color=0 scale=0.8>%s</>"
-msgstr ""
+msgstr "<#RED><p img='images/ui_ftf_icons/loading.tex' color=0 scale=0.8>%s</>"
 
 #: STRINGS.UI.TALENTSCREEN.DESC
 msgctxt "STRINGS.UI.TALENTSCREEN.DESC"
@@ -63261,7 +63261,7 @@ msgstr "Лишились {name_multiple.konjur_heart_shard}!"
 #: STRINGS.UI.TOOLTIPS.BOW_BULLSEYE.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.BOW_BULLSEYE.DESC"
 msgid "Fire a <#BLUE>Focus</> <#RED>Heavy Attack</> that hits an <#RED>Enemy</> just as the arrow hits the ground."
-msgstr ""
+msgstr "Виконайте <#BLUE>фокусну</> <#RED>важку атаку</>, яка влучить у <#RED>ворога</> саме в момент, коли стріла торкнеться землі."
 
 #: STRINGS.UI.TOOLTIPS.BOW_BULLSEYE.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.BOW_BULLSEYE.NAME"
@@ -63271,7 +63271,7 @@ msgstr "В яблучко"
 #: STRINGS.UI.TOOLTIPS.CHAIN_REACTION.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.CHAIN_REACTION.DESC"
 msgid "Consume <#RED>Charge</> from all <#RED>Charged Enemies</>, dealing <#RED>{name.concept_damage}</>."
-msgstr ""
+msgstr "Споживає <#RED>заряд</> від усіх <#RED>заряджених ворогів</>, завдаючи <#RED>{name.concept_damage}</>."
 
 #: STRINGS.UI.TOOLTIPS.CHAIN_REACTION.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.CHAIN_REACTION.NAME"
@@ -63281,7 +63281,7 @@ msgstr "Ланцюгова реакція"
 #: STRINGS.UI.TOOLTIPS.CHARGE.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.CHARGE.DESC"
 msgid "Triggers a <#RED>Chain Reaction</> when the afflicted target reaches <#RED>7 Charge</> or <#RED>Dies</>."
-msgstr ""
+msgstr "Запускає <#RED>ланцюгову реакцію</>, коли уражена ціль отримує <#RED>7 зарядів</> або <#RED>помирає</>."
 
 #: STRINGS.UI.TOOLTIPS.CHARGE.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.CHARGE.NAME"
@@ -63291,37 +63291,37 @@ msgstr "Заряди"
 #: STRINGS.UI.TOOLTIPS.COLD.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.COLD.DESC"
 msgid "Reduces <#RED>{name.concept_runspeed}</>. <#RED>Cold</> fades over time, but become <#RED>Frozen</> when too much accumulates."
-msgstr ""
+msgstr "Знижує <#RED>{name.concept_runspeed}</>. <#RED>Холод</> поступово слабшає, але накопичення надмірної кількості <#RED>заморожує</>."
 
 #: STRINGS.UI.TOOLTIPS.COLD.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.COLD.NAME"
 msgid "Cold"
-msgstr ""
+msgstr "Холод"
 
 #: STRINGS.UI.TOOLTIPS.COMBO_HAMMER_HEAVY_AIR_SPIN.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.COMBO_HAMMER_HEAVY_AIR_SPIN.DESC"
 msgid "<p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT>"
-msgstr ""
+msgstr "<p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT>"
 
 #: STRINGS.UI.TOOLTIPS.COMBO_HAMMER_HEAVY_AIR_SPIN.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.COMBO_HAMMER_HEAVY_AIR_SPIN.NAME"
 msgid "{name.attack_hammer_heavy_air_spin}"
-msgstr ""
+msgstr "{Name.attack_hammer_heavy_air_spin}"
 
 #: STRINGS.UI.TOOLTIPS.COMBO_HAMMER_LARIAT.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.COMBO_HAMMER_LARIAT.DESC"
 msgid "<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> Back + <p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT>"
-msgstr ""
+msgstr "<p bind='Controls.Digital.DODGE' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> назад + <p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT>"
 
 #: STRINGS.UI.TOOLTIPS.COMBO_HAMMER_LARIAT.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.COMBO_HAMMER_LARIAT.NAME"
 msgid "{name.attack_hammer_lariat}"
-msgstr ""
+msgstr "{Name.attack_hammer_lariat}"
 
 #: STRINGS.UI.TOOLTIPS.COMBO_POLEARM_MULTITHRUST.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.COMBO_POLEARM_MULTITHRUST.DESC"
 msgid "<p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT>"
-msgstr ""
+msgstr "<p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_LIGHT' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT>"
 
 #: STRINGS.UI.TOOLTIPS.COMBO_POLEARM_MULTITHRUST.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.COMBO_POLEARM_MULTITHRUST.NAME"
@@ -63331,7 +63331,7 @@ msgstr "{Name.attack_polearm_multithrust}"
 #: STRINGS.UI.TOOLTIPS.COMBO_POLEARM_VAULT_STRIKE.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.COMBO_POLEARM_VAULT_STRIKE.DESC"
 msgid "<p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT>"
-msgstr ""
+msgstr "<p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT> <p img='images/ui_ftf/arrow_right.tex' color=0 scale=0.4> <p bind='Controls.Digital.ATTACK_HEAVY' color=LIGHT_TEXT>"
 
 #: STRINGS.UI.TOOLTIPS.COMBO_POLEARM_VAULT_STRIKE.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.COMBO_POLEARM_VAULT_STRIKE.NAME"
@@ -63351,7 +63351,7 @@ msgstr "Збільшує <#RED>{name.concept_damage}</> на 25%."
 #: STRINGS.UI.TOOLTIPS.CRITICAL_HIT.EACH_PLAYER
 msgctxt "STRINGS.UI.TOOLTIPS.CRITICAL_HIT.EACH_PLAYER"
 msgid "{player_name}'s bonus is boosted to <#RED>{crit_mult}%</>."
-msgstr ""
+msgstr "Бонус {player_name} збільшується до <#RED>{crit_mult}%</>."
 
 #: STRINGS.UI.TOOLTIPS.CRITICAL_HIT.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.CRITICAL_HIT.NAME"
@@ -63401,7 +63401,7 @@ msgstr "Скасування ухилення"
 #: STRINGS.UI.TOOLTIPS.EMOTE.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.EMOTE.DESC"
 msgid "<p bind='Controls.Digital.SHOW_EMOTE_RING' color=BTNICON_DARK> <#RED>Emote</>."
-msgstr ""
+msgstr "<p bind='Controls.Digital.SHOW_EMOTE_RING' color=BTNICON_DARK> <#RED>Емоція</>."
 
 #: STRINGS.UI.TOOLTIPS.EMOTE.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.EMOTE.NAME"
@@ -63427,12 +63427,13 @@ msgstr "<#BLUE>{Name.concept_focus_hit}</>"
 msgctxt "STRINGS.UI.TOOLTIPS.FROZEN.DESC"
 msgid "Unable to move. Being hit breaks out of <#RED>Frozen</> earlier.\n\n"
 "{name_multiple.concept_relic} that affect <#RED>Cold</> also affect <#RED>Frozen</>."
-msgstr ""
+msgstr "Неможливо рухатися. Отримання удару швидше виводить із <#RED>замороження</>.\n\n"
+"{Name_multiple.concept_relic}, які впливають на <#RED>холод</>, також впливають на <#RED>замороження</>."
 
 #: STRINGS.UI.TOOLTIPS.FROZEN.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.FROZEN.NAME"
 msgid "Frozen"
-msgstr ""
+msgstr "Замороження"
 
 #: STRINGS.UI.TOOLTIPS.HEAVY_ATTACK.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.HEAVY_ATTACK.DESC"
@@ -63457,22 +63458,22 @@ msgstr "Серія влучань"
 #: STRINGS.UI.TOOLTIPS.HUNTER_ASSIST.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.HUNTER_ASSIST.DESC"
 msgid "[TEMP] Makes you tougher each time you run out of health."
-msgstr ""
+msgstr "[TEMP] Робить вас витривалішими щоразу, коли ваше здоров’я опускається до нуля."
 
 #: STRINGS.UI.TOOLTIPS.HUNTER_ASSIST.DESC_CONTEXTUAL
 msgctxt "STRINGS.UI.TOOLTIPS.HUNTER_ASSIST.DESC_CONTEXTUAL"
 msgid "Currently {percent:%.0f}% <#RED>{name.powerdesc_damage_reduction}</>."
-msgstr ""
+msgstr "Наразі <#RED>{name.powerdesc_damage_reduction}</>: {percent:%.0f}%."
 
 #: STRINGS.UI.TOOLTIPS.HUNTER_ASSIST.DESC_MAXIMUM
 msgctxt "STRINGS.UI.TOOLTIPS.HUNTER_ASSIST.DESC_MAXIMUM"
 msgid "Currently {percent:%.0f}% <#RED>{name.powerdesc_damage_reduction}</>, which is the maximum."
-msgstr ""
+msgstr "Наразі <#RED>{name.powerdesc_damage_reduction}</>: {percent:%.0f}%, що є максимальним значенням."
 
 #: STRINGS.UI.TOOLTIPS.HUNTER_ASSIST.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.HUNTER_ASSIST.NAME"
 msgid "Assist Mode"
-msgstr ""
+msgstr "Режим допомоги"
 
 #: STRINGS.UI.TOOLTIPS.IFRAME_DODGE.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.IFRAME_DODGE.DESC"
@@ -63542,22 +63543,22 @@ msgstr "Предмети які використовуються для <#RED>д
 #: STRINGS.UI.TOOLTIPS.MATERIALS.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.MATERIALS.NAME"
 msgid "Materials"
-msgstr "Матеріали"
+msgstr "Матеріали|Матеріалів"
 
 #: STRINGS.UI.TOOLTIPS.MECHANIC_PIERCING_SPIKE.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.MECHANIC_PIERCING_SPIKE.DESC"
 msgid "The <#RED>{name.weapon_shotput}</> travels in a straight line and <#RED>Pierces</> through <#RED>Enemies</>."
-msgstr ""
+msgstr "<#RED>{Name.weapon_shotput}</> летить по прямій і <#RED>пробиває</> <#RED>ворогів</>."
 
 #: STRINGS.UI.TOOLTIPS.MECHANIC_PIERCING_SPIKE.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.MECHANIC_PIERCING_SPIKE.NAME"
 msgid "Piercing Spike"
-msgstr ""
+msgstr "Пробивний шип"
 
 #: STRINGS.UI.TOOLTIPS.PARRY.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.PARRY.DESC"
 msgid "Briefly enter a stance. Take <#RED>0 Damage</> from the first <#RED>Hit</> you take in this stance."
-msgstr ""
+msgstr "Ненадовго прийміть стійку. Отримайте <#RED>0 шкоди</> від першого <#RED>удару</>, якого зазнаєте в цій стійці."
 
 #: STRINGS.UI.TOOLTIPS.PARRY.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.PARRY.NAME"
@@ -63649,62 +63650,62 @@ msgstr "{Name.concept_skill}"
 #: STRINGS.UI.TOOLTIPS.WEAPONPOWER_BOW.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.WEAPONPOWER_BOW.DESC"
 msgid "A {name.concept_relic} tailored to this weapon."
-msgstr ""
+msgstr "{Name.concept_relic}, створена спеціально для цієї зброї."
 
 #: STRINGS.UI.TOOLTIPS.WEAPONPOWER_BOW.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.WEAPONPOWER_BOW.NAME"
 msgid "<#POWER_LEGENDARY>{name.weapon_bow} {name.concept_relic}</>"
-msgstr ""
+msgstr "<#POWER_LEGENDARY>{Name.concept_relic} {3:{name.weapon_bow}}</>"
 
 #: STRINGS.UI.TOOLTIPS.WEAPONPOWER_CANNON.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.WEAPONPOWER_CANNON.DESC"
 msgid "A {name.concept_relic} tailored to this weapon."
-msgstr ""
+msgstr "{Name.concept_relic}, створена спеціально для цієї зброї."
 
 #: STRINGS.UI.TOOLTIPS.WEAPONPOWER_CANNON.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.WEAPONPOWER_CANNON.NAME"
 msgid "<#POWER_LEGENDARY>{name.weapon_cannon} {name.concept_relic}</>"
-msgstr ""
+msgstr "<#POWER_LEGENDARY>{Name.concept_relic} {3:{name.weapon_cannon}}</>"
 
 #: STRINGS.UI.TOOLTIPS.WEAPONPOWER_CLEAVER.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.WEAPONPOWER_CLEAVER.DESC"
 msgid "A {name.concept_relic} tailored to this weapon."
-msgstr ""
+msgstr "{Name.concept_relic}, створена спеціально для цієї зброї."
 
 #: STRINGS.UI.TOOLTIPS.WEAPONPOWER_CLEAVER.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.WEAPONPOWER_CLEAVER.NAME"
 msgid "<#POWER_LEGENDARY>{name.weapon_greatsword} {name.concept_relic}</>"
-msgstr ""
+msgstr "<#POWER_LEGENDARY>{Name.concept_relic} {3:{name.weapon_greatsword}}</>"
 
 #: STRINGS.UI.TOOLTIPS.WEAPONPOWER_HAMMER.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.WEAPONPOWER_HAMMER.DESC"
 msgid "A {name.concept_relic} tailored to this weapon."
-msgstr ""
+msgstr "{Name.concept_relic}, створена спеціально для цієї зброї."
 
 #: STRINGS.UI.TOOLTIPS.WEAPONPOWER_HAMMER.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.WEAPONPOWER_HAMMER.NAME"
 msgid "<#POWER_LEGENDARY>{name.weapon_hammer} {name.concept_relic}</>"
-msgstr ""
+msgstr "<#POWER_LEGENDARY>{Name.concept_relic} {3:{name.weapon_hammer}}</>"
 
 #: STRINGS.UI.TOOLTIPS.WEAPONPOWER_POLEARM.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.WEAPONPOWER_POLEARM.DESC"
 msgid "A {name.concept_relic} tailored to this weapon."
-msgstr ""
+msgstr "{Name.concept_relic}, створена спеціально для цієї зброї."
 
 #: STRINGS.UI.TOOLTIPS.WEAPONPOWER_POLEARM.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.WEAPONPOWER_POLEARM.NAME"
 msgid "<#POWER_LEGENDARY>{name.weapon_polearm} {name.concept_relic}</>"
-msgstr ""
+msgstr "<#POWER_LEGENDARY>{Name.concept_relic} {3:{name.weapon_polearm}}</>"
 
 #: STRINGS.UI.TOOLTIPS.WEAPONPOWER_SHOTPUT.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.WEAPONPOWER_SHOTPUT.DESC"
 msgid "A {name.concept_relic} tailored to this weapon."
-msgstr ""
+msgstr "{Name.concept_relic}, створена спеціально для цієї зброї."
 
 #: STRINGS.UI.TOOLTIPS.WEAPONPOWER_SHOTPUT.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.WEAPONPOWER_SHOTPUT.NAME"
 msgid "<#POWER_LEGENDARY>{name.weapon_shotput} {name.concept_relic}</>"
-msgstr ""
+msgstr "<#POWER_LEGENDARY>{Name.concept_relic} {3:{name.weapon_shotput}}</>"
 
 #: STRINGS.UI.TOOLTIPS.WEAPON_DAMAGE.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.WEAPON_DAMAGE.DESC"
