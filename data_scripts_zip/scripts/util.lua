@@ -1,8 +1,8 @@
-local iterator = require "util.iterator"
+local kassert = require "util.kassert"
+local lume = require "util.lume"
 require "class"
 require "mathutil"
 require "util.tableutil"
-local lume = require "util.lume"
 
 
 function DumpTableXML(t, name)
@@ -137,7 +137,7 @@ function resolvefilepath( filepath, force_path_search )
 		return memoizedFilePaths[filepath]
 	end
 	local resolved = softresolvefilepath(filepath, force_path_search)
-	assert(resolved ~= nil, "Could not find an asset matching "..filepath.." in any of the search paths.")
+	kassert.assert_fmt(resolved ~= nil, "Could not find an asset matching %s in any of the search paths.", filepath)
 	memoizedFilePaths[filepath] = resolved
 	return resolved
 end
@@ -155,7 +155,7 @@ function softresolvefilepath(filepath, force_path_search)
 
 	-- mod folders don't have "data" in them, so we strip that off if necessary. It will
 	-- be added back on as one of the search paths.
-	local filepath = string.gsub(filepath, "^/", "")
+	filepath = string.gsub(filepath, "^/", "")
 
 	local searchpaths = package.path
 	-- mods may use package.path to insert themselves into the search path

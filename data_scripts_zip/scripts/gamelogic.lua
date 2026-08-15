@@ -468,7 +468,6 @@ local function PopulateWorld(savedata, profile, savetype)
 	TheSystemService:SetStalling(false)
 end
 
-local pop_mastery_queue_data
 
 local OnAllPlayersReady = function(savedata, profile)
 	TheLog.ch.Boot:print("Fade to black")
@@ -518,26 +517,14 @@ local OnAllPlayersReady = function(savedata, profile)
 	-- NOTE - Town can also be detected (along with additional information) like this:
 	--		  TheDungeon:GetDungeonMap():GetBiomeLocation().location_type == biomes.location_type_names.TOWN
 	--		  most location types will be DUNGEON
-	
+
 	TheLog.ch.Boot:printf("OnAllPlayersReady: IsHost[%s] GetNrPlayersOnRoomChange[%s]",
 		TheNet:IsHost(), TheNet:GetNrPlayersOnRoomChange())
 
 	TheFrontEnd:GetSound():KillSound("FEMusic")
 	TheFrontEnd:GetSound():KillSound("FEPortalSFX")
 
-	if TheFrontEnd.error_widget == nil then
-		if TheDungeon.HUD and pop_mastery_queue_data then
-			-- Maybe want this to only show AFTER a cinematic ... PlayerSpawner:_QueueGameplayEvent
-			TheLog.ch.FrontEnd:printf("PopMastery: Queue data exists from previous HUD: %d items", #pop_mastery_queue_data)
-
-			TheDungeon:DoTaskInTime(2, function()
-				if TheDungeon.HUD then
-					TheDungeon.HUD:SetPopMasteryProgressQueueData(pop_mastery_queue_data)
-				end
-				pop_mastery_queue_data = nil
-			end)
-		end
-	else
+	if TheFrontEnd.error_widget ~= nil then
 		TheFrontEnd:SetFadeLevel(1)
 	end
 
@@ -596,7 +583,7 @@ local function OnFinishedSpawnLocalPlayers()
 	TheNet:ConfirmRoomLoadReady()	-- Tell the host we're ready to go.
 	TheNet:StartingRoom() -- Signal the networking systems that the room is starting
 	HideLoading()
-	
+
 	--[[
 	-- TO RE-ENABLE DELAYED HIDING FOR NEW GAME INTRO FLOW:
 	-- If the loading widget snapshot needs to persist through C++ loading slides
@@ -616,7 +603,7 @@ local function OnFinishedSpawnLocalPlayers()
 			end
 		end
 	end
-	
+
 	if not should_delay_hide then
 		HideLoading()
 	end
@@ -664,7 +651,6 @@ local function BeginRoom(savedata, profile, savetype)
 	end
 
 	if TheDungeon.HUD then
-		pop_mastery_queue_data = TheDungeon.HUD:GetPopMasteryProgressQueueData()
 		TheDungeon:DeactivateHUD()
 	end
 
@@ -710,17 +696,25 @@ local function BeginRoom(savedata, profile, savetype)
 			OnNetworkDisconnect("DEFAULT", true)
 		elseif raw_local_player_count == 0 then
 			if not WaitForLocalPlayersTask then
-				TheLog.ch.Boot:printf("SpawnLocalPlayers - Waiting for host registration.")
+				local _mode, runSeqNr, _runparams, _questparams = TheNet:GetRunData()
+				TheLog.ch.Boot:printf("SpawnLocalPlayers - Waiting for host registration for runSeqNr=%s", runSeqNr)
 
 				WaitForLocalPlayersTaskTimeout = WaitForLocalPlayersTaskTimeoutTicks
 				WaitForLocalPlayersTask = TheGlobalInstance:DoPeriodicTask(0, function()
 					WaitForLocalPlayersTaskTimeout = WaitForLocalPlayersTaskTimeout - 1
 					raw_local_player_count = TheNet:GetNrLocalPlayers(true)
+					local _wmode, wrunSeqNr, _wrunparams, _wquestparams = TheNet:GetRunData()
+
 					if not raw_local_player_count then
 						ResetWaitForLocalPlayersTask()
 						TheLog.ch.Boot:printf("Error: SpawnLocalPlayers - Network session abruptly ended while waiting.")
 						return
 
+					elseif wrunSeqNr ~= runSeqNr then
+						ResetWaitForLocalPlayersTask()
+						TheLog.ch.Boot:printf("Warning: SpawnLocalPlayers - Received new run data (runSeqNr=%s), cancelling this wait",
+							wrunSeqNr)
+						return
 					elseif raw_local_player_count > 0 and TheWorld then
 						ResetWaitForLocalPlayersTask()
 
