@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2026-08-15 20:57\n"
+"PO-Revision-Date: 2026-08-18 17:46\n"
 
 #: Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB
 msgctxt "Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB"
@@ -32087,7 +32087,7 @@ msgstr "Плюшевий {name.npc_blacksmith}"
 #: STRINGS.ITEMS.DECOR.npc_cook_plushies.desc
 msgctxt "STRINGS.ITEMS.DECOR.npc_cook_plushies.desc"
 msgid "A soft, tiny <#BLUE>{name.job_cook}</>, here to listen to tall tales by the fire."
-msgstr ""
+msgstr "М'який маленький <#BLUE>{name.job_cook}</>, щоб слухати небилиці біля вогнища."
 
 #: STRINGS.ITEMS.DECOR.npc_cook_plushies.name
 msgctxt "STRINGS.ITEMS.DECOR.npc_cook_plushies.name"
@@ -37011,7 +37011,7 @@ msgstr ""
 #: STRINGS.ITEMS.MATERIALS.cosmetic_armour_unlock.name
 msgctxt "STRINGS.ITEMS.MATERIALS.cosmetic_armour_unlock.name"
 msgid "<#COSMETIC>Mirage Cube</>"
-msgstr ""
+msgstr "<#COSMETIC>Куб міражу</>"
 
 #: STRINGS.ITEMS.MATERIALS.crop_drop_bandi_swamp.desc
 msgctxt "STRINGS.ITEMS.MATERIALS.crop_drop_bandi_swamp.desc"
@@ -38519,48 +38519,49 @@ msgstr "Викрадена зброя"
 #: STRINGS.ITEMS.POWERS.CHEAT.hunter_assist.FLAVOR_ASSIST_DOWN
 msgctxt "STRINGS.ITEMS.POWERS.CHEAT.hunter_assist.FLAVOR_ASSIST_DOWN"
 msgid "Victorious"
-msgstr ""
+msgstr "Перемога"
 
 #: STRINGS.ITEMS.POWERS.CHEAT.hunter_assist.FLAVOR_ASSIST_UP
 msgctxt "STRINGS.ITEMS.POWERS.CHEAT.hunter_assist.FLAVOR_ASSIST_UP"
 msgid "Battle Hardened"
-msgstr ""
+msgstr "Загартований у битвах"
 
 #: STRINGS.ITEMS.POWERS.CHEAT.hunter_assist.POPUP_AT_MAX_ASSIST
 msgctxt "STRINGS.ITEMS.POWERS.CHEAT.hunter_assist.POPUP_AT_MAX_ASSIST"
 msgid "At max <#RED>{name.powerdesc_damage_reduction}</>!"
-msgstr ""
+msgstr "Максимальна <#RED>{name.powerdesc_damage_reduction}</>!"
 
 #: STRINGS.ITEMS.POWERS.CHEAT.hunter_assist.POPUP_DO_LESS_ASSIST
 msgctxt "STRINGS.ITEMS.POWERS.CHEAT.hunter_assist.POPUP_DO_LESS_ASSIST"
 msgid "Decreased <#RED>{name.powerdesc_damage_reduction}</>"
-msgstr ""
+msgstr "Зменшує <#RED>{name.powerdesc_damage_reduction}</>"
 
 #: STRINGS.ITEMS.POWERS.CHEAT.hunter_assist.POPUP_DO_MORE_ASSIST
 msgctxt "STRINGS.ITEMS.POWERS.CHEAT.hunter_assist.POPUP_DO_MORE_ASSIST"
 msgid "Increased <#RED>{name.powerdesc_damage_reduction}</>"
-msgstr ""
+msgstr "Збільшує <#RED>{name.powerdesc_damage_reduction}</>"
 
 #: STRINGS.ITEMS.POWERS.CHEAT.hunter_assist.desc
 msgctxt "STRINGS.ITEMS.POWERS.CHEAT.hunter_assist.desc"
 msgid "When you <#RED>Die</>, gain <#RED>{name.powerdesc_damage_reduction}</> that persists across {name_multiple.run}.\n"
 "After a <#RED>Victorious {name.run}</>, reduce the assist."
-msgstr ""
+msgstr "Коли ви <#RED>помираєте</>, отримуєте <#RED>{name.powerdesc_damage_reduction}</>, яка зберігається протягом {name_multiple.run}.\n"
+"Після <#RED>переможного {name.run}</>, зменшуєте допомогу."
 
 #: STRINGS.ITEMS.POWERS.CHEAT.hunter_assist.name
 msgctxt "STRINGS.ITEMS.POWERS.CHEAT.hunter_assist.name"
 msgid "{name.hunter}'s Assist"
-msgstr ""
+msgstr "Помічник {2:{name.hunter}}"
 
 #: STRINGS.ITEMS.POWERS.CHEAT.hunter_assist_disabled.desc
 msgctxt "STRINGS.ITEMS.POWERS.CHEAT.hunter_assist_disabled.desc"
 msgid "{name.hunter}'s Assist is not available in online games."
-msgstr ""
+msgstr "Помічник {2:{name.hunter}} недоступний в онлайн-іграх."
 
 #: STRINGS.ITEMS.POWERS.CHEAT.hunter_assist_disabled.name
 msgctxt "STRINGS.ITEMS.POWERS.CHEAT.hunter_assist_disabled.name"
 msgid "{name.hunter}'s Assist (Disabled)"
-msgstr ""
+msgstr "Помічник {2:{name.hunter}} (Вимкнено)"
 
 #: STRINGS.ITEMS.POWERS.CURSE.abstinence.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.abstinence.desc"
@@ -38895,7 +38896,7 @@ msgstr "Хвороба на конжур"
 #: STRINGS.ITEMS.POWERS.CURSE.unfocused.desc
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.unfocused.desc"
 msgid "Your <#BLUE>Focus Attacks</> deal <#RED>{bonus}%</> less damage."
-msgstr ""
+msgstr "Ваші <#BLUE>фокусні атаки</> завдають на <#RED>{bonus}%</> менше шкоди."
 
 #: STRINGS.ITEMS.POWERS.CURSE.unfocused.name
 msgctxt "STRINGS.ITEMS.POWERS.CURSE.unfocused.name"
@@ -38980,27 +38981,27 @@ msgstr "Ударне значення"
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_after_damage.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_after_damage.desc"
 msgid "When you take <#RED>Damage</>, apply <#RED>{stacks} Charge</> in an area around the attacker."
-msgstr ""
+msgstr "Коли ви отримуєте <#RED>шкоду</>, накладайте <#RED>{stacks} заряд</> у зоні навколо нападника."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_after_damage.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_after_damage.name"
 msgid "Shocking Reflex"
-msgstr ""
+msgstr "Шокуючий рефлекс"
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_after_perfect_dodge.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_after_perfect_dodge.desc"
 msgid "After you <#RED>Perfect Dodge</>, your next <#RED>Attack</> applies <#RED>{stacks} Charge</> in a large area."
-msgstr ""
+msgstr "Після того, як ви зробите <#RED>ідеальне ухилення</>, ваша наступна <#RED>атака</> застосує <#RED>{stacks} заряд</> на великій площі."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_after_perfect_dodge.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_after_perfect_dodge.name"
 msgid "Static Buildup"
-msgstr ""
+msgstr "Накопичення електростатики"
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_apply_on_heavy_attack.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_apply_on_heavy_attack.desc"
 msgid "Apply <#RED>{stacks} Charge</> in a small area with your <#RED>Heavy Attacks</>."
-msgstr ""
+msgstr "Застосуйте <#RED>{stacks} заряди</> у невеликій зоні своїми <#RED>важкими атаками</>."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_apply_on_heavy_attack.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_apply_on_heavy_attack.name"
@@ -39020,18 +39021,19 @@ msgstr "Статичний заряд"
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_buildup.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_buildup.desc"
 msgid "Increase <#RED>Charge Damage</> by <#RED>{bonus_percent}%</> but it is split among all targets in a <#RED>Chain Reaction</>."
-msgstr ""
+msgstr "Збільшує <#RED>шкоду від заряду</> на <#RED>{bonus_percent}%</>, але вона розподіляється між усіма цілями <#RED>ланцюгової реакції</>."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_buildup.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_buildup.name"
 msgid "Charged Up"
-msgstr ""
+msgstr "Під напругою"
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_chance_to_split.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_chance_to_split.desc"
 msgid "<#RED>Chain Reactions</> that hit <#RED>multiple targets</> have a <#RED>{chance}% Chance</> to repeat.\n\n"
 "<#RED>Chance</> and <#RED>Damage</> halve each time it repeats."
-msgstr ""
+msgstr "<#RED>Ланцюгові реакції</>, що влучають у <#RED>кілька цілей</>, мають <#RED>{chance}% шанс</> повторитися.\n\n"
+"<#RED>Шанс</> і <#RED>шкода</> зменшуються вдвічі після кожного повторення."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_chance_to_split.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_chance_to_split.name"
@@ -39041,17 +39043,17 @@ msgstr "Поштовх"
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_cold_on_focus.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_cold_on_focus.desc"
 msgid "<#RED>Focus Attacks</> against <#RED>Cold Enemies</> apply <#RED>{stacks} Charge</> to all nearby <#RED>Enemies</>."
-msgstr ""
+msgstr "<#RED>Фокусні атаки</> проти <#RED>ворогів під дією холоду</> накладають <#RED>{stacks} заряд</> на всіх найближчих <#RED>ворогів</>."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_cold_on_focus.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_cold_on_focus.name"
 msgid "Polar Conduction"
-msgstr ""
+msgstr "Полярна провідність"
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_consume_aoe_damage.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_consume_aoe_damage.desc"
 msgid "<#RED>Chain Reaction</> impulses also deal <#RED>{name.concept_damage}</> to all nearby <#RED>Enemies</>."
-msgstr ""
+msgstr "Імпульси <#RED>ланцюгової реакції</> також завдають <#RED>{name.concept_damage}</> усім найближчим <#RED>ворогам</>."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_consume_aoe_damage.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_consume_aoe_damage.name"
@@ -39061,7 +39063,7 @@ msgstr "Ефект присутності"
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_consume_extra_damage.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_consume_extra_damage.desc"
 msgid "<#RED>Chain Reaction</> impulses deal <#RED>+{damage_bonus_percent}% {name.concept_damage}</>."
-msgstr ""
+msgstr "Імпульси <#RED>ланцюгової реакції</> завдають <#RED>+{damage_bonus_percent}% {2:{name.concept_damage}}</>."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_consume_extra_damage.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_consume_extra_damage.name"
@@ -39071,7 +39073,7 @@ msgstr "Провідник"
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_consume_extra_stacks.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_consume_extra_stacks.desc"
 msgid "Each <#RED>Chain Reaction</> impulse has a <#RED>{chance}% Chance</> to strike its target a second time."
-msgstr ""
+msgstr "Кожен імпульс <#RED>ланцюгової реакції</> має <#RED>{chance}% шанс</> вдарити свою ціль вдруге."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_consume_extra_stacks.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_consume_extra_stacks.name"
@@ -39081,17 +39083,17 @@ msgstr "Подвійний удар"
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_leaves_a_stack.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_leaves_a_stack.desc"
 msgid "<#RED>Charged Enemies</> keep <#RED>{stacks} Charge</> after a <#RED>Chain Reaction</>."
-msgstr ""
+msgstr "<#RED>Заряджені вороги</> зберігають <#RED>{stacks} заряд</> після <#RED>ланцюгової реакції</>."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_leaves_a_stack.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_leaves_a_stack.name"
 msgid "Lasting Charge"
-msgstr ""
+msgstr "Тривалий заряд"
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_lightning_on_perfect_dodge.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_lightning_on_perfect_dodge.desc"
 msgid "When you <#RED>Perfect Dodge</>, cast a <#RED>Lightning Bolt</> that applies <#RED>{stacks} Charge</> in your place."
-msgstr ""
+msgstr "Коли ви виконуєте <#RED>ідеальне ухилення</>, викликайте <#RED>блискавку</>, яка замість вас накладає <#RED>{stacks} зарядів</>."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_lightning_on_perfect_dodge.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_lightning_on_perfect_dodge.name"
@@ -39101,37 +39103,37 @@ msgstr "Блискавична відповідь"
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_on_minion_deal_damage.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_on_minion_deal_damage.desc"
 msgid "When a <#RED>Minion</> deals <#RED>{name.concept_damage}</>, apply <#RED>{stacks} Charge</> to the target."
-msgstr ""
+msgstr "Коли <#RED>міньйон</> завдає <#RED>{name.concept_damage}</>, накладає на ціль <#RED>{stacks} заряди</>."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_on_minion_deal_damage.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_on_minion_deal_damage.name"
 msgid "Arcing Acolytes"
-msgstr ""
+msgstr "Дуги послідовників"
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_on_minion_hit.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_on_minion_hit.desc"
 msgid "When a <#RED>Minion</> takes <#RED>{name.concept_damage}</>, apply <#RED>{stacks} Charge</> to the attacker."
-msgstr ""
+msgstr "Коли <#RED>міньйон</> отримує <#RED>{name.concept_damage}</>, накладає <#RED>{stacks} заряди</> на нападника."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_on_minion_hit.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_on_minion_hit.name"
 msgid "Kinetic Retaliation"
-msgstr ""
+msgstr "Кінетична відплата"
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_on_surplus_shield.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_on_surplus_shield.desc"
 msgid "When you gain a <#BLUE>Shield Segment</> with an already full <#BLUE>Shield</>, apply <#RED>{stacks} Charge</> to all nearby <#RED>Enemies</>."
-msgstr ""
+msgstr "Коли ви отримуєте <#BLUE>сегмент щита</>, маючи вже повний <#BLUE>щит</>, накладіть <#RED>{stacks} заряди</> на всіх найближчих <#RED>ворогів</>."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_on_surplus_shield.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_on_surplus_shield.name"
 msgid "Overflow Surge"
-msgstr ""
+msgstr "Перевантаження"
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_orb_on_dodge.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_orb_on_dodge.desc"
 msgid "When you <#RED>Dodge</>, drop an orb that applies <#RED>{stacks} Charge</> in a small area <#RED>{pulses}</> times."
-msgstr ""
+msgstr "Коли ви <#RED>ухиляєтеся</>, скидайте кулю, яка застосовує <#RED>{stacks} заряди</> у невеликій області <#RED>{pulses}</> рази."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charge_orb_on_dodge.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charge_orb_on_dodge.name"
@@ -39161,37 +39163,37 @@ msgstr "Ланцюгова реакція"
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charged_periodic_pulse.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charged_periodic_pulse.desc"
 msgid "Every <#RED>{interval}</> seconds, all <#RED>Charged Enemies</> take <#RED>{damage} {name.concept_damage}</> and gain <#RED>{stacks} Charge</>."
-msgstr ""
+msgstr "Кожні <#RED>{interval}</> секунди усі <#RED>заряджені вороги</> отримують <#RED>{damage} {2:{name.concept_damage}}</> і ще <#RED>{stacks} заряд</>."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charged_periodic_pulse.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charged_periodic_pulse.name"
 msgid "Surging Circuit"
-msgstr ""
+msgstr "Заряджений контур"
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charged_reflect_on_hit.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charged_reflect_on_hit.desc"
 msgid "Store <#RED>{damage_per_pulse} {name.concept_damage}</> for each <#RED>Enemy</> hit by a <#RED>Chain Reaction</>. Taking <#RED>{name.concept_damage}</> applies the <#RED>Stored {name.concept_damage}</> to the <#RED>Attacker</>."
-msgstr ""
+msgstr "Накопичуйте <#RED>{damage_per_pulse} {2:{name.concept_damage}}</> за кожного <#RED>ворога</>, ураженого <#RED>ланцюговою реакцією</>. Отримання <#RED>{2:{name.concept_damage}}</> завдає <#RED>накопичену {name.concept_damage}</> <#RED>нападнику</>."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charged_reflect_on_hit.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charged_reflect_on_hit.name"
 msgid "Assault Battery"
-msgstr ""
+msgstr "Штурмова батарея"
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charged_stun_on_reaction.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charged_stun_on_reaction.desc"
 msgid "<#RED>Enemies</> hit by a <#RED>Chain Reaction</> are stunned for an additional <#RED>{stun_seconds}</> seconds."
-msgstr ""
+msgstr "<#RED>Вороги</>, уражені <#RED>ланцюговою реакцією</>, оглушуються на додаткові <#RED>{stun_seconds}</> секунд."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charged_stun_on_reaction.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charged_stun_on_reaction.name"
 msgid "Shocking Shock"
-msgstr ""
+msgstr "Шокуючий шок"
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charged_trigger_on_hitstreak.desc
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charged_trigger_on_hitstreak.desc"
 msgid "Gain <#RED>{damage_bonus}% {name.concept_damage}</> for each <#RED>Charged Enemy</>."
-msgstr ""
+msgstr "Отримуйте <#RED>{damage_bonus}% {2:{name.concept_damage}}</> за кожного <#RED>зарядженого ворога</>."
 
 #: STRINGS.ITEMS.POWERS.ELECTRIC.charged_trigger_on_hitstreak.name
 msgctxt "STRINGS.ITEMS.POWERS.ELECTRIC.charged_trigger_on_hitstreak.name"
@@ -39556,7 +39558,7 @@ msgstr "Секунди"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bulbug_body.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bulbug_body.desc"
 msgid "When you <#RED>Attack</> an <#RED>Enemy</> with <#BLUE>{name.concept_shield}</>, gain <#BLUE>{name_multiple.concept_shield_seg}</>."
-msgstr ""
+msgstr "Коли ви <#RED>атакуєте</> <#RED>ворога</> зі <#BLUE>{2:{name.concept_shield}}</>, отримуйте <#BLUE>{name_multiple.concept_shield_seg}</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bulbug_body.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_bulbug_body.name"
@@ -39660,7 +39662,7 @@ msgstr "Кластери"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_heavy_pierce_focus.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_heavy_pierce_focus.desc"
 msgid "<#BLUE>Focus</> <#RED>Heavy Attacks Pierce</> through <#RED>Enemies</>."
-msgstr ""
+msgstr "<#BLUE>Фокусні</> <#RED>важкі атаки пробивають</> <#RED>ворогів</> наскрізь."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_heavy_pierce_focus.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_heavy_pierce_focus.name"
@@ -39670,7 +39672,7 @@ msgstr "Важкий фокусний пірсинг"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_light_pierce_focus.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_light_pierce_focus.desc"
 msgid "<#BLUE>Focus</> <#RED>Light Attacks Pierce</> through <#RED>Enemies</>."
-msgstr ""
+msgstr "<#BLUE>Фокусні</> <#RED>легкі атаки пробивають</> <#RED>ворогів</> наскрізь."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_light_pierce_focus.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_light_pierce_focus.name"
@@ -39680,7 +39682,7 @@ msgstr "Легкий фокусний пірсинг"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_pierce_focus.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_pierce_focus.desc"
 msgid "<#BLUE>Focus</> shots <#RED>Pierce</> through <#RED>Enemies</>. Only the first shot is a <#BLUE>Focus Attack</>."
-msgstr ""
+msgstr "<#BLUE>Фокусні</> постріли <#RED>пробивають</> <#RED>ворогів</> наскрізь. Лише перший постріл є <#BLUE>фокусною атакою</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_pierce_focus.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_cannon_pierce_focus.name"
@@ -39801,7 +39803,7 @@ msgstr "Шкода додаткових ударів"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_body.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_body.desc"
 msgid "Deal <#RED>Tenfold Damage</> to nearby <#RED>Enemies</> when you take a <#RED>Massive Hit</>."
-msgstr ""
+msgstr "Нанесіть <#RED>десятикратну шкоду</> сусіднім <#RED>ворогам</>, коли отримаєте <#RED>великий удар</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_body.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_body.name"
@@ -39831,7 +39833,7 @@ msgstr "Ударів, щоб зламати"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_waist.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_waist.desc"
 msgid "Deal <#RED>Damage</> to nearby <#RED>Enemies</> when you <#RED>Perfect Dodge</> a <#RED>Trap</>."
-msgstr ""
+msgstr "Нанесіть <#RED>шкоду</> сусіднім <#RED>ворогам</>, коли ви <#RED>ідеально ухиляєтеся</> від <#RED>пастки</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_waist.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_eggbert_waist.name"
@@ -40396,7 +40398,7 @@ msgstr "Секунди"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_mothball_body.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_mothball_body.desc"
 msgid "Reduce your <#RED>{name.concept_weapon_damage}</>, but your attacks gain a chance to <#RED>{name.concept_multistrike}</>."
-msgstr ""
+msgstr "Зменште свою <#RED>{3:{name.concept_weapon_damage}}</>, але ваші атаки отримують шанс на <#RED>{name.concept_multistrike}</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_mothball_body.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_mothball_body.name"
@@ -40536,7 +40538,7 @@ msgstr "Завдана шкода зброї"
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_head.desc
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_head.desc"
 msgid "<#BLUE>Focus Attacks</> deal <#RED>Bonus Damage</>, scaling with your <#RED>Distance</> from the <#RED>Target</>."
-msgstr ""
+msgstr "<#BLUE>Фокусні атаки</> завдають <#RED>бонусну шкоду</>, що залежить від вашої <#RED>відстані</> до <#RED>цілі</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_head.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_porkyspine_head.name"
@@ -40832,7 +40834,8 @@ msgstr "[TEMP] equipment_stunk_waist"
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_swarmy_body.desc"
 msgid "On <#RED>Kill</>, your attacks apply <#RED>{name.concept_toxic}</> for a period of time.\n\n"
 "<#RED>You cannot gain {name.concept_hitstreak}</>."
-msgstr ""
+msgstr "При <#RED>вбивстві</> ваші атаки отримують ефект <#RED>{3:{name.concept_toxic}}</> протягом певного часу.\n\n"
+"<#RED>Ви не можете отримати {2:{name.concept_hitstreak}}</>."
 
 #: STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_swarmy_body.name
 msgctxt "STRINGS.ITEMS.POWERS.EQUIPMENT.equipment_swarmy_body.name"
@@ -41117,7 +41120,7 @@ msgstr "Срібна підкладка"
 #: STRINGS.ITEMS.POWERS.FROST.frost_aura.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_aura.desc"
 msgid "Constantly apply <#RED>Cold</> to <#RED>Enemies</> in a medium area."
-msgstr ""
+msgstr "Постійно <#RED>охолоджує</> на <#RED>ворогів</> у середній області."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_aura.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_aura.name"
@@ -41129,7 +41132,9 @@ msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_capacitor.desc"
 msgid "When you <#RED>Light Attack</> a <#RED>Cold Enemy</>, store <#RED>{damage_stored}% {name.concept_damage}</> dealt.\n"
 "Perform a <#RED>Heavy Attack</> to deal the stored <#RED>{name.concept_damage}</> and apply <#RED>Cold</>.\n\n"
 "Reset when you take <#RED>{name.concept_damage}</>."
-msgstr ""
+msgstr "Коли ви <#RED>легкою атакою</> влучаєте в <#RED>ворога під дією холоду</>, накопичуйте <#RED>{damage_stored}% {2:{name.concept_damage}}</> від завданої шкоди.\n"
+"Виконайте <#RED>важку атаку</>, щоб завдати накопиченої <#RED>{2:{name.concept_damage}}</> і накласти <#RED>холод</>.\n\n"
+"Скидається, коли ви отримуєте <#RED>{4:{name.concept_damage}}</>."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_capacitor.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_capacitor.name"
@@ -41139,47 +41144,47 @@ msgstr "Морозильна камера"
 #: STRINGS.ITEMS.POWERS.FROST.frost_chain_reaction_cold.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_chain_reaction_cold.desc"
 msgid "<#RED>Chain Reactions</> apply <#RED>Cold</> to each target hit."
-msgstr ""
+msgstr "<#RED>Ланцюгова реакція</> накладає <#RED>холод</> на кожну уражену ціль."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_chain_reaction_cold.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_chain_reaction_cold.name"
 msgid "Chilly Chain"
-msgstr ""
+msgstr "Крижаний ланцюг"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_crit_cold.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_crit_cold.desc"
 msgid "<#RED>Critical Hits</> on a <#RED>Cold Enemy</> applies <#RED>Frozen</> to them."
-msgstr ""
+msgstr "<#RED>Критичні удари</> по <#RED>холодним ворогам</> накладають на них <#RED>замороження</>."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_crit_cold.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_crit_cold.name"
 msgid "Refrigerator"
-msgstr ""
+msgstr "Холодильник"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_extended_range.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_extended_range.desc"
 msgid "Every <#RED>{swings} Light Attacks</> shoots three <#RED>Snowballs</>."
-msgstr ""
+msgstr "Кожні <#RED>{swings} легких атак</> випускають три <#RED>сніжки</>."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_extended_range.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_extended_range.name"
 msgid "Snowy Salvo"
-msgstr ""
+msgstr "Сніжний залп"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_freeze_duration.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_freeze_duration.desc"
 msgid "<#RED>Cold</> and <#RED>Frozen</> on all <#RED>Enemies</> lasts <#RED>{cold_decay_modifier}%</> longer."
-msgstr ""
+msgstr "<#RED>Холод</> і <#RED>замороження</> на всіх <#RED>ворогах</> тривають на <#RED>{cold_decay_modifier}%</> довше."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_freeze_duration.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_freeze_duration.name"
 msgid "Permafrost"
-msgstr ""
+msgstr "Вічна мерзлота"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_freeze_nearest_on_kill.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_freeze_nearest_on_kill.desc"
 msgid "When you <#RED>Kill</> a <#RED>Frozen Enemy</>, deal <#RED>{weapon_damage}% {name.concept_weapon_damage}</> to the nearest <#RED>Enemy</> and apply <#RED>Frozen</> to them."
-msgstr ""
+msgstr "Коли ви <#RED>вбиваєте</> <#RED>замороженого ворога</>, завдайте <#RED>{weapon_damage}% {2:{name.concept_weapon_damage}}</> найближчому <#RED>ворогу</> та накладіть на нього <#RED>замороження</>."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_freeze_nearest_on_kill.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_freeze_nearest_on_kill.name"
@@ -41189,24 +41194,26 @@ msgstr "Крижаний укус"
 #: STRINGS.ITEMS.POWERS.FROST.frost_freeze_on_heavy.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_freeze_on_heavy.desc"
 msgid "<#RED>Heavy</> <#BLUE>{name_multiple.concept_focus_hit}</> apply a medium amount of <#RED>Cold</> to <#RED>Enemies</>."
-msgstr ""
+msgstr "<#RED>Важкі</> <#BLUE>{name_multiple.concept_focus_hit}</> накладають середню кількість <#RED>холоду</> на <#RED>ворогів</>."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_freeze_on_heavy.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_freeze_on_heavy.name"
 msgid "Wintry Wallop"
-msgstr ""
+msgstr "Зимовий удар"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_frozen_defense.desc_EPIC
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_defense.desc_EPIC"
 msgid "Applying <#RED>Cold</> grants <#RED>{resistance_per_proc}% {name.powerdesc_damage_reduction}</>, up to <#RED>{max_resistance}%</>.\n\n"
 "Reset upon taking <#RED>Damage</>, applying <#RED>Cold</> in a small area."
-msgstr ""
+msgstr "Накладання <#RED>холоду</> дає <#RED>{resistance_per_proc}% {name.powerdesc_damage_reduction}</>, максимум до <#RED>{max_resistance}%</>.\n\n"
+"Скидається після отримання <#RED>шкоди</>, накладаючи <#RED>холод</> у невеликій області."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_frozen_defense.desc_LEGENDARY
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_defense.desc_LEGENDARY"
 msgid "Applying <#RED>Cold</> grants <#RED>{resistance_per_proc}% {name.powerdesc_damage_reduction}</>, up to <#RED>{max_resistance}%</>.\n\n"
 "Reset upon taking <#RED>Damage</>, applying <#RED>Cold</> in a medium area."
-msgstr ""
+msgstr "Накладання <#RED>холоду</> дає <#RED>{resistance_per_proc}% {name.powerdesc_damage_reduction}</>, максимум до <#RED>{max_resistance}%</>.\n\n"
+"Скидається після отримання <#RED>шкоди</>, накладаючи <#RED>холод</> у середній області."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_frozen_defense.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_defense.name"
@@ -41216,27 +41223,27 @@ msgstr "Крижаний обладунок"
 #: STRINGS.ITEMS.POWERS.FROST.frost_frozen_prop.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_prop.desc"
 msgid "Killing a <#RED>Frozen Enemy</> also triggers effects that activate when destroying an <#RED>Environmental Object</>."
-msgstr ""
+msgstr "Вбивство <#RED>замороженого ворога</> також активує ефекти, які спрацьовують під час знищення <#RED>об’єкта довкілля</>."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_frozen_prop.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_prop.name"
 msgid "Shattered Remains"
-msgstr ""
+msgstr "Розтрощені рештки"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_frozen_speed.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_speed.desc"
 msgid "<#RED>Freezing</> an <#RED>Enemy</> grants <#RED>{speed_bonus}% {name.concept_runspeed}</> and <#RED>{crit_bonus}% Critical Chance</> for <#RED>{duration} seconds</>."
-msgstr ""
+msgstr "<#RED>Замороження</> <#RED>ворога</> дає <#RED>{speed_bonus}% {name.concept_runspeed}</> і <#RED>{crit_bonus}% шансу критичного удару</> на <#RED>{duration} секунд</>."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_frozen_speed.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_speed.name"
 msgid "Sub-Zero Sprint"
-msgstr ""
+msgstr "Спринт Саб-Зіро"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_frozen_strength.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_strength.desc"
 msgid "Gain <#RED>{damage_bonus}% Bonus {name.concept_damage}</> for every <#RED>Cold Enemy</>."
-msgstr ""
+msgstr "Отримуйте <#RED>{damage_bonus}% додаткової {2:{name.concept_damage}}</> за кожного <#RED>ворога під дією холоду</>."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_frozen_strength.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_frozen_strength.name"
@@ -41246,28 +41253,29 @@ msgstr "Льодовикова міць"
 #: STRINGS.ITEMS.POWERS.FROST.frost_heal_on_freeze.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_heal_on_freeze.desc"
 msgid "When an <#RED>Enemy</> becomes <#RED>Frozen</>, heal <#RED>{heal} {name.concept_health}</>."
-msgstr ""
+msgstr "Коли <#RED>ворог</> стає <#RED>замороженим</>, відновіть <#RED>{heal} {name.concept_health}</>."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_heal_on_freeze.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_heal_on_freeze.name"
 msgid "Cold Comfort"
-msgstr ""
+msgstr "Холодний комфорт"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_heavy_slide.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_heavy_slide.desc"
 msgid "Hit a <#RED>Frozen Enemy</> with a <#RED>Heavy</> or <#RED>Skill Attack</> to launch them at the nearest <#RED>Enemy</>, dealing <#RED>{base_damage_pct}% {name.concept_weapon_damage}</>."
-msgstr ""
+msgstr "Влучте в <#RED>замороженого ворога</> <#RED>важкою</> або <#RED>атакою навички</>, щоб відкинути його в найближчого <#RED>ворога</>, завдавши <#RED>{base_damage_pct}% {2:{name.concept_weapon_damage}}</>."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_heavy_slide.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_heavy_slide.name"
 msgid "Slap Shot"
-msgstr ""
+msgstr "Крижаний ляпас"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_icicle_storage.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_icicle_storage.desc"
 msgid "When you <#RED>Kill</> a <#RED>Cold Enemy</>, store an <#RED>Ice Spine</>. <#RED>Dodge</> to shoot all stored <#RED>Ice Spines</> at the nearest <#RED>Enemy</>.\n\n"
 "Reset when you take <#RED>Damage</>."
-msgstr ""
+msgstr "При <#RED>вбивстві</> <#RED>охолодженого ворога</> накопичуйте <#RED>крижані шипи</>. <#RED>Ухилення</> випускає всі накопичені <#RED>крижані шипи</> у найближчого <#RED>ворога</>.\n\n"
+"Скидається при отриманні <#RED>шкоди</>."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_icicle_storage.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_icicle_storage.name"
@@ -41277,12 +41285,12 @@ msgstr "Крижана буря"
 #: STRINGS.ITEMS.POWERS.FROST.frost_minion_death_cold.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_minion_death_cold.desc"
 msgid "When a <#RED>Minion</> dies, apply <#RED>Cold</> to nearby <#RED>Enemies</>."
-msgstr ""
+msgstr "Коли <#RED>міньйон</> гине, накладайте <#RED>холод</> на найближчих <#RED>ворогів</>."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_minion_death_cold.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_minion_death_cold.name"
 msgid "Frozen Farewell"
-msgstr ""
+msgstr "Заморожене прощання"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_on_attack.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_on_attack.desc"
@@ -41297,7 +41305,7 @@ msgstr "[TEMP] Frost Attack Test"
 #: STRINGS.ITEMS.POWERS.FROST.frost_on_heavy.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_on_heavy.desc"
 msgid "Every <#RED>{cold_threshold}</> <#RED>Enemies</> that turn <#RED>Cold</> from attacks triggers an <#RED>Ice Explosion</> on all <#RED>Enemies</>."
-msgstr ""
+msgstr "Кожні <#RED>{cold_threshold}</> <#RED>ворогів</>, які переходять у стан <#RED>холоду</> від атак, викликають <#RED>крижаний вибух</> на всіх <#RED>ворогах</>."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_on_heavy.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_on_heavy.name"
@@ -41307,7 +41315,7 @@ msgstr "Холодний спалах"
 #: STRINGS.ITEMS.POWERS.FROST.frost_on_light.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_on_light.desc"
 msgid "Your <#RED>Light Attacks</> apply a small amount of <#RED>Cold</> to <#RED>Enemies</>."
-msgstr ""
+msgstr "Ваші <#RED>легкі атаки</> накладають невелику кількість <#RED>холоду</> на <#RED>ворогів</>."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_on_light.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_on_light.name"
@@ -41317,7 +41325,7 @@ msgstr "Крижаний удар"
 #: STRINGS.ITEMS.POWERS.FROST.frost_perfect_dodge.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_perfect_dodge.desc"
 msgid "When you <#RED>Perfect Dodge</>, apply <#RED>Cold</> to nearby <#RED>Enemies</>."
-msgstr ""
+msgstr "Коли ви виконуєте <#RED>ідеальне ухилення</>, накладайте <#RED>холод</> на найближчих <#RED>ворогів</>."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_perfect_dodge.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_perfect_dodge.name"
@@ -41328,17 +41336,18 @@ msgstr "Холодна відповідь"
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_potion_freeze.desc"
 msgid "Refill <#RED>1 {name.potion_charge}</>.\n\n"
 "When you <#RED>Drink a {name.potion}</>, apply <#RED>Frozen</> to all <#RED>Enemies</>."
-msgstr ""
+msgstr "Відновіть <#RED>1 {name.potion_charge}</>.\n\n"
+"Коли ви <#RED>випиваєте {name.potion}</>, накладіть <#RED>замороження</> на всіх <#RED>ворогів</>."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_potion_freeze.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_potion_freeze.name"
 msgid "Flash Freeze Flask"
-msgstr ""
+msgstr "Фляга миттєвого замороження"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_retaliation.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_retaliation.desc"
 msgid "When you take <#RED>Damage</>, apply <#RED>Frozen</> to your <#RED>Attacker</> and summon <#RED>Icicles</> around it."
-msgstr ""
+msgstr "Коли ви отримуєте <#RED>шкоду</>, накладіть <#RED>замороження</> на свого <#RED>нападника</> та викличте навколо нього <#RED>бурульки</>."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_retaliation.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_retaliation.name"
@@ -41348,7 +41357,7 @@ msgstr "Самотня в'язниця"
 #: STRINGS.ITEMS.POWERS.FROST.frost_shatter_execute.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_shatter_execute.desc"
 msgid "Your attacks against <#RED>Frozen Enemies</> have a <#RED>{chance}%</> chance to instantly <#RED>Kill</> them."
-msgstr ""
+msgstr "Ваші атаки проти <#RED>заморожених ворогів</> мають <#RED>{chance}% шанс</> миттєво <#RED>вбити</> їх."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_shatter_execute.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_shatter_execute.name"
@@ -41358,12 +41367,12 @@ msgstr "Крижана смерть"
 #: STRINGS.ITEMS.POWERS.FROST.frost_shield_break_cold.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_shield_break_cold.desc"
 msgid "When your <#BLUE>Shield</> breaks, apply <#RED>Cold</> to nearby <#RED>Enemies</>."
-msgstr ""
+msgstr "Коли ваш <#BLUE>щит</> ламається, накладіть <#RED>холод</> на найближчих <#RED>ворогів</>."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_shield_break_cold.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_shield_break_cold.name"
 msgid "Shivering Shatter"
-msgstr ""
+msgstr "Тремтливе розтрощення"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_shrapnel.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_shrapnel.desc"
@@ -41379,7 +41388,8 @@ msgstr "Крижана нова"
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_snowball_on_dodge.desc"
 msgid "When you <#RED>Dodge</>, throw a snowball at the nearest <#RED>Enemy</> in a large area.\n\n"
 "<z 0.8><i>Cooldown: <#RED>{cd}</> seconds</></>"
-msgstr ""
+msgstr "Коли ви <#RED>ухиляєтесь</>, кидайте сніжку в найближчого <#RED>ворога</> у великій області.\n\n"
+"<z 0.8><i>Перезарядка: <#RED>{cd}</> секунди</></>"
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_snowball_on_dodge.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_snowball_on_dodge.name"
@@ -41399,22 +41409,22 @@ msgstr "Холодна хвиля"
 #: STRINGS.ITEMS.POWERS.FROST.frost_spread_cold.rarity_text_EPIC
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_spread_cold.rarity_text_EPIC"
 msgid "When you deal <#RED>{name.concept_damage}</> to a <#RED>Cold Enemy</>, apply small amounts of <#RED>Cold</> to <#RED>Enemies</> in a small area."
-msgstr ""
+msgstr "Коли ви завдаєте <#RED>{2:{name.concept_damage}}</> <#RED>ворогу під дією холоду</>, накладіть невелику кількість <#RED>холоду</> на <#RED>ворогів</> у невеликій області."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_spread_cold.rarity_text_LEGENDARY
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_spread_cold.rarity_text_LEGENDARY"
 msgid "When you deal <#RED>{name.concept_damage}</> to a <#RED>Cold Enemy</>, apply <#RED>Cold</> to <#RED>Enemies</> in a medium area."
-msgstr ""
+msgstr "Коли ви завдаєте <#RED>{2:{name.concept_damage}}</> <#RED>ворогу під дією холоду</>, накладіть <#RED>холод</> на <#RED>ворогів</> у середній області."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_tick_damage.desc
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_tick_damage.desc"
 msgid "<#RED>Cold</> and <#RED>Frozen Enemies</> take <#RED>{frozen_damage}% {name.concept_weapon_damage}</> over time."
-msgstr ""
+msgstr "<#RED>Холод</> і <#RED>заморожені вороги</> отримують <#RED>{frozen_damage}% {2:{name.concept_weapon_damage}}</> з часом."
 
 #: STRINGS.ITEMS.POWERS.FROST.frost_tick_damage.name
 msgctxt "STRINGS.ITEMS.POWERS.FROST.frost_tick_damage.name"
 msgid "Creeping Frost"
-msgstr ""
+msgstr "Повзучий мороз"
 
 #: STRINGS.ITEMS.POWERS.HEART.heart_bandicoot.desc
 msgctxt "STRINGS.ITEMS.POWERS.HEART.heart_bandicoot.desc"
@@ -41674,7 +41684,7 @@ msgstr "Aroo Aroo Aroo"
 #: STRINGS.ITEMS.POWERS.PLAYER.coin_heal.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.coin_heal.desc"
 msgid "Increase all <#RED>Healing</> received by <#RED>{percent}%</> of your <#KONJUR>{name.i_konjur}</> count."
-msgstr ""
+msgstr "Збільшує все отримане <#RED>лікування</> на <#RED>{percent}%</> від вашої кількості <#KONJUR>{2:{name.i_konjur}}</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.coin_heal.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.coin_heal.name"
@@ -41789,22 +41799,22 @@ msgstr "<#RED>шкоду</>"
 #: STRINGS.ITEMS.POWERS.PLAYER.damage_over_hitstreak.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.damage_over_hitstreak.desc"
 msgid "Deal <#RED>+{bonus}% Damage</> when you are over a <#RED>{streak} Hit Streak</>."
-msgstr ""
+msgstr "Завдавайте <#RED>+{bonus}% шкоди</>, коли ваша <#RED>серія влучань</> перевищує <#RED>{streak} ударів</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.damage_over_hitstreak.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.damage_over_hitstreak.name"
 msgid "In the Zone"
-msgstr ""
+msgstr "У своїй стихії"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.damage_under_hitstreak.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.damage_under_hitstreak.desc"
 msgid "Deal <#RED>+{bonus}% Damage</> when you are under a <#RED>{streak} Hit Streak</>."
-msgstr ""
+msgstr "Завдавайте <#RED>+{bonus}% шкоди</>, коли ваша <#RED>серія влучань</> менше <#RED>{streak} ударів</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.damage_under_hitstreak.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.damage_under_hitstreak.name"
 msgid "Warming Up"
-msgstr ""
+msgstr "Розігрів"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.damage_until_hit.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.damage_until_hit.desc"
@@ -42020,12 +42030,12 @@ msgstr "Вулканічна нестабільність"
 #: STRINGS.ITEMS.POWERS.PLAYER.flitts_support.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.flitts_support.desc"
 msgid "When you are downed, revive with the help of the Foxtails."
-msgstr ""
+msgstr "Коли ви потрапите в неприємну ситуацію, Лисячі хвости вас воскресять."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.flitts_support.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.flitts_support.name"
 msgid "Foxtails' Bond"
-msgstr ""
+msgstr "Присяга Лисячих хвостів"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.follow_your_nose.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.follow_your_nose.desc"
@@ -42042,7 +42052,9 @@ msgctxt "STRINGS.ITEMS.POWERS.PLAYER.force_weight_heavy.desc"
 msgid "You become <#RED>{name.heavy_weight} Class</>.\n\n"
 "Your <#RED>Equipment Weight</> is ignored.\n\n"
 "Gain <#RED>+{health}% Maximum {name.concept_health}</> and <#RED>+{damage}% Heavy Attack {name.concept_damage}</>."
-msgstr ""
+msgstr "Ви отримуєте <#RED>клас {name.heavy_weight}</>.\n\n"
+"Ваша <#RED>вага спорядження</> ігнорується.\n\n"
+"Отримуєте <#RED>+{health}% максимального {name.concept_health}</> і <#RED>+{damage}% {2:{name.concept_damage}} важких атак</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.force_weight_heavy.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.force_weight_heavy.name"
@@ -42054,7 +42066,9 @@ msgctxt "STRINGS.ITEMS.POWERS.PLAYER.force_weight_light.desc"
 msgid "You become <#RED>{name.light_weight} Class</>.\n\n"
 "Your <#RED>Equipment Weight</> is ignored.\n\n"
 "Gain <#RED>+{speed}% {name.concept_runspeed}</> and <#RED>+{damage}% Light Attack {name.concept_damage}</>."
-msgstr ""
+msgstr "Ви отримуєте <#RED>клас {name.light_weight}</>.\n\n"
+"Ваша <#RED>вага спорядження</> ігнорується.\n\n"
+"Отримуєте <#RED>+{speed}% {name.concept_runspeed}</> і <#RED>+{damage}% {2:{name.concept_damage}} легких атак</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.force_weight_light.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.force_weight_light.name"
@@ -42066,7 +42080,9 @@ msgctxt "STRINGS.ITEMS.POWERS.PLAYER.force_weight_normal.desc"
 msgid "You become <#RED>{name.medium_weight} Class</>.\n\n"
 "Your <#RED>Equipment Weight</> is ignored.\n\n"
 "Gain <#RED>+{health}% Maximum {name.concept_health}</>, <#RED>+{speed}% {name.concept_runspeed}</>, and <#RED>+{damage}% {name.concept_damage}</>."
-msgstr ""
+msgstr "Ви отримуєте <#RED>клас {name.medium_weight}</>.\n\n"
+"Ваша <#RED>вага спорядження</> ігнорується.\n\n"
+"Отримуєте <#RED>+{health}% максимального {name.concept_health}</>, <#RED>+{speed}% {name.concept_runspeed}</> і <#RED>+{damage}% {2:{name.concept_damage}}</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.force_weight_normal.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.force_weight_normal.name"
@@ -42165,7 +42181,7 @@ msgstr "Коли ви <#RED>вбиваєте</> <#RED>{target} ворогів</>
 #: STRINGS.ITEMS.POWERS.PLAYER.headhunter_explosion.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.headhunter_explosion.name"
 msgid "Thin the Herd"
-msgstr ""
+msgstr "Розрідити стадо"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.headhunter_heal.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.headhunter_heal.desc"
@@ -42285,7 +42301,7 @@ msgstr "Образа на образу"
 #: STRINGS.ITEMS.POWERS.PLAYER.into_the_fray.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.into_the_fray.desc"
 msgid "Deal <#RED>{damage_per_enemy}%</> bonus <#RED>{name.concept_damage}</> for each <#RED>Enemy</> near you."
-msgstr ""
+msgstr "Завдавайте <#RED>{damage_per_enemy}%</> додаткової <#RED>{2:{name.concept_damage}}</> за кожного <#RED>ворога</> поблизу вас."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.into_the_fray.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.into_the_fray.name"
@@ -42460,12 +42476,12 @@ msgstr "Здоровий оптимізм"
 #: STRINGS.ITEMS.POWERS.PLAYER.out_of_the_fray.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.out_of_the_fray.desc"
 msgid "Deal <#RED>{base_bonus}%</> bonus <#RED>{name.concept_damage}</>, but this bonus is reduced by <#RED>{penalty_per_enemy}%</> for each <#RED>Enemy</> near you."
-msgstr ""
+msgstr "Завдавайте <#RED>{base_bonus}%</> додаткової <#RED>{2:{name.concept_damage}}</>, але цей бонус зменшується на <#RED>{penalty_per_enemy}%</> за кожного <#RED>ворога</> поблизу вас."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.out_of_the_fray.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.out_of_the_fray.name"
 msgid "Out of the Fray"
-msgstr ""
+msgstr "Поза сутичкою"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.overkill.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.overkill.desc"
@@ -42481,7 +42497,8 @@ msgstr "Смертельний удар"
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.perfect_pairing.desc"
 msgid "{rarity_text}\n\n"
 "Your <#RED>{name.potion}</> will <#RED>Heal</> an additional <#RED>{bonus_heal}% {name.concept_health}</>."
-msgstr ""
+msgstr "{rarity_text}\n\n"
+"Ваше <#RED>{name.potion}</> додатково <#RED>відновлює</> <#RED>{bonus_heal}% {name.concept_health}</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.perfect_pairing.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.perfect_pairing.name"
@@ -42491,17 +42508,17 @@ msgstr "Ідеальне сполучення"
 #: STRINGS.ITEMS.POWERS.PLAYER.perfect_pairing.rarity_text_COMMON
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.perfect_pairing.rarity_text_COMMON"
 msgid "Refill <#RED>{charges} {name.potion_charge}</>."
-msgstr ""
+msgstr "Відновіть <#RED>{charges} {name.potion_charge}</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.perfect_pairing.rarity_text_EPIC
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.perfect_pairing.rarity_text_EPIC"
 msgid "Once more, refill <#RED>{charges} {name_multiple.potion_charge}</>."
-msgstr ""
+msgstr "Ще раз відновіть <#RED>{charges} {name_multiple.potion_charge}</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.perfect_pairing.rarity_text_LEGENDARY
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.perfect_pairing.rarity_text_LEGENDARY"
 msgid "Once more, refill <#RED>{charges} {name_multiple.potion_charge}</>."
-msgstr ""
+msgstr "Ще раз відновіть <#RED>{charges} {name_multiple.potion_charge}</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.permanence.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.permanence.desc"
@@ -42741,7 +42758,7 @@ msgstr "Шрапнель"
 #: STRINGS.ITEMS.POWERS.PLAYER.snowball_effect.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.snowball_effect.desc"
 msgid "When you <#RED>Kill</> an <#RED>Enemy</>, gain <#RED>{stacks} Stack(s)</> of <#RED>On a Roll</>."
-msgstr ""
+msgstr "Коли ви <#RED>вбиваєте</> <#RED>ворога</>, ви отримуєте <#RED>{stacks} стек(и)</> <#RED>за кидок</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.snowball_effect.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.snowball_effect.name"
@@ -42773,12 +42790,12 @@ msgstr "Демон швидкості"
 #: STRINGS.ITEMS.POWERS.PLAYER.speed_to_damage_reduction.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.speed_to_damage_reduction.desc"
 msgid "Reduce <#RED>{name.concept_damage}</> taken by a percentage equal to your bonus <#RED>{name.concept_runspeed}</>."
-msgstr ""
+msgstr "Зменшує отримувану <#RED>{name.concept_damage}</> на відсоток, що дорівнює вашому бонусу до <#RED>{2:{name.concept_runspeed}}</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.speed_to_damage_reduction.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.speed_to_damage_reduction.name"
 msgid "Moving Target"
-msgstr ""
+msgstr "Рухома ціль"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.speed_to_focus_damage.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.speed_to_focus_damage.desc"
@@ -51712,7 +51729,7 @@ msgstr "Мультиудар"
 #: STRINGS.NAMES.attack_polearm_multithrust_beam
 msgctxt "STRINGS.NAMES.attack_polearm_multithrust_beam"
 msgid "Sonic Stab"
-msgstr ""
+msgstr "Шквал ударів"
 
 #: STRINGS.NAMES.attack_polearm_reverse
 msgctxt "STRINGS.NAMES.attack_polearm_reverse"
@@ -51727,7 +51744,7 @@ msgstr "Перехресна перевірка"
 #: STRINGS.NAMES.attack_polearm_vault_strike
 msgctxt "STRINGS.NAMES.attack_polearm_vault_strike"
 msgid "Vault Strike"
-msgstr ""
+msgstr "Удар зі стрибка"
 
 #: STRINGS.NAMES.bandi_swamp
 msgctxt "STRINGS.NAMES.bandi_swamp"
@@ -52472,7 +52489,7 @@ msgstr "Зимова пора|Зимової пори|Зимову пору"
 #: STRINGS.NAMES.hunter
 msgctxt "STRINGS.NAMES.hunter"
 msgid "Hunter"
-msgstr "Мисливець"
+msgstr "Мисливець|Мисливця"
 
 #: STRINGS.NAMES.i_cooking_pot
 msgctxt "STRINGS.NAMES.i_cooking_pot"
@@ -52982,7 +52999,7 @@ msgstr "Зілля"
 #: STRINGS.NAMES.potion_charge
 msgctxt "STRINGS.NAMES.potion_charge"
 msgid "Potion Charge"
-msgstr "Заряд зілля"
+msgstr "Заряд зілля|Заряди зілля|Зарядів зілля"
 
 #: STRINGS.NAMES.powerdesc_critchance
 msgctxt "STRINGS.NAMES.powerdesc_critchance"
@@ -54487,7 +54504,7 @@ msgstr "Наповнені Клубкові молі"
 #: STRINGS.NAMES_PLURAL.town_grid_cryst
 msgctxt "STRINGS.NAMES_PLURAL.town_grid_cryst"
 msgid "Wellsprings"
-msgstr "Колодязі"
+msgstr "Колодязі|Колодязів"
 
 #: STRINGS.NAMES_PLURAL.trap_bomb_pinecone
 msgctxt "STRINGS.NAMES_PLURAL.trap_bomb_pinecone"
@@ -56092,7 +56109,7 @@ msgstr "<#BLUE>{Name.npc_refiner}</> могла б довірити вам на�
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_DESC
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_DESC"
 msgid "For sale in all locations within <#RED>%s</>"
-msgstr "<#RED>%s</> має на продаж у всіх локаціях"
+msgstr "На продаж у всіх локаціях в межах <#RED>%s</>"
 
 #: STRINGS.UI.ARMORYSCREEN.LOCKED_FRENZY_LVL
 msgctxt "STRINGS.UI.ARMORYSCREEN.LOCKED_FRENZY_LVL"
