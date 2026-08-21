@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2026-08-18 17:46\n"
+"PO-Revision-Date: 2026-08-19 17:57\n"
 
 #: Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB
 msgctxt "Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB"
@@ -42800,32 +42800,32 @@ msgstr "Рухома ціль"
 #: STRINGS.ITEMS.POWERS.PLAYER.speed_to_focus_damage.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.speed_to_focus_damage.desc"
 msgid "Your <#BLUE>{name_multiple.concept_focus_hit}</> deal bonus <#RED>{name.concept_damage}</> equal to your bonus <#RED>{name.concept_runspeed}</>."
-msgstr ""
+msgstr "Ваші <#BLUE>{name_multiple.concept_focus_hit}</> завдають додаткової <#RED>{2:{name.concept_damage}}</>, що дорівнює вашому бонусу до <#RED>{2:{name.concept_runspeed}}</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.speed_to_focus_damage.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.speed_to_focus_damage.name"
 msgid "Momentous Focus"
-msgstr ""
+msgstr "Моментальний фокус"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.speed_to_konjur.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.speed_to_konjur.desc"
 msgid "When you gain <#KONJUR>{name.i_konjur}</>, gain bonus <#KONJUR>{name.i_konjur}</> based on your bonus <#RED>{name.concept_runspeed}</>."
-msgstr ""
+msgstr "Коли ви отримуєте <#KONJUR>{name.i_konjur}</>, отримуйте додаткову кількість <#KONJUR>{2:{name.i_konjur}}</> залежно від вашого бонусу до <#RED>{{name.concept_runspeed}}</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.speed_to_konjur.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.speed_to_konjur.name"
 msgid "Get Rich Quick"
-msgstr ""
+msgstr "Швидке багатство"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.speed_to_multistrike.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.speed_to_multistrike.desc"
 msgid "Your <#RED>{name_multiple.concept_attack}</> have a chance equal to your bonus <#RED>{name.concept_runspeed}</> to strike again."
-msgstr ""
+msgstr "Ваші <#RED>{name_multiple.concept_attack}</> мають шанс вдарити знову, що дорівнює вашому бонусу до <#RED>{2:{name.concept_runspeed}}</>."
 
 #: STRINGS.ITEMS.POWERS.PLAYER.speed_to_multistrike.name
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.speed_to_multistrike.name"
 msgid "Rerun"
-msgstr ""
+msgstr "Повторний забіг"
 
 #: STRINGS.ITEMS.POWERS.PLAYER.speed_to_pushback.desc
 msgctxt "STRINGS.ITEMS.POWERS.PLAYER.speed_to_pushback.desc"
