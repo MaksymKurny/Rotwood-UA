@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2026-08-19 17:57\n"
+"PO-Revision-Date: 2026-08-24 15:13\n"
 
 #: Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB
 msgctxt "Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB"
@@ -44602,7 +44602,7 @@ msgstr ""
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_bullseye_light_arrows.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_bullseye_light_arrows.name"
 msgid "Skillshot"
-msgstr ""
+msgstr "Влучний постріл"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_charge_extra_arrows.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_charge_extra_arrows.desc"
