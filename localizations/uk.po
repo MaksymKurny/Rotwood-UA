@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2026-08-24 15:13\n"
+"PO-Revision-Date: 2026-08-25 15:20\n"
 
 #: Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB
 msgctxt "Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB"
@@ -44597,7 +44597,7 @@ msgstr "[TEMP] Zucco Speed"
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_bullseye_light_arrows.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_bullseye_light_arrows.desc"
 msgid "Landing a <#RED>Bullseye</> causes your next <#RED>{attacks_per_bullseye}</> {name_multiple.attack_light} to shoot an additional arrow."
-msgstr ""
+msgstr "Влучання в <#RED>яблучко</> змушує ваші наступні <#RED>{attacks_per_bullseye}</> {name_multiple.attack_light} випускати додаткову стрілу."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_bullseye_light_arrows.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_bullseye_light_arrows.name"
@@ -44607,38 +44607,38 @@ msgstr "Влучний постріл"
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_charge_extra_arrows.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_charge_extra_arrows.desc"
 msgid "<#RED>Fully Charged</> attacks fire a volley of arrows."
-msgstr ""
+msgstr "<#RED>Повністю заряджені</> атаки випускають залп стріл."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_charge_extra_arrows.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_charge_extra_arrows.name"
 msgid "Volley Shot"
-msgstr ""
+msgstr "Залповий постріл"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_charge_scales_arrow.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_charge_scales_arrow.desc"
 msgid "<#RED>Fully Charged</> {name_multiple.attack_heavy} shoot a large arrow that <#RED>Knocks Down Enemies</> where it hits the ground."
-msgstr ""
+msgstr "<#RED>Повністю заряджені</> {name_multiple.attack_heavy} випускають велику стрілу, яка <#RED>збиває ворогів з ніг</> у місці падіння."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_charge_scales_arrow.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_charge_scales_arrow.name"
 msgid "Groundbreaker"
-msgstr ""
+msgstr "Руйнівник ґрунту"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_heavy_arrow_mine.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_heavy_arrow_mine.desc"
 msgid " {name.attack_heavy} arrows that are embedded in the ground <#RED>Explode</> after a short delay."
-msgstr ""
+msgstr " Стріли {2:{name.attack_heavy}}, встромлені в землю, через короткий час <#RED>вибухають</>."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_heavy_arrow_mine.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.bow_heavy_arrow_mine.name"
 msgid "Stake Trap"
-msgstr ""
+msgstr "Кілкова пастка"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.cannon_bounce_catch_reload.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.cannon_bounce_catch_reload.desc"
 msgid "{name_multiple.cannon_ammo} <#RED>rebound</> and can be <#RED>caught</> to <#RED>reload</> 1 {name.cannon_ammo}.\n\n"
 "-{attack_range_mult}% Attack Range."
-msgstr ""
+msgstr "{Name_multiple.cannon_ammo} <#RED>відскакують</> і їх можна <#RED>підхопити</>, щоб <#RED>перезарядити</> 1 {name.cannon_ammo}. -{attack_range_mult}% до дальності атаки."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.cannon_bounce_catch_reload.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.cannon_bounce_catch_reload.name"
@@ -44648,175 +44648,175 @@ msgstr "Повернути відправнику"
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.cannon_infinite_ammo.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.cannon_infinite_ammo.desc"
 msgid "Your <#RED>{name.weapon_cannon}</> has infinite {name_multiple.cannon_ammo}, but can overheat."
-msgstr ""
+msgstr "Ваша <#RED>{name.weapon_cannon}</> має нескінченний запас {2:{name_multiple.cannon_ammo}}, але може перегріватися."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.cannon_infinite_ammo.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.cannon_infinite_ammo.name"
 msgid "Bottomless Clip"
-msgstr ""
+msgstr "Безмежний магазин"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.cannon_rapid_light.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.cannon_rapid_light.desc"
 msgid "Your <#RED>{name.weapon_cannon}</> holds an additional <#RED>{ammo_max_bonus} {name_multiple.cannon_ammo}</> and {name_multiple.attack_light} can be fired automatically."
-msgstr ""
+msgstr "Ваша <#RED>{name.weapon_cannon}</> вміщує додатково <#RED>{ammo_max_bonus} {2:{name_multiple.cannon_ammo}}</>, а {name_multiple.attack_light} можуть здійснюватись автоматично."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.cannon_rapid_light.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.cannon_rapid_light.name"
 msgid "Spray 'n' Pray"
-msgstr ""
+msgstr "Стріляй і тікай"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.cannon_single_shot.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.cannon_single_shot.desc"
 msgid "<#RED>{name_multiple.concept_attack}</> fly faster, travel farther, and deal increased damage, but you only have <#RED>{max_ammo} {name.cannon_ammo}</>."
-msgstr ""
+msgstr "<#RED>{name_multiple.concept_attack}</> летять швидше, далі та завдають більше шкоди, але у вас є лише <#RED>{max_ammo} {name.cannon_ammo}</>."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.cannon_single_shot.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.cannon_single_shot.name"
 msgid "Single Shot"
-msgstr ""
+msgstr "Один постріл"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.hammer_charge_vacuum.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.hammer_charge_vacuum.desc"
 msgid "While <#RED>charging</> any <#RED>{name.weapon_hammer}</> attack, pull nearby <#RED>Enemies</> toward you."
-msgstr ""
+msgstr "Під час <#RED>заряджання</> будь-якої атаки <#RED>{name.weapon_hammer}</> притягує найближчих <#RED>ворогів</> до себе."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.hammer_charge_vacuum.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.hammer_charge_vacuum.name"
 msgid "Gravity Well"
-msgstr ""
+msgstr "Гравітаційна яма"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.hammer_echo_slam.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.hammer_echo_slam.desc"
 msgid "<#RED>{name.attack_hammer_heavy_air_spin}</> leaves an <#RED>Echo Slam</> behind."
-msgstr ""
+msgstr "<#RED>{Name.attack_hammer_heavy_air_spin}</> залишає по собі <#RED>ехо-удар</>."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.hammer_echo_slam.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.hammer_echo_slam.name"
 msgid "Echo Slam"
-msgstr ""
+msgstr "Ехо-удар"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.hammer_lariat_projectiles.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.hammer_lariat_projectiles.desc"
 msgid "<#RED>{name.attack_hammer_lariat}</> has a chance to throw a hammer at a nearby <#RED>Enemy</> whenever it deals damage."
-msgstr ""
+msgstr "<#RED>{Name.attack_hammer_lariat}</> мають шанс кинути молот у найближчого <#RED>ворога</> щоразу, коли завдають шкоди."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.hammer_lariat_projectiles.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.hammer_lariat_projectiles.name"
 msgid "Hammer Throw"
-msgstr ""
+msgstr "Кидок молота"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.hammer_longer_lariat.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.hammer_longer_lariat.desc"
 msgid "<#RED>{name.attack_hammer_lariat}</> spins longer, drifts faster, and can be steered."
-msgstr ""
+msgstr "<#RED>{Name.attack_hammer_lariat}</> обертається довше, швидше дрейфує та ним можна керувати."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.hammer_longer_lariat.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.hammer_longer_lariat.name"
 msgid "Strong Stomach"
-msgstr ""
+msgstr "Міцний шлунок"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.polearm_heavy_focus_jump.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.polearm_heavy_focus_jump.desc"
 msgid "Landing a <#RED>{name.concept_focus_hit}</> with your <#RED>{name.attack_polearm_heavy_attack}</> lets you chain into a <#RED>{name.attack_polearm_vault_strike}</> with {name.attack_heavy}."
-msgstr ""
+msgstr "Влучання <#RED>{2:{name.concept_focus_hit}}</> вашого <#RED>{2:{name.attack_polearm_heavy_attack}}</> дозволяє продовжити комбо <#RED>{2:{name.attack_polearm_vault_strike}}</> за допомогою {2:{name.attack_heavy}}."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.polearm_heavy_focus_jump.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.polearm_heavy_focus_jump.name"
 msgid "{name.attack_polearm_vault_strike}"
-msgstr ""
+msgstr "{Name.attack_polearm_vault_strike}"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.polearm_larger_spinning_drill.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.polearm_larger_spinning_drill.desc"
 msgid "<#RED>{name.attack_polearm_drill}</> <#RED>Pierces Enemies</>, lasts until your <#RED>{name.concept_hitstreak}</> ends, and increases <#RED>{name.concept_damage}</> for each new <#RED>Enemy</> hit."
-msgstr ""
+msgstr "<#RED>{Name.attack_polearm_drill}</> <#RED>пробиває ворогів</>, триває, доки не завершиться ваша <#RED>{name.concept_hitstreak}</>, і збільшує <#RED>{{name.concept_damage}</> за кожного нового ураженого <#RED>ворога</>."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.polearm_larger_spinning_drill.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.polearm_larger_spinning_drill.name"
 msgid "Power Drill"
-msgstr ""
+msgstr "Електродриль"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.polearm_light_into_multithrust.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.polearm_light_into_multithrust.desc"
 msgid "{name.attack_light} can always be chained directly into <#RED>{name.attack_polearm_multithrust}</> with {name.attack_heavy}."
-msgstr ""
+msgstr "{Name.attack_light} завжди може безпосередньо продовжити <#RED>{name.attack_polearm_multithrust}</> за допомогою {2:{name.attack_heavy}}."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.polearm_light_into_multithrust.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.polearm_light_into_multithrust.name"
 msgid "The Perforator"
-msgstr ""
+msgstr "Перфоратор"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.polearm_multithrust_beam.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.polearm_multithrust_beam.desc"
 msgid "Replace <#RED>{name.attack_polearm_multithrust}</> with <#RED>{name.attack_polearm_multithrust_beam}</>."
-msgstr ""
+msgstr "Замінює <#RED>{name.attack_polearm_multithrust}</> на <#RED>{name.attack_polearm_multithrust_beam}</>."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.polearm_multithrust_beam.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.polearm_multithrust_beam.name"
 msgid "{name.attack_polearm_multithrust_beam}"
-msgstr ""
+msgstr "{Name.attack_polearm_multithrust_beam}"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_auto_pickup_on_land.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_auto_pickup_on_land.desc"
 msgid "Whenever your <#RED>{name.weapon_shotput}</> hits the ground, it is automatically picked up."
-msgstr ""
+msgstr "Щоразу, коли ваш <#RED>{name.weapon_shotput}</> торкається землі, його автоматично підбирають."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_auto_pickup_on_land.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_auto_pickup_on_land.name"
 msgid "Perfect Pickup"
-msgstr ""
+msgstr "Ідеальний підбір"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_breakout.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_breakout.desc"
 msgid "Whenever your <#RED>{name.weapon_shotput}</> deals damage, it spawns a temporary <#RED>{name.weapon_shotput}</> that vanishes when it hits the ground."
-msgstr ""
+msgstr "Щоразу, коли ваш <#RED>{name.weapon_shotput}</> завдає шкоди, він створює тимчасовий <#RED>{name.weapon_shotput}</>, який зникає, торкнувшись землі."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_breakout.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_breakout.name"
 msgid "Ballnanza!"
-msgstr ""
+msgstr "Балістичний бум!"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_ground_bounce.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_ground_bounce.desc"
 msgid "Your <#RED>{name.weapon_shotput}</> bounces when it hits the ground."
-msgstr ""
+msgstr "Ваш <#RED>{name.weapon_shotput}</> відскакує від землі."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_ground_bounce.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_ground_bounce.name"
 msgid "Rubber Striker"
-msgstr ""
+msgstr "Стрибунець"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_leashed.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_leashed.desc"
 msgid "Your <#RED>{name.weapon_shotput}</> is tethered to you.\n\n"
 "Performing a <#RED>{name.concept_dodge}</> makes the leash taut.\n\n"
 "Only you can interact with the <#RED>{name.weapon_shotput}</>."
-msgstr ""
+msgstr "Ваш <#RED>{name.weapon_shotput}</> прив'язаний до вас. <#RED>{Name.concept_dodge}</> натягує мотузку. Лише ви можете взаємодіяти з <#RED>{4:{name.weapon_shotput}}</>."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_leashed.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_leashed.name"
 msgid "Tether Ball"
-msgstr ""
+msgstr "На прив'язі"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_lob_quick_throw.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_lob_quick_throw.desc"
 msgid "Your <#RED>{name.weapon_shotput} Throw</> flies in an <#RED>Arc</>, and your <#RED>Rebounds</> are <#RED>Piercing Spikes</>."
-msgstr ""
+msgstr "Ваш <#RED>кидок {3:{name.weapon_shotput}}</> летить по <#RED>дузі</>, а ваші <#RED>відскоки</> стають <#RED>пробивними шипами</>."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_lob_quick_throw.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_lob_quick_throw.name"
 msgid "Retrograde Throw"
-msgstr ""
+msgstr "Зворотний кидок"
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_throws_ricochet.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_throws_ricochet.desc"
 msgid "Your <#RED>{name.weapon_shotput}</> <#BLUE>{name.concept_focus_hit}</> creates a <#RED>Ricochet</> projectile.\n\n"
 "The number of times a <#RED>Ricochet</> bounces is based on your <#RED>{name.concept_hitstreak}</>."
-msgstr ""
+msgstr "Ваш <#RED>{name.weapon_shotput}</> під час <#BLUE>{2:{name.concept_focus_hit}}</> створює снаряд <#RED>рикошету</>. Кількість відскоків <#RED>рикошету</> залежить від вашої <#RED>{name.concept_hitstreak}</>."
 
 #: STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_throws_ricochet.name
 msgctxt "STRINGS.ITEMS.POWERS.WEAPONPOWER.shotput_throws_ricochet.name"
 msgid "Pinball Wiz"
-msgstr ""
+msgstr "Майстер пінболу"
 
 #: STRINGS.ITEMS.POWERS.WEIGHT.weight_heavy.desc
 msgctxt "STRINGS.ITEMS.POWERS.WEIGHT.weight_heavy.desc"
@@ -51679,7 +51679,7 @@ msgstr "Порядок у суді"
 #: STRINGS.NAMES.attack_heavy
 msgctxt "STRINGS.NAMES.attack_heavy"
 msgid "<#RED>Heavy Attack</>"
-msgstr "<#RED>Важка атака</>"
+msgstr "<#RED>Важка атака</>|<#RED>Важкої атаки</>"
 
 #: STRINGS.NAMES.attack_light
 msgctxt "STRINGS.NAMES.attack_light"
@@ -51699,7 +51699,7 @@ msgstr "Як забажаєте"
 #: STRINGS.NAMES.attack_polearm_heavy_attack
 msgctxt "STRINGS.NAMES.attack_polearm_heavy_attack"
 msgid "Jumping Heavy"
-msgstr "Стрибок з важкою атакою"
+msgstr "Стрибок з важкою атакою|Стрибка з важкою атакою"
 
 #: STRINGS.NAMES.attack_polearm_javelin
 msgctxt "STRINGS.NAMES.attack_polearm_javelin"
@@ -51744,7 +51744,7 @@ msgstr "Перехресна перевірка"
 #: STRINGS.NAMES.attack_polearm_vault_strike
 msgctxt "STRINGS.NAMES.attack_polearm_vault_strike"
 msgid "Vault Strike"
-msgstr "Удар зі стрибка"
+msgstr "Удар зі стрибка|Удару зі стрибка"
 
 #: STRINGS.NAMES.bandi_swamp
 msgctxt "STRINGS.NAMES.bandi_swamp"
