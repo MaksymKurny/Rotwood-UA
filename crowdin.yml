@@ -1,6 +1,6 @@
 files:
-  - source: /localizations/strings.pot
-    translation: /localizations/%two_letters_code%.po
+  - source: /ukloc/localizations/strings.pot
+    translation: /ukloc/localizations/%two_letters_code%.po
 bundles:
   - 2
 

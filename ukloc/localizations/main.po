@@ -5,8 +5,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "POT Version: 2.0"
 
-#: STRINGS.PRETRANSLATED.LANGUAGES.uk
-msgctxt "STRINGS.PRETRANSLATED.LANGUAGES.uk"
+#: STRINGS.PRETRANSLATED.LANGUAGE_NAMES.uk
+msgctxt "STRINGS.PRETRANSLATED.LANGUAGE_NAMES.uk"
 msgid ""
 msgstr"Українська (Ukrainian)"
 
