@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2026-10-08 22:46\n"
+"PO-Revision-Date: 2026-10-09 22:45\n"
 
 #: Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB
 msgctxt "Convo.after_find_all_keys_scout.HUB0.convo.giver.STATE_0.ANSWER_BOOKCLUB"
@@ -3585,7 +3585,7 @@ msgid "agent:\n"
 " --Now, you seem like someone who could use a bit of a pick-me-up. A refreshing <i>punch</i> of vim and vigour! A bit of insurance, you might say, in an unsssure w--"
 msgstr "agent:\n"
 "!dubious\n"
-"...Тепер ви виглядаєте тим, кому знадобиться трохи підбадьоритися. Освіжаючий <i>поштовх</i> енергії та бадьорості! Трохи страховки, можна сказати, в невизначеному місці..."
+"...Тепер ви виглядаєте тим, кому знадобиться трохи підбадьоритися. Освіжаючий <i>поштовх</i> енергії та бадьорості! Трохи страховки, можна сказати, у невизначеному місці..."
 
 #: Convo.dgn_firstmeeting_potion.HUB0.convo.giver.STATE_0.ANSWER_HAS_RESOURCES_2
 msgctxt "Convo.dgn_firstmeeting_potion.HUB0.convo.giver.STATE_0.ANSWER_HAS_RESOURCES_2"
@@ -43664,7 +43664,7 @@ msgstr "Плюшевий {name.npc_apothecary}"
 
 #: STRINGS.ITEMS.DECOR.npc_armorsmith_plushies.desc
 msgctxt "STRINGS.ITEMS.DECOR.npc_armorsmith_plushies.desc"
-msgid "A <#BLUE>{name.job_armorsmith}</> made of the finest cloth, and filled with the softest secrets."
+msgid "An <#BLUE>{name.job_armorsmith}</> made of the finest cloth, and filled with the softest secrets."
 msgstr "<#BLUE>{Name.job_armorsmith}</> із найкращої тканини, наповнений найніжнішими секретами."
 
 #: STRINGS.ITEMS.DECOR.npc_armorsmith_plushies.name
@@ -57750,8 +57750,8 @@ msgstr ""
 
 #: STRINGS.ITEMS.STRUCTURES.bed_basic.name
 msgctxt "STRINGS.ITEMS.STRUCTURES.bed_basic.name"
-msgid "Hewn Cot"
-msgstr "Тесана ліжка"
+msgid "[TEMP] Hewn Cot"
+msgstr ""
 
 #: STRINGS.ITEMS.STRUCTURES.bed_forest_1.desc
 msgctxt "STRINGS.ITEMS.STRUCTURES.bed_forest_1.desc"
@@ -58721,7 +58721,7 @@ msgstr ""
 #: STRINGS.ITEMS.TONICS.explotion.name
 msgctxt "STRINGS.ITEMS.TONICS.explotion.name"
 msgid "Popping Candy"
-msgstr "Стрибаючі цукерки"
+msgstr "Шипучі цукерки"
 
 #: STRINGS.ITEMS.TONICS.freeze.desc
 msgctxt "STRINGS.ITEMS.TONICS.freeze.desc"
@@ -62214,7 +62214,7 @@ msgstr "{Name.weapon_shotput} розблокований"
 #: STRINGS.ITEMS.WEATHERS.CURSE_WEATHER_STRINGS.PREFIX
 msgctxt "STRINGS.ITEMS.WEATHERS.CURSE_WEATHER_STRINGS.PREFIX"
 msgid "<#PURPLE>{NAME.concept_curse}:</> {weather_name}"
-msgstr ""
+msgstr "<#PURPLE>{NAME.concept_curse}:</> {weather_name}"
 
 #: STRINGS.ITEMS.WEATHERS.CURSE_WEATHER_STRINGS.desc
 msgctxt "STRINGS.ITEMS.WEATHERS.CURSE_WEATHER_STRINGS.desc"
@@ -69769,7 +69769,7 @@ msgstr "{Name.monk_laugh}"
 #: STRINGS.TALK.PERSONALITY.MONK_LAUGH_LOWER
 msgctxt "STRINGS.TALK.PERSONALITY.MONK_LAUGH_LOWER"
 msgid "{name.monk_laugh_lower}"
-msgstr "{Name.monk_laugh_lower}"
+msgstr "{name.monk_laugh_lower}"
 
 #: STRINGS.TALK.PERSONALITY.REFINER_LAUGH
 msgctxt "STRINGS.TALK.PERSONALITY.REFINER_LAUGH"
@@ -77865,7 +77865,7 @@ msgstr "Відкрити щоденник"
 #: STRINGS.UI.SCREENOPENER_PROP.seed_grinder
 msgctxt "STRINGS.UI.SCREENOPENER_PROP.seed_grinder"
 msgid "Transmute Seeds"
-msgstr "Трансмутація насіння|Трансмутацію насіння"
+msgstr "Трансмутація насіння"
 
 #: STRINGS.UI.SCREENOPENER_PROP.vanity_screen
 msgctxt "STRINGS.UI.SCREENOPENER_PROP.vanity_screen"
@@ -78426,11 +78426,6 @@ msgstr "На вибір {2:{Name.npc_market_magpie}}"
 msgctxt "STRINGS.UI.SELECTCURSESSCREEN.RESET_ALL_BUTTON"
 msgid "Reset All"
 msgstr "Скинути все"
-
-#: STRINGS.UI.SELECTCURSESSCREEN.REWARDS_DIALOG_TITLE
-msgctxt "STRINGS.UI.SELECTCURSESSCREEN.REWARDS_DIALOG_TITLE"
-msgid "Trek Rewards"
-msgstr "Нагороди вторгнення"
 
 #: STRINGS.UI.SELECTCURSESSCREEN.REWARDS_TITLE
 msgctxt "STRINGS.UI.SELECTCURSESSCREEN.REWARDS_TITLE"
@@ -79146,7 +79141,7 @@ msgstr "Предмети які використовуються для <#RED>д
 #: STRINGS.UI.TOOLTIPS.MATERIALS.NAME
 msgctxt "STRINGS.UI.TOOLTIPS.MATERIALS.NAME"
 msgid "Materials"
-msgstr "Матеріали|Матеріалів"
+msgstr "Матеріали"
 
 #: STRINGS.UI.TOOLTIPS.MECHANIC_PIERCING_SPIKE.DESC
 msgctxt "STRINGS.UI.TOOLTIPS.MECHANIC_PIERCING_SPIKE.DESC"
